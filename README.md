@@ -1,4 +1,5 @@
-# Pokemon-API-React
+# УСТАНОВКА И ЗАПУСК
 
--[DEMO](https://jka4.github.io/pokemon-API-react/)
-# pokemon-API-react
+- Установите `Node.js`.
+- Дальше следует открыть консоль в папке с проектом и установить зависимости командой: `yarn`
+- Запускаем проект : `yarn start`

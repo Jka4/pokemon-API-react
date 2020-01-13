@@ -1,0 +1,596 @@
+body,
+html {
+  width: 100vw;
+  height: auto;
+}
+
+body {
+  background-color: rgba(255, 255, 0, 0.603);
+}
+
+* {
+  font-family: "VT323", monospace;
+}
+
+.getButtonLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#getPokemon {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  padding: 8px;
+  border: 4px solid black;
+  border-radius: 7px;
+  background: red;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  margin-top: 10px;
+  outline-style: none;
+}
+
+#getPokemon:hover {
+  box-shadow: 5px 3px 11px 1px #000000;
+}
+
+#getPokemon:active {
+  box-shadow: 0 1px 0 #00823f;
+  bottom: -4px;
+}
+
+.playButton:hover button {
+  box-shadow: 5px 3px 11px 1px #000000;
+}
+
+.playButton:active button {
+  box-shadow: 0 1px 0 #00823f;
+  bottom: -4px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: -150px;
+}
+
+li {
+  margin-left: 150px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.itemList {
+  max-width: 900px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.pokemonCard {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  background-color: rgba(250, 235, 215, 0.74);
+  border: 2px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.pokemonCard img {
+  height: 100%;
+}
+.pokemonCard:hover {
+  transform: scale(1.4);
+}
+
+.pokemonCard:hover img {
+  transform: scale(1.2);
+}
+
+.topLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+}
+
+.playButton {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 7px;
+  border: 3px solid black;
+  background: red;
+  /* margin-bottom: -90px; */
+  font-size: 29px;
+  outline-style: none;
+  cursor: pointer;
+}
+
+.search {
+  justify-self: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: absolute;
+  top: 30px;
+  /* width: 60%; */
+}
+.search input {
+  max-width: 450px;
+  width: 30rem;
+  height: 2.4rem;
+  padding-left: 20px;
+  font-size: 1rem;
+  justify-self: center;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+#searchInput::placeholder {
+  font-size: 1.2rem;
+}
+
+input:focus {
+  border: 1px transparent;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.searchResults {
+  width: 120%;
+  height: auto;
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07),
+    0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
+    0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18),
+    0 43px 77px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.searchList {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.searchItem {
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px grey solid;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.item_name {
+  width: 35%;
+}
+
+.item_id {
+  width: 13%;
+  text-align: left;
+}
+
+.item_weight {
+  position: relative;
+  right: 0;
+  text-align: left;
+  width: 22%;
+}
+
+.searchItem img {
+  justify-self: flex-end;
+}
+
+.searchItem:hover {
+  background: rgb(238, 238, 238);
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.searchItem:hover img {
+  transform: scale(1.17);
+}
+
+.searchItem:last-child {
+  border-bottom: 1px transparent solid;
+}
+
+.searchItem__image {
+  height: 100%;
+  width: auto;
+}
+.Tilt,
+.Tilt-inner {
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.detailedPage {
+  width: 100vw;
+  height: 90vh;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.detailedPage .name {
+  width: 100%;
+  margin-top: 6vh;
+  height: auto;
+  text-align: center;
+  font-size: 4rem;
+}
+.detailedPage .name::first-letter {
+  text-transform: uppercase;
+}
+
+.imagesLine {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.imagesLine .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 10vw;
+  max-width: 5rem;
+  min-height: 6rem;
+  max-height: 115px;
+  margin-left: 2rem;
+  background: #6cff79;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.imagesLine .block:hover {
+  transform: scale(1.1);
+  /* box-shadow: 5px 3px 11px 1px #000000; */
+  box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07),
+    0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
+    0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18),
+    0 43px 77px rgba(0, 0, 0, 0.25);
+}
+
+.imagesLine .block:nth-child(1) {
+  margin-left: 0;
+}
+
+.imagesLine .block img {
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block .title {
+  font-size: 1rem;
+  overflow-x: auto;
+}
+
+.skills {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.stats {
+  margin-right: 3rem;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.abilities {
+  margin-left: -1rem;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.statsUL {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 0;
+  padding-left: 0;
+  background: #53aeff;
+  padding: 25px;
+  border-radius: 0.7rem;
+  border: 1px solid black;
+}
+
+.abilitiesUL {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0;
+  padding-left: 0;
+  background: #53aeff;
+  padding: 25px;
+  border-radius: 0.7rem;
+  border: 1px solid black;
+}
+
+.stats .statsLI {
+  margin-top: 1rem;
+  text-align: right;
+  margin-left: 0;
+}
+
+.abilitiesLI {
+  text-align: left;
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
+.skills_title {
+  justify-self: center;
+  align-self: center;
+  font-size: 2rem;
+}
+
+.Tilt,
+.Tilt-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#clear,
+.backToMainPage {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: -40px;
+  padding: 8px;
+  border: 4px solid black;
+  border-radius: 7px;
+  background: red;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  margin-top: 10px;
+  outline-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.backToMainPage a {
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .topLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+  }
+
+  .player {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+  }
+
+  .playButton {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+  }
+
+  .playButton button {
+    margin: 0;
+  }
+
+  .search {
+    right: 25px;
+    top: 15px;
+    width: 60%;
+    /* display: none; */
+  }
+
+  .search input {
+    width: 80%;
+    padding-left: 10px;
+    margin-right: -3rem;
+    font-size: 1.4rem;
+  }
+
+  #searchInput::placeholder {
+    font-size: 1.4rem;
+  }
+
+  .searchResults {
+    position: absolute;
+    width: 92.5vw;
+
+    top: 45px;
+    right: -0.6rem;
+  }
+
+  .getButtonLine {
+    margin: 0;
+  }
+
+  .getButtonLine img {
+    width: 85%;
+  }
+
+  .getButtonLine .Button {
+    margin-top: 30px;
+  }
+
+  .main {
+    width: 100%;
+    max-width: auto;
+    padding-bottom: 50px;
+  }
+
+  .main h2 {
+    width: 100%;
+  }
+
+  .main ul {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .main li {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .detailedPage {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .imagesLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .imagesLine .block {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20vw;
+  }
+
+  .imagesLine .block:nth-child(1) {
+    margin-left: 10px;
+  }
+
+  .imagesLine .block .title {
+    color: red;
+    overflow: hidden;
+  }
+
+  .imagesLine .block img {
+    width: auto;
+  }
+}
