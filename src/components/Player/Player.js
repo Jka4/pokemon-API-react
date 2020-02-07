@@ -1,7 +1,7 @@
 import React from "react";
 import store from "../../store";
 
-let sound = new Audio("../../sound/pokemon_opening.mp3");
+let sound = new Audio("./sound/pokemon_opening.mp3");
 
 class Player extends React.Component {
   componentDidMount() {

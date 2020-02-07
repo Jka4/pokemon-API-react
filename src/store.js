@@ -16,10 +16,9 @@ let chachingStateToLocalStorage = () => {
 
   defaultState = getStateFromLocal;
 };
-
 chachingStateToLocalStorage();
 
-function counter(state = defaultState, action) {
+function reducer(state = defaultState, action) {
   switch (action.type) {
     case "add_random_pokemons":
       return {
@@ -46,11 +45,6 @@ function counter(state = defaultState, action) {
         ...state,
         detailsPage: action.page
       };
-    case "delete_detailsPage":
-      return {
-        ...state,
-        detailsPage: ""
-      };
     case "PLAY_PAUSE":
       return {
         ...state,
@@ -67,7 +61,7 @@ function counter(state = defaultState, action) {
 }
 
 const store = createStore(
-  counter,
+  reducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 export default store;

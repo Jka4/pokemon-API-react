@@ -1,9 +1,9 @@
 {
-  "name": "react-my-app",
+  "name": "pokedex",
   "version": "0.1.0",
   "license": "GPL-3.0",
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
+    "axios": "^0.19.1",
     "customize-cra": "^0.9.1",
     "fuse.js": "^3.4.6",
     "local-storage": "^2.0.0",
@@ -22,8 +22,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
