@@ -22,8 +22,6 @@ class App extends React.Component {
         <Router>
           <Switch>
             <Route exact path='/'>
-
-            
               <MainContainer />
             </Route>
             <Route path='/detailedPage/pokemon/'>
