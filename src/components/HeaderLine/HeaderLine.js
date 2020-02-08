@@ -12,7 +12,7 @@ class HeaderLine extends React.Component {
 
   render() {
     return (
-      <div className='topLine' data-aos='fade-up' data-aos-delay='100'>
+      <div className='topLine'>
         <Player />
         <SearchInput />
       </div>

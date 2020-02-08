@@ -2,6 +2,8 @@ import React from "react";
 import Tilt from "react-tilt";
 import GetButton from "../GetButton/GetButton";
 import store from "../../store";
+import { Link } from "react-router-dom";
+import { setDelailedPageData } from "../utils/API";
 
 class MainContainer extends React.Component {
   componentDidMount() {
@@ -10,21 +12,7 @@ class MainContainer extends React.Component {
     });
   }
 
-  getRandomPokemon = event => {
-    let pokemon_id = event.target.dataset.pokemon_id;
-
-    const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
-    fetch(URL)
-      .then(res => res.json())
-      .then(json => {
-        let page = json;
-
-        store.dispatch({ type: "set_detailsPage", page });
-      });
-  };
-
   render() {
-    // let dataToRender = this.props.randomPokemons;
     let dataToRender = store.getState().randomPokemons;
 
     return (
@@ -44,7 +32,7 @@ class MainContainer extends React.Component {
                   name={i.name}
                   order={i.order}
                   base_experience={i.base_experience}
-                  click={this.getRandomPokemon}
+                  click={setDelailedPageData}
                 />
               ))}
           </div>
@@ -61,25 +49,25 @@ class PokemonCard extends React.Component {
     const { src, name, order, base_experience, id, click } = this.props;
 
     return (
-      <div
-        className='pokemonCard'
-        onClick={click}
-        key={id}
-        data-pokemon_id={id}
-        data-aos='fade-up'
-        data-aos-delay='120'>
-        {src && <img src={src} alt='img' />}
-        <span>{name}</span>
-        <span>{order}</span>
-        <span>{base_experience}</span>
-      </div>
+      <Link to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher'>
+        <div
+          className='pokemonCard'
+          onClick={click}
+          key={id}
+          data-pokemon_id={id}>
+          {src && <img src={src} alt='img' />}
+          <span>{name}</span>
+          <span>{order}</span>
+          <span>{base_experience}</span>
+        </div>
+      </Link>
     );
   }
 }
 
 let List = () => {
   return (
-    <h2 data-aos='fade-up' data-aos-delay='400'>
+    <h2>
       <ul>
         <li>photo</li>
         <li>name</li>
@@ -100,8 +88,8 @@ let Img = () => {
           scale: 1.2,
           max: 35
         }}>
-        <div className='Tilt-inner' data-aos='fade-up' data-aos-delay='200'>
-          <img src='../../images/pokemon.gif' alt='logo_gif' />
+        <div className='Tilt-inner'>
+          <img src='./images/pokemon.gif' alt='logo_gif' />
         </div>
       </Tilt>
     </div>
