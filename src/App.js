@@ -5,7 +5,13 @@ import HeaderLine from "./components/HeaderLine/HeaderLine";
 import DetailedPage from "./components/DetailedPage/DetailedPage";
 import store from "./store";
 import "aos/dist/aos.css";
-import { Route, BrowserRouter as Router, Switch, ss } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Switch,
+  SS,
+  solo
+} from "react-router-dom";
 
 class App extends React.Component {
   componentDidMount() {
