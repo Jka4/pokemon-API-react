@@ -11,8 +11,8 @@ let defaultState = {
 };
 
 let chachingStateToLocalStorage = () => {
-  ls.get("state") == null && ls.set("state", defaultState);
-  let getStateFromLocal = ls.get("state");
+  ls.get("state_pokemon") == null && ls.set("state_pokemon", defaultState);
+  let getStateFromLocal = ls.get("state_pokemon");
 
   defaultState = getStateFromLocal;
 };
@@ -71,5 +71,5 @@ store.subscribe(() => {
   // console.clear();
   // console.log("store", currentState);
 
-  ls.set("state", currentState);
+  ls.set("state_pokemon", currentState);
 });

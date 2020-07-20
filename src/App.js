@@ -1,10 +1,9 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import MainContainer from "./components/mainContainer/mainContainer";
 import HeaderLine from "./components/HeaderLine/HeaderLine";
 import DetailedPage from "./components/DetailedPage/DetailedPage";
 import store from "./store";
-import "aos/dist/aos.css";
 import {
   Route,
   BrowserRouter as Router,

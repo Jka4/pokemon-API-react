@@ -2,6 +2,10 @@ import React from "react";
 import POKEMONS from "../../pokemonDataArray";
 import Fuse from "fuse.js";
 import store from "../../store";
+import { Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
 let fuseOptions = {
   shouldSort: true,
@@ -78,23 +82,28 @@ let SearchResults = () => {
   };
 
   let res = store.getState().searchResult;
+  console.log("SearchResults -> res", res)
 
   return (
-    <div className='searchResults'>
-      <ul className='searchList'>
-        {res.map((i, key) => (
-          <li
-            data-id={i.item.id}
-            key={(i.item.id, key)}
-            className='searchItem'
-            onClick={handleClick}>
-            <span className='item_name'>NAME: {i.item.name}</span>
-            <span className='item_id'>ID: {i.item.id}</span>
-            <span className='item_weight'>WEIGHT: {i.item.weight}</span>
-            <img src={i.item.image} alt='img' className='searchItem__image' />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Router>
+      <div className='searchResults'>
+        <ul className='searchList'>
+          {res.map((i, key) => (
+            <Link key={(i.item.id, key)}
+              to={`/detailedPage/pokemon/${i.item.name}`} className='searchItem_outer' >
+              <li
+                data-id={i.item.id}
+                className='searchItem'
+                onClick={handleClick}>
+                <span className='item_name'>NAME: {i.item.name}</span>
+                <span className='item_id'>ID: {i.item.id}</span>
+                <span className='item_weight'>WEIGHT: {i.item.weight}</span>
+                <img src={i.item.image} alt='img' className='searchItem__image' />
+              </li>
+            </Link>
+          ))}
+        </ul>
+      </div>
+    </Router>
   );
 };
