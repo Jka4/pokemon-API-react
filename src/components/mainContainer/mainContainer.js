@@ -23,7 +23,7 @@ class MainContainer extends React.Component {
 
         <div className='itemList'>
           <div className='cardsContainer'>
-            {dataToRender.lenght !== 0 &&
+            {dataToRender && dataToRender.lenght !== 0 &&
               dataToRender.map((i, key) => (
                 <PokemonCard
                   key={i.id}
@@ -67,8 +67,8 @@ class PokemonCard extends React.Component {
 
 let List = () => {
   return (
-    <h2>
-      <ul>
+    <h2 className='titles' >
+      <ul className='titlesList' >
         <li>photo</li>
         <li>name</li>
         <li>order</li>

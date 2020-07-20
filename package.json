@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "license": "GPL-3.0",
   "dependencies": {
+    "aos": "^2.3.4",
     "axios": "^0.19.1",
     "customize-cra": "^0.9.1",
     "fuse.js": "^3.4.6",
     "local-storage": "^2.0.0",
+    "node-sass": "^4.14.1",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.5",
     "react-dom": "^16.8.6",
@@ -16,6 +18,7 @@
     "react-tilt": "^0.1.4",
     "redux": "^4.0.5",
     "redux-devtools": "^3.5.0",
+    "sass-loader": "^9.0.2",
     "source-map-explorer": "^2.2.1"
   },
   "homepage": "http://jka4.github.io/pokemon-API-react",

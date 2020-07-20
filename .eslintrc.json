@@ -1,0 +1,52 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": ["jsdoc", "promise", "prettier", "react"],
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "useTabs": true ,
+        "arrowParens": "avoid",
+        "printWidth": 120,
+        "trailingComma": "es5"
+      }
+    ],
+    "promise/no-nesting": "off",
+    "promise/avoid-new": "off",
+    "promise/catch-or-return": "off",
+    "jsdoc/require-hyphen-before-param-description": "warn",
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    "indent": ["error","tab"],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "semi": ["error", "always"],
+    "no-var":"error",
+    "no-unused-vars": ["error", { "args": "after-used" }],
+    "react/jsx-uses-vars": [2],
+    "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+    "react/jsx-uses-react": "error"
+  },
+  "globals": {
+    "amplitude": true,
+    "amplitudeKey": true,
+    "api": true,
+    "gapi": true,
+    "Opentip": true,
+    "ExtendableBuiltin": true
+  }
+}
