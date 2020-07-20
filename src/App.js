@@ -1,14 +1,19 @@
 import React from "react";
-import "./App.scss";
-import MainContainer from "./components/mainContainer/mainContainer";
-import HeaderLine from "./components/HeaderLine/HeaderLine";
-import DetailedPage from "./components/DetailedPage/DetailedPage";
-import store from "./store";
 import {
   Route,
   BrowserRouter as Router,
   Switch,
 } from "react-router-dom";
+
+import "./App.scss";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+
+import MainContainer from "./components/mainContainer/mainContainer";
+import HeaderLine from "./components/HeaderLine/HeaderLine";
+import DetailedPage from "./components/DetailedPage/DetailedPage";
+
+import store from "./store";
+
 
 class App extends React.Component {
   componentDidMount() {
@@ -20,12 +25,13 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <HeaderLine />
 
         <Router>
+          <HeaderLine />
+
           <Switch>
             <Route exact path='/'>
-              <MainContainer />
+                <MainContainer />
             </Route>
             <Route path='/detailedPage/pokemon/'>
               <DetailedPage />

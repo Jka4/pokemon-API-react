@@ -14,6 +14,8 @@ export let setDelailedPageData = event => {
 };
 
 export let getRandomPokemon = () => {
+  store.dispatch({ type: "fetching_random_pokemon" });
+
   const URL = `https://pokeapi.co/api/v2/pokemon/${Math.floor(
     Math.random() * 807
   )}/`;
@@ -23,5 +25,6 @@ export let getRandomPokemon = () => {
       let randomPokemons = json;
 
       store.dispatch({ type: "add_random_pokemons", randomPokemons });
+      store.dispatch({ type: "fetching_random_pokemon" });
     });
 };

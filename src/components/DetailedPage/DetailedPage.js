@@ -1,6 +1,9 @@
-import React from "react";
+import React, { Suspense } from 'react';
 import store from "../../store";
 import { Link } from "react-router-dom";
+
+import PokemonImage from '../utils/Image'
+import Loader from 'react-loader-spinner'
 
 class DetailedPage extends React.Component {
   componentDidMount() {
@@ -22,11 +25,15 @@ class DetailedPage extends React.Component {
 
         <div className='name'>{name}</div>
         <div className='imagesLine'>
-          {Object.keys(sprites).map(
+          {sprites && Object.keys(sprites).map(
             spriteName =>
               sprites[spriteName] && (
                 <div className='block' key={spriteName}>
-                  <img src={sprites[spriteName]} alt='' />
+                  <Suspense fallback={<Loader type="TailSpin" height={50}
+                    width={50} color={"red"}
+                  />}>
+                    <PokemonImage url={sprites[spriteName]} />
+                  </Suspense>
                   <div className='title'>{spriteName}</div>
                 </div>
               )
@@ -52,7 +59,7 @@ let Stats = () => {
       <ul className='statsUL'>
         <div className='skills_title'>Stats</div>
 
-        {statka.map((i, key) => (
+        {statka && statka.map((i, key) => (
           <li className='statsLI' key={key}>
             {i.stat.name} {i.base_stat}
           </li>
@@ -71,7 +78,7 @@ let Abilities = () => {
       <ul className='abilitiesUL'>
         <div className='skills_title'>Abilities</div>
 
-        {abilities.map((i, key) => (
+        {abilities && abilities.map((i, key) => (
           <li className='abilitiesLI' key={key}>
             {key + 1}: {i.ability.name}
           </li>
