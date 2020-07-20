@@ -1,10 +1,12 @@
-import React from "react";
+import React, { Suspense } from 'react';
+import Loader from 'react-loader-spinner'
+
 import Tilt from "react-tilt";
 import GetButton from "../GetButton/GetButton";
 import store from "../../store";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { setDelailedPageData } from "../utils/API";
-
+import PokemonImage from '../utils/Image'
 class MainContainer extends React.Component {
   componentDidMount() {
     store.subscribe(() => {
@@ -17,7 +19,7 @@ class MainContainer extends React.Component {
 
     return (
       <section className='main'>
-        <Img />
+        <Logo />
         <GetButton />
         <List />
 
@@ -32,7 +34,7 @@ class MainContainer extends React.Component {
                   name={i.name}
                   order={i.order}
                   base_experience={i.base_experience}
-                  click={setDelailedPageData}
+                  onClick={setDelailedPageData}
                 />
               ))}
           </div>
@@ -44,25 +46,27 @@ class MainContainer extends React.Component {
 
 export default MainContainer;
 
-class PokemonCard extends React.Component {
-  render() {
-    const { src, name, order, base_experience, id, click } = this.props;
+const PokemonCard = (props) => {
+  const { src, name, order, base_experience, id, onClick } = props;
 
-    return (
-      <Link to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher'>
-        <div
-          className='pokemonCard'
-          onClick={click}
-          key={id}
-          data-pokemon_id={id}>
-          {src && <img src={src} alt='img' />}
-          <span>{name}</span>
-          <span>{order}</span>
-          <span>{base_experience}</span>
-        </div>
-      </Link>
-    );
-  }
+  return (
+    <NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher'>
+      <div
+        className='pokemonCard'
+        onClick={onClick}
+        key={id}
+        data-pokemon_id={id}>
+        <Suspense fallback={<Loader type="TailSpin" height={50}
+          width={50} color={"red"}
+        />}>
+          <PokemonImage url={src} />
+        </Suspense>
+        <span>{name}</span>
+        <span>{order}</span>
+        <span>{base_experience}</span>
+      </div>
+    </NavLink>
+  );
 }
 
 let List = () => {
@@ -78,7 +82,7 @@ let List = () => {
   );
 };
 
-let Img = () => {
+let Logo = () => {
   return (
     <div className='getButtonLine'>
       <Tilt
@@ -95,3 +99,13 @@ let Img = () => {
     </div>
   );
 };
+
+
+
+// const PokemonImage = (props) => {
+//   const { src } = useImage({
+//     srcList: props.url,
+//   })
+
+//   return <img src={src} alt='pokemon' />
+// }

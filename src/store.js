@@ -7,7 +7,8 @@ let defaultState = {
   inputValue: "",
   detailsPage: "",
   playing: false,
-  SHOW_HIDE_RESULT: false
+  SHOW_RESULT: false,
+  isFetching: false
 };
 
 let chachingStateToLocalStorage = () => {
@@ -50,11 +51,16 @@ function reducer(state = defaultState, action) {
         ...state,
         playing: !state.playing
       };
-    case "SHOW_HIDE_RESULT":
+    case "SHOW_RESULT":
       return {
         ...state,
-        SHOW_HIDE_RESULT: !state.SHOW_HIDE_RESULT
+        SHOW_RESULT: action.show
       };
+      case "fetching_random_pokemon":
+        return {
+          ...state,
+          isFetching: !state.isFetching
+        };
     default:
       return state;
   }
