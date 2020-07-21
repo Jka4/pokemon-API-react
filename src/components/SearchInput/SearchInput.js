@@ -1,8 +1,11 @@
 import React from "react";
+import { Provider, connect } from 'react-redux';
+import store from "../../store";
+
 import POKEMONS from "../../pokemonDataArray";
 import Fuse from "fuse.js";
-import store from "../../store";
 import { NavLink } from "react-router-dom";
+import './style.scss';
 
 let fuseOptions = {
   shouldSort: true,
@@ -19,14 +22,9 @@ let fuseOptions = {
   keys: ["name", "weight", "id"]
 };
 
-class SearchInput extends React.Component {
-  componentDidMount() {
-    store.subscribe(() => {
-      this.forceUpdate();
-    });
-  }
+const SearchInput = (props) => {
 
-  handleChange = event => {
+  const handleChange = event => {
     let value = event.target.value;
     store.dispatch({ type: "set_input_value", value });
 
@@ -36,35 +34,41 @@ class SearchInput extends React.Component {
     store.dispatch({ type: "set_searchResult", result });
   };
 
-  showResult = () => {
+  const handleFocus = () => {
     let show = true;
     store.dispatch({ type: "SHOW_RESULT", show });
+    console.log('focus');
   };
 
-  render() {
-    let SHOW_RESULT = store.getState().SHOW_RESULT;
+  const handleBlur = () => {
+    let show = false;
+    store.dispatch({ type: "SHOW_RESULT", show });
+    console.log('blur');
 
-    return (
-      <div className='search'>
-        <input
-          type='text'
-          name='searchInput'
-          id='searchInput'
-          placeholder='type name, id or weight'
-          onChange={this.handleChange}
-          onFocus={this.showResult}
-          autoComplete='off'
-        />
-
-        {SHOW_RESULT && <SearchResults />}
-      </div>
-    );
   }
+
+  console.log("SearchInput -> SHOW_RESULT", props.showResult)
+
+  return (
+    <div className='search'>
+      <input
+        type='text'
+        name='searchInput'
+        id='searchInput'
+        placeholder='type name, id or weight'
+        onChange={handleChange}
+        onFocus={handleFocus}
+        onBlur={handleBlur}
+        autoComplete='off'
+      />
+
+      {props.showResult && <SearchResults searchResult={props.searchResult} />}
+    </div>
+  );
 }
 
-export default SearchInput;
 
-let SearchResults = () => {
+let SearchResults = (props) => {
   let handleClick = event => {
     let clickedPokemonInSeacrh = event.target.closest("LI").dataset.id;
     let show = false;
@@ -80,12 +84,10 @@ let SearchResults = () => {
       });
   };
 
-  let res = store.getState().searchResult;
-
   return (
     <div className='searchResults'>
       <ul className='searchList'>
-        {res.map((i, key) => (
+        {props.searchResult.map((i, key) => (
           <NavLink key={(i.item.id, key)}
             to={`/detailedPage/pokemon/${i.item.name}`} className='searchItem_outer' >
             <li
@@ -103,3 +105,20 @@ let SearchResults = () => {
     </div>
   );
 };
+
+
+
+
+const ConnectedSearchInput = connect(store => {
+  return {
+    showResult: store.showResult,
+    searchResult: store.searchResult,
+
+  };
+})(SearchInput);
+
+export default props => (
+  <Provider store={store}>
+    <ConnectedSearchInput {...props} />
+  </Provider>
+);
