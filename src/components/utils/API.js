@@ -1,4 +1,5 @@
 import store from "../../store";
+import axios from 'axios';
 
 export const setDelailedPageData = event => {
   const pokemon_id = event.currentTarget.dataset.pokemon_id;
