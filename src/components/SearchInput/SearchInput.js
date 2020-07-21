@@ -7,7 +7,7 @@ import POKEMONS from "../../pokemonDataArray";
 import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
 import './style.scss';
-import PokemonImage from '../utils/Image'
+import PokemonImage from '../utils/Image';
 
 let fuseOptions = {
   shouldSort: true,

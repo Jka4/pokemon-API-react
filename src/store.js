@@ -31,6 +31,11 @@ function reducer(state = defaultState, action) {
         ...state,
         randomPokemons: []
       };
+    case "clear_detailsPage":
+      return {
+        ...state,
+        detailsPage: ''
+      };
     case "set_input_value":
       return {
         ...state,
@@ -45,6 +50,11 @@ function reducer(state = defaultState, action) {
       return {
         ...state,
         detailsPage: action.page
+      };
+    case "set_bigImage":
+      return {
+        ...state,
+        bigImage: action.url
       };
     case "PLAY_PAUSE":
       return {

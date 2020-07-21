@@ -10,55 +10,34 @@ import Loader from 'react-loader-spinner'
 
 
 const DetailedPage = props => {
-  const [pokemonUrl, setPokemonUrl] = useState();
-  const [smallImages, setSmallImages] = useState([]);
+  const [arrLength, setArrLength] = useState(0);
+
+  const data = props.detailsPage;
+  const { sprites, name } = data;
+  const bigImage = props.bigImage
 
   useEffect(() => {
-    findBigImage(sprites);
-  }, [props.detailsPage]);
-
-  useEffect(() => {
-    setAllUniqSmallImagesUrl(sprites);
-  }, [props.detailsPage]);
-
-  const findBigImage = async (sprites) => {
-    let name;
-    let counter;
-
-    Object.keys(sprites).forEach((i) => {
-      if (sprites[i] !== null && counter !== 1) {
-        name = sprites[i].replace(/\D+/g, "");
-        counter++;
-      }
-    });
-
-    let url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other-sprites/official-artwork/${name}.png`;
-    let response = await fetch(url);
-    response.ok && setPokemonUrl(url);
-  }
+    findObjLength();
+    return () => {
+      store.dispatch({ type: "clear_detailsPage" });
+    }
+  }, []);
 
 
-
-  const setAllUniqSmallImagesUrl = (sprites) => {
-    let imgArr = [];
-    Object.keys(sprites).forEach(spriteName => {
-      !!sprites[spriteName] && imgArr.push(sprites[spriteName]);
+  const findObjLength = () => {
+    let arr = [];
+    !!sprites && Object.keys(sprites).forEach((elem) => {
+      sprites[elem] !== null && arr.push(sprites[elem])
     })
-    setSmallImages(imgArr);
+    setArrLength(arr.length);
   }
 
-  let data = props.detailsPage;
-  let { sprites, name } = data;
 
   return (
     <div className='detailedPage'>
-      <Link to='/' className='backToMainPage'>
-        Back
-        </Link>
-
+      <Link to='/' className='backToMainPage'> Back </Link>
       <div className='name'>{name}</div>
-
-      <div className={smallImages.length <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
+      <div className={arrLength <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
         {sprites && Object.keys(sprites).map(
           spriteName =>
             sprites[spriteName] && (
@@ -78,10 +57,10 @@ const DetailedPage = props => {
         <Abilities props={props} />
       </div>
       <div className="bigImage">
-        {pokemonUrl && <Suspense fallback={<Loader type="TailSpin" height={250}
+        {bigImage && <Suspense fallback={<Loader type="TailSpin" height={250}
           width={250} color={"red"}
         />}>
-          <PokemonImage url={pokemonUrl} />
+          <PokemonImage url={bigImage} />
         </Suspense>}
       </div>
     </div>
@@ -128,7 +107,10 @@ let Abilities = (props) => {
 
 
 const ConnectedDetailedPage = connect(store => {
-  return { detailsPage: store.detailsPage, };
+  return {
+    detailsPage: store.detailsPage,
+    bigImage: store.bigImage,
+  };
 })(DetailedPage);
 
 export default props => (
