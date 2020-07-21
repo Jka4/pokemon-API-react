@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import Loader from 'react-loader-spinner'
+import { Provider, connect } from 'react-redux';
 
 import Tilt from "react-tilt";
 import GetButton from "../GetButton/GetButton";
@@ -7,55 +8,48 @@ import store from "../../store";
 import { NavLink } from "react-router-dom";
 import { setDelailedPageData } from "../utils/API";
 import PokemonImage from '../utils/Image'
-class MainContainer extends React.Component {
-  componentDidMount() {
-    store.subscribe(() => {
-      this.forceUpdate();
-    });
-  }
+import './style.scss';
 
-  render() {
-    let dataToRender = store.getState().randomPokemons;
+const MainContainer = props => {
+  const dataToRender = props.randomPokemons;
 
-    return (
-      <section className='main'>
-        <Logo />
-        <GetButton />
-        <List />
+  return (
+    <section className='main'>
+      <Logo />
+      <GetButton />
+      <List />
 
-        <div className='itemList'>
-          <div className='cardsContainer'>
-            {dataToRender && dataToRender.lenght !== 0 &&
-              dataToRender.map((i, key) => (
-                <PokemonCard
-                  key={i.id}
-                  id={i.id}
-                  src={i.sprites.front_default}
-                  name={i.name}
-                  order={i.order}
-                  base_experience={i.base_experience}
-                  onClick={setDelailedPageData}
-                />
-              ))}
-          </div>
+      <div className='itemList'>
+        <div className='cardsContainer'>
+          {dataToRender && dataToRender.lenght !== 0 &&
+            dataToRender.map((i, key) => (
+              <PokemonCard
+                key={i.id + key + Math.floor(1 + Math.random() * 9999999999)}
+                id={i.id}
+                src={i.sprites.front_default}
+                name={i.name}
+                order={i.order}
+                base_experience={i.base_experience}
+                onClick={setDelailedPageData}
+              />
+            ))}
         </div>
-      </section>
-    );
-  }
-}
+      </div>
+    </section>
+  );
 
-export default MainContainer;
+}
 
 const PokemonCard = (props) => {
   const { src, name, order, base_experience, id, onClick } = props;
 
   return (
-    <NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher'>
+    <NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher' data-pokemon_id={id}>
       <div
         className='pokemonCard'
         onClick={onClick}
         key={id}
-        data-pokemon_id={id}>
+      >
         <Suspense fallback={<Loader type="TailSpin" height={50}
           width={50} color={"red"}
         />}>
@@ -101,11 +95,14 @@ let Logo = () => {
 };
 
 
+const ConnectedMainContainer = connect(store => {
+  return {
+    randomPokemons: store.randomPokemons,
+  };
+})(MainContainer);
 
-// const PokemonImage = (props) => {
-//   const { src } = useImage({
-//     srcList: props.url,
-//   })
-
-//   return <img src={src} alt='pokemon' />
-// }
+export default props => (
+  <Provider store={store}>
+    <ConnectedMainContainer {...props} />
+  </Provider>
+);

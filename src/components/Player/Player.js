@@ -1,41 +1,21 @@
-import React from "react";
-import store from "../../store";
-
+import React, { useState } from 'react';
 let sound = new Audio("./sound/pokemon_opening.mp3");
 
-class Player extends React.Component {
-  componentDidMount() {
-    store.subscribe(() => {
-      this.forceUpdate();
-    });
-  }
-  play = () => {
-    let playing = store.getState().playing;
+const Player = (props) => {
+  const [playing, setPlaying] = useState(false);
 
-    store.dispatch({ type: "PLAY_PAUSE" });
-
-    if (playing) {
-      sound.pause();
-
-      return false;
-    } else {
-      sound.play();
-
-      return true;
-    }
+  const play = () => {
+    // setPlaying(!playing);
+    // playing ? sound.pause() : sound.play();
   };
 
-  render() {
-    let playing = store.getState().playing;
-
-    return (
-      <div className='player'>
-        <button className='playButton' onClick={this.play}>
-          {playing ? "PAUSE" : "PLAY"}
-        </button>
-      </div>
-    );
-  }
+  return (
+    <div className='player'>
+      <button className='playButton' onClick={play}>
+        {playing ? "PAUSE" : "PLAY"}
+      </button>
+    </div>
+  );
 }
 
 export default Player;

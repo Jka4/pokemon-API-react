@@ -7,7 +7,7 @@ let defaultState = {
   inputValue: "",
   detailsPage: "",
   playing: false,
-  SHOW_RESULT: false,
+  showResult: false,
   isFetching: false
 };
 
@@ -54,13 +54,8 @@ function reducer(state = defaultState, action) {
     case "SHOW_RESULT":
       return {
         ...state,
-        SHOW_RESULT: action.show
+        showResult: action.show
       };
-      case "fetching_random_pokemon":
-        return {
-          ...state,
-          isFetching: !state.isFetching
-        };
     default:
       return state;
   }

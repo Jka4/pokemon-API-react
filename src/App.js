@@ -12,35 +12,24 @@ import MainContainer from "./components/mainContainer/mainContainer";
 import HeaderLine from "./components/HeaderLine/HeaderLine";
 import DetailedPage from "./components/DetailedPage/DetailedPage";
 
-import store from "./store";
+const App = () => {
+  return (
+    <div className='App'>
 
+      <Router>
+        <HeaderLine />
 
-class App extends React.Component {
-  componentDidMount() {
-    store.subscribe(() => {
-      this.forceUpdate();
-    });
-  }
-
-  render() {
-    return (
-      <div className='App'>
-
-        <Router>
-          <HeaderLine />
-
-          <Switch>
-            <Route exact path='/'>
-                <MainContainer />
-            </Route>
-            <Route path='/detailedPage/pokemon/'>
-              <DetailedPage />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
-    );
-  }
+        <Switch>
+          <Route exact path='/'>
+            <MainContainer />
+          </Route>
+          <Route path='/detailedPage/pokemon/'>
+            <DetailedPage />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
