@@ -1,11 +1,13 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Provider, connect } from 'react-redux';
 import store from "../../store";
+import Loader from 'react-loader-spinner'
 
 import POKEMONS from "../../pokemonDataArray";
 import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
 import './style.scss';
+import PokemonImage from '../utils/Image'
 
 let fuseOptions = {
   shouldSort: true,
@@ -37,7 +39,6 @@ const SearchInput = (props) => {
   const handleFocus = () => {
     let show = true;
     store.dispatch({ type: "SHOW_RESULT", show });
-    console.log('focus');
   };
 
   return (
@@ -87,7 +88,11 @@ let SearchResults = (props) => {
               <span className='item_name'>NAME: {i.item.name}</span>
               <span className='item_id'>ID: {i.item.id}</span>
               <span className='item_weight'>WEIGHT: {i.item.weight}</span>
-              <img src={i.item.image} alt='img' className='searchItem__image' />
+              <Suspense fallback={<Loader type="TailSpin" height={30}
+                width={30} color={"red"}
+              />}>
+                <PokemonImage url={i.item.image} cn={'searchItem__image'} />
+              </Suspense>
             </li>
           </NavLink>
         ))}

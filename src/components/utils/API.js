@@ -1,5 +1,4 @@
 import store from "../../store";
-import * as _ from 'lodash';
 
 export const setDelailedPageData = event => {
   const pokemon_id = event.currentTarget.dataset.pokemon_id;

@@ -8,7 +8,7 @@ const PokemonImage = (props) => {
     srcList: props.url,
   })
 
-  return <img src={src} alt='pokemon' />
+  return <img src={src} alt='pokemon' className={props.cn !== undefined ? props.cn : ''} />
 }
 
 export default PokemonImage;

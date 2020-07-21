@@ -15,17 +15,17 @@ const DetailedPage = props => {
 
   useEffect(() => {
     findBigImage(sprites);
-  });
+  }, [props.detailsPage]);
 
   useEffect(() => {
-    // setAllUniqSmallImagesUrl(sprites);
+    setAllUniqSmallImagesUrl(sprites);
   }, [props.detailsPage]);
 
   const findBigImage = async (sprites) => {
     let name;
     let counter;
 
-    Object.keys(sprites).map((i) => {
+    Object.keys(sprites).forEach((i) => {
       if (sprites[i] !== null && counter !== 1) {
         name = sprites[i].replace(/\D+/g, "");
         counter++;
@@ -41,7 +41,7 @@ const DetailedPage = props => {
 
   const setAllUniqSmallImagesUrl = (sprites) => {
     let imgArr = [];
-    Object.keys(sprites).map(spriteName => {
+    Object.keys(sprites).forEach(spriteName => {
       !!sprites[spriteName] && imgArr.push(sprites[spriteName]);
     })
     setSmallImages(imgArr);
@@ -59,7 +59,7 @@ const DetailedPage = props => {
       <div className='name'>{name}</div>
 
       <div className={smallImages.length <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
-        {smallImages && Object.keys(sprites).map(
+        {sprites && Object.keys(sprites).map(
           spriteName =>
             sprites[spriteName] && (
               <div className='block' key={spriteName}>
@@ -128,9 +128,7 @@ let Abilities = (props) => {
 
 
 const ConnectedDetailedPage = connect(store => {
-  return {
-    detailsPage: store.detailsPage,
-  };
+  return { detailsPage: store.detailsPage, };
 })(DetailedPage);
 
 export default props => (
