@@ -44,12 +44,9 @@ const PokemonCard = (props) => {
   const { src, name, order, base_experience, id, onClick } = props;
 
   return (
-    <NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher' data-pokemon_id={id}>
-      <div
-        className='pokemonCard'
-        onClick={onClick}
-        key={id}
-      >
+    <NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher' data-pokemon_id={id} onClick={onClick}
+      key={id}>
+      <div className='pokemonCard'>
         <Suspense fallback={<Loader type="TailSpin" height={50}
           width={50} color={"red"}
         />}>

@@ -25,7 +25,7 @@ let fuseOptions = {
 const SearchInput = (props) => {
 
   const handleChange = event => {
-    let value = event.target.value;
+    let value = event.currentTarget.value;
     store.dispatch({ type: "set_input_value", value });
 
     let fuse = new Fuse(POKEMONS, fuseOptions);
@@ -60,7 +60,7 @@ const SearchInput = (props) => {
 
 let SearchResults = (props) => {
   let handleClick = event => {
-    let clickedPokemonInSeacrh = event.target.closest("LI").dataset.id;
+    let clickedPokemonInSeacrh = event.currentTarget.closest("LI").dataset.id;
     let show = false;
     store.dispatch({ type: "SHOW_RESULT", show });
 

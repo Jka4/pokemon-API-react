@@ -20,12 +20,8 @@ const App = () => {
         <HeaderLine />
 
         <Switch>
-          <Route exact path='/'>
-            <MainContainer />
-          </Route>
-          <Route path='/detailedPage/pokemon/'>
-            <DetailedPage />
-          </Route>
+          <Route exact path='/' component={MainContainer} />
+          <Route path='/detailedPage/pokemon/' component={DetailedPage} />
         </Switch>
       </Router>
     </div>

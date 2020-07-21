@@ -2,7 +2,7 @@ import store from "../../store";
 import * as _ from 'lodash';
 
 export const setDelailedPageData = event => {
-  const pokemon_id = event.target.dataset.pokemon_id;
+  const pokemon_id = event.currentTarget.dataset.pokemon_id;
 
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
   fetch(URL)
