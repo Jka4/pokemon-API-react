@@ -11,7 +11,6 @@ import Loader from 'react-loader-spinner'
 
 const DetailedPage = props => {
   const [pokemonUrl, setPokemonUrl] = useState();
-  // console.log("pokemonUrl", pokemonUrl)
   const [smallImages, setSmallImages] = useState([]);
 
   useEffect(() => {
@@ -49,7 +48,6 @@ const DetailedPage = props => {
   }
 
   let data = props.detailsPage;
-  // console.log("name: ", data.name)
   let { sprites, name } = data;
 
   return (

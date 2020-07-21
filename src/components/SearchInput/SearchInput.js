@@ -40,15 +40,6 @@ const SearchInput = (props) => {
     console.log('focus');
   };
 
-  const handleBlur = () => {
-    let show = false;
-    store.dispatch({ type: "SHOW_RESULT", show });
-    console.log('blur');
-
-  }
-
-  console.log("SearchInput -> SHOW_RESULT", props.showResult)
-
   return (
     <div className='search'>
       <input
@@ -58,7 +49,6 @@ const SearchInput = (props) => {
         placeholder='type name, id or weight'
         onChange={handleChange}
         onFocus={handleFocus}
-        onBlur={handleBlur}
         autoComplete='off'
       />
 
