@@ -1,4 +1,5 @@
 import store from "../../store";
+import * as _ from 'lodash';
 
 export const setDelailedPageData = event => {
   const pokemon_id = event.currentTarget.dataset.pokemon_id;
@@ -43,17 +44,13 @@ const findBigImage = async (sprites) => {
 
   if (response.ok) {
     store.dispatch({ type: "set_bigImage", url });
+  } else {
+    url = ''
+    store.dispatch({ type: "set_bigImage", url });
   }
 }
 
-const findSmallImagesLength = async (data) => {
-  const sprite = data.sprites;
-  let arr = [];
-
-  Object.values(sprite).forEach((el) => {
-    el !== null && arr.push(el)
-  });
-
-  const count = arr.length;
+const findSmallImagesLength = (data) => {
+  let count = _.countBy(data.sprites, (el) => el !== null).true;
   store.dispatch({ type: "set_smallImageCount", count });
 }
