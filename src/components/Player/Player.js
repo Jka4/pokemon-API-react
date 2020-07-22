@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 const sound = new Audio("./sound/pokemon_opening.mp3");
 
 const Player = () => {
@@ -11,7 +12,7 @@ const Player = () => {
   return (
     <div className='player'>
       <button className='playButton' onClick={() => setPlaying(!playing)}>
-        {playing ? "PAUSE" : "PLAYs"}
+        {playing ? "PAUSE" : "PLAY"}
       </button>
     </div >
   );

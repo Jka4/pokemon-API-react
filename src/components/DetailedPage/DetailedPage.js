@@ -1,4 +1,4 @@
-import React, { Suspense, useState, useEffect } from 'react';
+import React, { Suspense } from 'react';
 import store from "../../store";
 import { Provider, connect } from 'react-redux';
 import { Link } from "react-router-dom";
@@ -10,34 +10,15 @@ import Loader from 'react-loader-spinner'
 
 
 const DetailedPage = props => {
-  const [arrLength, setArrLength] = useState(0);
-
   const data = props.detailsPage;
   const { sprites, name } = data;
-  const bigImage = props.bigImage
-
-  useEffect(() => {
-    findObjLength();
-    return () => {
-      store.dispatch({ type: "clear_detailsPage" });
-    }
-  }, []);
-
-
-  const findObjLength = () => {
-    let arr = [];
-    !!sprites && Object.keys(sprites).forEach((elem) => {
-      sprites[elem] !== null && arr.push(sprites[elem])
-    })
-    setArrLength(arr.length);
-  }
-
+  const { bigImage, smallImageCount } = props;
 
   return (
     <div className='detailedPage'>
       <Link to='/' className='backToMainPage'> Back </Link>
       <div className='name'>{name}</div>
-      <div className={arrLength <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
+      <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
         {sprites && Object.keys(sprites).map(
           spriteName =>
             sprites[spriteName] && (
@@ -63,7 +44,7 @@ const DetailedPage = props => {
           <PokemonImage url={bigImage} />
         </Suspense>}
       </div>
-    </div>
+    </div >
   );
 
 }
@@ -110,6 +91,7 @@ const ConnectedDetailedPage = connect(store => {
   return {
     detailsPage: store.detailsPage,
     bigImage: store.bigImage,
+    smallImageCount: store.smallImageCount
   };
 })(DetailedPage);
 

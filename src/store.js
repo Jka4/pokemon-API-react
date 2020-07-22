@@ -8,7 +8,8 @@ let defaultState = {
   detailsPage: "",
   playing: false,
   showResult: false,
-  isFetching: false
+  isFetching: false,
+  smallImageCount: 0,
 };
 
 let chachingStateToLocalStorage = () => {
@@ -55,6 +56,11 @@ function reducer(state = defaultState, action) {
       return {
         ...state,
         bigImage: action.url
+      };
+    case "set_smallImageCount":
+      return {
+        ...state,
+        smallImageCount: action.count
       };
     case "PLAY_PAUSE":
       return {

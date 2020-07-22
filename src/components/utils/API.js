@@ -10,6 +10,7 @@ export const setDelailedPageData = event => {
       const page = json;
 
       findBigImage(page);
+      findSmallImagesLength(page);
       store.dispatch({ type: "set_detailsPage", page });
     });
 };
@@ -26,14 +27,14 @@ export let getRandomPokemon = () => {
     });
 };
 
-export const findBigImage = async (sprites) => {
+const findBigImage = async (sprites) => {
   let name;
   let counter = 0;
 
   sprites.sprites !== undefined && Object.keys(sprites.sprites).forEach((i) => {
     if (sprites.sprites[i] !== null) {
       name = sprites.sprites[i].replace(/\D+/g, "");
-      counter++;
+      counter = counter + 1; // yes i know :) but eslint think then counter++ is err
     }
   });
 
@@ -43,4 +44,16 @@ export const findBigImage = async (sprites) => {
   if (response.ok) {
     store.dispatch({ type: "set_bigImage", url });
   }
+}
+
+const findSmallImagesLength = async (data) => {
+  const sprite = data.sprites;
+  let arr = [];
+
+  Object.values(sprite).forEach((el) => {
+    el !== null && arr.push(el)
+  });
+
+  const count = arr.length;
+  store.dispatch({ type: "set_smallImageCount", count });
 }

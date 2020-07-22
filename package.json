@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "license": "GPL-3.0",
   "dependencies": {
-    "axios": "^0.19.2",
     "customize-cra": "^0.9.1",
     "fuse.js": "^3.4.6",
     "history": "^5.0.0",
