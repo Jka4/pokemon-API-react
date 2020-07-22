@@ -84,7 +84,7 @@ let Logo = () => {
           max: 35
         }}>
         <div className='Tilt-inner'>
-          <img src='./images/pokemon.gif' alt='logo_gif' />
+          <img src='/images/pokemon.gif' alt='logo_gif' />
         </div>
       </Tilt>
     </div>

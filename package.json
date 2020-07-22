@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "license": "GPL-3.0",
   "dependencies": {
-    "aos": "^2.3.4",
     "axios": "^0.19.2",
     "customize-cra": "^0.9.1",
     "fuse.js": "^3.4.6",
+    "history": "^5.0.0",
     "local-storage": "^2.0.0",
     "lodash": "^4.17.19",
     "lodash.uniqby": "^4.7.0",

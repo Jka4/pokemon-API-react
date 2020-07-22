@@ -11,7 +11,7 @@ const Player = () => {
   return (
     <div className='player'>
       <button className='playButton' onClick={() => setPlaying(!playing)}>
-        {playing ? "PAUSE" : "PLAY"}
+        {playing ? "PAUSE" : "PLAYs"}
       </button>
     </div >
   );
