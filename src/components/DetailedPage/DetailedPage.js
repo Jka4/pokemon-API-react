@@ -16,7 +16,7 @@ const DetailedPage = props => {
 
   return (
     <div className='detailedPage'>
-      <Link to='/' className='backToMainPage'> Back </Link>
+      <Link to='/' className='backToMainPage' onClick={() => store.dispatch({ type: "clear_detailsPage" })} > Back </Link>
       <div className='name'>{name}</div>
       <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
         {sprites && Object.keys(sprites).map(

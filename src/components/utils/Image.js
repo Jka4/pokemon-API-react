@@ -4,10 +4,6 @@ import { ErrorBoundary } from 'react-error-boundary';
 
 const PokemonImage = (props) => {
 
-  const ErrorFallback = () => {
-    return <span className='err' >Ooops...</span>
-  }
-
   const ImageWrapper = (props) => {
     const { url, cn } = props.props
     const { src } = useImage({
@@ -23,7 +19,7 @@ const PokemonImage = (props) => {
 
   return (
     <React.Fragment>
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <ErrorBoundary fallback={<span className='err' >Ooops...</span>} >
         <ImageWrapper props={props} />
       </ErrorBoundary>
     </React.Fragment>
