@@ -12,21 +12,22 @@ import './style.scss';
 
 const MainContainer = props => {
   const dataToRender = props.randomPokemons;
+  const hasDataForRender = dataToRender && dataToRender.length >= 1;
 
   return (
     <section className='main'>
       <Logo />
       <GetButton />
-      <List />
+      {hasDataForRender && < List />}
 
       <div className='itemList'>
         <div className='cardsContainer'>
-          {dataToRender && dataToRender.lenght !== 0 &&
+          {hasDataForRender &&
             dataToRender.map((i, key) => (
               <PokemonCard
-                key={i.id + key + Math.floor(1 + Math.random() * 9999999999)}
+                key={i.id && i.id + key + Math.floor(1 + Math.random() * 9999999999)}
                 id={i.id}
-                src={i.sprites.front_default}
+                src={i.sprites && i.sprites.front_default}
                 name={i.name}
                 order={i.order}
                 base_experience={i.base_experience}
@@ -84,7 +85,11 @@ let Logo = () => {
           max: 35
         }}>
         <div className='Tilt-inner'>
-          <img src='/images/pokemon.gif' alt='logo_gif' />
+          <Suspense fallback={<Loader type="TailSpin" height={120}
+            width={150} color={"red"}
+          />}>
+            <PokemonImage url={'/images/pokemon.gif'} />
+          </Suspense>
         </div>
       </Tilt>
     </div>

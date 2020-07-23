@@ -305,6 +305,15 @@ input:focus {
   justify-content: center;
 }
 
+.Tilt-inner {
+  min-height: 212px;
+}
+
+.Tilt-inner svg {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
 .detailedPage {
   display: flex;
   flex-direction: column;
@@ -670,4 +679,9 @@ a {
 
 .searchItem {
   color: black;
+}
+
+
+.err {
+  color: #ff3527;
 }
