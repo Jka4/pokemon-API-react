@@ -10,6 +10,7 @@ let defaultState = {
   showResult: false,
   isFetching: false,
   smallImageCount: 0,
+  counter: 0,
 };
 
 let chachingStateToLocalStorage = () => {
@@ -26,6 +27,11 @@ function reducer(state = defaultState, action) {
       return {
         ...state,
         randomPokemons: [...state.randomPokemons, action.randomPokemons]
+      };
+    case "add_counter":
+      return {
+        ...state,
+        counter: state.randomPokemons.length + 1
       };
     case "clear_random_pokemons":
       return {

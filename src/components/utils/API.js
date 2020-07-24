@@ -6,6 +6,7 @@ import * as _ from 'lodash';
 export let getRandomPokemon = () => {
   const randomNumber = Math.floor(1 + Math.random() * 806);
   const URL = `https://pokeapi.co/api/v2/pokemon/${randomNumber}/`;
+  store.dispatch({ type: "add_counter" });
 
   fetch(URL)
     .then(res => res.json())

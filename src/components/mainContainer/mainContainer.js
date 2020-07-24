@@ -14,6 +14,21 @@ const MainContainer = props => {
   const dataToRender = props.randomPokemons;
   const hasDataForRender = dataToRender && dataToRender.length >= 1;
 
+
+  // *** This code is needed for the fastest rendering of the interface,
+  // *** the plate will appear even before the API gives the data, 
+  // *** and until the data arrives, the spinner will be shown 
+  // *** plus there are fuses in case of a broken img link
+
+  const arrSkeletons = Array.apply(null, { length: props.counter });
+  let keys = (key) => (dataToRender[key] && dataToRender[key].id) + key + Math.floor(1 + Math.random() * 9999999999);
+  let id = (key) => dataToRender[key] && dataToRender[key].id;
+  let name = (key) => dataToRender[key] && dataToRender[key].name;
+  let src = (key) => dataToRender[key] && dataToRender[key].sprites && dataToRender[key].sprites.front_default;
+  let order = (key) => dataToRender[key] && dataToRender[key].order;
+  let base_experience = (key) => dataToRender[key] && dataToRender[key].base_experience;
+  let loader = <Loader type="ThreeDots" height={20} width={40} color={"red"} />;
+
   return (
     <section className='main'>
       <Logo />
@@ -23,14 +38,14 @@ const MainContainer = props => {
       <div className='itemList'>
         <div className='cardsContainer'>
           {hasDataForRender &&
-            dataToRender.map((i, key) => (
+            arrSkeletons.map((i, key) => (
               <PokemonCard
-                key={i.id && i.id + key + Math.floor(1 + Math.random() * 9999999999)}
-                id={i.id}
-                src={i.sprites && i.sprites.front_default}
-                name={i.name}
-                order={i.order}
-                base_experience={i.base_experience}
+                key={keys(key)}
+                id={id(key)}
+                src={src(key)}
+                name={name(key) || loader}
+                order={order(key) || loader}
+                base_experience={base_experience(key) || loader}
                 onClick={setDelailedPageData}
               />
             ))}
@@ -48,11 +63,18 @@ const PokemonCard = (props) => {
     <NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher' data-pokemon_id={id} onClick={onClick}
       key={id}>
       <div className='pokemonCard'>
-        <Suspense fallback={<Loader type="TailSpin" height={50}
-          width={50} color={"red"}
-        />}>
-          <PokemonImage url={src} />
-        </Suspense>
+        <div className="imageWrapper">
+          {src ? (<Suspense fallback={<Loader type="TailSpin" height={50}
+            width={50} color={"red"}
+          />}>
+            <PokemonImage url={src} />
+          </Suspense>) : (
+              (<Loader type="TailSpin" height={50}
+                width={50} color={"red"}
+              />)
+            )}
+
+        </div>
         <span>{name}</span>
         <span>{order}</span>
         <span>{base_experience}</span>
@@ -100,6 +122,7 @@ let Logo = () => {
 const ConnectedMainContainer = connect(store => {
   return {
     randomPokemons: store.randomPokemons,
+    counter: store.counter,
   };
 })(MainContainer);
 
