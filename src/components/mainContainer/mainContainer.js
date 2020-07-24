@@ -16,11 +16,11 @@ const MainContainer = props => {
 
 
   // *** This code is needed for the fastest rendering of the interface,
-  // *** the plate will appear even before the API gives the data, 
+  // *** the PokemonCard will appear even before the API gives the data, 
   // *** and until the data arrives, the spinner will be shown 
   // *** plus there are fuses in case of a broken img link
 
-  const arrSkeletons = Array.apply(null, { length: props.counter });
+  const arrSkeletons = Array.from(Array(props.counter).keys());
   let keys = (key) => (dataToRender[key] && dataToRender[key].id) + key + Math.floor(1 + Math.random() * 9999999999);
   let id = (key) => dataToRender[key] && dataToRender[key].id;
   let name = (key) => dataToRender[key] && dataToRender[key].name;
