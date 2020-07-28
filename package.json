@@ -32,6 +32,7 @@
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "docker-build": "docker build -t username/pokemon-api .",
     "docker-run": "docker run -p 8000:3000 -d username/pokemon-api"
   },
   "eslintConfig": {
