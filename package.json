@@ -31,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "docker-run": "docker run -p 8000:3000 -d username/pokemon-api"
   },
   "eslintConfig": {
     "extends": "react-app"

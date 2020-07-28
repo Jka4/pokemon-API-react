@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Switch, } from "react-router-dom";
+import { hot } from 'react-hot-loader/root';
 
 import "./App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
@@ -23,4 +24,5 @@ const App = () => {
   );
 }
 
-export default App;
+// export default App;
+export default hot(App);

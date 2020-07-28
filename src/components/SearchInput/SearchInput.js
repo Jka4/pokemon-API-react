@@ -3,7 +3,7 @@ import { Provider, connect } from 'react-redux';
 import store from "../../store";
 import Loader from 'react-loader-spinner'
 
-import POKEMONS from "../../pokemonDataArray";
+import POKEMONS from "../utils/pokemonDataArray";
 import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
 import './style.scss';
