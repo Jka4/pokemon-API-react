@@ -10,7 +10,6 @@ import { setDelailedPageData } from "../utils/API";
 import PokemonImage from '../utils/Image';
 import './styles/style.scss';
 
-
 const MainContainer = props => {
   const dataToRender = props.randomPokemons;
   const hasDataForRender = dataToRender && dataToRender.length >= 1;
