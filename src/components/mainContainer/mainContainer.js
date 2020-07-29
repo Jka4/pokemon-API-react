@@ -7,8 +7,9 @@ import GetButton from "../GetButton/GetButton";
 import store from "../../store";
 import { NavLink } from "react-router-dom";
 import { setDelailedPageData } from "../utils/API";
-import PokemonImage from '../utils/Image'
-import './style.scss';
+import PokemonImage from '../utils/Image';
+import './styles/style.scss';
+
 
 const MainContainer = props => {
   const dataToRender = props.randomPokemons;

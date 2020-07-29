@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchInput from "../SearchInput/SearchInput";
 import Player from "../Player/Player";
-import './style.scss';
+import './styles/style.scss';
 
 const HeaderLine = () => {
   return (

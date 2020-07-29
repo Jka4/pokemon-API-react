@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './styles/style.scss';
 
 const sound = new Audio("./sound/pokemon_opening.mp3");
 

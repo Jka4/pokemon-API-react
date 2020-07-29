@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Switch, } from "react-router-dom";
-import { hot } from 'react-hot-loader/root';
+// import { hot } from 'react-hot-loader/root';
 
-import "./App.scss";
+import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
-import MainContainer from "./components/mainContainer/mainContainer";
-import HeaderLine from "./components/HeaderLine/HeaderLine";
-import DetailedPage from "./components/DetailedPage/DetailedPage";
+import MainContainer from "../../mainContainer/mainContainer";
+import HeaderLine from "../../HeaderLine/HeaderLine";
+import DetailedPage from "../../DetailedPage/DetailedPage";
 
 
 const App = () => {
@@ -24,5 +24,5 @@ const App = () => {
   );
 }
 
-// export default App;
-export default hot(App);
+export default App;
+// export default hot(App);

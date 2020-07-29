@@ -3,7 +3,7 @@ import store from "../../store";
 import { Provider, connect } from 'react-redux';
 import { Link } from "react-router-dom";
 
-import './style.scss';
+import './styles/style.scss';
 
 import PokemonImage from '../utils/Image'
 import Loader from 'react-loader-spinner'

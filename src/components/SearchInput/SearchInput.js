@@ -6,7 +6,7 @@ import Loader from 'react-loader-spinner'
 import POKEMONS from "../utils/pokemonDataArray";
 import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
-import './style.scss';
+import './styles/style.scss';
 import PokemonImage from '../utils/Image';
 
 let fuseOptions = {
@@ -44,7 +44,7 @@ const SearchInput = (props) => {
   return (
     <div className='search'>
       <input
-        type='text'
+        type='search'
         name='searchInput'
         id='searchInput'
         placeholder='type name, id or weight'

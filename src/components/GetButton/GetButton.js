@@ -1,7 +1,7 @@
 import React from "react";
 import store from "../../store";
 import { getRandomPokemon } from "../utils/API";
-import './style.scss';
+import './styles/style.scss';
 
 
 const GetButton = (props) => {
