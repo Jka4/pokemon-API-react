@@ -10,7 +10,6 @@ import { setDelailedPageData } from "../utils/API";
 import PokemonImage from '../utils/Image';
 import './styles/style.scss';
 
-
 const MainContainer = props => {
   const dataToRender = props.randomPokemons;
   const hasDataForRender = dataToRender && dataToRender.length >= 1;
@@ -22,6 +21,7 @@ const MainContainer = props => {
   // *** plus there are fuses in case of a broken img link
 
   const arrSkeletons = Array.from(Array(props.counter).keys());
+  console.log("arrSkeletons", arrSkeletons.length !== 0)
   let keys = (key) => (dataToRender[key] && dataToRender[key].id) + key + Math.floor(1 + Math.random() * 9999999999);
   let id = (key) => dataToRender[key] && dataToRender[key].id;
   let name = (key) => dataToRender[key] && dataToRender[key].name;
