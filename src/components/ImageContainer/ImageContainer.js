@@ -1,8 +1,8 @@
 import React from 'react';
 import { useImage } from 'react-image'
-import { ErrorBoundary } from 'react-error-boundary';
+import Boundary from '../utils/Boundary';
 
-const PokemonImage = (props) => {
+const ImageContainer = (props) => {
 
   const ImageWrapper = (props) => {
     const { url, cn } = props.props
@@ -19,11 +19,9 @@ const PokemonImage = (props) => {
 
   return (
     <React.Fragment>
-      <ErrorBoundary fallback={<span className='err' >Ooops...</span>} >
-        <ImageWrapper props={props} />
-      </ErrorBoundary>
+      <Boundary component={<ImageWrapper props={props} />} />
     </React.Fragment>
   )
 }
 
-export default PokemonImage;
+export default ImageContainer;

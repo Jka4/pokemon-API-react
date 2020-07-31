@@ -7,7 +7,8 @@ import POKEMONS from "../utils/pokemonDataArray";
 import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
 import './styles/style.scss';
-import PokemonImage from '../utils/Image';
+import ImageContainer from '../ImageContainer/ImageContainer';
+import { setDelailedPageData } from '../utils/API';
 
 let fuseOptions = {
   shouldSort: true,
@@ -61,18 +62,10 @@ const SearchInput = (props) => {
 
 let SearchResults = (props) => {
   let handleClick = event => {
-    let clickedPokemonInSeacrh = event.currentTarget.closest("LI").dataset.id;
     let show = false;
+
+    setDelailedPageData(event, true);
     store.dispatch({ type: "SHOW_RESULT", show });
-
-    const URL = `https://pokeapi.co/api/v2/pokemon/${clickedPokemonInSeacrh}`;
-    fetch(URL)
-      .then(res => res.json())
-      .then(json => {
-        let page = json;
-
-        store.dispatch({ type: "set_detailsPage", page });
-      });
   };
 
   return (
@@ -91,7 +84,7 @@ let SearchResults = (props) => {
               <Suspense fallback={<Loader type="TailSpin" height={30}
                 width={30} color={"red"}
               />}>
-                <PokemonImage url={i.item.image} cn={'searchItem__image'} />
+                <ImageContainer url={i.item.image} cn={'searchItem__image'} />
               </Suspense>
             </li>
           </NavLink>

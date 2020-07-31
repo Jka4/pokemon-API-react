@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import './styles/style.scss';
 
-import PokemonImage from '../utils/Image'
+import ImageContainer from '../ImageContainer/ImageContainer';
 import Loader from 'react-loader-spinner'
 
 
@@ -31,7 +31,7 @@ const DetailedPage = props => {
                 <Suspense fallback={<Loader type="TailSpin" height={50}
                   width={50} color={"red"}
                 />}>
-                  <PokemonImage url={sprites[spriteName]} />
+                  <ImageContainer url={sprites[spriteName]} />
                 </Suspense>
                 <div className='title'>{spriteName}</div>
               </div>
@@ -46,7 +46,7 @@ const DetailedPage = props => {
         {bigImage && <Suspense fallback={<Loader type="TailSpin" height={250}
           width={250} color={"red"}
         />}>
-          <PokemonImage url={bigImage} />
+          <ImageContainer url={bigImage} />
         </Suspense>}
       </div>
     </div >

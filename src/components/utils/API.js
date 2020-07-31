@@ -16,14 +16,21 @@ export let getRandomPokemon = () => {
     });
 };
 
-export const setDelailedPageData = event => {
-  const pokemon_id = event.currentTarget.dataset.pokemon_id;
+export const setDelailedPageData = (event, isSearch) => {
+  let pokemon_id;
+
+  if (isSearch === true) {
+    pokemon_id = event.currentTarget.closest("LI").dataset.id;
+  } else {
+    pokemon_id = event.currentTarget.dataset.pokemon_id;
+  }
 
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
   fetch(URL)
     .then(res => res.json())
     .then(json => {
       const page = json;
+      console.log("page", page)
 
       delete page.sprites.other;
       delete page.sprites.versions;
