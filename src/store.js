@@ -11,6 +11,7 @@ let defaultState = {
   isFetching: false,
   smallImageCount: 0,
   counter: 0,
+  bigImage: ''
 };
 
 let chachingStateToLocalStorage = () => {
@@ -42,6 +43,11 @@ function reducer(state = defaultState, action) {
       return {
         ...state,
         detailsPage: ''
+      };
+    case "clear_bigImage":
+      return {
+        ...state,
+        bigImage: ''
       };
     case "set_input_value":
       return {

@@ -1,22 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './styles/style.scss';
+import useSound from 'use-sound';
 
-const sound = new Audio("./sound/pokemon_opening.mp3");
+const soundUrl = "/sound/pokemon_opening.mp3";
 
 const Player = () => {
-  const [playing, setPlaying] = useState(false);
+  const [play, { stop, isPlaying }] = useSound(soundUrl);
 
-  useEffect(() => {
-    !playing ? sound.pause() : sound.play();
-  });
+  const playPause = () => {
+    isPlaying ? stop() : play();
+  }
 
   return (
     <div className='player'>
-      <button className='playButton' onClick={() => setPlaying(!playing)}>
-        {playing ? "PAUSE" : "PLAY"}
+      <button className='playButton' onClick={playPause}>
+        {isPlaying ? "PAUSE" : "PLAY"}
       </button>
     </div >
   );
 }
 
 export default Player;
+
+

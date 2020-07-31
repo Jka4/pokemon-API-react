@@ -14,9 +14,14 @@ const DetailedPage = props => {
   const { sprites, name } = data;
   const { bigImage, smallImageCount } = props;
 
+  const clearDetailPageData = () => {
+    store.dispatch({ type: "clear_detailsPage" })
+    store.dispatch({ type: "clear_bigImage" })
+  }
+
   return (
     <div className='detailedPage'>
-      <Link to='/' className='backToMainPage' onClick={() => store.dispatch({ type: "clear_detailsPage" })} > Back </Link>
+      <Link to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </Link>
       <div className='name'>{name}</div>
       <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
         {sprites && Object.keys(sprites).map(
