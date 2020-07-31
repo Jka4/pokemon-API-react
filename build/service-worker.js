@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pokemon-API-react/precache-manifest.41d3059fd4259899e9dc9a3b1be2299e.js"
+  "/pokemon-API-react/precache-manifest.d78b10b15736727b0ec75f639aa73b31.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -34,6 +34,6 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/pokemon-API-react/index.html"), {
-
-  blacklist: [/^\/_/, /\/[^/]+\.[^/]+$/],
+  
+  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
