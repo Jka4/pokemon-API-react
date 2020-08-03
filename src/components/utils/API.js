@@ -30,7 +30,6 @@ export const setDelailedPageData = (event, isSearch) => {
     .then(res => res.json())
     .then(json => {
       const page = json;
-      console.log("page", page)
 
       delete page.sprites.other;
       delete page.sprites.versions;

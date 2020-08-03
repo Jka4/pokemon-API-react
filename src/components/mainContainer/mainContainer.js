@@ -1,7 +1,6 @@
 import React from 'react';
 import Loader from 'react-loader-spinner'
 import { Provider, connect } from 'react-redux';
-import { FixedSizeList as List } from 'react-window';
 
 import GetButton from "../GetButton/GetButton";
 import store from "../../store";

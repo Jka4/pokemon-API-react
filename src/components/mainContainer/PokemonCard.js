@@ -1,7 +1,8 @@
-import React, { Suspense } from 'react';
+import React, { lazy, Suspense } from "react";
 import Loader from 'react-loader-spinner'
 import { NavLink } from "react-router-dom";
-import ImageContainer from '../ImageContainer/ImageContainer';
+
+const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 
 const PokemonCard = (props) => {
 	const { src, name, order, base_experience, id, onClick } = props;

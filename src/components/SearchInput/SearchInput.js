@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { lazy, Suspense } from "react";
 import { Provider, connect } from 'react-redux';
 import store from "../../store";
 import Loader from 'react-loader-spinner'
@@ -7,8 +7,9 @@ import POKEMONS from "../utils/pokemonDataArray";
 import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
 import './styles/style.scss';
-import ImageContainer from '../ImageContainer/ImageContainer';
 import { setDelailedPageData } from '../utils/API';
+
+const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 
 let fuseOptions = {
   shouldSort: true,
@@ -48,12 +49,12 @@ const SearchInput = (props) => {
         type='search'
         name='searchInput'
         id='searchInput'
-        placeholder='type name, id or weight'
+        placeholder='Pickachu, 123, 900g'
         onChange={handleChange}
         onFocus={handleFocus}
         autoComplete='off'
+        aria-label="Search"
       />
-
       {props.showResult && <SearchResults searchResult={props.searchResult} />}
     </div>
   );

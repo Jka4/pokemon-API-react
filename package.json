@@ -4,13 +4,16 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@testing-library/react": "^10.4.7",
+    "axios": "^0.19.2",
     "customize-cra": "^0.9.1",
+    "eslint-config-airbnb": "^18.2.0",
     "fuse.js": "^3.4.6",
     "local-storage": "^2.0.0",
     "lodash": "^4.17.19",
     "lodash.uniqby": "^4.7.0",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
+    "pretty": "^2.0.0",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.5",
     "react-dom": "^16.9",
@@ -41,7 +44,11 @@
     "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "eslint:recommended",
+      "google"
+    ]
   },
   "browserslist": {
     "production": [

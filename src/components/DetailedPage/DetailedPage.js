@@ -1,13 +1,12 @@
-import React, { Suspense } from 'react';
+import React, { lazy, Suspense } from "react";
 import store from "../../store";
 import { Provider, connect } from 'react-redux';
 import { Link } from "react-router-dom";
+import Loader from 'react-loader-spinner'
 
 import './styles/style.scss';
 
-import ImageContainer from '../ImageContainer/ImageContainer';
-import Loader from 'react-loader-spinner'
-
+const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 
 const DetailedPage = props => {
   const data = props.detailsPage;

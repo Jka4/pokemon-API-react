@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Switch, } from "react-router-dom";
+import { Route, BrowserRouter, Switch, } from "react-router-dom";
 // import { hot } from 'react-hot-loader/root';
 
 import "../styles/App.scss";
@@ -13,13 +13,14 @@ import DetailedPage from "../../DetailedPage/DetailedPage";
 const App = () => {
   return (
     <div className='App'>
-      <Router basename='/'>
+      <BrowserRouter basename='/'>
         <HeaderLine />
         <Switch>
           <Route exact path='/' component={MainContainer} />
           <Route path='/detailedPage/pokemon/' component={DetailedPage} />
+          <Route path="/" component={() => <div>page not found</div>} />
         </Switch>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

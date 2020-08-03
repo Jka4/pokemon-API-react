@@ -1,8 +1,8 @@
-import React, { Suspense } from 'react';
+import React, { lazy, Suspense } from "react";
 import Loader from 'react-loader-spinner'
-import ImageContainer from '../ImageContainer/ImageContainer';
 import Tilt from "react-tilt";
 
+const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 
 const Logo = () => {
 	return (

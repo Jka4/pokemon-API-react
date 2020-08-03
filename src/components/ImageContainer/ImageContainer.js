@@ -3,7 +3,6 @@ import { useImage } from 'react-image'
 import Boundary from '../utils/Boundary';
 
 const ImageContainer = (props) => {
-
   const ImageWrapper = (props) => {
     const { url, cn } = props.props
     const { src } = useImage({

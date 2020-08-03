@@ -1,6 +1,6 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './index';
+import { render } from '@testing-library/react';
+import App from '../view/index';
 
 
 describe('App', () => {
