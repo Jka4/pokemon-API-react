@@ -1,6 +1,6 @@
 import React from 'react';
 
-const List = () => {
+const Heading = () => {
 	return (
 		<h2 className='titles' >
 			<ul className='titlesList' >
@@ -13,4 +13,4 @@ const List = () => {
 	);
 };
 
-export default List
+export default Heading

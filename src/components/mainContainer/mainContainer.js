@@ -1,13 +1,14 @@
 import React from 'react';
 import Loader from 'react-loader-spinner'
 import { Provider, connect } from 'react-redux';
+import { FixedSizeList as List } from 'react-window';
 
 import GetButton from "../GetButton/GetButton";
 import store from "../../store";
 import { setDelailedPageData } from "../utils/API";
 import './styles/style.scss';
 import PokemonCard from './PokemonCard';
-import List from './List';
+import Heading from './Heading';
 import Logo from './Logo';
 
 const MainContainer = props => {
@@ -32,7 +33,7 @@ const MainContainer = props => {
     <section className='main'>
       <Logo />
       <GetButton />
-      {hasDataForRender && < List />}
+      {hasDataForRender && < Heading />}
 
       <div className='itemList'>
         <div className='cardsContainer'>
