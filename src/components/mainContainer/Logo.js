@@ -5,6 +5,8 @@ import Tilt from "react-tilt";
 const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 
 const Logo = () => {
+	const url = 'https://github.com/Jka4/pokemon-API-react/blob/master/public/images/pokemon.gif?raw=true';
+
 	return (
 		<div className='getButtonLine'>
 			<Tilt
@@ -18,7 +20,7 @@ const Logo = () => {
 					<Suspense fallback={<Loader type="TailSpin" height={120}
 						width={150} color={"red"}
 					/>}>
-						<ImageContainer url={'/images/pokemon.gif'} />
+						<ImageContainer url={url} />
 					</Suspense>
 				</div>
 			</Tilt>

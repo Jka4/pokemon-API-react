@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/style.scss';
 import useSound from 'use-sound';
 
-const soundUrl = "/sound/pokemon_opening.mp3";
+const soundUrl = "https://raw.githubusercontent.com/Jka4/pokemon-API-react/master/public/sound/pokemon_opening.mp3";
 
 const Player = () => {
   const [play, { stop, isPlaying }] = useSound(soundUrl);
@@ -21,5 +21,3 @@ const Player = () => {
 }
 
 export default Player;
-
-
