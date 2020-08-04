@@ -1,6 +1,6 @@
 import React from 'react';
 import { useImage } from 'react-image'
-import Boundary from '../utils/Boundary';
+import ErrorBoundary from '../utils/ErrorBoundary';
 
 const ImageContainer = (props) => {
   const ImageWrapper = (props) => {
@@ -17,9 +17,9 @@ const ImageContainer = (props) => {
   }
 
   return (
-    <React.Fragment>
-      <Boundary component={<ImageWrapper props={props} />} />
-    </React.Fragment>
+    <ErrorBoundary >
+      <ImageWrapper props={props} />
+    </ErrorBoundary>
   )
 }
 
