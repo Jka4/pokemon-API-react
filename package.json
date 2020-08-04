@@ -2,6 +2,15 @@
   "name": "pokedex",
   "version": "0.1.0",
   "license": "GPL-3.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom-fourteen",
+    "deploy": "gh-pages -d build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "docker-build": "docker build -t jka42/pokemon-api .",
+    "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
+  },
   "dependencies": {
     "@testing-library/react": "^10.4.7",
     "axios": "^0.19.2",
@@ -34,15 +43,6 @@
     "use-sound": "^1.0.2"
   },
   "homepage": "http://jka4.github.io/pokemon-API-react",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "deploy": "gh-pages -d build",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "docker-build": "docker build -t jka42/pokemon-api .",
-    "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",

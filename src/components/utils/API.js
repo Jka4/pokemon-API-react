@@ -3,9 +3,10 @@ import * as _ from 'lodash';
 import axios from 'axios';
 
 
-export let getRandomPokemon = () => {
-  const randomNumber = Math.floor(1 + Math.random() * 806);
+export let getRandomPokemon = (amount = 806) => {
+  const randomNumber = Math.floor(1 + Math.random() * amount);
   const URL = `https://pokeapi.co/api/v2/pokemon/${randomNumber}/`;
+
   store.dispatch({ type: "add_counter" });
 
   axios.get(URL)

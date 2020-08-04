@@ -8,7 +8,7 @@ const PokemonCard = (props) => {
 	const { src, name, order, base_experience, id, onClick } = props;
 
 	return (
-		<NavLink to={`/detailedPage/pokemon/${name}`} className='pokemonCard_Outher' data-pokemon_id={id} onClick={onClick}
+		<NavLink to={`/detailedPage/pokemon/${name}`} data-testid="testId" className='pokemonCard_Outher' data-pokemon_id={id} onClick={onClick}
 			key={id}>
 			<div className='pokemonCard'>
 				<div className="imageWrapper">
@@ -21,7 +21,6 @@ const PokemonCard = (props) => {
 								width={50} color={"red"}
 							/>)
 						)}
-
 				</div>
 				<span>{name}</span>
 				<span>{order}</span>

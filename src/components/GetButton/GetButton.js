@@ -11,7 +11,7 @@ const GetButton = (props) => {
 
   return (
     <div className='Button'>
-      <button id='getPokemon' onClick={getRandomPokemon}>
+      <button id='getPokemon' onClick={() => getRandomPokemon(806)}>
         GET A RANDOM POKEMON
         </button>
 
