@@ -12,7 +12,7 @@ import DetailedPage from "../../DetailedPage/DetailedPage";
 
 const App = () => {
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename='/pokemon-API-react'>
       <div className='App'>
         <HeaderLine />
         <Switch>
