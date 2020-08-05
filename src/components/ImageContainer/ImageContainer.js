@@ -11,7 +11,7 @@ const ImageContainer = (props) => {
 
     return (
       <React.Fragment>
-        <img src={src} alt='pokemon' className={cn !== undefined ? cn : ''} />
+        <img src={src} alt={cn !== undefined ? cn : ''} className={cn !== undefined ? cn : ''} />
       </React.Fragment>
     )
   }

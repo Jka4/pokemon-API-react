@@ -5,8 +5,7 @@ import axios from 'axios';
 
 export let getRandomPokemon = (amount = 806) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
-  const URL = `https://pokeapi.co/api/v2/pokemon/${randomNumber}/`;
-
+  const URL = `https://pokeapi.co/api/v2/pokemon/${1}/`;
   store.dispatch({ type: "add_counter" });
 
   axios.get(URL)
@@ -19,17 +18,21 @@ export let getRandomPokemon = (amount = 806) => {
     });
 };
 
-export const setDelailedPageData = (event, isSearch) => {
+export const setDelailedPageData = async (event, isSearch) => {
   let pokemon_id;
 
-  if (isSearch === true) {
-    pokemon_id = event.currentTarget.closest("LI").dataset.id;
+  if (typeof event === 'number') {
+    pokemon_id = event
   } else {
-    pokemon_id = event.currentTarget.dataset.pokemon_id;
+    if (isSearch === true) {
+      pokemon_id = event.currentTarget.closest("LI").dataset.id;
+    } else {
+      pokemon_id = event.currentTarget.dataset.pokemon_id;
+    }
   }
 
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
-  axios.get(URL)
+  await axios.get(URL)
     .then((response) => {
       const page = response.data;
 
@@ -39,9 +42,6 @@ export const setDelailedPageData = (event, isSearch) => {
       findBigImage(page);
       findSmallImagesLength(page);
       store.dispatch({ type: "set_detailsPage", page });
-    })
-    .catch((error) => {
-      console.log(error);
     });
 };
 

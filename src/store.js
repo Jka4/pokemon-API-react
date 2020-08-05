@@ -97,8 +97,5 @@ export default store;
 
 store.subscribe(() => {
   let currentState = store.getState();
-  // console.clear();
-  // console.log("store", currentState);
-
   ls.set("state_pokemon", currentState);
 });

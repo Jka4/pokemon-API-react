@@ -9,7 +9,7 @@ import './styles/style.scss';
 const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 
 const DetailedPage = props => {
-  const data = props.detailsPage;
+  const data = props.detailsPageTest || props.detailsPage;
   const { sprites, name } = data;
   const { bigImage, smallImageCount } = props;
 
@@ -19,7 +19,7 @@ const DetailedPage = props => {
   }
 
   return (
-    <div className='detailedPage'>
+    <div className='detailedPage' data-testid="detailedPageTest">
       <Link to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </Link>
       <div className='name'>{name}</div>
       <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
@@ -45,7 +45,7 @@ const DetailedPage = props => {
         {bigImage && <Suspense fallback={<Loader type="TailSpin" height={250}
           width={250} color={"red"}
         />}>
-          <ImageContainer url={bigImage} />
+          <ImageContainer url={bigImage} cn={'bigImage'} />
         </Suspense>}
       </div>
     </div >

@@ -7,6 +7,3 @@ describe('MainContainer', () => {
 		render(<MainContainer />);
 	});
 });
-
-
-
