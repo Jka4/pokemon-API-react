@@ -1,8 +1,8 @@
 import React from "react";
 import { render, fireEvent, screen } from '@testing-library/react';
-import MainContainer from '../MainContainer';
+import MainContainer from '@MainContainer';
 import { BrowserRouter as Router } from "react-router-dom";
-import { getRandomPokemon } from "../../utils/API";
+import { getRandomPokemon } from "@APIutils";
 
 const PokemonCardFetch = () => {
 	const handleClick = () => {

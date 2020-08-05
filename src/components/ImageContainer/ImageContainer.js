@@ -1,6 +1,6 @@
 import React from 'react';
 import { useImage } from 'react-image'
-import ErrorBoundary from '../utils/ErrorBoundary';
+import ErrorBoundary from '@ErrorBoundary';
 
 const ImageContainer = (props) => {
   const ImageWrapper = (props) => {

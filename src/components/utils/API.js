@@ -1,4 +1,4 @@
-import store from "../../store";
+import store from "@Store";
 import * as _ from 'lodash';
 import axios from 'axios';
 

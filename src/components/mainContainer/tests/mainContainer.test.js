@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import MainContainer from '../MainContainer';
+import MainContainer from '@MainContainer';
 
 describe('MainContainer', () => {
 	test('renders MainContainer component', () => {

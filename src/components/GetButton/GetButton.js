@@ -1,6 +1,7 @@
 import React from "react";
-import store from "../../store";
-import { getRandomPokemon } from "../utils/API";
+import store from "@Store";
+import { getRandomPokemon } from "@APIutils";
+
 import './styles/style.scss';
 
 

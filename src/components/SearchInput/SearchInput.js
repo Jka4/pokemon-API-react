@@ -1,13 +1,14 @@
 import React, { lazy, Suspense } from "react";
 import { Provider, connect } from 'react-redux';
-import store from "../../store";
 import Loader from 'react-loader-spinner'
-
-import POKEMONS from "../utils/pokemonDataArray";
-import Fuse from "fuse.js";
 import { NavLink } from "react-router-dom";
+import store from "@Store";
+
+import Fuse from "fuse.js";
+import POKEMONS from "@pokemonDataArray";
+import { setDelailedPageData } from '@APIutils';
+
 import './styles/style.scss';
-import { setDelailedPageData } from '../utils/API';
 
 const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
 

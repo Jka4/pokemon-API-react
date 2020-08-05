@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import store from "../../store";
+import store from "@Store";
 import { Provider, connect } from 'react-redux';
 import { Link } from "react-router-dom";
 import Loader from 'react-loader-spinner'

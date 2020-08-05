@@ -1,14 +1,16 @@
 import React from 'react';
 import Loader from 'react-loader-spinner'
 import { Provider, connect } from 'react-redux';
+import store from "@Store";
 
-import GetButton from "../GetButton/GetButton";
-import store from "../../store";
-import { setDelailedPageData } from "../utils/API";
+import GetButton from "@GetButton";
+import { setDelailedPageData } from "@APIutils";
+import PokemonCard from '@PokemonCard';
+import Heading from '@Heading';
+import Logo from '@Logo';
+
 import './styles/style.scss';
-import PokemonCard from './PokemonCard';
-import Heading from './Heading';
-import Logo from './Logo';
+
 
 const MainContainer = props => {
   const dataToRender = props.randomPokemons;

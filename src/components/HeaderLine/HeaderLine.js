@@ -1,6 +1,7 @@
 import React from 'react';
-import SearchInput from "../SearchInput/SearchInput";
-import Player from "../Player/Player";
+import SearchInput from "@SearchInput";
+import Player from "@Player";
+
 import './styles/style.scss';
 
 const HeaderLine = () => {

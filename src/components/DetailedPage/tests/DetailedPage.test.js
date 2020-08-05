@@ -1,8 +1,8 @@
 import React from "react";
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from "react-router-dom";
-import { setDelailedPageData } from "../../utils/API";
-import DetailedPage from '../DetailedPage';
+import { setDelailedPageData } from "@APIutils";
+import DetailedPage from '@DetailedPage';
 
 test('Fetch detailed page', async () => {
 	await setDelailedPageData(1);

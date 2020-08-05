@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './view/index';
+import App from '@App';
 
 export default function () {
 	return <App />

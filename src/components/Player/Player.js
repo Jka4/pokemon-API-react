@@ -1,6 +1,7 @@
 import React from 'react';
-import './styles/style.scss';
 import useSound from 'use-sound';
+
+import './styles/style.scss';
 
 const soundUrl = "https://raw.githubusercontent.com/Jka4/pokemon-API-react/master/public/sound/pokemon_opening.mp3";
 
