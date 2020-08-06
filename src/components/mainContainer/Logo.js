@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from "react";
 import Loader from 'react-loader-spinner'
 import Tilt from "react-tilt";
 
-const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
+const ImageContainer = lazy(() => import('@ImageContainer'));
 
 const Logo = () => {
 	const url = 'https://github.com/Jka4/pokemon-API-react/blob/master/public/images/pokemon.gif?raw=true';

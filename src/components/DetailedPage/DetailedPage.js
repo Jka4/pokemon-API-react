@@ -6,7 +6,7 @@ import Loader from 'react-loader-spinner'
 
 import './styles/style.scss';
 
-const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
+const ImageContainer = lazy(() => import('@ImageContainer'));
 
 const DetailedPage = props => {
   const data = props.detailsPageTest || props.detailsPage;

@@ -10,7 +10,7 @@ import { setDelailedPageData } from '@APIutils';
 
 import './styles/style.scss';
 
-const ImageContainer = lazy(() => import('../ImageContainer/ImageContainer.js'));
+const ImageContainer = lazy(() => import('@ImageContainer'));
 
 let fuseOptions = {
   shouldSort: true,

@@ -1,21 +1,21 @@
 const CracoAlias = require("craco-alias");
 
 const pathConfig = {
-	"@GetButton": "./src/components/GetButton/GetButton",
+	"@App": "./src/components/App/view/index",
 	"@Store": "./src/store.js",
 	"@APIutils": "./src/components/utils/API",
-	"@pokemonDataArray": "./src/components/utils/pokemonDataArray",
 	"@ErrorBoundary": "./src/components/utils/ErrorBoundary",
+	"@pokemonDataArray": "./src/components/utils/pokemonDataArray",
+	"@ImageContainer": "./src/components/ImageContainer/ImageContainer",
+	"@MainContainer": "./src/components/MainContainer/MainContainer",
+	"@HeaderLine": "./src/components/HeaderLine/HeaderLine",
+	"@SearchInput": "./src/components/SearchInput/SearchInput",
+	"@DetailedPage": "./src/components/DetailedPage/DetailedPage",
+	"@GetButton": "./src/components/GetButton/GetButton",
 	"@PokemonCard": "./src/components/MainContainer/PokemonCard",
 	"@Heading": "./src/components/MainContainer/Heading",
 	"@Logo": "./src/components/MainContainer/Logo",
-	"@MainContainer": "./src/components/MainContainer/MainContainer",
-	"@HeaderLine": "./src/components/HeaderLine/HeaderLine",
-	"@DetailedPage": "./src/components/DetailedPage/DetailedPage",
-	"@SearchInput": "./src/components/SearchInput/SearchInput",
-	"@Player": "./src/components/Player/Player",
-	"@App": "./src/components/App/view/index",
-	"@MainContainer": "./src/components/MainContainer/MainContainer",
+	"@Player": "./src/components/Player/Player"
 }
 
 module.exports = {
