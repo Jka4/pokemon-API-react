@@ -1,9 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import GetButton from '@GetButton';
+import renderer from 'react-test-renderer';
 
-describe('GetButton', () => {
-	test('renders GetButton component', () => {
-		render(<GetButton />);
-	});
+it('renders correctly', async () => {
+	const tree = renderer
+		.create(<GetButton />)
+		.toJSON();
+	expect(tree).toMatchSnapshot();
 });

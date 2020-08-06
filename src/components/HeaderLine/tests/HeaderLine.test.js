@@ -1,9 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import HeaderLine from '@HeaderLine';
+import renderer from 'react-test-renderer';
 
-describe('HeaderLine', () => {
-	test('renders HeaderLine component', () => {
-		render(<HeaderLine />);
-	});
+it('renders correctly', async () => {
+	const tree = renderer
+		.create(<HeaderLine />)
+		.toJSON();
+	expect(tree).toMatchSnapshot();
 });

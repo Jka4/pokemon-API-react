@@ -2,7 +2,7 @@ const CracoAlias = require("craco-alias");
 
 const pathConfig = {
 	"@App": "./src/components/App/view/index",
-	"@Store": "./src/store.js",
+	"@Store": "./src/Store/store.js",
 	"@APIutils": "./src/components/utils/API",
 	"@ErrorBoundary": "./src/components/utils/ErrorBoundary",
 	"@pokemonDataArray": "./src/components/utils/pokemonDataArray",

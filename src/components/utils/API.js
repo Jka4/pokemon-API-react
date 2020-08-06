@@ -3,15 +3,15 @@ import * as _ from 'lodash';
 import axios from 'axios';
 
 
-export let getRandomPokemon = (amount = 806) => {
+export let getRandomPokemon = async (amount = 806) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
   const URL = `https://pokeapi.co/api/v2/pokemon/${randomNumber}/`;
   store.dispatch({ type: "add_counter" });
 
-  axios.get(URL)
-    .then((response) => {
+  await axios.get(URL)
+    .then(async (response) => {
       let randomPokemons = response.data;
-      store.dispatch({ type: "add_random_pokemons", randomPokemons });
+      await store.dispatch({ type: "add_random_pokemons", randomPokemons });
     })
     .catch((error) => {
       console.log(error);
@@ -33,7 +33,7 @@ export const setDelailedPageData = async (event, isSearch) => {
 
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
   await axios.get(URL)
-    .then((response) => {
+    .then(async (response) => {
       const page = response.data;
 
       delete page.sprites.other;
@@ -41,7 +41,7 @@ export const setDelailedPageData = async (event, isSearch) => {
 
       findBigImage(page);
       findSmallImagesLength(page);
-      store.dispatch({ type: "set_detailsPage", page });
+      await store.dispatch({ type: "set_detailsPage", page });
     });
 };
 
@@ -50,7 +50,7 @@ const findBigImage = async (sprites) => {
   await axios.get(url) && store.dispatch({ type: "set_bigImage", url });
 }
 
-const findSmallImagesLength = (data) => {
+const findSmallImagesLength = async (data) => {
   let count = _.countBy(data.sprites, (el) => el !== null).true;
-  store.dispatch({ type: "set_smallImageCount", count });
+  await store.dispatch({ type: "set_smallImageCount", count });
 }

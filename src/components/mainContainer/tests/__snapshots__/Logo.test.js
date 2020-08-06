@@ -1,10 +1,10 @@
 import React from 'react';
-import MainContainer from '@MainContainer';
+import Logo from '@Logo';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', async () => {
 	const tree = renderer
-		.create(<MainContainer />)
+		.create(<Logo />)
 		.toJSON();
 	expect(tree).toMatchSnapshot();
 });

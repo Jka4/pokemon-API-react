@@ -1,12 +1,12 @@
 {
   "name": "pokedex",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "craco start -d",
+    "build": "craco build -d",
     "test": "craco test --env=jsdom-fourteen",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -p build",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "docker-build": "docker build -t jka42/pokemon-api .",
     "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
@@ -37,6 +37,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
     "react-tilt": "^0.1.4",
     "react-window": "^1.8.5",
     "redux": "^4.0.5",

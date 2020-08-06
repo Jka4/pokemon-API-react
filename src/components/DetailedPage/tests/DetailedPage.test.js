@@ -3,6 +3,17 @@ import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from "react-router-dom";
 import { setDelailedPageData } from "@APIutils";
 import DetailedPage from '@DetailedPage';
+import renderer from 'react-test-renderer';
+
+
+it('renders correctly', async () => {
+	await setDelailedPageData(1);
+
+	const tree = renderer
+		.create(<Router><DetailedPage /></Router>)
+		.toJSON();
+	expect(tree).toMatchSnapshot();
+});
 
 test('Fetch detailed page', async () => {
 	await setDelailedPageData(1);

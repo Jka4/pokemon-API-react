@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="Button"
+>
+  <button
+    id="getPokemon"
+    onClick={[Function]}
+  >
+    GET A RANDOM POKEMON
+  </button>
+  <button
+    id="clear"
+    onClick={[Function]}
+  >
+    Clear
+  </button>
+</div>
+`;
