@@ -1,5 +1,4 @@
 import React from 'react';
-import Loader from 'react-loader-spinner'
 import { Provider, connect } from 'react-redux';
 import store from "@Store";
 
@@ -8,9 +7,9 @@ import { setDelailedPageData } from "@APIutils";
 import PokemonCard from '@PokemonCard';
 import Heading from '@Heading';
 import Logo from '@Logo';
+import HeaderLine from "@HeaderLine";
 
 import './styles/style.scss';
-
 
 const MainContainer = props => {
   const dataToRender = props.randomPokemons;
@@ -18,6 +17,8 @@ const MainContainer = props => {
 
   return (
     <section className='main'>
+      <HeaderLine />
+
       <Logo />
       <GetButton />
       {hasDataForRender && < Heading />}

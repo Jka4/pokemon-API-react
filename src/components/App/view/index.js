@@ -6,18 +6,17 @@ import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
 import MainContainer from "@MainContainer";
-import HeaderLine from "@HeaderLine";
 import DetailedPage from "@DetailedPage";
-
+import AllPokemonsPage from '@AllPokemonsPage';
 
 const App = () => {
   return (
     <BrowserRouter basename='/pokemon-API-react'>
       <div className='App'>
-        <HeaderLine />
         <Switch>
           <Route exact path='/' component={MainContainer} />
           <Route path='/detailedPage/pokemon/' component={DetailedPage} />
+          <Route path='/allPokemons' component={AllPokemonsPage} />
           <Route path="/" component={() => <div>page not found</div>} />
         </Switch>
       </div>

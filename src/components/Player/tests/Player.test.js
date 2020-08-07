@@ -9,7 +9,7 @@ test('renders learn react link', () => {
 	expect(linkElement).toBeInTheDocument();
 });
 
-it('renders correctly', async () => {
+it('Player renders correctly', async () => {
 	const tree = renderer
 		.create(<Player />)
 		.toJSON();

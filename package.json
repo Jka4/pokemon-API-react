@@ -16,6 +16,7 @@
     "@hot-loader/react-dom": "^16.13.0",
     "@mate-academy/eslint-config": "^0.0.12",
     "@testing-library/react": "^10.4.7",
+    "aos": "^2.3.4",
     "axios": "^0.19.2",
     "cesium": "^1.72.0",
     "craco-alias": "^2.1.1",

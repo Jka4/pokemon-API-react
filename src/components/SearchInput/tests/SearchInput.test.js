@@ -9,7 +9,7 @@ describe('SearchInput', () => {
 	});
 });
 
-it('renders correctly', async () => {
+it(' SearchInputrenders correctly', async () => {
 	const tree = renderer
 		.create(<SearchInput />)
 		.toJSON();

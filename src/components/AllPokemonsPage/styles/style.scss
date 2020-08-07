@@ -1,0 +1,122 @@
+.smallPokemonCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  border-radius: 10px;
+  background: #4c4cffd9;
+  cursor: pointer;
+  min-width: 160px;
+  min-height: 240px;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  .pokemonLogo {
+    width: 100%;
+    text-align: center;
+    min-height: 160px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .pokemonName {
+    color: black;
+    font-size: 24px;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.allPokemonsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+/* *** loader  */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(0deg);
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-top-color: rgba(0, 0, 255, 0.5);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.loader {
+  display: block;
+  position: relative;
+  margin: 75px auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.loader div {
+  height: 100%;
+}
+
+.loader,
+.loader div {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: rgba(0, 0, 0, 0.5);
+  border-bottom-color: rgba(0, 0, 255, 0.5);
+  padding: 8px;
+  animation: rotate linear 3.5s infinite;
+}
+
+.loader,
+.loader * {
+  will-change: transform;
+}
+
+.loadNext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.playButtons {
+  top: 60px;
+}

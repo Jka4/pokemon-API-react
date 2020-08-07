@@ -23,7 +23,7 @@ test('Fetch makes an API call', async () => {
 })
 
 
-it('renders correctly', async () => {
+it('MainContainer renders correctly', async () => {
 	getRandomPokemon(1);
 
 	const tree = renderer

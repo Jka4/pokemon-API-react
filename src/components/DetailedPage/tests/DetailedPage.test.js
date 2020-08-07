@@ -6,7 +6,7 @@ import DetailedPage from '@DetailedPage';
 import renderer from 'react-test-renderer';
 
 
-it('renders correctly', async () => {
+it('DetailedPage renders correctly', async () => {
 	await setDelailedPageData(1);
 
 	const tree = renderer

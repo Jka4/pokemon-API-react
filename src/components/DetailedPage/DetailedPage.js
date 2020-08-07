@@ -3,6 +3,7 @@ import store from "@Store";
 import { Provider, connect } from 'react-redux';
 import { Link } from "react-router-dom";
 import Loader from 'react-loader-spinner'
+import HeaderLine from "@HeaderLine";
 
 import './styles/style.scss';
 
@@ -19,36 +20,39 @@ const DetailedPage = props => {
   }
 
   return (
-    <div className='detailedPage' data-testid="detailedPageTest">
-      <Link to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </Link>
-      <div className='name'>{name}</div>
-      <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
-        {sprites && Object.keys(sprites).map(
-          spriteName =>
-            sprites[spriteName] && (
-              <div className='block' key={spriteName}>
-                <Suspense fallback={<Loader type="TailSpin" height={50}
-                  width={50} color={"red"}
-                />}>
-                  <ImageContainer url={sprites[spriteName]} />
-                </Suspense>
-                <div className='title'>{spriteName}</div>
-              </div>
-            )
-        )}
+    <React.Fragment>
+      <HeaderLine />
+      <div className='detailedPage' data-testid="detailedPageTest">
+        <Link to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </Link>
+        <div className='name'>{name}</div>
+        <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
+          {sprites && Object.keys(sprites).map(
+            spriteName =>
+              sprites[spriteName] && (
+                <div className='block' key={spriteName}>
+                  <Suspense fallback={<Loader type="TailSpin" height={50}
+                    width={50} color={"red"}
+                  />}>
+                    <ImageContainer url={sprites[spriteName]} />
+                  </Suspense>
+                  <div className='title'>{spriteName}</div>
+                </div>
+              )
+          )}
+        </div>
+        <div className='skills'>
+          <Stats props={props} />
+          <Abilities props={props} />
+        </div>
+        <div className="bigImage">
+          {bigImage && <Suspense fallback={<Loader type="TailSpin" height={250}
+            width={250} color={"red"}
+          />}>
+            <ImageContainer url={bigImage} cn={'bigImage'} />
+          </Suspense>}
+        </div>
       </div>
-      <div className='skills'>
-        <Stats props={props} />
-        <Abilities props={props} />
-      </div>
-      <div className="bigImage">
-        {bigImage && <Suspense fallback={<Loader type="TailSpin" height={250}
-          width={250} color={"red"}
-        />}>
-          <ImageContainer url={bigImage} cn={'bigImage'} />
-        </Suspense>}
-      </div>
-    </div >
+    </React.Fragment>
   );
 
 }

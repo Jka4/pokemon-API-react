@@ -2,7 +2,7 @@ import React from 'react';
 import MainContainer from '@MainContainer';
 import renderer from 'react-test-renderer';
 
-it('renders correctly', async () => {
+it('MainContainer renders correctly', async () => {
 	const tree = renderer
 		.create(<MainContainer />)
 		.toJSON();

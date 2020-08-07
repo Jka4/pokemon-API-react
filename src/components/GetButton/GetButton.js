@@ -1,6 +1,7 @@
 import React from "react";
 import store from "@Store";
 import { getRandomPokemon } from "@APIutils";
+import { NavLink } from "react-router-dom";
 
 import './styles/style.scss';
 
@@ -17,8 +18,14 @@ const GetButton = (props) => {
         </button>
 
       <button id='clear' onClick={clearState}>
-        Clear
+        CLEAR
         </button>
+
+      <NavLink to={`/allPokemons`} >
+        <button id='getAllPokemon' >
+          GET ALL POKEMON
+        </button>
+      </NavLink>
     </div>
   );
 }
