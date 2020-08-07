@@ -16,20 +16,6 @@ const MainContainer = props => {
   const dataToRender = props.randomPokemons;
   const hasDataForRender = dataToRender && dataToRender.length >= 1;
 
-  // *** This code is needed for the fastest rendering of the interface,
-  // *** the PokemonCard will appear even before the API gives the data, 
-  // *** and until the data arrives, the spinner will be shown 
-  // *** plus there are fuses in case of a broken img link
-
-  const arrSkeletons = Array.from(Array(props.counter).keys());
-  let keys = (key) => (dataToRender[key] && dataToRender[key].id) + key + Math.floor(1 + Math.random() * 9999999999);
-  let id = (key) => dataToRender[key] && dataToRender[key].id;
-  let name = (key) => dataToRender[key] && dataToRender[key].name;
-  let src = (key) => dataToRender[key] && dataToRender[key].sprites && dataToRender[key].sprites.front_default;
-  let order = (key) => dataToRender[key] && dataToRender[key].order;
-  let base_experience = (key) => dataToRender[key] && dataToRender[key].base_experience;
-  let loader = <Loader type="ThreeDots" height={20} width={40} color={"red"} />;
-
   return (
     <section className='main'>
       <Logo />
@@ -38,15 +24,15 @@ const MainContainer = props => {
 
       <div className='itemList'>
         <div className='cardsContainer'>
-          {hasDataForRender &&
-            arrSkeletons.map((i, key) => (
+          {dataToRender &&
+            dataToRender.map((i, key) => (
               <PokemonCard
-                key={keys(key)}
-                id={id(key)}
-                src={src(key)}
-                name={name(key) || loader}
-                order={order(key) || loader}
-                base_experience={base_experience(key) || loader}
+                key={dataToRender[key].id + key + Math.floor(1 + Math.random() * 9999999999)}
+                id={dataToRender[key]?.id}
+                src={dataToRender[key]?.sprites?.front_default}
+                name={dataToRender[key]?.name}
+                order={dataToRender[key]?.order}
+                base_experience={dataToRender[key]?.base_experience}
                 onClick={setDelailedPageData}
               />
             ))}
@@ -59,8 +45,7 @@ const MainContainer = props => {
 
 const ConnectedMainContainer = connect(store => {
   return {
-    randomPokemons: store.randomPokemons,
-    counter: store.counter,
+    randomPokemons: store.randomPokemons
   };
 })(MainContainer);
 

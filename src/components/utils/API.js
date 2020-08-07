@@ -6,7 +6,6 @@ import axios from 'axios';
 export let getRandomPokemon = async (amount = 806) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
   const URL = `https://pokeapi.co/api/v2/pokemon/${randomNumber}/`;
-  store.dispatch({ type: "add_counter" });
 
   await axios.get(URL)
     .then(async (response) => {
