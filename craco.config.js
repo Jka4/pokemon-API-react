@@ -9,7 +9,7 @@ const pathConfig = {
 	"@ImageContainer": "./src/components/ImageContainer/ImageContainer",
 	"@MainContainer": "./src/components/MainContainer/MainContainer",
 	"@HeaderLine": "./src/components/HeaderLine/HeaderLine",
-	"@SearchInput": "./src/components/SearchInput/SearchInput",
+	"@Search": "./src/components/Search/Search",
 	"@DetailedPage": "./src/components/DetailedPage/DetailedPage",
 	"@GetButton": "./src/components/GetButton/GetButton",
 	"@PokemonCard": "./src/components/MainContainer/PokemonCard",
