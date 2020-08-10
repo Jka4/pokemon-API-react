@@ -1,5 +1,6 @@
 import { createStore } from "redux";
 import ls from "local-storage";
+import POKEMONS from "@pokemonDataArray";
 
 let defaultState = {
   randomPokemons: [],
@@ -11,7 +12,8 @@ let defaultState = {
   isFetching: false,
   smallImageCount: 0,
   counter: 0,
-  bigImage: ''
+  bigImage: '',
+  pokemonsArr: POKEMONS
 };
 
 let chachingStateToLocalStorage = () => {

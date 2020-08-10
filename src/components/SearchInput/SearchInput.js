@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 import store from "@Store";
 
 import Fuse from "fuse.js";
-import POKEMONS from "@pokemonDataArray";
 import { setDelailedPageData } from '@APIutils';
 
 import './styles/style.scss';
@@ -28,12 +27,13 @@ let fuseOptions = {
 };
 
 const SearchInput = (props) => {
+  const { pokemonDataArray, showResult, searchResult } = props;
 
   const handleChange = event => {
     let value = event.currentTarget.value;
     store.dispatch({ type: "set_input_value", value });
 
-    let fuse = new Fuse(POKEMONS, fuseOptions);
+    let fuse = new Fuse(pokemonDataArray, fuseOptions);
     let result = fuse.search(value).slice(0, 11);
 
     store.dispatch({ type: "set_searchResult", result });
@@ -43,6 +43,7 @@ const SearchInput = (props) => {
     let show = true;
     store.dispatch({ type: "SHOW_RESULT", show });
   };
+
 
   return (
     <div className='search'>
@@ -56,13 +57,15 @@ const SearchInput = (props) => {
         autoComplete='off'
         aria-label="Search"
       />
-      {props.showResult && <SearchResults searchResult={props.searchResult} />}
+      {showResult && <SearchResults searchResult={searchResult} />}
     </div>
   );
 }
 
 
 let SearchResults = (props) => {
+  const { searchResult } = props;
+
   let handleClick = event => {
     let show = false;
 
@@ -73,7 +76,7 @@ let SearchResults = (props) => {
   return (
     <div className='searchResults'>
       <ul className='searchList'>
-        {props.searchResult.map((i, key) => (
+        {searchResult.map((i, key) => (
           <NavLink key={(i.item.id, key)}
             to={`/detailedPage/pokemon/${i.item.name}`} className='searchItem_outer' >
             <li
@@ -96,14 +99,11 @@ let SearchResults = (props) => {
   );
 };
 
-
-
-
 const ConnectedSearchInput = connect(store => {
   return {
     showResult: store.showResult,
     searchResult: store.searchResult,
-
+    pokemonDataArray: store.pokemonsArr,
   };
 })(SearchInput);
 

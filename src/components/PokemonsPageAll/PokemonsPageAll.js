@@ -1,17 +1,22 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
-import Loader from 'react-loader-spinner'
-import HeaderLine from "@HeaderLine";
-import { Link } from "react-router-dom";
-import pokemonDataArray from '@pokemonDataArray';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import Loader from 'react-loader-spinner'
+import { Link } from "react-router-dom";
+
+import HeaderLine from "@HeaderLine";
 import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
+
+import { Provider, connect } from 'react-redux';
+import store from "@Store";
 
 import './styles/style.scss';
 
 const ImageContainer = lazy(() => import('@ImageContainer'));
 
-const AllPokemonsPage = () => {
+const AllPokemonsPage = (props) => {
+  const { pokemonDataArray } = props
+
   const [pokemons, setPokemons] = useState([]);
   const [pokemonCount, setPokemonCount] = useState(0);
 
@@ -64,4 +69,15 @@ const AllPokemonsPage = () => {
   )
 }
 
-export default AllPokemonsPage;
+
+const ConnectedAllPokemonsPage = connect(store => {
+  return {
+    pokemonDataArray: store.pokemonsArr,
+  };
+})(AllPokemonsPage);
+
+export default props => (
+  <Provider store={store}>
+    <ConnectedAllPokemonsPage {...props} />
+  </Provider>
+);
