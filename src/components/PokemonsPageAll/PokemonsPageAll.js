@@ -1,8 +1,11 @@
-import React, { useEffect, lazy, Suspense, useState } from "react";
+import React, { lazy, Suspense, useState, useEffect } from "react";
 import Loader from 'react-loader-spinner'
-import axios from 'axios';
 import HeaderLine from "@HeaderLine";
 import { Link } from "react-router-dom";
+import pokemonDataArray from '@pokemonDataArray';
+import InfiniteScroll from 'react-infinite-scroll-component';
+import { setDelailedPageData } from "@APIutils";
+import { NavLink } from "react-router-dom";
 
 import './styles/style.scss';
 
@@ -16,47 +19,46 @@ const AllPokemonsPage = () => {
     fetchAllPokemons();
   }, []);
 
-  const fetchAllPokemons = async () => {
-    const howMuchToDownload = 40;
+  const fetchAllPokemons = () => {
+    const howMuchToDownload = 70;
+    let arr = [];
 
     for (let i = pokemonCount + 1; i <= pokemonCount + howMuchToDownload; i++) {
-      const URL = `https://pokeapi.co/api/v2/pokemon/${i}/`;
-      await axios.get(URL)
-        .then(async (response) => {
-          setPokemons(pokemons => [...pokemons, response.data]);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      arr.push(pokemonDataArray[i + 1])
     }
-    setPokemonCount(pokemons.length + howMuchToDownload)
-  }
 
-  const loadNext = () => {
-    fetchAllPokemons();
+    setPokemons(pokemons => [...pokemons, ...arr]);
+    setPokemonCount(pokemons.length + howMuchToDownload)
   }
 
   return (
     <React.Fragment>
       <HeaderLine />
       <Link to='/' className='backToMainPage' > Back </Link>
-
       <section className='main'>
-        <div className="allPokemonsWrapper"  >
+        <InfiniteScroll
+          pageStart={1}
+          dataLength={pokemons.length}
+          next={fetchAllPokemons}
+          hasMore={pokemons.length < 806}
+          loader={<h4>Loading...</h4>}
+          className='allPokemonsWrapper'
+          endMessage={<p className="pokemon-end">No more pokemons :(</p>}
+        >
           {pokemons.map((index, key) => (
-            <div className="smallPokemonCard" key={index + Math.floor(1 + Math.random() * 9999999999)} >
+            <NavLink to={`/detailedPage/pokemon/${index?.name}`} className='smallPokemonCard' data-pokemon_id={index?.id} onClick={setDelailedPageData}
+              key={index + Math.floor(1 + Math.random() * 9999999999)}>
               <div className="pokemonLogo">
                 <Suspense fallback={<Loader type="TailSpin" height={90}
                   width={110} color={"red"}
                 />}>
-                  <ImageContainer url={index?.sprites?.front_default} />
+                  <ImageContainer url={index?.image} />
                 </Suspense>
               </div>
-              <div className="pokemonName">{index?.name} {index?.id}</div>
-            </div>
+              <div className="pokemonName">{index?.name}</div>
+            </NavLink>
           ))}
-        </div>
-        <button className="loadNext" onClick={loadNext} >Load Next</button>
+        </InfiniteScroll>
       </section>
     </React.Fragment>
   )

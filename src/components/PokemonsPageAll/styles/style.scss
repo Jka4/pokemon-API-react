@@ -7,8 +7,9 @@
   border-radius: 10px;
   background: #4c4cffd9;
   cursor: pointer;
-  min-width: 160px;
+  width: 160px;
   min-height: 240px;
+  object-fit: cover;
 
   &:hover {
     transform: scale(1.02);
@@ -19,15 +20,21 @@
     text-align: center;
     min-height: 160px;
 
-    img {
+
+    img,
+    svg {
       width: 100%;
       height: auto;
+      object-fit: cover;
     }
   }
 
   .pokemonName {
     color: black;
     font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
     &::first-letter {
       text-transform: uppercase;
@@ -42,76 +49,13 @@
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: 50px;
-}
-
-/* *** loader  */
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate2 {
-  0% {
-    transform: rotate(0deg);
-    border-top-color: rgba(0, 0, 0, 0.5);
-  }
-
-  50% {
-    transform: rotate(180deg);
-    border-top-color: rgba(0, 0, 255, 0.5);
-  }
-
-  100% {
-    transform: rotate(360deg);
-    border-top-color: rgba(0, 0, 0, 0.5);
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.loader {
-  display: block;
-  position: relative;
-  margin: 75px auto;
-  margin-top: 50px;
-  width: 400px;
-  height: 400px;
-  overflow: hidden;
-}
-
-.loader div {
-  height: 100%;
-}
-
-.loader,
-.loader div {
-  border: 2px solid transparent;
-  border-radius: 50%;
-  border-top-color: rgba(0, 0, 0, 0.5);
-  border-bottom-color: rgba(0, 0, 255, 0.5);
-  padding: 8px;
-  animation: rotate linear 3.5s infinite;
-}
-
-.loader,
-.loader * {
-  will-change: transform;
+  min-height: 100vh;
+  margin-bottom: 100px;
 }
 
 .loadNext {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -119,4 +63,23 @@
 
 .playButtons {
   top: 60px;
+}
+
+
+.loader {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-end {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 26px;
 }
