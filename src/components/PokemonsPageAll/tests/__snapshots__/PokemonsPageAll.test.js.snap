@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllPokemonsPage renders correctly 1`] = `
+Array [
+  <div
+    className="topLine"
+  >
+    <div
+      className="player"
+    >
+      <button
+        className="playButton"
+        onClick={[Function]}
+      >
+        PLAY
+      </button>
+    </div>
+    <div
+      className="search"
+    >
+      <input
+        aria-label="Search"
+        autoComplete="off"
+        id="searchInput"
+        name="searchInput"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Pickachu, 123, 900g"
+        type="search"
+      />
+      <div
+        className="searchResults"
+      >
+        <ul
+          className="searchList"
+        />
+      </div>
+    </div>
+  </div>,
+  <a
+    className="backToMainPage"
+    href="/"
+    onClick={[Function]}
+  >
+     Back 
+  </a>,
+  <section
+    className="main"
+  >
+    <div
+      className="infinite-scroll-component__outerdiv"
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component allPokemonsWrapper"
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <h4>
+          Loading...
+        </h4>
+      </div>
+    </div>
+  </section>,
+]
+`;
