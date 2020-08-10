@@ -45,8 +45,8 @@ const DetailedPage = props => {
           <Abilities props={props} />
         </div>
         <div className="bigImage">
-          {bigImage && <Suspense fallback={<Loader type="TailSpin" height={250}
-            width={250} color={"red"}
+          {bigImage && <Suspense fallback={<Loader type="TailSpin" height={320}
+            width={320} color={"red"}
           />}>
             <ImageContainer url={bigImage} cn={'bigImage'} />
           </Suspense>}
