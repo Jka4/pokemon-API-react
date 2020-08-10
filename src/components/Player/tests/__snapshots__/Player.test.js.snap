@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Player renders correctly 1`] = `
+<div
+  className="player"
+>
+  <button
+    className="playButton"
+    onClick={[Function]}
+  >
+    PLAY
+  </button>
+</div>
+`;

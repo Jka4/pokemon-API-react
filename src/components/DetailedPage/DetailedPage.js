@@ -15,8 +15,8 @@ const DetailedPage = props => {
   const { bigImage, smallImageCount } = props;
 
   const clearDetailPageData = () => {
-    store.dispatch({ type: "clear_detailsPage" })
-    store.dispatch({ type: "clear_bigImage" })
+    store.dispatch({ type: "clear_detailsPage" });
+    store.dispatch({ type: "clear_bigImage" });
   }
 
   return (

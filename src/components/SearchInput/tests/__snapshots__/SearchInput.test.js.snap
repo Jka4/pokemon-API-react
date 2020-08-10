@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` SearchInputrenders correctly 1`] = `
+<div
+  className="search"
+>
+  <input
+    aria-label="Search"
+    autoComplete="off"
+    id="searchInput"
+    name="searchInput"
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Pickachu, 123, 900g"
+    type="search"
+  />
+</div>
+`;

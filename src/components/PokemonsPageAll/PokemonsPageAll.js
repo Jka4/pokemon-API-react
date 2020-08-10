@@ -1,26 +1,23 @@
 import React, { useEffect, lazy, Suspense, useState } from "react";
 import Loader from 'react-loader-spinner'
 import axios from 'axios';
-import AOS from "aos";
 import HeaderLine from "@HeaderLine";
 import { Link } from "react-router-dom";
 
-import "aos/dist/aos.css";
 import './styles/style.scss';
 
 const ImageContainer = lazy(() => import('@ImageContainer'));
 
-const AllPokemonsPage = (props) => {
+const AllPokemonsPage = () => {
   const [pokemons, setPokemons] = useState([]);
   const [pokemonCount, setPokemonCount] = useState(0);
 
   useEffect(() => {
     fetchAllPokemons();
-    AOS.init();
   }, []);
 
   const fetchAllPokemons = async () => {
-    const howMuchToDownload = 10;
+    const howMuchToDownload = 40;
 
     for (let i = pokemonCount + 1; i <= pokemonCount + howMuchToDownload; i++) {
       const URL = `https://pokeapi.co/api/v2/pokemon/${i}/`;
