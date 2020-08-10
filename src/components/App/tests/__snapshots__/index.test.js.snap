@@ -28,11 +28,19 @@ exports[`App renders correctly 1`] = `
           autoComplete="off"
           id="searchInput"
           name="searchInput"
+          onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
           placeholder="Pickachu, 123, 900g"
           type="search"
         />
+        <div
+          className="searchResults"
+        >
+          <ul
+            className="searchList"
+          />
+        </div>
       </div>
     </div>
     <div

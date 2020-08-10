@@ -1,7 +1,6 @@
 import React, { lazy, Suspense, useState } from "react";
 import Loader from 'react-loader-spinner'
 import { NavLink } from "react-router-dom";
-import SearchInput from 'react-search-input';
 
 import Fuse from "fuse.js";
 import { setDelailedPageData } from '@APIutils';
@@ -31,7 +30,9 @@ const Search = (props) => {
   const { pokemonDataArray } = props;
 
 
-  const handleChange = value => {
+  const handleChange = event => {
+    const value = event.target.value;
+
     let fuse = new Fuse(pokemonDataArray, fuseOptions);
     let result = fuse.search(value).slice(0, 11);
     setSearchResult(result);
@@ -55,7 +56,7 @@ const Search = (props) => {
 
   return (
     <div className='search'>
-      <SearchInput
+      <input
         type='search'
         name='searchInput'
         id='searchInput'
