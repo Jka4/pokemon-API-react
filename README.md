@@ -1,8 +1,8 @@
-# УСТАНОВКА И ЗАПУСК
+# Install & start
 
-- Установите `Node.js`.
-- Дальше следует открыть консоль в папке с проектом и установить зависимости командой: `yarn`
-- Запускаем проект : `yarn start`
+- Install `Node.js`.
+- `yarn`
+- `yarn start`
 
 
 -[DEMO](https://jka4.github.io/pokemon-API-react/)
