@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Provider, connect } from 'react-redux';
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ import CatalogView from '@CatalogView';
 
 const PokemonsPageAll = (props) => {
 	const { pokemonDataArray } = props
-	const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(false);
+	const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(true);
 
 	return (
 		<React.Fragment>
