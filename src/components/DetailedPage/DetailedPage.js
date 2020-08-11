@@ -4,49 +4,39 @@ import { Provider, connect } from 'react-redux';
 import { NavLink } from "react-router-dom";
 import Loader from 'react-loader-spinner'
 import HeaderLine from "@HeaderLine";
-import axios from 'axios';
 import { setDelailedPageData } from "@APIutils";
 
 import './styles/style.scss';
 
+import chain from '../utils/pokemonChain';
+import pokemonDataArray from '@pokemonDataArray';
+import * as _ from 'lodash';
+
 const ImageContainer = lazy(() => import('@ImageContainer'));
+
+
+
 
 const DetailedPage = props => {
   const data = props.detailsPageTest || props.detailsPage;
   const { sprites, name } = data;
   const { bigImage, smallImageCount } = props;
-  const [evolutionChain, setEvolutionChain] = useState([]);
+  const [evolutionChain, setEvolutionChain] = useState();
 
   const clearDetailPageData = () => {
     store.dispatch({ type: "clear_detailsPage" });
     store.dispatch({ type: "clear_bigImage" });
   }
 
-  useEffect(async () => {
-    let solo = await getEvolutionsChain(data.id);
-    console.log("solo", solo)
+  useEffect(() => {
+    setEvoChain();
   }, [data])
 
-  const getEvolutionsChain = async (ID) => {
-    setEvolutionChain([])
-    const URL = `https://pokeapi.co/api/v2/evolution-chain/${ID}/`;
-    await axios.get(URL)
-      .then(async (response) => {
-        let evoChain = [];
-        let evoData = response.data.chain;
-
-        do {
-          evoChain.push({
-            "species_name": evoData.species.name,
-          });
-
-          evoData = evoData['evolves_to'][0];
-        } while (!!evoData && evoData.hasOwnProperty('evolves_to'));
-
-        // setEvolutionChain((evolutionChain) => [...evolutionChain, ...evoChain]);
-        return evoChain;
-      })
+  const setEvoChain = () => {
+    let solo = _.find(pokemonDataArray, (o) => o.name === data.name);
+    solo && setEvolutionChain(solo);
   }
+
 
   return (
     <React.Fragment>
@@ -86,7 +76,7 @@ const DetailedPage = props => {
 
 
 
-        {/* <EvolutionForms evolutionChain={evolutionChain} /> */}
+        <EvolutionForms evolutionChain={evolutionChain} />
       </div>
     </React.Fragment>
   );
@@ -133,16 +123,22 @@ const Abilities = (props) => {
 
 const EvolutionForms = (props) => {
   const { evolutionChain } = props;
+  const chain = evolutionChain?.chain;
+
+
+  chain && chain.map((index) => {
+    console.log(`/detailedPage/pokemon/${index.species_name}`);
+  })
 
   return (
     <React.Fragment>
       <div className="evolutionForms">
-        {evolutionChain.map((index, key) => (
+        {/* {chain && chain.map((index, key) => (
           <NavLink to={`/detailedPage/pokemon/${index.species_name}`} data-testid="testId" className="evoForm" data-pokemon_id={'id'} onClick={setDelailedPageData}
             key={key}>
             <div >{index.species_name}</div>
           </NavLink>
-        ))}
+        ))} */}
       </div>
     </React.Fragment >
   )
