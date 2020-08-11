@@ -42,7 +42,7 @@ const DetailedPage = props => {
           )}
         </div>
 
-        {/* <div className="mainInformations">
+        <div className="mainInformations">
           <div className='skills'>
             <Stats props={props} />
             <Abilities props={props} />
@@ -54,7 +54,7 @@ const DetailedPage = props => {
               <ImageContainer url={bigImage} cn={'bigImage'} />
             </Suspense>}
           </div>
-        </div> */}
+        </div>
       </div>
     </React.Fragment>
   );
