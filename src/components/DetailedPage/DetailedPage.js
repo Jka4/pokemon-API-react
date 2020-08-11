@@ -19,6 +19,7 @@ const DetailedPage = props => {
     store.dispatch({ type: "clear_bigImage" });
   }
 
+
   return (
     <React.Fragment>
       <HeaderLine />
@@ -40,17 +41,20 @@ const DetailedPage = props => {
               )
           )}
         </div>
-        <div className='skills'>
-          <Stats props={props} />
-          <Abilities props={props} />
-        </div>
-        <div className="bigImage">
-          {bigImage && <Suspense fallback={<Loader type="TailSpin" height={320}
-            width={320} color={"red"}
-          />}>
-            <ImageContainer url={bigImage} cn={'bigImage'} />
-          </Suspense>}
-        </div>
+
+        {/* <div className="mainInformations">
+          <div className='skills'>
+            <Stats props={props} />
+            <Abilities props={props} />
+          </div>
+          <div className="bigImage">
+            {bigImage && <Suspense fallback={<Loader type="TailSpin" height={320}
+              width={320} color={"red"}
+            />}>
+              <ImageContainer url={bigImage} cn={'bigImage'} />
+            </Suspense>}
+          </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

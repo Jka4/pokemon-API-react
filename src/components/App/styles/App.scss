@@ -402,31 +402,45 @@ li {
   font-size: 1rem;
 }
 
-.skills {
+.mainInformations {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
-  margin-top: 2rem;
-  width: 100%;
-  height: auto;
+  align-items: flex-start;
+  margin-top: 50px;
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+
+    .stats {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-right: 3rem;
+      width: auto;
+    }
+
+    .abilities {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-left: -1rem;
+      width: auto;
+    }
+
+
+    .bigImage {
+      img {
+        height: 100%;
+        max-height: 400px;
+      }
+    }
+  }
 }
 
-.stats {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 3rem;
-  width: 40vw;
-}
 
-.abilities {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-left: -1rem;
-  width: 40vw;
-}
 
 .statsUL {
   display: flex;
@@ -657,13 +671,6 @@ a {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-  }
-}
-
-.bigImage {
-  img {
-    height: 100%;
-    max-height: 400px;
   }
 }
 

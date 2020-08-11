@@ -403,102 +403,106 @@ Array [
       </div>
     </div>
     <div
-      className="skills"
+      className="mainInformations"
     >
       <div
-        className="stats"
+        className="skills"
       >
-        <ul
-          className="statsUL"
+        <div
+          className="stats"
         >
-          <div
-            className="skills_title"
+          <ul
+            className="statsUL"
           >
-            Stats
-          </div>
-          <li
-            className="statsLI"
+            <div
+              className="skills_title"
+            >
+              Stats
+            </div>
+            <li
+              className="statsLI"
+            >
+              hp
+               
+              45
+            </li>
+            <li
+              className="statsLI"
+            >
+              attack
+               
+              49
+            </li>
+            <li
+              className="statsLI"
+            >
+              defense
+               
+              49
+            </li>
+            <li
+              className="statsLI"
+            >
+              special-attack
+               
+              65
+            </li>
+            <li
+              className="statsLI"
+            >
+              special-defense
+               
+              65
+            </li>
+            <li
+              className="statsLI"
+            >
+              speed
+               
+              45
+            </li>
+            <li
+              className="statsLI"
+            >
+              weight 
+              69
+              kg
+            </li>
+          </ul>
+        </div>
+        <div
+          className="abilities"
+        >
+          <ul
+            className="abilitiesUL"
           >
-            hp
-             
-            45
-          </li>
-          <li
-            className="statsLI"
-          >
-            attack
-             
-            49
-          </li>
-          <li
-            className="statsLI"
-          >
-            defense
-             
-            49
-          </li>
-          <li
-            className="statsLI"
-          >
-            special-attack
-             
-            65
-          </li>
-          <li
-            className="statsLI"
-          >
-            special-defense
-             
-            65
-          </li>
-          <li
-            className="statsLI"
-          >
-            speed
-             
-            45
-          </li>
-          <li
-            className="statsLI"
-          >
-            weight 
-            69
-            kg
-          </li>
-        </ul>
+            <div
+              className="skills_title"
+            >
+              Abilities
+            </div>
+            <li
+              className="abilitiesLI"
+            >
+              1
+              : 
+              overgrow
+            </li>
+            <li
+              className="abilitiesLI"
+            >
+              2
+              : 
+              chlorophyll
+            </li>
+          </ul>
+        </div>
       </div>
       <div
-        className="abilities"
+        className="bigImage"
       >
-        <ul
-          className="abilitiesUL"
-        >
-          <div
-            className="skills_title"
-          >
-            Abilities
-          </div>
-          <li
-            className="abilitiesLI"
-          >
-            1
-            : 
-            overgrow
-          </li>
-          <li
-            className="abilitiesLI"
-          >
-            2
-            : 
-            chlorophyll
-          </li>
-        </ul>
+        
       </div>
-    </div>
-    <div
-      className="bigImage"
-    >
-      
     </div>
   </div>,
 ]
