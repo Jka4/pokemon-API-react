@@ -15,28 +15,61 @@ import * as _ from 'lodash';
 const ImageContainer = lazy(() => import('@ImageContainer'));
 
 
-
-
 const DetailedPage = props => {
   const data = props.detailsPageTest || props.detailsPage;
   const { sprites, name } = data;
-  const { bigImage, smallImageCount } = props;
+  const { smallImageCount } = props;
   const [evolutionChain, setEvolutionChain] = useState();
+
+
+
+
+
+  useEffect(() => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }, [])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   const clearDetailPageData = () => {
     store.dispatch({ type: "clear_detailsPage" });
-    store.dispatch({ type: "clear_bigImage" });
   }
 
   useEffect(() => {
     setEvoChain();
   }, [data])
 
+
   const setEvoChain = () => {
     let solo = _.find(pokemonDataArray, (o) => o.name === data.name);
     solo && setEvolutionChain(solo);
   }
-
 
   return (
     <React.Fragment>
@@ -60,19 +93,19 @@ const DetailedPage = props => {
           )}
         </div>
 
-        {/* <div className="mainInformations">
+        <div className="mainInformations">
           <div className='skills'>
             <Stats props={props} />
             <Abilities props={props} />
           </div>
-          <div className="bigImage">
-            {bigImage && <Suspense fallback={<Loader type="TailSpin" height={320}
+          {evolutionChain?.imageHQ && <div className="bigImage">
+            <Suspense fallback={<Loader type="TailSpin" height={320}
               width={320} color={"red"}
             />}>
-              <ImageContainer url={bigImage} cn={'bigImage'} />
-            </Suspense>}
-          </div>
-        </div> */}
+              <ImageContainer url={evolutionChain.imageHQ} cn={'bigImage'} />
+            </Suspense>
+          </div>}
+        </div>
 
 
 
@@ -127,7 +160,7 @@ const EvolutionForms = (props) => {
 
 
   chain && chain.map((index) => {
-    console.log(`/detailedPage/pokemon/${index.species_name}`);
+    // console.log(`/detailedPage/pokemon/${index.species_name}`);
   })
 
   return (

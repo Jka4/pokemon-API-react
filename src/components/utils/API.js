@@ -37,16 +37,10 @@ export const setDelailedPageData = async (event, isSearch) => {
       delete page.sprites.other;
       delete page.sprites.versions;
 
-      findBigImage(page);
       findSmallImagesLength(page);
       await store.dispatch({ type: "set_detailsPage", page });
     });
 };
-
-const findBigImage = async (sprites) => {
-  let url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${sprites.id}.png`;
-  await axios.get(url) && store.dispatch({ type: "set_bigImage", url });
-}
 
 const findSmallImagesLength = async (data) => {
   let count = _.countBy(data.sprites, (el) => el !== null).true;
