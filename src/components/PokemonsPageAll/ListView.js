@@ -1,35 +1,30 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Loader from 'react-loader-spinner'
-import { Link } from "react-router-dom";
 
-import HeaderLine from "@HeaderLine";
 import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
-
-import { Provider, connect } from 'react-redux';
-import store from "@Store";
 
 import './styles/style.scss';
 
 const ImageContainer = lazy(() => import('@ImageContainer'));
 
-const AllPokemonsPage = (props) => {
+const ListView = (props) => {
   const { pokemonDataArray } = props
 
   const [pokemons, setPokemons] = useState([]);
   const [pokemonCount, setPokemonCount] = useState(0);
 
   useEffect(() => {
-    fetchAllPokemons();
+    fetchPokemons();
   }, []);
 
-  const fetchAllPokemons = () => {
+  const fetchPokemons = () => {
     const howMuchToDownload = 70;
     let arr = [];
 
-    for (let i = pokemonCount + 1; i <= pokemonCount + howMuchToDownload; i++) {
-      arr.push(pokemonDataArray[i + 1])
+    for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
+      arr.push(pokemonDataArray[i])
     }
 
     setPokemons(pokemons => [...pokemons, ...arr]);
@@ -38,13 +33,11 @@ const AllPokemonsPage = (props) => {
 
   return (
     <React.Fragment>
-      <HeaderLine />
-      <Link to='/' className='backToMainPage' > Back </Link>
       <section className='main'>
         <InfiniteScroll
           pageStart={1}
           dataLength={pokemons.length}
-          next={fetchAllPokemons}
+          next={fetchPokemons}
           hasMore={pokemons.length < 806}
           loader={<h4>Loading...</h4>}
           className='allPokemonsWrapper'
@@ -57,7 +50,7 @@ const AllPokemonsPage = (props) => {
                 <Suspense fallback={<Loader type="TailSpin" height={90}
                   width={110} color={"red"}
                 />}>
-                  <ImageContainer url={index?.image} />
+                  <ImageContainer url={index?.imageHQ} />
                 </Suspense>
               </div>
               <div className="pokemonName">{index?.name}</div>
@@ -70,14 +63,4 @@ const AllPokemonsPage = (props) => {
 }
 
 
-const ConnectedAllPokemonsPage = connect(store => {
-  return {
-    pokemonDataArray: store.pokemonsArr,
-  };
-})(AllPokemonsPage);
-
-export default props => (
-  <Provider store={store}>
-    <ConnectedAllPokemonsPage {...props} />
-  </Provider>
-);
+export default ListView;

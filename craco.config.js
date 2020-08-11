@@ -16,7 +16,9 @@ const pathConfig = {
 	"@Heading": "./src/components/MainContainer/Heading",
 	"@Logo": "./src/components/MainContainer/Logo",
 	"@Player": "./src/components/Player/Player",
-	"@PokemonsPageAll": "./src/components/PokemonsPageAll/PokemonsPageAll"
+	"@PokemonsPageAll": "./src/components/PokemonsPageAll/index",
+	"@ListView": "./src/components/PokemonsPageAll/ListView",
+	"@CatalogView": "./src/components/PokemonsPageAll/CatalogView"
 }
 
 module.exports = {

@@ -38,20 +38,11 @@ body {
   font-size: 28px;
 }
 
-#getPokemon:hover {
+button:hover {
   box-shadow: 5px 3px 11px 1px #000000;
 }
 
-#getPokemon:active {
-  bottom: -4px;
-  box-shadow: 0 1px 0 #00823f;
-}
-
-.playButton:hover button {
-  box-shadow: 5px 3px 11px 1px #000000;
-}
-
-.playButton:active button {
+button:active {
   bottom: -4px;
   box-shadow: 0 1px 0 #00823f;
 }
@@ -175,6 +166,7 @@ li {
   color: white;
   font-size: 29px;
   z-index: 2;
+  max-height: 40px;
 }
 
 .search {
@@ -679,6 +671,15 @@ a {
   position: fixed;
   top: 60px;
   left: 0px;
+}
+
+.backToMainPage:hover {
+  box-shadow: 5px 3px 11px 1px #000000;
+}
+
+.backToMainPage:active {
+  bottom: -4px;
+  box-shadow: 0 1px 0 #00823f;
 }
 
 .searchItem {
