@@ -4,15 +4,8 @@ import POKEMONS from "@pokemonDataArray";
 
 let defaultState = {
   randomPokemons: [],
-  searchResult: [],
-  inputValue: "",
   detailsPage: "",
   playing: false,
-  showResult: false,
-  isFetching: false,
-  smallImageCount: 0,
-  counter: 0,
-  bigImage: '',
   pokemonsArr: POKEMONS
 };
 
@@ -26,65 +19,30 @@ chachingStateToLocalStorage();
 
 function reducer(state = defaultState, action) {
   switch (action.type) {
-    case "add_random_pokemons":
+    case "ADD_RANDOM_POKEMON":
       return {
         ...state,
         randomPokemons: [...state.randomPokemons, action.randomPokemons]
       };
-    case "add_counter":
-      return {
-        ...state,
-        counter: state.randomPokemons.length + 1
-      };
-    case "clear_random_pokemons":
+    case "CLEAR_RANDOM_POKEMON":
       return {
         ...state,
         randomPokemons: []
       };
-    case "clear_detailsPage":
+    case "CLEAR_DETAILS_PAGE":
       return {
         ...state,
         detailsPage: ''
       };
-    case "clear_bigImage":
-      return {
-        ...state,
-        bigImage: ''
-      };
-    case "set_input_value":
-      return {
-        ...state,
-        inputValue: action.value
-      };
-    case "set_searchResult":
-      return {
-        ...state,
-        searchResult: action.result
-      };
-    case "set_detailsPage":
+    case "SET_DETAILS_PAGE":
       return {
         ...state,
         detailsPage: action.page
-      };
-    case "set_bigImage":
-      return {
-        ...state,
-        bigImage: action.url
-      };
-    case "set_smallImageCount":
-      return {
-        ...state,
-        smallImageCount: action.count
       };
     case "PLAY_PAUSE":
       return {
         ...state,
         playing: !state.playing
-      };
-    case "SHOW_RESULT":
-      return {
-        ...state,
-        showResult: action.show
       };
     default:
       return state;

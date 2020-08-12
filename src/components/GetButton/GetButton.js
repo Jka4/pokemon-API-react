@@ -8,7 +8,7 @@ import './styles/style.scss';
 
 const GetButton = (props) => {
   const clearState = () => {
-    store.dispatch({ type: "clear_random_pokemons" });
+    store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
   };
 
   return (
