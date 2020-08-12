@@ -17,9 +17,8 @@
 
   .pokemonLogo {
     width: 100%;
-    text-align: center;
     min-height: 160px;
-
+    text-align: center;
 
     img,
     svg {
@@ -30,11 +29,11 @@
   }
 
   .pokemonName {
-    color: black;
-    font-size: 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: black;
+    font-size: 24px;
 
     &::first-letter {
       text-transform: uppercase;
@@ -49,68 +48,62 @@
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: 50px;
-  min-height: 100vh;
   margin-bottom: 100px;
+  min-height: 100vh;
 }
 
 .loadNext {
   margin-top: 30px;
-  margin-bottom: 70px;
   margin-right: auto;
+  margin-bottom: 70px;
   margin-left: auto;
 }
-
 
 .playButtons {
   top: 60px;
 }
 
-
 .loader {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 40px;
   margin-bottom: 80px;
-  font-size: 24px;
+  width: 100%;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 24px;
 }
 
 .pokemon-end {
+  margin-top: 40px;
   width: 100%;
   text-align: center;
-  margin-top: 40px;
   font-size: 26px;
 }
 
 .wrapper {
-  width: 100%;
-
-  max-width: 100vw;
-  max-height: 1000px;
-
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
   margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+  max-width: 100vw;
 
   img {
-    height: calc(100vh / 20);
-    width: calc(100vw /40);
-    min-width: 65px;
-    min-height: 65px;
-    max-height: 65px;
-    max-width: 65px;
-    box-shadow:
-      .5px 0 0 0 red,
+    box-shadow: .5px 0 0 0 red,
       0 .5px 0 0 red,
       .5px .5px 0 0 red,
       .5px 0 0 0 red inset,
       0 .5px 0 0 red inset;
-
+    width: calc(100vw /40);
+    min-width: 65px;
+    max-width: 65px;
+    height: calc(100vh / 20);
+    min-height: 65px;
+    max-height: 65px;
 
     &:hover {
       transform: scale(1.1);
@@ -119,49 +112,44 @@
     }
   }
 
-
   div,
   img {
     display: flex;
-    justify-content: center;
     align-items: center;
-    object-fit: contain;
-    object-fit: cover;
+    justify-content: center;
     max-width: 100px;
+    object-fit: cover;
   }
 }
 
 body {
-  width: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
-
 .viewType {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 
   .viewTypeInner {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
     width: 90%;
 
     .innerBlock {
-      border: 1px solid black;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 5px 15px 5px 15px;
+      border: 1px solid black;
       border-radius: 5px;
       cursor: pointer;
+      padding: 5px 15px 5px 15px;
 
       &:hover {
         box-shadow: 5px 3px 11px 1px #000000;
@@ -172,8 +160,8 @@ body {
       }
 
       span {
-        font-size: 24px;
         margin-right: 10px;
+        font-size: 24px;
       }
 
       .separator {
@@ -182,14 +170,10 @@ body {
 
       .catalog,
       .list {
-        width: 20px;
         margin-top: 4px;
         cursor: pointer;
+        width: 20px;
       }
     }
-
-
   }
-
-
 }

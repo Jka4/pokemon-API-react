@@ -1,5 +1,4 @@
 import store from "@Store";
-import * as _ from 'lodash';
 import axios from 'axios';
 
 export let getRandomPokemon = async (amount = 806) => {

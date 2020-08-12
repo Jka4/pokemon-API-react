@@ -25,14 +25,11 @@ const DetailedPage = props => {
   }
 
   useEffect(() => {
-    setEvoChain();
+    let pokemonObj = _.find(pokemonDataArray, (o) => o.name === data.name);
+    pokemonObj && setEvolutionChain(pokemonObj);
+
   }, [data])
 
-
-  const setEvoChain = () => {
-    let solo = _.find(pokemonDataArray, (o) => o.name === data.name);
-    solo && setEvolutionChain(solo);
-  }
 
   return (
     <React.Fragment>
@@ -119,12 +116,6 @@ const EvolutionForms = (props) => {
   const [chain, setChain] = useState();
 
   useEffect(() => {
-    setAditionalInf();
-    console.log('beep');
-  }, [props])
-
-
-  const setAditionalInf = () => {
     let arr = [];
 
     chainNames && chainNames.forEach((index) => {
@@ -133,7 +124,7 @@ const EvolutionForms = (props) => {
       arr.push(index);
     })
     setChain(arr);
-  }
+  }, [chainNames])
 
 
   return (
