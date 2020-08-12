@@ -4,14 +4,8 @@ import POKEMONS from "@pokemonDataArray";
 
 let defaultState = {
   randomPokemons: [],
-  searchResult: [],
-  inputValue: "",
   detailsPage: "",
   playing: false,
-  showResult: false,
-  isFetching: false,
-  smallImageCount: 0,
-  counter: 0,
   pokemonsArr: POKEMONS
 };
 
@@ -45,20 +39,10 @@ function reducer(state = defaultState, action) {
         ...state,
         detailsPage: action.page
       };
-    case "SET_SMALL_IMAGES_COUNT":
-      return {
-        ...state,
-        smallImageCount: action.count
-      };
     case "PLAY_PAUSE":
       return {
         ...state,
         playing: !state.playing
-      };
-    case "SHOW_RESULT":
-      return {
-        ...state,
-        showResult: action.show
       };
     default:
       return state;
