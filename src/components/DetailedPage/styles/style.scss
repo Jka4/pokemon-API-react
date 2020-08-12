@@ -8,3 +8,50 @@
   justify-content: center;
   align-items: center;
 }
+
+.evolutionForms {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+
+  .evoForm.currentPokemon {
+    background: #ff5f5f;
+  }
+
+  .evoForm {
+    background: #03a9f4;
+    margin: 20px;
+    padding: 20px 35px 20px 35px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 90px;
+
+    .pokemonName {
+      text-align: center;
+    }
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 5px 3px 11px 1px #000000;
+    }
+
+    &:active {
+      transform: none;
+    }
+  }
+}
+
+.mainInformations {
+  min-height: 500px;
+}

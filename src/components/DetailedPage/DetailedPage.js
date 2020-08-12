@@ -1,32 +1,43 @@
-import React, { lazy, Suspense } from "react";
-import store from "@Store";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from 'react-redux';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Loader from 'react-loader-spinner'
+
 import HeaderLine from "@HeaderLine";
+import { setDelailedPageData } from "@APIutils";
+import pokemonDataArray from '@pokemonDataArray';
+
+import store from "@Store";
+import * as _ from 'lodash';
 
 import './styles/style.scss';
 
 const ImageContainer = lazy(() => import('@ImageContainer'));
 
+
 const DetailedPage = props => {
   const data = props.detailsPageTest || props.detailsPage;
   const { sprites, name } = data;
-  const { bigImage, smallImageCount } = props;
+  const [evolutionChain, setEvolutionChain] = useState();
 
   const clearDetailPageData = () => {
-    store.dispatch({ type: "clear_detailsPage" });
-    store.dispatch({ type: "clear_bigImage" });
+    store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
   }
+
+  useEffect(() => {
+    let pokemonObj = _.find(pokemonDataArray, (o) => o.name === data.name);
+    pokemonObj && setEvolutionChain(pokemonObj);
+
+  }, [data])
 
 
   return (
     <React.Fragment>
       <HeaderLine />
       <div className='detailedPage' data-testid="detailedPageTest">
-        <Link to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </Link>
+        <NavLink to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </NavLink>
         <div className='name'>{name}</div>
-        <div className={smallImageCount <= 4 ? 'imagesLineSmall' : 'imagesLine'}>
+        <div className='imagesLine'>
           {sprites && Object.keys(sprites).map(
             spriteName =>
               sprites[spriteName] && (
@@ -41,28 +52,28 @@ const DetailedPage = props => {
               )
           )}
         </div>
-
         <div className="mainInformations">
           <div className='skills'>
             <Stats props={props} />
             <Abilities props={props} />
           </div>
           <div className="bigImage">
-            {bigImage && <Suspense fallback={<Loader type="TailSpin" height={320}
+            {evolutionChain?.imageHQ && <Suspense fallback={<Loader type="TailSpin" height={320}
               width={320} color={"red"}
             />}>
-              <ImageContainer url={bigImage} cn={'bigImage'} />
+              <ImageContainer url={evolutionChain.imageHQ} cn={'bigImage'} />
             </Suspense>}
           </div>
         </div>
+        <EvolutionForms evolutionChain={evolutionChain} currentPokemon={name} />
       </div>
     </React.Fragment>
   );
 
 }
 
-let Stats = (props) => {
-  let { stats, weight } = props.props.detailsPage;
+const Stats = (props) => {
+  const { stats, weight } = props.props.detailsPage;
 
   return (
     <div className='stats'>
@@ -80,8 +91,8 @@ let Stats = (props) => {
   );
 };
 
-let Abilities = (props) => {
-  let { abilities } = props.props.detailsPage;
+const Abilities = (props) => {
+  const { abilities } = props.props.detailsPage;
 
   return (
     <div className='abilities'>
@@ -99,11 +110,48 @@ let Abilities = (props) => {
 };
 
 
+const EvolutionForms = (props) => {
+  const chainNames = props.evolutionChain?.chain;
+  const currentPokemon = props?.currentPokemon
+  const [chain, setChain] = useState();
+
+  useEffect(() => {
+    let arr = [];
+
+    chainNames && chainNames.forEach((index) => {
+      index.image = _.find(pokemonDataArray, (o) => o.name === index.species_name).image;
+      index.id = _.find(pokemonDataArray, (o) => o.name === index.species_name).id;
+      arr.push(index);
+    })
+    setChain(arr);
+  }, [chainNames])
+
+
+  return (
+    <React.Fragment>
+      <div className="evolutionForms">
+        {chain && chain.map((index, key) => (
+          <NavLink to={`/detailedPage/pokemon/${index.id}`} data-testid="testId"
+            className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
+            data-pokemon_id={index.id} onClick={setDelailedPageData} key={key}>
+
+            <Suspense fallback={<Loader type="TailSpin" height={96}
+              width={96} color={"red"}
+            />}>
+              <ImageContainer url={index.image} />
+            </Suspense>
+
+            <div className='pokemonName' >{index.species_name}</div>
+          </NavLink>
+        ))}
+      </div>
+    </React.Fragment >
+  )
+}
+
 const ConnectedDetailedPage = connect(store => {
   return {
     detailsPage: store.detailsPage,
-    bigImage: store.bigImage,
-    smallImageCount: store.smallImageCount
   };
 })(DetailedPage);
 

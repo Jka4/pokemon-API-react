@@ -1,5 +1,4 @@
 import store from "@Store";
-import * as _ from 'lodash';
 import axios from 'axios';
 
 export let getRandomPokemon = async (amount = 806) => {
@@ -9,7 +8,7 @@ export let getRandomPokemon = async (amount = 806) => {
   await axios.get(URL)
     .then(async (response) => {
       let randomPokemons = response.data;
-      await store.dispatch({ type: "add_random_pokemons", randomPokemons });
+      await store.dispatch({ type: "ADD_RANDOM_POKEMON", randomPokemons });
     })
     .catch((error) => {
       console.log(error);
@@ -37,18 +36,6 @@ export const setDelailedPageData = async (event, isSearch) => {
       delete page.sprites.other;
       delete page.sprites.versions;
 
-      findBigImage(page);
-      findSmallImagesLength(page);
-      await store.dispatch({ type: "set_detailsPage", page });
+      await store.dispatch({ type: "SET_DETAILS_PAGE", page });
     });
 };
-
-const findBigImage = async (sprites) => {
-  let url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${sprites.id}.png`;
-  await axios.get(url) && store.dispatch({ type: "set_bigImage", url });
-}
-
-const findSmallImagesLength = async (data) => {
-  let count = _.countBy(data.sprites, (el) => el !== null).true;
-  await store.dispatch({ type: "set_smallImageCount", count });
-}
