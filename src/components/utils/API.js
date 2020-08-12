@@ -40,8 +40,3 @@ export const setDelailedPageData = async (event, isSearch) => {
       await store.dispatch({ type: "SET_DETAILS_PAGE", page });
     });
 };
-
-const findSmallImagesLength = async (data) => {
-  let count = _.countBy(data.sprites, (el) => el !== null).true;
-  await store.dispatch({ type: "SET_SMALL_IMAGES_COUNT", count });
-}
