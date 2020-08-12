@@ -9,7 +9,7 @@ export let getRandomPokemon = async (amount = 806) => {
   await axios.get(URL)
     .then(async (response) => {
       let randomPokemons = response.data;
-      await store.dispatch({ type: "add_random_pokemons", randomPokemons });
+      await store.dispatch({ type: "ADD_RANDOM_POKEMON", randomPokemons });
     })
     .catch((error) => {
       console.log(error);
@@ -37,12 +37,11 @@ export const setDelailedPageData = async (event, isSearch) => {
       delete page.sprites.other;
       delete page.sprites.versions;
 
-      findSmallImagesLength(page);
-      await store.dispatch({ type: "set_detailsPage", page });
+      await store.dispatch({ type: "SET_DETAILS_PAGE", page });
     });
 };
 
 const findSmallImagesLength = async (data) => {
   let count = _.countBy(data.sprites, (el) => el !== null).true;
-  await store.dispatch({ type: "set_smallImageCount", count });
+  await store.dispatch({ type: "SET_SMALL_IMAGES_COUNT", count });
 }
