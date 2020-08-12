@@ -43,9 +43,11 @@ Array [
     data-testid="detailedPageTest"
   >
     <a
-      className="backToMainPage"
+      aria-current="page"
+      className="backToMainPage active"
       href="/"
       onClick={[Function]}
+      style={Object {}}
     >
        Back 
     </a>
@@ -55,7 +57,7 @@ Array [
       bulbasaur
     </div>
     <div
-      className="imagesLineSmall"
+      className="imagesLine"
     >
       <div
         className="block"
@@ -500,10 +502,11 @@ Array [
       </div>
       <div
         className="bigImage"
-      >
-        
-      </div>
+      />
     </div>
+    <div
+      className="evolutionForms"
+    />
   </div>,
 ]
 `;
