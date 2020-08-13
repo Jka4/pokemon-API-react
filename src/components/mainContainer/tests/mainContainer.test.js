@@ -5,13 +5,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 it('MainContainer renders correctly', async () => {
 
-	act(() => {
-		const tree = renderer
-			.create(<Router><MainContainer /></Router >)
-			.toJSON();
-		expect(tree).toMatchSnapshot();
-	});
-
+	const tree = renderer
+		.create(<Router><MainContainer /></Router >)
+		.toJSON();
+	expect(tree).toMatchSnapshot();
 
 
 });

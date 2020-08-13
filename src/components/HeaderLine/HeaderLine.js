@@ -1,34 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { NavLink } from "react-router-dom";
+
+import store from "@Store";
+
 import Search from "@Search";
 import Player from "@Player";
-import { Provider, connect } from 'react-redux';
-import store from "@Store";
 
 import './styles/style.scss';
 
-const HeaderLine = (props) => {
-  const [pokemonDataArray, setPokemonDataArray] = useState();
+const HeaderLine = () => {
 
-  useEffect(() => {
-    setPokemonDataArray(props.pokemonDataArray);
-  }, [props]);
+  const clearDetailPageData = () => {
+    store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
+  }
 
   return (
     <div className='topLine'>
+      <NavLink to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </NavLink>
+
       <Player />
-      <Search pokemonDataArray={pokemonDataArray} />
+      <Search />
     </div>
   );
 }
 
-const ConnectedHeaderLine = connect(store => {
-  return {
-    pokemonDataArray: store.pokemonsArr,
-  };
-})(HeaderLine);
-
-export default props => (
-  <Provider store={store}>
-    <ConnectedHeaderLine {...props} />
-  </Provider>
-);
+export default HeaderLine;

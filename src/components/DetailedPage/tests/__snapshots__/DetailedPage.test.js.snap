@@ -5,6 +5,15 @@ Array [
   <div
     className="topLine"
   >
+    <a
+      aria-current="page"
+      className="backToMainPage active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+       Back 
+    </a>
     <div
       className="player"
     >
@@ -42,15 +51,6 @@ Array [
     className="detailedPage"
     data-testid="detailedPageTest"
   >
-    <a
-      aria-current="page"
-      className="backToMainPage active"
-      href="/"
-      onClick={[Function]}
-      style={Object {}}
-    >
-       Back 
-    </a>
     <div
       className="name"
     >

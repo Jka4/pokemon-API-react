@@ -7,10 +7,12 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import MainContainer from "@MainContainer";
 import DetailedPage from "@DetailedPage";
 import PokemonsPageAll from '@PokemonsPageAll';
+import HeaderLine from "@HeaderLine";
 
 const App = () => {
   return (
     <Router basename='/pokemon-API-react'>
+      <HeaderLine />
       <div className='App'>
         <Switch>
           <Route exact path='/' component={MainContainer} />

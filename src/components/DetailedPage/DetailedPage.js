@@ -20,9 +20,6 @@ const DetailedPage = props => {
   const { sprites, name } = data;
   const [evolutionChain, setEvolutionChain] = useState();
 
-  const clearDetailPageData = () => {
-    store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
-  }
 
   useEffect(() => {
     let pokemonObj = _.find(pokemonDataArray, (o) => o.name === data.name);
@@ -35,7 +32,6 @@ const DetailedPage = props => {
     <React.Fragment>
       <HeaderLine />
       <div className='detailedPage' data-testid="detailedPageTest">
-        <NavLink to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </NavLink>
         <div className='name'>{name}</div>
         <div className='imagesLine'>
           {sprites && Object.keys(sprites).map(
@@ -131,9 +127,9 @@ const EvolutionForms = (props) => {
     <React.Fragment>
       <div className="evolutionForms">
         {chain && chain.map((index, key) => (
-          <NavLink to={`/detailedPage/pokemon/${index.id}`} data-testid="testId"
+          <NavLink to={`/detailedPage/pokemon/${index.id}`}
             className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
-            data-pokemon_id={index.id} onClick={setDelailedPageData} key={key}>
+            data-pokemon_id={index.id} onClick={setDelailedPageData} key={key} activeClassName="currentPokemon">
 
             <Suspense fallback={<Loader type="TailSpin" height={96}
               width={96} color={"red"}

@@ -2,6 +2,9 @@ import React, { lazy, Suspense, useState } from "react";
 import Loader from 'react-loader-spinner'
 import { NavLink } from "react-router-dom";
 
+import { Provider, connect } from 'react-redux';
+import store from "@Store";
+
 import Fuse from "fuse.js";
 import { setDelailedPageData } from '@APIutils';
 
@@ -95,4 +98,14 @@ const Search = (props) => {
   );
 }
 
-export default Search;
+const ConnectedSearch = connect(store => {
+  return {
+    pokemonDataArray: store.pokemonsArr,
+  };
+})(Search);
+
+export default props => (
+  <Provider store={store}>
+    <ConnectedSearch {...props} />
+  </Provider>
+);

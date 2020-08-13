@@ -7,6 +7,15 @@ exports[`MainContainer renders correctly 1`] = `
   <div
     className="topLine"
   >
+    <a
+      aria-current="page"
+      className="backToMainPage active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+       Back 
+    </a>
     <div
       className="player"
     >
