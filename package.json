@@ -6,7 +6,7 @@
     "start": "craco start -d",
     "build": "craco build",
     "test": "craco test --env=jsdom-fourteen",
-    "deploy": "gh-pages -d build",
+    "deploy": "craco build && gh-pages -d build",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "docker-build": "docker build -t jka42/pokemon-api .",
     "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
