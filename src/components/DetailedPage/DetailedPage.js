@@ -129,7 +129,7 @@ const EvolutionForms = (props) => {
         {chain && chain.map((index, key) => (
           <NavLink to={`/detailedPage/pokemon/${index.id}`}
             className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
-            data-pokemon_id={index.id} onClick={setDelailedPageData} key={key} activeClassName="currentPokemon">
+            data-pokemon_id={index.id} onClick={setDelailedPageData} key={key}>
 
             <Suspense fallback={<Loader type="TailSpin" height={96}
               width={96} color={"red"}
