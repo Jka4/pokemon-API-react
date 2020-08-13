@@ -24,5 +24,4 @@ const CatalogView = (props) => {
   )
 }
 
-
-export default CatalogView;
+export default React.memo(CatalogView);
