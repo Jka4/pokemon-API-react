@@ -10,12 +10,12 @@ import './styles/style.scss';
 
 
 const HeaderLine = (props) => {
-  const isMainPage = props?.props?.location?.pathname === '/';
-  console.log("HeaderLine -> isMainPage", isMainPage)
 
   const clearDetailPageData = () => {
     store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
   }
+
+  const isMainPage = props?.props?.location?.pathname === '/';
 
   return (
     <div className='topLine'>
