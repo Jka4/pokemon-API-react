@@ -10,6 +10,7 @@ import './styles/style.scss';
 
 
 const HeaderLine = (props) => {
+  console.log("HeaderLine -> props", props)
 
   const clearDetailPageData = () => {
     store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
