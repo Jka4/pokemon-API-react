@@ -1,512 +1,465 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DetailedPage renders correctly 1`] = `
-Array [
+<div
+  className="detailedPage"
+  data-testid="detailedPageTest"
+>
   <div
-    className="topLine"
+    className="name"
   >
-    <a
-      aria-current="page"
-      className="backToMainPage active"
-      href="/"
-      onClick={[Function]}
-      style={Object {}}
-    >
-       Back 
-    </a>
+    bulbasaur
+  </div>
+  <div
+    className="imagesLine"
+  >
     <div
-      className="player"
+      className="block"
     >
-      <button
-        className="playButton"
-        onClick={[Function]}
+      <div
+        aria-busy="true"
+        className=""
+        style={Object {}}
       >
-        PLAY
-      </button>
+        <svg
+          aria-label="audio-loading"
+          height={50}
+          viewBox="0 0 38 38"
+          width={50}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="a"
+              x1="8.042%"
+              x2="65.682%"
+              y1="0%"
+              y2="23.865%"
+            >
+              <stop
+                offset="0%"
+                stopColor="red"
+                stopOpacity="0"
+              />
+              <stop
+                offset="63.146%"
+                stopColor="red"
+                stopOpacity=".631"
+              />
+              <stop
+                offset="100%"
+                stopColor="red"
+              />
+            </linearGradient>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M36 18c0-9.94-8.06-18-18-18"
+                id="Oval-2"
+                stroke="red"
+                strokeWidth="2"
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </path>
+              <circle
+                cx="36"
+                cy="18"
+                fill="#fff"
+                r={1}
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </circle>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div
+        className="title"
+      >
+        back_default
+      </div>
     </div>
     <div
-      className="search"
+      className="block"
     >
-      <input
-        aria-label="Search"
-        autoComplete="off"
-        id="searchInput"
-        name="searchInput"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        placeholder="Pickachu, 123, 900g"
-        type="search"
-      />
       <div
-        className="searchResults"
+        aria-busy="true"
+        className=""
+        style={Object {}}
+      >
+        <svg
+          aria-label="audio-loading"
+          height={50}
+          viewBox="0 0 38 38"
+          width={50}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="a"
+              x1="8.042%"
+              x2="65.682%"
+              y1="0%"
+              y2="23.865%"
+            >
+              <stop
+                offset="0%"
+                stopColor="red"
+                stopOpacity="0"
+              />
+              <stop
+                offset="63.146%"
+                stopColor="red"
+                stopOpacity=".631"
+              />
+              <stop
+                offset="100%"
+                stopColor="red"
+              />
+            </linearGradient>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M36 18c0-9.94-8.06-18-18-18"
+                id="Oval-2"
+                stroke="red"
+                strokeWidth="2"
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </path>
+              <circle
+                cx="36"
+                cy="18"
+                fill="#fff"
+                r={1}
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </circle>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div
+        className="title"
+      >
+        back_shiny
+      </div>
+    </div>
+    <div
+      className="block"
+    >
+      <div
+        aria-busy="true"
+        className=""
+        style={Object {}}
+      >
+        <svg
+          aria-label="audio-loading"
+          height={50}
+          viewBox="0 0 38 38"
+          width={50}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="a"
+              x1="8.042%"
+              x2="65.682%"
+              y1="0%"
+              y2="23.865%"
+            >
+              <stop
+                offset="0%"
+                stopColor="red"
+                stopOpacity="0"
+              />
+              <stop
+                offset="63.146%"
+                stopColor="red"
+                stopOpacity=".631"
+              />
+              <stop
+                offset="100%"
+                stopColor="red"
+              />
+            </linearGradient>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M36 18c0-9.94-8.06-18-18-18"
+                id="Oval-2"
+                stroke="red"
+                strokeWidth="2"
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </path>
+              <circle
+                cx="36"
+                cy="18"
+                fill="#fff"
+                r={1}
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </circle>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div
+        className="title"
+      >
+        front_default
+      </div>
+    </div>
+    <div
+      className="block"
+    >
+      <div
+        aria-busy="true"
+        className=""
+        style={Object {}}
+      >
+        <svg
+          aria-label="audio-loading"
+          height={50}
+          viewBox="0 0 38 38"
+          width={50}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="a"
+              x1="8.042%"
+              x2="65.682%"
+              y1="0%"
+              y2="23.865%"
+            >
+              <stop
+                offset="0%"
+                stopColor="red"
+                stopOpacity="0"
+              />
+              <stop
+                offset="63.146%"
+                stopColor="red"
+                stopOpacity=".631"
+              />
+              <stop
+                offset="100%"
+                stopColor="red"
+              />
+            </linearGradient>
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M36 18c0-9.94-8.06-18-18-18"
+                id="Oval-2"
+                stroke="red"
+                strokeWidth="2"
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </path>
+              <circle
+                cx="36"
+                cy="18"
+                fill="#fff"
+                r={1}
+              >
+                <animateTransform
+                  attributeName="transform"
+                  dur="0.9s"
+                  from="0 18 18"
+                  repeatCount="indefinite"
+                  to="360 18 18"
+                  type="rotate"
+                />
+              </circle>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div
+        className="title"
+      >
+        front_shiny
+      </div>
+    </div>
+  </div>
+  <div
+    className="mainInformations"
+  >
+    <div
+      className="skills"
+    >
+      <div
+        className="stats"
       >
         <ul
-          className="searchList"
-        />
-      </div>
-    </div>
-  </div>,
-  <div
-    className="detailedPage"
-    data-testid="detailedPageTest"
-  >
-    <div
-      className="name"
-    >
-      bulbasaur
-    </div>
-    <div
-      className="imagesLine"
-    >
-      <div
-        className="block"
-      >
-        <div
-          aria-busy="true"
-          className=""
-          style={Object {}}
+          className="statsUL"
         >
-          <svg
-            aria-label="audio-loading"
-            height={50}
-            viewBox="0 0 38 38"
-            width={50}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="skills_title"
           >
-            <defs>
-              <linearGradient
-                id="a"
-                x1="8.042%"
-                x2="65.682%"
-                y1="0%"
-                y2="23.865%"
-              >
-                <stop
-                  offset="0%"
-                  stopColor="red"
-                  stopOpacity="0"
-                />
-                <stop
-                  offset="63.146%"
-                  stopColor="red"
-                  stopOpacity=".631"
-                />
-                <stop
-                  offset="100%"
-                  stopColor="red"
-                />
-              </linearGradient>
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-            >
-              <g
-                transform="translate(1 1)"
-              >
-                <path
-                  d="M36 18c0-9.94-8.06-18-18-18"
-                  id="Oval-2"
-                  stroke="red"
-                  strokeWidth="2"
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </path>
-                <circle
-                  cx="36"
-                  cy="18"
-                  fill="#fff"
-                  r={1}
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </circle>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div
-          className="title"
-        >
-          back_default
-        </div>
+            Stats
+          </div>
+          <li
+            className="statsLI"
+          >
+            hp
+             
+            45
+          </li>
+          <li
+            className="statsLI"
+          >
+            attack
+             
+            49
+          </li>
+          <li
+            className="statsLI"
+          >
+            defense
+             
+            49
+          </li>
+          <li
+            className="statsLI"
+          >
+            special-attack
+             
+            65
+          </li>
+          <li
+            className="statsLI"
+          >
+            special-defense
+             
+            65
+          </li>
+          <li
+            className="statsLI"
+          >
+            speed
+             
+            45
+          </li>
+          <li
+            className="statsLI"
+          >
+            weight 
+            69
+            kg
+          </li>
+        </ul>
       </div>
       <div
-        className="block"
+        className="abilities"
       >
-        <div
-          aria-busy="true"
-          className=""
-          style={Object {}}
+        <ul
+          className="abilitiesUL"
         >
-          <svg
-            aria-label="audio-loading"
-            height={50}
-            viewBox="0 0 38 38"
-            width={50}
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className="skills_title"
           >
-            <defs>
-              <linearGradient
-                id="a"
-                x1="8.042%"
-                x2="65.682%"
-                y1="0%"
-                y2="23.865%"
-              >
-                <stop
-                  offset="0%"
-                  stopColor="red"
-                  stopOpacity="0"
-                />
-                <stop
-                  offset="63.146%"
-                  stopColor="red"
-                  stopOpacity=".631"
-                />
-                <stop
-                  offset="100%"
-                  stopColor="red"
-                />
-              </linearGradient>
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-            >
-              <g
-                transform="translate(1 1)"
-              >
-                <path
-                  d="M36 18c0-9.94-8.06-18-18-18"
-                  id="Oval-2"
-                  stroke="red"
-                  strokeWidth="2"
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </path>
-                <circle
-                  cx="36"
-                  cy="18"
-                  fill="#fff"
-                  r={1}
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </circle>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div
-          className="title"
-        >
-          back_shiny
-        </div>
-      </div>
-      <div
-        className="block"
-      >
-        <div
-          aria-busy="true"
-          className=""
-          style={Object {}}
-        >
-          <svg
-            aria-label="audio-loading"
-            height={50}
-            viewBox="0 0 38 38"
-            width={50}
-            xmlns="http://www.w3.org/2000/svg"
+            Abilities
+          </div>
+          <li
+            className="abilitiesLI"
           >
-            <defs>
-              <linearGradient
-                id="a"
-                x1="8.042%"
-                x2="65.682%"
-                y1="0%"
-                y2="23.865%"
-              >
-                <stop
-                  offset="0%"
-                  stopColor="red"
-                  stopOpacity="0"
-                />
-                <stop
-                  offset="63.146%"
-                  stopColor="red"
-                  stopOpacity=".631"
-                />
-                <stop
-                  offset="100%"
-                  stopColor="red"
-                />
-              </linearGradient>
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-            >
-              <g
-                transform="translate(1 1)"
-              >
-                <path
-                  d="M36 18c0-9.94-8.06-18-18-18"
-                  id="Oval-2"
-                  stroke="red"
-                  strokeWidth="2"
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </path>
-                <circle
-                  cx="36"
-                  cy="18"
-                  fill="#fff"
-                  r={1}
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </circle>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div
-          className="title"
-        >
-          front_default
-        </div>
-      </div>
-      <div
-        className="block"
-      >
-        <div
-          aria-busy="true"
-          className=""
-          style={Object {}}
-        >
-          <svg
-            aria-label="audio-loading"
-            height={50}
-            viewBox="0 0 38 38"
-            width={50}
-            xmlns="http://www.w3.org/2000/svg"
+            1
+            : 
+            overgrow
+          </li>
+          <li
+            className="abilitiesLI"
           >
-            <defs>
-              <linearGradient
-                id="a"
-                x1="8.042%"
-                x2="65.682%"
-                y1="0%"
-                y2="23.865%"
-              >
-                <stop
-                  offset="0%"
-                  stopColor="red"
-                  stopOpacity="0"
-                />
-                <stop
-                  offset="63.146%"
-                  stopColor="red"
-                  stopOpacity=".631"
-                />
-                <stop
-                  offset="100%"
-                  stopColor="red"
-                />
-              </linearGradient>
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-            >
-              <g
-                transform="translate(1 1)"
-              >
-                <path
-                  d="M36 18c0-9.94-8.06-18-18-18"
-                  id="Oval-2"
-                  stroke="red"
-                  strokeWidth="2"
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </path>
-                <circle
-                  cx="36"
-                  cy="18"
-                  fill="#fff"
-                  r={1}
-                >
-                  <animateTransform
-                    attributeName="transform"
-                    dur="0.9s"
-                    from="0 18 18"
-                    repeatCount="indefinite"
-                    to="360 18 18"
-                    type="rotate"
-                  />
-                </circle>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div
-          className="title"
-        >
-          front_shiny
-        </div>
+            2
+            : 
+            chlorophyll
+          </li>
+        </ul>
       </div>
     </div>
     <div
-      className="mainInformations"
-    >
-      <div
-        className="skills"
-      >
-        <div
-          className="stats"
-        >
-          <ul
-            className="statsUL"
-          >
-            <div
-              className="skills_title"
-            >
-              Stats
-            </div>
-            <li
-              className="statsLI"
-            >
-              hp
-               
-              45
-            </li>
-            <li
-              className="statsLI"
-            >
-              attack
-               
-              49
-            </li>
-            <li
-              className="statsLI"
-            >
-              defense
-               
-              49
-            </li>
-            <li
-              className="statsLI"
-            >
-              special-attack
-               
-              65
-            </li>
-            <li
-              className="statsLI"
-            >
-              special-defense
-               
-              65
-            </li>
-            <li
-              className="statsLI"
-            >
-              speed
-               
-              45
-            </li>
-            <li
-              className="statsLI"
-            >
-              weight 
-              69
-              kg
-            </li>
-          </ul>
-        </div>
-        <div
-          className="abilities"
-        >
-          <ul
-            className="abilitiesUL"
-          >
-            <div
-              className="skills_title"
-            >
-              Abilities
-            </div>
-            <li
-              className="abilitiesLI"
-            >
-              1
-              : 
-              overgrow
-            </li>
-            <li
-              className="abilitiesLI"
-            >
-              2
-              : 
-              chlorophyll
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div
-        className="bigImage"
-      />
-    </div>
-    <div
-      className="evolutionForms"
+      className="bigImage"
     />
-  </div>,
-]
+  </div>
+  <div
+    className="evolutionForms"
+  />
+</div>
 `;

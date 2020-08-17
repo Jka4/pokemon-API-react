@@ -15,12 +15,5 @@ exports[`Search renders correctly 1`] = `
     placeholder="Pickachu, 123, 900g"
     type="search"
   />
-  <div
-    className="searchResults"
-  >
-    <ul
-      className="searchList"
-    />
-  </div>
 </div>
 `;

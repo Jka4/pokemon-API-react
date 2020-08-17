@@ -38,13 +38,6 @@ Array [
         placeholder="Pickachu, 123, 900g"
         type="search"
       />
-      <div
-        className="searchResults"
-      >
-        <ul
-          className="searchList"
-        />
-      </div>
     </div>
   </div>,
   <div
@@ -53,51 +46,6 @@ Array [
     <section
       className="main"
     >
-      <div
-        className="topLine"
-      >
-        <a
-          aria-current="page"
-          className="backToMainPage active"
-          href="/pokemon-API-react/"
-          onClick={[Function]}
-          style={Object {}}
-        >
-           Back 
-        </a>
-        <div
-          className="player"
-        >
-          <button
-            className="playButton"
-            onClick={[Function]}
-          >
-            PLAY
-          </button>
-        </div>
-        <div
-          className="search"
-        >
-          <input
-            aria-label="Search"
-            autoComplete="off"
-            id="searchInput"
-            name="searchInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            placeholder="Pickachu, 123, 900g"
-            type="search"
-          />
-          <div
-            className="searchResults"
-          >
-            <ul
-              className="searchList"
-            />
-          </div>
-        </div>
-      </div>
       <div
         className="getButtonLine"
       >
@@ -208,7 +156,7 @@ Array [
         </button>
         <a
           aria-current={null}
-          href="/pokemon-API-react/allPokemons"
+          href="/pokemon-API-react/allPokemons/"
           onClick={[Function]}
         >
           <button
