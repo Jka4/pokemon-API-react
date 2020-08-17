@@ -18,7 +18,8 @@ const pathConfig = {
 	"@Player": "./src/components/Player/Player",
 	"@PokemonsPageAll": "./src/components/PokemonsPageAll/index",
 	"@ListView": "./src/components/PokemonsPageAll/ListView",
-	"@CatalogView": "./src/components/PokemonsPageAll/CatalogView"
+	"@CatalogView": "./src/components/PokemonsPageAll/CatalogView",
+	"@ErrorPage": "./src/components/ErrorPage/ErrorPage"
 }
 
 module.exports = {
