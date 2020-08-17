@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
@@ -21,6 +21,8 @@ const App = () => {
         <Route path='/detailedPage/pokemon/' component={DetailedPage} />
         <Route path='/allPokemons' component={PokemonsPageAll} />
         <Route path="/404" component={ErrorPage} />
+
+        <Redirect from='*' to='/404' />
       </Switch>
     </div>
   );
