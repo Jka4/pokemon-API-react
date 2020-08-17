@@ -71,9 +71,9 @@ const Search = (props) => {
         aria-label="Search"
       />
 
-      <div className='searchResults'>
+      {showResult && (<div className='searchResults'>
         <ul className='searchList'>
-          {showResult && searchResult.map((i, key) => (
+          {searchResult.map((i, key) => (
             <NavLink key={(i.item.id, key)}
               to={`/detailedPage/pokemon/${i.item.name}`} className='searchItem_outer' >
               <li
@@ -93,7 +93,7 @@ const Search = (props) => {
             </NavLink>
           ))}
         </ul>
-      </div>
+      </div>)}
     </div>
   );
 }

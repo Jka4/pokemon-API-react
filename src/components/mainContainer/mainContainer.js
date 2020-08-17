@@ -7,7 +7,6 @@ import { setDelailedPageData } from "@APIutils";
 import PokemonCard from '@PokemonCard';
 import Heading from '@Heading';
 import Logo from '@Logo';
-import HeaderLine from "@HeaderLine";
 
 import './styles/style.scss';
 
@@ -17,8 +16,6 @@ const MainContainer = props => {
 
   return (
     <section className='main'>
-      <HeaderLine />
-
       <Logo />
       <GetButton />
       {hasDataForRender && < Heading />}

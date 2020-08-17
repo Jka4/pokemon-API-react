@@ -8,7 +8,8 @@ import Player from "@Player";
 
 import './styles/style.scss';
 
-const HeaderLine = () => {
+
+const HeaderLine = (props) => {
 
   const clearDetailPageData = () => {
     store.dispatch({ type: "CLEAR_DETAILS_PAGE" });

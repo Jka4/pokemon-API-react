@@ -9,7 +9,8 @@ import DetailedPage from "@DetailedPage";
 import PokemonsPageAll from '@PokemonsPageAll';
 import HeaderLine from "@HeaderLine";
 
-const App = () => {
+const App = (props) => {
+
   return (
     <Router basename='/pokemon-API-react'>
       <HeaderLine />

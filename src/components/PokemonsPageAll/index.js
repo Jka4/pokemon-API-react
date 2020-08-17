@@ -29,7 +29,7 @@ const PokemonsPageAll = (props) => {
 			</div>
 
 			{
-				viewTypeIsCatalog
+				!viewTypeIsCatalog
 					? (<ListView pokemonDataArray={pokemonDataArray} />)
 					: (<CatalogView pokemonDataArray={pokemonDataArray} />)
 			}

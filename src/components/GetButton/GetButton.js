@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import './styles/style.scss';
 
 
-const GetButton = (props) => {
+const GetButton = () => {
   const clearState = () => {
     store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
   };
@@ -21,7 +21,7 @@ const GetButton = (props) => {
         CLEAR
         </button>
 
-      <NavLink to={`/allPokemons`} >
+      <NavLink to={`/allPokemons/`} >
         <button id='getAllPokemon' >
           GET ALL POKEMON
         </button>

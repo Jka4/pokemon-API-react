@@ -143,7 +143,7 @@ li {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 60px;
+  min-height: 100px;
 }
 
 .playButton {
@@ -198,8 +198,6 @@ li {
 }
 
 #searchInput:focus {
-  margin-right: 1px;
-  margin-left: 1px;
   border: 1px transparent solid;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -212,13 +210,14 @@ li {
   align-items: center;
   justify-content: flex-start;
   z-index: 10;
-  margin-top: 5px;
+  margin-top: 0px;
   box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07),
     0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
     0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18),
     0 43px 77px rgba(0, 0, 0, 0.25);
-  width: 120%;
+  width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
 .searchList {
@@ -331,11 +330,7 @@ li {
   width: 100%;
   height: auto;
   max-width: 600px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  display: flex;
 
   .block {
     margin-left: auto;
@@ -522,13 +517,17 @@ a {
     display: flex;
     position: absolute;
     top: 15px;
-    left: 25px;
+    left: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     z-index: 1000;
     width: auto;
     height: 40px;
+  }
+
+  .backToMainPage {
+    padding: 2px;
   }
 
   .playButton {
@@ -545,15 +544,18 @@ a {
 
   .search {
     top: 15px;
-    right: 25px;
-    width: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    padding-right: 25px;
   }
 
   .search input {
-    margin-right: -3rem;
-    padding-left: 10px;
-    width: 80%;
+    width: 70%;
     font-size: 1.4rem;
+    margin-right: 0;
+    margin-left: auto;
   }
 
   #searchInput::placeholder {
@@ -563,8 +565,8 @@ a {
   .searchResults {
     position: absolute;
     top: 45px;
-    right: -0.6rem;
-    width: 92.5vw;
+    width: 90%;
+    left: 5%;
   }
 
   .getButtonLine {
@@ -633,6 +635,59 @@ a {
   .imagesLineSmall .block img {
     width: auto;
   }
+
+  .Button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    #getPokemon,
+    #clear,
+    #getAllPokemon {
+      margin: 5px;
+    }
+  }
+
+
+  .getButtonLine {
+    .Tilt-inner {
+      min-height: 150px;
+    }
+  }
+
+  .backToMainPage {
+    position: absolute;
+  }
+
+  .imagesLine {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .block {
+      max-width: 120px;
+    }
+  }
+
+  .mainInformations {
+    flex-direction: column;
+
+    .skills {
+      justify-content: center;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  .evolutionForms {
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    a.evoForm {
+      margin: 10px;
+    }
+  }
 }
 
 .titles {
@@ -677,6 +732,7 @@ a {
   position: fixed;
   top: 60px;
   left: 0px;
+  height: 28px;
 }
 
 .backToMainPage:hover {

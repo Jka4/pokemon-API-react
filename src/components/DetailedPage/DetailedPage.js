@@ -3,7 +3,6 @@ import { Provider, connect } from 'react-redux';
 import { NavLink } from "react-router-dom";
 import Loader from 'react-loader-spinner'
 
-import HeaderLine from "@HeaderLine";
 import { setDelailedPageData } from "@APIutils";
 import pokemonDataArray from '@pokemonDataArray';
 
@@ -30,7 +29,6 @@ const DetailedPage = props => {
 
   return (
     <React.Fragment>
-      <HeaderLine />
       <div className='detailedPage' data-testid="detailedPageTest">
         <div className='name'>{name}</div>
         <div className='imagesLine'>
