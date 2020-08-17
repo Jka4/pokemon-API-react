@@ -1,9 +1,11 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from 'react-redux';
-import { NavLink } from "react-router-dom";
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 
-import { setDelailedPageData } from "@APIutils";
+import Stats from '@Stats';
+import Abilities from '@Abilities';
+import EvolutionForms from '@EvolutionForms';
+
 import pokemonDataArray from '@pokemonDataArray';
 
 import store from "@Store";
@@ -16,16 +18,15 @@ const ImageContainer = lazy(() => import('@ImageContainer'));
 
 const DetailedPage = props => {
   const data = props.detailsPageTest || props.detailsPage;
-  const { sprites, name } = data;
   const [evolutionChain, setEvolutionChain] = useState();
-
 
   useEffect(() => {
     let pokemonObj = _.find(pokemonDataArray, (o) => o.name === data.name);
     pokemonObj && setEvolutionChain(pokemonObj);
-
   }, [data])
 
+  const { sprites, name } = data;
+  const { abilities, stats, weight } = props.detailsPage;
 
   return (
     <React.Fragment>
@@ -48,8 +49,8 @@ const DetailedPage = props => {
         </div>
         <div className="mainInformations">
           <div className='skills'>
-            <Stats props={props} />
-            <Abilities props={props} />
+            <Stats weight={weight} stats={stats} />
+            <Abilities abilities={abilities} />
           </div>
           <div className="bigImage">
             {evolutionChain?.imageHQ && <Suspense fallback={<Loader type="TailSpin" height={320}
@@ -63,85 +64,8 @@ const DetailedPage = props => {
       </div>
     </React.Fragment>
   );
-
 }
 
-const Stats = (props) => {
-  const { stats, weight } = props.props.detailsPage;
-
-  return (
-    <div className='stats'>
-      <ul className='statsUL'>
-        <div className='skills_title'>Stats</div>
-
-        {stats && stats.map((i, key) => (
-          <li className='statsLI' key={key}>
-            {i.stat.name} {i.base_stat}
-          </li>
-        ))}
-        <li className='statsLI'>weight {weight}kg</li>
-      </ul>
-    </div>
-  );
-};
-
-const Abilities = (props) => {
-  const { abilities } = props.props.detailsPage;
-
-  return (
-    <div className='abilities'>
-      <ul className='abilitiesUL'>
-        <div className='skills_title'>Abilities</div>
-
-        {abilities && abilities.map((i, key) => (
-          <li className='abilitiesLI' key={key}>
-            {key + 1}: {i.ability.name}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-
-const EvolutionForms = (props) => {
-  const chainNames = props.evolutionChain?.chain;
-  const currentPokemon = props?.currentPokemon
-  const [chain, setChain] = useState();
-
-  useEffect(() => {
-    let arr = [];
-
-    chainNames && chainNames.forEach((index) => {
-      index.image = _.find(pokemonDataArray, (o) => o.name === index.species_name).image;
-      index.id = _.find(pokemonDataArray, (o) => o.name === index.species_name).id;
-      arr.push(index);
-    })
-    setChain(arr);
-  }, [chainNames])
-
-
-  return (
-    <React.Fragment>
-      <div className="evolutionForms">
-        {chain && chain.map((index, key) => (
-          <NavLink to={`/detailedPage/pokemon/${index.id}`}
-            className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
-            data-pokemon_id={index.id} onClick={setDelailedPageData} key={key}>
-
-            <Suspense fallback={<Loader type="TailSpin" height={96}
-              width={96} color={"red"}
-            />}>
-              <ImageContainer url={index.image} />
-            </Suspense>
-
-            <div className='pokemonName' >{index.species_name}</div>
-          </NavLink>
-        ))}
-      </div>
-    </React.Fragment >
-  )
-}
 
 const ConnectedDetailedPage = connect(store => {
   return {
