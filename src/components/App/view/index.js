@@ -15,7 +15,7 @@ const App = (props) => {
   return (
     <React.Fragment>
       <div className='App'>
-        <HeaderLine />
+        <Route render={(props) => <HeaderLine props={props} />} />
 
         <Switch>
           <Route exact path='/' component={MainContainer} />
