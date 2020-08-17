@@ -125,6 +125,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
         tabIndex={0}
       />
@@ -137,6 +138,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
         tabIndex={1}
       />
@@ -149,6 +151,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
         tabIndex={2}
       />
@@ -161,6 +164,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
         tabIndex={3}
       />
@@ -173,6 +177,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
         tabIndex={4}
       />
@@ -185,6 +190,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
         tabIndex={5}
       />
@@ -197,6 +203,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
         tabIndex={6}
       />
@@ -209,6 +216,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
         tabIndex={7}
       />
@@ -221,6 +229,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
         tabIndex={8}
       />
@@ -233,6 +242,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
         tabIndex={9}
       />
@@ -245,6 +255,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
         tabIndex={10}
       />
@@ -257,6 +268,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
         tabIndex={11}
       />
@@ -269,6 +281,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
         tabIndex={12}
       />
@@ -281,6 +294,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
         tabIndex={13}
       />
@@ -293,6 +307,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
         tabIndex={14}
       />
@@ -305,6 +320,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
         tabIndex={15}
       />
@@ -317,6 +333,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
         tabIndex={16}
       />
@@ -329,6 +346,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
         tabIndex={17}
       />
@@ -341,6 +359,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
         tabIndex={18}
       />
@@ -353,6 +372,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
         tabIndex={19}
       />
@@ -365,6 +385,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
         tabIndex={20}
       />
@@ -377,6 +398,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
         tabIndex={21}
       />
@@ -389,6 +411,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
         tabIndex={22}
       />
@@ -401,6 +424,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
         tabIndex={23}
       />
@@ -413,6 +437,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
         tabIndex={24}
       />
@@ -425,6 +450,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
         tabIndex={25}
       />
@@ -437,6 +463,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
         tabIndex={26}
       />
@@ -449,6 +476,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
         tabIndex={27}
       />
@@ -461,6 +489,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
         tabIndex={28}
       />
@@ -473,6 +502,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
         tabIndex={29}
       />
@@ -485,6 +515,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
         tabIndex={30}
       />
@@ -497,6 +528,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
         tabIndex={31}
       />
@@ -509,6 +541,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
         tabIndex={32}
       />
@@ -521,6 +554,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
         tabIndex={33}
       />
@@ -533,6 +567,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
         tabIndex={34}
       />
@@ -545,6 +580,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
         tabIndex={35}
       />
@@ -557,6 +593,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
         tabIndex={36}
       />
@@ -569,6 +606,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
         tabIndex={37}
       />
@@ -581,6 +619,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
         tabIndex={38}
       />
@@ -593,6 +632,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
         tabIndex={39}
       />
@@ -605,6 +645,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
         tabIndex={40}
       />
@@ -617,6 +658,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
         tabIndex={41}
       />
@@ -629,6 +671,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
         tabIndex={42}
       />
@@ -641,6 +684,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
         tabIndex={43}
       />
@@ -653,6 +697,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
         tabIndex={44}
       />
@@ -665,6 +710,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
         tabIndex={45}
       />
@@ -677,6 +723,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
         tabIndex={46}
       />
@@ -689,6 +736,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
         tabIndex={47}
       />
@@ -701,6 +749,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
         tabIndex={48}
       />
@@ -713,6 +762,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
         tabIndex={49}
       />
@@ -725,6 +775,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
         tabIndex={50}
       />
@@ -737,6 +788,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
         tabIndex={51}
       />
@@ -749,6 +801,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
         tabIndex={52}
       />
@@ -761,6 +814,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
         tabIndex={53}
       />
@@ -773,6 +827,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
         tabIndex={54}
       />
@@ -785,6 +840,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
         tabIndex={55}
       />
@@ -797,6 +853,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
         tabIndex={56}
       />
@@ -809,6 +866,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
         tabIndex={57}
       />
@@ -821,6 +879,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
         tabIndex={58}
       />
@@ -833,6 +892,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
         tabIndex={59}
       />
@@ -845,6 +905,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
         tabIndex={60}
       />
@@ -857,6 +918,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
         tabIndex={61}
       />
@@ -869,6 +931,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
         tabIndex={62}
       />
@@ -881,6 +944,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
         tabIndex={63}
       />
@@ -893,6 +957,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
         tabIndex={64}
       />
@@ -905,6 +970,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
         tabIndex={65}
       />
@@ -917,6 +983,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
         tabIndex={66}
       />
@@ -929,6 +996,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
         tabIndex={67}
       />
@@ -941,6 +1009,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
         tabIndex={68}
       />
@@ -953,6 +1022,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
         tabIndex={69}
       />
@@ -965,6 +1035,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
         tabIndex={70}
       />
@@ -977,6 +1048,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
         tabIndex={71}
       />
@@ -989,6 +1061,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
         tabIndex={72}
       />
@@ -1001,6 +1074,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
         tabIndex={73}
       />
@@ -1013,6 +1087,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
         tabIndex={74}
       />
@@ -1025,6 +1100,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
         tabIndex={75}
       />
@@ -1037,6 +1113,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
         tabIndex={76}
       />
@@ -1049,6 +1126,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
         tabIndex={77}
       />
@@ -1061,6 +1139,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
         tabIndex={78}
       />
@@ -1073,6 +1152,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
         tabIndex={79}
       />
@@ -1085,6 +1165,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
         tabIndex={80}
       />
@@ -1097,6 +1178,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
         tabIndex={81}
       />
@@ -1109,6 +1191,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
         tabIndex={82}
       />
@@ -1121,6 +1204,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
         tabIndex={83}
       />
@@ -1133,6 +1217,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
         tabIndex={84}
       />
@@ -1145,6 +1230,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
         tabIndex={85}
       />
@@ -1157,6 +1243,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
         tabIndex={86}
       />
@@ -1169,6 +1256,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
         tabIndex={87}
       />
@@ -1181,6 +1269,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
         tabIndex={88}
       />
@@ -1193,6 +1282,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
         tabIndex={89}
       />
@@ -1205,6 +1295,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
         tabIndex={90}
       />
@@ -1217,6 +1308,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
         tabIndex={91}
       />
@@ -1229,6 +1321,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
         tabIndex={92}
       />
@@ -1241,6 +1334,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
         tabIndex={93}
       />
@@ -1253,6 +1347,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
         tabIndex={94}
       />
@@ -1265,6 +1360,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
         tabIndex={95}
       />
@@ -1277,6 +1373,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
         tabIndex={96}
       />
@@ -1289,6 +1386,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
         tabIndex={97}
       />
@@ -1301,6 +1399,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
         tabIndex={98}
       />
@@ -1313,6 +1412,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
         tabIndex={99}
       />
@@ -1325,6 +1425,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
         tabIndex={100}
       />
@@ -1337,6 +1438,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
         tabIndex={101}
       />
@@ -1349,6 +1451,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
         tabIndex={102}
       />
@@ -1361,6 +1464,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
         tabIndex={103}
       />
@@ -1373,6 +1477,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
         tabIndex={104}
       />
@@ -1385,6 +1490,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
         tabIndex={105}
       />
@@ -1397,6 +1503,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
         tabIndex={106}
       />
@@ -1409,6 +1516,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
         tabIndex={107}
       />
@@ -1421,6 +1529,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
         tabIndex={108}
       />
@@ -1433,6 +1542,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
         tabIndex={109}
       />
@@ -1445,6 +1555,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
         tabIndex={110}
       />
@@ -1457,6 +1568,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
         tabIndex={111}
       />
@@ -1469,6 +1581,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
         tabIndex={112}
       />
@@ -1481,6 +1594,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
         tabIndex={113}
       />
@@ -1493,6 +1607,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
         tabIndex={114}
       />
@@ -1505,6 +1620,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
         tabIndex={115}
       />
@@ -1517,6 +1633,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
         tabIndex={116}
       />
@@ -1529,6 +1646,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
         tabIndex={117}
       />
@@ -1541,6 +1659,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
         tabIndex={118}
       />
@@ -1553,6 +1672,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
         tabIndex={119}
       />
@@ -1565,6 +1685,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
         tabIndex={120}
       />
@@ -1577,6 +1698,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
         tabIndex={121}
       />
@@ -1589,6 +1711,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
         tabIndex={122}
       />
@@ -1601,6 +1724,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
         tabIndex={123}
       />
@@ -1613,6 +1737,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
         tabIndex={124}
       />
@@ -1625,6 +1750,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
         tabIndex={125}
       />
@@ -1637,6 +1763,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
         tabIndex={126}
       />
@@ -1649,6 +1776,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
         tabIndex={127}
       />
@@ -1661,6 +1789,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
         tabIndex={128}
       />
@@ -1673,6 +1802,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
         tabIndex={129}
       />
@@ -1685,6 +1815,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
         tabIndex={130}
       />
@@ -1697,6 +1828,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
         tabIndex={131}
       />
@@ -1709,6 +1841,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
         tabIndex={132}
       />
@@ -1721,6 +1854,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
         tabIndex={133}
       />
@@ -1733,6 +1867,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
         tabIndex={134}
       />
@@ -1745,6 +1880,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
         tabIndex={135}
       />
@@ -1757,6 +1893,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
         tabIndex={136}
       />
@@ -1769,6 +1906,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
         tabIndex={137}
       />
@@ -1781,6 +1919,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
         tabIndex={138}
       />
@@ -1793,6 +1932,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
         tabIndex={139}
       />
@@ -1805,6 +1945,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
         tabIndex={140}
       />
@@ -1817,6 +1958,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
         tabIndex={141}
       />
@@ -1829,6 +1971,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
         tabIndex={142}
       />
@@ -1841,6 +1984,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
         tabIndex={143}
       />
@@ -1853,6 +1997,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
         tabIndex={144}
       />
@@ -1865,6 +2010,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
         tabIndex={145}
       />
@@ -1877,6 +2023,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
         tabIndex={146}
       />
@@ -1889,6 +2036,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
         tabIndex={147}
       />
@@ -1901,6 +2049,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
         tabIndex={148}
       />
@@ -1913,6 +2062,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
         tabIndex={149}
       />
@@ -1925,6 +2075,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
         tabIndex={150}
       />
@@ -1937,6 +2088,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png"
         tabIndex={151}
       />
@@ -1949,6 +2101,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png"
         tabIndex={152}
       />
@@ -1961,6 +2114,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
         tabIndex={153}
       />
@@ -1973,6 +2127,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png"
         tabIndex={154}
       />
@@ -1985,6 +2140,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png"
         tabIndex={155}
       />
@@ -1997,6 +2153,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png"
         tabIndex={156}
       />
@@ -2009,6 +2166,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png"
         tabIndex={157}
       />
@@ -2021,6 +2179,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png"
         tabIndex={158}
       />
@@ -2033,6 +2192,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png"
         tabIndex={159}
       />
@@ -2045,6 +2205,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png"
         tabIndex={160}
       />
@@ -2057,6 +2218,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png"
         tabIndex={161}
       />
@@ -2069,6 +2231,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png"
         tabIndex={162}
       />
@@ -2081,6 +2244,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
         tabIndex={163}
       />
@@ -2093,6 +2257,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
         tabIndex={164}
       />
@@ -2105,6 +2270,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
         tabIndex={165}
       />
@@ -2117,6 +2283,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png"
         tabIndex={166}
       />
@@ -2129,6 +2296,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
         tabIndex={167}
       />
@@ -2141,6 +2309,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
         tabIndex={168}
       />
@@ -2153,6 +2322,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png"
         tabIndex={169}
       />
@@ -2165,6 +2335,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
         tabIndex={170}
       />
@@ -2177,6 +2348,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png"
         tabIndex={171}
       />
@@ -2189,6 +2361,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png"
         tabIndex={172}
       />
@@ -2201,6 +2374,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png"
         tabIndex={173}
       />
@@ -2213,6 +2387,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png"
         tabIndex={174}
       />
@@ -2225,6 +2400,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png"
         tabIndex={175}
       />
@@ -2237,6 +2413,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png"
         tabIndex={176}
       />
@@ -2249,6 +2426,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png"
         tabIndex={177}
       />
@@ -2261,6 +2439,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png"
         tabIndex={178}
       />
@@ -2273,6 +2452,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png"
         tabIndex={179}
       />
@@ -2285,6 +2465,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png"
         tabIndex={180}
       />
@@ -2297,6 +2478,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png"
         tabIndex={181}
       />
@@ -2309,6 +2491,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png"
         tabIndex={182}
       />
@@ -2321,6 +2504,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png"
         tabIndex={183}
       />
@@ -2333,6 +2517,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png"
         tabIndex={184}
       />
@@ -2345,6 +2530,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png"
         tabIndex={185}
       />
@@ -2357,6 +2543,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png"
         tabIndex={186}
       />
@@ -2369,6 +2556,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png"
         tabIndex={187}
       />
@@ -2381,6 +2569,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png"
         tabIndex={188}
       />
@@ -2393,6 +2582,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
         tabIndex={189}
       />
@@ -2405,6 +2595,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png"
         tabIndex={190}
       />
@@ -2417,6 +2608,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png"
         tabIndex={191}
       />
@@ -2429,6 +2621,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png"
         tabIndex={192}
       />
@@ -2441,6 +2634,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png"
         tabIndex={193}
       />
@@ -2453,6 +2647,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png"
         tabIndex={194}
       />
@@ -2465,6 +2660,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png"
         tabIndex={195}
       />
@@ -2477,6 +2673,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png"
         tabIndex={196}
       />
@@ -2489,6 +2686,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png"
         tabIndex={197}
       />
@@ -2501,6 +2699,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png"
         tabIndex={198}
       />
@@ -2513,6 +2712,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
         tabIndex={199}
       />
@@ -2525,6 +2725,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png"
         tabIndex={200}
       />
@@ -2537,6 +2738,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png"
         tabIndex={201}
       />
@@ -2549,6 +2751,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png"
         tabIndex={202}
       />
@@ -2561,6 +2764,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
         tabIndex={203}
       />
@@ -2573,6 +2777,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png"
         tabIndex={204}
       />
@@ -2585,6 +2790,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png"
         tabIndex={205}
       />
@@ -2597,6 +2803,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png"
         tabIndex={206}
       />
@@ -2609,6 +2816,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png"
         tabIndex={207}
       />
@@ -2621,6 +2829,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png"
         tabIndex={208}
       />
@@ -2633,6 +2842,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png"
         tabIndex={209}
       />
@@ -2645,6 +2855,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png"
         tabIndex={210}
       />
@@ -2657,6 +2868,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png"
         tabIndex={211}
       />
@@ -2669,6 +2881,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png"
         tabIndex={212}
       />
@@ -2681,6 +2894,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png"
         tabIndex={213}
       />
@@ -2693,6 +2907,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png"
         tabIndex={214}
       />
@@ -2705,6 +2920,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png"
         tabIndex={215}
       />
@@ -2717,6 +2933,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png"
         tabIndex={216}
       />
@@ -2729,6 +2946,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png"
         tabIndex={217}
       />
@@ -2741,6 +2959,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png"
         tabIndex={218}
       />
@@ -2753,6 +2972,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png"
         tabIndex={219}
       />
@@ -2765,6 +2985,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png"
         tabIndex={220}
       />
@@ -2777,6 +2998,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
         tabIndex={221}
       />
@@ -2789,6 +3011,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png"
         tabIndex={222}
       />
@@ -2801,6 +3024,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png"
         tabIndex={223}
       />
@@ -2813,6 +3037,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
         tabIndex={224}
       />
@@ -2825,6 +3050,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png"
         tabIndex={225}
       />
@@ -2837,6 +3063,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png"
         tabIndex={226}
       />
@@ -2849,6 +3076,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png"
         tabIndex={227}
       />
@@ -2861,6 +3089,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png"
         tabIndex={228}
       />
@@ -2873,6 +3102,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png"
         tabIndex={229}
       />
@@ -2885,6 +3115,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
         tabIndex={230}
       />
@@ -2897,6 +3128,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png"
         tabIndex={231}
       />
@@ -2909,6 +3141,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
         tabIndex={232}
       />
@@ -2921,6 +3154,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png"
         tabIndex={233}
       />
@@ -2933,6 +3167,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png"
         tabIndex={234}
       />
@@ -2945,6 +3180,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png"
         tabIndex={235}
       />
@@ -2957,6 +3193,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png"
         tabIndex={236}
       />
@@ -2969,6 +3206,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png"
         tabIndex={237}
       />
@@ -2981,6 +3219,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
         tabIndex={238}
       />
@@ -2993,6 +3232,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png"
         tabIndex={239}
       />
@@ -3005,6 +3245,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png"
         tabIndex={240}
       />
@@ -3017,6 +3258,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png"
         tabIndex={241}
       />
@@ -3029,6 +3271,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
         tabIndex={242}
       />
@@ -3041,6 +3284,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png"
         tabIndex={243}
       />
@@ -3053,6 +3297,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
         tabIndex={244}
       />
@@ -3065,6 +3310,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
         tabIndex={245}
       />
@@ -3077,6 +3323,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png"
         tabIndex={246}
       />
@@ -3089,6 +3336,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
         tabIndex={247}
       />
@@ -3101,6 +3349,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png"
         tabIndex={248}
       />
@@ -3113,6 +3362,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png"
         tabIndex={249}
       />
@@ -3125,6 +3375,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
         tabIndex={250}
       />
@@ -3137,6 +3388,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png"
         tabIndex={251}
       />
@@ -3149,6 +3401,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png"
         tabIndex={252}
       />
@@ -3161,6 +3414,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png"
         tabIndex={253}
       />
@@ -3173,6 +3427,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png"
         tabIndex={254}
       />
@@ -3185,6 +3440,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png"
         tabIndex={255}
       />
@@ -3197,6 +3453,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png"
         tabIndex={256}
       />
@@ -3209,6 +3466,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png"
         tabIndex={257}
       />
@@ -3221,6 +3479,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png"
         tabIndex={258}
       />
@@ -3233,6 +3492,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png"
         tabIndex={259}
       />
@@ -3245,6 +3505,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
         tabIndex={260}
       />
@@ -3257,6 +3518,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png"
         tabIndex={261}
       />
@@ -3269,6 +3531,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png"
         tabIndex={262}
       />
@@ -3281,6 +3544,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png"
         tabIndex={263}
       />
@@ -3293,6 +3557,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png"
         tabIndex={264}
       />
@@ -3305,6 +3570,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png"
         tabIndex={265}
       />
@@ -3317,6 +3583,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png"
         tabIndex={266}
       />
@@ -3329,6 +3596,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png"
         tabIndex={267}
       />
@@ -3341,6 +3609,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png"
         tabIndex={268}
       />
@@ -3353,6 +3622,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"
         tabIndex={269}
       />
@@ -3365,6 +3635,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
         tabIndex={270}
       />
@@ -3377,6 +3648,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png"
         tabIndex={271}
       />
@@ -3389,6 +3661,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png"
         tabIndex={272}
       />
@@ -3401,6 +3674,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png"
         tabIndex={273}
       />
@@ -3413,6 +3687,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png"
         tabIndex={274}
       />
@@ -3425,6 +3700,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png"
         tabIndex={275}
       />
@@ -3437,6 +3713,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png"
         tabIndex={276}
       />
@@ -3449,6 +3726,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"
         tabIndex={277}
       />
@@ -3461,6 +3739,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png"
         tabIndex={278}
       />
@@ -3473,6 +3752,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png"
         tabIndex={279}
       />
@@ -3485,6 +3765,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png"
         tabIndex={280}
       />
@@ -3497,6 +3778,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png"
         tabIndex={281}
       />
@@ -3509,6 +3791,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png"
         tabIndex={282}
       />
@@ -3521,6 +3804,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png"
         tabIndex={283}
       />
@@ -3533,6 +3817,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png"
         tabIndex={284}
       />
@@ -3545,6 +3830,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png"
         tabIndex={285}
       />
@@ -3557,6 +3843,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png"
         tabIndex={286}
       />
@@ -3569,6 +3856,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png"
         tabIndex={287}
       />
@@ -3581,6 +3869,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png"
         tabIndex={288}
       />
@@ -3593,6 +3882,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png"
         tabIndex={289}
       />
@@ -3605,6 +3895,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png"
         tabIndex={290}
       />
@@ -3617,6 +3908,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png"
         tabIndex={291}
       />
@@ -3629,6 +3921,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png"
         tabIndex={292}
       />
@@ -3641,6 +3934,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
         tabIndex={293}
       />
@@ -3653,6 +3947,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png"
         tabIndex={294}
       />
@@ -3665,6 +3960,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png"
         tabIndex={295}
       />
@@ -3677,6 +3973,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png"
         tabIndex={296}
       />
@@ -3689,6 +3986,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png"
         tabIndex={297}
       />
@@ -3701,6 +3999,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png"
         tabIndex={298}
       />
@@ -3713,6 +4012,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png"
         tabIndex={299}
       />
@@ -3725,6 +4025,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png"
         tabIndex={300}
       />
@@ -3737,6 +4038,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png"
         tabIndex={301}
       />
@@ -3749,6 +4051,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"
         tabIndex={302}
       />
@@ -3761,6 +4064,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png"
         tabIndex={303}
       />
@@ -3773,6 +4077,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png"
         tabIndex={304}
       />
@@ -3785,6 +4090,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png"
         tabIndex={305}
       />
@@ -3797,6 +4103,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png"
         tabIndex={306}
       />
@@ -3809,6 +4116,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png"
         tabIndex={307}
       />
@@ -3821,6 +4129,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png"
         tabIndex={308}
       />
@@ -3833,6 +4142,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png"
         tabIndex={309}
       />
@@ -3845,6 +4155,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png"
         tabIndex={310}
       />
@@ -3857,6 +4168,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
         tabIndex={311}
       />
@@ -3869,6 +4181,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png"
         tabIndex={312}
       />
@@ -3881,6 +4194,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png"
         tabIndex={313}
       />
@@ -3893,6 +4207,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png"
         tabIndex={314}
       />
@@ -3905,6 +4220,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png"
         tabIndex={315}
       />
@@ -3917,6 +4233,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png"
         tabIndex={316}
       />
@@ -3929,6 +4246,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png"
         tabIndex={317}
       />
@@ -3941,6 +4259,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png"
         tabIndex={318}
       />
@@ -3953,6 +4272,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png"
         tabIndex={319}
       />
@@ -3965,6 +4285,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png"
         tabIndex={320}
       />
@@ -3977,6 +4298,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png"
         tabIndex={321}
       />
@@ -3989,6 +4311,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png"
         tabIndex={322}
       />
@@ -4001,6 +4324,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png"
         tabIndex={323}
       />
@@ -4013,6 +4337,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png"
         tabIndex={324}
       />
@@ -4025,6 +4350,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png"
         tabIndex={325}
       />
@@ -4037,6 +4363,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png"
         tabIndex={326}
       />
@@ -4049,6 +4376,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png"
         tabIndex={327}
       />
@@ -4061,6 +4389,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png"
         tabIndex={328}
       />
@@ -4073,6 +4402,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
         tabIndex={329}
       />
@@ -4085,6 +4415,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png"
         tabIndex={330}
       />
@@ -4097,6 +4428,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png"
         tabIndex={331}
       />
@@ -4109,6 +4441,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png"
         tabIndex={332}
       />
@@ -4121,6 +4454,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png"
         tabIndex={333}
       />
@@ -4133,6 +4467,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png"
         tabIndex={334}
       />
@@ -4145,6 +4480,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png"
         tabIndex={335}
       />
@@ -4157,6 +4493,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png"
         tabIndex={336}
       />
@@ -4169,6 +4506,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
         tabIndex={337}
       />
@@ -4181,6 +4519,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png"
         tabIndex={338}
       />
@@ -4193,6 +4532,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png"
         tabIndex={339}
       />
@@ -4205,6 +4545,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png"
         tabIndex={340}
       />
@@ -4217,6 +4558,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png"
         tabIndex={341}
       />
@@ -4229,6 +4571,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png"
         tabIndex={342}
       />
@@ -4241,6 +4584,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"
         tabIndex={343}
       />
@@ -4253,6 +4597,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png"
         tabIndex={344}
       />
@@ -4265,6 +4610,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png"
         tabIndex={345}
       />
@@ -4277,6 +4623,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png"
         tabIndex={346}
       />
@@ -4289,6 +4636,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png"
         tabIndex={347}
       />
@@ -4301,6 +4649,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png"
         tabIndex={348}
       />
@@ -4313,6 +4662,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png"
         tabIndex={349}
       />
@@ -4325,6 +4675,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png"
         tabIndex={350}
       />
@@ -4337,6 +4688,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png"
         tabIndex={351}
       />
@@ -4349,6 +4701,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png"
         tabIndex={352}
       />
@@ -4361,6 +4714,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png"
         tabIndex={353}
       />
@@ -4373,6 +4727,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png"
         tabIndex={354}
       />
@@ -4385,6 +4740,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png"
         tabIndex={355}
       />
@@ -4397,6 +4753,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png"
         tabIndex={356}
       />
@@ -4409,6 +4766,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png"
         tabIndex={357}
       />
@@ -4421,6 +4779,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png"
         tabIndex={358}
       />
@@ -4433,6 +4792,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
         tabIndex={359}
       />
@@ -4445,6 +4805,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png"
         tabIndex={360}
       />
@@ -4457,6 +4818,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png"
         tabIndex={361}
       />
@@ -4469,6 +4831,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
         tabIndex={362}
       />
@@ -4481,6 +4844,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png"
         tabIndex={363}
       />
@@ -4493,6 +4857,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png"
         tabIndex={364}
       />
@@ -4505,6 +4870,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png"
         tabIndex={365}
       />
@@ -4517,6 +4883,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png"
         tabIndex={366}
       />
@@ -4529,6 +4896,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png"
         tabIndex={367}
       />
@@ -4541,6 +4909,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png"
         tabIndex={368}
       />
@@ -4553,6 +4922,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png"
         tabIndex={369}
       />
@@ -4565,6 +4935,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png"
         tabIndex={370}
       />
@@ -4577,6 +4948,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png"
         tabIndex={371}
       />
@@ -4589,6 +4961,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
         tabIndex={372}
       />
@@ -4601,6 +4974,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png"
         tabIndex={373}
       />
@@ -4613,6 +4987,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png"
         tabIndex={374}
       />
@@ -4625,6 +5000,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png"
         tabIndex={375}
       />
@@ -4637,6 +5013,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png"
         tabIndex={376}
       />
@@ -4649,6 +5026,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png"
         tabIndex={377}
       />
@@ -4661,6 +5039,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png"
         tabIndex={378}
       />
@@ -4673,6 +5052,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png"
         tabIndex={379}
       />
@@ -4685,6 +5065,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png"
         tabIndex={380}
       />
@@ -4697,6 +5078,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png"
         tabIndex={381}
       />
@@ -4709,6 +5091,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png"
         tabIndex={382}
       />
@@ -4721,6 +5104,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png"
         tabIndex={383}
       />
@@ -4733,6 +5117,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png"
         tabIndex={384}
       />
@@ -4745,6 +5130,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png"
         tabIndex={385}
       />
@@ -4757,6 +5143,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png"
         tabIndex={386}
       />
@@ -4769,6 +5156,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png"
         tabIndex={387}
       />
@@ -4781,6 +5169,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png"
         tabIndex={388}
       />
@@ -4793,6 +5182,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png"
         tabIndex={389}
       />
@@ -4805,6 +5195,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png"
         tabIndex={390}
       />
@@ -4817,6 +5208,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png"
         tabIndex={391}
       />
@@ -4829,6 +5221,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
         tabIndex={392}
       />
@@ -4841,6 +5234,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png"
         tabIndex={393}
       />
@@ -4853,6 +5247,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
         tabIndex={394}
       />
@@ -4865,6 +5260,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png"
         tabIndex={395}
       />
@@ -4877,6 +5273,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png"
         tabIndex={396}
       />
@@ -4889,6 +5286,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png"
         tabIndex={397}
       />
@@ -4901,6 +5299,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png"
         tabIndex={398}
       />
@@ -4913,6 +5312,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png"
         tabIndex={399}
       />
@@ -4925,6 +5325,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png"
         tabIndex={400}
       />
@@ -4937,6 +5338,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png"
         tabIndex={401}
       />
@@ -4949,6 +5351,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png"
         tabIndex={402}
       />
@@ -4961,6 +5364,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png"
         tabIndex={403}
       />
@@ -4973,6 +5377,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png"
         tabIndex={404}
       />
@@ -4985,6 +5390,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png"
         tabIndex={405}
       />
@@ -4997,6 +5403,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
         tabIndex={406}
       />
@@ -5009,6 +5416,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png"
         tabIndex={407}
       />
@@ -5021,6 +5429,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png"
         tabIndex={408}
       />
@@ -5033,6 +5442,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png"
         tabIndex={409}
       />
@@ -5045,6 +5455,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png"
         tabIndex={410}
       />
@@ -5057,6 +5468,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png"
         tabIndex={411}
       />
@@ -5069,6 +5481,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png"
         tabIndex={412}
       />
@@ -5081,6 +5494,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png"
         tabIndex={413}
       />
@@ -5093,6 +5507,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png"
         tabIndex={414}
       />
@@ -5105,6 +5520,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png"
         tabIndex={415}
       />
@@ -5117,6 +5533,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png"
         tabIndex={416}
       />
@@ -5129,6 +5546,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png"
         tabIndex={417}
       />
@@ -5141,6 +5559,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png"
         tabIndex={418}
       />
@@ -5153,6 +5572,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png"
         tabIndex={419}
       />
@@ -5165,6 +5585,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png"
         tabIndex={420}
       />
@@ -5177,6 +5598,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png"
         tabIndex={421}
       />
@@ -5189,6 +5611,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png"
         tabIndex={422}
       />
@@ -5201,6 +5624,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
         tabIndex={423}
       />
@@ -5213,6 +5637,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png"
         tabIndex={424}
       />
@@ -5225,6 +5650,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png"
         tabIndex={425}
       />
@@ -5237,6 +5663,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png"
         tabIndex={426}
       />
@@ -5249,6 +5676,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png"
         tabIndex={427}
       />
@@ -5261,6 +5689,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
         tabIndex={428}
       />
@@ -5273,6 +5702,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png"
         tabIndex={429}
       />
@@ -5285,6 +5715,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png"
         tabIndex={430}
       />
@@ -5297,6 +5728,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
         tabIndex={431}
       />
@@ -5309,6 +5741,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png"
         tabIndex={432}
       />
@@ -5321,6 +5754,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
         tabIndex={433}
       />
@@ -5333,6 +5767,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png"
         tabIndex={434}
       />
@@ -5345,6 +5780,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png"
         tabIndex={435}
       />
@@ -5357,6 +5793,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png"
         tabIndex={436}
       />
@@ -5369,6 +5806,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png"
         tabIndex={437}
       />
@@ -5381,6 +5819,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png"
         tabIndex={438}
       />
@@ -5393,6 +5832,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png"
         tabIndex={439}
       />
@@ -5405,6 +5845,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png"
         tabIndex={440}
       />
@@ -5417,6 +5858,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png"
         tabIndex={441}
       />
@@ -5429,6 +5871,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png"
         tabIndex={442}
       />
@@ -5441,6 +5884,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png"
         tabIndex={443}
       />
@@ -5453,6 +5897,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
         tabIndex={444}
       />
@@ -5465,6 +5910,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
         tabIndex={445}
       />
@@ -5477,6 +5923,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"
         tabIndex={446}
       />
@@ -5489,6 +5936,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
         tabIndex={447}
       />
@@ -5501,6 +5949,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png"
         tabIndex={448}
       />
@@ -5513,6 +5962,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png"
         tabIndex={449}
       />
@@ -5525,6 +5975,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
         tabIndex={450}
       />
@@ -5537,6 +5988,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
         tabIndex={451}
       />
@@ -5549,6 +6001,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png"
         tabIndex={452}
       />
@@ -5561,6 +6014,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png"
         tabIndex={453}
       />
@@ -5573,6 +6027,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
         tabIndex={454}
       />
@@ -5585,6 +6040,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png"
         tabIndex={455}
       />
@@ -5597,6 +6053,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png"
         tabIndex={456}
       />
@@ -5609,6 +6066,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"
         tabIndex={457}
       />
@@ -5621,6 +6079,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png"
         tabIndex={458}
       />
@@ -5633,6 +6092,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
         tabIndex={459}
       />
@@ -5645,6 +6105,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png"
         tabIndex={460}
       />
@@ -5657,6 +6118,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png"
         tabIndex={461}
       />
@@ -5669,6 +6131,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
         tabIndex={462}
       />
@@ -5681,6 +6144,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
         tabIndex={463}
       />
@@ -5693,6 +6157,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
         tabIndex={464}
       />
@@ -5705,6 +6170,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png"
         tabIndex={465}
       />
@@ -5717,6 +6183,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
         tabIndex={466}
       />
@@ -5729,6 +6196,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png"
         tabIndex={467}
       />
@@ -5741,6 +6209,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"
         tabIndex={468}
       />
@@ -5753,6 +6222,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png"
         tabIndex={469}
       />
@@ -5765,6 +6235,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png"
         tabIndex={470}
       />
@@ -5777,6 +6248,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png"
         tabIndex={471}
       />
@@ -5789,6 +6261,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
         tabIndex={472}
       />
@@ -5801,6 +6274,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png"
         tabIndex={473}
       />
@@ -5813,6 +6287,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
         tabIndex={474}
       />
@@ -5825,6 +6300,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png"
         tabIndex={475}
       />
@@ -5837,6 +6313,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png"
         tabIndex={476}
       />
@@ -5849,6 +6326,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png"
         tabIndex={477}
       />
@@ -5861,6 +6339,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png"
         tabIndex={478}
       />
@@ -5873,6 +6352,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png"
         tabIndex={479}
       />
@@ -5885,6 +6365,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png"
         tabIndex={480}
       />
@@ -5897,6 +6378,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png"
         tabIndex={481}
       />
@@ -5909,6 +6391,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png"
         tabIndex={482}
       />
@@ -5921,6 +6404,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png"
         tabIndex={483}
       />
@@ -5933,6 +6417,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png"
         tabIndex={484}
       />
@@ -5945,6 +6430,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png"
         tabIndex={485}
       />
@@ -5957,6 +6443,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png"
         tabIndex={486}
       />
@@ -5969,6 +6456,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png"
         tabIndex={487}
       />
@@ -5981,6 +6469,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png"
         tabIndex={488}
       />
@@ -5993,6 +6482,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png"
         tabIndex={489}
       />
@@ -6005,6 +6495,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png"
         tabIndex={490}
       />
@@ -6017,6 +6508,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
         tabIndex={491}
       />
@@ -6029,6 +6521,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png"
         tabIndex={492}
       />
@@ -6041,6 +6534,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png"
         tabIndex={493}
       />
@@ -6053,6 +6547,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png"
         tabIndex={494}
       />
@@ -6065,6 +6560,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png"
         tabIndex={495}
       />
@@ -6077,6 +6573,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png"
         tabIndex={496}
       />
@@ -6089,6 +6586,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png"
         tabIndex={497}
       />
@@ -6101,6 +6599,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png"
         tabIndex={498}
       />
@@ -6113,6 +6612,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png"
         tabIndex={499}
       />
@@ -6125,6 +6625,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png"
         tabIndex={500}
       />
@@ -6137,6 +6638,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png"
         tabIndex={501}
       />
@@ -6149,6 +6651,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png"
         tabIndex={502}
       />
@@ -6161,6 +6664,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png"
         tabIndex={503}
       />
@@ -6173,6 +6677,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png"
         tabIndex={504}
       />
@@ -6185,6 +6690,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png"
         tabIndex={505}
       />
@@ -6197,6 +6703,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png"
         tabIndex={506}
       />
@@ -6209,6 +6716,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
         tabIndex={507}
       />
@@ -6221,6 +6729,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png"
         tabIndex={508}
       />
@@ -6233,6 +6742,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png"
         tabIndex={509}
       />
@@ -6245,6 +6755,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png"
         tabIndex={510}
       />
@@ -6257,6 +6768,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
         tabIndex={511}
       />
@@ -6269,6 +6781,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png"
         tabIndex={512}
       />
@@ -6281,6 +6794,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png"
         tabIndex={513}
       />
@@ -6293,6 +6807,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
         tabIndex={514}
       />
@@ -6305,6 +6820,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png"
         tabIndex={515}
       />
@@ -6317,6 +6833,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png"
         tabIndex={516}
       />
@@ -6329,6 +6846,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png"
         tabIndex={517}
       />
@@ -6341,6 +6859,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png"
         tabIndex={518}
       />
@@ -6353,6 +6872,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png"
         tabIndex={519}
       />
@@ -6365,6 +6885,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png"
         tabIndex={520}
       />
@@ -6377,6 +6898,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png"
         tabIndex={521}
       />
@@ -6389,6 +6911,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
         tabIndex={522}
       />
@@ -6401,6 +6924,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png"
         tabIndex={523}
       />
@@ -6413,6 +6937,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png"
         tabIndex={524}
       />
@@ -6425,6 +6950,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png"
         tabIndex={525}
       />
@@ -6437,6 +6963,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png"
         tabIndex={526}
       />
@@ -6449,6 +6976,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png"
         tabIndex={527}
       />
@@ -6461,6 +6989,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png"
         tabIndex={528}
       />
@@ -6473,6 +7002,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png"
         tabIndex={529}
       />
@@ -6485,6 +7015,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png"
         tabIndex={530}
       />
@@ -6497,6 +7028,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png"
         tabIndex={531}
       />
@@ -6509,6 +7041,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png"
         tabIndex={532}
       />
@@ -6521,6 +7054,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png"
         tabIndex={533}
       />
@@ -6533,6 +7067,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png"
         tabIndex={534}
       />
@@ -6545,6 +7080,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png"
         tabIndex={535}
       />
@@ -6557,6 +7093,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png"
         tabIndex={536}
       />
@@ -6569,6 +7106,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png"
         tabIndex={537}
       />
@@ -6581,6 +7119,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png"
         tabIndex={538}
       />
@@ -6593,6 +7132,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png"
         tabIndex={539}
       />
@@ -6605,6 +7145,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
         tabIndex={540}
       />
@@ -6617,6 +7158,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png"
         tabIndex={541}
       />
@@ -6629,6 +7171,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png"
         tabIndex={542}
       />
@@ -6641,6 +7184,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png"
         tabIndex={543}
       />
@@ -6653,6 +7197,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png"
         tabIndex={544}
       />
@@ -6665,6 +7210,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png"
         tabIndex={545}
       />
@@ -6677,6 +7223,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
         tabIndex={546}
       />
@@ -6689,6 +7236,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png"
         tabIndex={547}
       />
@@ -6701,6 +7249,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
         tabIndex={548}
       />
@@ -6713,6 +7262,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png"
         tabIndex={549}
       />
@@ -6725,6 +7275,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png"
         tabIndex={550}
       />
@@ -6737,6 +7288,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
         tabIndex={551}
       />
@@ -6749,6 +7301,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png"
         tabIndex={552}
       />
@@ -6761,6 +7314,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png"
         tabIndex={553}
       />
@@ -6773,6 +7327,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png"
         tabIndex={554}
       />
@@ -6785,6 +7340,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png"
         tabIndex={555}
       />
@@ -6797,6 +7353,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png"
         tabIndex={556}
       />
@@ -6809,6 +7366,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png"
         tabIndex={557}
       />
@@ -6821,6 +7379,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png"
         tabIndex={558}
       />
@@ -6833,6 +7392,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png"
         tabIndex={559}
       />
@@ -6845,6 +7405,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png"
         tabIndex={560}
       />
@@ -6857,6 +7418,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png"
         tabIndex={561}
       />
@@ -6869,6 +7431,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png"
         tabIndex={562}
       />
@@ -6881,6 +7444,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png"
         tabIndex={563}
       />
@@ -6893,6 +7457,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png"
         tabIndex={564}
       />
@@ -6905,6 +7470,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png"
         tabIndex={565}
       />
@@ -6917,6 +7483,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png"
         tabIndex={566}
       />
@@ -6929,6 +7496,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png"
         tabIndex={567}
       />
@@ -6941,6 +7509,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png"
         tabIndex={568}
       />
@@ -6953,6 +7522,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png"
         tabIndex={569}
       />
@@ -6965,6 +7535,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png"
         tabIndex={570}
       />
@@ -6977,6 +7548,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png"
         tabIndex={571}
       />
@@ -6989,6 +7561,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png"
         tabIndex={572}
       />
@@ -7001,6 +7574,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png"
         tabIndex={573}
       />
@@ -7013,6 +7587,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png"
         tabIndex={574}
       />
@@ -7025,6 +7600,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png"
         tabIndex={575}
       />
@@ -7037,6 +7613,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png"
         tabIndex={576}
       />
@@ -7049,6 +7626,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png"
         tabIndex={577}
       />
@@ -7061,6 +7639,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png"
         tabIndex={578}
       />
@@ -7073,6 +7652,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png"
         tabIndex={579}
       />
@@ -7085,6 +7665,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png"
         tabIndex={580}
       />
@@ -7097,6 +7678,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png"
         tabIndex={581}
       />
@@ -7109,6 +7691,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png"
         tabIndex={582}
       />
@@ -7121,6 +7704,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"
         tabIndex={583}
       />
@@ -7133,6 +7717,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
         tabIndex={584}
       />
@@ -7145,6 +7730,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png"
         tabIndex={585}
       />
@@ -7157,6 +7743,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"
         tabIndex={586}
       />
@@ -7169,6 +7756,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
         tabIndex={587}
       />
@@ -7181,6 +7769,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png"
         tabIndex={588}
       />
@@ -7193,6 +7782,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
         tabIndex={589}
       />
@@ -7205,6 +7795,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png"
         tabIndex={590}
       />
@@ -7217,6 +7808,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png"
         tabIndex={591}
       />
@@ -7229,6 +7821,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
         tabIndex={592}
       />
@@ -7241,6 +7834,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
         tabIndex={593}
       />
@@ -7253,6 +7847,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png"
         tabIndex={594}
       />
@@ -7265,6 +7860,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png"
         tabIndex={595}
       />
@@ -7277,6 +7873,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png"
         tabIndex={596}
       />
@@ -7289,6 +7886,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png"
         tabIndex={597}
       />
@@ -7301,6 +7899,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png"
         tabIndex={598}
       />
@@ -7313,6 +7912,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png"
         tabIndex={599}
       />
@@ -7325,6 +7925,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png"
         tabIndex={600}
       />
@@ -7337,6 +7938,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png"
         tabIndex={601}
       />
@@ -7349,6 +7951,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png"
         tabIndex={602}
       />
@@ -7361,6 +7964,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png"
         tabIndex={603}
       />
@@ -7373,6 +7977,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png"
         tabIndex={604}
       />
@@ -7385,6 +7990,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png"
         tabIndex={605}
       />
@@ -7397,6 +8003,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png"
         tabIndex={606}
       />
@@ -7409,6 +8016,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png"
         tabIndex={607}
       />
@@ -7421,6 +8029,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png"
         tabIndex={608}
       />
@@ -7433,6 +8042,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png"
         tabIndex={609}
       />
@@ -7445,6 +8055,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
         tabIndex={610}
       />
@@ -7457,6 +8068,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png"
         tabIndex={611}
       />
@@ -7469,6 +8081,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
         tabIndex={612}
       />
@@ -7481,6 +8094,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png"
         tabIndex={613}
       />
@@ -7493,6 +8107,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png"
         tabIndex={614}
       />
@@ -7505,6 +8120,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png"
         tabIndex={615}
       />
@@ -7517,6 +8133,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png"
         tabIndex={616}
       />
@@ -7529,6 +8146,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png"
         tabIndex={617}
       />
@@ -7541,6 +8159,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png"
         tabIndex={618}
       />
@@ -7553,6 +8172,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png"
         tabIndex={619}
       />
@@ -7565,6 +8185,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
         tabIndex={620}
       />
@@ -7577,6 +8198,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
         tabIndex={621}
       />
@@ -7589,6 +8211,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
         tabIndex={622}
       />
@@ -7601,6 +8224,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
         tabIndex={623}
       />
@@ -7613,6 +8237,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
         tabIndex={624}
       />
@@ -7625,6 +8250,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
         tabIndex={625}
       />
@@ -7637,6 +8263,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
         tabIndex={626}
       />
@@ -7649,6 +8276,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
         tabIndex={627}
       />
@@ -7661,6 +8289,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
         tabIndex={628}
       />
@@ -7673,6 +8302,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
         tabIndex={629}
       />
@@ -7685,6 +8315,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
         tabIndex={630}
       />
@@ -7697,6 +8328,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
         tabIndex={631}
       />
@@ -7709,6 +8341,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
         tabIndex={632}
       />
@@ -7721,6 +8354,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
         tabIndex={633}
       />
@@ -7733,6 +8367,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png"
         tabIndex={634}
       />
@@ -7745,6 +8380,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png"
         tabIndex={635}
       />
@@ -7757,6 +8393,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png"
         tabIndex={636}
       />
@@ -7769,6 +8406,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
         tabIndex={637}
       />
@@ -7781,6 +8419,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
         tabIndex={638}
       />
@@ -7793,6 +8432,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
         tabIndex={639}
       />
@@ -7805,6 +8445,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
         tabIndex={640}
       />
@@ -7817,6 +8458,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
         tabIndex={641}
       />
@@ -7829,6 +8471,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png"
         tabIndex={642}
       />
@@ -7841,6 +8484,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png"
         tabIndex={643}
       />
@@ -7853,6 +8497,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png"
         tabIndex={644}
       />
@@ -7865,6 +8510,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png"
         tabIndex={645}
       />
@@ -7877,6 +8523,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png"
         tabIndex={646}
       />
@@ -7889,6 +8536,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
         tabIndex={647}
       />
@@ -7901,6 +8549,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
         tabIndex={648}
       />
@@ -7913,6 +8562,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
         tabIndex={649}
       />
@@ -7925,6 +8575,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png"
         tabIndex={650}
       />
@@ -7937,6 +8588,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png"
         tabIndex={651}
       />
@@ -7949,6 +8601,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png"
         tabIndex={652}
       />
@@ -7961,6 +8614,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
         tabIndex={653}
       />
@@ -7973,6 +8627,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png"
         tabIndex={654}
       />
@@ -7985,6 +8640,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
         tabIndex={655}
       />
@@ -7997,6 +8653,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
         tabIndex={656}
       />
@@ -8009,6 +8666,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
         tabIndex={657}
       />
@@ -8021,6 +8679,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png"
         tabIndex={658}
       />
@@ -8033,6 +8692,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
         tabIndex={659}
       />
@@ -8045,6 +8705,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png"
         tabIndex={660}
       />
@@ -8057,6 +8718,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png"
         tabIndex={661}
       />
@@ -8069,6 +8731,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png"
         tabIndex={662}
       />
@@ -8081,6 +8744,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
         tabIndex={663}
       />
@@ -8093,6 +8757,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png"
         tabIndex={664}
       />
@@ -8105,6 +8770,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png"
         tabIndex={665}
       />
@@ -8117,6 +8783,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png"
         tabIndex={666}
       />
@@ -8129,6 +8796,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
         tabIndex={667}
       />
@@ -8141,6 +8809,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png"
         tabIndex={668}
       />
@@ -8153,6 +8822,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png"
         tabIndex={669}
       />
@@ -8165,6 +8835,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png"
         tabIndex={670}
       />
@@ -8177,6 +8848,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
         tabIndex={671}
       />
@@ -8189,6 +8861,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
         tabIndex={672}
       />
@@ -8201,6 +8874,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
         tabIndex={673}
       />
@@ -8213,6 +8887,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
         tabIndex={674}
       />
@@ -8225,6 +8900,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
         tabIndex={675}
       />
@@ -8237,6 +8913,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
         tabIndex={676}
       />
@@ -8249,6 +8926,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png"
         tabIndex={677}
       />
@@ -8261,6 +8939,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
         tabIndex={678}
       />
@@ -8273,6 +8952,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png"
         tabIndex={679}
       />
@@ -8285,6 +8965,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png"
         tabIndex={680}
       />
@@ -8297,6 +8978,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png"
         tabIndex={681}
       />
@@ -8309,6 +8991,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png"
         tabIndex={682}
       />
@@ -8321,6 +9004,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
         tabIndex={683}
       />
@@ -8333,6 +9017,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png"
         tabIndex={684}
       />
@@ -8345,6 +9030,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png"
         tabIndex={685}
       />
@@ -8357,6 +9043,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png"
         tabIndex={686}
       />
@@ -8369,6 +9056,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
         tabIndex={687}
       />
@@ -8381,6 +9069,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png"
         tabIndex={688}
       />
@@ -8393,6 +9082,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png"
         tabIndex={689}
       />
@@ -8405,6 +9095,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png"
         tabIndex={690}
       />
@@ -8417,6 +9108,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png"
         tabIndex={691}
       />
@@ -8429,6 +9121,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
         tabIndex={692}
       />
@@ -8441,6 +9134,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png"
         tabIndex={693}
       />
@@ -8453,6 +9147,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png"
         tabIndex={694}
       />
@@ -8465,6 +9160,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
         tabIndex={695}
       />
@@ -8477,6 +9173,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
         tabIndex={696}
       />
@@ -8489,6 +9186,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
         tabIndex={697}
       />
@@ -8501,6 +9199,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
         tabIndex={698}
       />
@@ -8513,6 +9212,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png"
         tabIndex={699}
       />
@@ -8525,6 +9225,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png"
         tabIndex={700}
       />
@@ -8537,6 +9238,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png"
         tabIndex={701}
       />
@@ -8549,6 +9251,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png"
         tabIndex={702}
       />
@@ -8561,6 +9264,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png"
         tabIndex={703}
       />
@@ -8573,6 +9277,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png"
         tabIndex={704}
       />
@@ -8585,6 +9290,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"
         tabIndex={705}
       />
@@ -8597,6 +9303,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png"
         tabIndex={706}
       />
@@ -8609,6 +9316,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png"
         tabIndex={707}
       />
@@ -8621,6 +9329,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"
         tabIndex={708}
       />
@@ -8633,6 +9342,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png"
         tabIndex={709}
       />
@@ -8645,6 +9355,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
         tabIndex={710}
       />
@@ -8657,6 +9368,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
         tabIndex={711}
       />
@@ -8669,6 +9381,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
         tabIndex={712}
       />
@@ -8681,6 +9394,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png"
         tabIndex={713}
       />
@@ -8693,6 +9407,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png"
         tabIndex={714}
       />
@@ -8705,6 +9420,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png"
         tabIndex={715}
       />
@@ -8717,6 +9433,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png"
         tabIndex={716}
       />
@@ -8729,6 +9446,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png"
         tabIndex={717}
       />
@@ -8741,6 +9459,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png"
         tabIndex={718}
       />
@@ -8753,6 +9472,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png"
         tabIndex={719}
       />
@@ -8765,6 +9485,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png"
         tabIndex={720}
       />
@@ -8777,6 +9498,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png"
         tabIndex={721}
       />
@@ -8789,6 +9511,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png"
         tabIndex={722}
       />
@@ -8801,6 +9524,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
         tabIndex={723}
       />
@@ -8813,6 +9537,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
         tabIndex={724}
       />
@@ -8825,6 +9550,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
         tabIndex={725}
       />
@@ -8837,6 +9563,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png"
         tabIndex={726}
       />
@@ -8849,6 +9576,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png"
         tabIndex={727}
       />
@@ -8861,6 +9589,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png"
         tabIndex={728}
       />
@@ -8873,6 +9602,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png"
         tabIndex={729}
       />
@@ -8885,6 +9615,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png"
         tabIndex={730}
       />
@@ -8897,6 +9628,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png"
         tabIndex={731}
       />
@@ -8909,6 +9641,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png"
         tabIndex={732}
       />
@@ -8921,6 +9654,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png"
         tabIndex={733}
       />
@@ -8933,6 +9667,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"
         tabIndex={734}
       />
@@ -8945,6 +9680,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"
         tabIndex={735}
       />
@@ -8957,6 +9693,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png"
         tabIndex={736}
       />
@@ -8969,6 +9706,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png"
         tabIndex={737}
       />
@@ -8981,6 +9719,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png"
         tabIndex={738}
       />
@@ -8993,6 +9732,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png"
         tabIndex={739}
       />
@@ -9005,6 +9745,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png"
         tabIndex={740}
       />
@@ -9017,6 +9758,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png"
         tabIndex={741}
       />
@@ -9029,6 +9771,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png"
         tabIndex={742}
       />
@@ -9041,6 +9784,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png"
         tabIndex={743}
       />
@@ -9053,6 +9797,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png"
         tabIndex={744}
       />
@@ -9065,6 +9810,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png"
         tabIndex={745}
       />
@@ -9077,6 +9823,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png"
         tabIndex={746}
       />
@@ -9089,6 +9836,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png"
         tabIndex={747}
       />
@@ -9101,6 +9849,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png"
         tabIndex={748}
       />
@@ -9113,6 +9862,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png"
         tabIndex={749}
       />
@@ -9125,6 +9875,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png"
         tabIndex={750}
       />
@@ -9137,6 +9888,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
         tabIndex={751}
       />
@@ -9149,6 +9901,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png"
         tabIndex={752}
       />
@@ -9161,6 +9914,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png"
         tabIndex={753}
       />
@@ -9173,6 +9927,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png"
         tabIndex={754}
       />
@@ -9185,6 +9940,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png"
         tabIndex={755}
       />
@@ -9197,6 +9953,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png"
         tabIndex={756}
       />
@@ -9209,6 +9966,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png"
         tabIndex={757}
       />
@@ -9221,6 +9979,7 @@ Array [
     >
       <img
         alt=""
+        loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png"
         tabIndex={758}
       />

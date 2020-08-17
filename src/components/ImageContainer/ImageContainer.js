@@ -11,7 +11,7 @@ const ImageContainer = (props) => {
 
     return (
       <React.Fragment>
-        <img src={src} alt={cn !== undefined ? cn : ''} className={cn !== undefined ? cn : ''} />
+        <img loading="lazy" src={src} alt={cn !== undefined ? cn : ''} className={cn !== undefined ? cn : ''} />
       </React.Fragment>
     )
   }

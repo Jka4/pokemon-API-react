@@ -15,7 +15,7 @@ const CatalogView = (props) => {
         <React.Fragment key={key}>
           <NavLink to={`/detailedPage/pokemon/${index?.name}`} data-pokemon_id={index?.id} onClick={setDelailedPageData}
             key={key}>
-            <img src={index?.image} alt="" tabIndex={key} />
+            <img loading="lazy" src={index?.image} alt="" tabIndex={key} />
           </NavLink>
         </React.Fragment>
       ))
