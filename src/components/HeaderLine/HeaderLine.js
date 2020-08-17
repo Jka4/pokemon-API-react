@@ -15,9 +15,11 @@ const HeaderLine = (props) => {
     store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
   }
 
+  const isMainPage = props?.props?.location?.pathname === '/';
+
   return (
     <div className='topLine'>
-      <NavLink to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </NavLink>
+      {!isMainPage && <NavLink to='/' className='backToMainPage' onClick={clearDetailPageData} > Back </NavLink>}
 
       <Player />
       <Search />
