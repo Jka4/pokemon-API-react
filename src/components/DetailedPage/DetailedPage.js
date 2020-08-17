@@ -18,6 +18,8 @@ const ImageContainer = lazy(() => import('@ImageContainer'));
 
 const DetailedPage = props => {
   const data = props.detailsPageTest || props.detailsPage;
+  const { abilities, stats, weight } = props.detailsPage;
+  const { sprites, name } = data;
   const [evolutionChain, setEvolutionChain] = useState();
 
   useEffect(() => {
@@ -25,8 +27,6 @@ const DetailedPage = props => {
     pokemonObj && setEvolutionChain(pokemonObj);
   }, [data])
 
-  const { sprites, name } = data;
-  const { abilities, stats, weight } = props.detailsPage;
 
   return (
     <React.Fragment>
