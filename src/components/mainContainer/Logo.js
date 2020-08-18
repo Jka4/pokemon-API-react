@@ -24,7 +24,7 @@ const Logo = () => {
               <Loader type="TailSpin" height={120} width={150} color={"red"} />
             }
           >
-            <ImageContainer url={url} />
+            <ImageContainer url={url} cn={"logotype"} />
           </Suspense>
         </div>
       </Tilt>

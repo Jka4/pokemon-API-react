@@ -24,7 +24,7 @@ const PokemonCard = (props) => {
                 <Loader type="TailSpin" height={50} width={50} color={"red"} />
               }
             >
-              <ImageContainer url={src} />
+              <ImageContainer url={src} cn={"pokemonImage"} />
             </Suspense>
           ) : (
             <Loader type="TailSpin" height={50} width={50} color={"red"} />

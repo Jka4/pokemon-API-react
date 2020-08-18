@@ -32,7 +32,7 @@ const EvolutionForms = (props) => {
   }, [chainNames]);
 
   return (
-    <React.Fragment>
+    <>
       <div className="evolutionForms">
         {chain &&
           chain.map((index, key) => (
@@ -64,7 +64,7 @@ const EvolutionForms = (props) => {
             </NavLink>
           ))}
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

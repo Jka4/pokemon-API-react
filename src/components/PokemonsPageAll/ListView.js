@@ -34,7 +34,7 @@ const ListView = (props) => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <section className="main">
         <InfiniteScroll
           pageStart={1}
@@ -72,7 +72,7 @@ const ListView = (props) => {
           ))}
         </InfiniteScroll>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 

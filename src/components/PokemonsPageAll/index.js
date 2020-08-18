@@ -10,7 +10,7 @@ const PokemonsPageAll = (props) => {
   const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(true);
 
   return (
-    <React.Fragment>
+    <>
       <div className="viewType">
         <div className="viewTypeInner">
           <div
@@ -63,7 +63,7 @@ const PokemonsPageAll = (props) => {
       ) : (
         <CatalogView pokemonDataArray={pokemonDataArray} />
       )}
-    </React.Fragment>
+    </>
   );
 };
 

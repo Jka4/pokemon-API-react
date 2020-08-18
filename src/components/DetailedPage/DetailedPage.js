@@ -27,7 +27,7 @@ const DetailedPage = (props) => {
   }, [data]);
 
   return (
-    <React.Fragment>
+    <>
       <div className="detailedPage" data-testid="detailedPageTest">
         <div className="name">{name}</div>
         <div className="imagesLine">
@@ -77,7 +77,7 @@ const DetailedPage = (props) => {
         </div>
         <EvolutionForms evolutionChain={evolutionChain} currentPokemon={name} />
       </div>
-    </React.Fragment>
+    </>
   );
 };
 
