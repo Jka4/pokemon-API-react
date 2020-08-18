@@ -10,7 +10,7 @@ const ImageContainer = lazy(() => import('@ImageContainer'));
 
 
 const EvolutionForms = (props) => {
-	const chainNames = props.evolutionChain?.chain;
+	const chainNames = props?.evolutionChain?.chain;
 	const currentPokemon = props?.currentPokemon
 	const [chain, setChain] = useState();
 

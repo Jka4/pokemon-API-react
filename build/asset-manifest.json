@@ -8,22 +8,22 @@
     "runtime-main.js": "/pokemon-API-react/static/js/runtime-main.052e8813.js",
     "runtime-main.js.map": "/pokemon-API-react/static/js/runtime-main.052e8813.js.map",
     "static/css/3.bae18153.chunk.css": "/pokemon-API-react/static/css/3.bae18153.chunk.css",
-    "static/js/3.142a3fce.chunk.js": "/pokemon-API-react/static/js/3.142a3fce.chunk.js",
-    "static/js/3.142a3fce.chunk.js.map": "/pokemon-API-react/static/js/3.142a3fce.chunk.js.map",
+    "static/js/3.253ee878.chunk.js": "/pokemon-API-react/static/js/3.253ee878.chunk.js",
+    "static/js/3.253ee878.chunk.js.map": "/pokemon-API-react/static/js/3.253ee878.chunk.js.map",
     "static/js/4.4577aaa8.chunk.js": "/pokemon-API-react/static/js/4.4577aaa8.chunk.js",
     "static/js/4.4577aaa8.chunk.js.map": "/pokemon-API-react/static/js/4.4577aaa8.chunk.js.map",
     "index.html": "/pokemon-API-react/index.html",
-    "precache-manifest.9fcf7b5b58cf655285bbfa3d7c65c1df.js": "/pokemon-API-react/precache-manifest.9fcf7b5b58cf655285bbfa3d7c65c1df.js",
+    "precache-manifest.93ee29c70e70e3c3a24680e38be887c1.js": "/pokemon-API-react/precache-manifest.93ee29c70e70e3c3a24680e38be887c1.js",
     "service-worker.js": "/pokemon-API-react/service-worker.js",
     "static/css/3.bae18153.chunk.css.map": "/pokemon-API-react/static/css/3.bae18153.chunk.css.map",
     "static/css/main.fd694d4b.chunk.css.map": "/pokemon-API-react/static/css/main.fd694d4b.chunk.css.map",
-    "static/js/3.142a3fce.chunk.js.LICENSE.txt": "/pokemon-API-react/static/js/3.142a3fce.chunk.js.LICENSE.txt",
+    "static/js/3.253ee878.chunk.js.LICENSE.txt": "/pokemon-API-react/static/js/3.253ee878.chunk.js.LICENSE.txt",
     "static/js/4.4577aaa8.chunk.js.LICENSE.txt": "/pokemon-API-react/static/js/4.4577aaa8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.052e8813.js",
     "static/css/3.bae18153.chunk.css",
-    "static/js/3.142a3fce.chunk.js",
+    "static/js/3.253ee878.chunk.js",
     "static/css/main.fd694d4b.chunk.css",
     "static/js/main.4073779e.chunk.js"
   ]
