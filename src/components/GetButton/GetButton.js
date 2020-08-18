@@ -3,8 +3,7 @@ import store from "@Store";
 import { getRandomPokemon } from "@APIutils";
 import { NavLink } from "react-router-dom";
 
-import './styles/style.scss';
-
+import "./styles/style.scss";
 
 const GetButton = () => {
   const clearState = () => {
@@ -12,22 +11,20 @@ const GetButton = () => {
   };
 
   return (
-    <div className='Button'>
-      <button id='getPokemon' onClick={() => getRandomPokemon(806)}>
+    <div className="Button">
+      <button id="getPokemon" onClick={() => getRandomPokemon(806)}>
         GET A RANDOM POKEMON
-        </button>
+      </button>
 
-      <button id='clear' onClick={clearState}>
+      <button id="clear" onClick={clearState}>
         CLEAR
-        </button>
+      </button>
 
-      <NavLink to={`/allPokemons/`} >
-        <button id='getAllPokemon' >
-          GET ALL POKEMON
-        </button>
+      <NavLink to={`/allPokemons/`}>
+        <button id="getAllPokemon">GET ALL POKEMON</button>
       </NavLink>
     </div>
   );
-}
+};
 
 export default GetButton;

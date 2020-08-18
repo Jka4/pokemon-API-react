@@ -1,16 +1,16 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
-import InfiniteScroll from 'react-infinite-scroll-component';
-import Loader from 'react-loader-spinner'
+import InfiniteScroll from "react-infinite-scroll-component";
+import Loader from "react-loader-spinner";
 
 import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
 
-import './styles/style.scss';
+import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import('@ImageContainer'));
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 const ListView = (props) => {
-  const { pokemonDataArray } = props
+  const { pokemonDataArray } = props;
 
   const [pokemons, setPokemons] = useState([]);
   const [pokemonCount, setPokemonCount] = useState(0);
@@ -26,32 +26,44 @@ const ListView = (props) => {
     let arr = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
-      arr.push(pokemonDataArray[i])
+      arr.push(pokemonDataArray[i]);
     }
 
-    setPokemons(pokemons => [...pokemons, ...arr]);
-    setPokemonCount(pokemons.length + howMuchToDownload)
-  }
+    setPokemons((pokemons) => [...pokemons, ...arr]);
+    setPokemonCount(pokemons.length + howMuchToDownload);
+  };
 
   return (
     <React.Fragment>
-      <section className='main'>
+      <section className="main">
         <InfiniteScroll
           pageStart={1}
           dataLength={pokemons.length}
           next={fetchPokemons}
           hasMore={pokemons.length < 806}
           loader={<h4>Loading...</h4>}
-          className='allPokemonsWrapper'
+          className="allPokemonsWrapper"
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
         >
           {pokemons.map((index, key) => (
-            <NavLink to={`/detailedPage/pokemon/${index?.name}`} className='smallPokemonCard' data-pokemon_id={index?.id} onClick={setDelailedPageData}
-              key={index + Math.floor(1 + Math.random() * 9999999999)}>
+            <NavLink
+              to={`/detailedPage/pokemon/${index?.name}`}
+              className="smallPokemonCard"
+              data-pokemon_id={index?.id}
+              onClick={setDelailedPageData}
+              key={index + Math.floor(1 + Math.random() * 9999999999)}
+            >
               <div className="pokemonLogo">
-                <Suspense fallback={<Loader type="TailSpin" height={90}
-                  width={110} color={"red"}
-                />}>
+                <Suspense
+                  fallback={
+                    <Loader
+                      type="TailSpin"
+                      height={90}
+                      width={110}
+                      color={"red"}
+                    />
+                  }
+                >
                   <ImageContainer url={index?.imageHQ} />
                 </Suspense>
               </div>
@@ -61,7 +73,7 @@ const ListView = (props) => {
         </InfiniteScroll>
       </section>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default React.memo(ListView);

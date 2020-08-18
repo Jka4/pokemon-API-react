@@ -1,31 +1,35 @@
-import React from 'react';
-import { Provider, connect } from 'react-redux';
+import React from "react";
+import { Provider, connect } from "react-redux";
 import store from "@Store";
 
 import GetButton from "@GetButton";
 import { setDelailedPageData } from "@APIutils";
-import PokemonCard from '@PokemonCard';
-import Heading from '@Heading';
-import Logo from '@Logo';
+import PokemonCard from "@PokemonCard";
+import Heading from "@Heading";
+import Logo from "@Logo";
 
-import './styles/style.scss';
+import "./styles/style.scss";
 
-const MainContainer = props => {
+const MainContainer = (props) => {
   const dataToRender = props.randomPokemons;
   const hasDataForRender = dataToRender && dataToRender.length >= 1;
 
   return (
-    <section className='main'>
+    <section className="main">
       <Logo />
       <GetButton />
-      {hasDataForRender && < Heading />}
+      {hasDataForRender && <Heading />}
 
-      <div className='itemList'>
-        <div className='cardsContainer'>
+      <div className="itemList">
+        <div className="cardsContainer">
           {dataToRender &&
             dataToRender.map((i, key) => (
               <PokemonCard
-                key={dataToRender[key].id + key + Math.floor(1 + Math.random() * 9999999999)}
+                key={
+                  dataToRender[key].id +
+                  key +
+                  Math.floor(1 + Math.random() * 9999999999)
+                }
                 id={dataToRender[key]?.id}
                 src={dataToRender[key]?.sprites?.front_default}
                 name={dataToRender[key]?.name}
@@ -38,16 +42,15 @@ const MainContainer = props => {
       </div>
     </section>
   );
-}
+};
 
-
-const ConnectedMainContainer = connect(store => {
+const ConnectedMainContainer = connect((store) => {
   return {
-    randomPokemons: store.randomPokemons
+    randomPokemons: store.randomPokemons,
   };
 })(MainContainer);
 
-export default props => (
+export default (props) => (
   <Provider store={store}>
     <ConnectedMainContainer {...props} />
   </Provider>

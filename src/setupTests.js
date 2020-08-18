@@ -2,18 +2,18 @@
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
-import '@testing-library/jest-dom/extend-expect';
+import "@testing-library/jest-dom/extend-expect";
 
-const originalError = console.error
+const originalError = console.error;
 beforeAll(() => {
-	console.error = (...args) => {
-		if (/Warning.*not wrapped in act/.test(args[0])) {
-			return
-		}
-		originalError.call(console, ...args)
-	}
-})
+  console.error = (...args) => {
+    if (/Warning.*not wrapped in act/.test(args[0])) {
+      return;
+    }
+    originalError.call(console, ...args);
+  };
+});
 
 afterAll(() => {
-	console.error = originalError
-})
+  console.error = originalError;
+});

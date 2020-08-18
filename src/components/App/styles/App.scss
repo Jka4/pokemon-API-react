@@ -9,7 +9,6 @@ html {
 body {
   background-color: rgba(255, 255, 0, 0.603);
   overflow-y: scroll;
-
 }
 
 * {
@@ -341,7 +340,6 @@ li {
   }
 }
 
-
 .imagesLineSmall {
   display: flex;
   flex-direction: row;
@@ -418,7 +416,6 @@ li {
       width: auto;
     }
 
-
     .bigImage {
       img {
         height: 100%;
@@ -427,8 +424,6 @@ li {
     }
   }
 }
-
-
 
 .statsUL {
   display: flex;
@@ -643,7 +638,6 @@ a {
     }
   }
 
-
   .getButtonLine {
     .Tilt-inner {
       min-height: 150px;
@@ -745,7 +739,6 @@ a {
   font-size: 14px;
   color: #ff3527;
 }
-
 
 .errorPage {
   width: 100%;

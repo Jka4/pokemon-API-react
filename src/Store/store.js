@@ -6,11 +6,12 @@ let defaultState = {
   randomPokemons: [],
   detailsPage: "",
   playing: false,
-  pokemonsArr: POKEMONS
+  pokemonsArr: POKEMONS,
 };
 
 let chachingStateToLocalStorage = () => {
-  ls.get("pokemon_pokedex_state") == null && ls.set("pokemon_pokedex_state", defaultState);
+  ls.get("pokemon_pokedex_state") == null &&
+    ls.set("pokemon_pokedex_state", defaultState);
   let getStateFromLocal = ls.get("pokemon_pokedex_state");
 
   defaultState = getStateFromLocal;
@@ -22,27 +23,27 @@ function reducer(state = defaultState, action) {
     case "ADD_RANDOM_POKEMON":
       return {
         ...state,
-        randomPokemons: [...state.randomPokemons, action.randomPokemons]
+        randomPokemons: [...state.randomPokemons, action.randomPokemons],
       };
     case "CLEAR_RANDOM_POKEMON":
       return {
         ...state,
-        randomPokemons: []
+        randomPokemons: [],
       };
     case "CLEAR_DETAILS_PAGE":
       return {
         ...state,
-        detailsPage: ''
+        detailsPage: "",
       };
     case "SET_DETAILS_PAGE":
       return {
         ...state,
-        detailsPage: action.page
+        detailsPage: action.page,
       };
     case "PLAY_PAUSE":
       return {
         ...state,
-        playing: !state.playing
+        playing: !state.playing,
       };
     default:
       return state;
