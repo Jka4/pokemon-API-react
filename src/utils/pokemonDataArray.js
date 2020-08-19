@@ -8,15 +8,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
     chain: [
-      {
-        species_name: "bulbasaur",
-      },
-      {
-        species_name: "ivysaur",
-      },
-      {
-        species_name: "venusaur",
-      },
+      { species_name: "bulbasaur" },
+      { species_name: "ivysaur" },
+      { species_name: "venusaur" },
     ],
   },
   {
@@ -28,15 +22,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
     chain: [
-      {
-        species_name: "bulbasaur",
-      },
-      {
-        species_name: "ivysaur",
-      },
-      {
-        species_name: "venusaur",
-      },
+      { species_name: "bulbasaur" },
+      { species_name: "ivysaur" },
+      { species_name: "venusaur" },
     ],
   },
   {
@@ -48,15 +36,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
     chain: [
-      {
-        species_name: "bulbasaur",
-      },
-      {
-        species_name: "ivysaur",
-      },
-      {
-        species_name: "venusaur",
-      },
+      { species_name: "bulbasaur" },
+      { species_name: "ivysaur" },
+      { species_name: "venusaur" },
     ],
   },
   {
@@ -68,15 +50,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
     chain: [
-      {
-        species_name: "charmander",
-      },
-      {
-        species_name: "charmeleon",
-      },
-      {
-        species_name: "charizard",
-      },
+      { species_name: "charmander" },
+      { species_name: "charmeleon" },
+      { species_name: "charizard" },
     ],
   },
   {
@@ -88,15 +64,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
     chain: [
-      {
-        species_name: "charmander",
-      },
-      {
-        species_name: "charmeleon",
-      },
-      {
-        species_name: "charizard",
-      },
+      { species_name: "charmander" },
+      { species_name: "charmeleon" },
+      { species_name: "charizard" },
     ],
   },
   {
@@ -108,15 +78,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
     chain: [
-      {
-        species_name: "charmander",
-      },
-      {
-        species_name: "charmeleon",
-      },
-      {
-        species_name: "charizard",
-      },
+      { species_name: "charmander" },
+      { species_name: "charmeleon" },
+      { species_name: "charizard" },
     ],
   },
   {
@@ -128,15 +92,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
     chain: [
-      {
-        species_name: "squirtle",
-      },
-      {
-        species_name: "wartortle",
-      },
-      {
-        species_name: "blastoise",
-      },
+      { species_name: "squirtle" },
+      { species_name: "wartortle" },
+      { species_name: "blastoise" },
     ],
   },
   {
@@ -148,15 +106,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
     chain: [
-      {
-        species_name: "squirtle",
-      },
-      {
-        species_name: "wartortle",
-      },
-      {
-        species_name: "blastoise",
-      },
+      { species_name: "squirtle" },
+      { species_name: "wartortle" },
+      { species_name: "blastoise" },
     ],
   },
   {
@@ -168,15 +120,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
     chain: [
-      {
-        species_name: "squirtle",
-      },
-      {
-        species_name: "wartortle",
-      },
-      {
-        species_name: "blastoise",
-      },
+      { species_name: "squirtle" },
+      { species_name: "wartortle" },
+      { species_name: "blastoise" },
     ],
   },
   {
@@ -188,15 +134,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
     chain: [
-      {
-        species_name: "caterpie",
-      },
-      {
-        species_name: "metapod",
-      },
-      {
-        species_name: "butterfree",
-      },
+      { species_name: "caterpie" },
+      { species_name: "metapod" },
+      { species_name: "butterfree" },
     ],
   },
   {
@@ -208,15 +148,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
     chain: [
-      {
-        species_name: "caterpie",
-      },
-      {
-        species_name: "metapod",
-      },
-      {
-        species_name: "butterfree",
-      },
+      { species_name: "caterpie" },
+      { species_name: "metapod" },
+      { species_name: "butterfree" },
     ],
   },
   {
@@ -228,15 +162,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
     chain: [
-      {
-        species_name: "caterpie",
-      },
-      {
-        species_name: "metapod",
-      },
-      {
-        species_name: "butterfree",
-      },
+      { species_name: "caterpie" },
+      { species_name: "metapod" },
+      { species_name: "butterfree" },
     ],
   },
   {
@@ -248,15 +176,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
     chain: [
-      {
-        species_name: "weedle",
-      },
-      {
-        species_name: "kakuna",
-      },
-      {
-        species_name: "beedrill",
-      },
+      { species_name: "weedle" },
+      { species_name: "kakuna" },
+      { species_name: "beedrill" },
     ],
   },
   {
@@ -268,15 +190,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
     chain: [
-      {
-        species_name: "weedle",
-      },
-      {
-        species_name: "kakuna",
-      },
-      {
-        species_name: "beedrill",
-      },
+      { species_name: "weedle" },
+      { species_name: "kakuna" },
+      { species_name: "beedrill" },
     ],
   },
   {
@@ -288,15 +204,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
     chain: [
-      {
-        species_name: "weedle",
-      },
-      {
-        species_name: "kakuna",
-      },
-      {
-        species_name: "beedrill",
-      },
+      { species_name: "weedle" },
+      { species_name: "kakuna" },
+      { species_name: "beedrill" },
     ],
   },
   {
@@ -308,15 +218,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
     chain: [
-      {
-        species_name: "pidgey",
-      },
-      {
-        species_name: "pidgeotto",
-      },
-      {
-        species_name: "pidgeot",
-      },
+      { species_name: "pidgey" },
+      { species_name: "pidgeotto" },
+      { species_name: "pidgeot" },
     ],
   },
   {
@@ -328,15 +232,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
     chain: [
-      {
-        species_name: "pidgey",
-      },
-      {
-        species_name: "pidgeotto",
-      },
-      {
-        species_name: "pidgeot",
-      },
+      { species_name: "pidgey" },
+      { species_name: "pidgeotto" },
+      { species_name: "pidgeot" },
     ],
   },
   {
@@ -348,15 +246,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
     chain: [
-      {
-        species_name: "pidgey",
-      },
-      {
-        species_name: "pidgeotto",
-      },
-      {
-        species_name: "pidgeot",
-      },
+      { species_name: "pidgey" },
+      { species_name: "pidgeotto" },
+      { species_name: "pidgeot" },
     ],
   },
   {
@@ -367,14 +259,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
-    chain: [
-      {
-        species_name: "rattata",
-      },
-      {
-        species_name: "raticate",
-      },
-    ],
+    chain: [{ species_name: "rattata" }, { species_name: "raticate" }],
   },
   {
     id: 20,
@@ -384,14 +269,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
-    chain: [
-      {
-        species_name: "rattata",
-      },
-      {
-        species_name: "raticate",
-      },
-    ],
+    chain: [{ species_name: "rattata" }, { species_name: "raticate" }],
   },
   {
     id: 21,
@@ -401,14 +279,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
-    chain: [
-      {
-        species_name: "spearow",
-      },
-      {
-        species_name: "fearow",
-      },
-    ],
+    chain: [{ species_name: "spearow" }, { species_name: "fearow" }],
   },
   {
     id: 22,
@@ -418,14 +289,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
-    chain: [
-      {
-        species_name: "spearow",
-      },
-      {
-        species_name: "fearow",
-      },
-    ],
+    chain: [{ species_name: "spearow" }, { species_name: "fearow" }],
   },
   {
     id: 23,
@@ -435,14 +299,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-    chain: [
-      {
-        species_name: "ekans",
-      },
-      {
-        species_name: "arbok",
-      },
-    ],
+    chain: [{ species_name: "ekans" }, { species_name: "arbok" }],
   },
   {
     id: 24,
@@ -452,14 +309,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-    chain: [
-      {
-        species_name: "ekans",
-      },
-      {
-        species_name: "arbok",
-      },
-    ],
+    chain: [{ species_name: "ekans" }, { species_name: "arbok" }],
   },
   {
     id: 25,
@@ -470,15 +320,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
     chain: [
-      {
-        species_name: "pichu",
-      },
-      {
-        species_name: "pikachu",
-      },
-      {
-        species_name: "raichu",
-      },
+      { species_name: "pichu" },
+      { species_name: "pikachu" },
+      { species_name: "raichu" },
     ],
   },
   {
@@ -490,15 +334,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
     chain: [
-      {
-        species_name: "pichu",
-      },
-      {
-        species_name: "pikachu",
-      },
-      {
-        species_name: "raichu",
-      },
+      { species_name: "pichu" },
+      { species_name: "pikachu" },
+      { species_name: "raichu" },
     ],
   },
   {
@@ -509,14 +347,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
-    chain: [
-      {
-        species_name: "sandshrew",
-      },
-      {
-        species_name: "sandslash",
-      },
-    ],
+    chain: [{ species_name: "sandshrew" }, { species_name: "sandslash" }],
   },
   {
     id: 28,
@@ -526,14 +357,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
-    chain: [
-      {
-        species_name: "sandshrew",
-      },
-      {
-        species_name: "sandslash",
-      },
-    ],
+    chain: [{ species_name: "sandshrew" }, { species_name: "sandslash" }],
   },
   {
     id: 29,
@@ -544,15 +368,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
     chain: [
-      {
-        species_name: "nidoran-f",
-      },
-      {
-        species_name: "nidorina",
-      },
-      {
-        species_name: "nidoqueen",
-      },
+      { species_name: "nidoran-f" },
+      { species_name: "nidorina" },
+      { species_name: "nidoqueen" },
     ],
   },
   {
@@ -564,15 +382,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
     chain: [
-      {
-        species_name: "nidoran-f",
-      },
-      {
-        species_name: "nidorina",
-      },
-      {
-        species_name: "nidoqueen",
-      },
+      { species_name: "nidoran-f" },
+      { species_name: "nidorina" },
+      { species_name: "nidoqueen" },
     ],
   },
   {
@@ -584,15 +396,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
     chain: [
-      {
-        species_name: "nidoran-f",
-      },
-      {
-        species_name: "nidorina",
-      },
-      {
-        species_name: "nidoqueen",
-      },
+      { species_name: "nidoran-f" },
+      { species_name: "nidorina" },
+      { species_name: "nidoqueen" },
     ],
   },
   {
@@ -604,15 +410,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
     chain: [
-      {
-        species_name: "nidoran-m",
-      },
-      {
-        species_name: "nidorino",
-      },
-      {
-        species_name: "nidoking",
-      },
+      { species_name: "nidoran-m" },
+      { species_name: "nidorino" },
+      { species_name: "nidoking" },
     ],
   },
   {
@@ -624,15 +424,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
     chain: [
-      {
-        species_name: "nidoran-m",
-      },
-      {
-        species_name: "nidorino",
-      },
-      {
-        species_name: "nidoking",
-      },
+      { species_name: "nidoran-m" },
+      { species_name: "nidorino" },
+      { species_name: "nidoking" },
     ],
   },
   {
@@ -644,15 +438,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
     chain: [
-      {
-        species_name: "nidoran-m",
-      },
-      {
-        species_name: "nidorino",
-      },
-      {
-        species_name: "nidoking",
-      },
+      { species_name: "nidoran-m" },
+      { species_name: "nidorino" },
+      { species_name: "nidoking" },
     ],
   },
   {
@@ -664,15 +452,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
     chain: [
-      {
-        species_name: "cleffa",
-      },
-      {
-        species_name: "clefairy",
-      },
-      {
-        species_name: "clefable",
-      },
+      { species_name: "cleffa" },
+      { species_name: "clefairy" },
+      { species_name: "clefable" },
     ],
   },
   {
@@ -684,15 +466,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
     chain: [
-      {
-        species_name: "cleffa",
-      },
-      {
-        species_name: "clefairy",
-      },
-      {
-        species_name: "clefable",
-      },
+      { species_name: "cleffa" },
+      { species_name: "clefairy" },
+      { species_name: "clefable" },
     ],
   },
   {
@@ -703,14 +479,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-    chain: [
-      {
-        species_name: "vulpix",
-      },
-      {
-        species_name: "ninetales",
-      },
-    ],
+    chain: [{ species_name: "vulpix" }, { species_name: "ninetales" }],
   },
   {
     id: 38,
@@ -720,14 +489,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-    chain: [
-      {
-        species_name: "vulpix",
-      },
-      {
-        species_name: "ninetales",
-      },
-    ],
+    chain: [{ species_name: "vulpix" }, { species_name: "ninetales" }],
   },
   {
     id: 39,
@@ -738,15 +500,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
     chain: [
-      {
-        species_name: "igglybuff",
-      },
-      {
-        species_name: "jigglypuff",
-      },
-      {
-        species_name: "wigglytuff",
-      },
+      { species_name: "igglybuff" },
+      { species_name: "jigglypuff" },
+      { species_name: "wigglytuff" },
     ],
   },
   {
@@ -758,15 +514,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
     chain: [
-      {
-        species_name: "igglybuff",
-      },
-      {
-        species_name: "jigglypuff",
-      },
-      {
-        species_name: "wigglytuff",
-      },
+      { species_name: "igglybuff" },
+      { species_name: "jigglypuff" },
+      { species_name: "wigglytuff" },
     ],
   },
   {
@@ -778,15 +528,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
     chain: [
-      {
-        species_name: "zubat",
-      },
-      {
-        species_name: "golbat",
-      },
-      {
-        species_name: "crobat",
-      },
+      { species_name: "zubat" },
+      { species_name: "golbat" },
+      { species_name: "crobat" },
     ],
   },
   {
@@ -798,15 +542,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
     chain: [
-      {
-        species_name: "zubat",
-      },
-      {
-        species_name: "golbat",
-      },
-      {
-        species_name: "crobat",
-      },
+      { species_name: "zubat" },
+      { species_name: "golbat" },
+      { species_name: "crobat" },
     ],
   },
   {
@@ -818,15 +556,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
     chain: [
-      {
-        species_name: "oddish",
-      },
-      {
-        species_name: "gloom",
-      },
-      {
-        species_name: "vileplume",
-      },
+      { species_name: "oddish" },
+      { species_name: "gloom" },
+      { species_name: "vileplume" },
     ],
   },
   {
@@ -838,15 +570,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
     chain: [
-      {
-        species_name: "oddish",
-      },
-      {
-        species_name: "gloom",
-      },
-      {
-        species_name: "vileplume",
-      },
+      { species_name: "oddish" },
+      { species_name: "gloom" },
+      { species_name: "vileplume" },
     ],
   },
   {
@@ -858,15 +584,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
     chain: [
-      {
-        species_name: "oddish",
-      },
-      {
-        species_name: "gloom",
-      },
-      {
-        species_name: "vileplume",
-      },
+      { species_name: "oddish" },
+      { species_name: "gloom" },
+      { species_name: "vileplume" },
     ],
   },
   {
@@ -877,14 +597,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
-    chain: [
-      {
-        species_name: "paras",
-      },
-      {
-        species_name: "parasect",
-      },
-    ],
+    chain: [{ species_name: "paras" }, { species_name: "parasect" }],
   },
   {
     id: 47,
@@ -894,14 +607,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
-    chain: [
-      {
-        species_name: "paras",
-      },
-      {
-        species_name: "parasect",
-      },
-    ],
+    chain: [{ species_name: "paras" }, { species_name: "parasect" }],
   },
   {
     id: 48,
@@ -911,14 +617,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
-    chain: [
-      {
-        species_name: "venonat",
-      },
-      {
-        species_name: "venomoth",
-      },
-    ],
+    chain: [{ species_name: "venonat" }, { species_name: "venomoth" }],
   },
   {
     id: 49,
@@ -928,14 +627,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
-    chain: [
-      {
-        species_name: "venonat",
-      },
-      {
-        species_name: "venomoth",
-      },
-    ],
+    chain: [{ species_name: "venonat" }, { species_name: "venomoth" }],
   },
   {
     id: 50,
@@ -945,14 +637,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
-    chain: [
-      {
-        species_name: "diglett",
-      },
-      {
-        species_name: "dugtrio",
-      },
-    ],
+    chain: [{ species_name: "diglett" }, { species_name: "dugtrio" }],
   },
   {
     id: 51,
@@ -962,14 +647,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
-    chain: [
-      {
-        species_name: "diglett",
-      },
-      {
-        species_name: "dugtrio",
-      },
-    ],
+    chain: [{ species_name: "diglett" }, { species_name: "dugtrio" }],
   },
   {
     id: 52,
@@ -979,14 +657,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
-    chain: [
-      {
-        species_name: "meowth",
-      },
-      {
-        species_name: "persian",
-      },
-    ],
+    chain: [{ species_name: "meowth" }, { species_name: "persian" }],
   },
   {
     id: 53,
@@ -996,14 +667,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
-    chain: [
-      {
-        species_name: "meowth",
-      },
-      {
-        species_name: "persian",
-      },
-    ],
+    chain: [{ species_name: "meowth" }, { species_name: "persian" }],
   },
   {
     id: 54,
@@ -1013,14 +677,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
-    chain: [
-      {
-        species_name: "psyduck",
-      },
-      {
-        species_name: "golduck",
-      },
-    ],
+    chain: [{ species_name: "psyduck" }, { species_name: "golduck" }],
   },
   {
     id: 55,
@@ -1030,14 +687,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
-    chain: [
-      {
-        species_name: "psyduck",
-      },
-      {
-        species_name: "golduck",
-      },
-    ],
+    chain: [{ species_name: "psyduck" }, { species_name: "golduck" }],
   },
   {
     id: 56,
@@ -1047,14 +697,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
-    chain: [
-      {
-        species_name: "mankey",
-      },
-      {
-        species_name: "primeape",
-      },
-    ],
+    chain: [{ species_name: "mankey" }, { species_name: "primeape" }],
   },
   {
     id: 57,
@@ -1064,14 +707,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
-    chain: [
-      {
-        species_name: "mankey",
-      },
-      {
-        species_name: "primeape",
-      },
-    ],
+    chain: [{ species_name: "mankey" }, { species_name: "primeape" }],
   },
   {
     id: 58,
@@ -1081,14 +717,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
-    chain: [
-      {
-        species_name: "growlithe",
-      },
-      {
-        species_name: "arcanine",
-      },
-    ],
+    chain: [{ species_name: "growlithe" }, { species_name: "arcanine" }],
   },
   {
     id: 59,
@@ -1098,14 +727,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
-    chain: [
-      {
-        species_name: "growlithe",
-      },
-      {
-        species_name: "arcanine",
-      },
-    ],
+    chain: [{ species_name: "growlithe" }, { species_name: "arcanine" }],
   },
   {
     id: 60,
@@ -1116,15 +738,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
     chain: [
-      {
-        species_name: "poliwag",
-      },
-      {
-        species_name: "poliwhirl",
-      },
-      {
-        species_name: "poliwrath",
-      },
+      { species_name: "poliwag" },
+      { species_name: "poliwhirl" },
+      { species_name: "poliwrath" },
     ],
   },
   {
@@ -1136,15 +752,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
     chain: [
-      {
-        species_name: "poliwag",
-      },
-      {
-        species_name: "poliwhirl",
-      },
-      {
-        species_name: "poliwrath",
-      },
+      { species_name: "poliwag" },
+      { species_name: "poliwhirl" },
+      { species_name: "poliwrath" },
     ],
   },
   {
@@ -1156,15 +766,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
     chain: [
-      {
-        species_name: "poliwag",
-      },
-      {
-        species_name: "poliwhirl",
-      },
-      {
-        species_name: "poliwrath",
-      },
+      { species_name: "poliwag" },
+      { species_name: "poliwhirl" },
+      { species_name: "poliwrath" },
     ],
   },
   {
@@ -1176,15 +780,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
     chain: [
-      {
-        species_name: "abra",
-      },
-      {
-        species_name: "kadabra",
-      },
-      {
-        species_name: "alakazam",
-      },
+      { species_name: "abra" },
+      { species_name: "kadabra" },
+      { species_name: "alakazam" },
     ],
   },
   {
@@ -1196,15 +794,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
     chain: [
-      {
-        species_name: "abra",
-      },
-      {
-        species_name: "kadabra",
-      },
-      {
-        species_name: "alakazam",
-      },
+      { species_name: "abra" },
+      { species_name: "kadabra" },
+      { species_name: "alakazam" },
     ],
   },
   {
@@ -1216,15 +808,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
     chain: [
-      {
-        species_name: "abra",
-      },
-      {
-        species_name: "kadabra",
-      },
-      {
-        species_name: "alakazam",
-      },
+      { species_name: "abra" },
+      { species_name: "kadabra" },
+      { species_name: "alakazam" },
     ],
   },
   {
@@ -1236,15 +822,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
     chain: [
-      {
-        species_name: "machop",
-      },
-      {
-        species_name: "machoke",
-      },
-      {
-        species_name: "machamp",
-      },
+      { species_name: "machop" },
+      { species_name: "machoke" },
+      { species_name: "machamp" },
     ],
   },
   {
@@ -1256,15 +836,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
     chain: [
-      {
-        species_name: "machop",
-      },
-      {
-        species_name: "machoke",
-      },
-      {
-        species_name: "machamp",
-      },
+      { species_name: "machop" },
+      { species_name: "machoke" },
+      { species_name: "machamp" },
     ],
   },
   {
@@ -1276,15 +850,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
     chain: [
-      {
-        species_name: "machop",
-      },
-      {
-        species_name: "machoke",
-      },
-      {
-        species_name: "machamp",
-      },
+      { species_name: "machop" },
+      { species_name: "machoke" },
+      { species_name: "machamp" },
     ],
   },
   {
@@ -1296,15 +864,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
     chain: [
-      {
-        species_name: "bellsprout",
-      },
-      {
-        species_name: "weepinbell",
-      },
-      {
-        species_name: "victreebel",
-      },
+      { species_name: "bellsprout" },
+      { species_name: "weepinbell" },
+      { species_name: "victreebel" },
     ],
   },
   {
@@ -1316,15 +878,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
     chain: [
-      {
-        species_name: "bellsprout",
-      },
-      {
-        species_name: "weepinbell",
-      },
-      {
-        species_name: "victreebel",
-      },
+      { species_name: "bellsprout" },
+      { species_name: "weepinbell" },
+      { species_name: "victreebel" },
     ],
   },
   {
@@ -1336,15 +892,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
     chain: [
-      {
-        species_name: "bellsprout",
-      },
-      {
-        species_name: "weepinbell",
-      },
-      {
-        species_name: "victreebel",
-      },
+      { species_name: "bellsprout" },
+      { species_name: "weepinbell" },
+      { species_name: "victreebel" },
     ],
   },
   {
@@ -1355,14 +905,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
-    chain: [
-      {
-        species_name: "tentacool",
-      },
-      {
-        species_name: "tentacruel",
-      },
-    ],
+    chain: [{ species_name: "tentacool" }, { species_name: "tentacruel" }],
   },
   {
     id: 73,
@@ -1372,14 +915,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
-    chain: [
-      {
-        species_name: "tentacool",
-      },
-      {
-        species_name: "tentacruel",
-      },
-    ],
+    chain: [{ species_name: "tentacool" }, { species_name: "tentacruel" }],
   },
   {
     id: 74,
@@ -1390,15 +926,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
     chain: [
-      {
-        species_name: "geodude",
-      },
-      {
-        species_name: "graveler",
-      },
-      {
-        species_name: "golem",
-      },
+      { species_name: "geodude" },
+      { species_name: "graveler" },
+      { species_name: "golem" },
     ],
   },
   {
@@ -1410,15 +940,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
     chain: [
-      {
-        species_name: "geodude",
-      },
-      {
-        species_name: "graveler",
-      },
-      {
-        species_name: "golem",
-      },
+      { species_name: "geodude" },
+      { species_name: "graveler" },
+      { species_name: "golem" },
     ],
   },
   {
@@ -1430,15 +954,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
     chain: [
-      {
-        species_name: "geodude",
-      },
-      {
-        species_name: "graveler",
-      },
-      {
-        species_name: "golem",
-      },
+      { species_name: "geodude" },
+      { species_name: "graveler" },
+      { species_name: "golem" },
     ],
   },
   {
@@ -1449,14 +967,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
-    chain: [
-      {
-        species_name: "ponyta",
-      },
-      {
-        species_name: "rapidash",
-      },
-    ],
+    chain: [{ species_name: "ponyta" }, { species_name: "rapidash" }],
   },
   {
     id: 78,
@@ -1466,14 +977,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
-    chain: [
-      {
-        species_name: "ponyta",
-      },
-      {
-        species_name: "rapidash",
-      },
-    ],
+    chain: [{ species_name: "ponyta" }, { species_name: "rapidash" }],
   },
   {
     id: 79,
@@ -1483,14 +987,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
-    chain: [
-      {
-        species_name: "slowpoke",
-      },
-      {
-        species_name: "slowbro",
-      },
-    ],
+    chain: [{ species_name: "slowpoke" }, { species_name: "slowbro" }],
   },
   {
     id: 80,
@@ -1500,14 +997,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
-    chain: [
-      {
-        species_name: "slowpoke",
-      },
-      {
-        species_name: "slowbro",
-      },
-    ],
+    chain: [{ species_name: "slowpoke" }, { species_name: "slowbro" }],
   },
   {
     id: 81,
@@ -1518,15 +1008,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
     chain: [
-      {
-        species_name: "magnemite",
-      },
-      {
-        species_name: "magneton",
-      },
-      {
-        species_name: "magnezone",
-      },
+      { species_name: "magnemite" },
+      { species_name: "magneton" },
+      { species_name: "magnezone" },
     ],
   },
   {
@@ -1538,15 +1022,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
     chain: [
-      {
-        species_name: "magnemite",
-      },
-      {
-        species_name: "magneton",
-      },
-      {
-        species_name: "magnezone",
-      },
+      { species_name: "magnemite" },
+      { species_name: "magneton" },
+      { species_name: "magnezone" },
     ],
   },
   {
@@ -1557,11 +1035,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
-    chain: [
-      {
-        species_name: "farfetchd",
-      },
-    ],
+    chain: [{ species_name: "farfetchd" }],
   },
   {
     id: 84,
@@ -1571,14 +1045,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
-    chain: [
-      {
-        species_name: "doduo",
-      },
-      {
-        species_name: "dodrio",
-      },
-    ],
+    chain: [{ species_name: "doduo" }, { species_name: "dodrio" }],
   },
   {
     id: 85,
@@ -1588,14 +1055,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
-    chain: [
-      {
-        species_name: "doduo",
-      },
-      {
-        species_name: "dodrio",
-      },
-    ],
+    chain: [{ species_name: "doduo" }, { species_name: "dodrio" }],
   },
   {
     id: 86,
@@ -1605,14 +1065,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
-    chain: [
-      {
-        species_name: "seel",
-      },
-      {
-        species_name: "dewgong",
-      },
-    ],
+    chain: [{ species_name: "seel" }, { species_name: "dewgong" }],
   },
   {
     id: 87,
@@ -1622,14 +1075,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
-    chain: [
-      {
-        species_name: "seel",
-      },
-      {
-        species_name: "dewgong",
-      },
-    ],
+    chain: [{ species_name: "seel" }, { species_name: "dewgong" }],
   },
   {
     id: 88,
@@ -1639,14 +1085,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
-    chain: [
-      {
-        species_name: "grimer",
-      },
-      {
-        species_name: "muk",
-      },
-    ],
+    chain: [{ species_name: "grimer" }, { species_name: "muk" }],
   },
   {
     id: 89,
@@ -1656,14 +1095,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
-    chain: [
-      {
-        species_name: "grimer",
-      },
-      {
-        species_name: "muk",
-      },
-    ],
+    chain: [{ species_name: "grimer" }, { species_name: "muk" }],
   },
   {
     id: 90,
@@ -1673,14 +1105,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
-    chain: [
-      {
-        species_name: "shellder",
-      },
-      {
-        species_name: "cloyster",
-      },
-    ],
+    chain: [{ species_name: "shellder" }, { species_name: "cloyster" }],
   },
   {
     id: 91,
@@ -1690,14 +1115,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
-    chain: [
-      {
-        species_name: "shellder",
-      },
-      {
-        species_name: "cloyster",
-      },
-    ],
+    chain: [{ species_name: "shellder" }, { species_name: "cloyster" }],
   },
   {
     id: 92,
@@ -1708,15 +1126,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
     chain: [
-      {
-        species_name: "gastly",
-      },
-      {
-        species_name: "haunter",
-      },
-      {
-        species_name: "gengar",
-      },
+      { species_name: "gastly" },
+      { species_name: "haunter" },
+      { species_name: "gengar" },
     ],
   },
   {
@@ -1728,15 +1140,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
     chain: [
-      {
-        species_name: "gastly",
-      },
-      {
-        species_name: "haunter",
-      },
-      {
-        species_name: "gengar",
-      },
+      { species_name: "gastly" },
+      { species_name: "haunter" },
+      { species_name: "gengar" },
     ],
   },
   {
@@ -1748,15 +1154,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
     chain: [
-      {
-        species_name: "gastly",
-      },
-      {
-        species_name: "haunter",
-      },
-      {
-        species_name: "gengar",
-      },
+      { species_name: "gastly" },
+      { species_name: "haunter" },
+      { species_name: "gengar" },
     ],
   },
   {
@@ -1767,14 +1167,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
-    chain: [
-      {
-        species_name: "onix",
-      },
-      {
-        species_name: "steelix",
-      },
-    ],
+    chain: [{ species_name: "onix" }, { species_name: "steelix" }],
   },
   {
     id: 96,
@@ -1784,14 +1177,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
-    chain: [
-      {
-        species_name: "drowzee",
-      },
-      {
-        species_name: "hypno",
-      },
-    ],
+    chain: [{ species_name: "drowzee" }, { species_name: "hypno" }],
   },
   {
     id: 97,
@@ -1801,14 +1187,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
-    chain: [
-      {
-        species_name: "drowzee",
-      },
-      {
-        species_name: "hypno",
-      },
-    ],
+    chain: [{ species_name: "drowzee" }, { species_name: "hypno" }],
   },
   {
     id: 98,
@@ -1818,14 +1197,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
-    chain: [
-      {
-        species_name: "krabby",
-      },
-      {
-        species_name: "kingler",
-      },
-    ],
+    chain: [{ species_name: "krabby" }, { species_name: "kingler" }],
   },
   {
     id: 99,
@@ -1835,14 +1207,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
-    chain: [
-      {
-        species_name: "krabby",
-      },
-      {
-        species_name: "kingler",
-      },
-    ],
+    chain: [{ species_name: "krabby" }, { species_name: "kingler" }],
   },
   {
     id: 100,
@@ -1852,14 +1217,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
-    chain: [
-      {
-        species_name: "voltorb",
-      },
-      {
-        species_name: "electrode",
-      },
-    ],
+    chain: [{ species_name: "voltorb" }, { species_name: "electrode" }],
   },
   {
     id: 101,
@@ -1869,14 +1227,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
-    chain: [
-      {
-        species_name: "voltorb",
-      },
-      {
-        species_name: "electrode",
-      },
-    ],
+    chain: [{ species_name: "voltorb" }, { species_name: "electrode" }],
   },
   {
     id: 102,
@@ -1886,14 +1237,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
-    chain: [
-      {
-        species_name: "exeggcute",
-      },
-      {
-        species_name: "exeggutor",
-      },
-    ],
+    chain: [{ species_name: "exeggcute" }, { species_name: "exeggutor" }],
   },
   {
     id: 103,
@@ -1903,14 +1247,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
-    chain: [
-      {
-        species_name: "exeggcute",
-      },
-      {
-        species_name: "exeggutor",
-      },
-    ],
+    chain: [{ species_name: "exeggcute" }, { species_name: "exeggutor" }],
   },
   {
     id: 104,
@@ -1920,14 +1257,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
-    chain: [
-      {
-        species_name: "cubone",
-      },
-      {
-        species_name: "marowak",
-      },
-    ],
+    chain: [{ species_name: "cubone" }, { species_name: "marowak" }],
   },
   {
     id: 105,
@@ -1937,14 +1267,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
-    chain: [
-      {
-        species_name: "cubone",
-      },
-      {
-        species_name: "marowak",
-      },
-    ],
+    chain: [{ species_name: "cubone" }, { species_name: "marowak" }],
   },
   {
     id: 106,
@@ -1954,14 +1277,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
-    chain: [
-      {
-        species_name: "tyrogue",
-      },
-      {
-        species_name: "hitmonlee",
-      },
-    ],
+    chain: [{ species_name: "tyrogue" }, { species_name: "hitmonlee" }],
   },
   {
     id: 108,
@@ -1971,14 +1287,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
-    chain: [
-      {
-        species_name: "lickitung",
-      },
-      {
-        species_name: "lickilicky",
-      },
-    ],
+    chain: [{ species_name: "lickitung" }, { species_name: "lickilicky" }],
   },
   {
     id: 109,
@@ -1988,14 +1297,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
-    chain: [
-      {
-        species_name: "koffing",
-      },
-      {
-        species_name: "weezing",
-      },
-    ],
+    chain: [{ species_name: "koffing" }, { species_name: "weezing" }],
   },
   {
     id: 110,
@@ -2005,14 +1307,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
-    chain: [
-      {
-        species_name: "koffing",
-      },
-      {
-        species_name: "weezing",
-      },
-    ],
+    chain: [{ species_name: "koffing" }, { species_name: "weezing" }],
   },
   {
     id: 111,
@@ -2023,15 +1318,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
     chain: [
-      {
-        species_name: "rhyhorn",
-      },
-      {
-        species_name: "rhydon",
-      },
-      {
-        species_name: "rhyperior",
-      },
+      { species_name: "rhyhorn" },
+      { species_name: "rhydon" },
+      { species_name: "rhyperior" },
     ],
   },
   {
@@ -2043,15 +1332,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
     chain: [
-      {
-        species_name: "rhyhorn",
-      },
-      {
-        species_name: "rhydon",
-      },
-      {
-        species_name: "rhyperior",
-      },
+      { species_name: "rhyhorn" },
+      { species_name: "rhydon" },
+      { species_name: "rhyperior" },
     ],
   },
   {
@@ -2063,15 +1346,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
     chain: [
-      {
-        species_name: "happiny",
-      },
-      {
-        species_name: "chansey",
-      },
-      {
-        species_name: "blissey",
-      },
+      { species_name: "happiny" },
+      { species_name: "chansey" },
+      { species_name: "blissey" },
     ],
   },
   {
@@ -2082,14 +1359,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
-    chain: [
-      {
-        species_name: "tangela",
-      },
-      {
-        species_name: "tangrowth",
-      },
-    ],
+    chain: [{ species_name: "tangela" }, { species_name: "tangrowth" }],
   },
   {
     id: 115,
@@ -2099,11 +1369,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
-    chain: [
-      {
-        species_name: "kangaskhan",
-      },
-    ],
+    chain: [{ species_name: "kangaskhan" }],
   },
   {
     id: 116,
@@ -2114,15 +1380,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
     chain: [
-      {
-        species_name: "horsea",
-      },
-      {
-        species_name: "seadra",
-      },
-      {
-        species_name: "kingdra",
-      },
+      { species_name: "horsea" },
+      { species_name: "seadra" },
+      { species_name: "kingdra" },
     ],
   },
   {
@@ -2134,15 +1394,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
     chain: [
-      {
-        species_name: "horsea",
-      },
-      {
-        species_name: "seadra",
-      },
-      {
-        species_name: "kingdra",
-      },
+      { species_name: "horsea" },
+      { species_name: "seadra" },
+      { species_name: "kingdra" },
     ],
   },
   {
@@ -2153,14 +1407,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
-    chain: [
-      {
-        species_name: "goldeen",
-      },
-      {
-        species_name: "seaking",
-      },
-    ],
+    chain: [{ species_name: "goldeen" }, { species_name: "seaking" }],
   },
   {
     id: 119,
@@ -2170,14 +1417,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
-    chain: [
-      {
-        species_name: "goldeen",
-      },
-      {
-        species_name: "seaking",
-      },
-    ],
+    chain: [{ species_name: "goldeen" }, { species_name: "seaking" }],
   },
   {
     id: 120,
@@ -2187,14 +1427,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
-    chain: [
-      {
-        species_name: "staryu",
-      },
-      {
-        species_name: "starmie",
-      },
-    ],
+    chain: [{ species_name: "staryu" }, { species_name: "starmie" }],
   },
   {
     id: 121,
@@ -2204,14 +1437,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
-    chain: [
-      {
-        species_name: "staryu",
-      },
-      {
-        species_name: "starmie",
-      },
-    ],
+    chain: [{ species_name: "staryu" }, { species_name: "starmie" }],
   },
   {
     id: 122,
@@ -2221,14 +1447,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
-    chain: [
-      {
-        species_name: "mime-jr",
-      },
-      {
-        species_name: "mr-mime",
-      },
-    ],
+    chain: [{ species_name: "mime-jr" }, { species_name: "mr-mime" }],
   },
   {
     id: 123,
@@ -2238,14 +1457,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
-    chain: [
-      {
-        species_name: "scyther",
-      },
-      {
-        species_name: "scizor",
-      },
-    ],
+    chain: [{ species_name: "scyther" }, { species_name: "scizor" }],
   },
   {
     id: 124,
@@ -2255,14 +1467,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
-    chain: [
-      {
-        species_name: "smoochum",
-      },
-      {
-        species_name: "jynx",
-      },
-    ],
+    chain: [{ species_name: "smoochum" }, { species_name: "jynx" }],
   },
   {
     id: 125,
@@ -2273,15 +1478,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
     chain: [
-      {
-        species_name: "elekid",
-      },
-      {
-        species_name: "electabuzz",
-      },
-      {
-        species_name: "electivire",
-      },
+      { species_name: "elekid" },
+      { species_name: "electabuzz" },
+      { species_name: "electivire" },
     ],
   },
   {
@@ -2293,15 +1492,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
     chain: [
-      {
-        species_name: "magby",
-      },
-      {
-        species_name: "magmar",
-      },
-      {
-        species_name: "magmortar",
-      },
+      { species_name: "magby" },
+      { species_name: "magmar" },
+      { species_name: "magmortar" },
     ],
   },
   {
@@ -2312,11 +1505,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-    chain: [
-      {
-        species_name: "pinsir",
-      },
-    ],
+    chain: [{ species_name: "pinsir" }],
   },
   {
     id: 128,
@@ -2326,11 +1515,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
-    chain: [
-      {
-        species_name: "tauros",
-      },
-    ],
+    chain: [{ species_name: "tauros" }],
   },
   {
     id: 129,
@@ -2340,14 +1525,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
-    chain: [
-      {
-        species_name: "magikarp",
-      },
-      {
-        species_name: "gyarados",
-      },
-    ],
+    chain: [{ species_name: "magikarp" }, { species_name: "gyarados" }],
   },
   {
     id: 130,
@@ -2357,14 +1535,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
-    chain: [
-      {
-        species_name: "magikarp",
-      },
-      {
-        species_name: "gyarados",
-      },
-    ],
+    chain: [{ species_name: "magikarp" }, { species_name: "gyarados" }],
   },
   {
     id: 131,
@@ -2374,11 +1545,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
-    chain: [
-      {
-        species_name: "lapras",
-      },
-    ],
+    chain: [{ species_name: "lapras" }],
   },
   {
     id: 132,
@@ -2388,11 +1555,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
-    chain: [
-      {
-        species_name: "ditto",
-      },
-    ],
+    chain: [{ species_name: "ditto" }],
   },
   {
     id: 133,
@@ -2402,14 +1565,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
-    chain: [
-      {
-        species_name: "eevee",
-      },
-      {
-        species_name: "vaporeon",
-      },
-    ],
+    chain: [{ species_name: "eevee" }, { species_name: "vaporeon" }],
   },
   {
     id: 134,
@@ -2419,14 +1575,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
-    chain: [
-      {
-        species_name: "eevee",
-      },
-      {
-        species_name: "vaporeon",
-      },
-    ],
+    chain: [{ species_name: "eevee" }, { species_name: "vaporeon" }],
   },
   {
     id: 137,
@@ -2437,15 +1586,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
     chain: [
-      {
-        species_name: "porygon",
-      },
-      {
-        species_name: "porygon2",
-      },
-      {
-        species_name: "porygon-z",
-      },
+      { species_name: "porygon" },
+      { species_name: "porygon2" },
+      { species_name: "porygon-z" },
     ],
   },
   {
@@ -2456,14 +1599,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
-    chain: [
-      {
-        species_name: "omanyte",
-      },
-      {
-        species_name: "omastar",
-      },
-    ],
+    chain: [{ species_name: "omanyte" }, { species_name: "omastar" }],
   },
   {
     id: 139,
@@ -2473,14 +1609,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
-    chain: [
-      {
-        species_name: "omanyte",
-      },
-      {
-        species_name: "omastar",
-      },
-    ],
+    chain: [{ species_name: "omanyte" }, { species_name: "omastar" }],
   },
   {
     id: 140,
@@ -2490,14 +1619,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
-    chain: [
-      {
-        species_name: "kabuto",
-      },
-      {
-        species_name: "kabutops",
-      },
-    ],
+    chain: [{ species_name: "kabuto" }, { species_name: "kabutops" }],
   },
   {
     id: 141,
@@ -2507,14 +1629,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
-    chain: [
-      {
-        species_name: "kabuto",
-      },
-      {
-        species_name: "kabutops",
-      },
-    ],
+    chain: [{ species_name: "kabuto" }, { species_name: "kabutops" }],
   },
   {
     id: 142,
@@ -2524,11 +1639,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
-    chain: [
-      {
-        species_name: "aerodactyl",
-      },
-    ],
+    chain: [{ species_name: "aerodactyl" }],
   },
   {
     id: 143,
@@ -2538,14 +1649,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
-    chain: [
-      {
-        species_name: "munchlax",
-      },
-      {
-        species_name: "snorlax",
-      },
-    ],
+    chain: [{ species_name: "munchlax" }, { species_name: "snorlax" }],
   },
   {
     id: 144,
@@ -2555,11 +1659,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
-    chain: [
-      {
-        species_name: "articuno",
-      },
-    ],
+    chain: [{ species_name: "articuno" }],
   },
   {
     id: 145,
@@ -2569,11 +1669,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
-    chain: [
-      {
-        species_name: "zapdos",
-      },
-    ],
+    chain: [{ species_name: "zapdos" }],
   },
   {
     id: 146,
@@ -2583,11 +1679,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
-    chain: [
-      {
-        species_name: "moltres",
-      },
-    ],
+    chain: [{ species_name: "moltres" }],
   },
   {
     id: 147,
@@ -2598,15 +1690,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
     chain: [
-      {
-        species_name: "dratini",
-      },
-      {
-        species_name: "dragonair",
-      },
-      {
-        species_name: "dragonite",
-      },
+      { species_name: "dratini" },
+      { species_name: "dragonair" },
+      { species_name: "dragonite" },
     ],
   },
   {
@@ -2618,15 +1704,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
     chain: [
-      {
-        species_name: "dratini",
-      },
-      {
-        species_name: "dragonair",
-      },
-      {
-        species_name: "dragonite",
-      },
+      { species_name: "dratini" },
+      { species_name: "dragonair" },
+      { species_name: "dragonite" },
     ],
   },
   {
@@ -2638,15 +1718,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
     chain: [
-      {
-        species_name: "dratini",
-      },
-      {
-        species_name: "dragonair",
-      },
-      {
-        species_name: "dragonite",
-      },
+      { species_name: "dratini" },
+      { species_name: "dragonair" },
+      { species_name: "dragonite" },
     ],
   },
   {
@@ -2657,11 +1731,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
-    chain: [
-      {
-        species_name: "mewtwo",
-      },
-    ],
+    chain: [{ species_name: "mewtwo" }],
   },
   {
     id: 151,
@@ -2671,11 +1741,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
-    chain: [
-      {
-        species_name: "mew",
-      },
-    ],
+    chain: [{ species_name: "mew" }],
   },
   {
     id: 152,
@@ -2686,15 +1752,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
     chain: [
-      {
-        species_name: "chikorita",
-      },
-      {
-        species_name: "bayleef",
-      },
-      {
-        species_name: "meganium",
-      },
+      { species_name: "chikorita" },
+      { species_name: "bayleef" },
+      { species_name: "meganium" },
     ],
   },
   {
@@ -2706,15 +1766,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
     chain: [
-      {
-        species_name: "chikorita",
-      },
-      {
-        species_name: "bayleef",
-      },
-      {
-        species_name: "meganium",
-      },
+      { species_name: "chikorita" },
+      { species_name: "bayleef" },
+      { species_name: "meganium" },
     ],
   },
   {
@@ -2726,15 +1780,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
     chain: [
-      {
-        species_name: "chikorita",
-      },
-      {
-        species_name: "bayleef",
-      },
-      {
-        species_name: "meganium",
-      },
+      { species_name: "chikorita" },
+      { species_name: "bayleef" },
+      { species_name: "meganium" },
     ],
   },
   {
@@ -2746,15 +1794,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
     chain: [
-      {
-        species_name: "cyndaquil",
-      },
-      {
-        species_name: "quilava",
-      },
-      {
-        species_name: "typhlosion",
-      },
+      { species_name: "cyndaquil" },
+      { species_name: "quilava" },
+      { species_name: "typhlosion" },
     ],
   },
   {
@@ -2766,15 +1808,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png",
     chain: [
-      {
-        species_name: "cyndaquil",
-      },
-      {
-        species_name: "quilava",
-      },
-      {
-        species_name: "typhlosion",
-      },
+      { species_name: "cyndaquil" },
+      { species_name: "quilava" },
+      { species_name: "typhlosion" },
     ],
   },
   {
@@ -2786,15 +1822,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
     chain: [
-      {
-        species_name: "cyndaquil",
-      },
-      {
-        species_name: "quilava",
-      },
-      {
-        species_name: "typhlosion",
-      },
+      { species_name: "cyndaquil" },
+      { species_name: "quilava" },
+      { species_name: "typhlosion" },
     ],
   },
   {
@@ -2806,15 +1836,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
     chain: [
-      {
-        species_name: "totodile",
-      },
-      {
-        species_name: "croconaw",
-      },
-      {
-        species_name: "feraligatr",
-      },
+      { species_name: "totodile" },
+      { species_name: "croconaw" },
+      { species_name: "feraligatr" },
     ],
   },
   {
@@ -2826,15 +1850,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
     chain: [
-      {
-        species_name: "totodile",
-      },
-      {
-        species_name: "croconaw",
-      },
-      {
-        species_name: "feraligatr",
-      },
+      { species_name: "totodile" },
+      { species_name: "croconaw" },
+      { species_name: "feraligatr" },
     ],
   },
   {
@@ -2846,15 +1864,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
     chain: [
-      {
-        species_name: "totodile",
-      },
-      {
-        species_name: "croconaw",
-      },
-      {
-        species_name: "feraligatr",
-      },
+      { species_name: "totodile" },
+      { species_name: "croconaw" },
+      { species_name: "feraligatr" },
     ],
   },
   {
@@ -2865,14 +1877,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
-    chain: [
-      {
-        species_name: "sentret",
-      },
-      {
-        species_name: "furret",
-      },
-    ],
+    chain: [{ species_name: "sentret" }, { species_name: "furret" }],
   },
   {
     id: 162,
@@ -2882,14 +1887,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/162.png",
-    chain: [
-      {
-        species_name: "sentret",
-      },
-      {
-        species_name: "furret",
-      },
-    ],
+    chain: [{ species_name: "sentret" }, { species_name: "furret" }],
   },
   {
     id: 163,
@@ -2899,14 +1897,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
-    chain: [
-      {
-        species_name: "hoothoot",
-      },
-      {
-        species_name: "noctowl",
-      },
-    ],
+    chain: [{ species_name: "hoothoot" }, { species_name: "noctowl" }],
   },
   {
     id: 164,
@@ -2916,14 +1907,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
-    chain: [
-      {
-        species_name: "hoothoot",
-      },
-      {
-        species_name: "noctowl",
-      },
-    ],
+    chain: [{ species_name: "hoothoot" }, { species_name: "noctowl" }],
   },
   {
     id: 165,
@@ -2933,14 +1917,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/165.png",
-    chain: [
-      {
-        species_name: "ledyba",
-      },
-      {
-        species_name: "ledian",
-      },
-    ],
+    chain: [{ species_name: "ledyba" }, { species_name: "ledian" }],
   },
   {
     id: 166,
@@ -2950,14 +1927,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png",
-    chain: [
-      {
-        species_name: "ledyba",
-      },
-      {
-        species_name: "ledian",
-      },
-    ],
+    chain: [{ species_name: "ledyba" }, { species_name: "ledian" }],
   },
   {
     id: 167,
@@ -2967,14 +1937,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
-    chain: [
-      {
-        species_name: "spinarak",
-      },
-      {
-        species_name: "ariados",
-      },
-    ],
+    chain: [{ species_name: "spinarak" }, { species_name: "ariados" }],
   },
   {
     id: 168,
@@ -2984,14 +1947,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
-    chain: [
-      {
-        species_name: "spinarak",
-      },
-      {
-        species_name: "ariados",
-      },
-    ],
+    chain: [{ species_name: "spinarak" }, { species_name: "ariados" }],
   },
   {
     id: 169,
@@ -3002,15 +1958,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
     chain: [
-      {
-        species_name: "zubat",
-      },
-      {
-        species_name: "golbat",
-      },
-      {
-        species_name: "crobat",
-      },
+      { species_name: "zubat" },
+      { species_name: "golbat" },
+      { species_name: "crobat" },
     ],
   },
   {
@@ -3021,14 +1971,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png",
-    chain: [
-      {
-        species_name: "chinchou",
-      },
-      {
-        species_name: "lanturn",
-      },
-    ],
+    chain: [{ species_name: "chinchou" }, { species_name: "lanturn" }],
   },
   {
     id: 171,
@@ -3038,14 +1981,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png",
-    chain: [
-      {
-        species_name: "chinchou",
-      },
-      {
-        species_name: "lanturn",
-      },
-    ],
+    chain: [{ species_name: "chinchou" }, { species_name: "lanturn" }],
   },
   {
     id: 172,
@@ -3056,15 +1992,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
     chain: [
-      {
-        species_name: "pichu",
-      },
-      {
-        species_name: "pikachu",
-      },
-      {
-        species_name: "raichu",
-      },
+      { species_name: "pichu" },
+      { species_name: "pikachu" },
+      { species_name: "raichu" },
     ],
   },
   {
@@ -3076,15 +2006,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
     chain: [
-      {
-        species_name: "cleffa",
-      },
-      {
-        species_name: "clefairy",
-      },
-      {
-        species_name: "clefable",
-      },
+      { species_name: "cleffa" },
+      { species_name: "clefairy" },
+      { species_name: "clefable" },
     ],
   },
   {
@@ -3096,15 +2020,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png",
     chain: [
-      {
-        species_name: "igglybuff",
-      },
-      {
-        species_name: "jigglypuff",
-      },
-      {
-        species_name: "wigglytuff",
-      },
+      { species_name: "igglybuff" },
+      { species_name: "jigglypuff" },
+      { species_name: "wigglytuff" },
     ],
   },
   {
@@ -3116,15 +2034,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
     chain: [
-      {
-        species_name: "togepi",
-      },
-      {
-        species_name: "togetic",
-      },
-      {
-        species_name: "togekiss",
-      },
+      { species_name: "togepi" },
+      { species_name: "togetic" },
+      { species_name: "togekiss" },
     ],
   },
   {
@@ -3136,15 +2048,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png",
     chain: [
-      {
-        species_name: "togepi",
-      },
-      {
-        species_name: "togetic",
-      },
-      {
-        species_name: "togekiss",
-      },
+      { species_name: "togepi" },
+      { species_name: "togetic" },
+      { species_name: "togekiss" },
     ],
   },
   {
@@ -3155,14 +2061,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
-    chain: [
-      {
-        species_name: "natu",
-      },
-      {
-        species_name: "xatu",
-      },
-    ],
+    chain: [{ species_name: "natu" }, { species_name: "xatu" }],
   },
   {
     id: 178,
@@ -3172,14 +2071,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png",
-    chain: [
-      {
-        species_name: "natu",
-      },
-      {
-        species_name: "xatu",
-      },
-    ],
+    chain: [{ species_name: "natu" }, { species_name: "xatu" }],
   },
   {
     id: 179,
@@ -3190,15 +2082,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
     chain: [
-      {
-        species_name: "mareep",
-      },
-      {
-        species_name: "flaaffy",
-      },
-      {
-        species_name: "ampharos",
-      },
+      { species_name: "mareep" },
+      { species_name: "flaaffy" },
+      { species_name: "ampharos" },
     ],
   },
   {
@@ -3210,15 +2096,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
     chain: [
-      {
-        species_name: "mareep",
-      },
-      {
-        species_name: "flaaffy",
-      },
-      {
-        species_name: "ampharos",
-      },
+      { species_name: "mareep" },
+      { species_name: "flaaffy" },
+      { species_name: "ampharos" },
     ],
   },
   {
@@ -3230,15 +2110,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
     chain: [
-      {
-        species_name: "mareep",
-      },
-      {
-        species_name: "flaaffy",
-      },
-      {
-        species_name: "ampharos",
-      },
+      { species_name: "mareep" },
+      { species_name: "flaaffy" },
+      { species_name: "ampharos" },
     ],
   },
   {
@@ -3250,15 +2124,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
     chain: [
-      {
-        species_name: "azurill",
-      },
-      {
-        species_name: "marill",
-      },
-      {
-        species_name: "azumarill",
-      },
+      { species_name: "azurill" },
+      { species_name: "marill" },
+      { species_name: "azumarill" },
     ],
   },
   {
@@ -3270,15 +2138,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
     chain: [
-      {
-        species_name: "azurill",
-      },
-      {
-        species_name: "marill",
-      },
-      {
-        species_name: "azumarill",
-      },
+      { species_name: "azurill" },
+      { species_name: "marill" },
+      { species_name: "azumarill" },
     ],
   },
   {
@@ -3289,14 +2151,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
-    chain: [
-      {
-        species_name: "bonsly",
-      },
-      {
-        species_name: "sudowoodo",
-      },
-    ],
+    chain: [{ species_name: "bonsly" }, { species_name: "sudowoodo" }],
   },
   {
     id: 187,
@@ -3307,15 +2162,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
     chain: [
-      {
-        species_name: "hoppip",
-      },
-      {
-        species_name: "skiploom",
-      },
-      {
-        species_name: "jumpluff",
-      },
+      { species_name: "hoppip" },
+      { species_name: "skiploom" },
+      { species_name: "jumpluff" },
     ],
   },
   {
@@ -3327,15 +2176,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png",
     chain: [
-      {
-        species_name: "hoppip",
-      },
-      {
-        species_name: "skiploom",
-      },
-      {
-        species_name: "jumpluff",
-      },
+      { species_name: "hoppip" },
+      { species_name: "skiploom" },
+      { species_name: "jumpluff" },
     ],
   },
   {
@@ -3347,15 +2190,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/189.png",
     chain: [
-      {
-        species_name: "hoppip",
-      },
-      {
-        species_name: "skiploom",
-      },
-      {
-        species_name: "jumpluff",
-      },
+      { species_name: "hoppip" },
+      { species_name: "skiploom" },
+      { species_name: "jumpluff" },
     ],
   },
   {
@@ -3366,14 +2203,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
-    chain: [
-      {
-        species_name: "aipom",
-      },
-      {
-        species_name: "ambipom",
-      },
-    ],
+    chain: [{ species_name: "aipom" }, { species_name: "ambipom" }],
   },
   {
     id: 191,
@@ -3383,14 +2213,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/191.png",
-    chain: [
-      {
-        species_name: "sunkern",
-      },
-      {
-        species_name: "sunflora",
-      },
-    ],
+    chain: [{ species_name: "sunkern" }, { species_name: "sunflora" }],
   },
   {
     id: 192,
@@ -3400,14 +2223,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png",
-    chain: [
-      {
-        species_name: "sunkern",
-      },
-      {
-        species_name: "sunflora",
-      },
-    ],
+    chain: [{ species_name: "sunkern" }, { species_name: "sunflora" }],
   },
   {
     id: 193,
@@ -3417,14 +2233,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/193.png",
-    chain: [
-      {
-        species_name: "yanma",
-      },
-      {
-        species_name: "yanmega",
-      },
-    ],
+    chain: [{ species_name: "yanma" }, { species_name: "yanmega" }],
   },
   {
     id: 194,
@@ -3434,14 +2243,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
-    chain: [
-      {
-        species_name: "wooper",
-      },
-      {
-        species_name: "quagsire",
-      },
-    ],
+    chain: [{ species_name: "wooper" }, { species_name: "quagsire" }],
   },
   {
     id: 195,
@@ -3451,14 +2253,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
-    chain: [
-      {
-        species_name: "wooper",
-      },
-      {
-        species_name: "quagsire",
-      },
-    ],
+    chain: [{ species_name: "wooper" }, { species_name: "quagsire" }],
   },
   {
     id: 198,
@@ -3468,14 +2263,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
-    chain: [
-      {
-        species_name: "murkrow",
-      },
-      {
-        species_name: "honchkrow",
-      },
-    ],
+    chain: [{ species_name: "murkrow" }, { species_name: "honchkrow" }],
   },
   {
     id: 200,
@@ -3485,14 +2273,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
-    chain: [
-      {
-        species_name: "misdreavus",
-      },
-      {
-        species_name: "mismagius",
-      },
-    ],
+    chain: [{ species_name: "misdreavus" }, { species_name: "mismagius" }],
   },
   {
     id: 201,
@@ -3502,11 +2283,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
-    chain: [
-      {
-        species_name: "unown",
-      },
-    ],
+    chain: [{ species_name: "unown" }],
   },
   {
     id: 202,
@@ -3516,14 +2293,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
-    chain: [
-      {
-        species_name: "wynaut",
-      },
-      {
-        species_name: "wobbuffet",
-      },
-    ],
+    chain: [{ species_name: "wynaut" }, { species_name: "wobbuffet" }],
   },
   {
     id: 203,
@@ -3533,11 +2303,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
-    chain: [
-      {
-        species_name: "girafarig",
-      },
-    ],
+    chain: [{ species_name: "girafarig" }],
   },
   {
     id: 204,
@@ -3547,14 +2313,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/204.png",
-    chain: [
-      {
-        species_name: "pineco",
-      },
-      {
-        species_name: "forretress",
-      },
-    ],
+    chain: [{ species_name: "pineco" }, { species_name: "forretress" }],
   },
   {
     id: 205,
@@ -3564,14 +2323,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
-    chain: [
-      {
-        species_name: "pineco",
-      },
-      {
-        species_name: "forretress",
-      },
-    ],
+    chain: [{ species_name: "pineco" }, { species_name: "forretress" }],
   },
   {
     id: 206,
@@ -3581,11 +2333,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
-    chain: [
-      {
-        species_name: "dunsparce",
-      },
-    ],
+    chain: [{ species_name: "dunsparce" }],
   },
   {
     id: 207,
@@ -3595,14 +2343,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
-    chain: [
-      {
-        species_name: "gligar",
-      },
-      {
-        species_name: "gliscor",
-      },
-    ],
+    chain: [{ species_name: "gligar" }, { species_name: "gliscor" }],
   },
   {
     id: 208,
@@ -3612,14 +2353,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
-    chain: [
-      {
-        species_name: "onix",
-      },
-      {
-        species_name: "steelix",
-      },
-    ],
+    chain: [{ species_name: "onix" }, { species_name: "steelix" }],
   },
   {
     id: 209,
@@ -3629,14 +2363,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/209.png",
-    chain: [
-      {
-        species_name: "snubbull",
-      },
-      {
-        species_name: "granbull",
-      },
-    ],
+    chain: [{ species_name: "snubbull" }, { species_name: "granbull" }],
   },
   {
     id: 210,
@@ -3646,14 +2373,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
-    chain: [
-      {
-        species_name: "snubbull",
-      },
-      {
-        species_name: "granbull",
-      },
-    ],
+    chain: [{ species_name: "snubbull" }, { species_name: "granbull" }],
   },
   {
     id: 211,
@@ -3663,11 +2383,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
-    chain: [
-      {
-        species_name: "qwilfish",
-      },
-    ],
+    chain: [{ species_name: "qwilfish" }],
   },
   {
     id: 212,
@@ -3677,14 +2393,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
-    chain: [
-      {
-        species_name: "scyther",
-      },
-      {
-        species_name: "scizor",
-      },
-    ],
+    chain: [{ species_name: "scyther" }, { species_name: "scizor" }],
   },
   {
     id: 213,
@@ -3694,11 +2403,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
-    chain: [
-      {
-        species_name: "shuckle",
-      },
-    ],
+    chain: [{ species_name: "shuckle" }],
   },
   {
     id: 214,
@@ -3708,11 +2413,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
-    chain: [
-      {
-        species_name: "heracross",
-      },
-    ],
+    chain: [{ species_name: "heracross" }],
   },
   {
     id: 215,
@@ -3722,14 +2423,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
-    chain: [
-      {
-        species_name: "sneasel",
-      },
-      {
-        species_name: "weavile",
-      },
-    ],
+    chain: [{ species_name: "sneasel" }, { species_name: "weavile" }],
   },
   {
     id: 216,
@@ -3739,14 +2433,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
-    chain: [
-      {
-        species_name: "teddiursa",
-      },
-      {
-        species_name: "ursaring",
-      },
-    ],
+    chain: [{ species_name: "teddiursa" }, { species_name: "ursaring" }],
   },
   {
     id: 217,
@@ -3756,14 +2443,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png",
-    chain: [
-      {
-        species_name: "teddiursa",
-      },
-      {
-        species_name: "ursaring",
-      },
-    ],
+    chain: [{ species_name: "teddiursa" }, { species_name: "ursaring" }],
   },
   {
     id: 218,
@@ -3773,14 +2453,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
-    chain: [
-      {
-        species_name: "slugma",
-      },
-      {
-        species_name: "magcargo",
-      },
-    ],
+    chain: [{ species_name: "slugma" }, { species_name: "magcargo" }],
   },
   {
     id: 219,
@@ -3790,14 +2463,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
-    chain: [
-      {
-        species_name: "slugma",
-      },
-      {
-        species_name: "magcargo",
-      },
-    ],
+    chain: [{ species_name: "slugma" }, { species_name: "magcargo" }],
   },
   {
     id: 220,
@@ -3808,15 +2474,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
     chain: [
-      {
-        species_name: "swinub",
-      },
-      {
-        species_name: "piloswine",
-      },
-      {
-        species_name: "mamoswine",
-      },
+      { species_name: "swinub" },
+      { species_name: "piloswine" },
+      { species_name: "mamoswine" },
     ],
   },
   {
@@ -3828,15 +2488,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/221.png",
     chain: [
-      {
-        species_name: "swinub",
-      },
-      {
-        species_name: "piloswine",
-      },
-      {
-        species_name: "mamoswine",
-      },
+      { species_name: "swinub" },
+      { species_name: "piloswine" },
+      { species_name: "mamoswine" },
     ],
   },
   {
@@ -3847,11 +2501,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
-    chain: [
-      {
-        species_name: "corsola",
-      },
-    ],
+    chain: [{ species_name: "corsola" }],
   },
   {
     id: 223,
@@ -3861,14 +2511,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
-    chain: [
-      {
-        species_name: "remoraid",
-      },
-      {
-        species_name: "octillery",
-      },
-    ],
+    chain: [{ species_name: "remoraid" }, { species_name: "octillery" }],
   },
   {
     id: 224,
@@ -3878,14 +2521,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
-    chain: [
-      {
-        species_name: "remoraid",
-      },
-      {
-        species_name: "octillery",
-      },
-    ],
+    chain: [{ species_name: "remoraid" }, { species_name: "octillery" }],
   },
   {
     id: 225,
@@ -3895,11 +2531,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
-    chain: [
-      {
-        species_name: "delibird",
-      },
-    ],
+    chain: [{ species_name: "delibird" }],
   },
   {
     id: 226,
@@ -3909,14 +2541,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
-    chain: [
-      {
-        species_name: "mantyke",
-      },
-      {
-        species_name: "mantine",
-      },
-    ],
+    chain: [{ species_name: "mantyke" }, { species_name: "mantine" }],
   },
   {
     id: 227,
@@ -3926,11 +2551,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
-    chain: [
-      {
-        species_name: "skarmory",
-      },
-    ],
+    chain: [{ species_name: "skarmory" }],
   },
   {
     id: 228,
@@ -3940,14 +2561,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
-    chain: [
-      {
-        species_name: "houndour",
-      },
-      {
-        species_name: "houndoom",
-      },
-    ],
+    chain: [{ species_name: "houndour" }, { species_name: "houndoom" }],
   },
   {
     id: 229,
@@ -3957,14 +2571,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
-    chain: [
-      {
-        species_name: "houndour",
-      },
-      {
-        species_name: "houndoom",
-      },
-    ],
+    chain: [{ species_name: "houndour" }, { species_name: "houndoom" }],
   },
   {
     id: 230,
@@ -3975,15 +2582,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
     chain: [
-      {
-        species_name: "horsea",
-      },
-      {
-        species_name: "seadra",
-      },
-      {
-        species_name: "kingdra",
-      },
+      { species_name: "horsea" },
+      { species_name: "seadra" },
+      { species_name: "kingdra" },
     ],
   },
   {
@@ -3994,14 +2595,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/231.png",
-    chain: [
-      {
-        species_name: "phanpy",
-      },
-      {
-        species_name: "donphan",
-      },
-    ],
+    chain: [{ species_name: "phanpy" }, { species_name: "donphan" }],
   },
   {
     id: 232,
@@ -4011,14 +2605,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
-    chain: [
-      {
-        species_name: "phanpy",
-      },
-      {
-        species_name: "donphan",
-      },
-    ],
+    chain: [{ species_name: "phanpy" }, { species_name: "donphan" }],
   },
   {
     id: 233,
@@ -4029,15 +2616,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
     chain: [
-      {
-        species_name: "porygon",
-      },
-      {
-        species_name: "porygon2",
-      },
-      {
-        species_name: "porygon-z",
-      },
+      { species_name: "porygon" },
+      { species_name: "porygon2" },
+      { species_name: "porygon-z" },
     ],
   },
   {
@@ -4048,11 +2629,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/234.png",
-    chain: [
-      {
-        species_name: "stantler",
-      },
-    ],
+    chain: [{ species_name: "stantler" }],
   },
   {
     id: 235,
@@ -4062,11 +2639,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
-    chain: [
-      {
-        species_name: "smeargle",
-      },
-    ],
+    chain: [{ species_name: "smeargle" }],
   },
   {
     id: 236,
@@ -4076,14 +2649,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/236.png",
-    chain: [
-      {
-        species_name: "tyrogue",
-      },
-      {
-        species_name: "hitmonlee",
-      },
-    ],
+    chain: [{ species_name: "tyrogue" }, { species_name: "hitmonlee" }],
   },
   {
     id: 238,
@@ -4093,14 +2659,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/238.png",
-    chain: [
-      {
-        species_name: "smoochum",
-      },
-      {
-        species_name: "jynx",
-      },
-    ],
+    chain: [{ species_name: "smoochum" }, { species_name: "jynx" }],
   },
   {
     id: 239,
@@ -4111,15 +2670,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png",
     chain: [
-      {
-        species_name: "elekid",
-      },
-      {
-        species_name: "electabuzz",
-      },
-      {
-        species_name: "electivire",
-      },
+      { species_name: "elekid" },
+      { species_name: "electabuzz" },
+      { species_name: "electivire" },
     ],
   },
   {
@@ -4131,15 +2684,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/240.png",
     chain: [
-      {
-        species_name: "magby",
-      },
-      {
-        species_name: "magmar",
-      },
-      {
-        species_name: "magmortar",
-      },
+      { species_name: "magby" },
+      { species_name: "magmar" },
+      { species_name: "magmortar" },
     ],
   },
   {
@@ -4150,11 +2697,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/241.png",
-    chain: [
-      {
-        species_name: "miltank",
-      },
-    ],
+    chain: [{ species_name: "miltank" }],
   },
   {
     id: 242,
@@ -4165,15 +2708,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
     chain: [
-      {
-        species_name: "happiny",
-      },
-      {
-        species_name: "chansey",
-      },
-      {
-        species_name: "blissey",
-      },
+      { species_name: "happiny" },
+      { species_name: "chansey" },
+      { species_name: "blissey" },
     ],
   },
   {
@@ -4184,11 +2721,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
-    chain: [
-      {
-        species_name: "raikou",
-      },
-    ],
+    chain: [{ species_name: "raikou" }],
   },
   {
     id: 244,
@@ -4198,11 +2731,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
-    chain: [
-      {
-        species_name: "entei",
-      },
-    ],
+    chain: [{ species_name: "entei" }],
   },
   {
     id: 245,
@@ -4212,11 +2741,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png",
-    chain: [
-      {
-        species_name: "suicune",
-      },
-    ],
+    chain: [{ species_name: "suicune" }],
   },
   {
     id: 246,
@@ -4227,15 +2752,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
     chain: [
-      {
-        species_name: "larvitar",
-      },
-      {
-        species_name: "pupitar",
-      },
-      {
-        species_name: "tyranitar",
-      },
+      { species_name: "larvitar" },
+      { species_name: "pupitar" },
+      { species_name: "tyranitar" },
     ],
   },
   {
@@ -4247,15 +2766,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
     chain: [
-      {
-        species_name: "larvitar",
-      },
-      {
-        species_name: "pupitar",
-      },
-      {
-        species_name: "tyranitar",
-      },
+      { species_name: "larvitar" },
+      { species_name: "pupitar" },
+      { species_name: "tyranitar" },
     ],
   },
   {
@@ -4267,15 +2780,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
     chain: [
-      {
-        species_name: "larvitar",
-      },
-      {
-        species_name: "pupitar",
-      },
-      {
-        species_name: "tyranitar",
-      },
+      { species_name: "larvitar" },
+      { species_name: "pupitar" },
+      { species_name: "tyranitar" },
     ],
   },
   {
@@ -4286,11 +2793,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
-    chain: [
-      {
-        species_name: "lugia",
-      },
-    ],
+    chain: [{ species_name: "lugia" }],
   },
   {
     id: 250,
@@ -4300,11 +2803,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
-    chain: [
-      {
-        species_name: "ho-oh",
-      },
-    ],
+    chain: [{ species_name: "ho-oh" }],
   },
   {
     id: 251,
@@ -4314,11 +2813,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png",
-    chain: [
-      {
-        species_name: "celebi",
-      },
-    ],
+    chain: [{ species_name: "celebi" }],
   },
   {
     id: 252,
@@ -4329,15 +2824,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
     chain: [
-      {
-        species_name: "treecko",
-      },
-      {
-        species_name: "grovyle",
-      },
-      {
-        species_name: "sceptile",
-      },
+      { species_name: "treecko" },
+      { species_name: "grovyle" },
+      { species_name: "sceptile" },
     ],
   },
   {
@@ -4349,15 +2838,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png",
     chain: [
-      {
-        species_name: "treecko",
-      },
-      {
-        species_name: "grovyle",
-      },
-      {
-        species_name: "sceptile",
-      },
+      { species_name: "treecko" },
+      { species_name: "grovyle" },
+      { species_name: "sceptile" },
     ],
   },
   {
@@ -4369,15 +2852,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png",
     chain: [
-      {
-        species_name: "treecko",
-      },
-      {
-        species_name: "grovyle",
-      },
-      {
-        species_name: "sceptile",
-      },
+      { species_name: "treecko" },
+      { species_name: "grovyle" },
+      { species_name: "sceptile" },
     ],
   },
   {
@@ -4389,15 +2866,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
     chain: [
-      {
-        species_name: "torchic",
-      },
-      {
-        species_name: "combusken",
-      },
-      {
-        species_name: "blaziken",
-      },
+      { species_name: "torchic" },
+      { species_name: "combusken" },
+      { species_name: "blaziken" },
     ],
   },
   {
@@ -4409,15 +2880,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/256.png",
     chain: [
-      {
-        species_name: "torchic",
-      },
-      {
-        species_name: "combusken",
-      },
-      {
-        species_name: "blaziken",
-      },
+      { species_name: "torchic" },
+      { species_name: "combusken" },
+      { species_name: "blaziken" },
     ],
   },
   {
@@ -4429,15 +2894,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png",
     chain: [
-      {
-        species_name: "torchic",
-      },
-      {
-        species_name: "combusken",
-      },
-      {
-        species_name: "blaziken",
-      },
+      { species_name: "torchic" },
+      { species_name: "combusken" },
+      { species_name: "blaziken" },
     ],
   },
   {
@@ -4449,15 +2908,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
     chain: [
-      {
-        species_name: "mudkip",
-      },
-      {
-        species_name: "marshtomp",
-      },
-      {
-        species_name: "swampert",
-      },
+      { species_name: "mudkip" },
+      { species_name: "marshtomp" },
+      { species_name: "swampert" },
     ],
   },
   {
@@ -4469,15 +2922,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png",
     chain: [
-      {
-        species_name: "mudkip",
-      },
-      {
-        species_name: "marshtomp",
-      },
-      {
-        species_name: "swampert",
-      },
+      { species_name: "mudkip" },
+      { species_name: "marshtomp" },
+      { species_name: "swampert" },
     ],
   },
   {
@@ -4489,15 +2936,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png",
     chain: [
-      {
-        species_name: "mudkip",
-      },
-      {
-        species_name: "marshtomp",
-      },
-      {
-        species_name: "swampert",
-      },
+      { species_name: "mudkip" },
+      { species_name: "marshtomp" },
+      { species_name: "swampert" },
     ],
   },
   {
@@ -4508,14 +2949,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png",
-    chain: [
-      {
-        species_name: "poochyena",
-      },
-      {
-        species_name: "mightyena",
-      },
-    ],
+    chain: [{ species_name: "poochyena" }, { species_name: "mightyena" }],
   },
   {
     id: 262,
@@ -4525,14 +2959,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/262.png",
-    chain: [
-      {
-        species_name: "poochyena",
-      },
-      {
-        species_name: "mightyena",
-      },
-    ],
+    chain: [{ species_name: "poochyena" }, { species_name: "mightyena" }],
   },
   {
     id: 263,
@@ -4542,14 +2969,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
-    chain: [
-      {
-        species_name: "zigzagoon",
-      },
-      {
-        species_name: "linoone",
-      },
-    ],
+    chain: [{ species_name: "zigzagoon" }, { species_name: "linoone" }],
   },
   {
     id: 264,
@@ -4559,14 +2979,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/264.png",
-    chain: [
-      {
-        species_name: "zigzagoon",
-      },
-      {
-        species_name: "linoone",
-      },
-    ],
+    chain: [{ species_name: "zigzagoon" }, { species_name: "linoone" }],
   },
   {
     id: 265,
@@ -4577,15 +2990,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
     chain: [
-      {
-        species_name: "wurmple",
-      },
-      {
-        species_name: "silcoon",
-      },
-      {
-        species_name: "beautifly",
-      },
+      { species_name: "wurmple" },
+      { species_name: "silcoon" },
+      { species_name: "beautifly" },
     ],
   },
   {
@@ -4597,15 +3004,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
     chain: [
-      {
-        species_name: "wurmple",
-      },
-      {
-        species_name: "silcoon",
-      },
-      {
-        species_name: "beautifly",
-      },
+      { species_name: "wurmple" },
+      { species_name: "silcoon" },
+      { species_name: "beautifly" },
     ],
   },
   {
@@ -4617,15 +3018,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
     chain: [
-      {
-        species_name: "wurmple",
-      },
-      {
-        species_name: "silcoon",
-      },
-      {
-        species_name: "beautifly",
-      },
+      { species_name: "wurmple" },
+      { species_name: "silcoon" },
+      { species_name: "beautifly" },
     ],
   },
   {
@@ -4637,15 +3032,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png",
     chain: [
-      {
-        species_name: "lotad",
-      },
-      {
-        species_name: "lombre",
-      },
-      {
-        species_name: "ludicolo",
-      },
+      { species_name: "lotad" },
+      { species_name: "lombre" },
+      { species_name: "ludicolo" },
     ],
   },
   {
@@ -4657,15 +3046,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
     chain: [
-      {
-        species_name: "lotad",
-      },
-      {
-        species_name: "lombre",
-      },
-      {
-        species_name: "ludicolo",
-      },
+      { species_name: "lotad" },
+      { species_name: "lombre" },
+      { species_name: "ludicolo" },
     ],
   },
   {
@@ -4677,15 +3060,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png",
     chain: [
-      {
-        species_name: "lotad",
-      },
-      {
-        species_name: "lombre",
-      },
-      {
-        species_name: "ludicolo",
-      },
+      { species_name: "lotad" },
+      { species_name: "lombre" },
+      { species_name: "ludicolo" },
     ],
   },
   {
@@ -4697,15 +3074,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
     chain: [
-      {
-        species_name: "seedot",
-      },
-      {
-        species_name: "nuzleaf",
-      },
-      {
-        species_name: "shiftry",
-      },
+      { species_name: "seedot" },
+      { species_name: "nuzleaf" },
+      { species_name: "shiftry" },
     ],
   },
   {
@@ -4717,15 +3088,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
     chain: [
-      {
-        species_name: "seedot",
-      },
-      {
-        species_name: "nuzleaf",
-      },
-      {
-        species_name: "shiftry",
-      },
+      { species_name: "seedot" },
+      { species_name: "nuzleaf" },
+      { species_name: "shiftry" },
     ],
   },
   {
@@ -4737,15 +3102,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png",
     chain: [
-      {
-        species_name: "seedot",
-      },
-      {
-        species_name: "nuzleaf",
-      },
-      {
-        species_name: "shiftry",
-      },
+      { species_name: "seedot" },
+      { species_name: "nuzleaf" },
+      { species_name: "shiftry" },
     ],
   },
   {
@@ -4756,14 +3115,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/276.png",
-    chain: [
-      {
-        species_name: "taillow",
-      },
-      {
-        species_name: "swellow",
-      },
-    ],
+    chain: [{ species_name: "taillow" }, { species_name: "swellow" }],
   },
   {
     id: 277,
@@ -4773,14 +3125,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png",
-    chain: [
-      {
-        species_name: "taillow",
-      },
-      {
-        species_name: "swellow",
-      },
-    ],
+    chain: [{ species_name: "taillow" }, { species_name: "swellow" }],
   },
   {
     id: 278,
@@ -4790,14 +3135,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png",
-    chain: [
-      {
-        species_name: "wingull",
-      },
-      {
-        species_name: "pelipper",
-      },
-    ],
+    chain: [{ species_name: "wingull" }, { species_name: "pelipper" }],
   },
   {
     id: 279,
@@ -4807,14 +3145,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
-    chain: [
-      {
-        species_name: "wingull",
-      },
-      {
-        species_name: "pelipper",
-      },
-    ],
+    chain: [{ species_name: "wingull" }, { species_name: "pelipper" }],
   },
   {
     id: 280,
@@ -4825,15 +3156,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
     chain: [
-      {
-        species_name: "ralts",
-      },
-      {
-        species_name: "kirlia",
-      },
-      {
-        species_name: "gardevoir",
-      },
+      { species_name: "ralts" },
+      { species_name: "kirlia" },
+      { species_name: "gardevoir" },
     ],
   },
   {
@@ -4845,15 +3170,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
     chain: [
-      {
-        species_name: "ralts",
-      },
-      {
-        species_name: "kirlia",
-      },
-      {
-        species_name: "gardevoir",
-      },
+      { species_name: "ralts" },
+      { species_name: "kirlia" },
+      { species_name: "gardevoir" },
     ],
   },
   {
@@ -4865,15 +3184,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
     chain: [
-      {
-        species_name: "ralts",
-      },
-      {
-        species_name: "kirlia",
-      },
-      {
-        species_name: "gardevoir",
-      },
+      { species_name: "ralts" },
+      { species_name: "kirlia" },
+      { species_name: "gardevoir" },
     ],
   },
   {
@@ -4884,14 +3197,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/283.png",
-    chain: [
-      {
-        species_name: "surskit",
-      },
-      {
-        species_name: "masquerain",
-      },
-    ],
+    chain: [{ species_name: "surskit" }, { species_name: "masquerain" }],
   },
   {
     id: 284,
@@ -4901,14 +3207,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/284.png",
-    chain: [
-      {
-        species_name: "surskit",
-      },
-      {
-        species_name: "masquerain",
-      },
-    ],
+    chain: [{ species_name: "surskit" }, { species_name: "masquerain" }],
   },
   {
     id: 285,
@@ -4918,14 +3217,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/285.png",
-    chain: [
-      {
-        species_name: "shroomish",
-      },
-      {
-        species_name: "breloom",
-      },
-    ],
+    chain: [{ species_name: "shroomish" }, { species_name: "breloom" }],
   },
   {
     id: 286,
@@ -4935,14 +3227,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/286.png",
-    chain: [
-      {
-        species_name: "shroomish",
-      },
-      {
-        species_name: "breloom",
-      },
-    ],
+    chain: [{ species_name: "shroomish" }, { species_name: "breloom" }],
   },
   {
     id: 287,
@@ -4953,15 +3238,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
     chain: [
-      {
-        species_name: "slakoth",
-      },
-      {
-        species_name: "vigoroth",
-      },
-      {
-        species_name: "slaking",
-      },
+      { species_name: "slakoth" },
+      { species_name: "vigoroth" },
+      { species_name: "slaking" },
     ],
   },
   {
@@ -4973,15 +3252,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/288.png",
     chain: [
-      {
-        species_name: "slakoth",
-      },
-      {
-        species_name: "vigoroth",
-      },
-      {
-        species_name: "slaking",
-      },
+      { species_name: "slakoth" },
+      { species_name: "vigoroth" },
+      { species_name: "slaking" },
     ],
   },
   {
@@ -4993,15 +3266,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png",
     chain: [
-      {
-        species_name: "slakoth",
-      },
-      {
-        species_name: "vigoroth",
-      },
-      {
-        species_name: "slaking",
-      },
+      { species_name: "slakoth" },
+      { species_name: "vigoroth" },
+      { species_name: "slaking" },
     ],
   },
   {
@@ -5012,14 +3279,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png",
-    chain: [
-      {
-        species_name: "nincada",
-      },
-      {
-        species_name: "ninjask",
-      },
-    ],
+    chain: [{ species_name: "nincada" }, { species_name: "ninjask" }],
   },
   {
     id: 291,
@@ -5029,14 +3289,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png",
-    chain: [
-      {
-        species_name: "nincada",
-      },
-      {
-        species_name: "ninjask",
-      },
-    ],
+    chain: [{ species_name: "nincada" }, { species_name: "ninjask" }],
   },
   {
     id: 293,
@@ -5047,15 +3300,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/293.png",
     chain: [
-      {
-        species_name: "whismur",
-      },
-      {
-        species_name: "loudred",
-      },
-      {
-        species_name: "exploud",
-      },
+      { species_name: "whismur" },
+      { species_name: "loudred" },
+      { species_name: "exploud" },
     ],
   },
   {
@@ -5067,15 +3314,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/294.png",
     chain: [
-      {
-        species_name: "whismur",
-      },
-      {
-        species_name: "loudred",
-      },
-      {
-        species_name: "exploud",
-      },
+      { species_name: "whismur" },
+      { species_name: "loudred" },
+      { species_name: "exploud" },
     ],
   },
   {
@@ -5087,15 +3328,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/295.png",
     chain: [
-      {
-        species_name: "whismur",
-      },
-      {
-        species_name: "loudred",
-      },
-      {
-        species_name: "exploud",
-      },
+      { species_name: "whismur" },
+      { species_name: "loudred" },
+      { species_name: "exploud" },
     ],
   },
   {
@@ -5106,14 +3341,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/296.png",
-    chain: [
-      {
-        species_name: "makuhita",
-      },
-      {
-        species_name: "hariyama",
-      },
-    ],
+    chain: [{ species_name: "makuhita" }, { species_name: "hariyama" }],
   },
   {
     id: 297,
@@ -5123,14 +3351,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/297.png",
-    chain: [
-      {
-        species_name: "makuhita",
-      },
-      {
-        species_name: "hariyama",
-      },
-    ],
+    chain: [{ species_name: "makuhita" }, { species_name: "hariyama" }],
   },
   {
     id: 298,
@@ -5141,15 +3362,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png",
     chain: [
-      {
-        species_name: "azurill",
-      },
-      {
-        species_name: "marill",
-      },
-      {
-        species_name: "azumarill",
-      },
+      { species_name: "azurill" },
+      { species_name: "marill" },
+      { species_name: "azumarill" },
     ],
   },
   {
@@ -5160,14 +3375,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/299.png",
-    chain: [
-      {
-        species_name: "nosepass",
-      },
-      {
-        species_name: "probopass",
-      },
-    ],
+    chain: [{ species_name: "nosepass" }, { species_name: "probopass" }],
   },
   {
     id: 300,
@@ -5177,14 +3385,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
-    chain: [
-      {
-        species_name: "skitty",
-      },
-      {
-        species_name: "delcatty",
-      },
-    ],
+    chain: [{ species_name: "skitty" }, { species_name: "delcatty" }],
   },
   {
     id: 301,
@@ -5194,14 +3395,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
-    chain: [
-      {
-        species_name: "skitty",
-      },
-      {
-        species_name: "delcatty",
-      },
-    ],
+    chain: [{ species_name: "skitty" }, { species_name: "delcatty" }],
   },
   {
     id: 302,
@@ -5211,11 +3405,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
-    chain: [
-      {
-        species_name: "sableye",
-      },
-    ],
+    chain: [{ species_name: "sableye" }],
   },
   {
     id: 303,
@@ -5225,11 +3415,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
-    chain: [
-      {
-        species_name: "mawile",
-      },
-    ],
+    chain: [{ species_name: "mawile" }],
   },
   {
     id: 304,
@@ -5240,15 +3426,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
     chain: [
-      {
-        species_name: "aron",
-      },
-      {
-        species_name: "lairon",
-      },
-      {
-        species_name: "aggron",
-      },
+      { species_name: "aron" },
+      { species_name: "lairon" },
+      { species_name: "aggron" },
     ],
   },
   {
@@ -5260,15 +3440,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
     chain: [
-      {
-        species_name: "aron",
-      },
-      {
-        species_name: "lairon",
-      },
-      {
-        species_name: "aggron",
-      },
+      { species_name: "aron" },
+      { species_name: "lairon" },
+      { species_name: "aggron" },
     ],
   },
   {
@@ -5280,15 +3454,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
     chain: [
-      {
-        species_name: "aron",
-      },
-      {
-        species_name: "lairon",
-      },
-      {
-        species_name: "aggron",
-      },
+      { species_name: "aron" },
+      { species_name: "lairon" },
+      { species_name: "aggron" },
     ],
   },
   {
@@ -5299,14 +3467,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
-    chain: [
-      {
-        species_name: "meditite",
-      },
-      {
-        species_name: "medicham",
-      },
-    ],
+    chain: [{ species_name: "meditite" }, { species_name: "medicham" }],
   },
   {
     id: 308,
@@ -5316,14 +3477,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
-    chain: [
-      {
-        species_name: "meditite",
-      },
-      {
-        species_name: "medicham",
-      },
-    ],
+    chain: [{ species_name: "meditite" }, { species_name: "medicham" }],
   },
   {
     id: 309,
@@ -5333,14 +3487,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
-    chain: [
-      {
-        species_name: "electrike",
-      },
-      {
-        species_name: "manectric",
-      },
-    ],
+    chain: [{ species_name: "electrike" }, { species_name: "manectric" }],
   },
   {
     id: 310,
@@ -5350,14 +3497,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
-    chain: [
-      {
-        species_name: "electrike",
-      },
-      {
-        species_name: "manectric",
-      },
-    ],
+    chain: [{ species_name: "electrike" }, { species_name: "manectric" }],
   },
   {
     id: 311,
@@ -5367,11 +3507,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/311.png",
-    chain: [
-      {
-        species_name: "plusle",
-      },
-    ],
+    chain: [{ species_name: "plusle" }],
   },
   {
     id: 312,
@@ -5381,11 +3517,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png",
-    chain: [
-      {
-        species_name: "minun",
-      },
-    ],
+    chain: [{ species_name: "minun" }],
   },
   {
     id: 313,
@@ -5395,11 +3527,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/313.png",
-    chain: [
-      {
-        species_name: "volbeat",
-      },
-    ],
+    chain: [{ species_name: "volbeat" }],
   },
   {
     id: 314,
@@ -5409,11 +3537,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/314.png",
-    chain: [
-      {
-        species_name: "illumise",
-      },
-    ],
+    chain: [{ species_name: "illumise" }],
   },
   {
     id: 315,
@@ -5424,15 +3548,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
     chain: [
-      {
-        species_name: "budew",
-      },
-      {
-        species_name: "roselia",
-      },
-      {
-        species_name: "roserade",
-      },
+      { species_name: "budew" },
+      { species_name: "roselia" },
+      { species_name: "roserade" },
     ],
   },
   {
@@ -5443,14 +3561,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
-    chain: [
-      {
-        species_name: "gulpin",
-      },
-      {
-        species_name: "swalot",
-      },
-    ],
+    chain: [{ species_name: "gulpin" }, { species_name: "swalot" }],
   },
   {
     id: 317,
@@ -5460,14 +3571,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
-    chain: [
-      {
-        species_name: "gulpin",
-      },
-      {
-        species_name: "swalot",
-      },
-    ],
+    chain: [{ species_name: "gulpin" }, { species_name: "swalot" }],
   },
   {
     id: 318,
@@ -5477,14 +3581,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
-    chain: [
-      {
-        species_name: "carvanha",
-      },
-      {
-        species_name: "sharpedo",
-      },
-    ],
+    chain: [{ species_name: "carvanha" }, { species_name: "sharpedo" }],
   },
   {
     id: 319,
@@ -5494,14 +3591,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
-    chain: [
-      {
-        species_name: "carvanha",
-      },
-      {
-        species_name: "sharpedo",
-      },
-    ],
+    chain: [{ species_name: "carvanha" }, { species_name: "sharpedo" }],
   },
   {
     id: 320,
@@ -5511,14 +3601,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/320.png",
-    chain: [
-      {
-        species_name: "wailmer",
-      },
-      {
-        species_name: "wailord",
-      },
-    ],
+    chain: [{ species_name: "wailmer" }, { species_name: "wailord" }],
   },
   {
     id: 321,
@@ -5528,14 +3611,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/321.png",
-    chain: [
-      {
-        species_name: "wailmer",
-      },
-      {
-        species_name: "wailord",
-      },
-    ],
+    chain: [{ species_name: "wailmer" }, { species_name: "wailord" }],
   },
   {
     id: 322,
@@ -5545,14 +3621,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
-    chain: [
-      {
-        species_name: "numel",
-      },
-      {
-        species_name: "camerupt",
-      },
-    ],
+    chain: [{ species_name: "numel" }, { species_name: "camerupt" }],
   },
   {
     id: 323,
@@ -5562,14 +3631,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
-    chain: [
-      {
-        species_name: "numel",
-      },
-      {
-        species_name: "camerupt",
-      },
-    ],
+    chain: [{ species_name: "numel" }, { species_name: "camerupt" }],
   },
   {
     id: 324,
@@ -5579,11 +3641,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
-    chain: [
-      {
-        species_name: "torkoal",
-      },
-    ],
+    chain: [{ species_name: "torkoal" }],
   },
   {
     id: 325,
@@ -5593,14 +3651,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/325.png",
-    chain: [
-      {
-        species_name: "spoink",
-      },
-      {
-        species_name: "grumpig",
-      },
-    ],
+    chain: [{ species_name: "spoink" }, { species_name: "grumpig" }],
   },
   {
     id: 326,
@@ -5610,14 +3661,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/326.png",
-    chain: [
-      {
-        species_name: "spoink",
-      },
-      {
-        species_name: "grumpig",
-      },
-    ],
+    chain: [{ species_name: "spoink" }, { species_name: "grumpig" }],
   },
   {
     id: 327,
@@ -5627,11 +3671,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/327.png",
-    chain: [
-      {
-        species_name: "spinda",
-      },
-    ],
+    chain: [{ species_name: "spinda" }],
   },
   {
     id: 328,
@@ -5642,15 +3682,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png",
     chain: [
-      {
-        species_name: "trapinch",
-      },
-      {
-        species_name: "vibrava",
-      },
-      {
-        species_name: "flygon",
-      },
+      { species_name: "trapinch" },
+      { species_name: "vibrava" },
+      { species_name: "flygon" },
     ],
   },
   {
@@ -5662,15 +3696,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/329.png",
     chain: [
-      {
-        species_name: "trapinch",
-      },
-      {
-        species_name: "vibrava",
-      },
-      {
-        species_name: "flygon",
-      },
+      { species_name: "trapinch" },
+      { species_name: "vibrava" },
+      { species_name: "flygon" },
     ],
   },
   {
@@ -5682,15 +3710,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/330.png",
     chain: [
-      {
-        species_name: "trapinch",
-      },
-      {
-        species_name: "vibrava",
-      },
-      {
-        species_name: "flygon",
-      },
+      { species_name: "trapinch" },
+      { species_name: "vibrava" },
+      { species_name: "flygon" },
     ],
   },
   {
@@ -5701,14 +3723,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/331.png",
-    chain: [
-      {
-        species_name: "cacnea",
-      },
-      {
-        species_name: "cacturne",
-      },
-    ],
+    chain: [{ species_name: "cacnea" }, { species_name: "cacturne" }],
   },
   {
     id: 332,
@@ -5718,14 +3733,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/332.png",
-    chain: [
-      {
-        species_name: "cacnea",
-      },
-      {
-        species_name: "cacturne",
-      },
-    ],
+    chain: [{ species_name: "cacnea" }, { species_name: "cacturne" }],
   },
   {
     id: 333,
@@ -5735,14 +3743,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
-    chain: [
-      {
-        species_name: "swablu",
-      },
-      {
-        species_name: "altaria",
-      },
-    ],
+    chain: [{ species_name: "swablu" }, { species_name: "altaria" }],
   },
   {
     id: 334,
@@ -5752,14 +3753,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
-    chain: [
-      {
-        species_name: "swablu",
-      },
-      {
-        species_name: "altaria",
-      },
-    ],
+    chain: [{ species_name: "swablu" }, { species_name: "altaria" }],
   },
   {
     id: 335,
@@ -5769,11 +3763,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
-    chain: [
-      {
-        species_name: "zangoose",
-      },
-    ],
+    chain: [{ species_name: "zangoose" }],
   },
   {
     id: 336,
@@ -5783,11 +3773,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/336.png",
-    chain: [
-      {
-        species_name: "seviper",
-      },
-    ],
+    chain: [{ species_name: "seviper" }],
   },
   {
     id: 337,
@@ -5797,11 +3783,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
-    chain: [
-      {
-        species_name: "lunatone",
-      },
-    ],
+    chain: [{ species_name: "lunatone" }],
   },
   {
     id: 338,
@@ -5811,11 +3793,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
-    chain: [
-      {
-        species_name: "solrock",
-      },
-    ],
+    chain: [{ species_name: "solrock" }],
   },
   {
     id: 339,
@@ -5825,14 +3803,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png",
-    chain: [
-      {
-        species_name: "barboach",
-      },
-      {
-        species_name: "whiscash",
-      },
-    ],
+    chain: [{ species_name: "barboach" }, { species_name: "whiscash" }],
   },
   {
     id: 340,
@@ -5842,14 +3813,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/340.png",
-    chain: [
-      {
-        species_name: "barboach",
-      },
-      {
-        species_name: "whiscash",
-      },
-    ],
+    chain: [{ species_name: "barboach" }, { species_name: "whiscash" }],
   },
   {
     id: 341,
@@ -5859,14 +3823,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/341.png",
-    chain: [
-      {
-        species_name: "corphish",
-      },
-      {
-        species_name: "crawdaunt",
-      },
-    ],
+    chain: [{ species_name: "corphish" }, { species_name: "crawdaunt" }],
   },
   {
     id: 342,
@@ -5876,14 +3833,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/342.png",
-    chain: [
-      {
-        species_name: "corphish",
-      },
-      {
-        species_name: "crawdaunt",
-      },
-    ],
+    chain: [{ species_name: "corphish" }, { species_name: "crawdaunt" }],
   },
   {
     id: 343,
@@ -5893,14 +3843,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png",
-    chain: [
-      {
-        species_name: "baltoy",
-      },
-      {
-        species_name: "claydol",
-      },
-    ],
+    chain: [{ species_name: "baltoy" }, { species_name: "claydol" }],
   },
   {
     id: 344,
@@ -5910,14 +3853,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/344.png",
-    chain: [
-      {
-        species_name: "baltoy",
-      },
-      {
-        species_name: "claydol",
-      },
-    ],
+    chain: [{ species_name: "baltoy" }, { species_name: "claydol" }],
   },
   {
     id: 345,
@@ -5927,14 +3863,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/345.png",
-    chain: [
-      {
-        species_name: "lileep",
-      },
-      {
-        species_name: "cradily",
-      },
-    ],
+    chain: [{ species_name: "lileep" }, { species_name: "cradily" }],
   },
   {
     id: 346,
@@ -5944,14 +3873,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/346.png",
-    chain: [
-      {
-        species_name: "lileep",
-      },
-      {
-        species_name: "cradily",
-      },
-    ],
+    chain: [{ species_name: "lileep" }, { species_name: "cradily" }],
   },
   {
     id: 347,
@@ -5961,14 +3883,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/347.png",
-    chain: [
-      {
-        species_name: "anorith",
-      },
-      {
-        species_name: "armaldo",
-      },
-    ],
+    chain: [{ species_name: "anorith" }, { species_name: "armaldo" }],
   },
   {
     id: 348,
@@ -5978,14 +3893,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/348.png",
-    chain: [
-      {
-        species_name: "anorith",
-      },
-      {
-        species_name: "armaldo",
-      },
-    ],
+    chain: [{ species_name: "anorith" }, { species_name: "armaldo" }],
   },
   {
     id: 349,
@@ -5995,14 +3903,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
-    chain: [
-      {
-        species_name: "feebas",
-      },
-      {
-        species_name: "milotic",
-      },
-    ],
+    chain: [{ species_name: "feebas" }, { species_name: "milotic" }],
   },
   {
     id: 350,
@@ -6012,14 +3913,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
-    chain: [
-      {
-        species_name: "feebas",
-      },
-      {
-        species_name: "milotic",
-      },
-    ],
+    chain: [{ species_name: "feebas" }, { species_name: "milotic" }],
   },
   {
     id: 351,
@@ -6029,11 +3923,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
-    chain: [
-      {
-        species_name: "castform",
-      },
-    ],
+    chain: [{ species_name: "castform" }],
   },
   {
     id: 352,
@@ -6043,11 +3933,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/352.png",
-    chain: [
-      {
-        species_name: "kecleon",
-      },
-    ],
+    chain: [{ species_name: "kecleon" }],
   },
   {
     id: 353,
@@ -6057,14 +3943,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
-    chain: [
-      {
-        species_name: "shuppet",
-      },
-      {
-        species_name: "banette",
-      },
-    ],
+    chain: [{ species_name: "shuppet" }, { species_name: "banette" }],
   },
   {
     id: 354,
@@ -6074,14 +3953,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
-    chain: [
-      {
-        species_name: "shuppet",
-      },
-      {
-        species_name: "banette",
-      },
-    ],
+    chain: [{ species_name: "shuppet" }, { species_name: "banette" }],
   },
   {
     id: 355,
@@ -6092,15 +3964,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png",
     chain: [
-      {
-        species_name: "duskull",
-      },
-      {
-        species_name: "dusclops",
-      },
-      {
-        species_name: "dusknoir",
-      },
+      { species_name: "duskull" },
+      { species_name: "dusclops" },
+      { species_name: "dusknoir" },
     ],
   },
   {
@@ -6112,15 +3978,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/356.png",
     chain: [
-      {
-        species_name: "duskull",
-      },
-      {
-        species_name: "dusclops",
-      },
-      {
-        species_name: "dusknoir",
-      },
+      { species_name: "duskull" },
+      { species_name: "dusclops" },
+      { species_name: "dusknoir" },
     ],
   },
   {
@@ -6131,11 +3991,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/357.png",
-    chain: [
-      {
-        species_name: "tropius",
-      },
-    ],
+    chain: [{ species_name: "tropius" }],
   },
   {
     id: 358,
@@ -6145,14 +4001,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
-    chain: [
-      {
-        species_name: "chingling",
-      },
-      {
-        species_name: "chimecho",
-      },
-    ],
+    chain: [{ species_name: "chingling" }, { species_name: "chimecho" }],
   },
   {
     id: 359,
@@ -6162,11 +4011,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
-    chain: [
-      {
-        species_name: "absol",
-      },
-    ],
+    chain: [{ species_name: "absol" }],
   },
   {
     id: 360,
@@ -6176,14 +4021,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/360.png",
-    chain: [
-      {
-        species_name: "wynaut",
-      },
-      {
-        species_name: "wobbuffet",
-      },
-    ],
+    chain: [{ species_name: "wynaut" }, { species_name: "wobbuffet" }],
   },
   {
     id: 361,
@@ -6193,14 +4031,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
-    chain: [
-      {
-        species_name: "snorunt",
-      },
-      {
-        species_name: "glalie",
-      },
-    ],
+    chain: [{ species_name: "snorunt" }, { species_name: "glalie" }],
   },
   {
     id: 362,
@@ -6210,14 +4041,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
-    chain: [
-      {
-        species_name: "snorunt",
-      },
-      {
-        species_name: "glalie",
-      },
-    ],
+    chain: [{ species_name: "snorunt" }, { species_name: "glalie" }],
   },
   {
     id: 363,
@@ -6228,15 +4052,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/363.png",
     chain: [
-      {
-        species_name: "spheal",
-      },
-      {
-        species_name: "sealeo",
-      },
-      {
-        species_name: "walrein",
-      },
+      { species_name: "spheal" },
+      { species_name: "sealeo" },
+      { species_name: "walrein" },
     ],
   },
   {
@@ -6248,15 +4066,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/364.png",
     chain: [
-      {
-        species_name: "spheal",
-      },
-      {
-        species_name: "sealeo",
-      },
-      {
-        species_name: "walrein",
-      },
+      { species_name: "spheal" },
+      { species_name: "sealeo" },
+      { species_name: "walrein" },
     ],
   },
   {
@@ -6268,15 +4080,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png",
     chain: [
-      {
-        species_name: "spheal",
-      },
-      {
-        species_name: "sealeo",
-      },
-      {
-        species_name: "walrein",
-      },
+      { species_name: "spheal" },
+      { species_name: "sealeo" },
+      { species_name: "walrein" },
     ],
   },
   {
@@ -6287,14 +4093,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/366.png",
-    chain: [
-      {
-        species_name: "clamperl",
-      },
-      {
-        species_name: "huntail",
-      },
-    ],
+    chain: [{ species_name: "clamperl" }, { species_name: "huntail" }],
   },
   {
     id: 367,
@@ -6304,14 +4103,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/367.png",
-    chain: [
-      {
-        species_name: "clamperl",
-      },
-      {
-        species_name: "huntail",
-      },
-    ],
+    chain: [{ species_name: "clamperl" }, { species_name: "huntail" }],
   },
   {
     id: 369,
@@ -6321,11 +4113,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png",
-    chain: [
-      {
-        species_name: "relicanth",
-      },
-    ],
+    chain: [{ species_name: "relicanth" }],
   },
   {
     id: 370,
@@ -6335,11 +4123,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/370.png",
-    chain: [
-      {
-        species_name: "luvdisc",
-      },
-    ],
+    chain: [{ species_name: "luvdisc" }],
   },
   {
     id: 371,
@@ -6350,15 +4134,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
     chain: [
-      {
-        species_name: "bagon",
-      },
-      {
-        species_name: "shelgon",
-      },
-      {
-        species_name: "salamence",
-      },
+      { species_name: "bagon" },
+      { species_name: "shelgon" },
+      { species_name: "salamence" },
     ],
   },
   {
@@ -6370,15 +4148,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
     chain: [
-      {
-        species_name: "bagon",
-      },
-      {
-        species_name: "shelgon",
-      },
-      {
-        species_name: "salamence",
-      },
+      { species_name: "bagon" },
+      { species_name: "shelgon" },
+      { species_name: "salamence" },
     ],
   },
   {
@@ -6390,15 +4162,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
     chain: [
-      {
-        species_name: "bagon",
-      },
-      {
-        species_name: "shelgon",
-      },
-      {
-        species_name: "salamence",
-      },
+      { species_name: "bagon" },
+      { species_name: "shelgon" },
+      { species_name: "salamence" },
     ],
   },
   {
@@ -6410,15 +4176,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
     chain: [
-      {
-        species_name: "beldum",
-      },
-      {
-        species_name: "metang",
-      },
-      {
-        species_name: "metagross",
-      },
+      { species_name: "beldum" },
+      { species_name: "metang" },
+      { species_name: "metagross" },
     ],
   },
   {
@@ -6430,15 +4190,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
     chain: [
-      {
-        species_name: "beldum",
-      },
-      {
-        species_name: "metang",
-      },
-      {
-        species_name: "metagross",
-      },
+      { species_name: "beldum" },
+      { species_name: "metang" },
+      { species_name: "metagross" },
     ],
   },
   {
@@ -6450,15 +4204,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
     chain: [
-      {
-        species_name: "beldum",
-      },
-      {
-        species_name: "metang",
-      },
-      {
-        species_name: "metagross",
-      },
+      { species_name: "beldum" },
+      { species_name: "metang" },
+      { species_name: "metagross" },
     ],
   },
   {
@@ -6469,11 +4217,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/377.png",
-    chain: [
-      {
-        species_name: "regirock",
-      },
-    ],
+    chain: [{ species_name: "regirock" }],
   },
   {
     id: 378,
@@ -6483,11 +4227,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/378.png",
-    chain: [
-      {
-        species_name: "regice",
-      },
-    ],
+    chain: [{ species_name: "regice" }],
   },
   {
     id: 379,
@@ -6497,11 +4237,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/379.png",
-    chain: [
-      {
-        species_name: "registeel",
-      },
-    ],
+    chain: [{ species_name: "registeel" }],
   },
   {
     id: 380,
@@ -6511,11 +4247,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/380.png",
-    chain: [
-      {
-        species_name: "latias",
-      },
-    ],
+    chain: [{ species_name: "latias" }],
   },
   {
     id: 381,
@@ -6525,11 +4257,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png",
-    chain: [
-      {
-        species_name: "latios",
-      },
-    ],
+    chain: [{ species_name: "latios" }],
   },
   {
     id: 382,
@@ -6539,11 +4267,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
-    chain: [
-      {
-        species_name: "kyogre",
-      },
-    ],
+    chain: [{ species_name: "kyogre" }],
   },
   {
     id: 383,
@@ -6553,11 +4277,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
-    chain: [
-      {
-        species_name: "groudon",
-      },
-    ],
+    chain: [{ species_name: "groudon" }],
   },
   {
     id: 384,
@@ -6567,11 +4287,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
-    chain: [
-      {
-        species_name: "rayquaza",
-      },
-    ],
+    chain: [{ species_name: "rayquaza" }],
   },
   {
     id: 385,
@@ -6581,11 +4297,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/385.png",
-    chain: [
-      {
-        species_name: "jirachi",
-      },
-    ],
+    chain: [{ species_name: "jirachi" }],
   },
   {
     id: 387,
@@ -6596,15 +4308,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png",
     chain: [
-      {
-        species_name: "turtwig",
-      },
-      {
-        species_name: "grotle",
-      },
-      {
-        species_name: "torterra",
-      },
+      { species_name: "turtwig" },
+      { species_name: "grotle" },
+      { species_name: "torterra" },
     ],
   },
   {
@@ -6616,15 +4322,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/388.png",
     chain: [
-      {
-        species_name: "turtwig",
-      },
-      {
-        species_name: "grotle",
-      },
-      {
-        species_name: "torterra",
-      },
+      { species_name: "turtwig" },
+      { species_name: "grotle" },
+      { species_name: "torterra" },
     ],
   },
   {
@@ -6636,15 +4336,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png",
     chain: [
-      {
-        species_name: "turtwig",
-      },
-      {
-        species_name: "grotle",
-      },
-      {
-        species_name: "torterra",
-      },
+      { species_name: "turtwig" },
+      { species_name: "grotle" },
+      { species_name: "torterra" },
     ],
   },
   {
@@ -6656,15 +4350,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
     chain: [
-      {
-        species_name: "chimchar",
-      },
-      {
-        species_name: "monferno",
-      },
-      {
-        species_name: "infernape",
-      },
+      { species_name: "chimchar" },
+      { species_name: "monferno" },
+      { species_name: "infernape" },
     ],
   },
   {
@@ -6676,15 +4364,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/391.png",
     chain: [
-      {
-        species_name: "chimchar",
-      },
-      {
-        species_name: "monferno",
-      },
-      {
-        species_name: "infernape",
-      },
+      { species_name: "chimchar" },
+      { species_name: "monferno" },
+      { species_name: "infernape" },
     ],
   },
   {
@@ -6696,15 +4378,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png",
     chain: [
-      {
-        species_name: "chimchar",
-      },
-      {
-        species_name: "monferno",
-      },
-      {
-        species_name: "infernape",
-      },
+      { species_name: "chimchar" },
+      { species_name: "monferno" },
+      { species_name: "infernape" },
     ],
   },
   {
@@ -6716,15 +4392,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
     chain: [
-      {
-        species_name: "piplup",
-      },
-      {
-        species_name: "prinplup",
-      },
-      {
-        species_name: "empoleon",
-      },
+      { species_name: "piplup" },
+      { species_name: "prinplup" },
+      { species_name: "empoleon" },
     ],
   },
   {
@@ -6736,15 +4406,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/394.png",
     chain: [
-      {
-        species_name: "piplup",
-      },
-      {
-        species_name: "prinplup",
-      },
-      {
-        species_name: "empoleon",
-      },
+      { species_name: "piplup" },
+      { species_name: "prinplup" },
+      { species_name: "empoleon" },
     ],
   },
   {
@@ -6756,15 +4420,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
     chain: [
-      {
-        species_name: "piplup",
-      },
-      {
-        species_name: "prinplup",
-      },
-      {
-        species_name: "empoleon",
-      },
+      { species_name: "piplup" },
+      { species_name: "prinplup" },
+      { species_name: "empoleon" },
     ],
   },
   {
@@ -6776,15 +4434,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
     chain: [
-      {
-        species_name: "starly",
-      },
-      {
-        species_name: "staravia",
-      },
-      {
-        species_name: "staraptor",
-      },
+      { species_name: "starly" },
+      { species_name: "staravia" },
+      { species_name: "staraptor" },
     ],
   },
   {
@@ -6796,15 +4448,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/397.png",
     chain: [
-      {
-        species_name: "starly",
-      },
-      {
-        species_name: "staravia",
-      },
-      {
-        species_name: "staraptor",
-      },
+      { species_name: "starly" },
+      { species_name: "staravia" },
+      { species_name: "staraptor" },
     ],
   },
   {
@@ -6816,15 +4462,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
     chain: [
-      {
-        species_name: "starly",
-      },
-      {
-        species_name: "staravia",
-      },
-      {
-        species_name: "staraptor",
-      },
+      { species_name: "starly" },
+      { species_name: "staravia" },
+      { species_name: "staraptor" },
     ],
   },
   {
@@ -6835,14 +4475,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png",
-    chain: [
-      {
-        species_name: "bidoof",
-      },
-      {
-        species_name: "bibarel",
-      },
-    ],
+    chain: [{ species_name: "bidoof" }, { species_name: "bibarel" }],
   },
   {
     id: 400,
@@ -6852,14 +4485,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png",
-    chain: [
-      {
-        species_name: "bidoof",
-      },
-      {
-        species_name: "bibarel",
-      },
-    ],
+    chain: [{ species_name: "bidoof" }, { species_name: "bibarel" }],
   },
   {
     id: 401,
@@ -6869,14 +4495,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png",
-    chain: [
-      {
-        species_name: "kricketot",
-      },
-      {
-        species_name: "kricketune",
-      },
-    ],
+    chain: [{ species_name: "kricketot" }, { species_name: "kricketune" }],
   },
   {
     id: 402,
@@ -6886,14 +4505,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/402.png",
-    chain: [
-      {
-        species_name: "kricketot",
-      },
-      {
-        species_name: "kricketune",
-      },
-    ],
+    chain: [{ species_name: "kricketot" }, { species_name: "kricketune" }],
   },
   {
     id: 403,
@@ -6904,15 +4516,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png",
     chain: [
-      {
-        species_name: "shinx",
-      },
-      {
-        species_name: "luxio",
-      },
-      {
-        species_name: "luxray",
-      },
+      { species_name: "shinx" },
+      { species_name: "luxio" },
+      { species_name: "luxray" },
     ],
   },
   {
@@ -6924,15 +4530,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/404.png",
     chain: [
-      {
-        species_name: "shinx",
-      },
-      {
-        species_name: "luxio",
-      },
-      {
-        species_name: "luxray",
-      },
+      { species_name: "shinx" },
+      { species_name: "luxio" },
+      { species_name: "luxray" },
     ],
   },
   {
@@ -6944,15 +4544,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png",
     chain: [
-      {
-        species_name: "shinx",
-      },
-      {
-        species_name: "luxio",
-      },
-      {
-        species_name: "luxray",
-      },
+      { species_name: "shinx" },
+      { species_name: "luxio" },
+      { species_name: "luxray" },
     ],
   },
   {
@@ -6964,15 +4558,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
     chain: [
-      {
-        species_name: "budew",
-      },
-      {
-        species_name: "roselia",
-      },
-      {
-        species_name: "roserade",
-      },
+      { species_name: "budew" },
+      { species_name: "roselia" },
+      { species_name: "roserade" },
     ],
   },
   {
@@ -6984,15 +4572,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
     chain: [
-      {
-        species_name: "budew",
-      },
-      {
-        species_name: "roselia",
-      },
-      {
-        species_name: "roserade",
-      },
+      { species_name: "budew" },
+      { species_name: "roselia" },
+      { species_name: "roserade" },
     ],
   },
   {
@@ -7003,14 +4585,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png",
-    chain: [
-      {
-        species_name: "cranidos",
-      },
-      {
-        species_name: "rampardos",
-      },
-    ],
+    chain: [{ species_name: "cranidos" }, { species_name: "rampardos" }],
   },
   {
     id: 409,
@@ -7020,14 +4595,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
-    chain: [
-      {
-        species_name: "cranidos",
-      },
-      {
-        species_name: "rampardos",
-      },
-    ],
+    chain: [{ species_name: "cranidos" }, { species_name: "rampardos" }],
   },
   {
     id: 410,
@@ -7037,14 +4605,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/410.png",
-    chain: [
-      {
-        species_name: "shieldon",
-      },
-      {
-        species_name: "bastiodon",
-      },
-    ],
+    chain: [{ species_name: "shieldon" }, { species_name: "bastiodon" }],
   },
   {
     id: 411,
@@ -7054,14 +4615,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
-    chain: [
-      {
-        species_name: "shieldon",
-      },
-      {
-        species_name: "bastiodon",
-      },
-    ],
+    chain: [{ species_name: "shieldon" }, { species_name: "bastiodon" }],
   },
   {
     id: 412,
@@ -7071,14 +4625,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
-    chain: [
-      {
-        species_name: "burmy",
-      },
-      {
-        species_name: "wormadam",
-      },
-    ],
+    chain: [{ species_name: "burmy" }, { species_name: "wormadam" }],
   },
   {
     id: 415,
@@ -7088,14 +4635,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png",
-    chain: [
-      {
-        species_name: "combee",
-      },
-      {
-        species_name: "vespiquen",
-      },
-    ],
+    chain: [{ species_name: "combee" }, { species_name: "vespiquen" }],
   },
   {
     id: 416,
@@ -7105,14 +4645,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/416.png",
-    chain: [
-      {
-        species_name: "combee",
-      },
-      {
-        species_name: "vespiquen",
-      },
-    ],
+    chain: [{ species_name: "combee" }, { species_name: "vespiquen" }],
   },
   {
     id: 417,
@@ -7122,11 +4655,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/417.png",
-    chain: [
-      {
-        species_name: "pachirisu",
-      },
-    ],
+    chain: [{ species_name: "pachirisu" }],
   },
   {
     id: 418,
@@ -7136,14 +4665,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/418.png",
-    chain: [
-      {
-        species_name: "buizel",
-      },
-      {
-        species_name: "floatzel",
-      },
-    ],
+    chain: [{ species_name: "buizel" }, { species_name: "floatzel" }],
   },
   {
     id: 419,
@@ -7153,14 +4675,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/419.png",
-    chain: [
-      {
-        species_name: "buizel",
-      },
-      {
-        species_name: "floatzel",
-      },
-    ],
+    chain: [{ species_name: "buizel" }, { species_name: "floatzel" }],
   },
   {
     id: 420,
@@ -7170,14 +4685,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/420.png",
-    chain: [
-      {
-        species_name: "cherubi",
-      },
-      {
-        species_name: "cherrim",
-      },
-    ],
+    chain: [{ species_name: "cherubi" }, { species_name: "cherrim" }],
   },
   {
     id: 421,
@@ -7187,14 +4695,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/421.png",
-    chain: [
-      {
-        species_name: "cherubi",
-      },
-      {
-        species_name: "cherrim",
-      },
-    ],
+    chain: [{ species_name: "cherubi" }, { species_name: "cherrim" }],
   },
   {
     id: 422,
@@ -7204,14 +4705,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
-    chain: [
-      {
-        species_name: "shellos",
-      },
-      {
-        species_name: "gastrodon",
-      },
-    ],
+    chain: [{ species_name: "shellos" }, { species_name: "gastrodon" }],
   },
   {
     id: 423,
@@ -7221,14 +4715,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png",
-    chain: [
-      {
-        species_name: "shellos",
-      },
-      {
-        species_name: "gastrodon",
-      },
-    ],
+    chain: [{ species_name: "shellos" }, { species_name: "gastrodon" }],
   },
   {
     id: 424,
@@ -7238,14 +4725,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/424.png",
-    chain: [
-      {
-        species_name: "aipom",
-      },
-      {
-        species_name: "ambipom",
-      },
-    ],
+    chain: [{ species_name: "aipom" }, { species_name: "ambipom" }],
   },
   {
     id: 425,
@@ -7255,14 +4735,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/425.png",
-    chain: [
-      {
-        species_name: "drifloon",
-      },
-      {
-        species_name: "drifblim",
-      },
-    ],
+    chain: [{ species_name: "drifloon" }, { species_name: "drifblim" }],
   },
   {
     id: 426,
@@ -7272,14 +4745,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/426.png",
-    chain: [
-      {
-        species_name: "drifloon",
-      },
-      {
-        species_name: "drifblim",
-      },
-    ],
+    chain: [{ species_name: "drifloon" }, { species_name: "drifblim" }],
   },
   {
     id: 427,
@@ -7289,14 +4755,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
-    chain: [
-      {
-        species_name: "buneary",
-      },
-      {
-        species_name: "lopunny",
-      },
-    ],
+    chain: [{ species_name: "buneary" }, { species_name: "lopunny" }],
   },
   {
     id: 428,
@@ -7306,14 +4765,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
-    chain: [
-      {
-        species_name: "buneary",
-      },
-      {
-        species_name: "lopunny",
-      },
-    ],
+    chain: [{ species_name: "buneary" }, { species_name: "lopunny" }],
   },
   {
     id: 429,
@@ -7323,14 +4775,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
-    chain: [
-      {
-        species_name: "misdreavus",
-      },
-      {
-        species_name: "mismagius",
-      },
-    ],
+    chain: [{ species_name: "misdreavus" }, { species_name: "mismagius" }],
   },
   {
     id: 430,
@@ -7340,14 +4785,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png",
-    chain: [
-      {
-        species_name: "murkrow",
-      },
-      {
-        species_name: "honchkrow",
-      },
-    ],
+    chain: [{ species_name: "murkrow" }, { species_name: "honchkrow" }],
   },
   {
     id: 431,
@@ -7357,14 +4795,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/431.png",
-    chain: [
-      {
-        species_name: "glameow",
-      },
-      {
-        species_name: "purugly",
-      },
-    ],
+    chain: [{ species_name: "glameow" }, { species_name: "purugly" }],
   },
   {
     id: 432,
@@ -7374,14 +4805,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/432.png",
-    chain: [
-      {
-        species_name: "glameow",
-      },
-      {
-        species_name: "purugly",
-      },
-    ],
+    chain: [{ species_name: "glameow" }, { species_name: "purugly" }],
   },
   {
     id: 433,
@@ -7391,14 +4815,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png",
-    chain: [
-      {
-        species_name: "chingling",
-      },
-      {
-        species_name: "chimecho",
-      },
-    ],
+    chain: [{ species_name: "chingling" }, { species_name: "chimecho" }],
   },
   {
     id: 434,
@@ -7408,14 +4825,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/434.png",
-    chain: [
-      {
-        species_name: "stunky",
-      },
-      {
-        species_name: "skuntank",
-      },
-    ],
+    chain: [{ species_name: "stunky" }, { species_name: "skuntank" }],
   },
   {
     id: 435,
@@ -7425,14 +4835,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/435.png",
-    chain: [
-      {
-        species_name: "stunky",
-      },
-      {
-        species_name: "skuntank",
-      },
-    ],
+    chain: [{ species_name: "stunky" }, { species_name: "skuntank" }],
   },
   {
     id: 436,
@@ -7442,14 +4845,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/436.png",
-    chain: [
-      {
-        species_name: "bronzor",
-      },
-      {
-        species_name: "bronzong",
-      },
-    ],
+    chain: [{ species_name: "bronzor" }, { species_name: "bronzong" }],
   },
   {
     id: 437,
@@ -7459,14 +4855,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png",
-    chain: [
-      {
-        species_name: "bronzor",
-      },
-      {
-        species_name: "bronzong",
-      },
-    ],
+    chain: [{ species_name: "bronzor" }, { species_name: "bronzong" }],
   },
   {
     id: 438,
@@ -7476,14 +4865,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/438.png",
-    chain: [
-      {
-        species_name: "bonsly",
-      },
-      {
-        species_name: "sudowoodo",
-      },
-    ],
+    chain: [{ species_name: "bonsly" }, { species_name: "sudowoodo" }],
   },
   {
     id: 439,
@@ -7493,14 +4875,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
-    chain: [
-      {
-        species_name: "mime-jr",
-      },
-      {
-        species_name: "mr-mime",
-      },
-    ],
+    chain: [{ species_name: "mime-jr" }, { species_name: "mr-mime" }],
   },
   {
     id: 440,
@@ -7511,15 +4886,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/440.png",
     chain: [
-      {
-        species_name: "happiny",
-      },
-      {
-        species_name: "chansey",
-      },
-      {
-        species_name: "blissey",
-      },
+      { species_name: "happiny" },
+      { species_name: "chansey" },
+      { species_name: "blissey" },
     ],
   },
   {
@@ -7530,11 +4899,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/441.png",
-    chain: [
-      {
-        species_name: "chatot",
-      },
-    ],
+    chain: [{ species_name: "chatot" }],
   },
   {
     id: 442,
@@ -7544,11 +4909,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
-    chain: [
-      {
-        species_name: "spiritomb",
-      },
-    ],
+    chain: [{ species_name: "spiritomb" }],
   },
   {
     id: 443,
@@ -7559,15 +4920,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
     chain: [
-      {
-        species_name: "gible",
-      },
-      {
-        species_name: "gabite",
-      },
-      {
-        species_name: "garchomp",
-      },
+      { species_name: "gible" },
+      { species_name: "gabite" },
+      { species_name: "garchomp" },
     ],
   },
   {
@@ -7579,15 +4934,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png",
     chain: [
-      {
-        species_name: "gible",
-      },
-      {
-        species_name: "gabite",
-      },
-      {
-        species_name: "garchomp",
-      },
+      { species_name: "gible" },
+      { species_name: "gabite" },
+      { species_name: "garchomp" },
     ],
   },
   {
@@ -7599,15 +4948,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
     chain: [
-      {
-        species_name: "gible",
-      },
-      {
-        species_name: "gabite",
-      },
-      {
-        species_name: "garchomp",
-      },
+      { species_name: "gible" },
+      { species_name: "gabite" },
+      { species_name: "garchomp" },
     ],
   },
   {
@@ -7618,14 +4961,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png",
-    chain: [
-      {
-        species_name: "munchlax",
-      },
-      {
-        species_name: "snorlax",
-      },
-    ],
+    chain: [{ species_name: "munchlax" }, { species_name: "snorlax" }],
   },
   {
     id: 447,
@@ -7635,14 +4971,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
-    chain: [
-      {
-        species_name: "riolu",
-      },
-      {
-        species_name: "lucario",
-      },
-    ],
+    chain: [{ species_name: "riolu" }, { species_name: "lucario" }],
   },
   {
     id: 448,
@@ -7652,14 +4981,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
-    chain: [
-      {
-        species_name: "riolu",
-      },
-      {
-        species_name: "lucario",
-      },
-    ],
+    chain: [{ species_name: "riolu" }, { species_name: "lucario" }],
   },
   {
     id: 449,
@@ -7669,14 +4991,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
-    chain: [
-      {
-        species_name: "hippopotas",
-      },
-      {
-        species_name: "hippowdon",
-      },
-    ],
+    chain: [{ species_name: "hippopotas" }, { species_name: "hippowdon" }],
   },
   {
     id: 450,
@@ -7686,14 +5001,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
-    chain: [
-      {
-        species_name: "hippopotas",
-      },
-      {
-        species_name: "hippowdon",
-      },
-    ],
+    chain: [{ species_name: "hippopotas" }, { species_name: "hippowdon" }],
   },
   {
     id: 451,
@@ -7703,14 +5011,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png",
-    chain: [
-      {
-        species_name: "skorupi",
-      },
-      {
-        species_name: "drapion",
-      },
-    ],
+    chain: [{ species_name: "skorupi" }, { species_name: "drapion" }],
   },
   {
     id: 452,
@@ -7720,14 +5021,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/452.png",
-    chain: [
-      {
-        species_name: "skorupi",
-      },
-      {
-        species_name: "drapion",
-      },
-    ],
+    chain: [{ species_name: "skorupi" }, { species_name: "drapion" }],
   },
   {
     id: 453,
@@ -7737,14 +5031,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/453.png",
-    chain: [
-      {
-        species_name: "croagunk",
-      },
-      {
-        species_name: "toxicroak",
-      },
-    ],
+    chain: [{ species_name: "croagunk" }, { species_name: "toxicroak" }],
   },
   {
     id: 454,
@@ -7754,14 +5041,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
-    chain: [
-      {
-        species_name: "croagunk",
-      },
-      {
-        species_name: "toxicroak",
-      },
-    ],
+    chain: [{ species_name: "croagunk" }, { species_name: "toxicroak" }],
   },
   {
     id: 455,
@@ -7771,11 +5051,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/455.png",
-    chain: [
-      {
-        species_name: "carnivine",
-      },
-    ],
+    chain: [{ species_name: "carnivine" }],
   },
   {
     id: 456,
@@ -7785,14 +5061,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/456.png",
-    chain: [
-      {
-        species_name: "finneon",
-      },
-      {
-        species_name: "lumineon",
-      },
-    ],
+    chain: [{ species_name: "finneon" }, { species_name: "lumineon" }],
   },
   {
     id: 457,
@@ -7802,14 +5071,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/457.png",
-    chain: [
-      {
-        species_name: "finneon",
-      },
-      {
-        species_name: "lumineon",
-      },
-    ],
+    chain: [{ species_name: "finneon" }, { species_name: "lumineon" }],
   },
   {
     id: 458,
@@ -7819,14 +5081,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/458.png",
-    chain: [
-      {
-        species_name: "mantyke",
-      },
-      {
-        species_name: "mantine",
-      },
-    ],
+    chain: [{ species_name: "mantyke" }, { species_name: "mantine" }],
   },
   {
     id: 459,
@@ -7836,14 +5091,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png",
-    chain: [
-      {
-        species_name: "snover",
-      },
-      {
-        species_name: "abomasnow",
-      },
-    ],
+    chain: [{ species_name: "snover" }, { species_name: "abomasnow" }],
   },
   {
     id: 460,
@@ -7853,14 +5101,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
-    chain: [
-      {
-        species_name: "snover",
-      },
-      {
-        species_name: "abomasnow",
-      },
-    ],
+    chain: [{ species_name: "snover" }, { species_name: "abomasnow" }],
   },
   {
     id: 461,
@@ -7870,14 +5111,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png",
-    chain: [
-      {
-        species_name: "sneasel",
-      },
-      {
-        species_name: "weavile",
-      },
-    ],
+    chain: [{ species_name: "sneasel" }, { species_name: "weavile" }],
   },
   {
     id: 462,
@@ -7888,15 +5122,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/462.png",
     chain: [
-      {
-        species_name: "magnemite",
-      },
-      {
-        species_name: "magneton",
-      },
-      {
-        species_name: "magnezone",
-      },
+      { species_name: "magnemite" },
+      { species_name: "magneton" },
+      { species_name: "magnezone" },
     ],
   },
   {
@@ -7907,14 +5135,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/463.png",
-    chain: [
-      {
-        species_name: "lickitung",
-      },
-      {
-        species_name: "lickilicky",
-      },
-    ],
+    chain: [{ species_name: "lickitung" }, { species_name: "lickilicky" }],
   },
   {
     id: 464,
@@ -7925,15 +5146,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png",
     chain: [
-      {
-        species_name: "rhyhorn",
-      },
-      {
-        species_name: "rhydon",
-      },
-      {
-        species_name: "rhyperior",
-      },
+      { species_name: "rhyhorn" },
+      { species_name: "rhydon" },
+      { species_name: "rhyperior" },
     ],
   },
   {
@@ -7944,14 +5159,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/465.png",
-    chain: [
-      {
-        species_name: "tangela",
-      },
-      {
-        species_name: "tangrowth",
-      },
-    ],
+    chain: [{ species_name: "tangela" }, { species_name: "tangrowth" }],
   },
   {
     id: 466,
@@ -7962,15 +5170,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/466.png",
     chain: [
-      {
-        species_name: "elekid",
-      },
-      {
-        species_name: "electabuzz",
-      },
-      {
-        species_name: "electivire",
-      },
+      { species_name: "elekid" },
+      { species_name: "electabuzz" },
+      { species_name: "electivire" },
     ],
   },
   {
@@ -7982,15 +5184,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/467.png",
     chain: [
-      {
-        species_name: "magby",
-      },
-      {
-        species_name: "magmar",
-      },
-      {
-        species_name: "magmortar",
-      },
+      { species_name: "magby" },
+      { species_name: "magmar" },
+      { species_name: "magmortar" },
     ],
   },
   {
@@ -8002,15 +5198,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/468.png",
     chain: [
-      {
-        species_name: "togepi",
-      },
-      {
-        species_name: "togetic",
-      },
-      {
-        species_name: "togekiss",
-      },
+      { species_name: "togepi" },
+      { species_name: "togetic" },
+      { species_name: "togekiss" },
     ],
   },
   {
@@ -8021,14 +5211,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/469.png",
-    chain: [
-      {
-        species_name: "yanma",
-      },
-      {
-        species_name: "yanmega",
-      },
-    ],
+    chain: [{ species_name: "yanma" }, { species_name: "yanmega" }],
   },
   {
     id: 472,
@@ -8038,14 +5221,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/472.png",
-    chain: [
-      {
-        species_name: "gligar",
-      },
-      {
-        species_name: "gliscor",
-      },
-    ],
+    chain: [{ species_name: "gligar" }, { species_name: "gliscor" }],
   },
   {
     id: 473,
@@ -8056,15 +5232,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/473.png",
     chain: [
-      {
-        species_name: "swinub",
-      },
-      {
-        species_name: "piloswine",
-      },
-      {
-        species_name: "mamoswine",
-      },
+      { species_name: "swinub" },
+      { species_name: "piloswine" },
+      { species_name: "mamoswine" },
     ],
   },
   {
@@ -8076,15 +5246,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/474.png",
     chain: [
-      {
-        species_name: "porygon",
-      },
-      {
-        species_name: "porygon2",
-      },
-      {
-        species_name: "porygon-z",
-      },
+      { species_name: "porygon" },
+      { species_name: "porygon2" },
+      { species_name: "porygon-z" },
     ],
   },
   {
@@ -8095,14 +5259,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/476.png",
-    chain: [
-      {
-        species_name: "nosepass",
-      },
-      {
-        species_name: "probopass",
-      },
-    ],
+    chain: [{ species_name: "nosepass" }, { species_name: "probopass" }],
   },
   {
     id: 477,
@@ -8113,15 +5270,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/477.png",
     chain: [
-      {
-        species_name: "duskull",
-      },
-      {
-        species_name: "dusclops",
-      },
-      {
-        species_name: "dusknoir",
-      },
+      { species_name: "duskull" },
+      { species_name: "dusclops" },
+      { species_name: "dusknoir" },
     ],
   },
   {
@@ -8132,11 +5283,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png",
-    chain: [
-      {
-        species_name: "rotom",
-      },
-    ],
+    chain: [{ species_name: "rotom" }],
   },
   {
     id: 480,
@@ -8146,11 +5293,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/480.png",
-    chain: [
-      {
-        species_name: "uxie",
-      },
-    ],
+    chain: [{ species_name: "uxie" }],
   },
   {
     id: 481,
@@ -8160,11 +5303,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/481.png",
-    chain: [
-      {
-        species_name: "mesprit",
-      },
-    ],
+    chain: [{ species_name: "mesprit" }],
   },
   {
     id: 482,
@@ -8174,11 +5313,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/482.png",
-    chain: [
-      {
-        species_name: "azelf",
-      },
-    ],
+    chain: [{ species_name: "azelf" }],
   },
   {
     id: 483,
@@ -8188,11 +5323,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/483.png",
-    chain: [
-      {
-        species_name: "dialga",
-      },
-    ],
+    chain: [{ species_name: "dialga" }],
   },
   {
     id: 484,
@@ -8202,11 +5333,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/484.png",
-    chain: [
-      {
-        species_name: "palkia",
-      },
-    ],
+    chain: [{ species_name: "palkia" }],
   },
   {
     id: 485,
@@ -8216,11 +5343,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/485.png",
-    chain: [
-      {
-        species_name: "heatran",
-      },
-    ],
+    chain: [{ species_name: "heatran" }],
   },
   {
     id: 486,
@@ -8230,11 +5353,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/486.png",
-    chain: [
-      {
-        species_name: "regigigas",
-      },
-    ],
+    chain: [{ species_name: "regigigas" }],
   },
   {
     id: 488,
@@ -8244,11 +5363,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/488.png",
-    chain: [
-      {
-        species_name: "cresselia",
-      },
-    ],
+    chain: [{ species_name: "cresselia" }],
   },
   {
     id: 489,
@@ -8258,14 +5373,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/489.png",
-    chain: [
-      {
-        species_name: "phione",
-      },
-      {
-        species_name: "manaphy",
-      },
-    ],
+    chain: [{ species_name: "phione" }, { species_name: "manaphy" }],
   },
   {
     id: 490,
@@ -8275,14 +5383,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/490.png",
-    chain: [
-      {
-        species_name: "phione",
-      },
-      {
-        species_name: "manaphy",
-      },
-    ],
+    chain: [{ species_name: "phione" }, { species_name: "manaphy" }],
   },
   {
     id: 491,
@@ -8292,11 +5393,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/491.png",
-    chain: [
-      {
-        species_name: "darkrai",
-      },
-    ],
+    chain: [{ species_name: "darkrai" }],
   },
   {
     id: 493,
@@ -8306,11 +5403,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/493.png",
-    chain: [
-      {
-        species_name: "arceus",
-      },
-    ],
+    chain: [{ species_name: "arceus" }],
   },
   {
     id: 494,
@@ -8320,11 +5413,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/494.png",
-    chain: [
-      {
-        species_name: "victini",
-      },
-    ],
+    chain: [{ species_name: "victini" }],
   },
   {
     id: 495,
@@ -8335,15 +5424,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/495.png",
     chain: [
-      {
-        species_name: "snivy",
-      },
-      {
-        species_name: "servine",
-      },
-      {
-        species_name: "serperior",
-      },
+      { species_name: "snivy" },
+      { species_name: "servine" },
+      { species_name: "serperior" },
     ],
   },
   {
@@ -8355,15 +5438,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png",
     chain: [
-      {
-        species_name: "snivy",
-      },
-      {
-        species_name: "servine",
-      },
-      {
-        species_name: "serperior",
-      },
+      { species_name: "snivy" },
+      { species_name: "servine" },
+      { species_name: "serperior" },
     ],
   },
   {
@@ -8375,15 +5452,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png",
     chain: [
-      {
-        species_name: "snivy",
-      },
-      {
-        species_name: "servine",
-      },
-      {
-        species_name: "serperior",
-      },
+      { species_name: "snivy" },
+      { species_name: "servine" },
+      { species_name: "serperior" },
     ],
   },
   {
@@ -8395,15 +5466,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
     chain: [
-      {
-        species_name: "tepig",
-      },
-      {
-        species_name: "pignite",
-      },
-      {
-        species_name: "emboar",
-      },
+      { species_name: "tepig" },
+      { species_name: "pignite" },
+      { species_name: "emboar" },
     ],
   },
   {
@@ -8415,15 +5480,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png",
     chain: [
-      {
-        species_name: "tepig",
-      },
-      {
-        species_name: "pignite",
-      },
-      {
-        species_name: "emboar",
-      },
+      { species_name: "tepig" },
+      { species_name: "pignite" },
+      { species_name: "emboar" },
     ],
   },
   {
@@ -8435,15 +5494,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
     chain: [
-      {
-        species_name: "tepig",
-      },
-      {
-        species_name: "pignite",
-      },
-      {
-        species_name: "emboar",
-      },
+      { species_name: "tepig" },
+      { species_name: "pignite" },
+      { species_name: "emboar" },
     ],
   },
   {
@@ -8455,15 +5508,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png",
     chain: [
-      {
-        species_name: "oshawott",
-      },
-      {
-        species_name: "dewott",
-      },
-      {
-        species_name: "samurott",
-      },
+      { species_name: "oshawott" },
+      { species_name: "dewott" },
+      { species_name: "samurott" },
     ],
   },
   {
@@ -8475,15 +5522,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/502.png",
     chain: [
-      {
-        species_name: "oshawott",
-      },
-      {
-        species_name: "dewott",
-      },
-      {
-        species_name: "samurott",
-      },
+      { species_name: "oshawott" },
+      { species_name: "dewott" },
+      { species_name: "samurott" },
     ],
   },
   {
@@ -8495,15 +5536,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
     chain: [
-      {
-        species_name: "oshawott",
-      },
-      {
-        species_name: "dewott",
-      },
-      {
-        species_name: "samurott",
-      },
+      { species_name: "oshawott" },
+      { species_name: "dewott" },
+      { species_name: "samurott" },
     ],
   },
   {
@@ -8514,14 +5549,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png",
-    chain: [
-      {
-        species_name: "patrat",
-      },
-      {
-        species_name: "watchog",
-      },
-    ],
+    chain: [{ species_name: "patrat" }, { species_name: "watchog" }],
   },
   {
     id: 505,
@@ -8531,14 +5559,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
-    chain: [
-      {
-        species_name: "patrat",
-      },
-      {
-        species_name: "watchog",
-      },
-    ],
+    chain: [{ species_name: "patrat" }, { species_name: "watchog" }],
   },
   {
     id: 506,
@@ -8549,15 +5570,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/506.png",
     chain: [
-      {
-        species_name: "lillipup",
-      },
-      {
-        species_name: "herdier",
-      },
-      {
-        species_name: "stoutland",
-      },
+      { species_name: "lillipup" },
+      { species_name: "herdier" },
+      { species_name: "stoutland" },
     ],
   },
   {
@@ -8569,15 +5584,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/507.png",
     chain: [
-      {
-        species_name: "lillipup",
-      },
-      {
-        species_name: "herdier",
-      },
-      {
-        species_name: "stoutland",
-      },
+      { species_name: "lillipup" },
+      { species_name: "herdier" },
+      { species_name: "stoutland" },
     ],
   },
   {
@@ -8589,15 +5598,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/508.png",
     chain: [
-      {
-        species_name: "lillipup",
-      },
-      {
-        species_name: "herdier",
-      },
-      {
-        species_name: "stoutland",
-      },
+      { species_name: "lillipup" },
+      { species_name: "herdier" },
+      { species_name: "stoutland" },
     ],
   },
   {
@@ -8608,14 +5611,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/509.png",
-    chain: [
-      {
-        species_name: "purrloin",
-      },
-      {
-        species_name: "liepard",
-      },
-    ],
+    chain: [{ species_name: "purrloin" }, { species_name: "liepard" }],
   },
   {
     id: 510,
@@ -8625,14 +5621,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/510.png",
-    chain: [
-      {
-        species_name: "purrloin",
-      },
-      {
-        species_name: "liepard",
-      },
-    ],
+    chain: [{ species_name: "purrloin" }, { species_name: "liepard" }],
   },
   {
     id: 511,
@@ -8642,14 +5631,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png",
-    chain: [
-      {
-        species_name: "pansage",
-      },
-      {
-        species_name: "simisage",
-      },
-    ],
+    chain: [{ species_name: "pansage" }, { species_name: "simisage" }],
   },
   {
     id: 512,
@@ -8659,14 +5641,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
-    chain: [
-      {
-        species_name: "pansage",
-      },
-      {
-        species_name: "simisage",
-      },
-    ],
+    chain: [{ species_name: "pansage" }, { species_name: "simisage" }],
   },
   {
     id: 513,
@@ -8676,14 +5651,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png",
-    chain: [
-      {
-        species_name: "pansear",
-      },
-      {
-        species_name: "simisear",
-      },
-    ],
+    chain: [{ species_name: "pansear" }, { species_name: "simisear" }],
   },
   {
     id: 514,
@@ -8693,14 +5661,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
-    chain: [
-      {
-        species_name: "pansear",
-      },
-      {
-        species_name: "simisear",
-      },
-    ],
+    chain: [{ species_name: "pansear" }, { species_name: "simisear" }],
   },
   {
     id: 515,
@@ -8710,14 +5671,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png",
-    chain: [
-      {
-        species_name: "panpour",
-      },
-      {
-        species_name: "simipour",
-      },
-    ],
+    chain: [{ species_name: "panpour" }, { species_name: "simipour" }],
   },
   {
     id: 516,
@@ -8727,14 +5681,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
-    chain: [
-      {
-        species_name: "panpour",
-      },
-      {
-        species_name: "simipour",
-      },
-    ],
+    chain: [{ species_name: "panpour" }, { species_name: "simipour" }],
   },
   {
     id: 517,
@@ -8744,14 +5691,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/517.png",
-    chain: [
-      {
-        species_name: "munna",
-      },
-      {
-        species_name: "musharna",
-      },
-    ],
+    chain: [{ species_name: "munna" }, { species_name: "musharna" }],
   },
   {
     id: 518,
@@ -8761,14 +5701,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/518.png",
-    chain: [
-      {
-        species_name: "munna",
-      },
-      {
-        species_name: "musharna",
-      },
-    ],
+    chain: [{ species_name: "munna" }, { species_name: "musharna" }],
   },
   {
     id: 519,
@@ -8779,15 +5712,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/519.png",
     chain: [
-      {
-        species_name: "pidove",
-      },
-      {
-        species_name: "tranquill",
-      },
-      {
-        species_name: "unfezant",
-      },
+      { species_name: "pidove" },
+      { species_name: "tranquill" },
+      { species_name: "unfezant" },
     ],
   },
   {
@@ -8799,15 +5726,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/520.png",
     chain: [
-      {
-        species_name: "pidove",
-      },
-      {
-        species_name: "tranquill",
-      },
-      {
-        species_name: "unfezant",
-      },
+      { species_name: "pidove" },
+      { species_name: "tranquill" },
+      { species_name: "unfezant" },
     ],
   },
   {
@@ -8819,15 +5740,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/521.png",
     chain: [
-      {
-        species_name: "pidove",
-      },
-      {
-        species_name: "tranquill",
-      },
-      {
-        species_name: "unfezant",
-      },
+      { species_name: "pidove" },
+      { species_name: "tranquill" },
+      { species_name: "unfezant" },
     ],
   },
   {
@@ -8838,14 +5753,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/522.png",
-    chain: [
-      {
-        species_name: "blitzle",
-      },
-      {
-        species_name: "zebstrika",
-      },
-    ],
+    chain: [{ species_name: "blitzle" }, { species_name: "zebstrika" }],
   },
   {
     id: 523,
@@ -8855,14 +5763,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/523.png",
-    chain: [
-      {
-        species_name: "blitzle",
-      },
-      {
-        species_name: "zebstrika",
-      },
-    ],
+    chain: [{ species_name: "blitzle" }, { species_name: "zebstrika" }],
   },
   {
     id: 524,
@@ -8873,15 +5774,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/524.png",
     chain: [
-      {
-        species_name: "roggenrola",
-      },
-      {
-        species_name: "boldore",
-      },
-      {
-        species_name: "gigalith",
-      },
+      { species_name: "roggenrola" },
+      { species_name: "boldore" },
+      { species_name: "gigalith" },
     ],
   },
   {
@@ -8893,15 +5788,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/525.png",
     chain: [
-      {
-        species_name: "roggenrola",
-      },
-      {
-        species_name: "boldore",
-      },
-      {
-        species_name: "gigalith",
-      },
+      { species_name: "roggenrola" },
+      { species_name: "boldore" },
+      { species_name: "gigalith" },
     ],
   },
   {
@@ -8913,15 +5802,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/526.png",
     chain: [
-      {
-        species_name: "roggenrola",
-      },
-      {
-        species_name: "boldore",
-      },
-      {
-        species_name: "gigalith",
-      },
+      { species_name: "roggenrola" },
+      { species_name: "boldore" },
+      { species_name: "gigalith" },
     ],
   },
   {
@@ -8932,14 +5815,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/527.png",
-    chain: [
-      {
-        species_name: "woobat",
-      },
-      {
-        species_name: "swoobat",
-      },
-    ],
+    chain: [{ species_name: "woobat" }, { species_name: "swoobat" }],
   },
   {
     id: 528,
@@ -8949,14 +5825,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/528.png",
-    chain: [
-      {
-        species_name: "woobat",
-      },
-      {
-        species_name: "swoobat",
-      },
-    ],
+    chain: [{ species_name: "woobat" }, { species_name: "swoobat" }],
   },
   {
     id: 529,
@@ -8966,14 +5835,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
-    chain: [
-      {
-        species_name: "drilbur",
-      },
-      {
-        species_name: "excadrill",
-      },
-    ],
+    chain: [{ species_name: "drilbur" }, { species_name: "excadrill" }],
   },
   {
     id: 530,
@@ -8983,14 +5845,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
-    chain: [
-      {
-        species_name: "drilbur",
-      },
-      {
-        species_name: "excadrill",
-      },
-    ],
+    chain: [{ species_name: "drilbur" }, { species_name: "excadrill" }],
   },
   {
     id: 531,
@@ -9000,11 +5855,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
-    chain: [
-      {
-        species_name: "audino",
-      },
-    ],
+    chain: [{ species_name: "audino" }],
   },
   {
     id: 532,
@@ -9015,15 +5866,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/532.png",
     chain: [
-      {
-        species_name: "timburr",
-      },
-      {
-        species_name: "gurdurr",
-      },
-      {
-        species_name: "conkeldurr",
-      },
+      { species_name: "timburr" },
+      { species_name: "gurdurr" },
+      { species_name: "conkeldurr" },
     ],
   },
   {
@@ -9035,15 +5880,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/533.png",
     chain: [
-      {
-        species_name: "timburr",
-      },
-      {
-        species_name: "gurdurr",
-      },
-      {
-        species_name: "conkeldurr",
-      },
+      { species_name: "timburr" },
+      { species_name: "gurdurr" },
+      { species_name: "conkeldurr" },
     ],
   },
   {
@@ -9055,15 +5894,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png",
     chain: [
-      {
-        species_name: "timburr",
-      },
-      {
-        species_name: "gurdurr",
-      },
-      {
-        species_name: "conkeldurr",
-      },
+      { species_name: "timburr" },
+      { species_name: "gurdurr" },
+      { species_name: "conkeldurr" },
     ],
   },
   {
@@ -9075,15 +5908,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/535.png",
     chain: [
-      {
-        species_name: "tympole",
-      },
-      {
-        species_name: "palpitoad",
-      },
-      {
-        species_name: "seismitoad",
-      },
+      { species_name: "tympole" },
+      { species_name: "palpitoad" },
+      { species_name: "seismitoad" },
     ],
   },
   {
@@ -9095,15 +5922,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png",
     chain: [
-      {
-        species_name: "tympole",
-      },
-      {
-        species_name: "palpitoad",
-      },
-      {
-        species_name: "seismitoad",
-      },
+      { species_name: "tympole" },
+      { species_name: "palpitoad" },
+      { species_name: "seismitoad" },
     ],
   },
   {
@@ -9115,15 +5936,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png",
     chain: [
-      {
-        species_name: "tympole",
-      },
-      {
-        species_name: "palpitoad",
-      },
-      {
-        species_name: "seismitoad",
-      },
+      { species_name: "tympole" },
+      { species_name: "palpitoad" },
+      { species_name: "seismitoad" },
     ],
   },
   {
@@ -9134,11 +5949,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/538.png",
-    chain: [
-      {
-        species_name: "throh",
-      },
-    ],
+    chain: [{ species_name: "throh" }],
   },
   {
     id: 539,
@@ -9148,11 +5959,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/539.png",
-    chain: [
-      {
-        species_name: "sawk",
-      },
-    ],
+    chain: [{ species_name: "sawk" }],
   },
   {
     id: 540,
@@ -9163,15 +5970,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/540.png",
     chain: [
-      {
-        species_name: "sewaddle",
-      },
-      {
-        species_name: "swadloon",
-      },
-      {
-        species_name: "leavanny",
-      },
+      { species_name: "sewaddle" },
+      { species_name: "swadloon" },
+      { species_name: "leavanny" },
     ],
   },
   {
@@ -9183,15 +5984,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/541.png",
     chain: [
-      {
-        species_name: "sewaddle",
-      },
-      {
-        species_name: "swadloon",
-      },
-      {
-        species_name: "leavanny",
-      },
+      { species_name: "sewaddle" },
+      { species_name: "swadloon" },
+      { species_name: "leavanny" },
     ],
   },
   {
@@ -9203,15 +5998,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/542.png",
     chain: [
-      {
-        species_name: "sewaddle",
-      },
-      {
-        species_name: "swadloon",
-      },
-      {
-        species_name: "leavanny",
-      },
+      { species_name: "sewaddle" },
+      { species_name: "swadloon" },
+      { species_name: "leavanny" },
     ],
   },
   {
@@ -9223,15 +6012,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png",
     chain: [
-      {
-        species_name: "venipede",
-      },
-      {
-        species_name: "whirlipede",
-      },
-      {
-        species_name: "scolipede",
-      },
+      { species_name: "venipede" },
+      { species_name: "whirlipede" },
+      { species_name: "scolipede" },
     ],
   },
   {
@@ -9243,15 +6026,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
     chain: [
-      {
-        species_name: "venipede",
-      },
-      {
-        species_name: "whirlipede",
-      },
-      {
-        species_name: "scolipede",
-      },
+      { species_name: "venipede" },
+      { species_name: "whirlipede" },
+      { species_name: "scolipede" },
     ],
   },
   {
@@ -9263,15 +6040,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
     chain: [
-      {
-        species_name: "venipede",
-      },
-      {
-        species_name: "whirlipede",
-      },
-      {
-        species_name: "scolipede",
-      },
+      { species_name: "venipede" },
+      { species_name: "whirlipede" },
+      { species_name: "scolipede" },
     ],
   },
   {
@@ -9282,14 +6053,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png",
-    chain: [
-      {
-        species_name: "cottonee",
-      },
-      {
-        species_name: "whimsicott",
-      },
-    ],
+    chain: [{ species_name: "cottonee" }, { species_name: "whimsicott" }],
   },
   {
     id: 547,
@@ -9299,14 +6063,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
-    chain: [
-      {
-        species_name: "cottonee",
-      },
-      {
-        species_name: "whimsicott",
-      },
-    ],
+    chain: [{ species_name: "cottonee" }, { species_name: "whimsicott" }],
   },
   {
     id: 548,
@@ -9316,14 +6073,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/548.png",
-    chain: [
-      {
-        species_name: "petilil",
-      },
-      {
-        species_name: "lilligant",
-      },
-    ],
+    chain: [{ species_name: "petilil" }, { species_name: "lilligant" }],
   },
   {
     id: 549,
@@ -9333,14 +6083,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
-    chain: [
-      {
-        species_name: "petilil",
-      },
-      {
-        species_name: "lilligant",
-      },
-    ],
+    chain: [{ species_name: "petilil" }, { species_name: "lilligant" }],
   },
   {
     id: 551,
@@ -9351,15 +6094,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png",
     chain: [
-      {
-        species_name: "sandile",
-      },
-      {
-        species_name: "krokorok",
-      },
-      {
-        species_name: "krookodile",
-      },
+      { species_name: "sandile" },
+      { species_name: "krokorok" },
+      { species_name: "krookodile" },
     ],
   },
   {
@@ -9371,15 +6108,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png",
     chain: [
-      {
-        species_name: "sandile",
-      },
-      {
-        species_name: "krokorok",
-      },
-      {
-        species_name: "krookodile",
-      },
+      { species_name: "sandile" },
+      { species_name: "krokorok" },
+      { species_name: "krookodile" },
     ],
   },
   {
@@ -9391,15 +6122,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
     chain: [
-      {
-        species_name: "sandile",
-      },
-      {
-        species_name: "krokorok",
-      },
-      {
-        species_name: "krookodile",
-      },
+      { species_name: "sandile" },
+      { species_name: "krokorok" },
+      { species_name: "krookodile" },
     ],
   },
   {
@@ -9410,14 +6135,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/554.png",
-    chain: [
-      {
-        species_name: "darumaka",
-      },
-      {
-        species_name: "darmanitan",
-      },
-    ],
+    chain: [{ species_name: "darumaka" }, { species_name: "darmanitan" }],
   },
   {
     id: 556,
@@ -9427,11 +6145,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png",
-    chain: [
-      {
-        species_name: "maractus",
-      },
-    ],
+    chain: [{ species_name: "maractus" }],
   },
   {
     id: 557,
@@ -9441,14 +6155,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png",
-    chain: [
-      {
-        species_name: "dwebble",
-      },
-      {
-        species_name: "crustle",
-      },
-    ],
+    chain: [{ species_name: "dwebble" }, { species_name: "crustle" }],
   },
   {
     id: 558,
@@ -9458,14 +6165,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/558.png",
-    chain: [
-      {
-        species_name: "dwebble",
-      },
-      {
-        species_name: "crustle",
-      },
-    ],
+    chain: [{ species_name: "dwebble" }, { species_name: "crustle" }],
   },
   {
     id: 559,
@@ -9475,14 +6175,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
-    chain: [
-      {
-        species_name: "scraggy",
-      },
-      {
-        species_name: "scrafty",
-      },
-    ],
+    chain: [{ species_name: "scraggy" }, { species_name: "scrafty" }],
   },
   {
     id: 560,
@@ -9492,14 +6185,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
-    chain: [
-      {
-        species_name: "scraggy",
-      },
-      {
-        species_name: "scrafty",
-      },
-    ],
+    chain: [{ species_name: "scraggy" }, { species_name: "scrafty" }],
   },
   {
     id: 561,
@@ -9509,11 +6195,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/561.png",
-    chain: [
-      {
-        species_name: "sigilyph",
-      },
-    ],
+    chain: [{ species_name: "sigilyph" }],
   },
   {
     id: 562,
@@ -9523,14 +6205,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/562.png",
-    chain: [
-      {
-        species_name: "yamask",
-      },
-      {
-        species_name: "cofagrigus",
-      },
-    ],
+    chain: [{ species_name: "yamask" }, { species_name: "cofagrigus" }],
   },
   {
     id: 563,
@@ -9540,14 +6215,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png",
-    chain: [
-      {
-        species_name: "yamask",
-      },
-      {
-        species_name: "cofagrigus",
-      },
-    ],
+    chain: [{ species_name: "yamask" }, { species_name: "cofagrigus" }],
   },
   {
     id: 564,
@@ -9557,14 +6225,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png",
-    chain: [
-      {
-        species_name: "tirtouga",
-      },
-      {
-        species_name: "carracosta",
-      },
-    ],
+    chain: [{ species_name: "tirtouga" }, { species_name: "carracosta" }],
   },
   {
     id: 565,
@@ -9574,14 +6235,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/565.png",
-    chain: [
-      {
-        species_name: "tirtouga",
-      },
-      {
-        species_name: "carracosta",
-      },
-    ],
+    chain: [{ species_name: "tirtouga" }, { species_name: "carracosta" }],
   },
   {
     id: 566,
@@ -9591,14 +6245,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/566.png",
-    chain: [
-      {
-        species_name: "archen",
-      },
-      {
-        species_name: "archeops",
-      },
-    ],
+    chain: [{ species_name: "archen" }, { species_name: "archeops" }],
   },
   {
     id: 567,
@@ -9608,14 +6255,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/567.png",
-    chain: [
-      {
-        species_name: "archen",
-      },
-      {
-        species_name: "archeops",
-      },
-    ],
+    chain: [{ species_name: "archen" }, { species_name: "archeops" }],
   },
   {
     id: 568,
@@ -9625,14 +6265,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
-    chain: [
-      {
-        species_name: "trubbish",
-      },
-      {
-        species_name: "garbodor",
-      },
-    ],
+    chain: [{ species_name: "trubbish" }, { species_name: "garbodor" }],
   },
   {
     id: 569,
@@ -9642,14 +6275,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
-    chain: [
-      {
-        species_name: "trubbish",
-      },
-      {
-        species_name: "garbodor",
-      },
-    ],
+    chain: [{ species_name: "trubbish" }, { species_name: "garbodor" }],
   },
   {
     id: 570,
@@ -9659,14 +6285,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/570.png",
-    chain: [
-      {
-        species_name: "zorua",
-      },
-      {
-        species_name: "zoroark",
-      },
-    ],
+    chain: [{ species_name: "zorua" }, { species_name: "zoroark" }],
   },
   {
     id: 571,
@@ -9676,14 +6295,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
-    chain: [
-      {
-        species_name: "zorua",
-      },
-      {
-        species_name: "zoroark",
-      },
-    ],
+    chain: [{ species_name: "zorua" }, { species_name: "zoroark" }],
   },
   {
     id: 572,
@@ -9693,14 +6305,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/572.png",
-    chain: [
-      {
-        species_name: "minccino",
-      },
-      {
-        species_name: "cinccino",
-      },
-    ],
+    chain: [{ species_name: "minccino" }, { species_name: "cinccino" }],
   },
   {
     id: 573,
@@ -9710,14 +6315,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png",
-    chain: [
-      {
-        species_name: "minccino",
-      },
-      {
-        species_name: "cinccino",
-      },
-    ],
+    chain: [{ species_name: "minccino" }, { species_name: "cinccino" }],
   },
   {
     id: 574,
@@ -9728,15 +6326,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/574.png",
     chain: [
-      {
-        species_name: "gothita",
-      },
-      {
-        species_name: "gothorita",
-      },
-      {
-        species_name: "gothitelle",
-      },
+      { species_name: "gothita" },
+      { species_name: "gothorita" },
+      { species_name: "gothitelle" },
     ],
   },
   {
@@ -9748,15 +6340,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/575.png",
     chain: [
-      {
-        species_name: "gothita",
-      },
-      {
-        species_name: "gothorita",
-      },
-      {
-        species_name: "gothitelle",
-      },
+      { species_name: "gothita" },
+      { species_name: "gothorita" },
+      { species_name: "gothitelle" },
     ],
   },
   {
@@ -9768,15 +6354,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
     chain: [
-      {
-        species_name: "gothita",
-      },
-      {
-        species_name: "gothorita",
-      },
-      {
-        species_name: "gothitelle",
-      },
+      { species_name: "gothita" },
+      { species_name: "gothorita" },
+      { species_name: "gothitelle" },
     ],
   },
   {
@@ -9788,15 +6368,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/577.png",
     chain: [
-      {
-        species_name: "solosis",
-      },
-      {
-        species_name: "duosion",
-      },
-      {
-        species_name: "reuniclus",
-      },
+      { species_name: "solosis" },
+      { species_name: "duosion" },
+      { species_name: "reuniclus" },
     ],
   },
   {
@@ -9808,15 +6382,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png",
     chain: [
-      {
-        species_name: "solosis",
-      },
-      {
-        species_name: "duosion",
-      },
-      {
-        species_name: "reuniclus",
-      },
+      { species_name: "solosis" },
+      { species_name: "duosion" },
+      { species_name: "reuniclus" },
     ],
   },
   {
@@ -9828,15 +6396,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
     chain: [
-      {
-        species_name: "solosis",
-      },
-      {
-        species_name: "duosion",
-      },
-      {
-        species_name: "reuniclus",
-      },
+      { species_name: "solosis" },
+      { species_name: "duosion" },
+      { species_name: "reuniclus" },
     ],
   },
   {
@@ -9847,14 +6409,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/580.png",
-    chain: [
-      {
-        species_name: "ducklett",
-      },
-      {
-        species_name: "swanna",
-      },
-    ],
+    chain: [{ species_name: "ducklett" }, { species_name: "swanna" }],
   },
   {
     id: 581,
@@ -9864,14 +6419,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/581.png",
-    chain: [
-      {
-        species_name: "ducklett",
-      },
-      {
-        species_name: "swanna",
-      },
-    ],
+    chain: [{ species_name: "ducklett" }, { species_name: "swanna" }],
   },
   {
     id: 582,
@@ -9882,15 +6430,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png",
     chain: [
-      {
-        species_name: "vanillite",
-      },
-      {
-        species_name: "vanillish",
-      },
-      {
-        species_name: "vanilluxe",
-      },
+      { species_name: "vanillite" },
+      { species_name: "vanillish" },
+      { species_name: "vanilluxe" },
     ],
   },
   {
@@ -9902,15 +6444,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png",
     chain: [
-      {
-        species_name: "vanillite",
-      },
-      {
-        species_name: "vanillish",
-      },
-      {
-        species_name: "vanilluxe",
-      },
+      { species_name: "vanillite" },
+      { species_name: "vanillish" },
+      { species_name: "vanilluxe" },
     ],
   },
   {
@@ -9922,15 +6458,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
     chain: [
-      {
-        species_name: "vanillite",
-      },
-      {
-        species_name: "vanillish",
-      },
-      {
-        species_name: "vanilluxe",
-      },
+      { species_name: "vanillite" },
+      { species_name: "vanillish" },
+      { species_name: "vanilluxe" },
     ],
   },
   {
@@ -9941,14 +6471,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
-    chain: [
-      {
-        species_name: "deerling",
-      },
-      {
-        species_name: "sawsbuck",
-      },
-    ],
+    chain: [{ species_name: "deerling" }, { species_name: "sawsbuck" }],
   },
   {
     id: 586,
@@ -9958,14 +6481,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
-    chain: [
-      {
-        species_name: "deerling",
-      },
-      {
-        species_name: "sawsbuck",
-      },
-    ],
+    chain: [{ species_name: "deerling" }, { species_name: "sawsbuck" }],
   },
   {
     id: 587,
@@ -9975,11 +6491,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
-    chain: [
-      {
-        species_name: "emolga",
-      },
-    ],
+    chain: [{ species_name: "emolga" }],
   },
   {
     id: 588,
@@ -9989,14 +6501,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/588.png",
-    chain: [
-      {
-        species_name: "karrablast",
-      },
-      {
-        species_name: "escavalier",
-      },
-    ],
+    chain: [{ species_name: "karrablast" }, { species_name: "escavalier" }],
   },
   {
     id: 589,
@@ -10006,14 +6511,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/589.png",
-    chain: [
-      {
-        species_name: "karrablast",
-      },
-      {
-        species_name: "escavalier",
-      },
-    ],
+    chain: [{ species_name: "karrablast" }, { species_name: "escavalier" }],
   },
   {
     id: 590,
@@ -10023,14 +6521,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/590.png",
-    chain: [
-      {
-        species_name: "foongus",
-      },
-      {
-        species_name: "amoonguss",
-      },
-    ],
+    chain: [{ species_name: "foongus" }, { species_name: "amoonguss" }],
   },
   {
     id: 591,
@@ -10040,14 +6531,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/591.png",
-    chain: [
-      {
-        species_name: "foongus",
-      },
-      {
-        species_name: "amoonguss",
-      },
-    ],
+    chain: [{ species_name: "foongus" }, { species_name: "amoonguss" }],
   },
   {
     id: 592,
@@ -10057,14 +6541,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png",
-    chain: [
-      {
-        species_name: "frillish",
-      },
-      {
-        species_name: "jellicent",
-      },
-    ],
+    chain: [{ species_name: "frillish" }, { species_name: "jellicent" }],
   },
   {
     id: 593,
@@ -10074,14 +6551,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/593.png",
-    chain: [
-      {
-        species_name: "frillish",
-      },
-      {
-        species_name: "jellicent",
-      },
-    ],
+    chain: [{ species_name: "frillish" }, { species_name: "jellicent" }],
   },
   {
     id: 594,
@@ -10091,11 +6561,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/594.png",
-    chain: [
-      {
-        species_name: "alomomola",
-      },
-    ],
+    chain: [{ species_name: "alomomola" }],
   },
   {
     id: 595,
@@ -10105,14 +6571,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/595.png",
-    chain: [
-      {
-        species_name: "joltik",
-      },
-      {
-        species_name: "galvantula",
-      },
-    ],
+    chain: [{ species_name: "joltik" }, { species_name: "galvantula" }],
   },
   {
     id: 596,
@@ -10122,14 +6581,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/596.png",
-    chain: [
-      {
-        species_name: "joltik",
-      },
-      {
-        species_name: "galvantula",
-      },
-    ],
+    chain: [{ species_name: "joltik" }, { species_name: "galvantula" }],
   },
   {
     id: 597,
@@ -10139,14 +6591,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/597.png",
-    chain: [
-      {
-        species_name: "ferroseed",
-      },
-      {
-        species_name: "ferrothorn",
-      },
-    ],
+    chain: [{ species_name: "ferroseed" }, { species_name: "ferrothorn" }],
   },
   {
     id: 598,
@@ -10156,14 +6601,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/598.png",
-    chain: [
-      {
-        species_name: "ferroseed",
-      },
-      {
-        species_name: "ferrothorn",
-      },
-    ],
+    chain: [{ species_name: "ferroseed" }, { species_name: "ferrothorn" }],
   },
   {
     id: 599,
@@ -10174,15 +6612,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/599.png",
     chain: [
-      {
-        species_name: "klink",
-      },
-      {
-        species_name: "klang",
-      },
-      {
-        species_name: "klinklang",
-      },
+      { species_name: "klink" },
+      { species_name: "klang" },
+      { species_name: "klinklang" },
     ],
   },
   {
@@ -10194,15 +6626,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png",
     chain: [
-      {
-        species_name: "klink",
-      },
-      {
-        species_name: "klang",
-      },
-      {
-        species_name: "klinklang",
-      },
+      { species_name: "klink" },
+      { species_name: "klang" },
+      { species_name: "klinklang" },
     ],
   },
   {
@@ -10214,15 +6640,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/601.png",
     chain: [
-      {
-        species_name: "klink",
-      },
-      {
-        species_name: "klang",
-      },
-      {
-        species_name: "klinklang",
-      },
+      { species_name: "klink" },
+      { species_name: "klang" },
+      { species_name: "klinklang" },
     ],
   },
   {
@@ -10234,15 +6654,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
     chain: [
-      {
-        species_name: "tynamo",
-      },
-      {
-        species_name: "eelektrik",
-      },
-      {
-        species_name: "eelektross",
-      },
+      { species_name: "tynamo" },
+      { species_name: "eelektrik" },
+      { species_name: "eelektross" },
     ],
   },
   {
@@ -10254,15 +6668,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
     chain: [
-      {
-        species_name: "tynamo",
-      },
-      {
-        species_name: "eelektrik",
-      },
-      {
-        species_name: "eelektross",
-      },
+      { species_name: "tynamo" },
+      { species_name: "eelektrik" },
+      { species_name: "eelektross" },
     ],
   },
   {
@@ -10274,15 +6682,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
     chain: [
-      {
-        species_name: "tynamo",
-      },
-      {
-        species_name: "eelektrik",
-      },
-      {
-        species_name: "eelektross",
-      },
+      { species_name: "tynamo" },
+      { species_name: "eelektrik" },
+      { species_name: "eelektross" },
     ],
   },
   {
@@ -10293,14 +6695,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/605.png",
-    chain: [
-      {
-        species_name: "elgyem",
-      },
-      {
-        species_name: "beheeyem",
-      },
-    ],
+    chain: [{ species_name: "elgyem" }, { species_name: "beheeyem" }],
   },
   {
     id: 606,
@@ -10310,14 +6705,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/606.png",
-    chain: [
-      {
-        species_name: "elgyem",
-      },
-      {
-        species_name: "beheeyem",
-      },
-    ],
+    chain: [{ species_name: "elgyem" }, { species_name: "beheeyem" }],
   },
   {
     id: 607,
@@ -10328,15 +6716,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
     chain: [
-      {
-        species_name: "litwick",
-      },
-      {
-        species_name: "lampent",
-      },
-      {
-        species_name: "chandelure",
-      },
+      { species_name: "litwick" },
+      { species_name: "lampent" },
+      { species_name: "chandelure" },
     ],
   },
   {
@@ -10348,15 +6730,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png",
     chain: [
-      {
-        species_name: "litwick",
-      },
-      {
-        species_name: "lampent",
-      },
-      {
-        species_name: "chandelure",
-      },
+      { species_name: "litwick" },
+      { species_name: "lampent" },
+      { species_name: "chandelure" },
     ],
   },
   {
@@ -10368,15 +6744,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
     chain: [
-      {
-        species_name: "litwick",
-      },
-      {
-        species_name: "lampent",
-      },
-      {
-        species_name: "chandelure",
-      },
+      { species_name: "litwick" },
+      { species_name: "lampent" },
+      { species_name: "chandelure" },
     ],
   },
   {
@@ -10388,15 +6758,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/610.png",
     chain: [
-      {
-        species_name: "axew",
-      },
-      {
-        species_name: "fraxure",
-      },
-      {
-        species_name: "haxorus",
-      },
+      { species_name: "axew" },
+      { species_name: "fraxure" },
+      { species_name: "haxorus" },
     ],
   },
   {
@@ -10408,15 +6772,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/611.png",
     chain: [
-      {
-        species_name: "axew",
-      },
-      {
-        species_name: "fraxure",
-      },
-      {
-        species_name: "haxorus",
-      },
+      { species_name: "axew" },
+      { species_name: "fraxure" },
+      { species_name: "haxorus" },
     ],
   },
   {
@@ -10428,15 +6786,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/612.png",
     chain: [
-      {
-        species_name: "axew",
-      },
-      {
-        species_name: "fraxure",
-      },
-      {
-        species_name: "haxorus",
-      },
+      { species_name: "axew" },
+      { species_name: "fraxure" },
+      { species_name: "haxorus" },
     ],
   },
   {
@@ -10447,14 +6799,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/613.png",
-    chain: [
-      {
-        species_name: "cubchoo",
-      },
-      {
-        species_name: "beartic",
-      },
-    ],
+    chain: [{ species_name: "cubchoo" }, { species_name: "beartic" }],
   },
   {
     id: 614,
@@ -10464,14 +6809,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
-    chain: [
-      {
-        species_name: "cubchoo",
-      },
-      {
-        species_name: "beartic",
-      },
-    ],
+    chain: [{ species_name: "cubchoo" }, { species_name: "beartic" }],
   },
   {
     id: 615,
@@ -10481,11 +6819,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/615.png",
-    chain: [
-      {
-        species_name: "cryogonal",
-      },
-    ],
+    chain: [{ species_name: "cryogonal" }],
   },
   {
     id: 616,
@@ -10495,14 +6829,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png",
-    chain: [
-      {
-        species_name: "shelmet",
-      },
-      {
-        species_name: "accelgor",
-      },
-    ],
+    chain: [{ species_name: "shelmet" }, { species_name: "accelgor" }],
   },
   {
     id: 617,
@@ -10512,14 +6839,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png",
-    chain: [
-      {
-        species_name: "shelmet",
-      },
-      {
-        species_name: "accelgor",
-      },
-    ],
+    chain: [{ species_name: "shelmet" }, { species_name: "accelgor" }],
   },
   {
     id: 618,
@@ -10529,11 +6849,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
-    chain: [
-      {
-        species_name: "stunfisk",
-      },
-    ],
+    chain: [{ species_name: "stunfisk" }],
   },
   {
     id: 619,
@@ -10543,14 +6859,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/619.png",
-    chain: [
-      {
-        species_name: "mienfoo",
-      },
-      {
-        species_name: "mienshao",
-      },
-    ],
+    chain: [{ species_name: "mienfoo" }, { species_name: "mienshao" }],
   },
   {
     id: 620,
@@ -10560,14 +6869,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/620.png",
-    chain: [
-      {
-        species_name: "mienfoo",
-      },
-      {
-        species_name: "mienshao",
-      },
-    ],
+    chain: [{ species_name: "mienfoo" }, { species_name: "mienshao" }],
   },
   {
     id: 621,
@@ -10577,11 +6879,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/621.png",
-    chain: [
-      {
-        species_name: "druddigon",
-      },
-    ],
+    chain: [{ species_name: "druddigon" }],
   },
   {
     id: 622,
@@ -10591,14 +6889,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/622.png",
-    chain: [
-      {
-        species_name: "golett",
-      },
-      {
-        species_name: "golurk",
-      },
-    ],
+    chain: [{ species_name: "golett" }, { species_name: "golurk" }],
   },
   {
     id: 623,
@@ -10608,14 +6899,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
-    chain: [
-      {
-        species_name: "golett",
-      },
-      {
-        species_name: "golurk",
-      },
-    ],
+    chain: [{ species_name: "golett" }, { species_name: "golurk" }],
   },
   {
     id: 624,
@@ -10625,14 +6909,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/624.png",
-    chain: [
-      {
-        species_name: "pawniard",
-      },
-      {
-        species_name: "bisharp",
-      },
-    ],
+    chain: [{ species_name: "pawniard" }, { species_name: "bisharp" }],
   },
   {
     id: 625,
@@ -10642,14 +6919,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/625.png",
-    chain: [
-      {
-        species_name: "pawniard",
-      },
-      {
-        species_name: "bisharp",
-      },
-    ],
+    chain: [{ species_name: "pawniard" }, { species_name: "bisharp" }],
   },
   {
     id: 626,
@@ -10659,11 +6929,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/626.png",
-    chain: [
-      {
-        species_name: "bouffalant",
-      },
-    ],
+    chain: [{ species_name: "bouffalant" }],
   },
   {
     id: 627,
@@ -10673,14 +6939,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png",
-    chain: [
-      {
-        species_name: "rufflet",
-      },
-      {
-        species_name: "braviary",
-      },
-    ],
+    chain: [{ species_name: "rufflet" }, { species_name: "braviary" }],
   },
   {
     id: 628,
@@ -10690,14 +6949,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
-    chain: [
-      {
-        species_name: "rufflet",
-      },
-      {
-        species_name: "braviary",
-      },
-    ],
+    chain: [{ species_name: "rufflet" }, { species_name: "braviary" }],
   },
   {
     id: 629,
@@ -10707,14 +6959,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/629.png",
-    chain: [
-      {
-        species_name: "vullaby",
-      },
-      {
-        species_name: "mandibuzz",
-      },
-    ],
+    chain: [{ species_name: "vullaby" }, { species_name: "mandibuzz" }],
   },
   {
     id: 630,
@@ -10724,14 +6969,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/630.png",
-    chain: [
-      {
-        species_name: "vullaby",
-      },
-      {
-        species_name: "mandibuzz",
-      },
-    ],
+    chain: [{ species_name: "vullaby" }, { species_name: "mandibuzz" }],
   },
   {
     id: 631,
@@ -10741,11 +6979,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/631.png",
-    chain: [
-      {
-        species_name: "heatmor",
-      },
-    ],
+    chain: [{ species_name: "heatmor" }],
   },
   {
     id: 632,
@@ -10755,11 +6989,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/632.png",
-    chain: [
-      {
-        species_name: "durant",
-      },
-    ],
+    chain: [{ species_name: "durant" }],
   },
   {
     id: 633,
@@ -10770,15 +7000,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/633.png",
     chain: [
-      {
-        species_name: "deino",
-      },
-      {
-        species_name: "zweilous",
-      },
-      {
-        species_name: "hydreigon",
-      },
+      { species_name: "deino" },
+      { species_name: "zweilous" },
+      { species_name: "hydreigon" },
     ],
   },
   {
@@ -10790,15 +7014,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/634.png",
     chain: [
-      {
-        species_name: "deino",
-      },
-      {
-        species_name: "zweilous",
-      },
-      {
-        species_name: "hydreigon",
-      },
+      { species_name: "deino" },
+      { species_name: "zweilous" },
+      { species_name: "hydreigon" },
     ],
   },
   {
@@ -10810,15 +7028,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png",
     chain: [
-      {
-        species_name: "deino",
-      },
-      {
-        species_name: "zweilous",
-      },
-      {
-        species_name: "hydreigon",
-      },
+      { species_name: "deino" },
+      { species_name: "zweilous" },
+      { species_name: "hydreigon" },
     ],
   },
   {
@@ -10829,14 +7041,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/636.png",
-    chain: [
-      {
-        species_name: "larvesta",
-      },
-      {
-        species_name: "volcarona",
-      },
-    ],
+    chain: [{ species_name: "larvesta" }, { species_name: "volcarona" }],
   },
   {
     id: 637,
@@ -10846,14 +7051,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png",
-    chain: [
-      {
-        species_name: "larvesta",
-      },
-      {
-        species_name: "volcarona",
-      },
-    ],
+    chain: [{ species_name: "larvesta" }, { species_name: "volcarona" }],
   },
   {
     id: 638,
@@ -10863,11 +7061,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/638.png",
-    chain: [
-      {
-        species_name: "cobalion",
-      },
-    ],
+    chain: [{ species_name: "cobalion" }],
   },
   {
     id: 639,
@@ -10877,11 +7071,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/639.png",
-    chain: [
-      {
-        species_name: "terrakion",
-      },
-    ],
+    chain: [{ species_name: "terrakion" }],
   },
   {
     id: 640,
@@ -10891,11 +7081,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/640.png",
-    chain: [
-      {
-        species_name: "virizion",
-      },
-    ],
+    chain: [{ species_name: "virizion" }],
   },
   {
     id: 643,
@@ -10905,11 +7091,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
-    chain: [
-      {
-        species_name: "reshiram",
-      },
-    ],
+    chain: [{ species_name: "reshiram" }],
   },
   {
     id: 644,
@@ -10919,11 +7101,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
-    chain: [
-      {
-        species_name: "zekrom",
-      },
-    ],
+    chain: [{ species_name: "zekrom" }],
   },
   {
     id: 646,
@@ -10933,11 +7111,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/646.png",
-    chain: [
-      {
-        species_name: "kyurem",
-      },
-    ],
+    chain: [{ species_name: "kyurem" }],
   },
   {
     id: 649,
@@ -10947,11 +7121,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/649.png",
-    chain: [
-      {
-        species_name: "genesect",
-      },
-    ],
+    chain: [{ species_name: "genesect" }],
   },
   {
     id: 650,
@@ -10962,15 +7132,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
     chain: [
-      {
-        species_name: "chespin",
-      },
-      {
-        species_name: "quilladin",
-      },
-      {
-        species_name: "chesnaught",
-      },
+      { species_name: "chespin" },
+      { species_name: "quilladin" },
+      { species_name: "chesnaught" },
     ],
   },
   {
@@ -10982,15 +7146,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
     chain: [
-      {
-        species_name: "chespin",
-      },
-      {
-        species_name: "quilladin",
-      },
-      {
-        species_name: "chesnaught",
-      },
+      { species_name: "chespin" },
+      { species_name: "quilladin" },
+      { species_name: "chesnaught" },
     ],
   },
   {
@@ -11002,15 +7160,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
     chain: [
-      {
-        species_name: "chespin",
-      },
-      {
-        species_name: "quilladin",
-      },
-      {
-        species_name: "chesnaught",
-      },
+      { species_name: "chespin" },
+      { species_name: "quilladin" },
+      { species_name: "chesnaught" },
     ],
   },
   {
@@ -11022,15 +7174,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
     chain: [
-      {
-        species_name: "fennekin",
-      },
-      {
-        species_name: "braixen",
-      },
-      {
-        species_name: "delphox",
-      },
+      { species_name: "fennekin" },
+      { species_name: "braixen" },
+      { species_name: "delphox" },
     ],
   },
   {
@@ -11042,15 +7188,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
     chain: [
-      {
-        species_name: "fennekin",
-      },
-      {
-        species_name: "braixen",
-      },
-      {
-        species_name: "delphox",
-      },
+      { species_name: "fennekin" },
+      { species_name: "braixen" },
+      { species_name: "delphox" },
     ],
   },
   {
@@ -11062,15 +7202,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
     chain: [
-      {
-        species_name: "fennekin",
-      },
-      {
-        species_name: "braixen",
-      },
-      {
-        species_name: "delphox",
-      },
+      { species_name: "fennekin" },
+      { species_name: "braixen" },
+      { species_name: "delphox" },
     ],
   },
   {
@@ -11082,15 +7216,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
     chain: [
-      {
-        species_name: "froakie",
-      },
-      {
-        species_name: "frogadier",
-      },
-      {
-        species_name: "greninja",
-      },
+      { species_name: "froakie" },
+      { species_name: "frogadier" },
+      { species_name: "greninja" },
     ],
   },
   {
@@ -11102,15 +7230,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
     chain: [
-      {
-        species_name: "froakie",
-      },
-      {
-        species_name: "frogadier",
-      },
-      {
-        species_name: "greninja",
-      },
+      { species_name: "froakie" },
+      { species_name: "frogadier" },
+      { species_name: "greninja" },
     ],
   },
   {
@@ -11122,15 +7244,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
     chain: [
-      {
-        species_name: "froakie",
-      },
-      {
-        species_name: "frogadier",
-      },
-      {
-        species_name: "greninja",
-      },
+      { species_name: "froakie" },
+      { species_name: "frogadier" },
+      { species_name: "greninja" },
     ],
   },
   {
@@ -11141,14 +7257,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png",
-    chain: [
-      {
-        species_name: "bunnelby",
-      },
-      {
-        species_name: "diggersby",
-      },
-    ],
+    chain: [{ species_name: "bunnelby" }, { species_name: "diggersby" }],
   },
   {
     id: 660,
@@ -11158,14 +7267,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
-    chain: [
-      {
-        species_name: "bunnelby",
-      },
-      {
-        species_name: "diggersby",
-      },
-    ],
+    chain: [{ species_name: "bunnelby" }, { species_name: "diggersby" }],
   },
   {
     id: 661,
@@ -11176,15 +7278,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png",
     chain: [
-      {
-        species_name: "fletchling",
-      },
-      {
-        species_name: "fletchinder",
-      },
-      {
-        species_name: "talonflame",
-      },
+      { species_name: "fletchling" },
+      { species_name: "fletchinder" },
+      { species_name: "talonflame" },
     ],
   },
   {
@@ -11196,15 +7292,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
     chain: [
-      {
-        species_name: "fletchling",
-      },
-      {
-        species_name: "fletchinder",
-      },
-      {
-        species_name: "talonflame",
-      },
+      { species_name: "fletchling" },
+      { species_name: "fletchinder" },
+      { species_name: "talonflame" },
     ],
   },
   {
@@ -11216,15 +7306,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
     chain: [
-      {
-        species_name: "fletchling",
-      },
-      {
-        species_name: "fletchinder",
-      },
-      {
-        species_name: "talonflame",
-      },
+      { species_name: "fletchling" },
+      { species_name: "fletchinder" },
+      { species_name: "talonflame" },
     ],
   },
   {
@@ -11236,15 +7320,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
     chain: [
-      {
-        species_name: "scatterbug",
-      },
-      {
-        species_name: "spewpa",
-      },
-      {
-        species_name: "vivillon",
-      },
+      { species_name: "scatterbug" },
+      { species_name: "spewpa" },
+      { species_name: "vivillon" },
     ],
   },
   {
@@ -11256,15 +7334,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
     chain: [
-      {
-        species_name: "scatterbug",
-      },
-      {
-        species_name: "spewpa",
-      },
-      {
-        species_name: "vivillon",
-      },
+      { species_name: "scatterbug" },
+      { species_name: "spewpa" },
+      { species_name: "vivillon" },
     ],
   },
   {
@@ -11276,15 +7348,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
     chain: [
-      {
-        species_name: "scatterbug",
-      },
-      {
-        species_name: "spewpa",
-      },
-      {
-        species_name: "vivillon",
-      },
+      { species_name: "scatterbug" },
+      { species_name: "spewpa" },
+      { species_name: "vivillon" },
     ],
   },
   {
@@ -11295,14 +7361,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
-    chain: [
-      {
-        species_name: "litleo",
-      },
-      {
-        species_name: "pyroar",
-      },
-    ],
+    chain: [{ species_name: "litleo" }, { species_name: "pyroar" }],
   },
   {
     id: 668,
@@ -11312,14 +7371,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
-    chain: [
-      {
-        species_name: "litleo",
-      },
-      {
-        species_name: "pyroar",
-      },
-    ],
+    chain: [{ species_name: "litleo" }, { species_name: "pyroar" }],
   },
   {
     id: 669,
@@ -11330,15 +7382,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
     chain: [
-      {
-        species_name: "flabebe",
-      },
-      {
-        species_name: "floette",
-      },
-      {
-        species_name: "florges",
-      },
+      { species_name: "flabebe" },
+      { species_name: "floette" },
+      { species_name: "florges" },
     ],
   },
   {
@@ -11350,15 +7396,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
     chain: [
-      {
-        species_name: "flabebe",
-      },
-      {
-        species_name: "floette",
-      },
-      {
-        species_name: "florges",
-      },
+      { species_name: "flabebe" },
+      { species_name: "floette" },
+      { species_name: "florges" },
     ],
   },
   {
@@ -11370,15 +7410,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
     chain: [
-      {
-        species_name: "flabebe",
-      },
-      {
-        species_name: "floette",
-      },
-      {
-        species_name: "florges",
-      },
+      { species_name: "flabebe" },
+      { species_name: "floette" },
+      { species_name: "florges" },
     ],
   },
   {
@@ -11389,14 +7423,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png",
-    chain: [
-      {
-        species_name: "skiddo",
-      },
-      {
-        species_name: "gogoat",
-      },
-    ],
+    chain: [{ species_name: "skiddo" }, { species_name: "gogoat" }],
   },
   {
     id: 673,
@@ -11406,14 +7433,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
-    chain: [
-      {
-        species_name: "skiddo",
-      },
-      {
-        species_name: "gogoat",
-      },
-    ],
+    chain: [{ species_name: "skiddo" }, { species_name: "gogoat" }],
   },
   {
     id: 674,
@@ -11423,14 +7443,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
-    chain: [
-      {
-        species_name: "pancham",
-      },
-      {
-        species_name: "pangoro",
-      },
-    ],
+    chain: [{ species_name: "pancham" }, { species_name: "pangoro" }],
   },
   {
     id: 675,
@@ -11440,14 +7453,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
-    chain: [
-      {
-        species_name: "pancham",
-      },
-      {
-        species_name: "pangoro",
-      },
-    ],
+    chain: [{ species_name: "pancham" }, { species_name: "pangoro" }],
   },
   {
     id: 676,
@@ -11457,11 +7463,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
-    chain: [
-      {
-        species_name: "furfrou",
-      },
-    ],
+    chain: [{ species_name: "furfrou" }],
   },
   {
     id: 677,
@@ -11471,14 +7473,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
-    chain: [
-      {
-        species_name: "espurr",
-      },
-      {
-        species_name: "meowstic",
-      },
-    ],
+    chain: [{ species_name: "espurr" }, { species_name: "meowstic" }],
   },
   {
     id: 679,
@@ -11489,15 +7484,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
     chain: [
-      {
-        species_name: "honedge",
-      },
-      {
-        species_name: "doublade",
-      },
-      {
-        species_name: "aegislash",
-      },
+      { species_name: "honedge" },
+      { species_name: "doublade" },
+      { species_name: "aegislash" },
     ],
   },
   {
@@ -11509,15 +7498,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
     chain: [
-      {
-        species_name: "honedge",
-      },
-      {
-        species_name: "doublade",
-      },
-      {
-        species_name: "aegislash",
-      },
+      { species_name: "honedge" },
+      { species_name: "doublade" },
+      { species_name: "aegislash" },
     ],
   },
   {
@@ -11528,14 +7511,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
-    chain: [
-      {
-        species_name: "spritzee",
-      },
-      {
-        species_name: "aromatisse",
-      },
-    ],
+    chain: [{ species_name: "spritzee" }, { species_name: "aromatisse" }],
   },
   {
     id: 683,
@@ -11545,14 +7521,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
-    chain: [
-      {
-        species_name: "spritzee",
-      },
-      {
-        species_name: "aromatisse",
-      },
-    ],
+    chain: [{ species_name: "spritzee" }, { species_name: "aromatisse" }],
   },
   {
     id: 684,
@@ -11562,14 +7531,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
-    chain: [
-      {
-        species_name: "swirlix",
-      },
-      {
-        species_name: "slurpuff",
-      },
-    ],
+    chain: [{ species_name: "swirlix" }, { species_name: "slurpuff" }],
   },
   {
     id: 685,
@@ -11579,14 +7541,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
-    chain: [
-      {
-        species_name: "swirlix",
-      },
-      {
-        species_name: "slurpuff",
-      },
-    ],
+    chain: [{ species_name: "swirlix" }, { species_name: "slurpuff" }],
   },
   {
     id: 686,
@@ -11596,14 +7551,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png",
-    chain: [
-      {
-        species_name: "inkay",
-      },
-      {
-        species_name: "malamar",
-      },
-    ],
+    chain: [{ species_name: "inkay" }, { species_name: "malamar" }],
   },
   {
     id: 687,
@@ -11613,14 +7561,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
-    chain: [
-      {
-        species_name: "inkay",
-      },
-      {
-        species_name: "malamar",
-      },
-    ],
+    chain: [{ species_name: "inkay" }, { species_name: "malamar" }],
   },
   {
     id: 688,
@@ -11630,14 +7571,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
-    chain: [
-      {
-        species_name: "binacle",
-      },
-      {
-        species_name: "barbaracle",
-      },
-    ],
+    chain: [{ species_name: "binacle" }, { species_name: "barbaracle" }],
   },
   {
     id: 689,
@@ -11647,14 +7581,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
-    chain: [
-      {
-        species_name: "binacle",
-      },
-      {
-        species_name: "barbaracle",
-      },
-    ],
+    chain: [{ species_name: "binacle" }, { species_name: "barbaracle" }],
   },
   {
     id: 690,
@@ -11664,14 +7591,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
-    chain: [
-      {
-        species_name: "skrelp",
-      },
-      {
-        species_name: "dragalge",
-      },
-    ],
+    chain: [{ species_name: "skrelp" }, { species_name: "dragalge" }],
   },
   {
     id: 691,
@@ -11681,14 +7601,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
-    chain: [
-      {
-        species_name: "skrelp",
-      },
-      {
-        species_name: "dragalge",
-      },
-    ],
+    chain: [{ species_name: "skrelp" }, { species_name: "dragalge" }],
   },
   {
     id: 692,
@@ -11698,14 +7611,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
-    chain: [
-      {
-        species_name: "clauncher",
-      },
-      {
-        species_name: "clawitzer",
-      },
-    ],
+    chain: [{ species_name: "clauncher" }, { species_name: "clawitzer" }],
   },
   {
     id: 693,
@@ -11715,14 +7621,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
-    chain: [
-      {
-        species_name: "clauncher",
-      },
-      {
-        species_name: "clawitzer",
-      },
-    ],
+    chain: [{ species_name: "clauncher" }, { species_name: "clawitzer" }],
   },
   {
     id: 694,
@@ -11732,14 +7631,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
-    chain: [
-      {
-        species_name: "helioptile",
-      },
-      {
-        species_name: "heliolisk",
-      },
-    ],
+    chain: [{ species_name: "helioptile" }, { species_name: "heliolisk" }],
   },
   {
     id: 695,
@@ -11749,14 +7641,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
-    chain: [
-      {
-        species_name: "helioptile",
-      },
-      {
-        species_name: "heliolisk",
-      },
-    ],
+    chain: [{ species_name: "helioptile" }, { species_name: "heliolisk" }],
   },
   {
     id: 696,
@@ -11766,14 +7651,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
-    chain: [
-      {
-        species_name: "tyrunt",
-      },
-      {
-        species_name: "tyrantrum",
-      },
-    ],
+    chain: [{ species_name: "tyrunt" }, { species_name: "tyrantrum" }],
   },
   {
     id: 697,
@@ -11783,14 +7661,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
-    chain: [
-      {
-        species_name: "tyrunt",
-      },
-      {
-        species_name: "tyrantrum",
-      },
-    ],
+    chain: [{ species_name: "tyrunt" }, { species_name: "tyrantrum" }],
   },
   {
     id: 698,
@@ -11800,14 +7671,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
-    chain: [
-      {
-        species_name: "amaura",
-      },
-      {
-        species_name: "aurorus",
-      },
-    ],
+    chain: [{ species_name: "amaura" }, { species_name: "aurorus" }],
   },
   {
     id: 699,
@@ -11817,14 +7681,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
-    chain: [
-      {
-        species_name: "amaura",
-      },
-      {
-        species_name: "aurorus",
-      },
-    ],
+    chain: [{ species_name: "amaura" }, { species_name: "aurorus" }],
   },
   {
     id: 701,
@@ -11834,11 +7691,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
-    chain: [
-      {
-        species_name: "hawlucha",
-      },
-    ],
+    chain: [{ species_name: "hawlucha" }],
   },
   {
     id: 702,
@@ -11848,11 +7701,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
-    chain: [
-      {
-        species_name: "dedenne",
-      },
-    ],
+    chain: [{ species_name: "dedenne" }],
   },
   {
     id: 703,
@@ -11862,11 +7711,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
-    chain: [
-      {
-        species_name: "carbink",
-      },
-    ],
+    chain: [{ species_name: "carbink" }],
   },
   {
     id: 704,
@@ -11877,15 +7722,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png",
     chain: [
-      {
-        species_name: "goomy",
-      },
-      {
-        species_name: "sliggoo",
-      },
-      {
-        species_name: "goodra",
-      },
+      { species_name: "goomy" },
+      { species_name: "sliggoo" },
+      { species_name: "goodra" },
     ],
   },
   {
@@ -11897,15 +7736,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png",
     chain: [
-      {
-        species_name: "goomy",
-      },
-      {
-        species_name: "sliggoo",
-      },
-      {
-        species_name: "goodra",
-      },
+      { species_name: "goomy" },
+      { species_name: "sliggoo" },
+      { species_name: "goodra" },
     ],
   },
   {
@@ -11917,15 +7750,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
     chain: [
-      {
-        species_name: "goomy",
-      },
-      {
-        species_name: "sliggoo",
-      },
-      {
-        species_name: "goodra",
-      },
+      { species_name: "goomy" },
+      { species_name: "sliggoo" },
+      { species_name: "goodra" },
     ],
   },
   {
@@ -11936,11 +7763,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
-    chain: [
-      {
-        species_name: "klefki",
-      },
-    ],
+    chain: [{ species_name: "klefki" }],
   },
   {
     id: 708,
@@ -11950,14 +7773,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png",
-    chain: [
-      {
-        species_name: "phantump",
-      },
-      {
-        species_name: "trevenant",
-      },
-    ],
+    chain: [{ species_name: "phantump" }, { species_name: "trevenant" }],
   },
   {
     id: 709,
@@ -11967,14 +7783,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
-    chain: [
-      {
-        species_name: "phantump",
-      },
-      {
-        species_name: "trevenant",
-      },
-    ],
+    chain: [{ species_name: "phantump" }, { species_name: "trevenant" }],
   },
   {
     id: 712,
@@ -11984,14 +7793,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
-    chain: [
-      {
-        species_name: "bergmite",
-      },
-      {
-        species_name: "avalugg",
-      },
-    ],
+    chain: [{ species_name: "bergmite" }, { species_name: "avalugg" }],
   },
   {
     id: 713,
@@ -12001,14 +7803,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
-    chain: [
-      {
-        species_name: "bergmite",
-      },
-      {
-        species_name: "avalugg",
-      },
-    ],
+    chain: [{ species_name: "bergmite" }, { species_name: "avalugg" }],
   },
   {
     id: 714,
@@ -12018,14 +7813,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
-    chain: [
-      {
-        species_name: "noibat",
-      },
-      {
-        species_name: "noivern",
-      },
-    ],
+    chain: [{ species_name: "noibat" }, { species_name: "noivern" }],
   },
   {
     id: 715,
@@ -12035,14 +7823,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
-    chain: [
-      {
-        species_name: "noibat",
-      },
-      {
-        species_name: "noivern",
-      },
-    ],
+    chain: [{ species_name: "noibat" }, { species_name: "noivern" }],
   },
   {
     id: 716,
@@ -12052,11 +7833,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
-    chain: [
-      {
-        species_name: "xerneas",
-      },
-    ],
+    chain: [{ species_name: "xerneas" }],
   },
   {
     id: 717,
@@ -12066,11 +7843,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
-    chain: [
-      {
-        species_name: "yveltal",
-      },
-    ],
+    chain: [{ species_name: "yveltal" }],
   },
   {
     id: 718,
@@ -12080,11 +7853,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
-    chain: [
-      {
-        species_name: "zygarde",
-      },
-    ],
+    chain: [{ species_name: "zygarde" }],
   },
   {
     id: 719,
@@ -12094,11 +7863,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
-    chain: [
-      {
-        species_name: "diancie",
-      },
-    ],
+    chain: [{ species_name: "diancie" }],
   },
   {
     id: 720,
@@ -12108,11 +7873,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/720.png",
-    chain: [
-      {
-        species_name: "hoopa",
-      },
-    ],
+    chain: [{ species_name: "hoopa" }],
   },
   {
     id: 721,
@@ -12122,11 +7883,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/721.png",
-    chain: [
-      {
-        species_name: "volcanion",
-      },
-    ],
+    chain: [{ species_name: "volcanion" }],
   },
   {
     id: 722,
@@ -12137,15 +7894,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png",
     chain: [
-      {
-        species_name: "rowlet",
-      },
-      {
-        species_name: "dartrix",
-      },
-      {
-        species_name: "decidueye",
-      },
+      { species_name: "rowlet" },
+      { species_name: "dartrix" },
+      { species_name: "decidueye" },
     ],
   },
   {
@@ -12157,15 +7908,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/723.png",
     chain: [
-      {
-        species_name: "rowlet",
-      },
-      {
-        species_name: "dartrix",
-      },
-      {
-        species_name: "decidueye",
-      },
+      { species_name: "rowlet" },
+      { species_name: "dartrix" },
+      { species_name: "decidueye" },
     ],
   },
   {
@@ -12177,15 +7922,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png",
     chain: [
-      {
-        species_name: "rowlet",
-      },
-      {
-        species_name: "dartrix",
-      },
-      {
-        species_name: "decidueye",
-      },
+      { species_name: "rowlet" },
+      { species_name: "dartrix" },
+      { species_name: "decidueye" },
     ],
   },
   {
@@ -12197,15 +7936,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png",
     chain: [
-      {
-        species_name: "litten",
-      },
-      {
-        species_name: "torracat",
-      },
-      {
-        species_name: "incineroar",
-      },
+      { species_name: "litten" },
+      { species_name: "torracat" },
+      { species_name: "incineroar" },
     ],
   },
   {
@@ -12217,15 +7950,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png",
     chain: [
-      {
-        species_name: "litten",
-      },
-      {
-        species_name: "torracat",
-      },
-      {
-        species_name: "incineroar",
-      },
+      { species_name: "litten" },
+      { species_name: "torracat" },
+      { species_name: "incineroar" },
     ],
   },
   {
@@ -12237,15 +7964,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/727.png",
     chain: [
-      {
-        species_name: "litten",
-      },
-      {
-        species_name: "torracat",
-      },
-      {
-        species_name: "incineroar",
-      },
+      { species_name: "litten" },
+      { species_name: "torracat" },
+      { species_name: "incineroar" },
     ],
   },
   {
@@ -12257,15 +7978,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png",
     chain: [
-      {
-        species_name: "popplio",
-      },
-      {
-        species_name: "brionne",
-      },
-      {
-        species_name: "primarina",
-      },
+      { species_name: "popplio" },
+      { species_name: "brionne" },
+      { species_name: "primarina" },
     ],
   },
   {
@@ -12277,15 +7992,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/729.png",
     chain: [
-      {
-        species_name: "popplio",
-      },
-      {
-        species_name: "brionne",
-      },
-      {
-        species_name: "primarina",
-      },
+      { species_name: "popplio" },
+      { species_name: "brionne" },
+      { species_name: "primarina" },
     ],
   },
   {
@@ -12297,15 +8006,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
     chain: [
-      {
-        species_name: "popplio",
-      },
-      {
-        species_name: "brionne",
-      },
-      {
-        species_name: "primarina",
-      },
+      { species_name: "popplio" },
+      { species_name: "brionne" },
+      { species_name: "primarina" },
     ],
   },
   {
@@ -12317,15 +8020,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/731.png",
     chain: [
-      {
-        species_name: "pikipek",
-      },
-      {
-        species_name: "trumbeak",
-      },
-      {
-        species_name: "toucannon",
-      },
+      { species_name: "pikipek" },
+      { species_name: "trumbeak" },
+      { species_name: "toucannon" },
     ],
   },
   {
@@ -12337,15 +8034,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/732.png",
     chain: [
-      {
-        species_name: "pikipek",
-      },
-      {
-        species_name: "trumbeak",
-      },
-      {
-        species_name: "toucannon",
-      },
+      { species_name: "pikipek" },
+      { species_name: "trumbeak" },
+      { species_name: "toucannon" },
     ],
   },
   {
@@ -12357,15 +8048,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
     chain: [
-      {
-        species_name: "pikipek",
-      },
-      {
-        species_name: "trumbeak",
-      },
-      {
-        species_name: "toucannon",
-      },
+      { species_name: "pikipek" },
+      { species_name: "trumbeak" },
+      { species_name: "toucannon" },
     ],
   },
   {
@@ -12376,14 +8061,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/734.png",
-    chain: [
-      {
-        species_name: "yungoos",
-      },
-      {
-        species_name: "gumshoos",
-      },
-    ],
+    chain: [{ species_name: "yungoos" }, { species_name: "gumshoos" }],
   },
   {
     id: 735,
@@ -12393,14 +8071,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/735.png",
-    chain: [
-      {
-        species_name: "yungoos",
-      },
-      {
-        species_name: "gumshoos",
-      },
-    ],
+    chain: [{ species_name: "yungoos" }, { species_name: "gumshoos" }],
   },
   {
     id: 736,
@@ -12411,15 +8082,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/736.png",
     chain: [
-      {
-        species_name: "grubbin",
-      },
-      {
-        species_name: "charjabug",
-      },
-      {
-        species_name: "vikavolt",
-      },
+      { species_name: "grubbin" },
+      { species_name: "charjabug" },
+      { species_name: "vikavolt" },
     ],
   },
   {
@@ -12431,15 +8096,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/737.png",
     chain: [
-      {
-        species_name: "grubbin",
-      },
-      {
-        species_name: "charjabug",
-      },
-      {
-        species_name: "vikavolt",
-      },
+      { species_name: "grubbin" },
+      { species_name: "charjabug" },
+      { species_name: "vikavolt" },
     ],
   },
   {
@@ -12451,15 +8110,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png",
     chain: [
-      {
-        species_name: "grubbin",
-      },
-      {
-        species_name: "charjabug",
-      },
-      {
-        species_name: "vikavolt",
-      },
+      { species_name: "grubbin" },
+      { species_name: "charjabug" },
+      { species_name: "vikavolt" },
     ],
   },
   {
@@ -12470,14 +8123,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/739.png",
-    chain: [
-      {
-        species_name: "crabrawler",
-      },
-      {
-        species_name: "crabominable",
-      },
-    ],
+    chain: [{ species_name: "crabrawler" }, { species_name: "crabominable" }],
   },
   {
     id: 740,
@@ -12487,14 +8133,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/740.png",
-    chain: [
-      {
-        species_name: "crabrawler",
-      },
-      {
-        species_name: "crabominable",
-      },
-    ],
+    chain: [{ species_name: "crabrawler" }, { species_name: "crabominable" }],
   },
   {
     id: 742,
@@ -12504,14 +8143,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/742.png",
-    chain: [
-      {
-        species_name: "cutiefly",
-      },
-      {
-        species_name: "ribombee",
-      },
-    ],
+    chain: [{ species_name: "cutiefly" }, { species_name: "ribombee" }],
   },
   {
     id: 743,
@@ -12521,14 +8153,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
-    chain: [
-      {
-        species_name: "cutiefly",
-      },
-      {
-        species_name: "ribombee",
-      },
-    ],
+    chain: [{ species_name: "cutiefly" }, { species_name: "ribombee" }],
   },
   {
     id: 744,
@@ -12538,14 +8163,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png",
-    chain: [
-      {
-        species_name: "rockruff",
-      },
-      {
-        species_name: "lycanroc",
-      },
-    ],
+    chain: [{ species_name: "rockruff" }, { species_name: "lycanroc" }],
   },
   {
     id: 747,
@@ -12555,14 +8173,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/747.png",
-    chain: [
-      {
-        species_name: "mareanie",
-      },
-      {
-        species_name: "toxapex",
-      },
-    ],
+    chain: [{ species_name: "mareanie" }, { species_name: "toxapex" }],
   },
   {
     id: 748,
@@ -12572,14 +8183,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/748.png",
-    chain: [
-      {
-        species_name: "mareanie",
-      },
-      {
-        species_name: "toxapex",
-      },
-    ],
+    chain: [{ species_name: "mareanie" }, { species_name: "toxapex" }],
   },
   {
     id: 749,
@@ -12589,14 +8193,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/749.png",
-    chain: [
-      {
-        species_name: "mudbray",
-      },
-      {
-        species_name: "mudsdale",
-      },
-    ],
+    chain: [{ species_name: "mudbray" }, { species_name: "mudsdale" }],
   },
   {
     id: 750,
@@ -12606,14 +8203,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/750.png",
-    chain: [
-      {
-        species_name: "mudbray",
-      },
-      {
-        species_name: "mudsdale",
-      },
-    ],
+    chain: [{ species_name: "mudbray" }, { species_name: "mudsdale" }],
   },
   {
     id: 751,
@@ -12623,14 +8213,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/751.png",
-    chain: [
-      {
-        species_name: "dewpider",
-      },
-      {
-        species_name: "araquanid",
-      },
-    ],
+    chain: [{ species_name: "dewpider" }, { species_name: "araquanid" }],
   },
   {
     id: 752,
@@ -12640,14 +8223,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/752.png",
-    chain: [
-      {
-        species_name: "dewpider",
-      },
-      {
-        species_name: "araquanid",
-      },
-    ],
+    chain: [{ species_name: "dewpider" }, { species_name: "araquanid" }],
   },
   {
     id: 753,
@@ -12657,14 +8233,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/753.png",
-    chain: [
-      {
-        species_name: "fomantis",
-      },
-      {
-        species_name: "lurantis",
-      },
-    ],
+    chain: [{ species_name: "fomantis" }, { species_name: "lurantis" }],
   },
   {
     id: 754,
@@ -12674,14 +8243,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/754.png",
-    chain: [
-      {
-        species_name: "fomantis",
-      },
-      {
-        species_name: "lurantis",
-      },
-    ],
+    chain: [{ species_name: "fomantis" }, { species_name: "lurantis" }],
   },
   {
     id: 755,
@@ -12691,14 +8253,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/755.png",
-    chain: [
-      {
-        species_name: "morelull",
-      },
-      {
-        species_name: "shiinotic",
-      },
-    ],
+    chain: [{ species_name: "morelull" }, { species_name: "shiinotic" }],
   },
   {
     id: 756,
@@ -12708,14 +8263,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/756.png",
-    chain: [
-      {
-        species_name: "morelull",
-      },
-      {
-        species_name: "shiinotic",
-      },
-    ],
+    chain: [{ species_name: "morelull" }, { species_name: "shiinotic" }],
   },
   {
     id: 757,
@@ -12725,14 +8273,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/757.png",
-    chain: [
-      {
-        species_name: "salandit",
-      },
-      {
-        species_name: "salazzle",
-      },
-    ],
+    chain: [{ species_name: "salandit" }, { species_name: "salazzle" }],
   },
   {
     id: 758,
@@ -12742,14 +8283,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png",
-    chain: [
-      {
-        species_name: "salandit",
-      },
-      {
-        species_name: "salazzle",
-      },
-    ],
+    chain: [{ species_name: "salandit" }, { species_name: "salazzle" }],
   },
   {
     id: 759,
@@ -12759,14 +8293,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/759.png",
-    chain: [
-      {
-        species_name: "stufful",
-      },
-      {
-        species_name: "bewear",
-      },
-    ],
+    chain: [{ species_name: "stufful" }, { species_name: "bewear" }],
   },
   {
     id: 760,
@@ -12776,14 +8303,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/760.png",
-    chain: [
-      {
-        species_name: "stufful",
-      },
-      {
-        species_name: "bewear",
-      },
-    ],
+    chain: [{ species_name: "stufful" }, { species_name: "bewear" }],
   },
   {
     id: 761,
@@ -12794,15 +8314,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png",
     chain: [
-      {
-        species_name: "bounsweet",
-      },
-      {
-        species_name: "steenee",
-      },
-      {
-        species_name: "tsareena",
-      },
+      { species_name: "bounsweet" },
+      { species_name: "steenee" },
+      { species_name: "tsareena" },
     ],
   },
   {
@@ -12814,15 +8328,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/762.png",
     chain: [
-      {
-        species_name: "bounsweet",
-      },
-      {
-        species_name: "steenee",
-      },
-      {
-        species_name: "tsareena",
-      },
+      { species_name: "bounsweet" },
+      { species_name: "steenee" },
+      { species_name: "tsareena" },
     ],
   },
   {
@@ -12834,15 +8342,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png",
     chain: [
-      {
-        species_name: "bounsweet",
-      },
-      {
-        species_name: "steenee",
-      },
-      {
-        species_name: "tsareena",
-      },
+      { species_name: "bounsweet" },
+      { species_name: "steenee" },
+      { species_name: "tsareena" },
     ],
   },
   {
@@ -12853,11 +8355,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/764.png",
-    chain: [
-      {
-        species_name: "comfey",
-      },
-    ],
+    chain: [{ species_name: "comfey" }],
   },
   {
     id: 765,
@@ -12867,11 +8365,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/765.png",
-    chain: [
-      {
-        species_name: "oranguru",
-      },
-    ],
+    chain: [{ species_name: "oranguru" }],
   },
   {
     id: 766,
@@ -12881,11 +8375,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
-    chain: [
-      {
-        species_name: "passimian",
-      },
-    ],
+    chain: [{ species_name: "passimian" }],
   },
   {
     id: 767,
@@ -12895,14 +8385,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/767.png",
-    chain: [
-      {
-        species_name: "wimpod",
-      },
-      {
-        species_name: "golisopod",
-      },
-    ],
+    chain: [{ species_name: "wimpod" }, { species_name: "golisopod" }],
   },
   {
     id: 768,
@@ -12912,14 +8395,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/768.png",
-    chain: [
-      {
-        species_name: "wimpod",
-      },
-      {
-        species_name: "golisopod",
-      },
-    ],
+    chain: [{ species_name: "wimpod" }, { species_name: "golisopod" }],
   },
   {
     id: 769,
@@ -12929,14 +8405,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/769.png",
-    chain: [
-      {
-        species_name: "sandygast",
-      },
-      {
-        species_name: "palossand",
-      },
-    ],
+    chain: [{ species_name: "sandygast" }, { species_name: "palossand" }],
   },
   {
     id: 770,
@@ -12946,14 +8415,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/770.png",
-    chain: [
-      {
-        species_name: "sandygast",
-      },
-      {
-        species_name: "palossand",
-      },
-    ],
+    chain: [{ species_name: "sandygast" }, { species_name: "palossand" }],
   },
   {
     id: 771,
@@ -12963,11 +8425,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/771.png",
-    chain: [
-      {
-        species_name: "pyukumuku",
-      },
-    ],
+    chain: [{ species_name: "pyukumuku" }],
   },
   {
     id: 772,
@@ -12977,14 +8435,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/772.png",
-    chain: [
-      {
-        species_name: "type-null",
-      },
-      {
-        species_name: "silvally",
-      },
-    ],
+    chain: [{ species_name: "type-null" }, { species_name: "silvally" }],
   },
   {
     id: 773,
@@ -12994,14 +8445,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
-    chain: [
-      {
-        species_name: "type-null",
-      },
-      {
-        species_name: "silvally",
-      },
-    ],
+    chain: [{ species_name: "type-null" }, { species_name: "silvally" }],
   },
   {
     id: 775,
@@ -13011,11 +8455,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/775.png",
-    chain: [
-      {
-        species_name: "komala",
-      },
-    ],
+    chain: [{ species_name: "komala" }],
   },
   {
     id: 776,
@@ -13025,11 +8465,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/776.png",
-    chain: [
-      {
-        species_name: "turtonator",
-      },
-    ],
+    chain: [{ species_name: "turtonator" }],
   },
   {
     id: 777,
@@ -13039,11 +8475,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/777.png",
-    chain: [
-      {
-        species_name: "togedemaru",
-      },
-    ],
+    chain: [{ species_name: "togedemaru" }],
   },
   {
     id: 779,
@@ -13053,11 +8485,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/779.png",
-    chain: [
-      {
-        species_name: "bruxish",
-      },
-    ],
+    chain: [{ species_name: "bruxish" }],
   },
   {
     id: 780,
@@ -13067,11 +8495,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
-    chain: [
-      {
-        species_name: "drampa",
-      },
-    ],
+    chain: [{ species_name: "drampa" }],
   },
   {
     id: 781,
@@ -13081,11 +8505,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/781.png",
-    chain: [
-      {
-        species_name: "dhelmise",
-      },
-    ],
+    chain: [{ species_name: "dhelmise" }],
   },
   {
     id: 782,
@@ -13096,15 +8516,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/782.png",
     chain: [
-      {
-        species_name: "jangmo-o",
-      },
-      {
-        species_name: "hakamo-o",
-      },
-      {
-        species_name: "kommo-o",
-      },
+      { species_name: "jangmo-o" },
+      { species_name: "hakamo-o" },
+      { species_name: "kommo-o" },
     ],
   },
   {
@@ -13116,15 +8530,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/783.png",
     chain: [
-      {
-        species_name: "jangmo-o",
-      },
-      {
-        species_name: "hakamo-o",
-      },
-      {
-        species_name: "kommo-o",
-      },
+      { species_name: "jangmo-o" },
+      { species_name: "hakamo-o" },
+      { species_name: "kommo-o" },
     ],
   },
   {
@@ -13136,15 +8544,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png",
     chain: [
-      {
-        species_name: "jangmo-o",
-      },
-      {
-        species_name: "hakamo-o",
-      },
-      {
-        species_name: "kommo-o",
-      },
+      { species_name: "jangmo-o" },
+      { species_name: "hakamo-o" },
+      { species_name: "kommo-o" },
     ],
   },
   {
@@ -13155,11 +8557,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
-    chain: [
-      {
-        species_name: "tapu-koko",
-      },
-    ],
+    chain: [{ species_name: "tapu-koko" }],
   },
   {
     id: 786,
@@ -13169,11 +8567,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
-    chain: [
-      {
-        species_name: "tapu-lele",
-      },
-    ],
+    chain: [{ species_name: "tapu-lele" }],
   },
   {
     id: 787,
@@ -13183,11 +8577,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png",
-    chain: [
-      {
-        species_name: "tapu-bulu",
-      },
-    ],
+    chain: [{ species_name: "tapu-bulu" }],
   },
   {
     id: 788,
@@ -13197,11 +8587,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png",
-    chain: [
-      {
-        species_name: "tapu-fini",
-      },
-    ],
+    chain: [{ species_name: "tapu-fini" }],
   },
   {
     id: 789,
@@ -13212,15 +8598,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
     chain: [
-      {
-        species_name: "cosmog",
-      },
-      {
-        species_name: "cosmoem",
-      },
-      {
-        species_name: "solgaleo",
-      },
+      { species_name: "cosmog" },
+      { species_name: "cosmoem" },
+      { species_name: "solgaleo" },
     ],
   },
   {
@@ -13232,15 +8612,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
     chain: [
-      {
-        species_name: "cosmog",
-      },
-      {
-        species_name: "cosmoem",
-      },
-      {
-        species_name: "solgaleo",
-      },
+      { species_name: "cosmog" },
+      { species_name: "cosmoem" },
+      { species_name: "solgaleo" },
     ],
   },
   {
@@ -13252,15 +8626,9 @@ let POKEMONS = [
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
     chain: [
-      {
-        species_name: "cosmog",
-      },
-      {
-        species_name: "cosmoem",
-      },
-      {
-        species_name: "solgaleo",
-      },
+      { species_name: "cosmog" },
+      { species_name: "cosmoem" },
+      { species_name: "solgaleo" },
     ],
   },
   {
@@ -13271,11 +8639,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
-    chain: [
-      {
-        species_name: "nihilego",
-      },
-    ],
+    chain: [{ species_name: "nihilego" }],
   },
   {
     id: 794,
@@ -13285,11 +8649,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png",
-    chain: [
-      {
-        species_name: "buzzwole",
-      },
-    ],
+    chain: [{ species_name: "buzzwole" }],
   },
   {
     id: 795,
@@ -13299,11 +8659,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
-    chain: [
-      {
-        species_name: "pheromosa",
-      },
-    ],
+    chain: [{ species_name: "pheromosa" }],
   },
   {
     id: 796,
@@ -13313,11 +8669,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
-    chain: [
-      {
-        species_name: "xurkitree",
-      },
-    ],
+    chain: [{ species_name: "xurkitree" }],
   },
   {
     id: 797,
@@ -13327,11 +8679,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png",
-    chain: [
-      {
-        species_name: "celesteela",
-      },
-    ],
+    chain: [{ species_name: "celesteela" }],
   },
   {
     id: 798,
@@ -13341,11 +8689,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
-    chain: [
-      {
-        species_name: "kartana",
-      },
-    ],
+    chain: [{ species_name: "kartana" }],
   },
   {
     id: 799,
@@ -13355,11 +8699,7 @@ let POKEMONS = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
     imageHQ:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/799.png",
-    chain: [
-      {
-        species_name: "guzzlord",
-      },
-    ],
+    chain: [{ species_name: "guzzlord" }],
   },
 ];
 export default POKEMONS;

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Abilities = (props) => {
-  const abilities = props?.abilities;
+  const { abilities } = props;
 
   return (
     <div className="abilities">

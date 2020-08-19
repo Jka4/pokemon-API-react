@@ -1,14 +1,14 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Loader from "react-loader-spinner";
-import * as _ from "lodash";
+import find from "lodash.find";
 
 import { setDelailedPageData } from "@APIutils";
-import pokemonDataArray from "@pokemonDataArray";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
 const EvolutionForms = (props) => {
+  const { pokemonsArr } = props;
   const chainNames = props?.evolutionChain?.chain;
   const currentPokemon = props?.currentPokemon;
   const [chain, setChain] = useState();
@@ -18,18 +18,15 @@ const EvolutionForms = (props) => {
 
     chainNames &&
       chainNames.forEach((index) => {
-        index.image = _.find(
-          pokemonDataArray,
+        index.image = find(
+          pokemonsArr,
           (o) => o.name === index.species_name
         ).image;
-        index.id = _.find(
-          pokemonDataArray,
-          (o) => o.name === index.species_name
-        ).id;
+        index.id = find(pokemonsArr, (o) => o.name === index.species_name).id;
         arr.push(index);
       });
     setChain(arr);
-  }, [chainNames]);
+  }, [chainNames, pokemonsArr]);
 
   return (
     <>

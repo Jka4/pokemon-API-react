@@ -4,7 +4,9 @@ import ErrorBoundary from "@ErrorBoundary";
 
 const ImageContainer = (props) => {
   const ImageWrapper = (props) => {
-    const { url, cn } = props.props;
+    const {
+      props: { url, cn },
+    } = props;
     const { src } = useImage({
       srcList: url,
     });

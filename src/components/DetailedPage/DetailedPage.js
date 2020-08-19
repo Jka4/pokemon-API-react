@@ -6,10 +6,8 @@ import Stats from "@Stats";
 import Abilities from "@Abilities";
 import EvolutionForms from "@EvolutionForms";
 
-import pokemonDataArray from "@pokemonDataArray";
-
 import store from "@Store";
-import * as _ from "lodash";
+import find from "lodash.find";
 
 import "./styles/style.scss";
 
@@ -17,14 +15,17 @@ const ImageContainer = lazy(() => import("@ImageContainer"));
 
 const DetailedPage = (props) => {
   const data = props.detailsPageTest || props.detailsPage;
-  const { abilities, stats, weight } = props.detailsPage;
   const { sprites, name } = data;
+  const {
+    detailsPage: { abilities, stats, weight },
+    pokemonsArr,
+  } = props;
   const [evolutionChain, setEvolutionChain] = useState();
 
   useEffect(() => {
-    let pokemonObj = _.find(pokemonDataArray, (o) => o.name === data.name);
+    let pokemonObj = find(pokemonsArr, (o) => o.name === data.name);
     pokemonObj && setEvolutionChain(pokemonObj);
-  }, [data]);
+  }, [data, pokemonsArr]);
 
   return (
     <>
@@ -75,7 +76,11 @@ const DetailedPage = (props) => {
             )}
           </div>
         </div>
-        <EvolutionForms evolutionChain={evolutionChain} currentPokemon={name} />
+        <EvolutionForms
+          evolutionChain={evolutionChain}
+          currentPokemon={name}
+          pokemonsArr={pokemonsArr}
+        />
       </div>
     </>
   );
@@ -84,6 +89,7 @@ const DetailedPage = (props) => {
 const ConnectedDetailedPage = connect((store) => {
   return {
     detailsPage: store.detailsPage,
+    pokemonsArr: store.pokemonsArr,
   };
 })(DetailedPage);
 

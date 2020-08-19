@@ -11,7 +11,9 @@ exports[`HeaderLine renders correctly 1`] = `
     onClick={[Function]}
     style={Object {}}
   >
-     Back 
+     
+    Back
+     
   </a>
   <div
     className="player"

@@ -11,30 +11,29 @@ import Logo from "@Logo";
 import "./styles/style.scss";
 
 const MainContainer = (props) => {
-  const dataToRender = props.randomPokemons;
-  const hasDataForRender = dataToRender && dataToRender.length >= 1;
+  const { randomPokemons } = props;
 
   return (
     <section className="main">
       <Logo />
       <GetButton />
-      {hasDataForRender && <Heading />}
+      {randomPokemons.length >= 1 && <Heading />}
 
       <div className="itemList">
         <div className="cardsContainer">
-          {dataToRender &&
-            dataToRender.map((i, key) => (
+          {randomPokemons &&
+            randomPokemons.map((i, key) => (
               <PokemonCard
                 key={
-                  dataToRender[key].id +
+                  randomPokemons[key].id +
                   key +
                   Math.floor(1 + Math.random() * 9999999999)
                 }
-                id={dataToRender[key]?.id}
-                src={dataToRender[key]?.sprites?.front_default}
-                name={dataToRender[key]?.name}
-                order={dataToRender[key]?.order}
-                base_experience={dataToRender[key]?.base_experience}
+                id={randomPokemons[key]?.id}
+                src={randomPokemons[key]?.sprites?.front_default}
+                name={randomPokemons[key]?.name}
+                order={randomPokemons[key]?.order}
+                base_experience={randomPokemons[key]?.base_experience}
                 onClick={setDelailedPageData}
               />
             ))}

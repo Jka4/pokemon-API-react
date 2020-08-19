@@ -13,7 +13,12 @@ const HeaderLine = (props) => {
     store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
   };
 
-  const isMainPage = props?.props?.location?.pathname === "/";
+  const {
+    props: {
+      location: { pathname },
+    },
+  } = props;
+  const isMainPage = pathname === "/";
 
   return (
     <div className="topLine">
@@ -23,8 +28,7 @@ const HeaderLine = (props) => {
           className="backToMainPage"
           onClick={clearDetailPageData}
         >
-          {" "}
-          Back{" "}
+          Back
         </NavLink>
       )}
 
