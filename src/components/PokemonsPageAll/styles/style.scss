@@ -174,3 +174,17 @@ body {
     }
   }
 }
+
+.pokemonImageCard {
+  animation: 0.1s linear 0s deBlur;
+}
+
+@keyframes deBlur {
+  from {
+    filter: blur(8px);
+  }
+
+  to {
+    filter: blur(0px);
+  }
+}

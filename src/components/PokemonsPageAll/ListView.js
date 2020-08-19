@@ -61,7 +61,7 @@ const ListView = (props) => {
                     />
                   }
                 >
-                  <ImageContainer url={index?.imageHQ} />
+                  <ImageContainer url={index?.imageHQ} cn="pokemonImageCard" />
                 </Suspense>
               </div>
               <div className="pokemonName">{index?.name}</div>
