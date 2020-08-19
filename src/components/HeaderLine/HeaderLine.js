@@ -9,16 +9,7 @@ import Player from "@Player";
 import "./styles/style.scss";
 
 const HeaderLine = (props) => {
-  const clearDetailPageData = () => {
-    store.dispatch({ type: "CLEAR_DETAILS_PAGE" });
-  };
-
-  const {
-    props: {
-      location: { pathname },
-    },
-  } = props;
-  const isMainPage = pathname === "/";
+  const isMainPage = props?.props?.location?.pathname === "/";
 
   return (
     <div className="topLine">
@@ -26,7 +17,7 @@ const HeaderLine = (props) => {
         <NavLink
           to="/"
           className="backToMainPage"
-          onClick={clearDetailPageData}
+          onClick={() => store.dispatch({ type: "CLEAR_DETAILS_PAGE" })}
         >
           Back
         </NavLink>

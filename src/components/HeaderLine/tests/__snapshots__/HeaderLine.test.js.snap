@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeaderLine renders correctly 1`] = `
+exports[`HeaderLine HeaderLine renders correctly 1`] = `
 <div
   className="topLine"
 >
@@ -11,9 +11,7 @@ exports[`HeaderLine renders correctly 1`] = `
     onClick={[Function]}
     style={Object {}}
   >
-     
     Back
-     
   </a>
   <div
     className="player"

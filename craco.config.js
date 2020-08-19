@@ -3,9 +3,9 @@ const CracoAlias = require("craco-alias");
 const pathConfig = {
 	"@App": "./src/components/App/view/index",
 	"@Store": "./src/Store/store.js",
-	"@APIutils": "./src/components/utils/API",
-	"@ErrorBoundary": "./src/components/utils/ErrorBoundary",
-	"@pokemonDataArray": "./src/components/utils/pokemonDataArray",
+	"@APIutils": "./src/utils/API",
+	"@ErrorBoundary": "./src/utils/ErrorBoundary",
+	"@pokemonDataArray": "./src/utils/pokemonDataArray",
 	"@ImageContainer": "./src/components/ImageContainer/ImageContainer",
 	"@MainContainer": "./src/components/MainContainer/MainContainer",
 	"@HeaderLine": "./src/components/HeaderLine/HeaderLine",

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GetButton renders correctly 1`] = `
+exports[`GetButton GetButton renders correctly 1`] = `
 <div
   className="Button"
 >

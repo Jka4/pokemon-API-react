@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MainContainer renders correctly 1`] = `
+exports[`MainContainer MainContainer renders correctly 1`] = `
 <section
   className="main"
 >

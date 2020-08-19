@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Player renders correctly 1`] = `
+exports[`Player Player renders correctly 1`] = `
 <div
   className="player"
 >

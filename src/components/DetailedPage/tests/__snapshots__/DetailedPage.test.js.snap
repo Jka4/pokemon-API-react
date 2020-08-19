@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DetailedPage renders correctly 1`] = `
+exports[`DetailedPage DetailedPage renders correctly 1`] = `
 <div
   className="detailedPage"
   data-testid="detailedPageTest"
