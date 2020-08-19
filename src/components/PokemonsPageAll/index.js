@@ -7,7 +7,7 @@ import CatalogView from "@CatalogView";
 
 const PokemonsPageAll = (props) => {
   const { pokemonDataArray } = props;
-  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(true);
+  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(false);
 
   return (
     <>

@@ -1,6 +1,5 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Loader from "react-loader-spinner";
 
 import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
@@ -28,7 +27,6 @@ const ListView = (props) => {
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
       arr.push(pokemonDataArray[i]);
     }
-
     setPokemons((pokemons) => [...pokemons, ...arr]);
     setPokemonCount(pokemons.length + howMuchToDownload);
   };
@@ -56,11 +54,10 @@ const ListView = (props) => {
               <div className="pokemonLogo">
                 <Suspense
                   fallback={
-                    <Loader
-                      type="TailSpin"
-                      height={90}
-                      width={110}
-                      color={"red"}
+                    <img
+                      src={index?.placeholderBase64}
+                      className="placeholderBase64"
+                      alt="placeholderBase64"
                     />
                   }
                 >

@@ -9,6 +9,15 @@
   align-items: center;
 }
 
+.placeholderBase64 {
+  filter: blur(8px);
+  width: 400px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .evolutionForms {
   width: 100%;
   display: flex;

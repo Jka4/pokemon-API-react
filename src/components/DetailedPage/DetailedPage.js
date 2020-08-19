@@ -63,11 +63,10 @@ const DetailedPage = (props) => {
             {evolutionChain?.imageHQ && (
               <Suspense
                 fallback={
-                  <Loader
-                    type="TailSpin"
-                    height={320}
-                    width={320}
-                    color={"red"}
+                  <img
+                    src={evolutionChain?.placeholderBase64}
+                    className="placeholderBase64"
+                    alt=""
                   />
                 }
               >
