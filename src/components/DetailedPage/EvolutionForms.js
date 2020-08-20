@@ -11,7 +11,7 @@ const EvolutionForms = (props) => {
   const { pokemonsArr } = props;
   const chainNames = props?.evolutionChain?.chain;
   const currentPokemon = props?.currentPokemon;
-  const [chain, setChain] = useState();
+  const [chain, setChain] = useState([]);
 
   useEffect(() => {
     let arr = [];
@@ -23,6 +23,10 @@ const EvolutionForms = (props) => {
           (o) => o.name === index.species_name
         ).image;
         index.id = find(pokemonsArr, (o) => o.name === index.species_name).id;
+        index.placeholderBase64 = find(
+          pokemonsArr,
+          (o) => o.name === index.species_name
+        ).placeholderBase64;
         arr.push(index);
       });
     setChain(arr);
@@ -46,17 +50,14 @@ const EvolutionForms = (props) => {
             >
               <Suspense
                 fallback={
-                  <Loader
-                    type="TailSpin"
-                    height={96}
-                    width={96}
-                    color={"red"}
+                  <img
+                    src={index.placeholderBase64}
+                    className="evoFormImg placeholderBase64"
                   />
                 }
               >
-                <ImageContainer url={index.image} />
+                <ImageContainer url={index.image} cn={"evoFormImg"} />
               </Suspense>
-
               <div className="pokemonName">{index.species_name}</div>
             </NavLink>
           ))}
