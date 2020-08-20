@@ -1,6 +1,5 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Loader from "react-loader-spinner";
 
 import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
@@ -28,7 +27,6 @@ const ListView = (props) => {
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
       arr.push(pokemonDataArray[i]);
     }
-
     setPokemons((pokemons) => [...pokemons, ...arr]);
     setPokemonCount(pokemons.length + howMuchToDownload);
   };
@@ -40,7 +38,7 @@ const ListView = (props) => {
           pageStart={1}
           dataLength={pokemons.length}
           next={fetchPokemons}
-          hasMore={pokemons.length < 806}
+          hasMore={pokemons.length < 758}
           loader={<h4>Loading...</h4>}
           className="allPokemonsWrapper"
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
@@ -56,15 +54,17 @@ const ListView = (props) => {
               <div className="pokemonLogo">
                 <Suspense
                   fallback={
-                    <Loader
-                      type="TailSpin"
-                      height={90}
-                      width={110}
-                      color={"red"}
+                    <img
+                      src={index?.placeholderBase64 || index?.image}
+                      className="placeholderBase64"
+                      alt="placeholderBase64"
                     />
                   }
                 >
-                  <ImageContainer url={index?.imageHQ} />
+                  <ImageContainer
+                    url={index?.imageHQ || index?.image}
+                    cn="pokemonImageCard"
+                  />
                 </Suspense>
               </div>
               <div className="pokemonName">{index?.name}</div>
