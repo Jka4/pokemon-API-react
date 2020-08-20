@@ -17,6 +17,8 @@ describe("PokemonCardFetch", () => {
   };
 
   test("Fetch makes an API call", async () => {
+    getRandomPokemon(1);
+
     render(<PokemonCardFetch />);
     const greetingNode = await screen.findByTestId("testId");
     expect(greetingNode).toHaveTextContent("bulbasaur");
