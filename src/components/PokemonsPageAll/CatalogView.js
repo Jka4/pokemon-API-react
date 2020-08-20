@@ -1,9 +1,11 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import "react-tippy/dist/tippy.css";
 import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
 
 import "./styles/style.scss";
+
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 const CatalogView = (props) => {
   const { pokemonDataArray } = props;
@@ -18,7 +20,18 @@ const CatalogView = (props) => {
             onClick={setDelailedPageData}
             key={key}
           >
-            <img loading="lazy" src={index?.image} alt="" tabIndex={key} />
+            <Suspense
+              fallback={
+                <img
+                  loading="lazy"
+                  src={index?.placeholderBase64 || index?.image}
+                  className="placeholderBase64"
+                  alt="placeholderBase64"
+                />
+              }
+            >
+              <ImageContainer url={index?.image} cn="pokemonImageCard" />
+            </Suspense>
           </NavLink>
         </React.Fragment>
       ))}

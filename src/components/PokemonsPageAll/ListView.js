@@ -38,7 +38,7 @@ const ListView = (props) => {
           pageStart={1}
           dataLength={pokemons.length}
           next={fetchPokemons}
-          hasMore={pokemons.length < 806}
+          hasMore={pokemons.length < 758}
           loader={<h4>Loading...</h4>}
           className="allPokemonsWrapper"
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
@@ -55,13 +55,16 @@ const ListView = (props) => {
                 <Suspense
                   fallback={
                     <img
-                      src={index?.placeholderBase64}
+                      src={index?.placeholderBase64 || index?.image}
                       className="placeholderBase64"
                       alt="placeholderBase64"
                     />
                   }
                 >
-                  <ImageContainer url={index?.imageHQ} cn="pokemonImageCard" />
+                  <ImageContainer
+                    url={index?.imageHQ || index?.image}
+                    cn="pokemonImageCard"
+                  />
                 </Suspense>
               </div>
               <div className="pokemonName">{index?.name}</div>
