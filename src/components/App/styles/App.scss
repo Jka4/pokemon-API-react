@@ -129,78 +129,12 @@ li {
   height: 100%;
 }
 
-.pokemonCard:hover {
-  transform: scale(1.02);
-}
+// .pokemonCard:hover {
+//   transform: scale(1.02);
+// }
 
 .pokemonCard:hover img {
   transform: scale(1.06);
-}
-
-.topLine {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 100px;
-}
-
-.playButton {
-  display: flex;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  outline-style: none;
-  border: 3px solid black;
-  border-radius: 7px;
-  background: red;
-  cursor: pointer;
-  width: 90px;
-  height: 40px;
-  text-align: center;
-  color: white;
-  font-size: 29px;
-  z-index: 2;
-  max-height: 40px;
-}
-
-.search {
-  display: flex;
-  position: absolute;
-  top: 10px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  justify-self: center;
-  width: auto;
-  height: auto;
-}
-
-.search input {
-  justify-self: center;
-  z-index: 10;
-  outline: none;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding-left: 20px;
-  width: 30rem;
-  max-width: 450px;
-  height: 2.4rem;
-  font-size: 1rem;
-}
-
-#searchInput::placeholder {
-  font-size: 1.2rem;
-}
-
-#searchInput:focus {
-  border: 1px transparent solid;
-  padding-top: 2px;
-  padding-bottom: 2px;
 }
 
 .searchResults {
@@ -362,8 +296,8 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  border: 1px solid black;
-  border-radius: 0.7rem;
+  // border: 1px solid black;
+  // border-radius: 0.7rem;
   background: #6cff79;
   cursor: default;
   padding: 1rem;
@@ -433,7 +367,7 @@ li {
   margin-left: 0;
   border: 1px solid black;
   border-radius: 0.7rem;
-  background: #53aeff;
+  background-color: #53aeff !important;
   padding: 25px;
   padding-left: 15px;
 }
@@ -446,7 +380,7 @@ li {
   margin-left: 0;
   border: 1px solid black;
   border-radius: 0.7rem;
-  background: #53aeff;
+  background-color: #53aeff !important;
   padding: 25px;
   padding-left: 15px;
 }
@@ -531,25 +465,25 @@ a {
     margin: 0;
   }
 
-  .search {
-    top: 15px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-items: flex-start;
-    padding-right: 25px;
-  }
+  // .search {
+  //   top: 15px;
+  //   width: 100%;
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-items: flex-start;
+  //   padding-right: 25px;
+  // }
 
-  .search input {
-    width: 70%;
-    font-size: 1.4rem;
-    margin-right: 0;
-    margin-left: auto;
-  }
+  // .search input {
+  //   width: 70%;
+  //   font-size: 1.4rem;
+  //   margin-right: 0;
+  //   margin-left: auto;
+  // }
 
-  #searchInput::placeholder {
-    font-size: 1.4rem;
-  }
+  // #searchInput::placeholder {
+  //   font-size: 1.4rem;
+  // }
 
   .searchResults {
     position: absolute;
@@ -580,7 +514,9 @@ a {
     width: 100%;
   }
 
-  .main ul {
+  .main,
+  .statsUL,
+  .abilitiesUL {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -754,5 +690,63 @@ a {
 
   .description {
     font-size: 24px;
+  }
+}
+
+.buttonsRow {
+  display: inline-flex;
+
+  button {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+
+.Button {
+  button {
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+}
+
+.clearBtn {
+  margin-left: 10px !important;
+}
+
+.toHome {
+  min-height: 40px;
+}
+
+#getPokemons {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.topLine {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 70px;
+  padding-left: 20px;
+  background: red;
+
+  .search {
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    background: blue;
+
+    #searchInput {
+      width: 30rem;
+      max-width: 450px;
+      padding-left: 20px;
+      position: absolute;
+      top: 15px;
+      left: calc(50% - 220px);
+    }
   }
 }

@@ -1,11 +1,12 @@
 import React from "react";
+import Paper from "@material-ui/core/Paper";
 
 const Abilities = (props) => {
   const { abilities } = props;
 
   return (
     <div className="abilities">
-      <ul className="abilitiesUL">
+      <Paper elevation={3} className="abilitiesUL">
         <div className="skills_title">Abilities</div>
 
         {abilities &&
@@ -14,7 +15,7 @@ const Abilities = (props) => {
               {key + 1}: {i.ability.name}
             </li>
           ))}
-      </ul>
+      </Paper>
     </div>
   );
 };

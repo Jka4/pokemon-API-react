@@ -1,5 +1,6 @@
 import React from "react";
 import useSound from "use-sound";
+import { Button } from "@material-ui/core";
 
 import "./styles/style.scss";
 
@@ -15,9 +16,14 @@ const Player = (props) => {
 
   return (
     <div className="player">
-      <button className="playButton" onClick={playPause}>
+      <Button
+        onClick={playPause}
+        className="playButton"
+        variant="contained"
+        color="secondary"
+      >
         {isPlaying ? "PAUSE" : "PLAY"}
-      </button>
+      </Button>
     </div>
   );
 };

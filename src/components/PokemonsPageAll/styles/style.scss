@@ -104,12 +104,6 @@
     height: calc(100vh / 20);
     min-height: 65px;
     max-height: 65px;
-
-    &:hover {
-      transform: scale(1.1);
-      background: rgba(255, 255, 0, 1);
-      cursor: pointer;
-    }
   }
 
   div,
