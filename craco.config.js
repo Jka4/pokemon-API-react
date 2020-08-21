@@ -7,7 +7,7 @@ const pathConfig = {
 	"@ErrorBoundary": "./src/utils/ErrorBoundary",
 	"@pokemonDataArray": "./src/utils/pokemonDataArray",
 	"@ImageContainer": "./src/components/ImageContainer/ImageContainer",
-	"@MainContainer": "./src/components/MainContainer/MainContainer",
+	"@MainContainer": "./src/components/MainContainer/mainContainer",
 	"@HeaderLine": "./src/components/HeaderLine/HeaderLine",
 	"@Search": "./src/components/Search/Search",
 	"@DetailedPage": "./src/components/DetailedPage/DetailedPage",

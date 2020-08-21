@@ -1,6 +1,5 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Loader from "react-loader-spinner";
 import find from "lodash.find";
 
 import { setDelailedPageData } from "@APIutils";
@@ -53,6 +52,7 @@ const EvolutionForms = (props) => {
                   <img
                     src={index.placeholderBase64}
                     className="evoFormImg placeholderBase64"
+                    alt="placeholderBase64"
                   />
                 }
               >
