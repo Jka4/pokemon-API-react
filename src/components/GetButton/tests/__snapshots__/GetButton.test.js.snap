@@ -9,7 +9,6 @@ exports[`GetButton GetButton renders correctly 1`] = `
     href="/allPokemons/"
     onClick={[Function]}
   >
-     
     <button
       className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
       disabled={false}
@@ -57,9 +56,7 @@ exports[`GetButton GetButton renders correctly 1`] = `
     <span
       className="MuiButton-label"
     >
-       
       CLEAR
-       
     </span>
   </button>
   <span
@@ -87,9 +84,7 @@ exports[`GetButton GetButton renders correctly 1`] = `
       <span
         className="MuiButton-label"
       >
-         
         GET A RANDOM POKEMON
-         
         <span
           className="MuiButton-endIcon MuiButton-iconSizeMedium"
         >

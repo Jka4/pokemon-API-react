@@ -99,6 +99,9 @@ exports[`HeaderLine HeaderLine renders correctly 1`] = `
       placeholder="Pickachu, 123, 900g"
       type="search"
     />
+    <div
+      className="searchResults"
+    />
   </div>
   <span />
 </header>
