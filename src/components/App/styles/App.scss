@@ -739,15 +739,16 @@ a {
     // width: 100%;
     display: flex;
     justify-content: center;
-    background: blue;
+    flex-direction: column;
+    width: 30rem;
+    max-width: 450px;
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 220px);
 
     #searchInput {
-      width: 30rem;
-      max-width: 450px;
-      padding-left: 20px;
-      position: absolute;
-      top: 15px;
-      left: calc(50% - 220px);
+      width: 100%;
+      padding-left: 15px;
     }
   }
 }

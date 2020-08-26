@@ -69,8 +69,8 @@ const Search = (props) => {
         aria-label="Search"
       />
 
-      {showResult && (
-        <div className="searchResults">
+      <div className="searchResults">
+        {showResult && (
           <ul className="searchList">
             {searchResult.map((i, key) => (
               <NavLink
@@ -105,8 +105,8 @@ const Search = (props) => {
               </NavLink>
             ))}
           </ul>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
