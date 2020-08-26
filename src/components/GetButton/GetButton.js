@@ -1,11 +1,14 @@
 import React from "react";
-import store from "@Store";
-import { getRandomPokemon } from "@APIutils";
+import { Provider, connect } from "react-redux";
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
+
 import { Button } from "@material-ui/core";
 import Badge from "@material-ui/core/Badge";
-import { Provider, connect } from "react-redux";
 import CasinoIcon from "@material-ui/icons/Casino";
+
+import { getRandomPokemon } from "@APIutils";
+import store from "@Store";
 
 import "./styles/style.scss";
 
@@ -19,7 +22,6 @@ const GetButton = (props) => {
   return (
     <div className="Button">
       <NavLink to={`/allPokemons/`}>
-        {" "}
         <Button variant="contained" color="secondary">
           {" "}
           GET ALL POKEMON{" "}
@@ -32,8 +34,7 @@ const GetButton = (props) => {
         variant="contained"
         color="secondary"
       >
-        {" "}
-        CLEAR{" "}
+        CLEAR
       </Button>
 
       <Badge color="secondary" badgeContent={randomPokemons.length}>
@@ -44,8 +45,7 @@ const GetButton = (props) => {
           color="secondary"
           endIcon={<CasinoIcon />}
         >
-          {" "}
-          GET A RANDOM POKEMON{" "}
+          GET A RANDOM POKEMON
         </Button>
       </Badge>
     </div>
@@ -63,3 +63,7 @@ export default (props) => (
     <ConnectedGetButton {...props} />
   </Provider>
 );
+
+GetButton.propTypes = {
+  randomPokemons: PropTypes.array,
+};

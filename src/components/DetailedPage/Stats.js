@@ -1,5 +1,6 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
+import PropTypes from "prop-types";
 
 const Stats = (props) => {
   const { stats, weight } = props;
@@ -21,3 +22,8 @@ const Stats = (props) => {
 };
 
 export default Stats;
+
+Stats.propTypes = {
+  stats: PropTypes.array,
+  weight: PropTypes.number,
+};

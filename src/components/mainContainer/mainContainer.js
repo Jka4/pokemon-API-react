@@ -1,5 +1,7 @@
 import React from "react";
 import { Provider, connect } from "react-redux";
+import PropTypes from "prop-types";
+
 import store from "@Store";
 
 import GetButton from "@GetButton";
@@ -54,3 +56,7 @@ export default (props) => (
     <ConnectedMainContainer {...props} />
   </Provider>
 );
+
+MainContainer.propTypes = {
+  randomPokemons: PropTypes.array,
+};

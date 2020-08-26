@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
+import PropTypes from "prop-types";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
@@ -46,3 +47,12 @@ const PokemonCard = (props) => {
 };
 
 export default PokemonCard;
+
+PokemonCard.propTypes = {
+  src: PropTypes.string,
+  name: PropTypes.string,
+  order: PropTypes.number,
+  base_experience: PropTypes.number,
+  id: PropTypes.number,
+  onClick: PropTypes.func,
+};

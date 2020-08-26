@@ -1,8 +1,10 @@
 import React, { Suspense, lazy } from "react";
-import "react-tippy/dist/tippy.css";
-import { setDelailedPageData } from "@APIutils";
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
+import { setDelailedPageData } from "@APIutils";
+
+import "react-tippy/dist/tippy.css";
 import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
@@ -39,4 +41,8 @@ const CatalogView = (props) => {
   );
 };
 
-export default React.memo(CatalogView);
+export default CatalogView;
+
+CatalogView.propTypes = {
+  pokemonDataArray: PropTypes.array,
+};

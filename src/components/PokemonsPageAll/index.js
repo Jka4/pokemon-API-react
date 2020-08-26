@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Provider, connect } from "react-redux";
+import PropTypes from "prop-types";
 
 import store from "@Store";
+
 import ListView from "@ListView";
 import CatalogView from "@CatalogView";
+
 import AppsIcon from "@material-ui/icons/Apps";
 import BlurOnOutlinedIcon from "@material-ui/icons/BlurOnOutlined";
 
@@ -19,17 +22,23 @@ const PokemonsPageAll = (props) => {
             className="innerBlock"
             onClick={() => setViewTypeIsCatalog(!viewTypeIsCatalog)}
           >
-            <span>View type </span>
-            <span className="separator">|</span>
-
             {!viewTypeIsCatalog ? (
-              <div className="list">
-                <BlurOnOutlinedIcon />
-              </div>
+              <>
+                <span>List view:</span>
+                <span className="separator">|</span>
+                <div className="list">
+                  <BlurOnOutlinedIcon />
+                </div>
+              </>
             ) : (
-              <div className="catalog">
-                <AppsIcon />
-              </div>
+              <>
+                <span>Catalog view:</span>
+                <span className="separator">|</span>
+
+                <div className="catalog">
+                  <AppsIcon />
+                </div>
+              </>
             )}
           </div>
         </div>
@@ -55,3 +64,7 @@ export default (props) => (
     <ConnectedPokemonsPageAll {...props} />
   </Provider>
 );
+
+PokemonsPageAll.propTypes = {
+  pokemonDataArray: PropTypes.array,
+};

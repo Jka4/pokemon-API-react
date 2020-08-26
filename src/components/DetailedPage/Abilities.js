@@ -1,5 +1,6 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
+import PropTypes from "prop-types";
 
 const Abilities = (props) => {
   const { abilities } = props;
@@ -21,3 +22,7 @@ const Abilities = (props) => {
 };
 
 export default Abilities;
+
+Abilities.propTypes = {
+  abilities: PropTypes.array,
+};

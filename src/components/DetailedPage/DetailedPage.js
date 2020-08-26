@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
+import PropTypes from "prop-types";
 
 import Stats from "@Stats";
 import Abilities from "@Abilities";
@@ -61,21 +62,26 @@ const DetailedPage = (props) => {
             <Abilities abilities={abilities} />
           </div>
 
-          <Paper elevation={3} className="bigImage">
-            {evolutionChain?.imageHQ && (
-              <Suspense
-                fallback={
-                  <img
-                    src={evolutionChain?.placeholderBase64}
-                    className="placeholderBase64 bigImage"
-                    alt=""
+          {evolutionChain?.imageHQ && (
+            <Paper elevation={3} className="bigImage">
+              {evolutionChain?.imageHQ && (
+                <Suspense
+                  fallback={
+                    <img
+                      src={evolutionChain?.placeholderBase64}
+                      className="placeholderBase64 bigImage"
+                      alt=""
+                    />
+                  }
+                >
+                  <ImageContainer
+                    url={evolutionChain.imageHQ}
+                    cn={"bigImage"}
                   />
-                }
-              >
-                <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} />
-              </Suspense>
-            )}
-          </Paper>
+                </Suspense>
+              )}
+            </Paper>
+          )}
         </div>
 
         <EvolutionForms
@@ -100,3 +106,8 @@ export default (props) => (
     <ConnectedDetailedPage {...props} />
   </Provider>
 );
+
+DetailedPage.propTypes = {
+  detailsPage: PropTypes.object,
+  pokemonsArr: PropTypes.array,
+};

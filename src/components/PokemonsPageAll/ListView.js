@@ -1,8 +1,10 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
+import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import { setDelailedPageData } from "@APIutils";
-import { NavLink } from "react-router-dom";
+
 import Paper from "@material-ui/core/Paper";
 
 import "./styles/style.scss";
@@ -78,4 +80,8 @@ const ListView = (props) => {
   );
 };
 
-export default React.memo(ListView);
+export default ListView;
+
+ListView.propTypes = {
+  pokemonDataArray: PropTypes.array,
+};
