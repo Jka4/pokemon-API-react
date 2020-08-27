@@ -6,11 +6,10 @@ import PauseCircleFilledIcon from "@material-ui/icons/PauseCircleFilled";
 
 import "./styles/style.scss";
 
-const soundUrl =
-  "https://raw.githubusercontent.com/Jka4/pokemon-API-react/master/public/sound/pokemon_opening.mp3";
-
 const Player = () => {
-  const [play, { stop, isPlaying }] = useSound(soundUrl);
+  const [play, { stop, isPlaying }] = useSound(
+    `${process.env.PUBLIC_URL}/sound/pokemon_opening.mp3`
+  );
 
   const playPause = () => {
     isPlaying ? stop() : play();
