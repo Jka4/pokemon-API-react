@@ -108,6 +108,5 @@ export default (props) => (
 );
 
 DetailedPage.propTypes = {
-  detailsPage: PropTypes.object,
   pokemonsArr: PropTypes.array,
 };
