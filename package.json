@@ -1,15 +1,15 @@
 {
   "name": "pokedex",
-  "version": "0.7.0",
+  "version": "1.4",
   "license": "GPL-3.0",
+  "private": true,
+  "author": "Vladimir Plotnik <plotnik1295@gmail.com>",
   "scripts": {
     "start": "craco start -d",
     "build": "craco build",
-    "test": "craco test --env=jsdom-fourteen",
+    "test": "craco test --env=jsdom-fourteen --coverage",
     "deploy": "craco build && gh-pages -d build",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "docker-build": "docker build -t jka42/pokemon-api .",
-    "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "dependencies": {
     "@craco/craco": "^5.6.4",
