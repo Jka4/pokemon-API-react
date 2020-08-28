@@ -1,19 +1,21 @@
 {
   "name": "pokedex",
-  "version": "0.7.0",
+  "version": "1.4",
   "license": "GPL-3.0",
+  "private": true,
+  "author": "Vladimir Plotnik <plotnik1295@gmail.com>",
   "scripts": {
     "start": "craco start -d",
     "build": "craco build",
-    "test": "craco test --env=jsdom-fourteen",
+    "test": "craco test --env=jsdom-fourteen --coverage",
     "deploy": "craco build && gh-pages -d build",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "docker-build": "docker build -t jka42/pokemon-api .",
-    "docker-run": "docker run -p 8000:3000 -d jka42/pokemon-api"
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "dependencies": {
     "@craco/craco": "^5.6.4",
     "@hot-loader/react-dom": "^16.13.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/react": "^10.4.7",
     "axios": "^0.19.2",
     "cesium": "^1.72.0",
@@ -28,6 +30,7 @@
     "normalize.css": "^8.0.1",
     "prettier": "^2.0.5",
     "pretty": "^2.0.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dev-utils": "^10.0.0",
     "react-dom": "^16.13.1",
@@ -57,8 +60,7 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "eslint:recommended",
-      "google"
+      "eslint:recommended"
     ]
   },
   "browserslist": {

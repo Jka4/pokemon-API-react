@@ -1,8 +1,11 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
+import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import { setDelailedPageData } from "@APIutils";
-import { NavLink } from "react-router-dom";
+
+import Paper from "@material-ui/core/Paper";
 
 import "./styles/style.scss";
 
@@ -46,28 +49,29 @@ const ListView = (props) => {
           {pokemons.map((index, key) => (
             <NavLink
               to={`/detailedPage/pokemon/${index?.name}`}
-              className="smallPokemonCard"
               data-pokemon_id={index?.id}
               onClick={setDelailedPageData}
               key={index + Math.floor(1 + Math.random() * 9999999999)}
             >
-              <div className="pokemonLogo">
-                <Suspense
-                  fallback={
-                    <img
-                      src={index?.placeholderBase64 || index?.image}
-                      className="placeholderBase64"
-                      alt="placeholderBase64"
+              <Paper elevation={3} className="smallPokemonCard">
+                <div className="pokemonLogo">
+                  <Suspense
+                    fallback={
+                      <img
+                        src={index?.placeholderBase64 || index?.image}
+                        className="placeholderBase64"
+                        alt="placeholderBase64"
+                      />
+                    }
+                  >
+                    <ImageContainer
+                      url={index?.imageHQ || index?.image}
+                      cn="pokemonImageCard"
                     />
-                  }
-                >
-                  <ImageContainer
-                    url={index?.imageHQ || index?.image}
-                    cn="pokemonImageCard"
-                  />
-                </Suspense>
-              </div>
-              <div className="pokemonName">{index?.name}</div>
+                  </Suspense>
+                </div>
+                <div className="pokemonName">{index?.name}</div>
+              </Paper>
             </NavLink>
           ))}
         </InfiniteScroll>
@@ -76,4 +80,8 @@ const ListView = (props) => {
   );
 };
 
-export default React.memo(ListView);
+export default ListView;
+
+ListView.propTypes = {
+  pokemonDataArray: PropTypes.array,
+};

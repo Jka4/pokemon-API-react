@@ -1,11 +1,11 @@
 import React, { lazy, Suspense, useState } from "react";
+import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
-
-import { Provider, connect } from "react-redux";
-import store from "@Store";
-
+import PropTypes from "prop-types";
 import Fuse from "fuse.js";
+
+import store from "@Store";
 import { setDelailedPageData } from "@APIutils";
 
 import "./styles/style.scss";
@@ -69,8 +69,8 @@ const Search = (props) => {
         aria-label="Search"
       />
 
-      {showResult && (
-        <div className="searchResults">
+      <div className="searchResults">
+        {showResult && (
           <ul className="searchList">
             {searchResult.map((i, key) => (
               <NavLink
@@ -105,8 +105,8 @@ const Search = (props) => {
               </NavLink>
             ))}
           </ul>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
@@ -122,3 +122,7 @@ export default (props) => (
     <ConnectedSearch {...props} />
   </Provider>
 );
+
+Search.propTypes = {
+  pokemonDataArray: PropTypes.array,
+};

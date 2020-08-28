@@ -14,7 +14,7 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
     className="imagesLine"
   >
     <div
-      className="block"
+      className="MuiPaper-root block MuiPaper-elevation3 MuiPaper-rounded"
     >
       <div
         aria-busy="true"
@@ -100,7 +100,7 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="block"
+      className="MuiPaper-root block MuiPaper-elevation3 MuiPaper-rounded"
     >
       <div
         aria-busy="true"
@@ -186,7 +186,7 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="block"
+      className="MuiPaper-root block MuiPaper-elevation3 MuiPaper-rounded"
     >
       <div
         aria-busy="true"
@@ -272,7 +272,7 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="block"
+      className="MuiPaper-root block MuiPaper-elevation3 MuiPaper-rounded"
     >
       <div
         aria-busy="true"
@@ -367,8 +367,8 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
       <div
         className="stats"
       >
-        <ul
-          className="statsUL"
+        <div
+          className="MuiPaper-root statsUL MuiPaper-elevation3 MuiPaper-rounded"
         >
           <div
             className="skills_title"
@@ -424,13 +424,13 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
             69
             kg
           </li>
-        </ul>
+        </div>
       </div>
       <div
         className="abilities"
       >
-        <ul
-          className="abilitiesUL"
+        <div
+          className="MuiPaper-root abilitiesUL MuiPaper-elevation3 MuiPaper-rounded"
         >
           <div
             className="skills_title"
@@ -451,12 +451,9 @@ exports[`DetailedPage DetailedPage renders correctly 1`] = `
             : 
             chlorophyll
           </li>
-        </ul>
+        </div>
       </div>
     </div>
-    <div
-      className="bigImage"
-    />
   </div>
   <div
     className="evolutionForms"
