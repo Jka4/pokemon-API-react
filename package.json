@@ -14,7 +14,7 @@
   "scripts": {
     "start": "craco start -d",
     "build": "craco build",
-    "test": "craco test --env=jsdom-fourteen --coverage",
+    "test": "craco test --env=jsdom-fourteen --coverage --watchAll",
     "deploy": "craco build && gh-pages -d build",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },

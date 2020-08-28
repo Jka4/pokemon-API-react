@@ -12,6 +12,8 @@ import HeaderLine from "@HeaderLine";
 import ErrorPage from "@ErrorPage";
 
 const App = () => {
+  console.log("ENV: ", process.env.NODE_ENV);
+
   return (
     <div className="App">
       <Route render={(props) => <HeaderLine props={props} />} />
