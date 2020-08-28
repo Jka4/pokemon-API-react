@@ -4,6 +4,13 @@
   "license": "GPL-3.0",
   "private": true,
   "author": "Vladimir Plotnik <plotnik1295@gmail.com>",
+  "keywords": [
+    "pokemon",
+    "pokemonAPI",
+    "pokeAPI",
+    "pokedex"
+  ],
+  "homepage": "http://jka4.github.io/pokemon-API-react",
   "scripts": {
     "start": "craco start -d",
     "build": "craco build",
@@ -56,7 +63,6 @@
     "testing-library": "^0.0.2",
     "use-sound": "^1.0.2"
   },
-  "homepage": "http://jka4.github.io/pokemon-API-react",
   "eslintConfig": {
     "extends": [
       "react-app",
