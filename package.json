@@ -39,7 +39,6 @@
     "pretty": "^2.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-component-benchmark": "^0.0.4",
     "react-dev-utils": "^10.0.0",
     "react-dom": "^16.13.1",
     "react-error-boundary": "^2.3.1",
