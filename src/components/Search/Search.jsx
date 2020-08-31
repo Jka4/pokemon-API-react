@@ -4,6 +4,7 @@ import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import Fuse from "fuse.js";
+import { useDebounce } from "ahooks";
 
 import store from "@Store";
 import { setDelailedPageData } from "@APIutils";
@@ -30,6 +31,7 @@ let fuseOptions = {
 const Search = (props) => {
   const [showResult, setShowResult] = useState(false);
   const [searchResult, setSearchResult] = useState([]);
+  const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
   const { pokemonDataArray } = props;
 
   const handleChange = (event) => {
@@ -45,10 +47,7 @@ const Search = (props) => {
   };
 
   const handleBlur = () => {
-    const debounce = () => {
-      setShowResult(false);
-    };
-    setTimeout(debounce, 100);
+    setShowResult(false);
   };
 
   let handleClick = (value) => {
@@ -72,7 +71,7 @@ const Search = (props) => {
       <div className="searchResults">
         {showResult && (
           <ul className="searchList">
-            {searchResult.map((i, key) => (
+            {debouncedSearchResult.map((i, key) => (
               <NavLink
                 key={(i.item.id, key)}
                 to={`/detailedPage/pokemon/${i.item.name}`}
