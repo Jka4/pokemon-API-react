@@ -8,8 +8,8 @@ const ErrorPage = () => {
       <div className="image">
         <img
           loading="lazy"
-          src="https://github.com/Jka4/pokemon-API-react/blob/master/public/images/404.png?raw=true"
-          alt=""
+          src={`${process.env.PUBLIC_URL}/images/404.png`}
+          alt="404_pickachu"
         />
       </div>
       <div className="description">Page Not Found</div>
