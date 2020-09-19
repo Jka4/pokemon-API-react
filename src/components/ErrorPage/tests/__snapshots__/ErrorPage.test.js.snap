@@ -13,9 +13,9 @@ exports[`ErrorPage ErrorPage renders correctly 1`] = `
     className="image"
   >
     <img
-      alt=""
+      alt="404_pickachu"
       loading="lazy"
-      src="https://github.com/Jka4/pokemon-API-react/blob/master/public/images/404.png?raw=true"
+      src="/images/404.png"
     />
   </div>
   <div
