@@ -28,6 +28,7 @@
     "axios": "^0.19.2",
     "cesium": "^1.72.0",
     "craco-alias": "^2.1.1",
+    "crypto-js": "^4.0.0",
     "customize-cra": "^1.0.0",
     "fuse.js": "^6.4.1",
     "husky": "^4.2.5",

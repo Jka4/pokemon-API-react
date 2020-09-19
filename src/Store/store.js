@@ -1,6 +1,9 @@
 import { createStore } from "redux";
 import ls from "local-storage";
 import POKEMONS from "@pokemonDataArray";
+import CryptoJS from "crypto-js";
+
+const APP_SECRET_KEY = "mySecretKey_kjkszpj";
 
 let defaultState = {
   randomPokemons: [],
@@ -9,12 +12,19 @@ let defaultState = {
   pokemonsArr: POKEMONS,
 };
 
-let chachingStateToLocalStorage = () => {
-  ls.get("pokemon_pokedex_state") == null &&
-    ls.set("pokemon_pokedex_state", defaultState);
-  let getStateFromLocal = ls.get("pokemon_pokedex_state");
+const chachingStateToLocalStorage = () => {
+  let encrypt = CryptoJS.AES.encrypt(
+    JSON.stringify(defaultState),
+    APP_SECRET_KEY
+  ).toString();
 
-  defaultState = getStateFromLocal;
+  ls.get("wezom_test_state") == null && ls.set("wezom_test_state", encrypt);
+  let getStateFromLocal = ls.get("wezom_test_state");
+
+  let bytes = CryptoJS.AES.decrypt(getStateFromLocal, APP_SECRET_KEY);
+  let decrypt = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+
+  defaultState = decrypt;
 };
 chachingStateToLocalStorage();
 
@@ -58,5 +68,10 @@ export default store;
 
 store.subscribe(() => {
   let currentState = store.getState();
-  ls.set("pokemon_pokedex_state", currentState);
+  let encrypt = CryptoJS.AES.encrypt(
+    JSON.stringify(currentState),
+    APP_SECRET_KEY
+  ).toString();
+
+  ls.set("wezom_test_state", encrypt);
 });
