@@ -42,7 +42,6 @@ const HeaderLine = (props) => {
           )}
         </div>
         <Search />
-        <span></span>
       </AppBar>
     </>
   );

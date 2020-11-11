@@ -22,7 +22,8 @@ const pathConfig = {
 	"@PokemonsPageAll": "./src/components/PokemonsPageAll/index",
 	"@ListView": "./src/components/PokemonsPageAll/ListView",
 	"@CatalogView": "./src/components/PokemonsPageAll/CatalogView",
-	"@ErrorPage": "./src/components/ErrorPage/ErrorPage"
+	"@ErrorPage": "./src/components/ErrorPage/ErrorPage",
+	"@NonSupportPlaceholder": "./src/components/nonSupportPlaceholder/nonSupportPlaceholder"
 }
 
 module.exports = {
