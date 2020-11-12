@@ -20,6 +20,10 @@ body {
   transition: 0.1s;
 }
 
+.App {
+  margin-top: 80px;
+}
+
 .getButtonLine {
   display: flex;
   flex-direction: column;
@@ -451,7 +455,7 @@ a {
     justify-content: center;
     z-index: 1000;
     width: auto;
-    height: 40px;
+    // height: 40px;
   }
 
   .backToMainPage {

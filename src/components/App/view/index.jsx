@@ -30,12 +30,12 @@ const App = () => {
           <Route render={(props) => <HeaderLine props={props} />} />
 
           <Switch>
-            {/* <Route exact path="/" component={MainContainer} /> */}
-            {/* <Route path="/detailedPage/pokemon/" component={DetailedPage} /> */}
-            {/* <Route path="/allPokemons" component={PokemonsPageAll} /> */}
-            {/* <Route path="/404" component={ErrorPage} /> */}
+            <Route exact path="/" component={MainContainer} />
+            <Route path="/detailedPage/pokemon/" component={DetailedPage} />
+            <Route path="/allPokemons" component={PokemonsPageAll} />
+            <Route path="/404" component={ErrorPage} />
 
-            {/* <Redirect from="*" to="/404" /> */}
+            <Redirect from="*" to="/404" />
           </Switch>
         </div>
       ) : (
