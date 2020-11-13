@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
+import { hot } from "react-hot-loader/root";
 
 import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
@@ -56,4 +57,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default hot(App);
