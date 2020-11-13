@@ -1,16 +1,15 @@
 import React from "react";
 import "./style.scss";
-import { Result } from "antd";
+import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 
 const NonSupportPlaceholder = () => {
   return (
     <>
       <div className="nonSupportPlaceholder">
-        <Result
-          status="error"
-          title="Sorry"
-          subTitle="your device is not supported."
-        ></Result>
+        <ErrorOutlineIcon style={{ fontSize: 60 }} />
+        <span>Sorry,</span>
+        <span>your device</span>
+        <span>is not supported</span>
       </div>
     </>
   );
