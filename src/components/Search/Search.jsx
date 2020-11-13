@@ -60,7 +60,7 @@ const Search = (props) => {
         type="search"
         name="searchInput"
         id="searchInput"
-        placeholder="Pickachu, 123, 900g"
+        placeholder="Pikachu, 25, 900g"
         onChange={handleChange}
         onFocus={handleFocus}
         onBlur={handleBlur}
