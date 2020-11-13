@@ -16,6 +16,14 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+* {
+  transition: 0.1s;
+}
+
+.App {
+  margin-top: 80px;
+}
+
 .getButtonLine {
   display: flex;
   flex-direction: column;
@@ -439,15 +447,15 @@ a {
 
   .player {
     display: flex;
-    position: absolute;
-    top: 15px;
-    left: 10px;
+    // position: absolute;
+    // top: 15px;
+    // left: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     z-index: 1000;
     width: auto;
-    height: 40px;
+    // height: 40px;
   }
 
   .backToMainPage {
@@ -464,33 +472,6 @@ a {
 
   .playButton button {
     margin: 0;
-  }
-
-  // .search {
-  //   top: 15px;
-  //   width: 100%;
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-items: flex-start;
-  //   padding-right: 25px;
-  // }
-
-  // .search input {
-  //   width: 70%;
-  //   font-size: 1.4rem;
-  //   margin-right: 0;
-  //   margin-left: auto;
-  // }
-
-  // #searchInput::placeholder {
-  //   font-size: 1.4rem;
-  // }
-
-  .searchResults {
-    position: absolute;
-    top: 45px;
-    width: 90%;
-    left: 5%;
   }
 
   .getButtonLine {
@@ -723,32 +704,4 @@ a {
   display: flex;
   justify-items: center;
   align-items: center;
-}
-
-.topLine {
-  display: flex;
-  flex-direction: row !important;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  min-height: 70px;
-  padding-left: 20px;
-  background: red;
-
-  .search {
-    // width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 30rem;
-    max-width: 450px;
-    position: absolute;
-    top: 15px;
-    left: calc(50% - 220px);
-
-    #searchInput {
-      width: 100%;
-      padding-left: 15px;
-    }
-  }
 }

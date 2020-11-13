@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.detailedPage {
+  margin-top: 100px;
+}
+
 .evolutionForms {
   width: 100%;
   display: flex;
@@ -74,4 +78,65 @@
 
 .mainInformations {
   min-height: 500px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
+  .imagesLine {
+    .block {
+      max-width: 50px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .mainInformations {
+    .skills {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 30px;
+
+      .stats,
+      .abilities {
+        margin: 0;
+        padding: 0;
+        width: 40%;
+
+        .statsUL,
+        .abilitiesUL {
+          flex-direction: column;
+          justify-content: flex-start;
+          width: 80%;
+          padding: 10px;
+
+          .statsLI,
+          .abilitiesLI {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .bigImage,
+  .placeholderBase64 {
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }
+
+  .evolutionForms {
+    .evoForm {
+      margin-bottom: 15px;
+    }
+  }
 }

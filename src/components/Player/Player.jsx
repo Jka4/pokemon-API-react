@@ -3,6 +3,7 @@ import useSound from "use-sound";
 import { Button } from "@material-ui/core";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
 import PauseCircleFilledIcon from "@material-ui/icons/PauseCircleFilled";
+import Tooltip from "@material-ui/core/Tooltip";
 
 import "./styles/style.scss";
 
@@ -17,14 +18,22 @@ const Player = () => {
 
   return (
     <div className="player">
-      <Button
-        onClick={playPause}
-        className="playButton"
-        variant="contained"
-        color="secondary"
+      <Tooltip
+        title="Pokemon opening song (rus)"
+        aria-label="Pokemon opening song (rus)"
+        enterDelay={500}
+        leaveDelay={200}
+        arrow
       >
-        {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleFilledIcon />}
-      </Button>
+        <Button
+          onClick={playPause}
+          className="playButton"
+          variant="contained"
+          color="secondary"
+        >
+          {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleFilledIcon />}
+        </Button>
+      </Tooltip>
     </div>
   );
 };

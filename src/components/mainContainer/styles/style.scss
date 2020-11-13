@@ -23,3 +23,19 @@
     color: blue;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      margin-bottom: 20px;
+    }
+
+    .titlesList {
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+  }
+}
