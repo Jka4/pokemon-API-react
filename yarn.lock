@@ -11323,6 +11323,18 @@ schema-utils@^2.5.0, schema-utils@^2.6.0, schema-utils@^2.6.1, schema-utils@^2.6
     ajv "^6.12.2"
     ajv-keywords "^3.4.1"
 
+screen-orientation-js@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/screen-orientation-js/-/screen-orientation-js-1.0.2.tgz#5120879b0cc964ae5fccf8f2be6b65c550c364af"
+  integrity sha512-F9YXfGmA60UG1qLSYrZvgFPTUddjcr3m9Fpp/yi26/D3UghmJsujZsfBDMwBpzc2i5hg3i19gi4KCrXasZbq5g==
+
+screen-orientation-react@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/screen-orientation-react/-/screen-orientation-react-1.0.3.tgz#89342b9fc5c68be2472c60156410c4105e29d520"
+  integrity sha512-rbn7CczkFIvOdbKvWY1wUoPPPjCnJsk19jas5xiLeMu2nBfNxv5nOa+zkGJVnsdHnwA4g3W9XA2jUQZ31S95Rw==
+  dependencies:
+    screen-orientation-js "^1.0.1"
+
 screenfull@^5.0.0:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/screenfull/-/screenfull-5.0.2.tgz#b9acdcf1ec676a948674df5cd0ff66b902b0bed7"

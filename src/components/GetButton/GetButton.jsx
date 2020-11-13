@@ -24,7 +24,7 @@ const GetButton = (props) => {
       <NavLink to={`/allPokemons/`}>
         <Button variant="contained" color="secondary">
           {" "}
-          GET ALL POKEMON{" "}
+          SHOW ALL POKEMON{" "}
         </Button>
       </NavLink>
 

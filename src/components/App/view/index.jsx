@@ -10,6 +10,7 @@ import PokemonsPageAll from "@PokemonsPageAll";
 import HeaderLine from "@HeaderLine";
 import ErrorPage from "@ErrorPage";
 import NonSupportPlaceholder from "@NonSupportPlaceholder";
+import ScreenOrientationReact from "screen-orientation-react";
 
 const App = () => {
   const [supportScreenSize, setSupportScreenSize] = useState(null);
@@ -22,6 +23,14 @@ const App = () => {
     window.addEventListener("resize", getScreenWidth);
     getScreenWidth();
   });
+
+  const options = {
+    color: "red",
+    bgColor: "rgba(255, 255, 0, 1)",
+    iconColor: "red",
+    animation: true,
+    fontSize: 5,
+  };
 
   return (
     <>
@@ -41,6 +50,8 @@ const App = () => {
       ) : (
         <NonSupportPlaceholder />
       )}
+
+      <ScreenOrientationReact options={options} />
     </>
   );
 };
