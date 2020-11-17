@@ -21,6 +21,11 @@
   margin-top: 100px;
 }
 
+.formsTitle {
+  margin-top: 60px;
+  font-size: 2rem;
+}
+
 .evolutionForms {
   width: 100%;
   display: flex;
@@ -28,6 +33,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+  margin-top: 0;
 
   .evoForm.currentPokemon {
     background: #ff5f5f;

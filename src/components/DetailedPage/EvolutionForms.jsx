@@ -33,8 +33,18 @@ const EvolutionForms = (props) => {
     setChain(arr);
   }, [chainNames, pokemonsArr]);
 
+  const FormTitle = () => {
+    return (
+      <div className="formsTitle">
+        {chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}
+      </div>
+    );
+  };
+
   return (
     <>
+      <FormTitle />
+
       <div className="evolutionForms">
         {chain &&
           chain.map((index, key) => (

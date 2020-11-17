@@ -18,8 +18,8 @@ const chachingStateToLocalStorage = () => {
     APP_SECRET_KEY
   ).toString();
 
-  ls.get("wezom_test_state") == null && ls.set("wezom_test_state", encrypt);
-  let getStateFromLocal = ls.get("wezom_test_state");
+  ls.get("pokemon_state") == null && ls.set("pokemon_state", encrypt);
+  let getStateFromLocal = ls.get("pokemon_state");
 
   let bytes = CryptoJS.AES.decrypt(getStateFromLocal, APP_SECRET_KEY);
   let decrypt = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
@@ -73,5 +73,5 @@ store.subscribe(() => {
     APP_SECRET_KEY
   ).toString();
 
-  ls.set("wezom_test_state", encrypt);
+  ls.set("pokemon_state", encrypt);
 });
