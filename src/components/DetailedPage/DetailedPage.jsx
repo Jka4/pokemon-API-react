@@ -34,7 +34,7 @@ const DetailedPage = (props) => {
       <div className="detailedPage" data-testid="detailedPageTest">
         <div className="name">{name}</div>
         <div className="imagesLine">
-          {sprites &&
+          {sprites ? (
             Object.keys(sprites).map(
               (spriteName) =>
                 sprites[spriteName] && (
@@ -51,10 +51,26 @@ const DetailedPage = (props) => {
                     >
                       <ImageContainer url={sprites[spriteName]} />
                     </Suspense>
-                    <div className="title">{spriteName}</div>
+                    {/* <div className="title">{spriteName}</div> */}
                   </Paper>
                 )
-            )}
+            )
+          ) : (
+            <>
+              {[1, 2, 3, 4].map((
+                n // trashcode just for generate placeholder
+              ) => (
+                <Paper elevation={3} key={n} className="block">
+                  <Loader
+                    type="TailSpin"
+                    height={50}
+                    width={50}
+                    color={"red"}
+                  />
+                </Paper>
+              ))}
+            </>
+          )}
         </div>
         <div className="mainInformations">
           <div className="skills">
