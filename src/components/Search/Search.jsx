@@ -47,7 +47,9 @@ const Search = (props) => {
   };
 
   const handleBlur = () => {
-    setShowResult(false);
+    setTimeout(() => {
+      setShowResult(false);
+    }, 400);
   };
 
   let handleClick = (value) => {
