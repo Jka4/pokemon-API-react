@@ -29,6 +29,11 @@
     display: flex;
     flex-direction: column;
 
+    .logoBase64 {
+      width: 100%;
+      min-width: 318px;
+    }
+
     button {
       margin-bottom: 20px;
     }
