@@ -8,14 +8,15 @@ import store from "@Store";
 
 const ItemsList = (props) => {
   const randomPokemons = props.randomPokemons;
+  const haveData = randomPokemons.length !== 0;
 
   return (
     <>
-      <Heading />
+      {haveData && <Heading />}
 
       <div className="itemList">
         <div className="cardsContainer">
-          {randomPokemons &&
+          {haveData &&
             randomPokemons.map((i, key) => (
               <PokemonCard
                 key={
