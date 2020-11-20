@@ -1,0 +1,2 @@
+(this.webpackJsonppokedex=this.webpackJsonppokedex||[]).push([[16],{378:function(e,a,t){},404:function(e,a,t){"use strict";t.r(a);var c=t(0),n=t.n(c);t(378);a.default=function(){return n.a.createElement("div",{className:"errorPage"},n.a.createElement("div",{className:"errCode"},"404"),n.a.createElement("div",{className:"image"},n.a.createElement("img",{loading:"lazy",src:"".concat("/pokemon-API-react","/images/404.png"),alt:"404_pickachu"})),n.a.createElement("div",{className:"description"},"Page Not Found"))}}}]);
+//# sourceMappingURL=16.8b2e842a.chunk.js.map
