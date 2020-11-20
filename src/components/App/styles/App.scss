@@ -1,9 +1,8 @@
-@import-normalize;
-
 body,
 html {
-  // width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -35,7 +34,6 @@ body {
   outline-style: none;
   border: 3px solid black;
   border-radius: 7px;
-  background: red;
   cursor: pointer;
   padding: 3px;
   color: white;

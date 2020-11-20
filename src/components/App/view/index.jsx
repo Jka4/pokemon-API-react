@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, lazy, Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { hot } from "react-hot-loader/root";
 
 import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
-import MainContainer from "@MainContainer";
-import DetailedPage from "@DetailedPage";
-import PokemonsPageAll from "@PokemonsPageAll";
-import HeaderLine from "@HeaderLine";
-import ErrorPage from "@ErrorPage";
-import NonSupportPlaceholder from "@NonSupportPlaceholder";
-import ScreenOrientationReact from "screen-orientation-react";
+const HeaderLine = lazy(() => import("@HeaderLine"));
+const MainContainer = lazy(() => import("@MainContainer"));
+const DetailedPage = lazy(() => import("@DetailedPage"));
+const PokemonsPageAll = lazy(() => import("@PokemonsPageAll"));
+const ErrorPage = lazy(() => import("@ErrorPage"));
+const NonSupportPlaceholder = lazy(() => import("@NonSupportPlaceholder"));
+const ScreenOrientationReact = lazy(() => import("screen-orientation-react"));
 
 const App = () => {
   const [supportScreenSize, setSupportScreenSize] = useState(null);
@@ -35,24 +35,25 @@ const App = () => {
 
   return (
     <>
-      {!supportScreenSize ? (
-        <div className="App">
-          <Route render={(props) => <HeaderLine props={props} />} />
+      <Suspense fallback={<span>Loading...</span>}>
+        {!supportScreenSize ? (
+          <div className="App">
+            <Route render={(props) => <HeaderLine props={props} />} />
 
-          <Switch>
-            <Route exact path="/" component={MainContainer} />
-            <Route path="/detailedPage/pokemon/" component={DetailedPage} />
-            <Route path="/allPokemons" component={PokemonsPageAll} />
-            <Route path="/404" component={ErrorPage} />
+            <Switch>
+              <Route exact path="/" component={MainContainer} />
+              <Route path="/detailedPage/pokemon/" component={DetailedPage} />
+              <Route path="/allPokemons" component={PokemonsPageAll} />
+              <Route path="/404" component={ErrorPage} />
 
-            <Redirect from="*" to="/404" />
-          </Switch>
-        </div>
-      ) : (
-        <NonSupportPlaceholder />
-      )}
-
-      <ScreenOrientationReact options={options} />
+              <Redirect from="*" to="/404" />
+            </Switch>
+          </div>
+        ) : (
+          <NonSupportPlaceholder />
+        )}
+        <ScreenOrientationReact options={options} />
+      </Suspense>
     </>
   );
 };
