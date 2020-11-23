@@ -13,7 +13,7 @@ const ImageContainer = (props) => {
 
     return (
       <>
-        <img loading="lazy" src={src} alt={cn} className={cn} />
+        <img src={src} alt={cn} className={cn} />
       </>
     );
   };

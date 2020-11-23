@@ -178,7 +178,7 @@ body {
 
 @keyframes deBlur {
   from {
-    filter: blur(8px);
+    filter: blur(18px);
   }
 
   to {
@@ -190,4 +190,8 @@ body {
   .viewType {
     margin-top: 100px;
   }
+}
+
+.placeholderBase64 {
+  filter: blur(8px);
 }
