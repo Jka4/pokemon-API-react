@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <>
-      <Suspense fallback={<span>Loading...</span>}>
+      <Suspense fallback={<div className="fallback">Loading...</div>}>
         {!supportScreenSize ? (
           <div className="App">
             <Route render={(props) => <HeaderLine props={props} />} />

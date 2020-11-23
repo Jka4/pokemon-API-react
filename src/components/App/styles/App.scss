@@ -667,3 +667,11 @@ a {
     font-size: 24px;
   }
 }
+
+.fallback {
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
