@@ -1,0 +1,31 @@
+.buttonsRow {
+  display: inline-flex;
+
+  button {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+
+.Button {
+  button {
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+}
+
+.clearBtn {
+  margin-left: 10px !important;
+}
+
+.toHome {
+  min-height: 34.5px;
+}
+
+#getPokemons {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  min-width: 193px;
+}

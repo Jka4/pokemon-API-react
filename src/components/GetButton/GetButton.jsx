@@ -17,7 +17,7 @@ const GetButton = (props) => {
     store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
   };
 
-  const { randomPokemons } = props;
+  const { randomPokemons, randomPokemonsFetching } = props;
 
   return (
     <div className="Button">
@@ -41,11 +41,12 @@ const GetButton = (props) => {
         <Button
           onClick={() => getRandomPokemon(806)}
           id="getPokemons"
+          className="getPokemons"
           variant="contained"
           color="secondary"
-          endIcon={<CasinoIcon />}
+          endIcon={!randomPokemonsFetching && <CasinoIcon />}
         >
-          GET A RANDOM POKEMON
+          {randomPokemonsFetching ? "Loading..." : "GET A RANDOM POKEMON"}
         </Button>
       </Badge>
     </div>
@@ -55,6 +56,7 @@ const GetButton = (props) => {
 const ConnectedGetButton = connect((store) => {
   return {
     randomPokemons: store.randomPokemons,
+    randomPokemonsFetching: store.randomPokemonsFetching,
   };
 })(GetButton);
 
