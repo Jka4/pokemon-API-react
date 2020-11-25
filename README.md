@@ -1,7 +1,5 @@
 # Pokedex based on [PokeAPI](https://github.com/PokeAPI/pokeapi)
 
-# Demo [link](https://jka4.github.io/pokemon-API-react/)
-
 List of pokemons on the basis of React + Redux
 
 ### It includes:
@@ -43,3 +41,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## Demo [link](https://jka4.github.io/pokemon-API-react/)
+
