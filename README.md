@@ -1,6 +1,6 @@
 # Pokedex based on [PokeAPI](https://github.com/PokeAPI/pokeapi)
 
-Demo [link](https://jka4.github.io/pokemon-API-react/)
+# Demo [link](https://jka4.github.io/pokemon-API-react/)
 
 List of pokemons on the basis of React + Redux
 
