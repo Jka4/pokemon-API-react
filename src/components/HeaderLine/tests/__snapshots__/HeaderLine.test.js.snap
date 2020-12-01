@@ -11,6 +11,8 @@ exports[`HeaderLine HeaderLine renders correctly 1`] = `
       className="player"
     >
       <button
+        aria-describedby={null}
+        aria-label="Pokemon opening song (rus)"
         className="MuiButtonBase-root MuiButton-root MuiButton-contained playButton MuiButton-containedSecondary"
         disabled={false}
         onBlur={[Function]}
@@ -21,11 +23,13 @@ exports[`HeaderLine HeaderLine renders correctly 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
         onMouseLeave={[Function]}
+        onMouseOver={[Function]}
         onMouseUp={[Function]}
         onTouchEnd={[Function]}
         onTouchMove={[Function]}
         onTouchStart={[Function]}
         tabIndex={0}
+        title="Pokemon opening song (rus)"
         type="button"
       >
         <span
@@ -42,6 +46,9 @@ exports[`HeaderLine HeaderLine renders correctly 1`] = `
             />
           </svg>
         </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
       </button>
     </div>
     <a
@@ -82,6 +89,9 @@ exports[`HeaderLine HeaderLine renders correctly 1`] = `
             />
           </svg>
         </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
       </button>
     </a>
   </div>
@@ -96,13 +106,12 @@ exports[`HeaderLine HeaderLine renders correctly 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      placeholder="Pickachu, 123, 900g"
+      placeholder="Pikachu, 25, 900g"
       type="search"
     />
     <div
       className="searchResults"
     />
   </div>
-  <span />
 </header>
 `;

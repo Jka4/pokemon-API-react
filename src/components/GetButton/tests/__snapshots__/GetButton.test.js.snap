@@ -30,7 +30,7 @@ exports[`GetButton GetButton renders correctly 1`] = `
         className="MuiButton-label"
       >
          
-        GET ALL POKEMON
+        SHOW ALL POKEMON
          
       </span>
     </button>
@@ -63,7 +63,7 @@ exports[`GetButton GetButton renders correctly 1`] = `
     className="MuiBadge-root"
   >
     <button
-      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained getPokemons MuiButton-containedSecondary"
       disabled={false}
       id="getPokemons"
       onBlur={[Function]}

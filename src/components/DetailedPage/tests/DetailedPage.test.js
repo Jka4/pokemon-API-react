@@ -32,7 +32,5 @@ describe("DetailedPage", () => {
     expect(detailedPage).toHaveTextContent("bulbasaur");
     expect(detailedPage).toHaveTextContent("Abilities");
     expect(detailedPage).toHaveTextContent("Stats");
-    expect(detailedPage).toHaveTextContent("front_default");
-    expect(detailedPage).toHaveTextContent("back_default");
   });
 });
