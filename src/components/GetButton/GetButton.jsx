@@ -40,7 +40,7 @@ const GetButton = (props) => {
 
       <Badge color="secondary" badgeContent={randomPokemons.length}>
         <Button
-          onClick={() => getRandomPokemon(806)}
+          onClick={() => getRandomPokemon()}
           id="getPokemons"
           className="getPokemons"
           variant="contained"
