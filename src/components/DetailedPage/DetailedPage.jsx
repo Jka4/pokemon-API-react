@@ -16,19 +16,17 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const DetailedPage = (props) => {
-  const data = props.detailsPageTest || props.detailsPage;
-  const { sprites, name } = data;
-  const {
-    detailsPage: { abilities, stats, weight },
-    pokemonsArr,
-  } = props;
-  const [evolutionChain, setEvolutionChain] = useState();
+const DetailedPage = ({
+  pokemonsArr,
+  detailsPage,
+  detailsPage: { abilities, stats, weight, sprites, name },
+}) => {
+  const [evolutionChain = [], setEvolutionChain] = useState();
 
   useEffect(() => {
-    let pokemonObj = find(pokemonsArr, (o) => o.name === data.name);
+    let pokemonObj = find(pokemonsArr, (o) => o.name === detailsPage.name);
     pokemonObj && setEvolutionChain(pokemonObj);
-  }, [data, pokemonsArr]);
+  }, [detailsPage, pokemonsArr]);
 
   return (
     <>
@@ -111,6 +109,11 @@ const DetailedPage = (props) => {
   );
 };
 
+DetailedPage.propTypes = {
+  detailsPage: PropTypes.any,
+  pokemonsArr: PropTypes.any,
+};
+
 const ConnectedDetailedPage = connect((store) => {
   return {
     detailsPage: store.detailsPage,
@@ -123,7 +126,3 @@ export default (props) => (
     <ConnectedDetailedPage {...props} />
   </Provider>
 );
-
-DetailedPage.propTypes = {
-  pokemonsArr: PropTypes.array,
-};

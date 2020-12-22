@@ -6,9 +6,14 @@ import PropTypes from "prop-types";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const PokemonCard = (props) => {
-  const { src, name, order, base_experience, id, onClick } = props;
-
+const PokemonCard = ({
+  src = "",
+  name = "",
+  order = 0,
+  base_experience = 0,
+  id = 0,
+  onClick = () => {},
+}) => {
   return (
     <Card className="pokemonCard_Outher">
       <NavLink
@@ -46,13 +51,13 @@ const PokemonCard = (props) => {
   );
 };
 
-export default PokemonCard;
-
 PokemonCard.propTypes = {
-  src: PropTypes.string,
-  name: PropTypes.string,
-  order: PropTypes.number,
   base_experience: PropTypes.number,
   id: PropTypes.number,
+  name: PropTypes.string,
   onClick: PropTypes.func,
+  order: PropTypes.number,
+  src: PropTypes.string,
 };
+
+export default PokemonCard;

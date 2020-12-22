@@ -29,13 +29,12 @@ let fuseOptions = {
   keys: ["name", "weight", "id"],
 };
 
-const Search = (props) => {
+const Search = ({ pokemonDataArray }) => {
   const [showResult, setShowResult] = useState(false);
   const [searchResult, setSearchResult] = useState([]);
   const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
-  const { pokemonDataArray } = props;
 
-  const handleChange = (event) => {
+  const handleChange = (event = {}) => {
     const value = event.target.value;
 
     let fuse = new Fuse(pokemonDataArray, fuseOptions);
@@ -53,7 +52,7 @@ const Search = (props) => {
     }, 400);
   };
 
-  let handleClick = (value) => {
+  let handleClick = (value = 0) => {
     setDelailedPageData(value, true);
   };
 

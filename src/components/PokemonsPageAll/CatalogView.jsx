@@ -9,9 +9,7 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const CatalogView = (props) => {
-  const { pokemonDataArray } = props;
-
+const CatalogView = ({ pokemonDataArray = [] }) => {
   return (
     <div className="wrapper">
       {pokemonDataArray.map((index, key) => (

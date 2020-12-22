@@ -11,8 +11,7 @@ import CatalogView from "@CatalogView";
 import AppsIcon from "@material-ui/icons/Apps";
 import BlurOnOutlinedIcon from "@material-ui/icons/BlurOnOutlined";
 
-const PokemonsPageAll = (props) => {
-  const { pokemonDataArray } = props;
+const PokemonsPageAll = ({ pokemonDataArray = [] }) => {
   const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(false);
 
   return (

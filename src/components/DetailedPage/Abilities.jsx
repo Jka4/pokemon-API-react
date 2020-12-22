@@ -1,10 +1,7 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
-import PropTypes from "prop-types";
 
-const Abilities = (props) => {
-  const { abilities } = props;
-
+const Abilities = ({ abilities = [] }) => {
   return (
     <div className="abilities">
       <Paper elevation={3} className="abilitiesUL">
@@ -22,7 +19,3 @@ const Abilities = (props) => {
 };
 
 export default Abilities;
-
-Abilities.propTypes = {
-  abilities: PropTypes.array,
-};

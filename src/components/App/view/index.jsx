@@ -37,7 +37,11 @@ const App = () => {
       <Suspense fallback={<div className="fallback">Loading...</div>}>
         {!supportScreenSize ? (
           <div className="App">
-            <Route render={(props) => <HeaderLine props={props} />} />
+            <Route
+              render={(props) => (
+                <HeaderLine pathname={props?.location?.pathname} />
+              )}
+            />
 
             <Switch>
               <Route exact path="/" component={MainContainer} />

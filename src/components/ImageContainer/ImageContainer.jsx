@@ -4,11 +4,8 @@ import PropTypes from "prop-types";
 
 import ErrorBoundary from "@ErrorBoundary";
 
-const ImageContainer = (props) => {
-  const ImageWrapper = (props) => {
-    const {
-      props: { url, cn },
-    } = props;
+const ImageContainer = ({ url, cn }) => {
+  const ImageWrapper = () => {
     const { src } = useImage({ srcList: url });
 
     return (
@@ -20,7 +17,7 @@ const ImageContainer = (props) => {
 
   return (
     <ErrorBoundary>
-      <ImageWrapper props={props} />
+      <ImageWrapper />
     </ErrorBoundary>
   );
 };
@@ -28,6 +25,6 @@ const ImageContainer = (props) => {
 export default ImageContainer;
 
 ImageContainer.propTypes = {
-  url: PropTypes.string,
   cn: PropTypes.string,
+  url: PropTypes.string,
 };

@@ -2,7 +2,6 @@
 import React from "react";
 import { Provider, connect } from "react-redux";
 import { NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
 
 import { Button } from "@material-ui/core";
 import Badge from "@material-ui/core/Badge";
@@ -13,12 +12,13 @@ import store from "@Store";
 
 import "./styles/style.scss";
 
-const GetButton = (props) => {
+const GetButton = ({
+  randomPokemons = [],
+  randomPokemonsFetching = Boolean,
+}) => {
   const clearState = () => {
     store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
   };
-
-  const { randomPokemons, randomPokemonsFetching } = props;
 
   return (
     <div className="Button">
@@ -66,7 +66,3 @@ export default (props) => (
     <ConnectedGetButton {...props} />
   </Provider>
 );
-
-GetButton.propTypes = {
-  randomPokemons: PropTypes.array,
-};

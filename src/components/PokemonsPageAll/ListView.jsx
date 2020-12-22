@@ -11,9 +11,7 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const ListView = (props) => {
-  const { pokemonDataArray } = props;
-
+const ListView = ({ pokemonDataArray = [] }) => {
   const [pokemons, setPokemons] = useState([]);
   const [pokemonCount, setPokemonCount] = useState(0);
 

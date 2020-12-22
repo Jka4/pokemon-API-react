@@ -2,9 +2,7 @@ import React from "react";
 import Paper from "@material-ui/core/Paper";
 import PropTypes from "prop-types";
 
-const Stats = (props) => {
-  const { stats, weight } = props;
-
+const Stats = ({ stats = [], weight = 0 }) => {
   return (
     <div className="stats">
       <Paper elevation={3} className="statsUL">
@@ -21,9 +19,9 @@ const Stats = (props) => {
   );
 };
 
-export default Stats;
-
 Stats.propTypes = {
   stats: PropTypes.array,
   weight: PropTypes.number,
 };
+
+export default Stats;

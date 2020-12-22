@@ -13,8 +13,8 @@ import SvgIcon from "@material-ui/core/SvgIcon";
 
 import "./styles/style.scss";
 
-const HeaderLine = (props) => {
-  const isMainPage = props?.props?.location?.pathname === "/";
+const HeaderLine = ({ pathname }) => {
+  const isMainPage = pathname === "/";
 
   function HomeIcon(props) {
     return (

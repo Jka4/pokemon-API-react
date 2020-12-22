@@ -7,8 +7,7 @@ import PokemonCard from "@PokemonCard";
 import { setDelailedPageData } from "@APIutils";
 import store from "@Store";
 
-const ItemsList = (props) => {
-  const randomPokemons = props.randomPokemons;
+const ItemsList = ({ randomPokemons = [] }) => {
   const haveData = randomPokemons.length !== 0;
 
   return (

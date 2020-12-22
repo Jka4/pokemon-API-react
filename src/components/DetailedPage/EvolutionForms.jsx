@@ -1,24 +1,22 @@
+// @ts-check
+
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import find from "lodash.find";
 import Paper from "@material-ui/core/Paper";
-import PropTypes from "prop-types";
 
 import { setDelailedPageData } from "@APIutils";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const EvolutionForms = (props) => {
-  const { pokemonsArr } = props;
-  const chainNames = props?.evolutionChain?.chain;
-  const currentPokemon = props?.currentPokemon;
+const EvolutionForms = ({ pokemonsArr, evolutionChain, currentPokemon }) => {
+  const chainNames = evolutionChain?.chain;
   const [chain, setChain] = useState([]);
 
   useEffect(() => {
     let arr = [];
-
     chainNames &&
-      chainNames.forEach((index) => {
+      chainNames.forEach((index = {}) => {
         index.image = find(
           pokemonsArr,
           (o) => o.name === index.species_name
@@ -83,9 +81,3 @@ const EvolutionForms = (props) => {
 };
 
 export default EvolutionForms;
-
-EvolutionForms.propTypes = {
-  pokemonsArr: PropTypes.array,
-  chainNames: PropTypes.array,
-  currentPokemon: PropTypes.string,
-};
