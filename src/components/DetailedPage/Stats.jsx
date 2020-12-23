@@ -7,12 +7,11 @@ const Stats = ({ stats = [], weight = 0 }) => {
     <div className="stats">
       <Paper elevation={3} className="statsUL">
         <div className="skills_title">Stats</div>
-        {stats &&
-          stats.map((i, key) => (
-            <li className="statsLI" key={key}>
-              {i.stat.name} {i.base_stat}
-            </li>
-          ))}
+        {stats.map((i, key) => (
+          <li className="statsLI" key={key}>
+            {i.stat.name} {i.base_stat}
+          </li>
+        ))}
         <li className="statsLI">weight {weight}kg</li>
       </Paper>
     </div>

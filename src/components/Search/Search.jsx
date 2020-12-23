@@ -118,7 +118,7 @@ const ConnectedSearch = connect((store) => {
   };
 })(Search);
 
-export default (props) => (
+export default (props = {}) => (
   <Provider store={store}>
     <ConnectedSearch {...props} />
   </Provider>

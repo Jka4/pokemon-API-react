@@ -61,7 +61,7 @@ const ConnectedGetButton = connect((store) => {
   };
 })(GetButton);
 
-export default (props) => (
+export default (props = {}) => (
   <Provider store={store}>
     <ConnectedGetButton {...props} />
   </Provider>

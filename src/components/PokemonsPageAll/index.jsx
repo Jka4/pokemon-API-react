@@ -59,7 +59,7 @@ const ConnectedPokemonsPageAll = connect((store) => {
   };
 })(PokemonsPageAll);
 
-export default (props) => (
+export default (props = {}) => (
   <Provider store={store}>
     <ConnectedPokemonsPageAll {...props} />
   </Provider>

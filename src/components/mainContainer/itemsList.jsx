@@ -16,22 +16,21 @@ const ItemsList = ({ randomPokemons = [] }) => {
 
       <div className="itemList">
         <div className="cardsContainer">
-          {haveData &&
-            randomPokemons.map((i, key) => (
-              <PokemonCard
-                key={
-                  randomPokemons[key].id +
-                  key +
-                  Math.floor(1 + Math.random() * 9999999999)
-                }
-                id={randomPokemons[key]?.id}
-                src={randomPokemons[key]?.sprites?.front_default}
-                name={randomPokemons[key]?.name}
-                order={randomPokemons[key]?.order}
-                base_experience={randomPokemons[key]?.base_experience}
-                onClick={setDelailedPageData}
-              />
-            ))}
+          {randomPokemons.map((i, key) => (
+            <PokemonCard
+              key={
+                randomPokemons[key].id +
+                key +
+                Math.floor(1 + Math.random() * 9999999999)
+              }
+              id={randomPokemons[key]?.id}
+              src={randomPokemons[key]?.sprites?.front_default}
+              name={randomPokemons[key]?.name}
+              order={randomPokemons[key]?.order}
+              base_experience={randomPokemons[key]?.base_experience}
+              onClick={setDelailedPageData}
+            />
+          ))}
         </div>
       </div>
     </>
@@ -44,7 +43,7 @@ const ConnectedItemsList = connect((store) => {
   };
 })(ItemsList);
 
-export default (props) => (
+export default (props = {}) => (
   <Provider store={store}>
     <ConnectedItemsList {...props} />
   </Provider>

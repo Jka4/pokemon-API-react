@@ -34,26 +34,23 @@ const DetailedPage = ({
         <div className="name">{name}</div>
         <div className="imagesLine">
           {sprites ? (
-            Object.keys(sprites).map(
-              (spriteName) =>
-                sprites[spriteName] && (
-                  <Paper elevation={3} className="block" key={spriteName}>
-                    <Suspense
-                      fallback={
-                        <Loader
-                          type="TailSpin"
-                          height={50}
-                          width={50}
-                          color={"red"}
-                        />
-                      }
-                    >
-                      <ImageContainer url={sprites[spriteName]} />
-                    </Suspense>
-                    {/* <div className="title">{spriteName}</div> */}
-                  </Paper>
-                )
-            )
+            Object.keys(sprites).map((spriteName) => (
+              <Paper elevation={3} className="block" key={spriteName}>
+                <Suspense
+                  fallback={
+                    <Loader
+                      type="TailSpin"
+                      height={50}
+                      width={50}
+                      color={"red"}
+                    />
+                  }
+                >
+                  <ImageContainer url={sprites[spriteName]} />
+                </Suspense>
+                {/* <div className="title">{spriteName}</div> */}
+              </Paper>
+            ))
           ) : (
             <>
               {[1, 2, 3, 4].map((
@@ -77,26 +74,19 @@ const DetailedPage = ({
             <Abilities abilities={abilities} />
           </div>
 
-          {evolutionChain?.imageHQ && (
-            <Paper elevation={3} className="bigImage">
-              {evolutionChain?.imageHQ && (
-                <Suspense
-                  fallback={
-                    <img
-                      src={evolutionChain?.placeholderBase64}
-                      className="placeholderBase64 bigImage"
-                      alt=""
-                    />
-                  }
-                >
-                  <ImageContainer
-                    url={evolutionChain.imageHQ}
-                    cn={"bigImage"}
-                  />
-                </Suspense>
-              )}
-            </Paper>
-          )}
+          <Paper elevation={3} className="bigImage">
+            <Suspense
+              fallback={
+                <img
+                  src={evolutionChain?.placeholderBase64}
+                  className="placeholderBase64 bigImage"
+                  alt=""
+                />
+              }
+            >
+              <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} />
+            </Suspense>
+          </Paper>
         </div>
 
         <EvolutionForms
@@ -121,7 +111,7 @@ const ConnectedDetailedPage = connect((store) => {
   };
 })(DetailedPage);
 
-export default (props) => (
+export default (props = {}) => (
   <Provider store={store}>
     <ConnectedDetailedPage {...props} />
   </Provider>
