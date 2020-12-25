@@ -11,34 +11,40 @@ import Paper from "@material-ui/core/Paper";
 import store from "../../Store/store";
 import find from "lodash.find";
 
+import POKEMONS from "../../utils/pokemonDataArray";
+
 import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
-interface DetailedPageProps {
-  pokemonsArr: any[];
+type Props = {
+  pokemonArr: any;
   detailsPage: any;
-}
+};
 
-interface evolutionChainProps {
+type evolutionChainProps = {
   placeholderBase64: string;
   imageHQ: string;
-}
+};
 
-const DetailedPage: React.FC<DetailedPageProps> = ({
-  pokemonsArr,
-  detailsPage,
-}: DetailedPageProps) => {
-  const { abilities, stats, weight, sprites, name } = detailsPage;
-  const [evolutionChain, setEvolutionChain] = useState<evolutionChainProps>({
-    placeholderBase64: "/",
-    imageHQ: "/",
-  });
+type DetailsPage = {
+  weight: number;
+  abilities: any[];
+  stats: any[];
+  sprites: any;
+  name: string;
+};
+
+const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
+  const { abilities, stats, weight, sprites, name }: DetailsPage = detailsPage;
+  const [evolutionChain, setEvolutionChain] = useState<evolutionChainProps>();
 
   useEffect(() => {
-    let pokemonObj = find(pokemonsArr, (o) => o.name === detailsPage.name);
+    let pokemonObj = find(POKEMONS, (o) => o.name === detailsPage.name);
     pokemonObj && setEvolutionChain(pokemonObj);
-  }, [detailsPage, pokemonsArr]);
+  }, [detailsPage]);
+
+  const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
 
   return (
     <>
@@ -46,10 +52,10 @@ const DetailedPage: React.FC<DetailedPageProps> = ({
         <div className="name">{name}</div>
         <div className="imagesLine">
           {sprites ? (
-            Object.keys(sprites).map((spriteName) => (
-              <>
+            Object.keys(sprites).map((spriteName: string) => (
+              <div key={spriteName}>
                 {sprites[spriteName] && (
-                  <Paper elevation={3} className="block" key={spriteName}>
+                  <Paper elevation={3} className="block" key={randomNum}>
                     <Suspense
                       fallback={
                         <Loader
@@ -68,14 +74,14 @@ const DetailedPage: React.FC<DetailedPageProps> = ({
                     {/* <div className="title">{spriteName}</div> */}
                   </Paper>
                 )}
-              </>
+              </div>
             ))
           ) : (
             <>
               {[1, 2, 3, 4].map((
-                n // trashcode just for generate placeholder
+                n: number // trash code just for generate placeholder
               ) => (
-                <Paper elevation={3} key={n} className="block">
+                <Paper elevation={3} key={randomNum + n} className="block">
                   <Loader
                     type="TailSpin"
                     height={50}
@@ -111,23 +117,20 @@ const DetailedPage: React.FC<DetailedPageProps> = ({
         <EvolutionForms
           evolutionChain={evolutionChain}
           currentPokemon={name}
-          pokemonsArr={pokemonsArr}
+          pokemonsArr={POKEMONS}
         />
       </div>
     </>
   );
 };
 
-const ConnectedDetailedPage = connect(
-  (store: { detailsPage: any[]; pokemonsArr: any[] }) => {
-    return {
-      detailsPage: store.detailsPage,
-      pokemonsArr: store.pokemonsArr,
-    };
-  }
-)(DetailedPage);
+const ConnectedDetailedPage = connect((store: any) => {
+  return {
+    detailsPage: store.detailsPage,
+  };
+})(DetailedPage);
 
-export default (props = {}) => (
+export default (props: any) => (
   <Provider store={store}>
     <ConnectedDetailedPage {...props} />
   </Provider>

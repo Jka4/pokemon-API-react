@@ -1,22 +1,40 @@
-// @ts-check
-
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import find from "lodash.find";
 import Paper from "@material-ui/core/Paper";
 
-import { setDelailedPageData } from "@APIutils";
+// import { setDelailedPageData } from "../../utils/API";
 
-const ImageContainer = lazy(() => import("@ImageContainer"));
+const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
-const EvolutionForms = ({ pokemonsArr, evolutionChain, currentPokemon }) => {
+type Props = {
+  pokemonsArr: any;
+  evolutionChain: any;
+  currentPokemon: any;
+};
+
+interface ChainElements {
+  element?: {
+    image: string;
+    species_name: string;
+    placeholderBase64: string;
+    id: number | string;
+  };
+  [key: string]: any;
+}
+
+const EvolutionForms: React.FC<Props> = ({
+  pokemonsArr,
+  evolutionChain,
+  currentPokemon,
+}: Props) => {
   const chainNames = evolutionChain?.chain;
-  const [chain, setChain] = useState([]);
+  const [chain, setChain] = useState<any[]>([]);
 
   useEffect(() => {
-    let arr = [];
+    let arr: any[] = [];
     chainNames &&
-      chainNames.forEach((index = {}) => {
+      chainNames.forEach((index: ChainElements) => {
         index.image = find(
           pokemonsArr,
           (o) => o.name === index.species_name
@@ -44,12 +62,12 @@ const EvolutionForms = ({ pokemonsArr, evolutionChain, currentPokemon }) => {
       <FormTitle />
 
       <div className="evolutionForms">
-        {chain.map((index, key) => (
+        {chain.map((index: ChainElements) => (
           <NavLink
             to={`/detailedPage/pokemon/${index.id}`}
             data-pokemon_id={index.id}
-            onClick={setDelailedPageData}
-            key={key}
+            // onClick={setDelailedPageData}
+            key={index.id}
           >
             <Paper
               elevation={3}
