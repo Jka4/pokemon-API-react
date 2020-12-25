@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 
-const NonSupportPlaceholder = () => {
+const NonSupportPlaceholder: React.FC = () => {
   return (
     <>
       <div className="nonSupportPlaceholder">

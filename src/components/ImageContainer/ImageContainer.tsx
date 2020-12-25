@@ -1,10 +1,17 @@
 import React from "react";
 import { useImage } from "react-image";
-import PropTypes from "prop-types";
 
-import ErrorBoundary from "@ErrorBoundary";
+import ErrorBoundary from "../../utils/ErrorBoundary";
 
-const ImageContainer = ({ url, cn }) => {
+interface ImageContainerProps {
+  url: string;
+  cn: string;
+}
+
+const ImageContainer: React.FC<ImageContainerProps> = ({
+  url = "",
+  cn = "",
+}) => {
   const ImageWrapper = () => {
     const { src } = useImage({ srcList: url });
 
@@ -23,8 +30,3 @@ const ImageContainer = ({ url, cn }) => {
 };
 
 export default ImageContainer;
-
-ImageContainer.propTypes = {
-  cn: PropTypes.string,
-  url: PropTypes.string,
-};

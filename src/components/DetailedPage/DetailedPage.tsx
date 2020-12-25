@@ -2,26 +2,38 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
-import PropTypes from "prop-types";
 
-import Stats from "@Stats";
-import Abilities from "@Abilities";
-import EvolutionForms from "@EvolutionForms";
+import Stats from "./Stats";
+import Abilities from "./Abilities";
+import EvolutionForms from "./EvolutionForms";
 import Paper from "@material-ui/core/Paper";
 
-import store from "@Store";
+import store from "../../Store/store";
 import find from "lodash.find";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("@ImageContainer"));
+const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
-const DetailedPage = ({
+interface DetailedPageProps {
+  pokemonsArr: any[];
+  detailsPage: any;
+}
+
+interface evolutionChainProps {
+  placeholderBase64: string;
+  imageHQ: string;
+}
+
+const DetailedPage: React.FC<DetailedPageProps> = ({
   pokemonsArr,
   detailsPage,
-  detailsPage: { abilities, stats, weight, sprites, name },
-}) => {
-  const [evolutionChain = [], setEvolutionChain] = useState();
+}: DetailedPageProps) => {
+  const { abilities, stats, weight, sprites, name } = detailsPage;
+  const [evolutionChain, setEvolutionChain] = useState<evolutionChainProps>({
+    placeholderBase64: "/",
+    imageHQ: "/",
+  });
 
   useEffect(() => {
     let pokemonObj = find(pokemonsArr, (o) => o.name === detailsPage.name);
@@ -30,26 +42,33 @@ const DetailedPage = ({
 
   return (
     <>
-      <div className="detailedPage" data-testid="detailedPageTest">
+      <div className="detailedPage">
         <div className="name">{name}</div>
         <div className="imagesLine">
           {sprites ? (
             Object.keys(sprites).map((spriteName) => (
-              <Paper elevation={3} className="block" key={spriteName}>
-                <Suspense
-                  fallback={
-                    <Loader
-                      type="TailSpin"
-                      height={50}
-                      width={50}
-                      color={"red"}
-                    />
-                  }
-                >
-                  <ImageContainer url={sprites[spriteName]} />
-                </Suspense>
-                {/* <div className="title">{spriteName}</div> */}
-              </Paper>
+              <>
+                {sprites[spriteName] && (
+                  <Paper elevation={3} className="block" key={spriteName}>
+                    <Suspense
+                      fallback={
+                        <Loader
+                          type="TailSpin"
+                          height={50}
+                          width={50}
+                          color={"red"}
+                        />
+                      }
+                    >
+                      <ImageContainer
+                        url={sprites[spriteName]}
+                        cn={sprites[spriteName]}
+                      />
+                    </Suspense>
+                    {/* <div className="title">{spriteName}</div> */}
+                  </Paper>
+                )}
+              </>
             ))
           ) : (
             <>
@@ -84,7 +103,7 @@ const DetailedPage = ({
                 />
               }
             >
-              <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} />
+              <ImageContainer url={evolutionChain?.imageHQ} cn={"bigImage"} />
             </Suspense>
           </Paper>
         </div>
@@ -99,17 +118,14 @@ const DetailedPage = ({
   );
 };
 
-DetailedPage.propTypes = {
-  detailsPage: PropTypes.any,
-  pokemonsArr: PropTypes.any,
-};
-
-const ConnectedDetailedPage = connect((store) => {
-  return {
-    detailsPage: store.detailsPage,
-    pokemonsArr: store.pokemonsArr,
-  };
-})(DetailedPage);
+const ConnectedDetailedPage = connect(
+  (store: { detailsPage: any[]; pokemonsArr: any[] }) => {
+    return {
+      detailsPage: store.detailsPage,
+      pokemonsArr: store.pokemonsArr,
+    };
+  }
+)(DetailedPage);
 
 export default (props = {}) => (
   <Provider store={store}>

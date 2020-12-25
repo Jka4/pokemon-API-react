@@ -7,14 +7,19 @@ import { Button } from "@material-ui/core";
 import Badge from "@material-ui/core/Badge";
 import CasinoIcon from "@material-ui/icons/Casino";
 
-import { getRandomPokemon } from "@APIutils";
-import store from "@Store";
+import { getRandomPokemon } from "../../utils/API";
+import store from "../../Store/store";
 
 import "./styles/style.scss";
 
-const GetButton = ({
+interface GetButtonProps {
+  randomPokemons: any[];
+  randomPokemonsFetching: boolean;
+}
+
+const GetButton: React.FC<GetButtonProps> = ({
   randomPokemons = [],
-  randomPokemonsFetching = Boolean,
+  randomPokemonsFetching = false,
 }) => {
   const clearState = () => {
     store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
@@ -54,12 +59,14 @@ const GetButton = ({
   );
 };
 
-const ConnectedGetButton = connect((store) => {
-  return {
-    randomPokemons: store.randomPokemons,
-    randomPokemonsFetching: store.randomPokemonsFetching,
-  };
-})(GetButton);
+const ConnectedGetButton = connect(
+  (store: { randomPokemons: any[]; randomPokemonsFetching: boolean }) => {
+    return {
+      randomPokemons: store.randomPokemons,
+      randomPokemonsFetching: store.randomPokemonsFetching,
+    };
+  }
+)(GetButton);
 
 export default (props = {}) => (
   <Provider store={store}>

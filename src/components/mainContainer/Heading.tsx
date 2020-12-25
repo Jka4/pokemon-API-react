@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heading = () => {
+const Heading: React.FC = () => {
   return (
     <h2 className="titles">
       <ul className="titlesList">

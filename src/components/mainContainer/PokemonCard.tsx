@@ -2,18 +2,26 @@ import React, { lazy, Suspense } from "react";
 import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
-import PropTypes from "prop-types";
 
-const ImageContainer = lazy(() => import("@ImageContainer"));
+const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
-const PokemonCard = ({
-  src = "",
-  name = "",
-  order = 0,
-  base_experience = 0,
-  id = 0,
-  onClick = () => {},
-}) => {
+interface pokemonCardProps {
+  base_experience: number;
+  id: number;
+  name: string;
+  onClick: any;
+  order: number;
+  src: string;
+}
+
+const PokemonCard: React.FC<pokemonCardProps> = ({
+  src,
+  name,
+  order,
+  base_experience,
+  id,
+  onClick,
+}: pokemonCardProps) => {
   return (
     <Card className="pokemonCard_Outher">
       <NavLink
@@ -51,13 +59,12 @@ const PokemonCard = ({
   );
 };
 
-PokemonCard.propTypes = {
-  base_experience: PropTypes.number,
-  id: PropTypes.number,
-  name: PropTypes.string,
-  onClick: PropTypes.func,
-  order: PropTypes.number,
-  src: PropTypes.string,
+PokemonCard.defaultProps = {
+  base_experience: 1,
+  id: 1,
+  name: "Poke",
+  order: 1,
+  src: "/",
 };
 
 export default PokemonCard;

@@ -4,33 +4,27 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
-const HeaderLine = lazy(() => import("@HeaderLine"));
-const MainContainer = lazy(() => import("@MainContainer"));
-const DetailedPage = lazy(() => import("@DetailedPage"));
-const PokemonsPageAll = lazy(() => import("@PokemonsPageAll"));
-const ErrorPage = lazy(() => import("@ErrorPage"));
-const NonSupportPlaceholder = lazy(() => import("@NonSupportPlaceholder"));
-const ScreenOrientationReact = lazy(() => import("screen-orientation-react"));
+const HeaderLine = lazy(() => import("../../HeaderLine/HeaderLine"));
+const MainContainer = lazy(() => import("../../mainContainer/mainContainer"));
+const DetailedPage = lazy(() => import("../../DetailedPage/DetailedPage"));
+const PokemonsPageAll = lazy(() => import("../../PokemonsPageAll/index"));
+const ErrorPage = lazy(() => import("../../ErrorPage/ErrorPage"));
+const NonSupportPlaceholder = lazy(
+  () => import("../../nonSupportPlaceholder/nonSupportPlaceholder")
+);
 
-const App = () => {
-  const [supportScreenSize, setSupportScreenSize] = useState(null);
+const App: React.FC = () => {
+  const [supportScreenSize, setSupportScreenSize] = useState<boolean>(true);
 
   const getScreenWidth = () => {
-    setSupportScreenSize(document.body.clientWidth <= 319);
+    let res: boolean = document.body.clientWidth <= 319;
+    setSupportScreenSize(res);
   };
 
   useEffect(() => {
     window.addEventListener("resize", getScreenWidth);
     getScreenWidth();
   });
-
-  const options = {
-    color: "red",
-    bgColor: "rgba(255, 255, 0, 1)",
-    iconColor: "red",
-    animation: true,
-    fontSize: 5,
-  };
 
   return (
     <>
@@ -55,7 +49,6 @@ const App = () => {
         ) : (
           <NonSupportPlaceholder />
         )}
-        <ScreenOrientationReact options={options} />
       </Suspense>
     </>
   );

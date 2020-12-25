@@ -7,7 +7,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 import "./styles/style.scss";
 
-const Player = () => {
+const Player: React.FC = () => {
   const [play, { stop, isPlaying }] = useSound(
     `${process.env.PUBLIC_URL}/sound/pokemon_opening.mp3`
   );

@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 
-import store from "@Store";
+import store from "../../Store/store";
 
-import Search from "@Search";
-import Player from "@Player";
+import Search from "../Search/Search";
+import Player from "../Player/Player";
 
 import AppBar from "@material-ui/core/AppBar";
 import { Button } from "@material-ui/core";
@@ -13,10 +13,17 @@ import SvgIcon from "@material-ui/core/SvgIcon";
 
 import "./styles/style.scss";
 
-const HeaderLine = ({ pathname }) => {
+interface HeaderLineProps {
+  pathname?: string;
+  isMainPage?: any;
+}
+
+const HeaderLine: React.FC<HeaderLineProps> = ({
+  pathname,
+}: HeaderLineProps) => {
   const isMainPage = pathname === "/";
 
-  function HomeIcon(props) {
+  function HomeIcon({ props }: any) {
     return (
       <SvgIcon {...props}>
         <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />

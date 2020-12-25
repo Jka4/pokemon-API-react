@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Style.scss";
 
-const ErrorPage = () => {
+const ErrorPage: React.FC = () => {
   return (
     <div className="errorPage">
       <div className="errCode">404</div>

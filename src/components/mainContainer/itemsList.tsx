@@ -1,13 +1,18 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import { Provider, connect } from "react-redux";
-import PropTypes from "prop-types";
-import Heading from "@Heading";
-import PokemonCard from "@PokemonCard";
-import { setDelailedPageData } from "@APIutils";
-import store from "@Store";
+import Heading from "./Heading";
+import PokemonCard from "./PokemonCard";
+import { setDelailedPageData } from "../../utils/API";
+import store from "../../Store/store";
 
-const ItemsList = ({ randomPokemons = [] }) => {
+interface ItemsListProps {
+  randomPokemons: any[];
+}
+
+const ItemsList: React.FC<ItemsListProps> = ({
+  randomPokemons,
+}: ItemsListProps) => {
   const haveData = randomPokemons.length !== 0;
 
   return (
@@ -16,7 +21,7 @@ const ItemsList = ({ randomPokemons = [] }) => {
 
       <div className="itemList">
         <div className="cardsContainer">
-          {randomPokemons.map((i, key) => (
+          {randomPokemons.map((el: any, key: number) => (
             <PokemonCard
               key={
                 randomPokemons[key].id +
@@ -37,7 +42,7 @@ const ItemsList = ({ randomPokemons = [] }) => {
   );
 };
 
-const ConnectedItemsList = connect((store) => {
+const ConnectedItemsList = connect((store: { randomPokemons: any[] }) => {
   return {
     randomPokemons: store.randomPokemons,
   };
@@ -49,6 +54,6 @@ export default (props = {}) => (
   </Provider>
 );
 
-ItemsList.propTypes = {
-  randomPokemons: PropTypes.array,
+ItemsList.defaultProps = {
+  randomPokemons: [],
 };

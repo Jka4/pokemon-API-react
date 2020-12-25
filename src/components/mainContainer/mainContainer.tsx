@@ -1,12 +1,12 @@
 import React from "react";
 
-import GetButton from "@GetButton";
-import Logo from "@Logo";
+import GetButton from "../GetButton/GetButton";
+import Logo from "./Logo";
 import ItemsList from "./itemsList";
 
 import "./styles/style.scss";
 
-const MainContainer = () => {
+const MainContainer: React.FC = () => {
   return (
     <section className="main">
       <Logo />

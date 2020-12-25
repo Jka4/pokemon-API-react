@@ -7,9 +7,9 @@ const Abilities = ({ abilities = [] }) => {
       <Paper elevation={3} className="abilitiesUL">
         <div className="skills_title">Abilities</div>
 
-        {abilities.map((i, key) => (
+        {abilities.map((element, key) => (
           <li className="abilitiesLI" key={key}>
-            {key + 1}: {i.ability.name}
+            {key + 1}: {element.ability.name}
           </li>
         ))}
       </Paper>

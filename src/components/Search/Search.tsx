@@ -3,16 +3,15 @@ import React, { lazy, Suspense, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
 import Fuse from "fuse.js";
 import { useDebounce } from "ahooks";
 
-import store from "@Store";
-import { setDelailedPageData } from "@APIutils";
+import store from "../../Store/store";
+import { setDelailedPageData } from "../../utils/API";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("@ImageContainer"));
+const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
 let fuseOptions = {
   shouldSort: true,
@@ -29,13 +28,17 @@ let fuseOptions = {
   keys: ["name", "weight", "id"],
 };
 
-const Search = ({ pokemonDataArray }) => {
-  const [showResult, setShowResult] = useState(false);
-  const [searchResult, setSearchResult] = useState([]);
+interface SearchProps {
+  pokemonDataArray: any[];
+}
+
+const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
+  const [showResult, setShowResult] = useState<boolean>(false);
+  const [searchResult, setSearchResult] = useState<any[]>([]);
   const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
 
-  const handleChange = (event = {}) => {
-    const value = event.target.value;
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
+    const value: string = event.target.value;
 
     let fuse = new Fuse(pokemonDataArray, fuseOptions);
     let result = fuse.search(value).slice(0, 11);
@@ -52,7 +55,7 @@ const Search = ({ pokemonDataArray }) => {
     }, 400);
   };
 
-  let handleClick = (value = 0) => {
+  let handleClick = ({ value = 0 }: any) => {
     setDelailedPageData(value, true);
   };
 
@@ -112,7 +115,7 @@ const Search = ({ pokemonDataArray }) => {
   );
 };
 
-const ConnectedSearch = connect((store) => {
+const ConnectedSearch = connect((store: { pokemonsArr: any[] }) => {
   return {
     pokemonDataArray: store.pokemonsArr,
   };
@@ -123,7 +126,3 @@ export default (props = {}) => (
     <ConnectedSearch {...props} />
   </Provider>
 );
-
-Search.propTypes = {
-  pokemonDataArray: PropTypes.array,
-};
