@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 
 import { Provider } from "react-redux";
-import store from "@Store";
+import store from "./Store/store";
 
 ReactDOM.render(
   <BrowserRouter basename="/pokemon-API-react">

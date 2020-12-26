@@ -1,4 +1,16 @@
-let POKEMONS = [
+interface Pokes {
+  id: number;
+  name: string;
+  weight: number;
+  image: string;
+  imageHQ: string;
+  placeholderBase64: string;
+  chain: {
+    species_name: string;
+  }[];
+}
+
+const POKEMONS: Pokes[] = [
   {
     id: 1,
     name: "bulbasaur",

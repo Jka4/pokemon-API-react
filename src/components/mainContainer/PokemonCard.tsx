@@ -3,7 +3,7 @@ import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 interface pokemonCardProps {
   base_experience: number;
@@ -26,7 +26,7 @@ const PokemonCard: React.FC<pokemonCardProps> = ({
     <Card className="pokemonCard_Outher">
       <NavLink
         to={`/detailedPage/pokemon/${name}`}
-        data-testid="testId"
+        data-testid="testIds"
         data-pokemon_id={id}
         onClick={onClick}
         key={id}

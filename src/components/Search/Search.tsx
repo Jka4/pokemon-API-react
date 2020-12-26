@@ -6,12 +6,12 @@ import { NavLink } from "react-router-dom";
 import Fuse from "fuse.js";
 import { useDebounce } from "ahooks";
 
-import store from "../../Store/store";
-import { setDelailedPageData } from "../../utils/API";
+import store from "@Store";
+import { setDelailedPageData } from "@APIutils";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 let fuseOptions = {
   shouldSort: true,

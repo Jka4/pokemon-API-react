@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "./styles/style.scss";
 import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 
 const NonSupportPlaceholder: React.FC = () => {

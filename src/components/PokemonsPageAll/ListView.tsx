@@ -1,7 +1,6 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
 
 import { setDelailedPageData } from "@APIutils";
 
@@ -11,9 +10,34 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const ListView = ({ pokemonDataArray = [] }) => {
-  const [pokemons, setPokemons] = useState([]);
-  const [pokemonCount, setPokemonCount] = useState(0);
+interface Props {
+  pokemonDataArray: {
+    chain: {
+      species_name: string;
+    }[];
+    id: 0;
+    image: string;
+    imageHQ: string;
+    name: string;
+    placeholderBase64: string;
+    weight: number;
+  }[];
+}
+
+interface Pokes {
+  pokemon: {
+    id: number;
+    name: string;
+    imageHQ: string;
+    image: string;
+    placeholderBase64: string;
+  };
+  [index: string]: any;
+}
+
+const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
+  const [pokemons, setPokemons] = useState<any[]>([]);
+  const [pokemonCount, setPokemonCount] = useState<number>(0);
 
   useEffect(() => {
     fetchPokemons();
@@ -23,12 +47,12 @@ const ListView = ({ pokemonDataArray = [] }) => {
 
   const fetchPokemons = () => {
     const howMuchToDownload = 70;
-    let arr = [];
+    let arr: any[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
       arr.push(pokemonDataArray[i]);
     }
-    setPokemons((pokemons) => [...pokemons, ...arr]);
+    setPokemons((pokemons: any[]) => [...pokemons, ...arr]);
     setPokemonCount(pokemons.length + howMuchToDownload);
   };
 
@@ -36,7 +60,6 @@ const ListView = ({ pokemonDataArray = [] }) => {
     <>
       <section className="main">
         <InfiniteScroll
-          pageStart={1}
           dataLength={pokemons.length}
           next={fetchPokemons}
           hasMore={pokemons.length < 758}
@@ -44,31 +67,31 @@ const ListView = ({ pokemonDataArray = [] }) => {
           className="allPokemonsWrapper"
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
         >
-          {pokemons.map((index, key) => (
+          {pokemons.map((pokemon: Pokes) => (
             <NavLink
-              to={`/detailedPage/pokemon/${index?.name}`}
-              data-pokemon_id={index?.id}
+              to={`/detailedPage/pokemon/${pokemon.name}`}
+              data-pokemon_id={pokemon.id}
               onClick={setDelailedPageData}
-              key={index + Math.floor(1 + Math.random() * 9999999999)}
+              key={pokemon.id + Math.floor(1 + Math.random() * 9999999999)}
             >
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
                   <Suspense
                     fallback={
                       <img
-                        src={index?.placeholderBase64 || index?.image}
+                        src={pokemon.placeholderBase64 || pokemon.image}
                         className="placeholderBase64"
                         alt="placeholderBase64"
                       />
                     }
                   >
                     <ImageContainer
-                      url={index?.imageHQ || index?.image}
+                      url={pokemon.imageHQ || pokemon.image}
                       cn="pokemonImageCard"
                     />
                   </Suspense>
                 </div>
-                <div className="pokemonName">{index?.name}</div>
+                <div className="pokemonName">{pokemon.name}</div>
               </Paper>
             </NavLink>
           ))}
@@ -79,7 +102,3 @@ const ListView = ({ pokemonDataArray = [] }) => {
 };
 
 export default ListView;
-
-ListView.propTypes = {
-  pokemonDataArray: PropTypes.array,
-};

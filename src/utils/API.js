@@ -1,6 +1,5 @@
-import store from "../Store/store";
+import store from "@Store";
 import axios from "axios";
-import React from "react";
 
 export let getRandomPokemon = async (amount = 806) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
@@ -21,17 +20,14 @@ export let getRandomPokemon = async (amount = 806) => {
     });
 };
 
-export const setDelailedPageData = async (
-  event: React.ChangeEvent<HTMLInputElement>,
-  isSearch: boolean
-) => {
+export const setDelailedPageData = async (event, isSearch) => {
   let pokemon_id;
 
   if (typeof event === "number") {
     pokemon_id = event;
   } else {
     if (isSearch === true) {
-      // pokemon_id = event.currentTarget.closest("LI").dataset.id;
+      pokemon_id = event.currentTarget.closest("LI").dataset.id;
     } else {
       pokemon_id = event.currentTarget.dataset.pokemon_id;
     }

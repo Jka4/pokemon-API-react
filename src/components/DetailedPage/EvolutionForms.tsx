@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import find from "lodash.find";
 import Paper from "@material-ui/core/Paper";
 
-// import { setDelailedPageData } from "../../utils/API";
+import { setDelailedPageData } from "@APIutils";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 type Props = {
   pokemonsArr: any;
@@ -66,7 +66,7 @@ const EvolutionForms: React.FC<Props> = ({
           <NavLink
             to={`/detailedPage/pokemon/${index.id}`}
             data-pokemon_id={index.id}
-            // onClick={setDelailedPageData}
+            onClick={setDelailedPageData}
             key={index.id}
           >
             <Paper

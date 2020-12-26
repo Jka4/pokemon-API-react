@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from "react";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 const Logo: React.FC = () => {
   const base64placeholder: string =

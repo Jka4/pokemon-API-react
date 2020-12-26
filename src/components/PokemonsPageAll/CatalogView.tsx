@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from "react";
 import { NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
 
 import { setDelailedPageData } from "@APIutils";
 
@@ -9,7 +8,21 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
-const CatalogView = ({ pokemonDataArray = [] }) => {
+interface Props {
+  pokemonDataArray: {
+    chain: {
+      species_name: string;
+    }[];
+    id: 0;
+    image: string;
+    imageHQ: string;
+    name: string;
+    placeholderBase64: string;
+    weight: number;
+  }[];
+}
+
+const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   return (
     <div className="wrapper">
       {pokemonDataArray.map((index, key) => (
@@ -40,7 +53,3 @@ const CatalogView = ({ pokemonDataArray = [] }) => {
 };
 
 export default CatalogView;
-
-CatalogView.propTypes = {
-  pokemonDataArray: PropTypes.array,
-};

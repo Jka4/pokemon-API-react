@@ -3,19 +3,19 @@ import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 
-import Stats from "./Stats";
-import Abilities from "./Abilities";
-import EvolutionForms from "./EvolutionForms";
+import Stats from "@Stats";
+import Abilities from "@Abilities";
+import EvolutionForms from "@EvolutionForms";
 import Paper from "@material-ui/core/Paper";
 
-import store from "../../Store/store";
+import store from "@Store";
 import find from "lodash.find";
 
-import POKEMONS from "../../utils/pokemonDataArray";
+import POKEMONS from "@pokemonDataArray";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("@ImageContainer"));
 
 type Props = {
   pokemonArr: any;

@@ -1,10 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import { Provider, connect } from "react-redux";
-import Heading from "./Heading";
-import PokemonCard from "./PokemonCard";
-import { setDelailedPageData } from "../../utils/API";
-import store from "../../Store/store";
+import Heading from "@Heading";
+import PokemonCard from "@PokemonCard";
+import { setDelailedPageData } from "@APIutils";
+import store from "@Store";
 
 interface ItemsListProps {
   randomPokemons: any[];

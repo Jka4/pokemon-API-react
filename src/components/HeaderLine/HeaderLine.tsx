@@ -1,11 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
 
-import store from "../../Store/store";
+import store from "@Store";
 
-import Search from "../Search/Search";
-import Player from "../Player/Player";
+import Search from "@Search";
+import Player from "@Player";
 
 import AppBar from "@material-ui/core/AppBar";
 import { Button } from "@material-ui/core";
@@ -55,7 +54,3 @@ const HeaderLine: React.FC<HeaderLineProps> = ({
 };
 
 export default HeaderLine;
-
-HeaderLine.propTypes = {
-  isMainPage: PropTypes.string,
-};

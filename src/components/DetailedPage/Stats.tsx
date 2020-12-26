@@ -1,19 +1,19 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 
-type Props = {
-  stats: any[];
-  weight: number;
-};
-
 interface StatsElements {
   el: {
-    base_stat: string;
+    base_stat: number;
     stat: {
       name: string;
     };
   };
   [key: string]: any;
+}
+
+interface Props {
+  stats: StatsElements[];
+  weight: number;
 }
 
 const Stats: React.FC<Props> = ({ stats, weight }: Props) => {

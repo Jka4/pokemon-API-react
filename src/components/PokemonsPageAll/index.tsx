@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useState } from "react";
 import { Provider, connect } from "react-redux";
-import PropTypes from "prop-types";
 
 import store from "@Store";
 
@@ -11,8 +10,22 @@ import CatalogView from "@CatalogView";
 import AppsIcon from "@material-ui/icons/Apps";
 import BlurOnOutlinedIcon from "@material-ui/icons/BlurOnOutlined";
 
-const PokemonsPageAll = ({ pokemonDataArray = [] }) => {
-  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState(false);
+interface Props {
+  pokemonDataArray: {
+    chain: {
+      species_name: string;
+    }[];
+    id: 0;
+    image: string;
+    imageHQ: string;
+    name: string;
+    placeholderBase64: string;
+    weight: number;
+  }[];
+}
+
+const PokemonsPageAll: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
+  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);
 
   return (
     <>
@@ -53,7 +66,7 @@ const PokemonsPageAll = ({ pokemonDataArray = [] }) => {
   );
 };
 
-const ConnectedPokemonsPageAll = connect((store) => {
+const ConnectedPokemonsPageAll = connect((store: { pokemonsArr: any }) => {
   return {
     pokemonDataArray: store.pokemonsArr,
   };
@@ -64,7 +77,3 @@ export default (props = {}) => (
     <ConnectedPokemonsPageAll {...props} />
   </Provider>
 );
-
-PokemonsPageAll.propTypes = {
-  pokemonDataArray: PropTypes.array,
-};
