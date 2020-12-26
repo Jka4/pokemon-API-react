@@ -8,18 +8,16 @@ import { setDelailedPageData } from "@APIutils";
 const ImageContainer = lazy(() => import("@ImageContainer"));
 
 type Props = {
-  pokemonsArr: any;
-  evolutionChain: any;
+  pokemonsArr: any[];
+  evolutionChain: ChainElements;
   currentPokemon: any;
 };
 
 interface ChainElements {
-  element?: {
-    image: string;
-    species_name: string;
-    placeholderBase64: string;
-    id: number | string;
-  };
+  image: string;
+  species_name: string;
+  placeholderBase64: string;
+  id: number | string;
   [key: string]: any;
 }
 
