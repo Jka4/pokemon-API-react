@@ -2,9 +2,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "example/*": [
-        "example/src/*"
-      ],
       "@App": [
         "./src/components/App"
       ],
