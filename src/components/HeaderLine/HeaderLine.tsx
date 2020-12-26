@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import store from "@Store";
+import store from "../../Store/store";
 
-import Search from "@Search";
-import Player from "@Player";
+import Search from "../Search/Search";
+import Player from "../Player/Player";
 
 import AppBar from "@material-ui/core/AppBar";
 import { Button } from "@material-ui/core";

@@ -1,6 +1,6 @@
 import { createStore } from "redux";
 import ls from "local-storage";
-import POKEMONS from "@pokemonDataArray";
+import POKEMONS from "../utils/pokemonDataArray";
 import CryptoJS from "crypto-js";
 
 const APP_SECRET_KEY = "mySecretKey_kjkszpj";

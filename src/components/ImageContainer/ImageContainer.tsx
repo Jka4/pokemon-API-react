@@ -1,7 +1,7 @@
 import React from "react";
 import { useImage } from "react-image";
 
-import ErrorBoundary from "@ErrorBoundary";
+import ErrorBoundary from "../../utils/ErrorBoundary";
 
 interface ImageContainerProps {
   url: undefined | string;

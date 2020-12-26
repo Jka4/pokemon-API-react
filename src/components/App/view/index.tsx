@@ -4,12 +4,12 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import "../styles/App.scss";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
-const HeaderLine = lazy(() => import("@HeaderLine"));
-const MainContainer = lazy(() => import("@MainContainer"));
-const DetailedPage = lazy(() => import("@DetailedPage"));
-const PokemonsPageAll = lazy(() => import("@PokemonsPageAll"));
-const ErrorPage = lazy(() => import("@ErrorPage"));
-const NonSupportPlaceholder = lazy(() => import("@NonSupportPlaceholder"));
+const HeaderLine = lazy(() => import("../../HeaderLine/HeaderLine"));
+const MainContainer = lazy(() => import("../../mainContainer/mainContainer"));
+const DetailedPage = lazy(() => import("../../DetailedPage/DetailedPage"));
+const PokemonsPageAll = lazy(() => import("../../PokemonsPageAll/index"));
+const ErrorPage = lazy(() => import("../../ErrorPage/ErrorPage"));
+const NonSupportPlaceholder = lazy(() => import("../../nonSupportPlaceholder/nonSupportPlaceholder"));
 
 const App: React.FC = () => {
   const [supportScreenSize, setSupportScreenSize] = useState<boolean>(true);
@@ -45,8 +45,8 @@ const App: React.FC = () => {
             </Switch>
           </div>
         ) : (
-          <NonSupportPlaceholder />
-        )}
+            <NonSupportPlaceholder />
+          )}
       </Suspense>
     </>
   );

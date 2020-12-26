@@ -1,4 +1,4 @@
-import store from "@Store";
+import store from "../Store/store";
 import axios from "axios";
 
 export let getRandomPokemon = async (amount = 806) => {

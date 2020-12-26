@@ -3,19 +3,19 @@ import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 
-import Stats from "@Stats";
-import Abilities from "@Abilities";
-import EvolutionForms from "@EvolutionForms";
+import Stats from "./Stats";
+import Abilities from "./Abilities";
+import EvolutionForms from "./EvolutionForms";
 import Paper from "@material-ui/core/Paper";
 
-import store from "@Store";
+import store from "../../Store/store";
 import find from "lodash.find";
 
-import POKEMONS from "@pokemonDataArray";
+import POKEMONS from "../../utils/pokemonDataArray";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("@ImageContainer"));
+const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
 type Props = {
   pokemonArr: any;
@@ -77,21 +77,21 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
               </div>
             ))
           ) : (
-            <>
-              {[1, 2, 3, 4].map((
-                n: number // trash code just for generate placeholder
-              ) => (
-                <Paper elevation={3} key={randomNum + n} className="block">
-                  <Loader
-                    type="TailSpin"
-                    height={50}
-                    width={50}
-                    color={"red"}
-                  />
-                </Paper>
-              ))}
-            </>
-          )}
+              <>
+                {[1, 2, 3, 4].map((
+                  n: number // trash code just for generate placeholder
+                ) => (
+                  <Paper elevation={3} key={randomNum + n} className="block">
+                    <Loader
+                      type="TailSpin"
+                      height={50}
+                      width={50}
+                      color={"red"}
+                    />
+                  </Paper>
+                ))}
+              </>
+            )}
         </div>
         <div className="mainInformations">
           <div className="skills">

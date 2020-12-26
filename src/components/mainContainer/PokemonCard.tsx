@@ -3,7 +3,7 @@ import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 
-const ImageContainer = lazy(() => import("@ImageContainer"));
+const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
 interface pokemonCardProps {
   base_experience: number;
@@ -47,8 +47,8 @@ const PokemonCard: React.FC<pokemonCardProps> = ({
                 <ImageContainer url={src} cn={"pokemonImage"} />
               </Suspense>
             ) : (
-              <Loader type="TailSpin" height={50} width={50} color={"red"} />
-            )}
+                <Loader type="TailSpin" height={50} width={50} color={"red"} />
+              )}
           </div>
           <span>{name}</span>
           <span>{order}</span>

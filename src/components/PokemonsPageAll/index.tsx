@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import { Provider, connect } from "react-redux";
 
-import store from "@Store";
+import store from "../../Store/store";
 
-import ListView from "@ListView";
-import CatalogView from "@CatalogView";
+import ListView from "./ListView";
+import CatalogView from "./CatalogView";
 
 import AppsIcon from "@material-ui/icons/Apps";
 import BlurOnOutlinedIcon from "@material-ui/icons/BlurOnOutlined";
@@ -44,15 +44,15 @@ const PokemonsPageAll: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
                 </div>
               </>
             ) : (
-              <>
-                <span>Catalog view:</span>
-                <span className="separator">|</span>
+                <>
+                  <span>Catalog view:</span>
+                  <span className="separator">|</span>
 
-                <div className="catalog">
-                  <AppsIcon />
-                </div>
-              </>
-            )}
+                  <div className="catalog">
+                    <AppsIcon />
+                  </div>
+                </>
+              )}
           </div>
         </div>
       </div>
@@ -60,8 +60,8 @@ const PokemonsPageAll: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
       {!viewTypeIsCatalog ? (
         <ListView pokemonDataArray={pokemonDataArray} />
       ) : (
-        <CatalogView pokemonDataArray={pokemonDataArray} />
-      )}
+          <CatalogView pokemonDataArray={pokemonDataArray} />
+        )}
     </>
   );
 };
