@@ -21,13 +21,9 @@ interface ChainElements {
   [key: string]: any;
 }
 
-const EvolutionForms: React.FC<Props> = ({
-  pokemonsArr,
-  evolutionChain,
-  currentPokemon,
-}: Props) => {
+const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentPokemon, }: Props) => {
   const chainNames = evolutionChain?.chain;
-  const [chain, setChain] = useState<any[]>([]);
+  const [chain, setChain] = useState<ChainElements[]>([]);
 
   useEffect(() => {
     let arr: any[] = [];

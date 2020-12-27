@@ -28,11 +28,22 @@ type evolutionChainTypes = {
 
 type DetailsPageTypes = {
   weight: number;
-  abilities: any[];
-  stats: any[];
+  abilities: {
+    ability: {
+      url: string;
+      name: string;
+    };
+  }[];
+  stats: {
+    base_stat: number;
+    stat: {
+      name: string;
+    };
+  }[];
   sprites: any[string];
   name: string;
 };
+
 
 const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
   const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage;
@@ -44,6 +55,9 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
   }, [detailsPage]);
 
   const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
+
+  console.log(evolutionChain);
+
 
   return (
     <>
@@ -108,7 +122,7 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
                 />
               }
             >
-              <ImageContainer url={evolutionChain?.imageHQ} cn={"bigImage"} />
+              {evolutionChain && <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} />}
             </Suspense>
           </Paper>
         </div>
@@ -123,7 +137,7 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
   );
 };
 
-const ConnectedDetailedPage = connect((store: any) => {
+const ConnectedDetailedPage = connect((store: Props) => {
   return {
     detailsPage: store.detailsPage,
   };

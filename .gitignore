@@ -3,9 +3,12 @@
 /build
 /coverage
 /.eslintcache
+.idea
 
 node_modules
 .vscode
 build
 coverage
 .eslintcache
+/.idea
+

@@ -29,7 +29,19 @@ let fuseOptions = {
 };
 
 interface SearchProps {
-  pokemonDataArray: any[];
+  pokemonDataArray: Pokes[];
+}
+
+interface Pokes {
+  id: number;
+  name: string;
+  weight: number;
+  image: string;
+  imageHQ: string;
+  placeholderBase64: string;
+  chain: {
+    species_name: string;
+  }[];
 }
 
 const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
@@ -115,7 +127,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   );
 };
 
-const ConnectedSearch = connect((store: { pokemonsArr: any[] }) => {
+const ConnectedSearch = connect((store: { pokemonsArr: Pokes[] }) => {
   return {
     pokemonDataArray: store.pokemonsArr,
   };

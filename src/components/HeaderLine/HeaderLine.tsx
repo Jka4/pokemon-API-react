@@ -17,9 +17,7 @@ interface HeaderLineProps {
   isMainPage?: any;
 }
 
-const HeaderLine: React.FC<HeaderLineProps> = ({
-  pathname,
-}: HeaderLineProps) => {
+const HeaderLine: React.FC<HeaderLineProps> = ({ pathname }: HeaderLineProps) => {
   const isMainPage = pathname === "/";
 
   function HomeIcon({ props }: any) {
