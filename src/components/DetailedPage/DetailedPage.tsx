@@ -18,26 +18,25 @@ import "./styles/style.scss";
 const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
 
 type Props = {
-  pokemonArr: any;
-  detailsPage: any;
+  detailsPage: DetailsPageTypes;
 };
 
-type evolutionChainProps = {
+type evolutionChainTypes = {
   placeholderBase64: string;
   imageHQ: string;
 };
 
-type DetailsPage = {
+type DetailsPageTypes = {
   weight: number;
   abilities: any[];
   stats: any[];
-  sprites: any;
+  sprites: any[string];
   name: string;
 };
 
 const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
-  const { abilities, stats, weight, sprites, name }: DetailsPage = detailsPage;
-  const [evolutionChain, setEvolutionChain] = useState<evolutionChainProps>();
+  const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage;
+  const [evolutionChain, setEvolutionChain] = useState<evolutionChainTypes>();
 
   useEffect(() => {
     let pokemonObj = find(POKEMONS, (o) => o.name === detailsPage.name);
