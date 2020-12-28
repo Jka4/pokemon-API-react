@@ -89,7 +89,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
                       />
                     }
                   >
-                    <ImageContainer url={pokemon.imageHQ || pokemon.image} cn="pokemonImageCard" />
+                    <ImageContainer url={pokemon.imageHQ || pokemon.image} cn={"pokemonImageCard"} />
                   </Suspense>
                 </div>
                 <div className="pokemonName">{pokemon.name}</div>

@@ -4,14 +4,12 @@ import { useImage } from "react-image";
 import ErrorBoundary from "utils/ErrorBoundary";
 
 interface ImageContainerProps {
-  url: undefined | string;
-  cn: undefined | string;
+  url: string;
+  cn?: string;
 }
 
-const ImageContainer: React.FC<ImageContainerProps> = ({
-  url = "",
-  cn = "",
-}: ImageContainerProps) => {
+const ImageContainer: React.FC<ImageContainerProps> = ({ url, cn }: ImageContainerProps) => {
+
   const ImageWrapper = () => {
     const { src } = useImage({ srcList: url });
 
