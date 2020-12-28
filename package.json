@@ -48,10 +48,20 @@
     "use-sound": "^2.0.1"
   },
   "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
     "extends": [
       "react-app",
       "eslint:recommended"
-    ]
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [

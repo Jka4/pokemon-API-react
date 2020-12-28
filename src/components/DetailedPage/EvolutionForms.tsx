@@ -11,6 +11,7 @@ type Props = {
   pokemonsArr: any;
   evolutionChain: any;
   currentPokemon: any;
+
 };
 
 interface ChainElements {
@@ -51,6 +52,11 @@ const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentP
     );
   };
 
+  const handleClick = (id: number) => {
+    setDelailedPageData(id, false);
+  }
+
+
   return (
     <>
       <FormTitle />
@@ -60,7 +66,7 @@ const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentP
           <NavLink
             to={`/detailedPage/pokemon/${index.id}`}
             data-pokemon_id={index.id}
-            onClick={setDelailedPageData}
+            onClick={() => handleClick(Number(index.id))}
             key={index.id}
           >
             <Paper

@@ -23,6 +23,11 @@ type randomPokemonsType = {
 const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) => {
   const haveData = randomPokemons.length !== 0;
 
+  const handleClick = (id: number) => {
+    setDelailedPageData(id, false);
+  }
+
+
   return (
     <>
       {haveData && <Heading />}
@@ -41,7 +46,7 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
               name={randomPokemons[key].name}
               order={randomPokemons[key].order}
               base_experience={randomPokemons[key].base_experience}
-              onClick={setDelailedPageData}
+              onClick={handleClick(randomPokemons[key].id)}
             />
           ))}
         </div>

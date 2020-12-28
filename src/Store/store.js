@@ -8,7 +8,7 @@ const APP_SECRET_KEY = "mySecretKey_kjkszpj";
 let defaultState = {
   randomPokemons: [],
   randomPokemonsFetching: false,
-  detailsPage: "",
+  detailsPage: null,
   playing: false,
   pokemonsArr: POKEMONS,
 };
@@ -54,7 +54,7 @@ function reducer(state = defaultState, action) {
     case "CLEAR_DETAILS_PAGE":
       return {
         ...state,
-        detailsPage: "",
+        detailsPage: null,
       };
     case "SET_DETAILS_PAGE":
       return {

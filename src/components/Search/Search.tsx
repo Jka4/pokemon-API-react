@@ -49,7 +49,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   const [searchResult, setSearchResult] = useState<any[]>([]);
   const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
+  const handleChange = (event: any) => {
     const value: string = event.target.value;
 
     let fuse = new Fuse(pokemonDataArray, fuseOptions);
@@ -67,8 +67,8 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     }, 400);
   };
 
-  let handleClick = ({ value = 0 }: any) => {
-    setDelailedPageData(value, true);
+  let handleClick = (id: number) => {
+    setDelailedPageData(id, true);
   };
 
   return (

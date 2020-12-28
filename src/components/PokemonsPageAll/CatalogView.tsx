@@ -23,6 +23,11 @@ interface Props {
 }
 
 const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
+
+  const handleClick = (id: number) => {
+    setDelailedPageData(id, false);
+  }
+
   return (
     <div className="wrapper">
       {pokemonDataArray.map((index, key) => (
@@ -30,7 +35,7 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           <NavLink
             to={`/detailedPage/pokemon/${index?.name}`}
             data-pokemon_id={index?.id}
-            onClick={setDelailedPageData}
+            onClick={() => handleClick(index.id)}
             key={key}
           >
             <Suspense
@@ -47,8 +52,9 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
             </Suspense>
           </NavLink>
         </React.Fragment>
-      ))}
-    </div>
+      ))
+      }
+    </div >
   );
 };
 

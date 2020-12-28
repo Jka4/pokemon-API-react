@@ -9,7 +9,7 @@ type pokemonCardType = {
   base_experience: number;
   id: number;
   name: string;
-  onClick: () => void;
+  onClick: any;
   order: number;
   src: string;
 }

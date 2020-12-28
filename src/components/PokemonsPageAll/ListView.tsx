@@ -56,6 +56,10 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     setPokemonCount(pokemons.length + howMuchToDownload);
   };
 
+  const handleClick = (id: number) => {
+    setDelailedPageData(id, false);
+  }
+
   return (
     <>
       <section className="main">
@@ -71,7 +75,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
             <NavLink
               to={`/detailedPage/pokemon/${pokemon.name}`}
               data-pokemon_id={pokemon.id}
-              onClick={setDelailedPageData}
+              onClick={() => handleClick(pokemon.id)}
               key={pokemon.id + Math.floor(1 + Math.random() * 9999999999)}
             >
               <Paper elevation={3} className="smallPokemonCard">

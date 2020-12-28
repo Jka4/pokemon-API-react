@@ -1,5 +1,6 @@
 import store from "Store/store";
 import axios from "axios";
+// import React, { SyntheticEvent } from "react";
 
 export let getRandomPokemon = async (amount = 806) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
@@ -19,20 +20,9 @@ export let getRandomPokemon = async (amount = 806) => {
       console.log(error);
     });
 };
+ 
 
-export const setDelailedPageData = async (event, isSearch) => {
-  let pokemon_id;
-
-  if (typeof event === "number") {
-    pokemon_id = event;
-  } else {
-    if (isSearch === true) {
-      pokemon_id = event.currentTarget.closest("LI").dataset.id;
-    } else {
-      pokemon_id = event.currentTarget.dataset.pokemon_id;
-    }
-  }
-
+export const setDelailedPageData = async ( pokemon_id: number, isSearch: boolean ) => {
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
   await axios.get(URL).then(async (response) => {
     const page = response.data;

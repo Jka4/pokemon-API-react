@@ -18,8 +18,8 @@ import "./styles/style.scss";
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 type Props = {
-  pokemonArr: DetailsPageTypes[];
-  detailsPage: any;
+  pokemonArr: DetailsPageTypes[] | null;
+  detailsPage: null | any;
 };
 
 type evolutionChainTypes = {
