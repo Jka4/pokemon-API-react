@@ -22,7 +22,7 @@ export let getRandomPokemon = async (amount = 806) => {
 };
  
 
-export const setDelailedPageData = async ( pokemon_id: number, isSearch: boolean ) => {
+export const setDelailedPageData = async ( pokemon_id: number ) => {
   const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
   await axios.get(URL).then(async (response) => {
     const page = response.data;

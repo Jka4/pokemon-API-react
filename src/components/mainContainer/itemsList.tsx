@@ -24,7 +24,7 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
   const haveData = randomPokemons.length !== 0;
 
   const handleClick = (id: number) => {
-    setDelailedPageData(id, false);
+    setDelailedPageData(id);
   }
 
 

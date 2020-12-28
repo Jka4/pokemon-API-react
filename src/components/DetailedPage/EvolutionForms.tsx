@@ -53,7 +53,7 @@ const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentP
   };
 
   const handleClick = (id: number) => {
-    setDelailedPageData(id, false);
+    setDelailedPageData(id);
   }
 
 

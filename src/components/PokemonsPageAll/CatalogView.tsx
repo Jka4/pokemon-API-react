@@ -25,7 +25,7 @@ interface Props {
 const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
 
   const handleClick = (id: number) => {
-    setDelailedPageData(id, false);
+    setDelailedPageData(id);
   }
 
   return (
