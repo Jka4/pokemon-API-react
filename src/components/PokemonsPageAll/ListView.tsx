@@ -24,7 +24,7 @@ interface Props {
   }[];
 }
 
-interface Pokes {
+interface pokemonsType {
   pokemon: {
     id: number;
     name: string;
@@ -53,7 +53,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
       arr.push(pokemonDataArray[i]);
     }
     setPokemons((pokemons: any[]) => [...pokemons, ...arr]);
-    setPokemonCount(pokemons.length + howMuchToDownload);
+    setPokemonCount((pokemons.length + 1) + howMuchToDownload);
   };
 
   const handleClick = (id: number) => {
@@ -71,28 +71,25 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           className="allPokemonsWrapper"
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
         >
-          {pokemons.map((pokemon: Pokes) => (
+          {pokemons.map((pokemon: pokemonsType) => (
             <NavLink
               to={`/detailedPage/pokemon/${pokemon.name}`}
               data-pokemon_id={pokemon.id}
               onClick={() => handleClick(pokemon.id)}
-              key={pokemon.id + Math.floor(1 + Math.random() * 9999999999)}
+              key={pokemon.id}
             >
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
                   <Suspense
                     fallback={
                       <img
-                        src={pokemon.placeholderBase64 || pokemon.image}
+                        src={pokemon.placeholderBase64}
                         className="placeholderBase64"
                         alt="placeholderBase64"
                       />
                     }
                   >
-                    <ImageContainer
-                      url={pokemon.imageHQ || pokemon.image}
-                      cn="pokemonImageCard"
-                    />
+                    <ImageContainer url={pokemon.imageHQ || pokemon.image} cn="pokemonImageCard" />
                   </Suspense>
                 </div>
                 <div className="pokemonName">{pokemon.name}</div>
