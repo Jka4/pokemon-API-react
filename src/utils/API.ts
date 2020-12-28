@@ -1,6 +1,5 @@
 import store from "Store/store";
 import axios from "axios";
-// import React, { SyntheticEvent } from "react";
 
 export let getRandomPokemon = async (amount = 806) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
