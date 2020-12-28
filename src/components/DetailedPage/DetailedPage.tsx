@@ -57,9 +57,6 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
 
   const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
 
-  console.log(evolutionChain);
-
-
   return (
     <>
       <div className="detailedPage">
