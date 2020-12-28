@@ -1,5 +1,4 @@
 import React, { lazy, Suspense } from "react";
-import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 
@@ -12,9 +11,10 @@ type pokemonCardType = {
   onClick: any;
   order: number;
   src: string;
+  placeholderBase64: string;
 }
 
-const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, onClick, }: pokemonCardType) => {
+const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, onClick, placeholderBase64 }: pokemonCardType) => {
 
   return (
     <Card className="pokemonCard_Outher">
@@ -27,22 +27,9 @@ const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experie
       >
         <div className="pokemonCard">
           <div className="imageWrapper">
-            {src ? (
-              <Suspense
-                fallback={
-                  <Loader
-                    type="TailSpin"
-                    height={50}
-                    width={50}
-                    color={"red"}
-                  />
-                }
-              >
-                <ImageContainer url={src} cn={"pokemonImage"} />
-              </Suspense>
-            ) : (
-                <Loader type="TailSpin" height={50} width={50} color={"red"} />
-              )}
+            <Suspense fallback={<img src={placeholderBase64} alt="fallback" className='placeholderBase64' />} >
+              <ImageContainer url={src} cn={"pokemonImage"} />
+            </Suspense>
           </div>
           <span>{name}</span>
           <span>{order}</span>
