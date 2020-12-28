@@ -10,7 +10,6 @@ interface AbilityElements {
     url: string;
     name: string;
   };
-  [index: string]: any;
 }
 
 const Abilities: React.FC<Props> = ({ abilities = [] }: Props) => {

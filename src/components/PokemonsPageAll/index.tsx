@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Provider, connect } from "react-redux";
 
-import store from "../../Store/store";
+import store from "Store/store";
 
 import ListView from "./ListView";
 import CatalogView from "./CatalogView";

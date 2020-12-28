@@ -3,7 +3,7 @@ import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 interface pokemonCardProps {
   base_experience: number;

@@ -8,17 +8,17 @@ import Abilities from "./Abilities";
 import EvolutionForms from "./EvolutionForms";
 import Paper from "@material-ui/core/Paper";
 
-import store from "../../Store/store";
+import store from "Store/store";
 import find from "lodash.find";
 
-import POKEMONS from "../../utils/pokemonDataArray";
+import POKEMONS from "utils/pokemonDataArray";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 type Props = {
-  pokemonArr: any;
+  pokemonArr: DetailsPage[];
   detailsPage: any;
 };
 

@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import find from "lodash.find";
 import Paper from "@material-ui/core/Paper";
 
-import { setDelailedPageData } from "../../utils/API";
+import { setDelailedPageData } from "utils/API";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 type Props = {
   pokemonsArr: any;
@@ -26,7 +26,7 @@ const EvolutionForms: React.FC<Props> = ({
   evolutionChain,
   currentPokemon,
 }: Props) => {
-  const chainNames = evolutionChain?.chain;
+  const chainNames: any[] = evolutionChain.chain;
   const [chain, setChain] = useState<any[]>([]);
 
   useEffect(() => {

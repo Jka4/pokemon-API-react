@@ -7,8 +7,8 @@ import { Button } from "@material-ui/core";
 import Badge from "@material-ui/core/Badge";
 import CasinoIcon from "@material-ui/icons/Casino";
 
-import { getRandomPokemon } from "../../utils/API";
-import store from "../../Store/store";
+import { getRandomPokemon } from "utils/API";
+import store from "Store/store";
 
 import "./styles/style.scss";
 

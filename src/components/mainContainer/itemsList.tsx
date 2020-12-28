@@ -3,8 +3,8 @@ import React from "react";
 import { Provider, connect } from "react-redux";
 import Heading from "./Heading";
 import PokemonCard from "./PokemonCard";
-import { setDelailedPageData } from "../../utils/API";
-import store from "../../Store/store";
+import { setDelailedPageData } from "utils/API";
+import store from "Store/store";
 
 interface ItemsListProps {
   randomPokemons: any[];

@@ -1,6 +1,6 @@
 import React from "react";
 
-import GetButton from "../GetButton/GetButton";
+import GetButton from "components/GetButton/GetButton";
 import Logo from "./Logo";
 import ItemsList from "./itemsList";
 

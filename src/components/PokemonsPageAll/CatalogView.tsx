@@ -1,12 +1,12 @@
 import React, { Suspense, lazy } from "react";
 import { NavLink } from "react-router-dom";
 
-import { setDelailedPageData } from "../../utils/API";
+import { setDelailedPageData } from "utils/API";
 
 import "react-tippy/dist/tippy.css";
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 interface Props {
   pokemonDataArray: {

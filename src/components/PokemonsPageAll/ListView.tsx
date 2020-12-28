@@ -2,13 +2,13 @@ import React, { lazy, Suspense, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { NavLink } from "react-router-dom";
 
-import { setDelailedPageData } from "../../utils/API";
+import { setDelailedPageData } from "utils/API";
 
 import Paper from "@material-ui/core/Paper";
 
 import "./styles/style.scss";
 
-const ImageContainer = lazy(() => import("../ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 interface Props {
   pokemonDataArray: {
