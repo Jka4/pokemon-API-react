@@ -5,23 +5,17 @@ import Card from "@material-ui/core/Card";
 
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
-interface pokemonCardProps {
+type pokemonCardType = {
   base_experience: number;
   id: number;
   name: string;
-  onClick: any;
+  onClick: () => void;
   order: number;
   src: string;
 }
 
-const PokemonCard: React.FC<pokemonCardProps> = ({
-  src,
-  name,
-  order,
-  base_experience,
-  id,
-  onClick,
-}: pokemonCardProps) => {
+const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, onClick, }: pokemonCardType) => {
+
   return (
     <Card className="pokemonCard_Outher">
       <NavLink

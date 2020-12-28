@@ -10,7 +10,7 @@ import CatalogView from "./CatalogView";
 import AppsIcon from "@material-ui/icons/Apps";
 import BlurOnOutlinedIcon from "@material-ui/icons/BlurOnOutlined";
 
-interface Props {
+type PokemonsPageAllType = {
   pokemonDataArray: {
     chain: {
       species_name: string;
@@ -22,9 +22,9 @@ interface Props {
     placeholderBase64: string;
     weight: number;
   }[];
-}
+};
 
-const PokemonsPageAll: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
+const PokemonsPageAll: React.FC<PokemonsPageAllType> = ({ pokemonDataArray = [] }: PokemonsPageAllType) => {
   const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);
 
   return (
@@ -66,7 +66,7 @@ const PokemonsPageAll: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   );
 };
 
-const ConnectedPokemonsPageAll = connect((store: { pokemonsArr: any }) => {
+const ConnectedPokemonsPageAll = connect((store: { pokemonsArr: any[] }) => {
   return {
     pokemonDataArray: store.pokemonsArr,
   };

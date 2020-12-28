@@ -6,13 +6,21 @@ import PokemonCard from "./PokemonCard";
 import { setDelailedPageData } from "utils/API";
 import store from "Store/store";
 
-interface ItemsListProps {
-  randomPokemons: any[];
+type ItemsListType = {
+  randomPokemons: randomPokemonsType[];
 }
 
-const ItemsList: React.FC<ItemsListProps> = ({
-  randomPokemons,
-}: ItemsListProps) => {
+type randomPokemonsType = {
+  id: number;
+  sprites: {
+    front_default: string
+  };
+  name: string;
+  order: number;
+  base_experience: number
+}
+
+const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) => {
   const haveData = randomPokemons.length !== 0;
 
   return (
@@ -28,11 +36,11 @@ const ItemsList: React.FC<ItemsListProps> = ({
                 key +
                 Math.floor(1 + Math.random() * 9999999999)
               }
-              id={randomPokemons[key]?.id}
-              src={randomPokemons[key]?.sprites?.front_default}
-              name={randomPokemons[key]?.name}
-              order={randomPokemons[key]?.order}
-              base_experience={randomPokemons[key]?.base_experience}
+              id={randomPokemons[key].id}
+              src={randomPokemons[key].sprites.front_default}
+              name={randomPokemons[key].name}
+              order={randomPokemons[key].order}
+              base_experience={randomPokemons[key].base_experience}
               onClick={setDelailedPageData}
             />
           ))}
@@ -42,7 +50,7 @@ const ItemsList: React.FC<ItemsListProps> = ({
   );
 };
 
-const ConnectedItemsList = connect((store: { randomPokemons: any[] }) => {
+const ConnectedItemsList = connect((store: ItemsListType) => {
   return {
     randomPokemons: store.randomPokemons,
   };

@@ -17,10 +17,9 @@ interface GetButtonProps {
   randomPokemonsFetching: boolean;
 }
 
-const GetButton: React.FC<GetButtonProps> = ({
-  randomPokemons = [],
-  randomPokemonsFetching = false,
-}) => {
+const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], randomPokemonsFetching = false, }) => {
+  const randomPokemonsLength: number = randomPokemons.length;
+
   const clearState = () => {
     store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
   };
@@ -43,7 +42,7 @@ const GetButton: React.FC<GetButtonProps> = ({
         CLEAR
       </Button>
 
-      <Badge color="secondary" badgeContent={randomPokemons.length}>
+      <Badge color="secondary" badgeContent={randomPokemonsLength}>
         <Button
           onClick={() => getRandomPokemon()}
           id="getPokemons"
@@ -60,7 +59,7 @@ const GetButton: React.FC<GetButtonProps> = ({
 };
 
 const ConnectedGetButton = connect(
-  (store: { randomPokemons: any[]; randomPokemonsFetching: boolean }) => {
+  (store: GetButtonProps) => {
     return {
       randomPokemons: store.randomPokemons,
       randomPokemonsFetching: store.randomPokemonsFetching,

@@ -1,177 +1,184 @@
 .bigImage {
-  background: #2196f3;
-  border-radius: 10px !important;
-  width: 400px;
-  height: 420px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	background: #2196f3;
+	border-radius: 10px !important;
+	width: 400px;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .placeholderBase64 {
-  filter: blur(18px);
-  width: 400px;
-  height: 420px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	filter: blur(18px);
+	width: 400px;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .detailedPage {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 
 .block {
-  width: 10vw;
-  height: 10vw;
-  min-width: 70px;
+	width: 10vw;
+	height: 10vw;
+	min-width: 70px;
 
-  img {
-    width: 100%;
-  }
+	img {
+		width: 100%;
+	}
 }
 
 .stats {
-  min-height: 300px;
+	min-height: 300px;
 }
 
 .formsTitle {
-  margin-top: 60px;
-  font-size: 2rem;
+	margin-top: 60px;
+	font-size: 2rem;
 }
 
 .evolutionForms {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  margin-top: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	margin-top: 0;
 
-  .evoForm.currentPokemon {
-    background: #ff5f5f;
-  }
+	.evoForm.currentPokemon {
+		background: #ff5f5f;
+	}
 
-  .evoForm {
-    background: #03a9f4;
-    margin: 20px;
-    padding: 20px 35px 20px 35px;
-    font-size: 24px;
-    border-radius: 10px;
-    border: 1px solid black;
-    cursor: pointer;
-    text-decoration: none;
-    max-width: 90px;
+	.evoForm {
+		background: #03a9f4;
+		margin: 20px;
+		padding: 20px 35px 20px 35px;
+		font-size: 24px;
+		border-radius: 10px;
+		border: 1px solid black;
+		cursor: pointer;
+		text-decoration: none;
+		max-width: 90px;
 
-    .evoFormImg {
-      width: 100%;
-      height: auto;
-      min-width: 90px;
-      min-height: 90px;
-      max-width: 100px;
-    }
+		.evoFormImg {
+			width: 100%;
+			height: auto;
+			min-width: 90px;
+			min-height: 90px;
+			max-width: 100px;
+		}
 
-    .placeholderBase64 {
-      filter: blur(14px);
-    }
+		.placeholderBase64 {
+			filter: blur(14px);
+		}
 
-    .pokemonName {
-      text-align: center;
-    }
+		.pokemonName {
+			text-align: center;
+		}
 
-    &::first-letter {
-      text-transform: uppercase;
-    }
+		&::first-letter {
+			text-transform: uppercase;
+		}
 
-    &:hover {
-      transform: scale(1.1);
-      box-shadow: 5px 3px 11px 1px #000000;
-    }
+		&:hover {
+			transform: scale(1.1);
+			box-shadow: 5px 3px 11px 1px #000000;
+		}
 
-    &:active {
-      transform: none;
-    }
-  }
+		&:active {
+			transform: none;
+		}
+	}
 }
 
 .mainInformations {
-  min-height: 500px;
+	min-height: 500px;
+}
+
+.imagesLine {
+	.block {
+		max-width: 50px;
+		max-height: 50px;
+	}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
-  .imagesLine {
-    .block {
-      max-width: 50px;
+	.imagesLine {
+		.block {
+			max-width: 50px;
 
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-  }
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
 
-  .mainInformations {
-    min-height: 300px;
-    margin-top: 0;
+	.mainInformations {
+		min-height: 300px;
+		margin-top: 0;
 
-    .skills {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      margin-bottom: 30px;
-      width: 100vw;
+		.skills {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			margin-bottom: 30px;
+			width: 100vw;
 
-      .stats,
-      .abilities {
-        margin: 0;
-        padding: 0;
-        width: auto;
-        min-width: 140px;
+			.stats,
+			.abilities {
+				margin: 0;
+				padding: 0;
+				width: auto;
+				min-width: 140px;
 
-        .statsUL,
-        .abilitiesUL {
-          flex-direction: column;
-          justify-content: flex-start;
-          width: 80%;
-          padding: 10px;
+				.statsUL,
+				.abilitiesUL {
+					flex-direction: column;
+					justify-content: flex-start;
+					width: 80%;
+					padding: 10px;
 
-          .statsLI,
-          .abilitiesLI {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
+					.statsLI,
+					.abilitiesLI {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
 
-  .bigImage,
-  .placeholderBase64 {
-    width: 95vw;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+	.bigImage,
+	.placeholderBase64 {
+		width: 95vw;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
 
-    img {
-      width: 100%;
-      height: auto;
-      margin-left: 0;
-    }
-  }
+		img {
+			width: 100%;
+			height: auto;
+			margin-left: 0;
+		}
+	}
 
-  .evolutionForms {
-    max-width: 100%;
+	.evolutionForms {
+		max-width: 100%;
 
-    .evoForm {
-      margin-bottom: 15px;
-      max-width: 60px;
-      margin: 5px;
+		.evoForm {
+			margin-bottom: 15px;
+			max-width: 60px;
+			margin: 5px;
 
-      .evoFormImg {
-        margin-right: auto;
-        margin-left: auto;
-        margin-left: -15px;
-      }
-    }
-  }
+			.evoFormImg {
+				margin-right: auto;
+				margin-left: auto;
+				margin-left: -15px;
+			}
+		}
+	}
 }

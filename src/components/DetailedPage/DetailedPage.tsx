@@ -18,26 +18,37 @@ import "./styles/style.scss";
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 type Props = {
-  pokemonArr: DetailsPage[];
+  pokemonArr: DetailsPageTypes[];
   detailsPage: any;
 };
 
-type evolutionChainProps = {
+type evolutionChainTypes = {
   placeholderBase64: string;
   imageHQ: string;
 };
 
-type DetailsPage = {
+type DetailsPageTypes = {
   weight: number;
-  abilities: any[];
-  stats: any[];
-  sprites: any;
+  abilities: {
+    ability: {
+      url: string;
+      name: string;
+    };
+  }[];
+  stats: {
+    base_stat: number;
+    stat: {
+      name: string;
+    };
+  }[];
+  sprites: any[string];
   name: string;
 };
 
+
 const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
-  const { abilities, stats, weight, sprites, name }: DetailsPage = detailsPage;
-  const [evolutionChain, setEvolutionChain] = useState<evolutionChainProps>();
+  const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage;
+  const [evolutionChain, setEvolutionChain] = useState<evolutionChainTypes>();
 
   useEffect(() => {
     let pokemonObj = find(POKEMONS, (o) => o.name === detailsPage.name);
@@ -45,6 +56,9 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
   }, [detailsPage]);
 
   const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
+
+  console.log(evolutionChain);
+
 
   return (
     <>
@@ -109,7 +123,7 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
                 />
               }
             >
-              <ImageContainer url={evolutionChain?.imageHQ} cn={"bigImage"} />
+              {evolutionChain && <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} />}
             </Suspense>
           </Paper>
         </div>
@@ -124,7 +138,7 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
   );
 };
 
-const ConnectedDetailedPage = connect((store: any) => {
+const ConnectedDetailedPage = connect((store: Props) => {
   return {
     detailsPage: store.detailsPage,
   };
