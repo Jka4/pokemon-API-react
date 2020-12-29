@@ -1,14 +1,10 @@
 import { createStore } from "redux";
 import ls from "local-storage";
-// import POKEMONS from "utils/pokemonDataArray";
+import POKEMONS from "utils/pokemonDataArray";
 import CryptoJS from "crypto-js";
 import * as _ from 'lodash';
-import React from "react";
-
-const POKEMONS = React.lazy(() => import('utils/pokemonDataArray'));
 
 const APP_SECRET_KEY = "mySecretKey_kjkszpj";
-
 
 let defaultState = {
   randomPokemons: [],

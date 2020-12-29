@@ -51,13 +51,13 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
         <div className="cardsContainer">
           {dataForRender.map((el: any, key: number) => (
             <PokemonCard
-              key={randomPokemons[key].id}
-              id={randomPokemons[key].id}
-              src={randomPokemons[key].sprites.front_default}
-              name={randomPokemons[key].name}
-              order={randomPokemons[key].order}
-              base_experience={randomPokemons[key].base_experience}
-              onClick={handleClick(randomPokemons[key].id)}
+              key={randomPokemons[key]?.id}
+              id={randomPokemons[key]?.id}
+              src={randomPokemons[key]?.sprites.front_default}
+              name={randomPokemons[key]?.name}
+              order={randomPokemons[key]?.order}
+              base_experience={randomPokemons[key]?.base_experience}
+              onClick={() => handleClick(randomPokemons[key]?.id)}
               placeholderBase64={el.placeholderBase64}
             />
           ))}
