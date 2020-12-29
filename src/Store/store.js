@@ -1,9 +1,14 @@
 import { createStore } from "redux";
 import ls from "local-storage";
-import POKEMONS from "utils/pokemonDataArray";
+// import POKEMONS from "utils/pokemonDataArray";
 import CryptoJS from "crypto-js";
+import * as _ from 'lodash';
+import React from "react";
+
+const POKEMONS = React.lazy(() => import('utils/pokemonDataArray'));
 
 const APP_SECRET_KEY = "mySecretKey_kjkszpj";
+
 
 let defaultState = {
   randomPokemons: [],
@@ -30,11 +35,14 @@ const chachingStateToLocalStorage = () => {
 chachingStateToLocalStorage();
 
 function reducer(state = defaultState, action) {
+  let actionValue;
+  _.mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
+
   switch (action.type) {
     case "ADD_RANDOM_POKEMON":
       return {
         ...state,
-        randomPokemons: [...state.randomPokemons, action.randomPokemons],
+        randomPokemons: [...state.randomPokemons, actionValue],
       };
     case "CLEAR_RANDOM_POKEMON":
       return {
@@ -59,7 +67,7 @@ function reducer(state = defaultState, action) {
     case "SET_DETAILS_PAGE":
       return {
         ...state,
-        detailsPage: action.page,
+        detailsPage: actionValue,
       };
     case "PLAY_PAUSE":
       return {
