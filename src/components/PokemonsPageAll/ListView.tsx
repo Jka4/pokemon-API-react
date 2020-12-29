@@ -10,29 +10,21 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
+
 interface Props {
-  pokemonDataArray: {
-    chain: {
-      species_name: string;
-    }[];
-    id: 0;
-    image: string;
-    imageHQ: string;
-    name: string;
-    placeholderBase64: string;
-    weight: number;
-  }[];
+  pokemonDataArray: PokemonsType[]
 }
 
-interface pokemonsType {
-  pokemon: {
-    id: number;
-    name: string;
-    imageHQ: string;
-    image: string;
-    placeholderBase64: string;
-  };
-  [index: string]: any;
+interface PokemonsType {
+  chain: {
+    species_name: string;
+  }[];
+  id: 0;
+  image: string;
+  imageHQ: string;
+  name: string;
+  placeholderBase64: string;
+  weight: number;
 }
 
 const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
@@ -71,7 +63,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           className="allPokemonsWrapper"
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
         >
-          {pokemons.map((pokemon: pokemonsType) => (
+          {pokemons.map((pokemon: PokemonsType) => (
             <NavLink
               to={`/detailedPage/pokemon/${pokemon.name}`}
               data-pokemon_id={pokemon.id}
