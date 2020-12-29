@@ -2,8 +2,14 @@
 /.vscode
 /build
 /coverage
+.idea
 
 node_modules
 .vscode
 build
 coverage
+/.idea
+
+# cache
+.eslintcache
+.cache
