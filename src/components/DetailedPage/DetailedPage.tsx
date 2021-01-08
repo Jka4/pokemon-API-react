@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, Suspense, useEffect, useState } from "react";
+import React, { lazy, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 
