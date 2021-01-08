@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useEffect, useState } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 
@@ -77,7 +77,6 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
 
   const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
 
-
   return (
     <>
       <div className="detailedPage">
@@ -121,7 +120,7 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
           </div>
 
           <Paper elevation={3} className="bigImage">
-            {evolutionChain && <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} fallback={fallbackEvo(evolutionChain?.placeholderBase64)} />}
+            {evolutionChain && <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} fallback={fallbackEvo(evolutionChain.placeholderBase64)} />}
           </Paper>
         </div>
 
