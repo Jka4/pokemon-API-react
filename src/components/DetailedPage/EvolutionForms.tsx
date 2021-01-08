@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useEffect, useState } from "react";
+import React, { lazy, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import find from "lodash.find";
 import Paper from "@material-ui/core/Paper";

@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, Suspense, useEffect, useState } from "react";
+import React, { lazy, useEffect, useState } from "react";
 import { Provider, connect } from "react-redux";
 import Loader from "react-loader-spinner";
 
@@ -47,15 +47,15 @@ type DetailsPageTypes = {
 
 
 const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
-  const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage;
   const [evolutionChain, setEvolutionChain] = useState<evolutionChainTypes>();
+  const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage || {};
 
   useEffect(() => {
-    let pokemonObj = find(POKEMONS, (o) => o.name === detailsPage.name);
-    pokemonObj && setEvolutionChain(pokemonObj);
+    if (detailsPage) {
+      let pokemonObj = find(POKEMONS, (o) => o.name === detailsPage.name);
+      pokemonObj && setEvolutionChain(pokemonObj);
+    }
   }, [detailsPage]);
-
-  const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
 
 
   const fallbackSprites = () => {
@@ -74,6 +74,9 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
       </>
     );
   };
+
+  const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
+
 
   return (
     <>

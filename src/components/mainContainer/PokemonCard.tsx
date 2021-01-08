@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy } from "react";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 

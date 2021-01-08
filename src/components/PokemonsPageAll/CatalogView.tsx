@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { lazy } from "react";
 import { NavLink } from "react-router-dom";
 
 import { setDelailedPageData } from "utils/API";
