@@ -56,6 +56,17 @@ const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentP
     setDelailedPageData(id);
   }
 
+  const fallback = (placeholderBase64: string) => {
+    return (
+      <>
+        <img
+          src={placeholderBase64}
+          className="evoFormImg placeholderBase64"
+          alt="placeholderBase64"
+        />
+      </>
+    );
+  };
 
   return (
     <>
@@ -77,17 +88,8 @@ const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentP
                   : "evoForm"
               }
             >
-              <Suspense
-                fallback={
-                  <img
-                    src={index.placeholderBase64}
-                    className="evoFormImg placeholderBase64"
-                    alt="placeholderBase64"
-                  />
-                }
-              >
-                <ImageContainer url={index.image} cn={"evoFormImg"} />
-              </Suspense>
+              <ImageContainer url={index.image} cn={"evoFormImg"} fallback={fallback(index.placeholderBase64)} />
+
               <div className="pokemonName">{index.species_name}</div>
             </Paper>
           </NavLink>

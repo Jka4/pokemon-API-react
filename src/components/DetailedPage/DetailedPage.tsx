@@ -57,6 +57,24 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
 
   const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
 
+
+  const fallbackSprites = () => {
+    return (<> <Loader type="TailSpin" height={50} width={50} color={"red"} /> </>
+    );
+  };
+
+  const fallbackEvo = (placeholderBase64: string) => {
+    return (
+      <>
+        <img
+          src={placeholderBase64}
+          className="placeholderBase64 bigImage"
+          alt=""
+        />
+      </>
+    );
+  };
+
   return (
     <>
       <div className="detailedPage">
@@ -67,22 +85,11 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
               <div key={spriteName}>
                 {sprites[spriteName] && (
                   <Paper elevation={3} className="block" key={randomNum}>
-                    <Suspense
-                      fallback={
-                        <Loader
-                          type="TailSpin"
-                          height={50}
-                          width={50}
-                          color={"red"}
-                        />
-                      }
-                    >
-                      <ImageContainer
-                        url={sprites[spriteName]}
-                        cn={sprites[spriteName]}
-                      />
-                    </Suspense>
-                    {/* <div className="title">{spriteName}</div> */}
+                    <ImageContainer
+                      url={sprites[spriteName]}
+                      cn={sprites[spriteName]}
+                      fallback={fallbackSprites}
+                    />
                   </Paper>
                 )}
               </div>
@@ -111,17 +118,7 @@ const DetailedPage: React.FC<Props> = ({ detailsPage }: Props) => {
           </div>
 
           <Paper elevation={3} className="bigImage">
-            <Suspense
-              fallback={
-                <img
-                  src={evolutionChain?.placeholderBase64}
-                  className="placeholderBase64 bigImage"
-                  alt=""
-                />
-              }
-            >
-              {evolutionChain && <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} />}
-            </Suspense>
+            {evolutionChain && <ImageContainer url={evolutionChain.imageHQ} cn={"bigImage"} fallback={fallbackEvo(evolutionChain?.placeholderBase64)} />}
           </Paper>
         </div>
 

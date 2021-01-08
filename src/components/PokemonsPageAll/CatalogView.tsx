@@ -23,10 +23,17 @@ interface Props {
 }
 
 const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
-
   const handleClick = (id: number) => {
     setDelailedPageData(id);
-  }
+  };
+
+  const fallback = (placeholderBase64: string) => {
+    return (
+      <>
+        <img loading="lazy" src={placeholderBase64} className="placeholderBase64" alt="placeholderBase64" />
+      </>
+    );
+  };
 
   return (
     <div className="wrapper">
@@ -38,23 +45,11 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
             onClick={() => handleClick(index.id)}
             key={key}
           >
-            <Suspense
-              fallback={
-                <img
-                  loading="lazy"
-                  src={index?.placeholderBase64}
-                  className="placeholderBase64"
-                  alt="placeholderBase64"
-                />
-              }
-            >
-              <ImageContainer url={index?.image} cn="pokemonImageCard" />
-            </Suspense>
+            <ImageContainer url={index?.image} cn="pokemonImageCard" fallback={fallback(index?.placeholderBase64)} />
           </NavLink>
         </React.Fragment>
-      ))
-      }
-    </div >
+      ))}
+    </div>
   );
 };
 

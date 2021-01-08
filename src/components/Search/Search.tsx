@@ -71,6 +71,15 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     setDelailedPageData(id);
   };
 
+  const fallback = () => {
+    return (<> <Loader
+      type="TailSpin"
+      height={30}
+      width={30}
+      color={"red"}
+    /></>)
+  }
+
   return (
     <div className="search">
       <input
@@ -102,21 +111,11 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
-                  <Suspense
-                    fallback={
-                      <Loader
-                        type="TailSpin"
-                        height={30}
-                        width={30}
-                        color={"red"}
-                      />
-                    }
-                  >
-                    <ImageContainer
-                      url={i.item.image}
-                      cn={"searchItem__image"}
-                    />
-                  </Suspense>
+                  <ImageContainer
+                    url={i.item.image}
+                    cn={"searchItem__image"}
+                    fallback={fallback}
+                  />
                 </li>
               </NavLink>
             ))}

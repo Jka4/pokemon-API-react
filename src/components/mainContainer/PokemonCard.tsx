@@ -16,6 +16,14 @@ type pokemonCardType = {
 
 const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, onClick, placeholderBase64 }: pokemonCardType) => {
 
+  const fallback = (placeholderBase64: string) => {
+    return (
+      <>
+        <img loading="lazy" src={placeholderBase64} className="placeholderBase64" alt="placeholderBase64" />
+      </>
+    );
+  };
+
   return (
     <Card className="pokemonCard_Outher">
       <NavLink
@@ -27,9 +35,7 @@ const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experie
       >
         <div className="pokemonCard">
           <div className="imageWrapper">
-            <Suspense fallback={<img src={placeholderBase64} alt="fallback" className='placeholderBase64' />} >
-              <ImageContainer url={src} cn={"pokemonImage"} />
-            </Suspense>
+            <ImageContainer url={src} cn={"pokemonImage"} fallback={fallback(placeholderBase64)} />
           </div>
           <span>{name}</span>
           <span>{order}</span>
