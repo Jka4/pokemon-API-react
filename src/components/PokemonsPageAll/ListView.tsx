@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useState, useEffect } from "react";
+import React, { lazy, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { NavLink } from "react-router-dom";
 
@@ -8,11 +8,12 @@ import Paper from "@material-ui/core/Paper";
 
 import "./styles/style.scss";
 
+
+
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
-
 interface Props {
-  pokemonDataArray: PokemonsType[]
+  pokemonDataArray: PokemonsType[];
 }
 
 interface PokemonsType {
@@ -38,18 +39,23 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   }, []);
 
   const fetchPokemons = () => {
-    const howMuchToDownload = 70;
+    const howMuchToDownload = 20;
     let arr: any[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
       arr.push(pokemonDataArray[i]);
     }
     setPokemons((pokemons: any[]) => [...pokemons, ...arr]);
-    setPokemonCount((pokemons.length + 1) + howMuchToDownload);
+    setPokemonCount(pokemons.length + 1 + howMuchToDownload);
   };
 
   const handleClick = (id: number) => {
     setDelailedPageData(id);
+  };
+
+
+  const fallback = (placeholderBase64: string) => {
+    return (<><img src={placeholderBase64} className="placeholderBase64" alt="placeholderBase64" /></>)
   }
 
   return (
@@ -72,17 +78,13 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
             >
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
-                  <Suspense
-                    fallback={
-                      <img
-                        src={pokemon.placeholderBase64}
-                        className="placeholderBase64"
-                        alt="placeholderBase64"
-                      />
-                    }
-                  >
-                    <ImageContainer url={pokemon.imageHQ || pokemon.image} cn={"pokemonImageCard"} />
-                  </Suspense>
+
+                  <ImageContainer
+                    url={pokemon.imageHQ || pokemon.image}
+                    cn={"pokemonImageCard"}
+                    fallback={fallback(pokemon.placeholderBase64)}
+                  />
+
                 </div>
                 <div className="pokemonName">{pokemon.name}</div>
               </Paper>

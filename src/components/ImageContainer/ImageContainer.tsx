@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { useImage } from "react-image";
 
 import ErrorBoundary from "utils/ErrorBoundary";
@@ -6,9 +6,10 @@ import ErrorBoundary from "utils/ErrorBoundary";
 interface ImageContainerProps {
   url: string;
   cn?: string;
+  fallback?: any
 }
 
-const ImageContainer: React.FC<ImageContainerProps> = ({ url, cn }: ImageContainerProps) => {
+const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
 
   const ImageWrapper = () => {
     const { src } = useImage({ srcList: url });
@@ -21,9 +22,13 @@ const ImageContainer: React.FC<ImageContainerProps> = ({ url, cn }: ImageContain
   };
 
   return (
-    <ErrorBoundary>
-      <ImageWrapper />
-    </ErrorBoundary>
+    <>
+      <ErrorBoundary>
+        <Suspense fallback={fallback}>
+          <ImageWrapper />
+        </Suspense>
+      </ErrorBoundary>
+    </>
   );
 };
 
