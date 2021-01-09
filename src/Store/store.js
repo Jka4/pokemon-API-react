@@ -1,10 +1,6 @@
 import { createStore } from "redux";
-import ls from "local-storage";
 import POKEMONS from "utils/pokemonDataArray";
-import CryptoJS from "crypto-js";
 import * as _ from 'lodash';
-
-const APP_SECRET_KEY = "mySecretKey_kjkszpj";
 
 let defaultState = {
   randomPokemons: [],
@@ -14,23 +10,15 @@ let defaultState = {
   pokemonsArr: POKEMONS,
 };
 
-const chachingStateToLocalStorage = () => {
-  let encrypt = CryptoJS.AES.encrypt(
-    JSON.stringify(defaultState),
-    APP_SECRET_KEY
-  ).toString();
+(() => {
+  localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
+  let getStateFromLocal = localStorage.getItem("pokemon_state");
 
-  ls.get("pokemon_state") == null && ls.set("pokemon_state", encrypt);
-  let getStateFromLocal = ls.get("pokemon_state");
+  defaultState = getStateFromLocal;
+})();
 
-  let bytes = CryptoJS.AES.decrypt(getStateFromLocal, APP_SECRET_KEY);
-  let decrypt = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
 
-  defaultState = decrypt;
-};
-chachingStateToLocalStorage();
-
-function reducer(state = defaultState, action) {
+function reducer({ state = defaultState, action }) {
   let actionValue;
   _.mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
 
@@ -75,18 +63,10 @@ function reducer(state = defaultState, action) {
   }
 }
 
-const store = createStore(
-  reducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+const store = createStore(reducer, undefined);
 export default store;
 
 store.subscribe(() => {
   let currentState = store.getState();
-  let encrypt = CryptoJS.AES.encrypt(
-    JSON.stringify(currentState),
-    APP_SECRET_KEY
-  ).toString();
-
-  ls.set("pokemon_state", encrypt);
+  localStorage.setItem("pokemon_state", JSON.stringify(currentState));
 });
