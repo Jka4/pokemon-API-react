@@ -21,7 +21,11 @@
     "jsx": "react-jsx",
     "baseUrl": "src",
     "rootDir": "src",
-    "outDir": "build"
+    "outDir": "build",
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "incremental": true,
   },
   "include": [
     "src"
