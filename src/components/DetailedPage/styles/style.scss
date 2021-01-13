@@ -38,7 +38,7 @@
 }
 
 .formsTitle {
-    // margin-top: 60px;
+    margin-top: 20px;
     font-size: 2rem;
 }
 
@@ -48,8 +48,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-    margin-top: 0;
+    margin-bottom: 60px;
 
     .evoForm.currentPokemon {
         background: #ff5f5f;
@@ -102,6 +101,9 @@
 }
 
 .imagesLine {
+    // min-height: 260px;
+    margin-bottom: 100px;
+
     .block {
         max-width: 50px;
         max-height: 50px;

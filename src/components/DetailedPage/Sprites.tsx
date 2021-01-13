@@ -18,15 +18,20 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 	};
 
 	const SpritesPlaceholders = () => {
-		return (
-			[1, 2, 3, 4].map((
-				n: number, // trash code just for generate placeholder
-			) => (
-				<Paper elevation={3} key={n} className="block">
-					{fallbackSprites()}
-				</Paper>
-			))
-		);
+		return (<>
+			<Paper elevation={3} className="block">
+				{fallbackSprites()}
+			</Paper>
+			<Paper elevation={3} className="block">
+				{fallbackSprites()}
+			</Paper>
+			<Paper elevation={3} className="block">
+				{fallbackSprites()}
+			</Paper>
+			<Paper elevation={3} className="block">
+				{fallbackSprites()}
+			</Paper>
+		</>);
 	};
 
 	const SpritesImg = () => {
@@ -47,9 +52,11 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 		);
 	};
 
+	const haveSprites = Object.keys(sprites).length !== 0;
+
 	return (<>
 		<div className="imagesLine">
-			{sprites ? SpritesImg() : SpritesPlaceholders()}
+			{haveSprites ? SpritesImg() : SpritesPlaceholders()}
 		</div>
 	</>);
 };

@@ -31,7 +31,7 @@ const Abilities: React.FC<Props> = ({ abilities = [] }: Props) => {
     <div className="abilities">
       <Paper elevation={3} className="abilitiesUL">
         <div className="skills_title">Abilities</div>
-        {abilities ? (abilities.map((element: AbilityElements) => (
+        {abilities.length !== 0 ? (abilities.map((element: AbilityElements) => (
           <li className="abilitiesLI" key={element.ability.name}>
             {element.ability.name}
           </li>

@@ -2,6 +2,7 @@
 import React, { lazy, useEffect, useState } from 'react';
 import { Provider, connect } from 'react-redux';
 // import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
+import { useLocation } from 'react-router-dom';
 
 import Stats from './Stats';
 import Abilities from './Abilities';
@@ -22,10 +23,9 @@ const ImageContainer = lazy(() => import('components/ImageContainer/ImageContain
 type PropsType = {
   pokemonArr: DetailsPageTypes[] | null;
   detailsPage: null | any;
-  pathname: string;
 };
 
-type evolutionChainTypes = {
+type bigImageTypes = {
   placeholderBase64: string;
   imageHQ: string;
 };
@@ -48,25 +48,31 @@ type DetailsPageTypes = {
   name: string;
 };
 
-const DetailedPage: React.FC<PropsType> = ({ detailsPage, pathname }: PropsType) => {
-  const [evolutionChain, setEvolutionChain] = useState<evolutionChainTypes>();
+const DetailedPage: React.FC<PropsType> = ({ detailsPage }: PropsType) => {
   const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage || {};
+  let [bigImage, setBigImage] = useState<bigImageTypes>();
+  let currentPokemon = useLocation().pathname.split('/').pop();
 
   useEffect(() => {
-    if (detailsPage) {
-      let pokemonObj = find(POKEMON, (o) => o.name === detailsPage.name);
-      pokemonObj && setEvolutionChain(pokemonObj);
-    }
-  }, [detailsPage]);
+    const pokemon: any = POKEMON.find((el) => el.name === currentPokemon);
+    setBigImage(pokemon)
+
+  }, [currentPokemon])
+
 
   useEffect(() => {
     if (detailsPage === null) {
-      const pokemonName = pathname.split('/').pop();
-      const pokemon: any = POKEMON.find((el) => el.name === pokemonName);
+      const pokemon: any = POKEMON.find((el) => el.name === currentPokemon);
 
       setDelailedPageData(pokemon.id);
+
+      // setTimeout(() => {
+      //   setDelailedPageData(pokemon.id);
+
+      // }, 2000);
     }
-  });
+  }, [detailsPage, currentPokemon]);
+
 
   const fallbackEvo = (placeholderBase64: string) => {
     return (
@@ -81,7 +87,7 @@ const DetailedPage: React.FC<PropsType> = ({ detailsPage, pathname }: PropsType)
       <div className="detailedPage">
         <div className="name">{name || 'POKEMON'}</div>
 
-        <Sprites sprites={sprites} />
+        <EvolutionForms currentPokemon={currentPokemon} />
         <div className="mainInformation">
           <div className="skills">
             <Stats weight={weight} stats={stats} />
@@ -89,17 +95,17 @@ const DetailedPage: React.FC<PropsType> = ({ detailsPage, pathname }: PropsType)
           </div>
 
           <Paper elevation={3} className="bigImage">
-            {evolutionChain && (
+            {bigImage && (
               <ImageContainer
-                url={evolutionChain.imageHQ}
+                url={bigImage.imageHQ}
                 cn={'bigImage'}
-                fallback={fallbackEvo(evolutionChain.placeholderBase64)}
+                fallback={fallbackEvo(bigImage.placeholderBase64)}
               />
             )}
           </Paper>
         </div>
 
-        <EvolutionForms evolutionChain={evolutionChain} currentPokemon={name} pokemonsArr={POKEMON} />
+        <Sprites sprites={sprites} />
       </div>
     </>
   );

@@ -33,10 +33,7 @@ const App: React.FC = () => {
 
                         <Switch>
                             <Route exact path="/" component={MainContainer} />
-                            <Route
-                                path="/detailedPage/pokemon/"
-                                render={(props) => <DetailedPage pathname={props?.location?.pathname} />}
-                            />
+                            <Route path="/detailedPage/pokemon/" component={DetailedPage} />
                             <Route path="/allPokemons" component={PokemonsPageAll} />
                             <Route path="/404" component={ErrorPage} />
 
