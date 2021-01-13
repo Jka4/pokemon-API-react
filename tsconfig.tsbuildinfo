@@ -2597,7 +2597,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "8304e5ee59075177238add18201ca4906d8aa8bf82e0bb3d6fbf60a333c4d3c7",
+        "version": "593d72bb9190a1a01ff603820db85e3328ce13738d19f534370f1601784d18af",
         "signature": "b6cb0e4fe0d82de3cba91eda18c5b4e0bbb99bfb6a687757476a40446dccc84e",
         "affectsGlobalScope": false
       },
@@ -2652,12 +2652,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/sprites.tsx": {
-        "version": "f0220f5bff4a71ebb6906b3971ef702a4fc3bd679a7957721d245b2f0ee4f966",
+        "version": "6fa0abba9ed80bdd48eaafad9bcb829b111eb7219b1672a629b59352ee466632",
         "signature": "3a3f5db643864b6667bed6218a00f123b893fa948a3e8cb423f65763ff168269",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "eb7f354c34aa2b3b05a778defa1df75c300de3e7fa2cea3b6415423979fe0bd5",
+        "version": "26a8000992210dfcea0cc224c0fc7f875527f96fa3497128c16405092a91b8f2",
         "signature": "361a69bca7b4d47c5b8731de2d14bf81e70a16f2719800e2bc2178223af70c29",
         "affectsGlobalScope": false
       },
@@ -5673,7 +5673,8 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/store/store.js",
-        "./src/utils/api.ts"
+        "./src/utils/api.ts",
+        "./src/utils/pokemondataarray.ts"
       ],
       "./src/components/headerline/headerline.tsx": [
         "./node_modules/@material-ui/core/appbar/index.d.ts",
@@ -11284,6 +11285,10 @@
       ],
       [
         "./src/utils/api.ts",
+        1
+      ],
+      [
+        "./src/utils/config.js",
         1
       ],
       [

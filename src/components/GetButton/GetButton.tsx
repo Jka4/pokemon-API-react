@@ -7,8 +7,8 @@ import { Button } from "@material-ui/core";
 import Badge from "@material-ui/core/Badge";
 import CasinoIcon from "@material-ui/icons/Casino";
 
-import { getRandomPokemon } from "utils/API";
 import store from "Store/store";
+import POKEMON from "utils/pokemonDataArray";
 
 import "./styles/style.scss";
 
@@ -23,6 +23,11 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], randomPokemo
   const clearState = () => {
     store.dispatch({ type: "CLEAR_RANDOM_POKEMON" });
   };
+
+  const handleClick = () => {
+    const randomPokemon = POKEMON[Math.floor(1 + Math.random() * POKEMON.length)]
+    store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemon });
+  }
 
   return (
     <div className="Button">
@@ -44,7 +49,7 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], randomPokemo
 
       <Badge color="secondary" badgeContent={randomPokemonsLength}>
         <Button
-          onClick={() => getRandomPokemon()}
+          onClick={handleClick}
           id="getPokemons"
           className="getPokemons"
           variant="contained"

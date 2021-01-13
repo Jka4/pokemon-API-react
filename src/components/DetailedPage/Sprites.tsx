@@ -7,7 +7,6 @@ type Props = {
 	sprites: any;
 };
 
-
 const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 
 	const fallbackSprites = () => {
@@ -18,7 +17,7 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 		);
 	};
 
-	const PaperSprites = () => {
+	const SpritesPlaceholders = () => {
 		return (
 			[1, 2, 3, 4].map((
 				n: number, // trash code just for generate placeholder
@@ -50,7 +49,7 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 
 	return (<>
 		<div className="imagesLine">
-			{sprites ? SpritesImg() : PaperSprites()}
+			{sprites ? SpritesImg() : SpritesPlaceholders()}
 		</div>
 	</>);
 };

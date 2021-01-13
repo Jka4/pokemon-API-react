@@ -33,16 +33,6 @@ function reducer(state = defaultState, action) {
         ...state,
         randomPokemons: [],
       };
-    case "RANDOM_POKEMON_FETCHING_START":
-      return {
-        ...state,
-        randomPokemonsFetching: true,
-      };
-    case "RANDOM_POKEMON_FETCHING_END":
-      return {
-        ...state,
-        randomPokemonsFetching: false,
-      };
     case "CLEAR_DETAILS_PAGE":
       return {
         ...state,
@@ -63,7 +53,10 @@ function reducer(state = defaultState, action) {
   }
 }
 
-const store = createStore(reducer, undefined);
+const store = createStore(
+  reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 export default store;
 
 // store.subscribe(() => {

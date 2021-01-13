@@ -68,14 +68,6 @@ const DetailedPage: React.FC<PropsType> = ({ detailsPage, pathname }: PropsType)
     }
   });
 
-  // const fallbackSprites = () => {
-  //   return (
-  //     <SkeletonTheme color="#6cff79" highlightColor="yellow">
-  //       <Skeleton className="solo" circle={true} height={70} width={70} />
-  //     </SkeletonTheme>
-  //   );
-  // };
-
   const fallbackEvo = (placeholderBase64: string) => {
     return (
       <>
@@ -84,42 +76,13 @@ const DetailedPage: React.FC<PropsType> = ({ detailsPage, pathname }: PropsType)
     );
   };
 
-  // const randomNum: number = Math.round(0 - 0.5 + Math.random() * (3000 + 1));
-
   return (
     <>
       <div className="detailedPage">
         <div className="name">{name || 'POKEMON'}</div>
 
         <Sprites sprites={sprites} />
-        {/* <div className="imagesLine">
-          {sprites ? (
-            Object.keys(sprites).map((spriteName: string) => (
-              <div key={spriteName}>
-                {sprites[spriteName] && (
-                  <Paper elevation={3} className="block" key={randomNum}>
-                    <ImageContainer
-                      url={sprites[spriteName]}
-                      cn={sprites[spriteName]}
-                      fallback={fallbackSprites()}
-                    />
-                  </Paper>
-                )}
-              </div>
-            ))
-          ) : (
-              <>
-                {[1, 2, 3, 4, 5, 6, 7, 8].map((
-                  n: number, // trash code just for generate placeholder
-                ) => (
-                  <Paper elevation={3} key={randomNum + n} className="block">
-                    {fallbackSprites()}
-                  </Paper>
-                ))}
-              </>
-            )}
-        </div> */}
-        <div className="mainInformations">
+        <div className="mainInformation">
           <div className="skills">
             <Stats weight={weight} stats={stats} />
             <Abilities abilities={abilities} />
