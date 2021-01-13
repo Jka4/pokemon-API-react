@@ -1,46 +1,55 @@
 .titlesList li {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .titlesList {
-  .toTop {
-    background: red;
-  }
+    .toTop {
+        background: red;
+    }
 
-  .toBottom {
-    background: blue;
-  }
+    .toBottom {
+        background: blue;
+    }
 }
 
 .logoBase64 {
-  width: 500px;
-  max-height: 213px;
-  filter: blur(18px);
+    width: 500px;
+    max-height: 213px;
+    // filter: blur(18px);
 }
 
-.pokemonCard_Outher {
-  a {
-    color: blue;
-  }
+.pokemonCard_Outer {
+    a {
+        color: blue;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
-  .main {
-    display: flex;
-    flex-direction: column;
+    .main {
+        display: flex;
+        flex-direction: column;
 
-    .logoBase64 {
-      width: 100%;
-      min-width: 318px;
-    }
+        .logoBase64 {
+            width: 100%;
+            min-width: 318px;
+        }
 
-    button {
-      margin-bottom: 20px;
-    }
+        button {
+            margin-bottom: 20px;
+        }
 
-    .titlesList {
-      padding-left: 20px;
-      padding-right: 10px;
+        .titlesList {
+            padding-left: 20px;
+            padding-right: 10px;
+        }
     }
-  }
+}
+
+.pokemonImage.placeholderBase64 {
+    max-width: 100px;
+}
+
+.logotype.placeholderBase64 {
+    width: 500px;
+    height: auto;
 }

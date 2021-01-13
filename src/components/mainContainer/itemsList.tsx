@@ -1,47 +1,18 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { useEffect, useState } from "react";
-import { Provider, connect } from "react-redux";
-import Heading from "./Heading";
-import PokemonCard from "./PokemonCard";
-import { setDelailedPageData } from "utils/API";
-import store from "Store/store";
-import POKEMONS from "utils/pokemonDataArray";
+import React from 'react';
+import { Provider, connect } from 'react-redux';
+import Heading from './Heading';
+import PokemonCard from './PokemonCard';
+import store from 'Store/store';
 
-type ItemsListType = {
-  randomPokemons: randomPokemonsType[];
+import { IStoreType, pokemonCardType } from 'types';
+
+interface Props {
+  randomPokemon: pokemonCardType[];
 }
 
-type randomPokemonsType = {
-  id: number;
-  sprites: {
-    front_default: string
-  };
-  name: string;
-  order: number;
-  base_experience: number,
-  placeholderBase64?: string;
-}
-
-const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) => {
-  const haveData = randomPokemons.length !== 0;
-  const [dataForRender, setDataForRender] = useState<randomPokemonsType[]>(null || randomPokemons)
-
-  const handleClick = (id: number) => {
-    setDelailedPageData(id);
-  }
-
-  useEffect(() => {
-    let arr: any[] = [];
-
-    // find image placeholder fro fetched pokemon object
-    randomPokemons.forEach(el => {
-      const placeholder = POKEMONS.find((pokes: any) => pokes.id === el.id)?.placeholderBase64;
-      el.placeholderBase64 = placeholder
-      arr.push(el)
-    })
-
-    setDataForRender(arr);
-  }, [randomPokemons])
+const ItemsList: React.FC<Props> = ({ randomPokemon }: Props) => {
+  const haveData = randomPokemon.length !== 0;
 
   return (
     <>
@@ -49,17 +20,8 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
 
       <div className="itemList">
         <div className="cardsContainer">
-          {dataForRender.map((el: any, key: number) => (
-            <PokemonCard
-              key={randomPokemons[key]?.id}
-              id={randomPokemons[key]?.id}
-              src={randomPokemons[key]?.sprites.front_default}
-              name={randomPokemons[key]?.name}
-              order={randomPokemons[key]?.order}
-              base_experience={randomPokemons[key]?.base_experience}
-              onClick={() => handleClick(randomPokemons[key]?.id)}
-              placeholderBase64={el.placeholderBase64}
-            />
+          {randomPokemon.map((el: pokemonCardType, key: number) => (
+            <PokemonCard pokeCard={el} key={key} />
           ))}
         </div>
       </div>
@@ -67,9 +29,9 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
   );
 };
 
-const ConnectedItemsList = connect((store: ItemsListType) => {
+const ConnectedItemsList = connect((store: IStoreType) => {
   return {
-    randomPokemons: store.randomPokemons,
+    randomPokemon: store.randomPokemon,
   };
 })(ItemsList);
 
@@ -80,5 +42,5 @@ export default (props = {}) => (
 );
 
 ItemsList.defaultProps = {
-  randomPokemons: [],
+  randomPokemon: [],
 };

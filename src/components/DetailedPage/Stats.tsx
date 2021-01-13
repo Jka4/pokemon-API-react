@@ -1,5 +1,6 @@
-import React from "react";
-import Paper from "@material-ui/core/Paper";
+import React from 'react';
+import Paper from '@material-ui/core/Paper';
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
 interface Props {
   stats: StatsElements[];
@@ -14,17 +15,33 @@ interface StatsElements {
 }
 
 const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
+  const fallbackSkeletons = () => {
+    return (
+      <SkeletonTheme color="#53aeff" highlightColor="#0066be">
+        {[1, 2, 3, 4, 5, 6].map((el) => (
+          <p key={el}>
+            <Skeleton height={15} width={100} />
+          </p>
+        ))}
+      </SkeletonTheme>
+    );
+  };
+
+  const showStats = stats !== undefined && stats?.length !== 0;
+
   return (
     <div className="stats">
       <Paper elevation={3} className="statsUL">
         <div className="skills_title">Stats</div>
-        {stats &&
-          stats.map((el: StatsElements) => (
-            <li className="statsLI" key={el.stat.name}>
-              {el.stat.name} {el.base_stat}
-            </li>
-          ))}
-        <li className="statsLI">weight {weight}kg</li>
+        {showStats
+          ? stats.map((el: StatsElements) => (
+              <li className="statsLI" key={el.stat.name}>
+                {el.stat.name}: {el.base_stat}
+              </li>
+            ))
+          : fallbackSkeletons()}
+
+        {showStats && <li className="statsLI">weight: {weight} kg</li>}
       </Paper>
     </div>
   );
