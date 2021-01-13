@@ -792,7 +792,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
-        "version": "502083907cae251fc28841dee701747b5944e145f149a5da7789ca36ab4f1729",
+        "version": "c96010ad55aea68a025f81ce234e88a1bf8705e3ac2361a2afe5ccd5c8456ee0",
         "signature": "aaa758c58236686012b1eac410007a8b9cc3be02b4127b8eb33b4cee6178aa41",
         "affectsGlobalScope": false
       },
@@ -2626,13 +2626,18 @@
         "signature": "110a5ed75808f98fca02732cbc20200e66be0a44e8f7cbc5aab97db5ebb90542",
         "affectsGlobalScope": false
       },
+      "./node_modules/react-loading-skeleton/lib/index.d.ts": {
+        "version": "aee69f22d2a95ef1724d9efed3de0199212e6c8fc8f365d2577b31ac59b3b440",
+        "signature": "aee69f22d2a95ef1724d9efed3de0199212e6c8fc8f365d2577b31ac59b3b440",
+        "affectsGlobalScope": false
+      },
       "./src/components/detailedpage/stats.tsx": {
-        "version": "a541d6bc70faf5223f4b26154df0f2810d76836bcc738b93b7ab625ba94209e7",
-        "signature": "a81da2e907631abd8a87af071553da5bcddb2f72cd8b45f65d99f86eedee3b4c",
+        "version": "43324d66c281d53a973377551b43bc551154a987448aeee4bee20425dad69624",
+        "signature": "10af96868b54785b67a59918f24a0d3341f4c1497724e1a996fc6cfa5516efc6",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/abilities.tsx": {
-        "version": "aaaa3e001539deadad82c0876647538e711bda582ec921c36e381624daf4bc98",
+        "version": "80035bb8eb0f23c449a4f92e45d9ad6359cde87a1536e6f4ff9d534a2b03a9d7",
         "signature": "57917a5326a98b60f3fc276cb6c019277d6a72831a362f7a0c4497873d35a068",
         "affectsGlobalScope": false
       },
@@ -2642,13 +2647,18 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "86d5878c41af5116f84be369a3f40f9dfae0a7abe70d783c012fa638e4f49c9e",
+        "version": "39394cc941946dbda314370ee516f8496a1444b00748ae7e871edc1fb0e3c89e",
         "signature": "32be4180b9f4d4feed4ff29e99a2040988bcead4a5d5892bd5ad1448e59d8ab5",
         "affectsGlobalScope": false
       },
+      "./src/components/detailedpage/sprites.tsx": {
+        "version": "f0220f5bff4a71ebb6906b3971ef702a4fc3bd679a7957721d245b2f0ee4f966",
+        "signature": "3a3f5db643864b6667bed6218a00f123b893fa948a3e8cb423f65763ff168269",
+        "affectsGlobalScope": false
+      },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "633caf8473d9b627bdf498fb093d28dee37d7396b819d01efb2a9147c75bca55",
-        "signature": "62d92894c989c0c3e279643f75c71d186c0515a22ecc0f7e477b428258ea321b",
+        "version": "eb7f354c34aa2b3b05a778defa1df75c300de3e7fa2cea3b6415423979fe0bd5",
+        "signature": "361a69bca7b4d47c5b8731de2d14bf81e70a16f2719800e2bc2178223af70c29",
         "affectsGlobalScope": false
       },
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": {
@@ -2697,7 +2707,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/app/view/index.tsx": {
-        "version": "89ac695872bb4823ccc1a28884c176f7c30ed5a3ac2606bb68bcf53fcb1f1fee",
+        "version": "8d54fd3f57d2311d51ce0c3964ba4800cae7fd93bf44f31070f6e94c1b2f8a5c",
         "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
@@ -2712,7 +2722,7 @@
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "764e495f43e9841c7284c0565a3ed940aa1210881df0141a9ed8ef2292b54e2b",
+        "version": "9f0be241976a4ce8e2e20c449d5f2c015da58e306b0a8aa172f0f39e2d01a829",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -5577,6 +5587,9 @@
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/react-loading-skeleton/lib/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/react-scripts/lib/react-app.d.ts": [
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
@@ -5607,17 +5620,18 @@
       "./src/components/detailedpage/abilities.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
       "./src/components/detailedpage/detailedpage.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/lodash.find/index.d.ts",
-        "./node_modules/@types/react-loader-spinner/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/detailedpage/abilities.tsx",
         "./src/components/detailedpage/evolutionforms.tsx",
+        "./src/components/detailedpage/sprites.tsx",
         "./src/components/detailedpage/stats.tsx",
         "./src/components/imagecontainer/imagecontainer.tsx",
         "./src/store/store.js",
@@ -5633,10 +5647,18 @@
         "./src/components/imagecontainer/imagecontainer.tsx",
         "./src/utils/api.ts"
       ],
+      "./src/components/detailedpage/sprites.tsx": [
+        "./node_modules/@material-ui/core/paper/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-loading-skeleton/lib/index.d.ts",
+        "./src/components/imagecontainer/imagecontainer.tsx"
+      ],
       "./src/components/detailedpage/stats.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
       "./src/components/errorpage/errorpage.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -5759,8 +5781,8 @@
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-loading-skeleton/lib/index.d.ts",
         "./src/components/app/index.tsx",
         "./src/serviceworker.js",
         "./src/store/store.js"
@@ -8126,6 +8148,9 @@
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/react-loading-skeleton/lib/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/react-scripts/lib/react-app.d.ts": [
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
@@ -8144,6 +8169,9 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/detailedpage/evolutionforms.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/sprites.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/detailedpage/stats.tsx": [
@@ -8748,6 +8776,7 @@
       "./node_modules/react-image/index.d.ts",
       "./node_modules/react-image/useimage.d.ts",
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
+      "./node_modules/react-loading-skeleton/lib/index.d.ts",
       "./node_modules/react-scripts/lib/react-app.d.ts",
       "./node_modules/redux/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
@@ -8803,6 +8832,7 @@
       "./src/components/detailedpage/abilities.tsx",
       "./src/components/detailedpage/detailedpage.tsx",
       "./src/components/detailedpage/evolutionforms.tsx",
+      "./src/components/detailedpage/sprites.tsx",
       "./src/components/detailedpage/stats.tsx",
       "./src/components/errorpage/errorpage.tsx",
       "./src/components/getbutton/getbutton.tsx",
@@ -11093,6 +11123,10 @@
         1
       ],
       [
+        "./node_modules/react-loading-skeleton/lib/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/react-scripts/lib/react-app.d.ts",
         1
       ],
@@ -11162,6 +11196,10 @@
       ],
       [
         "./src/components/detailedpage/evolutionforms.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/sprites.tsx",
         1
       ],
       [
