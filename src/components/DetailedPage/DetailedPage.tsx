@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { lazy, useEffect, useState } from 'react';
 import { Provider, connect } from 'react-redux';
-// import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import { useLocation } from 'react-router-dom';
 
 import Stats from './Stats';
@@ -11,7 +10,6 @@ import Paper from '@material-ui/core/Paper';
 import Sprites from './Sprites';
 
 import store from 'Store/store';
-import find from 'lodash.find';
 
 import POKEMON from 'utils/pokemonDataArray';
 import { setDelailedPageData } from 'utils/API';

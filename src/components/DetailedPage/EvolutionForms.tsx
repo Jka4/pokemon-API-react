@@ -4,8 +4,6 @@ import find from 'lodash.find';
 import Paper from '@material-ui/core/Paper';
 import POKEMON from 'utils/pokemonDataArray';
 
-import { setDelailedPageData } from 'utils/API';
-
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
