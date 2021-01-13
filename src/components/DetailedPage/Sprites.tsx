@@ -18,12 +18,11 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 		);
 	};
 
-
 	return (<>
 		<div className="imagesLine">
 			{sprites ? (
 				Object.keys(sprites).map((spriteName: string) => (
-					<div key={spriteName}>
+					<>
 						{sprites[spriteName] && (
 							<Paper elevation={3} className="block" key={spriteName}>
 								<ImageContainer
@@ -33,11 +32,11 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 								/>
 							</Paper>
 						)}
-					</div>
+					</>
 				))
 			) : (
 					<>
-						{[1, 2, 3, 4, 5, 6, 7, 8].map((
+						{[1, 2, 3, 4].map((
 							n: number, // trash code just for generate placeholder
 						) => (
 							<Paper elevation={3} key={n} className="block">
