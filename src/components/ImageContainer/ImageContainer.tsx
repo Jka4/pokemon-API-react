@@ -16,7 +16,7 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
 
     return (
       <>
-        <img src={src} alt={cn} className={cn} />
+        <img src={src} alt={cn} className={cn} loading='lazy' />
       </>
     );
   };

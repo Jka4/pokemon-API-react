@@ -226,7 +226,7 @@
         "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
         "affectsGlobalScope": true
       },
-      "./node_modules/csstype/index.d.ts": {
+      "./node_modules/@types/react/node_modules/csstype/index.d.ts": {
         "version": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
         "signature": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
         "affectsGlobalScope": false
@@ -307,8 +307,8 @@
         "affectsGlobalScope": false
       },
       "./src/utils/pokemondataarray.ts": {
-        "version": "03f1c634f252e315f6585c159c12863998247295a0e15f3c24b9d676807df28c",
-        "signature": "da30c6d89abb32bd0dcad958f8362d1168e7b80de14ce2f35880d711ba4ef1ac",
+        "version": "7d6c95ae0dc14b7d1dd40ff6875755093739268da5c615d147ede3dfcbd5917d",
+        "signature": "bed0936ed1f936fd367bee64749cf0266f27728515d0f79beb855de4ffc11803",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash/common/common.d.ts": {
@@ -377,7 +377,7 @@
         "affectsGlobalScope": true
       },
       "./src/store/store.js": {
-        "version": "ce1c5b383402b11e488503e0e7b63c91b54063b94db5393b9f8001b1e1584596",
+        "version": "63fac41bf28bbff6b45e5ae4951381df889f2f6311dcc81c09cf6d488d34c3e7",
         "signature": "51a1eee1a1a0f8c93d80f958660f8a98da5d7950946970a9db64cf0f940eef6a",
         "affectsGlobalScope": false
       },
@@ -767,7 +767,7 @@
         "affectsGlobalScope": false
       },
       "./src/utils/api.ts": {
-        "version": "1da2e2ceae58d0539e9262049b516477415f2dc0010cb918c04c71a48fffff6b",
+        "version": "1b111940b3813da0b18c1728e8aaf4cd77f8f0af68d7446505a440e43cd7c284",
         "signature": "ed8e23c81c362e3e9f1ee991f8dc018e1a1c925f74fb6b6b595b8c1264902b40",
         "affectsGlobalScope": false
       },
@@ -797,7 +797,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "94a69e991e67cc6f62ed8425c8bb24b1f47d7875b79768ea938eca7f1fc7008d",
+        "version": "ce78d518e6c05ec99fd96db8eb0d6445a5c2438c11201b77d5f9cd28a54ff255",
         "signature": "b6cb0e4fe0d82de3cba91eda18c5b4e0bbb99bfb6a687757476a40446dccc84e",
         "affectsGlobalScope": false
       },
@@ -831,9 +831,14 @@
         "signature": "59d7e3b9fe0ba75acccbe4d4bf399772b8ff7cced9ea6b9c902585820e9d4b8d",
         "affectsGlobalScope": false
       },
-      "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts": {
+      "./node_modules/csstype/index.d.ts": {
         "version": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
         "signature": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/jss/node_modules/csstype/index.d.ts": {
+        "version": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
+        "signature": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
         "affectsGlobalScope": false
       },
       "./node_modules/indefinite-observable/dist/types.d.ts": {
@@ -2451,11 +2456,6 @@
         "signature": "b4689b57342806e461e66347f7d2201d006d7e380792b386f6e5199843f48a4a",
         "affectsGlobalScope": false
       },
-      "./node_modules/@material-ui/system/node_modules/csstype/index.d.ts": {
-        "version": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
-        "signature": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@material-ui/system/index.d.ts": {
         "version": "76eaed7e90d520bec993d238dd1858bec3ffd640473213b7905ae4c1b02db9a5",
         "signature": "76eaed7e90d520bec993d238dd1858bec3ffd640473213b7905ae4c1b02db9a5",
@@ -2617,7 +2617,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "a8be153ec6e563fa57a37d703050e518f6315ce0fce524926ac9859b659952d9",
+        "version": "3a97fd6d1e3ece6442ccd3c4129db5f6fd5af5ffe30c9ddc037980646ab45311",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2647,7 +2647,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "0611203ed6d6e0ebd99f2fe6c7ab15fb87e5a1ec2871f01841befd728e8cff1d",
+        "version": "633caf8473d9b627bdf498fb093d28dee37d7396b819d01efb2a9147c75bca55",
         "signature": "62d92894c989c0c3e279643f75c71d186c0515a22ecc0f7e477b428258ea321b",
         "affectsGlobalScope": false
       },
@@ -2697,8 +2697,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/app/view/index.tsx": {
-        "version": "3fedf114b6c37096b8574dad8bb65aba68df0def0ae8afc2892abf1f8ca65a29",
-        "signature": "91a05b9d386cad256942f6492f82d30290905e9062e873237c11de93ef1455f5",
+        "version": "89ac695872bb4823ccc1a28884c176f7c30ed5a3ac2606bb68bcf53fcb1f1fee",
+        "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
       "./src/components/app/index.tsx": {
@@ -4821,9 +4821,9 @@
       ],
       "./node_modules/@material-ui/styles/withstyles/withstyles.d.ts": [
         "./node_modules/@material-ui/styles/defaulttheme/index.d.ts",
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts",
         "./node_modules/@material-ui/types/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts",
         "./node_modules/jss/src/index.d.ts"
       ],
       "./node_modules/@material-ui/styles/withtheme/index.d.ts": [
@@ -4835,7 +4835,7 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@material-ui/system/index.d.ts": [
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts"
+        "./node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@material-ui/types/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
@@ -5301,7 +5301,7 @@
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
-        "./node_modules/csstype/index.d.ts"
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@types/react/jsx-runtime.d.ts": [
         "./node_modules/@types/react/index.d.ts"
@@ -5563,7 +5563,7 @@
         "./node_modules/indefinite-observable/dist/types.d.ts"
       ],
       "./node_modules/jss/src/index.d.ts": [
-        "./node_modules/csstype/index.d.ts",
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
       "./node_modules/react-image/img.d.ts": [
@@ -5621,6 +5621,7 @@
         "./src/components/detailedpage/stats.tsx",
         "./src/components/imagecontainer/imagecontainer.tsx",
         "./src/store/store.js",
+        "./src/utils/api.ts",
         "./src/utils/pokemondataarray.ts"
       ],
       "./src/components/detailedpage/evolutionforms.tsx": [
@@ -8525,7 +8526,6 @@
       "./node_modules/@material-ui/styles/makestyles/makestyles.d.ts",
       "./node_modules/@material-ui/styles/mergeclasses/index.d.ts",
       "./node_modules/@material-ui/styles/mergeclasses/mergeclasses.d.ts",
-      "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts",
       "./node_modules/@material-ui/styles/serverstylesheets/index.d.ts",
       "./node_modules/@material-ui/styles/serverstylesheets/serverstylesheets.d.ts",
       "./node_modules/@material-ui/styles/styled/index.d.ts",
@@ -8541,7 +8541,6 @@
       "./node_modules/@material-ui/styles/withtheme/index.d.ts",
       "./node_modules/@material-ui/styles/withtheme/withtheme.d.ts",
       "./node_modules/@material-ui/system/index.d.ts",
-      "./node_modules/@material-ui/system/node_modules/csstype/index.d.ts",
       "./node_modules/@material-ui/types/index.d.ts",
       "./node_modules/@types/anymatch/index.d.ts",
       "./node_modules/@types/babel__core/index.d.ts",
@@ -8649,6 +8648,7 @@
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/react/jsx-runtime.d.ts",
+      "./node_modules/@types/react/node_modules/csstype/index.d.ts",
       "./node_modules/@types/resolve/index.d.ts",
       "./node_modules/@types/source-list-map/index.d.ts",
       "./node_modules/@types/stack-utils/index.d.ts",
@@ -8741,6 +8741,7 @@
       "./node_modules/indefinite-observable/dist/index.d.ts",
       "./node_modules/indefinite-observable/dist/types.d.ts",
       "./node_modules/indefinite-observable/dist/wrapwithobserver.d.ts",
+      "./node_modules/jss/node_modules/csstype/index.d.ts",
       "./node_modules/jss/src/index.d.ts",
       "./node_modules/popper.js/index.d.ts",
       "./node_modules/react-image/img.d.ts",
@@ -10692,6 +10693,10 @@
         1
       ],
       [
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/@types/resolve/index.d.ts",
         1
       ],
@@ -11057,6 +11062,10 @@
       ],
       [
         "./node_modules/indefinite-observable/dist/wrapwithobserver.d.ts",
+        1
+      ],
+      [
+        "./node_modules/jss/node_modules/csstype/index.d.ts",
         1
       ],
       [

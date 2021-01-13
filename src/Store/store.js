@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import POKEMONS from "utils/pokemonDataArray";
+import POKEMON from "utils/pokemonDataArray";
 import * as _ from 'lodash';
 
 let defaultState = {
@@ -7,15 +7,15 @@ let defaultState = {
   randomPokemonsFetching: false,
   detailsPage: null,
   playing: false,
-  pokemonsArr: POKEMONS,
+  pokemonsArr: POKEMON,
 };
 
-(() => {
-  localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
-  let getStateFromLocal = localStorage.getItem("pokemon_state");
+// (() => {
+//   localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
+//   let getStateFromLocal = localStorage.getItem("pokemon_state");
 
-  defaultState = getStateFromLocal;
-})();
+//   defaultState = getStateFromLocal;
+// })();
 
 
 function reducer(state = defaultState, action) {
@@ -66,7 +66,7 @@ function reducer(state = defaultState, action) {
 const store = createStore(reducer, undefined);
 export default store;
 
-store.subscribe(() => {
-  let currentState = store.getState();
-  localStorage.setItem("pokemon_state", JSON.stringify(currentState));
-});
+// store.subscribe(() => {
+//   let currentState = store.getState();
+//   localStorage.setItem("pokemon_state", JSON.stringify(currentState));
+// });

@@ -5,7 +5,7 @@ import Heading from "./Heading";
 import PokemonCard from "./PokemonCard";
 import { setDelailedPageData } from "utils/API";
 import store from "Store/store";
-import POKEMONS from "utils/pokemonDataArray";
+import POKEMON from "utils/pokemonDataArray";
 
 type ItemsListType = {
   randomPokemons: randomPokemonsType[];
@@ -35,7 +35,7 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
 
     // find image placeholder fro fetched pokemon object
     randomPokemons.forEach(el => {
-      const placeholder = POKEMONS.find((pokes: any) => pokes.id === el.id)?.placeholderBase64;
+      const placeholder = POKEMON.find((pokes: any) => pokes.id === el.id)?.placeholderBase64;
       el.placeholderBase64 = placeholder
       arr.push(el)
     })
