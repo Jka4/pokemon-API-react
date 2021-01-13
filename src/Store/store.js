@@ -18,7 +18,7 @@ let defaultState = {
 })();
 
 
-function reducer({ state = defaultState, action }) {
+function reducer(state = defaultState, action) {
   let actionValue;
   _.mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
 
