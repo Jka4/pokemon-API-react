@@ -391,11 +391,6 @@
         "signature": "f01d0b2e38a2bfdf37c6c4dfd9fe60a8a1defc740054563927c03672c12bc73c",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/react-loader-spinner/index.d.ts": {
-        "version": "1b198e2c24f401315f7063ae051096847b4e8343f7da1f161fc368152c4e31de",
-        "signature": "1b198e2c24f401315f7063ae051096847b4e8343f7da1f161fc368152c4e31de",
-        "affectsGlobalScope": false
-      },
       "./node_modules/fuse.js/dist/fuse.d.ts": {
         "version": "ffdfe2bf33c188723a31076ace9a7d8f0a4fbe855aae0218036152fae261362e",
         "signature": "ffdfe2bf33c188723a31076ace9a7d8f0a4fbe855aae0218036152fae261362e",
@@ -761,29 +756,19 @@
         "signature": "fce37e7afb86c3cf7e3b224c3d253784a6f6e5ec74a146930c53e64fcf198c4e",
         "affectsGlobalScope": false
       },
-      "./node_modules/axios/index.d.ts": {
-        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
-        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+      "./node_modules/react-suspense-img/dist/resource/index.d.ts": {
+        "version": "4c2b83573f2b712c06df12c44f341c03a34545f04370d64c3f086165e4550a8d",
+        "signature": "4c2b83573f2b712c06df12c44f341c03a34545f04370d64c3f086165e4550a8d",
         "affectsGlobalScope": false
       },
-      "./src/utils/api.ts": {
-        "version": "fba57b1d4ac3f90be163a7bf4e1939c589edad768d84df1e61060e37388a626b",
-        "signature": "864b8b71c62d8c8ef0f7e393255cbb20f3088bd3ab60dc207fd5a5294b1757a0",
+      "./node_modules/react-suspense-img/dist/img/index.d.ts": {
+        "version": "87a8a22e7a4c3deb311077c2c52f94231e1a00e76ff6cccb98d1deca1a09b972",
+        "signature": "87a8a22e7a4c3deb311077c2c52f94231e1a00e76ff6cccb98d1deca1a09b972",
         "affectsGlobalScope": false
       },
-      "./node_modules/react-image/useimage.d.ts": {
-        "version": "3f15b0bbcf1f350ed42ce5215152a36cfeb06fd3cdc83f6ec43e82c8a68ead2c",
-        "signature": "3f15b0bbcf1f350ed42ce5215152a36cfeb06fd3cdc83f6ec43e82c8a68ead2c",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-image/img.d.ts": {
-        "version": "a07d1cff4c49a4b228a5ec27207e9ae6bf85df480a65c90c63aa1fd8fbadfc6c",
-        "signature": "a07d1cff4c49a4b228a5ec27207e9ae6bf85df480a65c90c63aa1fd8fbadfc6c",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-image/index.d.ts": {
-        "version": "72fcc5102d3b96aac94271c7edc0e4a61f2665f442c8aa4f3434e2cd772ebe31",
-        "signature": "72fcc5102d3b96aac94271c7edc0e4a61f2665f442c8aa4f3434e2cd772ebe31",
+      "./node_modules/react-suspense-img/dist/index.d.ts": {
+        "version": "ebea5868f5ce6769639be7b6a91e23b0bd78e67406e65f736efa2df5edfbad5b",
+        "signature": "ebea5868f5ce6769639be7b6a91e23b0bd78e67406e65f736efa2df5edfbad5b",
         "affectsGlobalScope": false
       },
       "./src/utils/errorboundary.js": {
@@ -792,12 +777,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
-        "version": "c96010ad55aea68a025f81ce234e88a1bf8705e3ac2361a2afe5ccd5c8456ee0",
+        "version": "3851fbb4ca640a255326305366f8feb8a2a2c8273319efa6499a9a6acf72f01f",
         "signature": "aaa758c58236686012b1eac410007a8b9cc3be02b4127b8eb33b4cee6178aa41",
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "ada5b9da57b871d8f8c0ee2c0f7db99fad8f3b483ed08a9b9fde0f5c6c011b06",
+        "version": "927ab24b0e65a7059ff93a70db1b8453342e93674ab2a0c687b30eb46813afe9",
         "signature": "b6cb0e4fe0d82de3cba91eda18c5b4e0bbb99bfb6a687757476a40446dccc84e",
         "affectsGlobalScope": false
       },
@@ -2612,12 +2597,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/pokemoncard.tsx": {
-        "version": "ae1391c423b5020e307a86f806564bbff542b310af38f71fa94f4bd321e341ca",
-        "signature": "d4e4b32774067a4ad9072f3380b20343db5e51dc9dbb27feb21b9b6d45d810c5",
+        "version": "61fc1fb41dea9208ed2105990f835f0fed3914e78a1cbc11277024988899b266",
+        "signature": "4b00876c35dd4333cb18598670265a69e226a5f7b1d1728aa749e649837c432c",
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "7b988ab56ec8dfce6afe6c989afaa2cd766385056433e2639cf20d370261f082",
+        "version": "bdd4592c6effef4478066c122bd79202ef8541e2b26fd467ee74239b963b832c",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2632,7 +2617,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/stats.tsx": {
-        "version": "954b7764e393c4d7e539baf108d1ef84bb6e529b957cb9732dc59bbd9428a4ee",
+        "version": "43324d66c281d53a973377551b43bc551154a987448aeee4bee20425dad69624",
         "signature": "10af96868b54785b67a59918f24a0d3341f4c1497724e1a996fc6cfa5516efc6",
         "affectsGlobalScope": false
       },
@@ -2647,22 +2632,27 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "94a3879ad0ab337816014dc992fe5fd1b4ae037dc32e4cb635aa1d9c2c625076",
+        "version": "8562ffa598b1b157da2c677d1ecf42d04c6a59725b3bc0d385e34feceaa70392",
         "signature": "e837f438292b9003dbd23762e39a3a1b11ac8ffb3d9417e820c2853ccaba343f",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/sprites.tsx": {
-        "version": "5c7b1ab229895d767840e54e9f2583df18dda9fbf3748ac377707212385a93a5",
+        "version": "fac02e096f3258d7c902df5c33e34d49201c196c499b3af0308860791f204747",
         "signature": "3a3f5db643864b6667bed6218a00f123b893fa948a3e8cb423f65763ff168269",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/bigimage.tsx": {
-        "version": "0e9c0923bb4b53e1b516d7ab817a526b61a92a0212dec97943c9a5bb5ebcc4a3",
+        "version": "e4f465027cc85fce9256e30a9bb59bca324757e8cfd7ed1ba5e26b03f20cfe1d",
         "signature": "cc2b337dded1ecaf56c43a2503ccc23b12596534946200636cdff96530c4c6ae",
         "affectsGlobalScope": false
       },
+      "./node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "85221d542718d286f25d390ce02eb9c140028901c0200a0d1fe645a57ec9429d",
+        "version": "5b11e4a97832c8fc99a31f4ca3b643b34da325ae28c9c14ac2364e28bf6915d6",
         "signature": "7d1151be4f6c57c3b553a77b5346342efea1dcfb3f6b3ef6d0665f2d502036ad",
         "affectsGlobalScope": false
       },
@@ -2672,12 +2662,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/listview.tsx": {
-        "version": "c54461bb1a6902499ae1a1854bbb2b5c07f0291e2ddecf803daec5619e4114e8",
+        "version": "a94f4e0b387ed419774f84734a841b852ed7801eb25a45b5353527ec69e77cc9",
         "signature": "bb39e98e30d54fe07be708bec932e0253ab17cda6f9a26ef6123f5eb8349ea71",
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/catalogview.tsx": {
-        "version": "3f9ba5fccbb73656dff594159e74927311736fb7e43cb012bab906d6726dbb0c",
+        "version": "cc55d83418de446d2b8b093a399238e4cc3d66a2060d01552fc49fac37afb94a",
         "signature": "9097c3882a7bd57326d5ae41db4299068fc77536372aaefc88a51def4186e3c1",
         "affectsGlobalScope": false
       },
@@ -2692,7 +2682,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/index.tsx": {
-        "version": "81a8441da67ca6550ddd3106f51bf82ca0541b3e6e6f06341525efaf4e245678",
+        "version": "fbc8cf623312c379661631c95909c6ca5ef91322bfe86e97218fec16927c906f",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2976,6 +2966,11 @@
         "signature": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
         "affectsGlobalScope": false
       },
+      "./src/utils/api.ts": {
+        "version": "772502f07617e4bd4869a7e0e4a45164d906aef6d39c779ed3c2f2c90a73261f",
+        "signature": "eddf02485d7fd1aa0fed2cac635664a39c96b9668b76382bf08a9a1bba6f929f",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
@@ -3089,6 +3084,11 @@
       "./node_modules/@types/q/index.d.ts": {
         "version": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
         "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-loader-spinner/index.d.ts": {
+        "version": "1b198e2c24f401315f7063ae051096847b4e8343f7da1f161fc368152c4e31de",
+        "signature": "1b198e2c24f401315f7063ae051096847b4e8343f7da1f161fc368152c4e31de",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/react-transition-group/csstransition.d.ts": {
@@ -3251,8 +3251,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": false,
-      "noUnusedParameters": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },
@@ -5581,14 +5581,6 @@
         "./node_modules/@types/react/node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
-      "./node_modules/react-image/img.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/react-image/useimage.d.ts"
-      ],
-      "./node_modules/react-image/index.d.ts": [
-        "./node_modules/react-image/img.d.ts",
-        "./node_modules/react-image/useimage.d.ts"
-      ],
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5599,6 +5591,13 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/react-suspense-img/dist/img/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/react-suspense-img/dist/index.d.ts": [
+        "./node_modules/react-suspense-img/dist/img/index.d.ts",
+        "./node_modules/react-suspense-img/dist/resource/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -5631,11 +5630,10 @@
       "./src/components/detailedpage/bigimage.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/imagecontainer/imagecontainer.tsx"
       ],
       "./src/components/detailedpage/detailedpage.tsx": [
-        "./node_modules/@material-ui/core/paper/index.d.ts",
-        "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -5645,9 +5643,6 @@
         "./src/components/detailedpage/evolutionforms.tsx",
         "./src/components/detailedpage/sprites.tsx",
         "./src/components/detailedpage/stats.tsx",
-        "./src/components/imagecontainer/imagecontainer.tsx",
-        "./src/store/store.js",
-        "./src/utils/api.ts",
         "./src/utils/pokemondataarray.ts"
       ],
       "./src/components/detailedpage/evolutionforms.tsx": [
@@ -5656,21 +5651,18 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx",
         "./src/utils/pokemondataarray.ts"
       ],
       "./src/components/detailedpage/sprites.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/react-loading-skeleton/lib/index.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx"
+        "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
       "./src/components/detailedpage/stats.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/ahooks/lib/index.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
       "./src/components/errorpage/errorpage.tsx": [
@@ -5702,7 +5694,7 @@
       "./src/components/imagecontainer/imagecontainer.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/react-image/index.d.ts",
+        "./node_modules/react-suspense-img/dist/index.d.ts",
         "./src/utils/errorboundary.js"
       ],
       "./src/components/maincontainer/heading.tsx": [
@@ -5711,12 +5703,12 @@
       ],
       "./src/components/maincontainer/itemslist.tsx": [
         "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/maincontainer/heading.tsx",
         "./src/components/maincontainer/pokemoncard.tsx",
-        "./src/store/store.js",
-        "./src/utils/api.ts"
+        "./src/store/store.js"
       ],
       "./src/components/maincontainer/logo.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -5755,8 +5747,7 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx",
-        "./src/utils/api.ts"
+        "./src/components/imagecontainer/imagecontainer.tsx"
       ],
       "./src/components/pokemonspageall/index.tsx": [
         "./node_modules/@material-ui/icons/apps.d.ts",
@@ -5774,11 +5765,9 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx",
-        "./src/utils/api.ts"
+        "./src/components/imagecontainer/imagecontainer.tsx"
       ],
       "./src/components/search/search.tsx": [
-        "./node_modules/@types/react-loader-spinner/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -5786,8 +5775,7 @@
         "./node_modules/ahooks/lib/index.d.ts",
         "./node_modules/fuse.js/dist/fuse.d.ts",
         "./src/components/imagecontainer/imagecontainer.tsx",
-        "./src/store/store.js",
-        "./src/utils/api.ts"
+        "./src/store/store.js"
       ],
       "./src/index.tsx": [
         "./node_modules/@types/react-dom/index.d.ts",
@@ -8149,14 +8137,6 @@
         "./node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
-      "./node_modules/react-image/img.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/react-image/useimage.d.ts"
-      ],
-      "./node_modules/react-image/index.d.ts": [
-        "./node_modules/react-image/img.d.ts",
-        "./node_modules/react-image/useimage.d.ts"
-      ],
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -8167,6 +8147,13 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/react-suspense-img/dist/img/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/react-suspense-img/dist/index.d.ts": [
+        "./node_modules/react-suspense-img/dist/img/index.d.ts",
+        "./node_modules/react-suspense-img/dist/resource/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -8790,12 +8777,12 @@
       "./node_modules/jss/node_modules/csstype/index.d.ts",
       "./node_modules/jss/src/index.d.ts",
       "./node_modules/popper.js/index.d.ts",
-      "./node_modules/react-image/img.d.ts",
-      "./node_modules/react-image/index.d.ts",
-      "./node_modules/react-image/useimage.d.ts",
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
       "./node_modules/react-loading-skeleton/lib/index.d.ts",
       "./node_modules/react-scripts/lib/react-app.d.ts",
+      "./node_modules/react-suspense-img/dist/img/index.d.ts",
+      "./node_modules/react-suspense-img/dist/index.d.ts",
+      "./node_modules/react-suspense-img/dist/resource/index.d.ts",
       "./node_modules/redux/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
       "./node_modules/symbol-observable/index.d.ts",
@@ -11147,6 +11134,18 @@
       ],
       [
         "./node_modules/react-scripts/lib/react-app.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-suspense-img/dist/img/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-suspense-img/dist/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-suspense-img/dist/resource/index.d.ts",
         1
       ],
       [
