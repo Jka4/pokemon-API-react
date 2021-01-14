@@ -8,13 +8,12 @@ type pokemonCardType = {
   base_experience: number;
   id: number;
   name: string;
-  onClick: any;
   order: number;
   src: string;
   placeholderBase64: string;
 }
 
-const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, onClick, placeholderBase64 }: pokemonCardType) => {
+const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, placeholderBase64 }: pokemonCardType) => {
 
   const fallback = (placeholderBase64: string) => {
     return (
@@ -30,7 +29,6 @@ const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experie
         to={`/detailedPage/pokemon/${name}`}
         data-testid="testIds"
         data-pokemon_id={id}
-        onClick={onClick}
         key={id}
       >
         <div className="pokemonCard">

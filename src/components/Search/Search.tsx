@@ -6,7 +6,6 @@ import Fuse from "fuse.js";
 import { useDebounce } from "ahooks";
 
 import store from "Store/store";
-import { setDelailedPageData } from "utils/API";
 
 import "./styles/style.scss";
 
@@ -67,9 +66,6 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     }, 400);
   };
 
-  let handleClick = (pokemonName: string) => {
-    setDelailedPageData(pokemonName);
-  };
 
   const fallback = (placeholderBase64: string) => {
     return (<>
@@ -104,7 +100,6 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
                 <li
                   data-id={i.item.id}
                   className="searchItem"
-                  onClick={() => handleClick(i.item.name)}
                 >
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>

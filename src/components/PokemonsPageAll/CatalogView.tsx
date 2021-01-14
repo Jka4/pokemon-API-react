@@ -1,7 +1,6 @@
 import React, { lazy } from "react";
 import { NavLink } from "react-router-dom";
 
-import { setDelailedPageData } from "utils/API";
 
 import "react-tippy/dist/tippy.css";
 import "./styles/style.scss";
@@ -23,10 +22,6 @@ interface Props {
 }
 
 const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
-  const handleClick = (id: number) => {
-    // setDelailedPageData(id);
-  };
-
   const fallback = (placeholderBase64: string) => {
     return (
       <>
@@ -42,7 +37,6 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           <NavLink
             to={`/detailedPage/pokemon/${index?.name}`}
             data-pokemon_id={index?.id}
-            onClick={() => handleClick(index.id)}
             key={key}
           >
             <ImageContainer url={index?.image} cn="pokemonImageCard" fallback={fallback(index?.placeholderBase64)} />

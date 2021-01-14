@@ -2,8 +2,6 @@ import React, { lazy, useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { NavLink } from "react-router-dom";
 
-import { setDelailedPageData } from "utils/API";
-
 import Paper from "@material-ui/core/Paper";
 
 import "./styles/style.scss";
@@ -49,9 +47,6 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     setPokemonCount(pokemons.length + 1 + howMuchToDownload);
   };
 
-  const handleClick = (id: number) => {
-    // setDelailedPageData(id);
-  };
 
 
   const fallback = (placeholderBase64: string) => {
@@ -73,7 +68,6 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
             <NavLink
               to={`/detailedPage/pokemon/${pokemon.name}`}
               data-pokemon_id={pokemon.id}
-              onClick={() => handleClick(pokemon.id)}
               key={pokemon.id}
             >
               <Paper elevation={3} className="smallPokemonCard">

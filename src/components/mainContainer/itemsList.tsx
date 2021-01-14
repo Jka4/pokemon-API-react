@@ -3,8 +3,8 @@ import React from "react";
 import { Provider, connect } from "react-redux";
 import Heading from "./Heading";
 import PokemonCard from "./PokemonCard";
-import { setDelailedPageData } from "utils/API";
 import store from "Store/store";
+import { NavLink } from "react-router-dom";
 
 type ItemsListType = {
   randomPokemons: randomPokemonsType[];
@@ -24,9 +24,7 @@ type randomPokemonsType = {
 const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) => {
   const haveData = randomPokemons.length !== 0;
 
-  const handleClick = (id: number) => {
-    // setDelailedPageData(id);
-  }
+
 
   return (
     <>
@@ -35,16 +33,21 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) =
       <div className="itemList">
         <div className="cardsContainer">
           {randomPokemons.map((el: any, key: number) => (
-            <PokemonCard
-              key={key}
-              id={el?.id}
-              src={el?.image}
-              name={el?.name}
-              order={el?.order}
-              base_experience={el?.base_experience}
-              onClick={() => handleClick(el.id)}
-              placeholderBase64={el?.placeholderBase64}
-            />
+            <NavLink
+              key={(el?.name, key)}
+              to={`/detailedPage/pokemon/${el?.name}`}
+              className="searchItem_outer"
+            >
+              <PokemonCard
+                key={key}
+                id={el?.id}
+                src={el?.image}
+                name={el?.name}
+                order={el?.order}
+                base_experience={el?.base_experience}
+                placeholderBase64={el?.placeholderBase64}
+              />
+            </NavLink>
           ))}
         </div>
       </div>
