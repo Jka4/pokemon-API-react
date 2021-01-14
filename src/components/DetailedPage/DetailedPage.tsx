@@ -1,24 +1,18 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useEffect, useState } from 'react';
-import { Provider, connect } from 'react-redux';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import Stats from './Stats';
 import Abilities from './Abilities';
 import EvolutionForms from './EvolutionForms';
-import Paper from '@material-ui/core/Paper';
 import Sprites from './Sprites';
 import BigImage from './BigImage'
 
-import store from 'Store/store';
 
 import POKEMON from 'utils/pokemonDataArray';
-import { setDelailedPageData } from 'utils/API';
 import axios from 'axios';
 
 import './styles/style.scss';
-
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type PropsType = {
   pokemonArr: DetailsPageTypes[] | null;

@@ -1,10 +1,8 @@
-import React, { lazy, useEffect, useState, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { NavLink } from 'react-router-dom';
 import find from 'lodash.find';
 import Paper from '@material-ui/core/Paper';
 import POKEMON from 'utils/pokemonDataArray';
-
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
   currentPokemon: any;

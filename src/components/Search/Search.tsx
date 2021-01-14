@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useState, Suspense } from "react";
+import React, { lazy, useState } from "react";
 import { Provider, connect } from "react-redux";
 import { NavLink } from "react-router-dom";
 import Fuse from "fuse.js";
@@ -100,17 +100,11 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
                 to={`/detailedPage/pokemon/${i.item.name}`}
                 className="searchItem_outer"
               >
-                <li
-                  data-id={i.item.id}
-                  className="searchItem"
-                  onClick={() => handleClick(i.item.name)}
-                >
+                <li data-id={i.item.id} className="searchItem" onClick={() => handleClick(i.item.name)} >
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
-                  <Suspense fallback={fallback(i.item.placeholderBase64)} >
-                    <img src={i.item.image} className='searchItem__image' alt="searchItem__image" />
-                  </Suspense>
+                  <ImageContainer url={i.item.image} cn={"searchItem__image"} fallback={fallback(i.item.placeholderBase64)} />
                 </li>
               </NavLink>
             ))}
