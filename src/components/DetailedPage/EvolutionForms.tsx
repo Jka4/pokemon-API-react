@@ -55,7 +55,7 @@ const EvolutionForms: React.FC<Props> = ({ currentPokemon }: Props) => {
               elevation={3}
               className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
             >
-              <img src={index.image} className='evoFormImg' alt="evoFormImg" loading='lazy' />
+              <img src={index.image} className='evoFormImg deBlur' alt="evoFormImg" loading='lazy' />
               <div className="pokemonName">{index.species_name}</div>
             </Paper>
           </NavLink>

@@ -588,11 +588,11 @@ a {
 }
 
 .placeholderBase64 {
-    filter: blur(8px);
+    filter: blur(18px);
 }
 
 .pokemonImageCard {
-    animation: 0.1s linear 0s deBlur;
+    animation: 0.3s linear 0s deBlur;
 }
 
 @keyframes deBlur {

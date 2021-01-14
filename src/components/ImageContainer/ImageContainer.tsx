@@ -4,6 +4,7 @@ import { useImage } from "react-image";
 import ErrorBoundary from "utils/ErrorBoundary";
 
 
+
 type ImageContainerProps = {
   url: string;
   cn?: string;
@@ -11,28 +12,22 @@ type ImageContainerProps = {
 }
 
 const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
-
-  const ImageWrapper = () => {
-    const { src } = useImage({ srcList: url });
-
-    return (
-      <>
-        <img src={src} alt={cn} className={cn} />
-      </>
-    );
-  };
-
+  const { src } = useImage({ srcList: url });
 
   return (
     <>
       <ErrorBoundary>
         <Suspense fallback={fallback}>
-          {url && <ImageWrapper />}
+          {url && <img src={src} alt={cn} className={cn} />}
         </Suspense>
       </ErrorBoundary>
     </>
   );
 };
+
+
+
+
 
 export default ImageContainer;
 

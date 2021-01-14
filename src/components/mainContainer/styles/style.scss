@@ -15,7 +15,7 @@
 .logoBase64 {
     width: 500px;
     max-height: 213px;
-    filter: blur(18px);
+    // filter: blur(18px);
 }
 
 .pokemonCard_Outer {
@@ -52,4 +52,8 @@
 .logotype.placeholderBase64 {
     width: 500px;
     height: auto;
+}
+
+.deBlur {
+    animation: 0.2s linear 0s deBlur;
 }

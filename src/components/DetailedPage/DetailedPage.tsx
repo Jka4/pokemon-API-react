@@ -69,7 +69,6 @@ const DetailedPage: React.FC<PropsType> = () => {
     setBigImage(pokemon)
   }, [currentPokemon])
 
-
   return (
     <>
       <div className="detailedPage">
