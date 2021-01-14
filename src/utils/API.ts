@@ -1,7 +1,7 @@
 import store from 'Store/store';
 import axios from 'axios';
 
-export let getRandomPokemon = async (amount = 759) => {
+export let getRandomPokemon = async (amount = 722) => {
     const randomNumber = Math.floor(1 + Math.random() * amount);
     const URL = `https://pokeapi.co/api/v2/pokemon/${randomNumber}/`;
 

@@ -25,7 +25,7 @@ type PokemonsPageAllType = {
 };
 
 const PokemonsPageAll: React.FC<PokemonsPageAllType> = ({ pokemonDataArray = [] }: PokemonsPageAllType) => {
-  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(true);
+  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);
 
   return (
     <>
@@ -47,7 +47,6 @@ const PokemonsPageAll: React.FC<PokemonsPageAllType> = ({ pokemonDataArray = [] 
                 <>
                   <span>Catalog view:</span>
                   <span className="separator">|</span>
-
                   <div className="catalog">
                     <AppsIcon />
                   </div>

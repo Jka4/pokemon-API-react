@@ -6,8 +6,6 @@ import Paper from "@material-ui/core/Paper";
 
 import "./styles/style.scss";
 
-
-
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 interface Props {
