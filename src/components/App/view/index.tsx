@@ -25,26 +25,22 @@ const App: React.FC = () => {
     });
 
     return (
-        <>
-            <Suspense fallback={<div className="fallback">Loading...</div>}>
-                {!supportScreenSize ? (
-                    <div className="App">
-                        <Route exact component={HeaderLine} />
+        <Suspense fallback={<div className="fallback">Loading...</div>}>
+            {!supportScreenSize ? (
+                <div className="App">
+                    <Route exact component={HeaderLine} />
 
-                        <Switch>
-                            <Route exact path="/" component={MainContainer} />
-                            <Route path="/detailedPage/pokemon/" component={DetailedPage} />
-                            <Route path="/allPokemons" component={PokemonsPageAll} />
-                            <Route path="/404" component={ErrorPage} />
+                    <Switch>
+                        <Route exact path="/" component={MainContainer} />
+                        <Route path="/detailedPage/pokemon/" component={DetailedPage} />
+                        <Route path="/allPokemons" component={PokemonsPageAll} />
+                        <Route path="/404" component={ErrorPage} />
 
-                            <Redirect from="*" to="/404" />
-                        </Switch>
-                    </div>
-                ) : (
-                        <NonSupportPlaceholder />
-                    )}
-            </Suspense>
-        </>
+                        <Redirect from="*" to="/404" />
+                    </Switch>
+                </div>
+            ) : (<NonSupportPlaceholder />)}
+        </Suspense>
     );
 };
 

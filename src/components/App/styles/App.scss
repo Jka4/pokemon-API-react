@@ -585,6 +585,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 62px;
+    font-weight: bold;
 }
 
 .placeholderBase64 {
@@ -609,4 +611,8 @@ a {
     .viewType {
         margin-top: 100px;
     }
+}
+
+.deBlur {
+    animation: 0.16s linear 0s deBlur;
 }

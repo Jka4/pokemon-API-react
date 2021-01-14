@@ -69,7 +69,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
 
   const fallback = (placeholderBase64: string) => {
     return (<>
-      <img src={placeholderBase64} className='placeholderBase64' alt="placeholderBase64" />
+      <img src={placeholderBase64} className='placeholderBase64 deBlur' alt="placeholderBase64" />
     </>)
   }
 

@@ -1,6 +1,8 @@
-import React, { Suspense } from "react";
+import React, { lazy } from "react";
 import { NavLink } from "react-router-dom";
 import Card from "@material-ui/core/Card";
+
+const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
 type pokemonCardType = {
   base_experience: number;
@@ -22,9 +24,11 @@ const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experie
       >
         <div className="pokemonCard">
           <div className="imageWrapper">
-            <Suspense fallback={<img loading="lazy" src={placeholderBase64} className="pokemonImage placeholderBase64" alt='' />} >
-              <img loading="lazy" src={src} className="pokemonImage" alt="pokemonImage" />
-            </Suspense>
+            <ImageContainer
+              url={src}
+              cn={"bigImage"}
+              fallback={<img loading="lazy" src={placeholderBase64} className="pokemonImage placeholderBase64 deBlur" alt='' />}
+            />
           </div>
           <span>{name}</span>
           <span>{order}</span>

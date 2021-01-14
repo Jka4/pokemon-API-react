@@ -48,7 +48,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
 
 
   const fallback = (placeholderBase64: string) => {
-    return (<><img src={placeholderBase64} className="placeholderBase64" alt="placeholderBase64" /></>)
+    return (<><img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" /></>)
   }
 
   return (

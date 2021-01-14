@@ -24,7 +24,7 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   const fallback = (placeholderBase64: string) => {
     return (
       <>
-        <img loading="lazy" src={placeholderBase64} className="placeholderBase64" alt="placeholderBase64" />
+        <img loading="lazy" src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />
       </>
     );
   };

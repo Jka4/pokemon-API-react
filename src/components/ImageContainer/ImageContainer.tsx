@@ -1,8 +1,5 @@
-import { Suspense } from "react";
-import { useImage } from "react-image";
-
+import { useEffect, useState } from "react";
 import ErrorBoundary from "utils/ErrorBoundary";
-
 
 
 type ImageContainerProps = {
@@ -12,24 +9,33 @@ type ImageContainerProps = {
 }
 
 const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
-  const { src } = useImage({ srcList: url });
+  const [ready, setReady] = useState<boolean>(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => setReady(true);
+    img.src = url;
+
+    return () => {
+      setReady(false)
+    }
+  }, [url])
 
   return (
     <>
       <ErrorBoundary>
-        <Suspense fallback={fallback}>
-          {url && <img src={src} alt={cn} className={cn} loading='lazy' />}
-        </Suspense>
+        {!ready && (<>
+          {(typeof fallback === 'function') ? fallback() : fallback}
+        </>)}
+
+        <img src={url}
+          alt={cn}
+          className={cn}
+          style={{ display: ready ? 'block' : 'none' }}
+        />
       </ErrorBoundary>
     </>
   );
 };
 
-
-
-
-
 export default ImageContainer;
-
-
-
