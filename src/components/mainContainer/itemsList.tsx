@@ -1,24 +1,24 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from "react";
-import { Provider, connect } from "react-redux";
-import Heading from "./Heading";
-import PokemonCard from "./PokemonCard";
-import store from "Store/store";
+import React from 'react';
+import { Provider, connect } from 'react-redux';
+import Heading from './Heading';
+import PokemonCard from './PokemonCard';
+import store from 'Store/store';
 
 type ItemsListType = {
   randomPokemons: randomPokemonsType[];
-}
+};
 
 type randomPokemonsType = {
   id: number;
   sprites: {
-    front_default: string
+    front_default: string;
   };
   name: string;
   order: number;
-  base_experience: number,
+  base_experience: number;
   placeholderBase64?: string;
-}
+};
 
 const ItemsList: React.FC<ItemsListType> = ({ randomPokemons }: ItemsListType) => {
   const haveData = randomPokemons.length !== 0;

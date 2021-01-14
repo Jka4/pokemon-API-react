@@ -1,12 +1,11 @@
-import { useEffect, useState } from "react";
-import ErrorBoundary from "utils/ErrorBoundary";
-
+import { useEffect, useState } from 'react';
+import ErrorBoundary from 'utils/ErrorBoundary';
 
 type ImageContainerProps = {
   url: string;
   cn?: string;
-  fallback?: any
-}
+  fallback?: any;
+};
 
 const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
   const [ready, setReady] = useState<boolean>(false);
@@ -17,22 +16,16 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
     img.src = url;
 
     return () => {
-      setReady(false)
-    }
-  }, [url])
+      setReady(false);
+    };
+  }, [url]);
 
   return (
     <>
       <ErrorBoundary>
-        {!ready && (<>
-          {(typeof fallback === 'function') ? fallback() : fallback}
-        </>)}
+        {!ready && <>{typeof fallback === 'function' ? fallback() : fallback}</>}
 
-        <img src={url}
-          alt={cn}
-          className={cn}
-          style={{ display: ready ? 'block' : 'none' }}
-        />
+        <img src={url} alt={cn} className={cn} style={{ display: ready ? 'block' : 'none' }} />
       </ErrorBoundary>
     </>
   );

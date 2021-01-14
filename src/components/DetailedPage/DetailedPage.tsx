@@ -6,8 +6,7 @@ import Stats from './Stats';
 import Abilities from './Abilities';
 import EvolutionForms from './EvolutionForms';
 import Sprites from './Sprites';
-import BigImage from './BigImage'
-
+import BigImage from './BigImage';
 
 import POKEMON from 'utils/pokemonDataArray';
 import axios from 'axios';
@@ -50,7 +49,7 @@ const DetailedPage: React.FC<PropsType> = () => {
   const { abilities, stats, weight, sprites }: DetailsPageTypes = detailsPage || {};
 
   useEffect(() => {
-    setDetailsPage({})
+    setDetailsPage({});
 
     const URL = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
     axios.get(URL).then(async (response) => {
@@ -59,15 +58,14 @@ const DetailedPage: React.FC<PropsType> = () => {
       delete poke.sprites.other;
       delete poke.sprites.versions;
 
-      setDetailsPage(poke)
+      setDetailsPage(poke);
     });
   }, [currentPokemon]);
 
-
   useEffect(() => {
     const pokemon: any = POKEMON.find((el) => el.name === currentPokemon);
-    setBigImage(pokemon)
-  }, [currentPokemon])
+    setBigImage(pokemon);
+  }, [currentPokemon]);
 
   return (
     <>

@@ -1,102 +1,101 @@
 #searchInput {
-    height: 40px;
-    border-radius: 6px;
+  height: 40px;
+  border-radius: 6px;
 }
 
 #searchInput {
-    font-size: 18px;
-    height: 37px;
+  font-size: 18px;
+  height: 37px;
 }
 
 .searchItem .placeholderBase64 {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
 .searchItem img {
-    justify-self: flex-end;
+  justify-self: flex-end;
 }
 
 .searchItem:hover {
-    transform: scale(1.02);
-    background: rgb(238, 238, 238);
-    cursor: pointer;
+  transform: scale(1.02);
+  background: rgb(238, 238, 238);
+  cursor: pointer;
 }
 
 .searchItem:hover img {
-    transform: scale(1.17);
+  transform: scale(1.17);
 }
 
 .searchItem:last-child {
-    border-bottom: 1px transparent solid;
+  border-bottom: 1px transparent solid;
 }
 
 .searchItem__image {
-    width: auto;
-    height: 100%;
+  width: auto;
+  height: 100%;
 }
 
 .searchItem {
-    color: black;
+  color: black;
 }
 
 .searchResults {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 10;
-    margin-top: 0px;
-    box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07), 0 2.9px 5.1px rgba(0, 0, 0, 0.101),
-        0 5.4px 9.6px rgba(0, 0, 0, 0.125), 0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18),
-        0 43px 77px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    height: auto;
-    // margin-top: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 10;
+  margin-top: 0px;
+  box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07), 0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
+    0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18), 0 43px 77px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+  // margin-top: 10px;
 }
 
 .searchList {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0;
-    background: white;
-    padding: 0;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  background: white;
+  padding: 0;
+  width: 100%;
 }
 
 .searchItem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0;
-    border-bottom: 1px grey solid;
-    padding: 0;
-    width: 100%;
-    height: 3rem;
-    text-decoration: none;
-    font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  border-bottom: 1px grey solid;
+  padding: 0;
+  width: 100%;
+  height: 3rem;
+  text-decoration: none;
+  font-size: 1.1rem;
 }
 
 .searchItem_outer {
-    width: 100%;
+  width: 100%;
 }
 
 .item_name {
-    width: 35%;
+  width: 35%;
 }
 
 .item_id {
-    width: 13%;
-    text-align: left;
+  width: 13%;
+  text-align: left;
 }
 
 .item_weight {
-    position: relative;
-    right: 0;
-    width: 22%;
-    text-align: left;
+  position: relative;
+  right: 0;
+  width: 22%;
+  text-align: left;
 }

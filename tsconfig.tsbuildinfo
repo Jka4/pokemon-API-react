@@ -762,7 +762,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
-        "version": "a7fbdb5193f22b9230df9a0fcf76e08c3bd32bd640be2912ae8c65c91067f796",
+        "version": "85696344493f6d0660311e0e2309128b271d2f499eff5f573c4168a361dd5567",
         "signature": "0af4a47922591e3f36cd0af9294d51480adba97f35065fad18d011c42cf66b3e",
         "affectsGlobalScope": false
       },
@@ -2557,8 +2557,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/headerline/headerline.tsx": {
-        "version": "d42bc1cb7826654c6f06d8fcb2852d4f1f1643d2b2243b5cc1848362bb3299e6",
-        "signature": "0e4975786f180bda86c87f9bacfa057fd45bab6f1a59c02acc1e84f0ec566b09",
+        "version": "93f8e55fd2127ff778829dd8a80ff8f3630b858eb6b099653bb4dbf940ad6343",
+        "signature": "92d1db39177e319e2f0ac4d345fca59bd911f16f36771338cbc927e635931e38",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/casino.d.ts": {
@@ -2687,7 +2687,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/app/view/index.tsx": {
-        "version": "e6702174dac828b136d0458aaa0de4b5f323840f950e1263c99561e1021f4dae",
+        "version": "51239683f7395b570974d3d789d4e7dcd77567c55d8ebea9129e38067a251e9b",
         "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
@@ -3236,8 +3236,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": false,
-      "noUnusedParameters": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },

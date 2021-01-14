@@ -1,16 +1,15 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useState } from "react";
-import { Provider, connect } from "react-redux";
-import { NavLink } from "react-router-dom";
-import Fuse from "fuse.js";
-import { useDebounce } from "ahooks";
+import React, { lazy, useState } from 'react';
+import { Provider, connect } from 'react-redux';
+import { NavLink } from 'react-router-dom';
+import Fuse from 'fuse.js';
+import { useDebounce } from 'ahooks';
 
-import store from "Store/store";
+import store from 'Store/store';
 
-import "./styles/style.scss";
+import './styles/style.scss';
 
-const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
-
+const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 let fuseOptions = {
   shouldSort: true,
@@ -24,12 +23,12 @@ let fuseOptions = {
   distance: 10,
   maxPatternLength: 20,
   minMatchCharLength: 2,
-  keys: ["name", "weight", "id"],
+  keys: ['name', 'weight', 'id'],
 };
 
 type SearchProps = {
   pokemonDataArray: Pokes[];
-}
+};
 
 type Pokes = {
   id: number;
@@ -41,7 +40,7 @@ type Pokes = {
   chain: {
     species_name: string;
   }[];
-}
+};
 
 const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   const [showResult, setShowResult] = useState<boolean>(false);
@@ -66,13 +65,13 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     }, 400);
   };
 
-
   const fallback = (placeholderBase64: string) => {
-    return (<>
-      <img src={placeholderBase64} className='placeholderBase64 deBlur' alt="placeholderBase64" />
-    </>)
-  }
-
+    return (
+      <>
+        <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />
+      </>
+    );
+  };
 
   return (
     <div className="search">
@@ -92,19 +91,16 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
         {showResult && (
           <ul className="searchList">
             {debouncedSearchResult.map((i, key) => (
-              <NavLink
-                key={(i.item.id, key)}
-                to={`/detailedPage/pokemon/${i.item.name}`}
-                className="searchItem_outer"
-              >
-                <li
-                  data-id={i.item.id}
-                  className="searchItem"
-                >
+              <NavLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`} className="searchItem_outer">
+                <li data-id={i.item.id} className="searchItem">
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
-                  <ImageContainer url={i.item.image} cn={"searchItem__image"} fallback={fallback(i.item.placeholderBase64)} />
+                  <ImageContainer
+                    url={i.item.image}
+                    cn={'searchItem__image'}
+                    fallback={fallback(i.item.placeholderBase64)}
+                  />
                 </li>
               </NavLink>
             ))}

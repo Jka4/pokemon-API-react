@@ -1,14 +1,14 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { useState } from "react";
-import { Provider, connect } from "react-redux";
+import React, { useState } from 'react';
+import { Provider, connect } from 'react-redux';
 
-import store from "Store/store";
+import store from 'Store/store';
 
-import ListView from "./ListView";
-import CatalogView from "./CatalogView";
+import ListView from './ListView';
+import CatalogView from './CatalogView';
 
-import AppsIcon from "@material-ui/icons/Apps";
-import BlurOnOutlinedIcon from "@material-ui/icons/BlurOnOutlined";
+import AppsIcon from '@material-ui/icons/Apps';
+import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 
 type PokemonsPageAllType = {
   pokemonDataArray: {
@@ -31,10 +31,7 @@ const PokemonsPageAll: React.FC<PokemonsPageAllType> = ({ pokemonDataArray = [] 
     <>
       <div className="viewType">
         <div className="viewTypeInner">
-          <div
-            className="innerBlock"
-            onClick={() => setViewTypeIsCatalog(!viewTypeIsCatalog)}
-          >
+          <div className="innerBlock" onClick={() => setViewTypeIsCatalog(!viewTypeIsCatalog)}>
             {!viewTypeIsCatalog ? (
               <>
                 <span>List view:</span>
@@ -44,14 +41,14 @@ const PokemonsPageAll: React.FC<PokemonsPageAllType> = ({ pokemonDataArray = [] 
                 </div>
               </>
             ) : (
-                <>
-                  <span>Catalog view:</span>
-                  <span className="separator">|</span>
-                  <div className="catalog">
-                    <AppsIcon />
-                  </div>
-                </>
-              )}
+              <>
+                <span>Catalog view:</span>
+                <span className="separator">|</span>
+                <div className="catalog">
+                  <AppsIcon />
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -59,8 +56,8 @@ const PokemonsPageAll: React.FC<PokemonsPageAllType> = ({ pokemonDataArray = [] 
       {!viewTypeIsCatalog ? (
         <ListView pokemonDataArray={pokemonDataArray} />
       ) : (
-          <CatalogView pokemonDataArray={pokemonDataArray} />
-        )}
+        <CatalogView pokemonDataArray={pokemonDataArray} />
+      )}
     </>
   );
 };

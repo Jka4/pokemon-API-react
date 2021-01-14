@@ -12,36 +12,38 @@ const ErrorPage = lazy(() => import('components/ErrorPage/ErrorPage'));
 const NonSupportPlaceholder = lazy(() => import('components/nonSupportPlaceholder/nonSupportPlaceholder'));
 
 const App: React.FC = () => {
-    const [supportScreenSize, setSupportScreenSize] = useState<boolean>(true);
+  const [supportScreenSize, setSupportScreenSize] = useState<boolean>(true);
 
-    const getScreenWidth = () => {
-        let res: boolean = document.body.clientWidth <= 319;
-        setSupportScreenSize(res);
-    };
+  const getScreenWidth = () => {
+    let res: boolean = document.body.clientWidth <= 319;
+    setSupportScreenSize(res);
+  };
 
-    useEffect(() => {
-        window.addEventListener('resize', getScreenWidth);
-        getScreenWidth();
-    });
+  useEffect(() => {
+    window.addEventListener('resize', getScreenWidth);
+    getScreenWidth();
+  });
 
-    return (
-        <Suspense fallback={<div className="fallback">Loading...</div>}>
-            {!supportScreenSize ? (
-                <div className="App">
-                    <Route exact component={HeaderLine} />
+  return (
+    <Suspense fallback={<div className="fallback">Loading...</div>}>
+      {!supportScreenSize ? (
+        <div className="App">
+          <Route exact component={HeaderLine} />
 
-                    <Switch>
-                        <Route exact path="/" component={MainContainer} />
-                        <Route path="/detailedPage/pokemon/" component={DetailedPage} />
-                        <Route path="/allPokemons" component={PokemonsPageAll} />
-                        <Route path="/404" component={ErrorPage} />
+          <Switch>
+            <Route exact path="/" component={MainContainer} />
+            <Route path="/detailedPage/pokemon/" component={DetailedPage} />
+            <Route path="/allPokemons" component={PokemonsPageAll} />
+            <Route path="/404" component={ErrorPage} />
 
-                        <Redirect from="*" to="/404" />
-                    </Switch>
-                </div>
-            ) : (<NonSupportPlaceholder />)}
-        </Suspense>
-    );
+            <Redirect from="*" to="/404" />
+          </Switch>
+        </div>
+      ) : (
+        <NonSupportPlaceholder />
+      )}
+    </Suspense>
+  );
 };
 
 export default App;

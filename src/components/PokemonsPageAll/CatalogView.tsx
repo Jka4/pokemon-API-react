@@ -1,10 +1,10 @@
-import React, { lazy } from "react";
-import { NavLink } from "react-router-dom";
+import React, { lazy } from 'react';
+import { NavLink } from 'react-router-dom';
 
-import "react-tippy/dist/tippy.css";
-import "./styles/style.scss";
+import 'react-tippy/dist/tippy.css';
+import './styles/style.scss';
 
-const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
   pokemonDataArray: {
@@ -18,7 +18,7 @@ type Props = {
     placeholderBase64: string;
     weight: number;
   }[];
-}
+};
 
 const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   const fallback = (placeholderBase64: string) => {
@@ -33,7 +33,7 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     <div className="wrapper">
       {pokemonDataArray.map((index, key) => (
         <React.Fragment key={key}>
-          <NavLink to={`/detailedPage/pokemon/${index?.name}`} data-pokemon_id={index?.id} key={key} >
+          <NavLink to={`/detailedPage/pokemon/${index?.name}`} data-pokemon_id={index?.id} key={key}>
             <ImageContainer url={index?.image} cn="pokemonImageCard" fallback={fallback(index?.placeholderBase64)} />
           </NavLink>
         </React.Fragment>
@@ -43,6 +43,3 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
 };
 
 export default CatalogView;
-
-
-

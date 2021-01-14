@@ -1,16 +1,16 @@
-import React, { lazy, useState, useEffect } from "react";
-import InfiniteScroll from "react-infinite-scroll-component";
-import { NavLink } from "react-router-dom";
+import React, { lazy, useState, useEffect } from 'react';
+import InfiniteScroll from 'react-infinite-scroll-component';
+import { NavLink } from 'react-router-dom';
 
-import Paper from "@material-ui/core/Paper";
+import Paper from '@material-ui/core/Paper';
 
-import "./styles/style.scss";
+import './styles/style.scss';
 
-const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
   pokemonDataArray: PokemonsType[];
-}
+};
 
 type PokemonsType = {
   chain: {
@@ -22,7 +22,7 @@ type PokemonsType = {
   name: string;
   placeholderBase64: string;
   weight: number;
-}
+};
 
 const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   const [pokemons, setPokemons] = useState<any[]>([]);
@@ -45,11 +45,13 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     setPokemonCount(pokemons.length + 1 + howMuchToDownload);
   };
 
-
-
   const fallback = (placeholderBase64: string) => {
-    return (<><img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" /></>)
-  }
+    return (
+      <>
+        <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />
+      </>
+    );
+  };
 
   return (
     <>
@@ -63,20 +65,14 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           endMessage={<p className="pokemon-end">No more pokemons :(</p>}
         >
           {pokemons.map((pokemon: PokemonsType) => (
-            <NavLink
-              to={`/detailedPage/pokemon/${pokemon.name}`}
-              data-pokemon_id={pokemon.id}
-              key={pokemon.id}
-            >
+            <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} data-pokemon_id={pokemon.id} key={pokemon.id}>
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
-
                   <ImageContainer
                     url={pokemon.imageHQ || pokemon.image}
-                    cn={"pokemonImageCard"}
+                    cn={'pokemonImageCard'}
                     fallback={fallback(pokemon.placeholderBase64)}
                   />
-
                 </div>
                 <div className="pokemonName">{pokemon.name}</div>
               </Paper>
