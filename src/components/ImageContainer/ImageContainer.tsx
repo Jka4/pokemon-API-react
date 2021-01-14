@@ -18,7 +18,7 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
     <>
       <ErrorBoundary>
         <Suspense fallback={fallback}>
-          {url && <img src={src} alt={cn} className={cn} />}
+          {url && <img src={src} alt={cn} className={cn} loading='lazy' />}
         </Suspense>
       </ErrorBoundary>
     </>

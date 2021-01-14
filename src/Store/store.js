@@ -34,16 +34,6 @@ function reducer(state = defaultState, action) {
         ...state,
         randomPokemons: [],
       };
-    case "CLEAR_DETAILS_PAGE":
-      return {
-        ...state,
-        detailsPage: null,
-      };
-    case "SET_DETAILS_PAGE":
-      return {
-        ...state,
-        detailsPage: actionValue,
-      };
     case "PLAY_PAUSE":
       return {
         ...state,

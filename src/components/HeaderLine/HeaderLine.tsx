@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import store from "Store/store";
+import { useLocation } from 'react-router-dom';
 
 import Search from "components/Search/Search";
 import Player from "components/Player/Player";
@@ -18,7 +18,7 @@ type HeaderLineProps = {
 }
 
 const HeaderLine: React.FC<HeaderLineProps> = ({ pathname }: HeaderLineProps) => {
-  const isMainPage = pathname === "/";
+  const isMainPage = useLocation().pathname === "/";
 
   function HomeIcon({ props }: any) {
     return (
@@ -35,10 +35,7 @@ const HeaderLine: React.FC<HeaderLineProps> = ({ pathname }: HeaderLineProps) =>
           <Player />
 
           {!isMainPage && (
-            <NavLink
-              to="/"
-              onClick={() => store.dispatch({ type: "CLEAR_DETAILS_PAGE" })}
-            >
+            <NavLink to="/" >
               <Button variant="contained" className="toHome" color="secondary">
                 <HomeIcon />
               </Button>

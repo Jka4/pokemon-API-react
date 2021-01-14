@@ -226,7 +226,7 @@
         "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
         "affectsGlobalScope": true
       },
-      "./node_modules/csstype/index.d.ts": {
+      "./node_modules/@types/react/node_modules/csstype/index.d.ts": {
         "version": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
         "signature": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
         "affectsGlobalScope": false
@@ -816,9 +816,14 @@
         "signature": "59d7e3b9fe0ba75acccbe4d4bf399772b8ff7cced9ea6b9c902585820e9d4b8d",
         "affectsGlobalScope": false
       },
-      "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts": {
+      "./node_modules/csstype/index.d.ts": {
         "version": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
         "signature": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/jss/node_modules/csstype/index.d.ts": {
+        "version": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
+        "signature": "ea58e4cbcf3d760a15f9300978a360c46360f544b355c737b60c733a385b8858",
         "affectsGlobalScope": false
       },
       "./node_modules/indefinite-observable/dist/types.d.ts": {
@@ -2436,11 +2441,6 @@
         "signature": "b4689b57342806e461e66347f7d2201d006d7e380792b386f6e5199843f48a4a",
         "affectsGlobalScope": false
       },
-      "./node_modules/@material-ui/system/node_modules/csstype/index.d.ts": {
-        "version": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
-        "signature": "f5c7642899e130a4ea871a03822a1cfb0e23ae9f62ad481f23b38b5a6f71ddac",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@material-ui/system/index.d.ts": {
         "version": "76eaed7e90d520bec993d238dd1858bec3ffd640473213b7905ae4c1b02db9a5",
         "signature": "76eaed7e90d520bec993d238dd1858bec3ffd640473213b7905ae4c1b02db9a5",
@@ -2642,7 +2642,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/bigimage.tsx": {
-        "version": "5327e162e368acf54f03d7b8ea4650ce10f2f3672d32bf22246601b9695b4fac",
+        "version": "e4f465027cc85fce9256e30a9bb59bca324757e8cfd7ed1ba5e26b03f20cfe1d",
         "signature": "cc2b337dded1ecaf56c43a2503ccc23b12596534946200636cdff96530c4c6ae",
         "affectsGlobalScope": false
       },
@@ -2652,7 +2652,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "22dc0e82b4bc69ad17937cb567bfc91bc88d2feaa4b927a6bda515af33a67eb4",
+        "version": "b29ee8fc3f76d4455127d00472bc789ca69473af4779e74297e2e5dce3862cba",
         "signature": "7d1151be4f6c57c3b553a77b5346342efea1dcfb3f6b3ef6d0665f2d502036ad",
         "affectsGlobalScope": false
       },
@@ -3084,16 +3084,6 @@
       "./node_modules/@types/q/index.d.ts": {
         "version": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
         "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-lazy-load-image-component/index.d.ts": {
-        "version": "2a13cb7e79a70baf22c6554b55e55e1226d28eab3bcf65d57f38d44210919db2",
-        "signature": "2a13cb7e79a70baf22c6554b55e55e1226d28eab3bcf65d57f38d44210919db2",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-lazyload/index.d.ts": {
-        "version": "8f3e9c5415675844bb07fb992b8b960a78193783d71a4ab2284bf0cd0e0aa945",
-        "signature": "8f3e9c5415675844bb07fb992b8b960a78193783d71a4ab2284bf0cd0e0aa945",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/react-loader-spinner/index.d.ts": {
@@ -4846,9 +4836,9 @@
       ],
       "./node_modules/@material-ui/styles/withstyles/withstyles.d.ts": [
         "./node_modules/@material-ui/styles/defaulttheme/index.d.ts",
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts",
         "./node_modules/@material-ui/types/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts",
         "./node_modules/jss/src/index.d.ts"
       ],
       "./node_modules/@material-ui/styles/withtheme/index.d.ts": [
@@ -4860,7 +4850,7 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@material-ui/system/index.d.ts": [
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts"
+        "./node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@material-ui/types/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
@@ -5285,12 +5275,6 @@
       "./node_modules/@types/react-dom/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./node_modules/@types/react-lazy-load-image-component/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./node_modules/@types/react-lazyload/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./node_modules/@types/react-loader-spinner/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5332,7 +5316,7 @@
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
-        "./node_modules/csstype/index.d.ts"
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@types/react/jsx-runtime.d.ts": [
         "./node_modules/@types/react/index.d.ts"
@@ -5594,7 +5578,7 @@
         "./node_modules/indefinite-observable/dist/types.d.ts"
       ],
       "./node_modules/jss/src/index.d.ts": [
-        "./node_modules/csstype/index.d.ts",
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
       "./node_modules/react-image/img.d.ts": [
@@ -7845,12 +7829,6 @@
       "./node_modules/@types/react-dom/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./node_modules/@types/react-lazy-load-image-component/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./node_modules/@types/react-lazyload/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./node_modules/@types/react-loader-spinner/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -8580,7 +8558,6 @@
       "./node_modules/@material-ui/styles/makestyles/makestyles.d.ts",
       "./node_modules/@material-ui/styles/mergeclasses/index.d.ts",
       "./node_modules/@material-ui/styles/mergeclasses/mergeclasses.d.ts",
-      "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts",
       "./node_modules/@material-ui/styles/serverstylesheets/index.d.ts",
       "./node_modules/@material-ui/styles/serverstylesheets/serverstylesheets.d.ts",
       "./node_modules/@material-ui/styles/styled/index.d.ts",
@@ -8596,7 +8573,6 @@
       "./node_modules/@material-ui/styles/withtheme/index.d.ts",
       "./node_modules/@material-ui/styles/withtheme/withtheme.d.ts",
       "./node_modules/@material-ui/system/index.d.ts",
-      "./node_modules/@material-ui/system/node_modules/csstype/index.d.ts",
       "./node_modules/@material-ui/types/index.d.ts",
       "./node_modules/@types/anymatch/index.d.ts",
       "./node_modules/@types/babel__core/index.d.ts",
@@ -8691,8 +8667,6 @@
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/q/index.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
-      "./node_modules/@types/react-lazy-load-image-component/index.d.ts",
-      "./node_modules/@types/react-lazyload/index.d.ts",
       "./node_modules/@types/react-loader-spinner/index.d.ts",
       "./node_modules/@types/react-redux/index.d.ts",
       "./node_modules/@types/react-router-dom/index.d.ts",
@@ -8706,6 +8680,7 @@
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/react/jsx-runtime.d.ts",
+      "./node_modules/@types/react/node_modules/csstype/index.d.ts",
       "./node_modules/@types/resolve/index.d.ts",
       "./node_modules/@types/source-list-map/index.d.ts",
       "./node_modules/@types/stack-utils/index.d.ts",
@@ -8798,6 +8773,7 @@
       "./node_modules/indefinite-observable/dist/index.d.ts",
       "./node_modules/indefinite-observable/dist/types.d.ts",
       "./node_modules/indefinite-observable/dist/wrapwithobserver.d.ts",
+      "./node_modules/jss/node_modules/csstype/index.d.ts",
       "./node_modules/jss/src/index.d.ts",
       "./node_modules/popper.js/index.d.ts",
       "./node_modules/react-image/img.d.ts",

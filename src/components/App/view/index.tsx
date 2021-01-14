@@ -29,7 +29,7 @@ const App: React.FC = () => {
             <Suspense fallback={<div className="fallback">Loading...</div>}>
                 {!supportScreenSize ? (
                     <div className="App">
-                        <Route render={(props) => <HeaderLine pathname={props?.location?.pathname} />} />
+                        <Route exact component={HeaderLine} />
 
                         <Switch>
                             <Route exact path="/" component={MainContainer} />
