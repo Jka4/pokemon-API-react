@@ -307,8 +307,8 @@
         "affectsGlobalScope": false
       },
       "./src/utils/pokemondataarray.ts": {
-        "version": "d272d04b3b72cfc07183369a20bba612740025ec63f4b17d3b735b5b46bc28b9",
-        "signature": "eea476576b5ea2d5a279d55112f2143f9910c04da233f4d7d003e08b0c72153b",
+        "version": "24388697eacda8d67f09f5bf4167332e3a3d38c44af58193afccd3a5883f5329",
+        "signature": "dc767a627a1ee5b3c29d0d3fbb5f4088d4bbed9a77e67e1aba134c284593d8c3",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash/common/common.d.ts": {
@@ -377,7 +377,7 @@
         "affectsGlobalScope": true
       },
       "./src/store/store.js": {
-        "version": "a3974c19803abb858b1e3ba59a51cb3698330333fc577127c8702716adc0680a",
+        "version": "be5c9470d2c09af8f66cb6e2d6e7be86b056eb8eeb828aa9b7ad6d499c785258",
         "signature": "51a1eee1a1a0f8c93d80f958660f8a98da5d7950946970a9db64cf0f940eef6a",
         "affectsGlobalScope": false
       },
@@ -756,19 +756,19 @@
         "signature": "fce37e7afb86c3cf7e3b224c3d253784a6f6e5ec74a146930c53e64fcf198c4e",
         "affectsGlobalScope": false
       },
-      "./node_modules/react-suspense-img/dist/resource/index.d.ts": {
-        "version": "4c2b83573f2b712c06df12c44f341c03a34545f04370d64c3f086165e4550a8d",
-        "signature": "4c2b83573f2b712c06df12c44f341c03a34545f04370d64c3f086165e4550a8d",
+      "./node_modules/react-image/useimage.d.ts": {
+        "version": "3f15b0bbcf1f350ed42ce5215152a36cfeb06fd3cdc83f6ec43e82c8a68ead2c",
+        "signature": "3f15b0bbcf1f350ed42ce5215152a36cfeb06fd3cdc83f6ec43e82c8a68ead2c",
         "affectsGlobalScope": false
       },
-      "./node_modules/react-suspense-img/dist/img/index.d.ts": {
-        "version": "87a8a22e7a4c3deb311077c2c52f94231e1a00e76ff6cccb98d1deca1a09b972",
-        "signature": "87a8a22e7a4c3deb311077c2c52f94231e1a00e76ff6cccb98d1deca1a09b972",
+      "./node_modules/react-image/img.d.ts": {
+        "version": "a07d1cff4c49a4b228a5ec27207e9ae6bf85df480a65c90c63aa1fd8fbadfc6c",
+        "signature": "a07d1cff4c49a4b228a5ec27207e9ae6bf85df480a65c90c63aa1fd8fbadfc6c",
         "affectsGlobalScope": false
       },
-      "./node_modules/react-suspense-img/dist/index.d.ts": {
-        "version": "ebea5868f5ce6769639be7b6a91e23b0bd78e67406e65f736efa2df5edfbad5b",
-        "signature": "ebea5868f5ce6769639be7b6a91e23b0bd78e67406e65f736efa2df5edfbad5b",
+      "./node_modules/react-image/index.d.ts": {
+        "version": "72fcc5102d3b96aac94271c7edc0e4a61f2665f442c8aa4f3434e2cd772ebe31",
+        "signature": "72fcc5102d3b96aac94271c7edc0e4a61f2665f442c8aa4f3434e2cd772ebe31",
         "affectsGlobalScope": false
       },
       "./src/utils/errorboundary.js": {
@@ -777,12 +777,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
-        "version": "3851fbb4ca640a255326305366f8feb8a2a2c8273319efa6499a9a6acf72f01f",
-        "signature": "aaa758c58236686012b1eac410007a8b9cc3be02b4127b8eb33b4cee6178aa41",
+        "version": "6d56918d31909ecd29359c25cf387f230ead19c222db7ce3fb7784c622308dc9",
+        "signature": "0af4a47922591e3f36cd0af9294d51480adba97f35065fad18d011c42cf66b3e",
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "927ab24b0e65a7059ff93a70db1b8453342e93674ab2a0c687b30eb46813afe9",
+        "version": "ee93c62e46a867468ab6c3991e961e92f6c3cd85ca0dc273ae3e6737aa104d36",
         "signature": "b6cb0e4fe0d82de3cba91eda18c5b4e0bbb99bfb6a687757476a40446dccc84e",
         "affectsGlobalScope": false
       },
@@ -2572,8 +2572,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/headerline/headerline.tsx": {
-        "version": "b54c4c29e445204c3328a3765158e4d6f457cdef543e67f48fdf29b165005819",
-        "signature": "6ae49583e0c7f85a8e75b3224b9d725c960523a73a09f7c34e005017b0998d4c",
+        "version": "9778d391c422811d445caaef7b3bd95f4e56ae3525610984ce4a1f9bf034eeff",
+        "signature": "0e4975786f180bda86c87f9bacfa057fd45bab6f1a59c02acc1e84f0ec566b09",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/casino.d.ts": {
@@ -2582,7 +2582,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "920cb522033f67349765da636f806fc8766cd954c6aa235ba18cac36344fdde5",
+        "version": "c3bdeb715ab59b0be9a6cb12008459f17b3f904322e87c71b870287572727568",
         "signature": "b6cb0e4fe0d82de3cba91eda18c5b4e0bbb99bfb6a687757476a40446dccc84e",
         "affectsGlobalScope": false
       },
@@ -2597,12 +2597,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/pokemoncard.tsx": {
-        "version": "61fc1fb41dea9208ed2105990f835f0fed3914e78a1cbc11277024988899b266",
+        "version": "d7a12e321a012c57572a01db0dd69edcfd4f9ebdd5eab74b8d463ab57670f961",
         "signature": "4b00876c35dd4333cb18598670265a69e226a5f7b1d1728aa749e649837c432c",
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "ad14624dcf9b40b49fde0e05d45ea9e0550279c18924d027fb8c9730b055c0e0",
+        "version": "34f044e9b93cc8edde20e14e23d8ddd9c8bc50793211cd2a00de96631aa39190",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2617,13 +2617,13 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/stats.tsx": {
-        "version": "43324d66c281d53a973377551b43bc551154a987448aeee4bee20425dad69624",
-        "signature": "10af96868b54785b67a59918f24a0d3341f4c1497724e1a996fc6cfa5516efc6",
+        "version": "264a6c258c15df1c870ff423f7a6e75938cf78b5d81d2cc8d76a75976fcd374e",
+        "signature": "200bc4de265b959950858f02f54605114a5477e6e66b3a443e159e616b207d27",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/abilities.tsx": {
-        "version": "3a8fc5477cbedce7dca3f3b2e0d89583f96e99ce53d4bf2c1e6af477f00c377a",
-        "signature": "57917a5326a98b60f3fc276cb6c019277d6a72831a362f7a0c4497873d35a068",
+        "version": "0e7d81f0d22c6fd7f3f5693d5f5619670bc1381909a7da4196399abeaec26a14",
+        "signature": "8811697216c55cb6107d743136dada8ad1e39dc804fb86f938db67fca5319aec",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash.find/index.d.ts": {
@@ -2632,7 +2632,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "8562ffa598b1b157da2c677d1ecf42d04c6a59725b3bc0d385e34feceaa70392",
+        "version": "76db6ebe0d25b7c4cdeee769a9ecf898dd8c39328a97f6ab61b9958e1cb8fda4",
         "signature": "e837f438292b9003dbd23762e39a3a1b11ac8ffb3d9417e820c2853ccaba343f",
         "affectsGlobalScope": false
       },
@@ -2662,13 +2662,13 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/listview.tsx": {
-        "version": "a94f4e0b387ed419774f84734a841b852ed7801eb25a45b5353527ec69e77cc9",
-        "signature": "bb39e98e30d54fe07be708bec932e0253ab17cda6f9a26ef6123f5eb8349ea71",
+        "version": "1d86321d0545fcc960299c7f2fcc6a3173678b32a8860ad23442edf23b5b492b",
+        "signature": "664b7cb184b0bc43446e060df3e7605f850c4e016838775294a3f4ae0d68288b",
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/catalogview.tsx": {
-        "version": "f8f0cbe55656d984e390f0f602ba8eaa1c237d8e7d0a532ab474de1f99410492",
-        "signature": "9097c3882a7bd57326d5ae41db4299068fc77536372aaefc88a51def4186e3c1",
+        "version": "64f407c768cd8b4144f4a1fce5f2c09a201a597beab2e7457cf56974ab4368f6",
+        "signature": "95f491054645c4651d8cb96937816f03fde540b4aed1d316dba8fc9faadeb494",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/apps.d.ts": {
@@ -3251,8 +3251,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": false,
-      "noUnusedParameters": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },
@@ -5581,6 +5581,14 @@
         "./node_modules/@types/react/node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
+      "./node_modules/react-image/img.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-image/useimage.d.ts"
+      ],
+      "./node_modules/react-image/index.d.ts": [
+        "./node_modules/react-image/img.d.ts",
+        "./node_modules/react-image/useimage.d.ts"
+      ],
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -5591,13 +5599,6 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
-      ],
-      "./node_modules/react-suspense-img/dist/img/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./node_modules/react-suspense-img/dist/index.d.ts": [
-        "./node_modules/react-suspense-img/dist/img/index.d.ts",
-        "./node_modules/react-suspense-img/dist/resource/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -5694,7 +5695,7 @@
       "./src/components/imagecontainer/imagecontainer.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/react-suspense-img/dist/index.d.ts",
+        "./node_modules/react-image/index.d.ts",
         "./src/utils/errorboundary.js"
       ],
       "./src/components/maincontainer/heading.tsx": [
@@ -5703,7 +5704,6 @@
       ],
       "./src/components/maincontainer/itemslist.tsx": [
         "./node_modules/@types/react-redux/index.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/maincontainer/heading.tsx",
@@ -5726,8 +5726,7 @@
         "./node_modules/@material-ui/core/card/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx"
+        "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
       "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx": [
         "./node_modules/@material-ui/icons/erroroutline.d.ts",
@@ -8136,6 +8135,14 @@
         "./node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
+      "./node_modules/react-image/img.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/react-image/useimage.d.ts"
+      ],
+      "./node_modules/react-image/index.d.ts": [
+        "./node_modules/react-image/img.d.ts",
+        "./node_modules/react-image/useimage.d.ts"
+      ],
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -8146,13 +8153,6 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
-      ],
-      "./node_modules/react-suspense-img/dist/img/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./node_modules/react-suspense-img/dist/index.d.ts": [
-        "./node_modules/react-suspense-img/dist/img/index.d.ts",
-        "./node_modules/react-suspense-img/dist/resource/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -8776,12 +8776,12 @@
       "./node_modules/jss/node_modules/csstype/index.d.ts",
       "./node_modules/jss/src/index.d.ts",
       "./node_modules/popper.js/index.d.ts",
+      "./node_modules/react-image/img.d.ts",
+      "./node_modules/react-image/index.d.ts",
+      "./node_modules/react-image/useimage.d.ts",
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
       "./node_modules/react-loading-skeleton/lib/index.d.ts",
       "./node_modules/react-scripts/lib/react-app.d.ts",
-      "./node_modules/react-suspense-img/dist/img/index.d.ts",
-      "./node_modules/react-suspense-img/dist/index.d.ts",
-      "./node_modules/react-suspense-img/dist/resource/index.d.ts",
       "./node_modules/redux/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
       "./node_modules/symbol-observable/index.d.ts",
