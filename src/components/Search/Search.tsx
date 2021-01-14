@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useState } from "react";
+import React, { lazy, useState, Suspense } from "react";
 import { Provider, connect } from "react-redux";
-import Loader from "react-loader-spinner";
 import { NavLink } from "react-router-dom";
 import Fuse from "fuse.js";
 import { useDebounce } from "ahooks";
@@ -67,18 +66,16 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     }, 400);
   };
 
-  let handleClick = (id: number) => {
-    // setDelailedPageData(id);
+  let handleClick = (pokemonName: string) => {
+    setDelailedPageData(pokemonName);
   };
 
-  const fallback = () => {
-    return (<> <Loader
-      type="TailSpin"
-      height={30}
-      width={30}
-      color={"red"}
-    /></>)
+  const fallback = (placeholderBase64: string) => {
+    return (<>
+      <img src={placeholderBase64} className='placeholderBase64' alt="placeholderBase64" />
+    </>)
   }
+
 
   return (
     <div className="search">
@@ -106,16 +103,14 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
                 <li
                   data-id={i.item.id}
                   className="searchItem"
-                  onClick={() => handleClick(i.item.id)}
+                  onClick={() => handleClick(i.item.name)}
                 >
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
-                  <ImageContainer
-                    url={i.item.image}
-                    cn={"searchItem__image"}
-                    fallback={fallback}
-                  />
+                  <Suspense fallback={fallback(i.item.placeholderBase64)} >
+                    <img src={i.item.image} className='searchItem__image' alt="searchItem__image" />
+                  </Suspense>
                 </li>
               </NavLink>
             ))}

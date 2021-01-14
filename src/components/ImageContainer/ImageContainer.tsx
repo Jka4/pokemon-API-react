@@ -1,7 +1,8 @@
-import React, { Suspense } from "react";
-import { useImage } from "react-image";
+import { Suspense } from "react";
+import { Img, resource } from 'react-suspense-img';
 
 import ErrorBoundary from "utils/ErrorBoundary";
+
 
 interface ImageContainerProps {
   url: string;
@@ -10,22 +11,13 @@ interface ImageContainerProps {
 }
 
 const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
-
-  const ImageWrapper = () => {
-    const { src } = useImage({ srcList: url });
-
-    return (
-      <>
-        <img src={src} alt={cn} className={cn} loading='lazy' />
-      </>
-    );
-  };
+  resource.preloadImage(url);
 
   return (
     <>
       <ErrorBoundary>
         <Suspense fallback={fallback}>
-          <ImageWrapper />
+          <Img src={url} className={cn} alt={cn} />
         </Suspense>
       </ErrorBoundary>
     </>
@@ -33,3 +25,6 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
 };
 
 export default ImageContainer;
+
+
+
