@@ -4,7 +4,7 @@ import { useImage } from "react-image";
 import ErrorBoundary from "utils/ErrorBoundary";
 
 
-interface ImageContainerProps {
+type ImageContainerProps = {
   url: string;
   cn?: string;
   fallback?: any

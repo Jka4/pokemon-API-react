@@ -8,11 +8,11 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
-interface Props {
+type Props = {
   pokemonDataArray: PokemonsType[];
 }
 
-interface PokemonsType {
+type PokemonsType = {
   chain: {
     species_name: string;
   }[];

@@ -12,7 +12,7 @@ import POKEMON from "utils/pokemonDataArray";
 
 import "./styles/style.scss";
 
-interface GetButtonProps {
+type GetButtonProps = {
   randomPokemons: any[];
   randomPokemonsFetching: boolean;
 }

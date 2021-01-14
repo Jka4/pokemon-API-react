@@ -6,7 +6,7 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
-interface Props {
+type Props = {
   pokemonDataArray: {
     chain: {
       species_name: string;

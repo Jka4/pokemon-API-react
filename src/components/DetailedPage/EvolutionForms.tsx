@@ -8,7 +8,7 @@ type Props = {
   currentPokemon: any;
 };
 
-interface ChainElements {
+type ChainElements = {
   image: string;
   species_name: any;
   placeholderBase64: string;

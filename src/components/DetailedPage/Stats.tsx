@@ -2,12 +2,12 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
-interface Props {
+type Props = {
   stats: StatsElements[];
   weight: number;
 }
 
-interface StatsElements {
+type StatsElements = {
   base_stat: number;
   stat: {
     name: string;

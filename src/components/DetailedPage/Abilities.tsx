@@ -6,7 +6,7 @@ type Props = {
   abilities: AbilityElements[];
 };
 
-interface AbilityElements {
+type AbilityElements = {
   ability: {
     url: string;
     name: string;

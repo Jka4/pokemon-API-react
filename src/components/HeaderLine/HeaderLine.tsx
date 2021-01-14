@@ -12,7 +12,7 @@ import SvgIcon from "@material-ui/core/SvgIcon";
 
 import "./styles/style.scss";
 
-interface HeaderLineProps {
+type HeaderLineProps = {
   pathname?: string;
   isMainPage?: any;
 }

@@ -27,11 +27,11 @@ let fuseOptions = {
   keys: ["name", "weight", "id"],
 };
 
-interface SearchProps {
+type SearchProps = {
   pokemonDataArray: Pokes[];
 }
 
-interface Pokes {
+type Pokes = {
   id: number;
   name: string;
   weight: number;

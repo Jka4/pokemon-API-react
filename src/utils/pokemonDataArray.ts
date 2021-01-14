@@ -1,4 +1,4 @@
-interface Pokes {
+type Pokes = {
     id: number;
     name: string;
     weight: number;
@@ -10,7 +10,7 @@ interface Pokes {
     }[];
     order: number;
     base_experience: number;
-}
+};
 
 const POKEMON: Pokes[] = [
     {
