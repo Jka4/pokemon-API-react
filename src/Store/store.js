@@ -5,17 +5,18 @@ import * as _ from 'lodash';
 let defaultState = {
   randomPokemons: [],
   randomPokemonsFetching: false,
-  // detailsPage: null,
   playing: false,
   pokemonsArr: POKEMON,
 };
 
-// (() => {
-//   localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
-//   let getStateFromLocal = localStorage.getItem("pokemon_state");
 
-//   defaultState = getStateFromLocal;
-// })();
+const chacheToLocalStorage = () => {
+  localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
+  let getStateFromLocal = JSON.parse(localStorage.getItem("pokemon_state"));
+
+  defaultState = getStateFromLocal;
+}
+chacheToLocalStorage();
 
 
 function reducer(state = defaultState, action) {
@@ -59,7 +60,7 @@ const store = createStore(
 );
 export default store;
 
-// store.subscribe(() => {
-//   let currentState = store.getState();
-//   localStorage.setItem("pokemon_state", JSON.stringify(currentState));
-// });
+store.subscribe(() => {
+  let currentState = store.getState();
+  localStorage.setItem("pokemon_state", JSON.stringify(currentState));
+});

@@ -37,12 +37,12 @@ const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
         {showStats
           ? stats.map((el: StatsElements) => (
             <li className="statsLI" key={el.stat.name}>
-              {el.stat.name} {el.base_stat}
+              {el.stat.name}: {el.base_stat}
             </li>
           ))
           : (fallbackSkeletons())}
 
-        {showStats && <li className="statsLI">weight {weight}kg</li>}
+        {showStats && <li className="statsLI">weight: {weight} kg</li>}
       </Paper>
     </div>
   );

@@ -2,7 +2,6 @@ import ReactDOM from 'react-dom';
 import App from 'components/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
-import { SkeletonTheme } from 'react-loading-skeleton';
 
 import { Provider } from 'react-redux';
 import store from './Store/store';
@@ -10,9 +9,7 @@ import store from './Store/store';
 ReactDOM.render(
     <BrowserRouter basename="/pokemon-API-react">
         <Provider store={store}>
-            <SkeletonTheme color="grey" highlightColor="darkgrey">
-                <App />
-            </SkeletonTheme>
+            <App />
         </Provider>
     </BrowserRouter>,
     document.getElementById('root'),

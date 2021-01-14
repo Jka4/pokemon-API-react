@@ -377,7 +377,7 @@
         "affectsGlobalScope": true
       },
       "./src/store/store.js": {
-        "version": "00bdef4a95b03833d5a77aa15c824e33bb941a42cf650a7ae20bbc9474beaf14",
+        "version": "a3974c19803abb858b1e3ba59a51cb3698330333fc577127c8702716adc0680a",
         "signature": "51a1eee1a1a0f8c93d80f958660f8a98da5d7950946970a9db64cf0f940eef6a",
         "affectsGlobalScope": false
       },
@@ -2602,7 +2602,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "bdd4592c6effef4478066c122bd79202ef8541e2b26fd467ee74239b963b832c",
+        "version": "ad14624dcf9b40b49fde0e05d45ea9e0550279c18924d027fb8c9730b055c0e0",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2667,7 +2667,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/catalogview.tsx": {
-        "version": "cc55d83418de446d2b8b093a399238e4cc3d66a2060d01552fc49fac37afb94a",
+        "version": "f8f0cbe55656d984e390f0f602ba8eaa1c237d8e7d0a532ab474de1f99410492",
         "signature": "9097c3882a7bd57326d5ae41db4299068fc77536372aaefc88a51def4186e3c1",
         "affectsGlobalScope": false
       },
@@ -2682,7 +2682,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/index.tsx": {
-        "version": "fbc8cf623312c379661631c95909c6ca5ef91322bfe86e97218fec16927c906f",
+        "version": "3ba30ff903c22296725a382ebbca238bf6a9790beea25c315aabe5ebc180df53",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2717,7 +2717,7 @@
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "33f00276e34e49c74d4c905c390722d9926de9b9fbab2290550ea7c58d0c1e24",
+        "version": "0cb16e9011994b4c51ee62851c89ee8379760f7ff7c086c45bc516234fe6d16e",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -3251,8 +3251,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },
@@ -5782,7 +5782,6 @@
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/react-loading-skeleton/lib/index.d.ts",
         "./src/components/app/index.tsx",
         "./src/serviceworker.js",
         "./src/store/store.js"
