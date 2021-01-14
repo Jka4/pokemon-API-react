@@ -377,7 +377,7 @@
         "affectsGlobalScope": true
       },
       "./src/store/store.js": {
-        "version": "3bc08d2333071b895c52b0eff601da218da615615057aa7b3965dbdeb5459f8c",
+        "version": "00bdef4a95b03833d5a77aa15c824e33bb941a42cf650a7ae20bbc9474beaf14",
         "signature": "51a1eee1a1a0f8c93d80f958660f8a98da5d7950946970a9db64cf0f940eef6a",
         "affectsGlobalScope": false
       },
@@ -437,8 +437,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/ahooks/lib/usecontrollablevalue/index.d.ts": {
-        "version": "906f3cb199140627f11204c9dfc6408fead642632f9cfffd8bbe1db6663cfe5f",
-        "signature": "906f3cb199140627f11204c9dfc6408fead642632f9cfffd8bbe1db6663cfe5f",
+        "version": "29e54c6751d413bc44f9b64d2ea84cce9273768705f692d992e78176126769fb",
+        "signature": "29e54c6751d413bc44f9b64d2ea84cce9273768705f692d992e78176126769fb",
         "affectsGlobalScope": false
       },
       "./node_modules/ahooks/lib/usedynamiclist/index.d.ts": {
@@ -767,8 +767,8 @@
         "affectsGlobalScope": false
       },
       "./src/utils/api.ts": {
-        "version": "ec1f71ee81acf965278e1523d9d469199c35f89a2ece306f084ee1c0b83d1257",
-        "signature": "6e8a29164ea83e1db9800dc295b2ab55be3e7e14b3d74fd302ba6d117df4641f",
+        "version": "fba57b1d4ac3f90be163a7bf4e1939c589edad768d84df1e61060e37388a626b",
+        "signature": "864b8b71c62d8c8ef0f7e393255cbb20f3088bd3ab60dc207fd5a5294b1757a0",
         "affectsGlobalScope": false
       },
       "./node_modules/react-image/useimage.d.ts": {
@@ -797,7 +797,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "ce78d518e6c05ec99fd96db8eb0d6445a5c2438c11201b77d5f9cd28a54ff255",
+        "version": "ada5b9da57b871d8f8c0ee2c0f7db99fad8f3b483ed08a9b9fde0f5c6c011b06",
         "signature": "b6cb0e4fe0d82de3cba91eda18c5b4e0bbb99bfb6a687757476a40446dccc84e",
         "affectsGlobalScope": false
       },
@@ -2617,7 +2617,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "a6b720ad55817a2e9d56f77ae582eac117134e0c7576917cf6ab35b293d90a38",
+        "version": "7b988ab56ec8dfce6afe6c989afaa2cd766385056433e2639cf20d370261f082",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2632,7 +2632,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/stats.tsx": {
-        "version": "43324d66c281d53a973377551b43bc551154a987448aeee4bee20425dad69624",
+        "version": "954b7764e393c4d7e539baf108d1ef84bb6e529b957cb9732dc59bbd9428a4ee",
         "signature": "10af96868b54785b67a59918f24a0d3341f4c1497724e1a996fc6cfa5516efc6",
         "affectsGlobalScope": false
       },
@@ -2647,7 +2647,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "8bb448547cdac85894425ec30ae26bcc46064a161de8af485fc6281b8024fdab",
+        "version": "94a3879ad0ab337816014dc992fe5fd1b4ae037dc32e4cb635aa1d9c2c625076",
         "signature": "e837f438292b9003dbd23762e39a3a1b11ac8ffb3d9417e820c2853ccaba343f",
         "affectsGlobalScope": false
       },
@@ -2656,9 +2656,14 @@
         "signature": "3a3f5db643864b6667bed6218a00f123b893fa948a3e8cb423f65763ff168269",
         "affectsGlobalScope": false
       },
+      "./src/components/detailedpage/bigimage.tsx": {
+        "version": "0e9c0923bb4b53e1b516d7ab817a526b61a92a0212dec97943c9a5bb5ebcc4a3",
+        "signature": "cc2b337dded1ecaf56c43a2503ccc23b12596534946200636cdff96530c4c6ae",
+        "affectsGlobalScope": false
+      },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "99f6bc0baff1836176442e5f42fde6982701b64547ab1c4b20e7c6527f3924dc",
-        "signature": "361a69bca7b4d47c5b8731de2d14bf81e70a16f2719800e2bc2178223af70c29",
+        "version": "85221d542718d286f25d390ce02eb9c140028901c0200a0d1fe645a57ec9429d",
+        "signature": "7d1151be4f6c57c3b553a77b5346342efea1dcfb3f6b3ef6d0665f2d502036ad",
         "affectsGlobalScope": false
       },
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": {
@@ -2667,12 +2672,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/listview.tsx": {
-        "version": "3cc7cdbac580bbfbe51c03ff5bbc17fb5cb368d917e487af132d114d0c266b5f",
+        "version": "c54461bb1a6902499ae1a1854bbb2b5c07f0291e2ddecf803daec5619e4114e8",
         "signature": "bb39e98e30d54fe07be708bec932e0253ab17cda6f9a26ef6123f5eb8349ea71",
         "affectsGlobalScope": false
       },
       "./src/components/pokemonspageall/catalogview.tsx": {
-        "version": "a2a1021b306add0a96f643d41caf1412eab4ee79d44a285bf617e29bd41229a7",
+        "version": "3f9ba5fccbb73656dff594159e74927311736fb7e43cb012bab906d6726dbb0c",
         "signature": "9097c3882a7bd57326d5ae41db4299068fc77536372aaefc88a51def4186e3c1",
         "affectsGlobalScope": false
       },
@@ -2722,7 +2727,7 @@
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "9f0be241976a4ce8e2e20c449d5f2c015da58e306b0a8aa172f0f39e2d01a829",
+        "version": "33f00276e34e49c74d4c905c390722d9926de9b9fbab2290550ea7c58d0c1e24",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -3246,8 +3251,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },
@@ -5623,13 +5628,20 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
+      "./src/components/detailedpage/bigimage.tsx": [
+        "./node_modules/@material-ui/core/paper/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
       "./src/components/detailedpage/detailedpage.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/axios/index.d.ts",
         "./src/components/detailedpage/abilities.tsx",
+        "./src/components/detailedpage/bigimage.tsx",
         "./src/components/detailedpage/evolutionforms.tsx",
         "./src/components/detailedpage/sprites.tsx",
         "./src/components/detailedpage/stats.tsx",
@@ -5658,6 +5670,7 @@
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/ahooks/lib/index.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
       "./src/components/errorpage/errorpage.tsx": [
@@ -8167,6 +8180,12 @@
       "./src/components/detailedpage/abilities.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/components/detailedpage/bigimage.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/detailedpage.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/components/detailedpage/evolutionforms.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -8829,6 +8848,7 @@
       "./src/components/app/index.tsx",
       "./src/components/app/view/index.tsx",
       "./src/components/detailedpage/abilities.tsx",
+      "./src/components/detailedpage/bigimage.tsx",
       "./src/components/detailedpage/detailedpage.tsx",
       "./src/components/detailedpage/evolutionforms.tsx",
       "./src/components/detailedpage/sprites.tsx",
@@ -11187,6 +11207,10 @@
       ],
       [
         "./src/components/detailedpage/abilities.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/bigimage.tsx",
         1
       ],
       [

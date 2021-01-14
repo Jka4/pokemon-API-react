@@ -2335,10 +2335,10 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-ahooks@^2.9.2:
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/ahooks/-/ahooks-2.9.3.tgz#839c2aa6e1ad29adec2057e6d268b2ac7a1611f0"
-  integrity sha512-Bb28TQpBmW6Obqlb9sAf6JP3MJmJdW1UnxXa3GRrVRqxymQ8u8/1c72TBSTxGUDbjvbD+K1iTNw/QoUIhRSTuA==
+ahooks@^2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/ahooks/-/ahooks-2.9.4.tgz#30c0b53b6adc5141aa6346403a65951d6bc3b917"
+  integrity sha512-XnTSQ0deavMTLpV4V+LfCuyYxCGLk+oPo7HgA3HdC/TNIDwEJ322L5/PWFjNQLqPHiEcNgp6CijJID+Ke4j3Ag==
   dependencies:
     "@ahooksjs/use-request" "^2.8.1"
     "@types/js-cookie" "^2.2.6"
@@ -9747,6 +9747,11 @@ react-app-polyfill@^2.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
+
+react-debounce-props@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-debounce-props/-/react-debounce-props-2.0.0.tgz#09f74aa742a42e2f78e461a04969a28de413d183"
+  integrity sha512-uDAE5kShqRwbtnNc2dJ2bDHl/dGuxJn3SAB+xKA0SF+zfY3llBHykPbtGilX/xmcDbVPnwAXhgiOTGTkKwLPnQ==
 
 react-dev-utils@^11.0.1:
   version "11.0.1"

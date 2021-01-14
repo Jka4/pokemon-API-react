@@ -5,7 +5,7 @@ import * as _ from 'lodash';
 let defaultState = {
   randomPokemons: [],
   randomPokemonsFetching: false,
-  detailsPage: null,
+  // detailsPage: null,
   playing: false,
   pokemonsArr: POKEMON,
 };

@@ -68,7 +68,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   };
 
   let handleClick = (id: number) => {
-    setDelailedPageData(id);
+    // setDelailedPageData(id);
   };
 
   const fallback = () => {

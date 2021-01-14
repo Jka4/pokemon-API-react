@@ -1,4 +1,4 @@
-import React, { lazy, useEffect, useState } from 'react';
+import React, { lazy, useEffect, useState, useMemo } from 'react';
 import { NavLink } from 'react-router-dom';
 import find from 'lodash.find';
 import Paper from '@material-ui/core/Paper';
@@ -22,34 +22,24 @@ interface ChainElements {
 const EvolutionForms: React.FC<Props> = ({ currentPokemon }: Props) => {
   let [chain, setChain] = useState<any[]>([]);
 
-  useEffect(() => {
-    if (currentPokemon) {
-      const pokemonObj: any = find(POKEMON, (o) => o.name === currentPokemon);
-      let arr: any[] = [];
+  useMemo(() => {
+    const pokemonObj: any = find(POKEMON, (o) => o.name === currentPokemon);
+    let arr: any[] = [];
 
-      pokemonObj?.chain.forEach((index: ChainElements) => {
-        const pokemonName = index.species_name
-        index.image = find(POKEMON, (o) => o.name === pokemonName)?.image || '';
-        index.id = find(POKEMON, (o) => o.name === pokemonName)?.id || '';
-        index.placeholderBase64 = find(POKEMON, (o) => o.name === pokemonName)?.placeholderBase64 || '';
-        arr.push(index);
-      });
+    pokemonObj?.chain.forEach((index: ChainElements) => {
+      const pokemonName = index.species_name
+      index.image = find(POKEMON, (o) => o.name === pokemonName)?.image || '';
+      index.id = find(POKEMON, (o) => o.name === pokemonName)?.id || '';
+      index.placeholderBase64 = find(POKEMON, (o) => o.name === pokemonName)?.placeholderBase64 || '';
+      arr.push(index);
+    });
 
-      setChain(arr)
-    }
+    setChain(arr)
+
   }, [currentPokemon]);
 
   const FormTitle = () => {
     return <div className="formsTitle">{chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}</div>;
-  };
-
-
-  const fallback = (placeholderBase64: string) => {
-    return (
-      <>
-        <img src={placeholderBase64} className="evoFormImg placeholderBase64" alt="placeholderBase64" />
-      </>
-    );
   };
 
   return (
@@ -67,12 +57,7 @@ const EvolutionForms: React.FC<Props> = ({ currentPokemon }: Props) => {
               elevation={3}
               className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
             >
-              <ImageContainer
-                url={index.image}
-                cn={'evoFormImg'}
-                fallback={fallback(index?.placeholderBase64)}
-              />
-
+              <img src={index.image} className='evoFormImg' alt="evoFormImg" loading='lazy' />
               <div className="pokemonName">{index.species_name}</div>
             </Paper>
           </NavLink>

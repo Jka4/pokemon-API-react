@@ -50,7 +50,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   };
 
   const handleClick = (id: number) => {
-    setDelailedPageData(id);
+    // setDelailedPageData(id);
   };
 
 

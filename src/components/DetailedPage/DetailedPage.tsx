@@ -8,11 +8,13 @@ import Abilities from './Abilities';
 import EvolutionForms from './EvolutionForms';
 import Paper from '@material-ui/core/Paper';
 import Sprites from './Sprites';
+import BigImage from './BigImage'
 
 import store from 'Store/store';
 
 import POKEMON from 'utils/pokemonDataArray';
 import { setDelailedPageData } from 'utils/API';
+import axios from 'axios';
 
 import './styles/style.scss';
 
@@ -46,44 +48,38 @@ type DetailsPageTypes = {
   name: string;
 };
 
-const DetailedPage: React.FC<PropsType> = ({ detailsPage }: PropsType) => {
-  const { abilities, stats, weight, sprites, name }: DetailsPageTypes = detailsPage || {};
+const DetailedPage: React.FC<PropsType> = () => {
   let [bigImage, setBigImage] = useState<bigImageTypes>();
-  let currentPokemon = useLocation().pathname.split('/').pop();
+  let [detailsPage, setDetailsPage] = useState<any>();
+
+  const currentPokemon = useLocation().pathname.split('/').pop();
+  const { abilities, stats, weight, sprites }: DetailsPageTypes = detailsPage || {};
+
+  useEffect(() => {
+    setDetailsPage({})
+
+    const URL = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
+    axios.get(URL).then(async (response) => {
+      const poke = response.data;
+
+      delete poke.sprites.other;
+      delete poke.sprites.versions;
+
+      setDetailsPage(poke)
+    });
+  }, [currentPokemon]);
+
 
   useEffect(() => {
     const pokemon: any = POKEMON.find((el) => el.name === currentPokemon);
     setBigImage(pokemon)
-
   }, [currentPokemon])
 
-
-  useEffect(() => {
-    if (detailsPage === null) {
-      const pokemon: any = POKEMON.find((el) => el.name === currentPokemon);
-
-      setDelailedPageData(pokemon.id);
-
-      // setTimeout(() => {
-      //   setDelailedPageData(pokemon.id);
-
-      // }, 2000);
-    }
-  }, [detailsPage, currentPokemon]);
-
-
-  const fallbackEvo = (placeholderBase64: string) => {
-    return (
-      <>
-        <img src={placeholderBase64} className="placeholderBase64 bigImage" loading='lazy' alt="" />
-      </>
-    );
-  };
 
   return (
     <>
       <div className="detailedPage">
-        <div className="name">{name || 'POKEMON'}</div>
+        <div className="name">{currentPokemon || 'POKEMON'}</div>
 
         <EvolutionForms currentPokemon={currentPokemon} />
         <div className="mainInformation">
@@ -91,16 +87,7 @@ const DetailedPage: React.FC<PropsType> = ({ detailsPage }: PropsType) => {
             <Stats weight={weight} stats={stats} />
             <Abilities abilities={abilities} />
           </div>
-
-          <Paper elevation={3} className="bigImage">
-            {bigImage && (
-              <ImageContainer
-                url={bigImage.imageHQ}
-                cn={'bigImage'}
-                fallback={fallbackEvo(bigImage.placeholderBase64)}
-              />
-            )}
-          </Paper>
+          <BigImage bigImage={bigImage} />
         </div>
 
         <Sprites sprites={sprites} />
@@ -109,14 +96,4 @@ const DetailedPage: React.FC<PropsType> = ({ detailsPage }: PropsType) => {
   );
 };
 
-const ConnectedDetailedPage = connect((store: PropsType) => {
-  return {
-    detailsPage: store.detailsPage,
-  };
-})(DetailedPage);
-
-export default (props: any) => (
-  <Provider store={store}>
-    <ConnectedDetailedPage {...props} />
-  </Provider>
-);
+export default DetailedPage;

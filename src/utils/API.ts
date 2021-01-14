@@ -17,8 +17,8 @@ import axios from 'axios';
 //         });
 // };
 
-export const setDelailedPageData = async (pokemon_id: number) => {
-    const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_id}/`;
+export const setDelailedPageData = async (pokemon_name: string) => {
+    const URL = `https://pokeapi.co/api/v2/pokemon/${pokemon_name}/`;
     await axios.get(URL).then(async (response) => {
         const page = response.data;
 
