@@ -14,7 +14,7 @@ type pokemonCardType = {
 const PokemonCard: React.FC<pokemonCardType> = ({ src, name, order, base_experience, id, placeholderBase64 }: pokemonCardType) => {
 
   return (
-    <Card className="pokemonCard_Outher">
+    <Card className="pokemonCard_Outer">
       <NavLink
         to={`/detailedPage/pokemon/${name}`}
         data-pokemon_id={id}
