@@ -21,7 +21,7 @@ const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
       <SkeletonTheme color="#53aeff" highlightColor="#0066be">
         {[1, 2, 3, 4, 5, 6].map(el => (
           <p key={el} >
-            <Skeleton height={15} width={95} />
+            <Skeleton height={15} width={100} />
           </p>
         ))}
       </SkeletonTheme>
