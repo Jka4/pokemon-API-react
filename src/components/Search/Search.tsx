@@ -12,6 +12,7 @@ import "./styles/style.scss";
 
 const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
 
+
 let fuseOptions = {
   shouldSort: true,
   tokenize: true,
@@ -100,7 +101,11 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
                 to={`/detailedPage/pokemon/${i.item.name}`}
                 className="searchItem_outer"
               >
-                <li data-id={i.item.id} className="searchItem" onClick={() => handleClick(i.item.name)} >
+                <li
+                  data-id={i.item.id}
+                  className="searchItem"
+                  onClick={() => handleClick(i.item.name)}
+                >
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
