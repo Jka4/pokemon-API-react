@@ -13,7 +13,6 @@ let defaultState = {
   pokemonArr: POKEMON,
 };
 
-
 function rootReducer(state = defaultState, action) {
   let actionValue;
   mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
