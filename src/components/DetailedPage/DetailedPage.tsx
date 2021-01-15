@@ -31,6 +31,7 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedP
 
   useEffect(() => {
     setDetailedPage({});
+    let isSubscribed: boolean = true;
 
     const URL = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
     axios.get(URL).then(async (response) => {
@@ -39,8 +40,12 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedP
       delete poke.sprites.other;
       delete poke.sprites.versions;
 
-      setDetailedPage(poke);
+      isSubscribed && setDetailedPage(poke);
     });
+
+    return (): void => {
+      isSubscribed = false;
+    };
   }, [currentPokemon]);
 
   useEffect(() => {
