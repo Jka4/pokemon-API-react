@@ -8,8 +8,8 @@ const HeaderLine = lazy(() => import('components/HeaderLine/HeaderLine'));
 const MainContainer = lazy(() => import('components/MainContainer/MainContainer'));
 const DetailedPage = lazy(() => import('components/DetailedPage/DetailedPage'));
 const PokemonPageAll = lazy(() => import('components/PokemonPageAll/index'));
-const NonSupportPlaceholder = lazy(() => import('components/NonSupportPlaceholder/NonSupportPlaceholder'));
 const ErrorPage = lazy(() => import('components/ErrorPage/ErrorPage'));
+const NonSupportPlaceholder = lazy(() => import('components/NonSupportPlaceholder/NonSupportPlaceholder'));
 
 const App: React.FC = () => {
   const [supportScreenSize, setSupportScreenSize] = useState<boolean>(true);
