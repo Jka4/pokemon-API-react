@@ -8,65 +8,62 @@ import Badge from '@material-ui/core/Badge';
 import CasinoIcon from '@material-ui/icons/Casino';
 
 import store from 'Store/store';
-import POKEMON from 'utils/pokemonDataArray';
 
 import './styles/style.scss';
 
 type GetButtonProps = {
-  randomPokemons: any[];
-  randomPokemonsFetching: boolean;
+    randomPokemons: any[];
+    pokemonsArr: any[];
 };
 
-const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], randomPokemonsFetching = false }) => {
-  const randomPokemonsLength: number = randomPokemons.length;
+const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], pokemonsArr = [] }) => {
+    const clearState = () => {
+        store.dispatch({ type: 'CLEAR_RANDOM_POKEMON' });
+    };
 
-  const clearState = () => {
-    store.dispatch({ type: 'CLEAR_RANDOM_POKEMON' });
-  };
+    const handleClick = () => {
+        const randomPokemonFromArr = pokemonsArr[Math.floor(1 + Math.random() * pokemonsArr.length)];
+        store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemonFromArr });
+    };
 
-  const handleClick = () => {
-    const randomPokemon = POKEMON[Math.floor(1 + Math.random() * POKEMON.length)];
-    store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemon });
-  };
+    return (
+        <div className="Button">
+            <NavLink to={`/allPokemons/`}>
+                <Button variant="contained" color="secondary">
+                    {' '}
+                    SHOW ALL POKEMON{' '}
+                </Button>
+            </NavLink>
 
-  return (
-    <div className="Button">
-      <NavLink to={`/allPokemons/`}>
-        <Button variant="contained" color="secondary">
-          {' '}
-          SHOW ALL POKEMON{' '}
-        </Button>
-      </NavLink>
+            <Button onClick={clearState} className="clearBtn" variant="contained" color="secondary">
+                CLEAR
+            </Button>
 
-      <Button onClick={clearState} className="clearBtn" variant="contained" color="secondary">
-        CLEAR
-      </Button>
-
-      <Badge color="secondary" badgeContent={randomPokemonsLength}>
-        <Button
-          onClick={handleClick}
-          id="getPokemons"
-          className="getPokemons"
-          variant="contained"
-          color="secondary"
-          endIcon={!randomPokemonsFetching && <CasinoIcon />}
-        >
-          {randomPokemonsFetching ? 'Loading...' : 'GET A RANDOM POKEMON'}
-        </Button>
-      </Badge>
-    </div>
-  );
+            <Badge color="secondary" badgeContent={randomPokemons.length}>
+                <Button
+                    onClick={handleClick}
+                    id="getPokemons"
+                    className="getPokemons"
+                    variant="contained"
+                    color="secondary"
+                    endIcon={<CasinoIcon />}
+                >
+                    GET A RANDOM POKEMON
+                </Button>
+            </Badge>
+        </div>
+    );
 };
 
 const ConnectedGetButton = connect((store: GetButtonProps) => {
-  return {
-    randomPokemons: store.randomPokemons,
-    randomPokemonsFetching: store.randomPokemonsFetching,
-  };
+    return {
+        randomPokemons: store.randomPokemons,
+        pokemonsArr: store.pokemonsArr,
+    };
 })(GetButton);
 
 export default (props = {}) => (
-  <Provider store={store}>
-    <ConnectedGetButton {...props} />
-  </Provider>
+    <Provider store={store}>
+        <ConnectedGetButton {...props} />
+    </Provider>
 );

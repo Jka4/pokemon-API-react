@@ -10,13 +10,13 @@ let defaultState = {
 };
 
 
-const chacheToLocalStorage = () => {
+const cacheToLocalStorage = () => {
   localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
   let getStateFromLocal = JSON.parse(localStorage.getItem("pokemon_state"));
 
   defaultState = getStateFromLocal;
 }
-chacheToLocalStorage();
+cacheToLocalStorage();
 
 
 function reducer(state = defaultState, action) {
