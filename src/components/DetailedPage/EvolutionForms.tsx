@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 
 type EvolutionFormsTypes = {
   currentPokemon: any;
-  pokemonsArr: any[];
+  pokemonArr: any[];
 };
 
 type ChainElements = {
@@ -16,23 +16,23 @@ type ChainElements = {
   [key: string]: any;
 };
 
-const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonsArr }: EvolutionFormsTypes) => {
+const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonArr }: EvolutionFormsTypes) => {
   let [chain, setChain] = useState<any[]>([]);
 
   useMemo(() => {
-    const pokemonObj: any = find(pokemonsArr, (o) => o.name === currentPokemon);
+    const pokemonObj: any = find(pokemonArr, (o) => o.name === currentPokemon);
     let arr: any[] = [];
 
     pokemonObj?.chain.forEach((index: ChainElements) => {
       const pokemonName = index.species_name;
-      index.image = find(pokemonsArr, (o) => o.name === pokemonName)?.image || '';
-      index.id = find(pokemonsArr, (o) => o.name === pokemonName)?.id || '';
-      index.placeholderBase64 = find(pokemonsArr, (o) => o.name === pokemonName)?.placeholderBase64 || '';
+      index.image = find(pokemonArr, (o) => o.name === pokemonName)?.image || '';
+      index.id = find(pokemonArr, (o) => o.name === pokemonName)?.id || '';
+      index.placeholderBase64 = find(pokemonArr, (o) => o.name === pokemonName)?.placeholderBase64 || '';
       arr.push(index);
     });
 
     setChain(arr);
-  }, [currentPokemon, pokemonsArr]);
+  }, [currentPokemon, pokemonArr]);
 
   const FormTitle = () => {
     return <div className="formsTitle">{chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}</div>;

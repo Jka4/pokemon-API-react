@@ -9,10 +9,10 @@ import './styles/style.scss';
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
-  pokemonDataArray: PokemonsType[];
+  pokemonDataArray: PokemonType[];
 };
 
-type PokemonsType = {
+type PokemonType = {
   chain: {
     species_name: string;
   }[];
@@ -25,24 +25,24 @@ type PokemonsType = {
 };
 
 const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
-  const [pokemons, setPokemons] = useState<any[]>([]);
+  const [pokemon, setPokemon] = useState<any[]>([]);
   const [pokemonCount, setPokemonCount] = useState<number>(0);
 
   useEffect(() => {
-    fetchPokemons();
+    fetchPokemon();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const fetchPokemons = () => {
+  const fetchPokemon = () => {
     const howMuchToDownload = 20;
     let arr: any[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
       arr.push(pokemonDataArray[i]);
     }
-    setPokemons((pokemons: any[]) => [...pokemons, ...arr]);
-    setPokemonCount(pokemons.length + 1 + howMuchToDownload);
+    setPokemon((pokemon: any[]) => [...pokemon, ...arr]);
+    setPokemonCount(pokemon.length + 1 + howMuchToDownload);
   };
 
   const fallback = (placeholderBase64: string) => {
@@ -57,14 +57,14 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     <>
       <section className="main">
         <InfiniteScroll
-          dataLength={pokemons.length}
-          next={fetchPokemons}
-          hasMore={pokemons.length < 758}
+          dataLength={pokemon.length}
+          next={fetchPokemon}
+          hasMore={pokemon.length < 758}
           loader={<h4>Loading...</h4>}
-          className="allPokemonsWrapper"
-          endMessage={<p className="pokemon-end">No more pokemons :(</p>}
+          className="allPokemonWrapper"
+          endMessage={<p className="pokemon-end">No more pokemon :(</p>}
         >
-          {pokemons.map((pokemon: PokemonsType) => (
+          {pokemon.map((pokemon: PokemonType) => (
             <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} data-pokemon_id={pokemon.id} key={pokemon.id}>
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">

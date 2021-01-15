@@ -4,8 +4,8 @@ import { Provider, connect } from 'react-redux';
 
 import store from 'Store/store';
 
-import ListView from 'components/PokemonPageAll/ListView';
-import CatalogView from 'components/PokemonPageAll/CatalogView';
+import ListView from './ListView';
+import CatalogView from './CatalogView';
 
 import AppsIcon from '@material-ui/icons/Apps';
 import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';

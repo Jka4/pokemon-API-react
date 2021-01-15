@@ -8,9 +8,9 @@ export let getRandomPokemon = async (amount = 722) => {
   await axios
     .get(URL)
     .then(async (response) => {
-      let randomPokemons = response.data;
+      let randomPokemon = response.data;
 
-      await store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemons });
+      await store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemon });
     })
     .catch((error) => {
       console.log(error);

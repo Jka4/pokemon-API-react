@@ -681,9 +681,114 @@
         "signature": "fce37e7afb86c3cf7e3b224c3d253784a6f6e5ec74a146930c53e64fcf198c4e",
         "affectsGlobalScope": false
       },
+      "./node_modules/immer/dist/utils/env.d.ts": {
+        "version": "4df0891b133884cd9ed752d31c7d0ec0a09234e9ed5394abffd3c660761598db",
+        "signature": "4df0891b133884cd9ed752d31c7d0ec0a09234e9ed5394abffd3c660761598db",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/utils/errors.d.ts": {
+        "version": "707ca249c5dd57e1056c5b5ae53e41b67fd0500c7e391c0a493b4fa2a5a6df55",
+        "signature": "707ca249c5dd57e1056c5b5ae53e41b67fd0500c7e391c0a493b4fa2a5a6df55",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/types/types-external.d.ts": {
+        "version": "eb53bbecdc0eea7535ccb7cf84e13e46bf553ee21a50798084c31fc39a8966d3",
+        "signature": "eb53bbecdc0eea7535ccb7cf84e13e46bf553ee21a50798084c31fc39a8966d3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/types/types-internal.d.ts": {
+        "version": "f658e3aed89cc33c855b107ff97d79b15391e284b1d684d958ce455f2f5afcc2",
+        "signature": "f658e3aed89cc33c855b107ff97d79b15391e284b1d684d958ce455f2f5afcc2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/utils/common.d.ts": {
+        "version": "56d9702b02da881f6260ef6e4ada42115e92b92f956247bd1426127d13b34b9b",
+        "signature": "56d9702b02da881f6260ef6e4ada42115e92b92f956247bd1426127d13b34b9b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/utils/plugins.d.ts": {
+        "version": "3fa9ce284ebac5776e96849360702816bfc5e8ddb32e092703432f1564fa9d00",
+        "signature": "3fa9ce284ebac5776e96849360702816bfc5e8ddb32e092703432f1564fa9d00",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/core/scope.d.ts": {
+        "version": "71c67dc6987bdbd5599353f90009ff825dd7db0450ef9a0aee5bb0c574d18512",
+        "signature": "71c67dc6987bdbd5599353f90009ff825dd7db0450ef9a0aee5bb0c574d18512",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/core/finalize.d.ts": {
+        "version": "6f12403b5eca6ae7ca8e3efe3eeb9c683b06ce3e3844ccfd04098d83cd7e4957",
+        "signature": "6f12403b5eca6ae7ca8e3efe3eeb9c683b06ce3e3844ccfd04098d83cd7e4957",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/core/proxy.d.ts": {
+        "version": "a2478ca45caf1d829c4246ac2d49013023b59d08174aacceec4fc72a7734c5b2",
+        "signature": "a2478ca45caf1d829c4246ac2d49013023b59d08174aacceec4fc72a7734c5b2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/core/immerclass.d.ts": {
+        "version": "2f25d1af42a3da3fb79a49fb3721867799a418108b5ec78bfb4efe10c31a34bf",
+        "signature": "2f25d1af42a3da3fb79a49fb3721867799a418108b5ec78bfb4efe10c31a34bf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/core/current.d.ts": {
+        "version": "11a9e38611ac3c77c74240c58b6bd64a0032128b29354e999650f1de1e034b1c",
+        "signature": "11a9e38611ac3c77c74240c58b6bd64a0032128b29354e999650f1de1e034b1c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/internal.d.ts": {
+        "version": "4ed103ca6fff9cb244f7c4b86d1eb28ce8069c32db720784329946731badb5bb",
+        "signature": "4ed103ca6fff9cb244f7c4b86d1eb28ce8069c32db720784329946731badb5bb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/plugins/es5.d.ts": {
+        "version": "d738f282842970e058672663311c6875482ee36607c88b98ffb6604fba99cb2a",
+        "signature": "d738f282842970e058672663311c6875482ee36607c88b98ffb6604fba99cb2a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/plugins/patches.d.ts": {
+        "version": "ec859cd8226aa623e41bbb47c249a55ee16dc1b8647359585244d57d3a5ed0c7",
+        "signature": "ec859cd8226aa623e41bbb47c249a55ee16dc1b8647359585244d57d3a5ed0c7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/plugins/mapset.d.ts": {
+        "version": "8891c6e959d253a66434ff5dc9ae46058fb3493e84b4ca39f710ef2d350656b1",
+        "signature": "8891c6e959d253a66434ff5dc9ae46058fb3493e84b4ca39f710ef2d350656b1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/plugins/all.d.ts": {
+        "version": "c4463cf02535444dcbc3e67ecd29f1972490f74e49957d6fd4282a1013796ba6",
+        "signature": "c4463cf02535444dcbc3e67ecd29f1972490f74e49957d6fd4282a1013796ba6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/immer/dist/immer.d.ts": {
+        "version": "3dbd423358f8d9248642c036ea6fd568ad04a71da40cec7839175c3b1fe43bbb",
+        "signature": "3dbd423358f8d9248642c036ea6fd568ad04a71da40cec7839175c3b1fe43bbb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/reselect/lib/index.d.ts": {
+        "version": "da7001dfd188e468782cbc0f742fdc397787b8b669d51b421fd885401dc16f48",
+        "signature": "da7001dfd188e468782cbc0f742fdc397787b8b669d51b421fd885401dc16f48",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/redux-thunk/index.d.ts": {
+        "version": "d67c4069a6b104dc13f6aed3980238b11046d6695a6f99862e290d7d890f5f08",
+        "signature": "d67c4069a6b104dc13f6aed3980238b11046d6695a6f99862e290d7d890f5f08",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@reduxjs/toolkit/dist/typings.d.ts": {
+        "version": "a72a6d964b17af5c5d666ad094edbf9eb7318b16a35aa00a565ad61aef980758",
+        "signature": "a72a6d964b17af5c5d666ad094edbf9eb7318b16a35aa00a565ad61aef980758",
+        "affectsGlobalScope": false
+      },
       "./src/utils/pokemondataarray.ts": {
         "version": "24388697eacda8d67f09f5bf4167332e3a3d38c44af58193afccd3a5883f5329",
         "signature": "dc767a627a1ee5b3c29d0d3fbb5f4088d4bbed9a77e67e1aba134c284593d8c3",
+        "affectsGlobalScope": false
+      },
+      "./src/store/localstorage.js": {
+        "version": "de7038e8a17bb1a55baa29d8bd9184b4e74369b9964be6b6471c869a3b61aa40",
+        "signature": "224e45d97f314f3d2fb2b40e3e5fd7ac9f80956f9e492e73da1894d5fecd1e34",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash/common/common.d.ts": {
@@ -751,9 +856,19 @@
         "signature": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
         "affectsGlobalScope": true
       },
+      "./node_modules/@types/lodash.mapkeys/index.d.ts": {
+        "version": "8c5baa4593e5eb62cbcdde80d486dd5bc89aeaf37f149dac390965d1378abebb",
+        "signature": "8c5baa4593e5eb62cbcdde80d486dd5bc89aeaf37f149dac390965d1378abebb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash.throttle/index.d.ts": {
+        "version": "620a033e8ff8ffc3d280c3d78981d8a929d0a8c14574a3b87413d99d7f02fadd",
+        "signature": "620a033e8ff8ffc3d280c3d78981d8a929d0a8c14574a3b87413d99d7f02fadd",
+        "affectsGlobalScope": false
+      },
       "./src/store/store.js": {
-        "version": "72c42aa385b7c2f26b65feaef4b5dbf737c811652cc0fbd107ba7a035bd31cfd",
-        "signature": "51a1eee1a1a0f8c93d80f958660f8a98da5d7950946970a9db64cf0f940eef6a",
+        "version": "975394660f64448fc5a7656668f7ddfb6315fba6790109b0c09378fea60c74ad",
+        "signature": "7b2221d4b52312005de7980a93319861cc344064f08fb2c7d4d42d10fcb9f7be",
         "affectsGlobalScope": false
       },
       "./src/utils/errorboundary.js": {
@@ -767,7 +882,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "7f9392c8c169c4973873c6f7c5b7edec7ddeb5084a503fc4ebe6eb136ce26f43",
+        "version": "ea07f8f4be392475bc4f6e6cb003b8d917850356b99af4f5e86d5d2fb3c1820a",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2567,7 +2682,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "ea69552a3929e330b3606accfbb07069cd764476f94e815b6c9383a533735142",
+        "version": "a00e6fa70889e63c81b3a63aabcb05439bba6dabfbd7e0e9819ed2c8f6c52768",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2587,7 +2702,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "e58ad3aaca4d9c1f868a6897f14c69208fc8691ecb44a615b66bb1ef3278977d",
+        "version": "6912be2f7b512c947d1adc23cd04d7d24b0eb3dbd6f14d944f5adae5da9782c5",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2617,8 +2732,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "b20bcb9a7da4df6f82ae3a53aea1a2aca81ed550dcc8ac203483dd6ca60aa973",
-        "signature": "e837f438292b9003dbd23762e39a3a1b11ac8ffb3d9417e820c2853ccaba343f",
+        "version": "7d898b32fdb7906606137684e9591f50641b367b8f055d46cc6c0b7bae8a7346",
+        "signature": "75ff37f1e2990b95ec2e632029a79b286ded04d739c155ddbd2e5fd114bb79ce",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/sprites.tsx": {
@@ -2627,7 +2742,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/bigimage.tsx": {
-        "version": "57708a65da499a87155e1d7e0244d7949e91a6341b49ce3298cb69567f1c2ccc",
+        "version": "b47b94401cc5af506fdebb93afc1ea993f2df6a6097ec5ab2736d65e75457a4a",
         "signature": "f0a807c44b4fe523bbc179ace5b97755f6b472134f5d117fe60e4444bd7499ed",
         "affectsGlobalScope": false
       },
@@ -2637,8 +2752,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "8a25603fcaadb1175ca71c7a295946f8574bba272898e9021dc3e3e7b89d6bf2",
-        "signature": "7d1151be4f6c57c3b553a77b5346342efea1dcfb3f6b3ef6d0665f2d502036ad",
+        "version": "864aa696d86048af43ba6a245315bd441d3a86112e9b948b4a9c0559dd9a0d16",
+        "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": {
@@ -2646,12 +2761,12 @@
         "signature": "9c1e92aa951f8b8bc1983b50e8d7da9dc612882fb8f472a2c1f61a8e9e2c66f1",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonspageall/listview.tsx": {
-        "version": "51c3e5cef41d8c7ab13e8d3a5d37ccfb87ef588d7e8735de282cff64182cb158",
-        "signature": "e904eb6bba0e13daa1d834e75cb324220501f692fe602b5fa85589e8f62f85e3",
+      "./src/components/pokemonpageall/listview.tsx": {
+        "version": "78ceaea33ce4ae6fec1fd65e3a5e04dc2e805d61352b3ebf321a6fecfcd42735",
+        "signature": "ed35f65ede46f4d977b99a19456fcc5a0041df3a98db57cb4d022d5fe2565861",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonspageall/catalogview.tsx": {
+      "./src/components/pokemonpageall/catalogview.tsx": {
         "version": "75d224ce899b8528f08d39a297627f23d4529194fa981b5987b3f6f8b2150fb5",
         "signature": "a56381b9175a12884b1f0093eb21e1f5107985908fa92f3112d96d779738990f",
         "affectsGlobalScope": false
@@ -2666,8 +2781,8 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonspageall/index.tsx": {
-        "version": "ac3f73cbe653d12c26cfe76ff62f98f98ccb702cc2076843582185a0957a1fe3",
+      "./src/components/pokemonpageall/index.tsx": {
+        "version": "299dc1a434bf7136341e2b039dc6b3496d277ea467bb022723e440281ec05b36",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -2687,7 +2802,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/app/view/index.tsx": {
-        "version": "8a8760a1686ce4cdd4d4028989c0c42963fca052309eb21f6cd40e447725b7d0",
+        "version": "b75066831700ba4f0e6b4669c2105f87e501931412b2e2ca60d19b2f515aa989",
         "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
@@ -2951,8 +3066,13 @@
         "signature": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
         "affectsGlobalScope": false
       },
+      "./src/components/pokemonspageall/index.tsx": {
+        "version": "ff2f50bdc853d4d575eb2de77436aa5649eab9b0f5715b5e7de3ccd062c0d44c",
+        "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
+        "affectsGlobalScope": false
+      },
       "./src/utils/api.ts": {
-        "version": "a64e12bcb3ea8f1ab3ace8d9b70a88e3e4393576fe6482215ed44b55afcf5bec",
+        "version": "dfd1395059209fb12c7c28db1bb9e078ad6520fe8efe9ed064c8838942b878fa",
         "signature": "eddf02485d7fd1aa0fed2cac635664a39c96b9668b76382bf08a9a1bba6f929f",
         "affectsGlobalScope": false
       },
@@ -3236,8 +3356,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },
@@ -4840,6 +4960,12 @@
       "./node_modules/@material-ui/types/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/@reduxjs/toolkit/dist/typings.d.ts": [
+        "./node_modules/immer/dist/immer.d.ts",
+        "./node_modules/redux-thunk/index.d.ts",
+        "./node_modules/redux/index.d.ts",
+        "./node_modules/reselect/lib/index.d.ts"
+      ],
       "./node_modules/@types/babel__core/index.d.ts": [
         "./node_modules/@babel/parser/typings/babel-parser.d.ts",
         "./node_modules/@babel/types/lib/index.d.ts",
@@ -4906,6 +5032,12 @@
         "./node_modules/@types/istanbul-lib-report/index.d.ts"
       ],
       "./node_modules/@types/lodash.find/index.d.ts": [
+        "./node_modules/@types/lodash/index.d.ts"
+      ],
+      "./node_modules/@types/lodash.mapkeys/index.d.ts": [
+        "./node_modules/@types/lodash/index.d.ts"
+      ],
+      "./node_modules/@types/lodash.throttle/index.d.ts": [
         "./node_modules/@types/lodash/index.d.ts"
       ],
       "./node_modules/@types/lodash/common/array.d.ts": [
@@ -5551,6 +5683,50 @@
       "./node_modules/ahooks/lib/utils/dom.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/immer/dist/core/finalize.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/core/immerclass.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/core/proxy.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/core/scope.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/immer.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts",
+        "./node_modules/immer/dist/plugins/all.d.ts",
+        "./node_modules/immer/dist/plugins/es5.d.ts",
+        "./node_modules/immer/dist/plugins/mapset.d.ts",
+        "./node_modules/immer/dist/plugins/patches.d.ts"
+      ],
+      "./node_modules/immer/dist/internal.d.ts": [
+        "./node_modules/immer/dist/core/current.d.ts",
+        "./node_modules/immer/dist/core/finalize.d.ts",
+        "./node_modules/immer/dist/core/immerclass.d.ts",
+        "./node_modules/immer/dist/core/proxy.d.ts",
+        "./node_modules/immer/dist/core/scope.d.ts",
+        "./node_modules/immer/dist/types/types-external.d.ts",
+        "./node_modules/immer/dist/types/types-internal.d.ts",
+        "./node_modules/immer/dist/utils/common.d.ts",
+        "./node_modules/immer/dist/utils/env.d.ts",
+        "./node_modules/immer/dist/utils/errors.d.ts",
+        "./node_modules/immer/dist/utils/plugins.d.ts"
+      ],
+      "./node_modules/immer/dist/types/types-external.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/types/types-internal.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/utils/common.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/utils/plugins.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
       "./node_modules/indefinite-observable/dist/indefiniteobservable.d.ts": [
         "./node_modules/indefinite-observable/dist/types.d.ts"
       ],
@@ -5577,6 +5753,9 @@
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/redux-thunk/index.d.ts": [
+        "./node_modules/redux/index.d.ts"
+      ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
       ],
@@ -5597,7 +5776,7 @@
         "./src/components/headerline/headerline.tsx",
         "./src/components/maincontainer/maincontainer.tsx",
         "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
-        "./src/components/pokemonspageall/index.tsx"
+        "./src/components/pokemonpageall/index.tsx"
       ],
       "./src/components/detailedpage/abilities.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
@@ -5612,6 +5791,7 @@
         "./src/components/imagecontainer/imagecontainer.tsx"
       ],
       "./src/components/detailedpage/detailedpage.tsx": [
+        "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -5621,15 +5801,14 @@
         "./src/components/detailedpage/evolutionforms.tsx",
         "./src/components/detailedpage/sprites.tsx",
         "./src/components/detailedpage/stats.tsx",
-        "./src/utils/pokemondataarray.ts"
+        "./src/store/store.js"
       ],
       "./src/components/detailedpage/evolutionforms.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/lodash.find/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/utils/pokemondataarray.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
       "./src/components/detailedpage/sprites.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
@@ -5717,10 +5896,28 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/use-sound/dist/index.d.ts"
       ],
-      "./src/components/pokemonspageall/catalogview.tsx": [
+      "./src/components/pokemonpageall/catalogview.tsx": [
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/imagecontainer/imagecontainer.tsx"
+      ],
+      "./src/components/pokemonpageall/index.tsx": [
+        "./node_modules/@material-ui/icons/apps.d.ts",
+        "./node_modules/@material-ui/icons/bluronoutlined.d.ts",
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/pokemonpageall/catalogview.tsx",
+        "./src/components/pokemonpageall/listview.tsx",
+        "./src/store/store.js"
+      ],
+      "./src/components/pokemonpageall/listview.tsx": [
+        "./node_modules/@material-ui/core/paper/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
         "./src/components/imagecontainer/imagecontainer.tsx"
       ],
       "./src/components/pokemonspageall/index.tsx": [
@@ -5729,17 +5926,9 @@
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/pokemonspageall/catalogview.tsx",
-        "./src/components/pokemonspageall/listview.tsx",
+        "./src/components/pokemonpageall/catalogview.tsx",
+        "./src/components/pokemonpageall/listview.tsx",
         "./src/store/store.js"
-      ],
-      "./src/components/pokemonspageall/listview.tsx": [
-        "./node_modules/@material-ui/core/paper/index.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx"
       ],
       "./src/components/search/search.tsx": [
         "./node_modules/@types/react-redux/index.d.ts",
@@ -5766,10 +5955,15 @@
       "./src/serviceworker.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
+      "./src/store/localstorage.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
       "./src/store/store.js": [
-        "./node_modules/@types/lodash/index.d.ts",
+        "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",
+        "./node_modules/@types/lodash.mapkeys/index.d.ts",
+        "./node_modules/@types/lodash.throttle/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/redux/index.d.ts",
+        "./src/store/localstorage.js",
         "./src/utils/pokemondataarray.ts"
       ],
       "./src/utils/api.ts": [
@@ -7365,9 +7559,9 @@
       ],
       "./node_modules/@material-ui/styles/withstyles/withstyles.d.ts": [
         "./node_modules/@material-ui/styles/defaulttheme/index.d.ts",
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts",
         "./node_modules/@material-ui/types/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./node_modules/csstype/index.d.ts",
         "./node_modules/jss/src/index.d.ts"
       ],
       "./node_modules/@material-ui/styles/withtheme/index.d.ts": [
@@ -7379,10 +7573,16 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@material-ui/system/index.d.ts": [
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts"
+        "./node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@material-ui/types/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@reduxjs/toolkit/dist/typings.d.ts": [
+        "./node_modules/immer/dist/immer.d.ts",
+        "./node_modules/redux-thunk/index.d.ts",
+        "./node_modules/redux/index.d.ts",
+        "./node_modules/reselect/lib/index.d.ts"
       ],
       "./node_modules/@types/babel__core/index.d.ts": [
         "./node_modules/@babel/parser/typings/babel-parser.d.ts",
@@ -7450,6 +7650,12 @@
         "./node_modules/@types/istanbul-lib-report/index.d.ts"
       ],
       "./node_modules/@types/lodash.find/index.d.ts": [
+        "./node_modules/@types/lodash/index.d.ts"
+      ],
+      "./node_modules/@types/lodash.mapkeys/index.d.ts": [
+        "./node_modules/@types/lodash/index.d.ts"
+      ],
+      "./node_modules/@types/lodash.throttle/index.d.ts": [
         "./node_modules/@types/lodash/index.d.ts"
       ],
       "./node_modules/@types/lodash/common/array.d.ts": [
@@ -7845,7 +8051,7 @@
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
-        "./node_modules/csstype/index.d.ts"
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts"
       ],
       "./node_modules/@types/react/jsx-runtime.d.ts": [
         "./node_modules/@types/react/index.d.ts"
@@ -8095,6 +8301,50 @@
       "./node_modules/ahooks/lib/utils/dom.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./node_modules/immer/dist/core/finalize.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/core/immerclass.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/core/proxy.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/core/scope.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/immer.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts",
+        "./node_modules/immer/dist/plugins/all.d.ts",
+        "./node_modules/immer/dist/plugins/es5.d.ts",
+        "./node_modules/immer/dist/plugins/mapset.d.ts",
+        "./node_modules/immer/dist/plugins/patches.d.ts"
+      ],
+      "./node_modules/immer/dist/internal.d.ts": [
+        "./node_modules/immer/dist/core/current.d.ts",
+        "./node_modules/immer/dist/core/finalize.d.ts",
+        "./node_modules/immer/dist/core/immerclass.d.ts",
+        "./node_modules/immer/dist/core/proxy.d.ts",
+        "./node_modules/immer/dist/core/scope.d.ts",
+        "./node_modules/immer/dist/types/types-external.d.ts",
+        "./node_modules/immer/dist/types/types-internal.d.ts",
+        "./node_modules/immer/dist/utils/common.d.ts",
+        "./node_modules/immer/dist/utils/env.d.ts",
+        "./node_modules/immer/dist/utils/errors.d.ts",
+        "./node_modules/immer/dist/utils/plugins.d.ts"
+      ],
+      "./node_modules/immer/dist/types/types-external.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/types/types-internal.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/utils/common.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
+      "./node_modules/immer/dist/utils/plugins.d.ts": [
+        "./node_modules/immer/dist/internal.d.ts"
+      ],
       "./node_modules/indefinite-observable/dist/indefiniteobservable.d.ts": [
         "./node_modules/indefinite-observable/dist/types.d.ts"
       ],
@@ -8107,7 +8357,7 @@
         "./node_modules/indefinite-observable/dist/types.d.ts"
       ],
       "./node_modules/jss/src/index.d.ts": [
-        "./node_modules/csstype/index.d.ts",
+        "./node_modules/@types/react/node_modules/csstype/index.d.ts",
         "./node_modules/indefinite-observable/dist/index.d.ts"
       ],
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts": [
@@ -8120,6 +8370,9 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/redux-thunk/index.d.ts": [
+        "./node_modules/redux/index.d.ts"
       ],
       "./node_modules/redux/index.d.ts": [
         "./node_modules/symbol-observable/index.d.ts"
@@ -8134,9 +8387,6 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/detailedpage/bigimage.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/detailedpage/detailedpage.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/detailedpage/evolutionforms.tsx": [
@@ -8172,14 +8422,19 @@
       "./src/components/player/player.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/pokemonspageall/catalogview.tsx": [
+      "./src/components/pokemonpageall/catalogview.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/pokemonspageall/listview.tsx": [
+      "./src/components/pokemonpageall/listview.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/react-app-env.d.ts": [
         "./node_modules/react-scripts/lib/react-app.d.ts"
+      ],
+      "./src/store/store.js": [
+        "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",
+        "./node_modules/redux-thunk/index.d.ts",
+        "./node_modules/redux/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -8541,6 +8796,7 @@
       "./node_modules/@material-ui/styles/withtheme/withtheme.d.ts",
       "./node_modules/@material-ui/system/index.d.ts",
       "./node_modules/@material-ui/types/index.d.ts",
+      "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",
       "./node_modules/@types/anymatch/index.d.ts",
       "./node_modules/@types/babel__core/index.d.ts",
       "./node_modules/@types/babel__generator/index.d.ts",
@@ -8567,6 +8823,8 @@
       "./node_modules/@types/json-schema/index.d.ts",
       "./node_modules/@types/json5/index.d.ts",
       "./node_modules/@types/lodash.find/index.d.ts",
+      "./node_modules/@types/lodash.mapkeys/index.d.ts",
+      "./node_modules/@types/lodash.throttle/index.d.ts",
       "./node_modules/@types/lodash/common/array.d.ts",
       "./node_modules/@types/lodash/common/collection.d.ts",
       "./node_modules/@types/lodash/common/common.d.ts",
@@ -8736,6 +8994,23 @@
       "./node_modules/axios/index.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/fuse.js/dist/fuse.d.ts",
+      "./node_modules/immer/dist/core/current.d.ts",
+      "./node_modules/immer/dist/core/finalize.d.ts",
+      "./node_modules/immer/dist/core/immerclass.d.ts",
+      "./node_modules/immer/dist/core/proxy.d.ts",
+      "./node_modules/immer/dist/core/scope.d.ts",
+      "./node_modules/immer/dist/immer.d.ts",
+      "./node_modules/immer/dist/internal.d.ts",
+      "./node_modules/immer/dist/plugins/all.d.ts",
+      "./node_modules/immer/dist/plugins/es5.d.ts",
+      "./node_modules/immer/dist/plugins/mapset.d.ts",
+      "./node_modules/immer/dist/plugins/patches.d.ts",
+      "./node_modules/immer/dist/types/types-external.d.ts",
+      "./node_modules/immer/dist/types/types-internal.d.ts",
+      "./node_modules/immer/dist/utils/common.d.ts",
+      "./node_modules/immer/dist/utils/env.d.ts",
+      "./node_modules/immer/dist/utils/errors.d.ts",
+      "./node_modules/immer/dist/utils/plugins.d.ts",
       "./node_modules/indefinite-observable/dist/indefiniteobservable.d.ts",
       "./node_modules/indefinite-observable/dist/index.d.ts",
       "./node_modules/indefinite-observable/dist/types.d.ts",
@@ -8746,7 +9021,9 @@
       "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
       "./node_modules/react-loading-skeleton/lib/index.d.ts",
       "./node_modules/react-scripts/lib/react-app.d.ts",
+      "./node_modules/redux-thunk/index.d.ts",
       "./node_modules/redux/index.d.ts",
+      "./node_modules/reselect/lib/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
       "./node_modules/symbol-observable/index.d.ts",
       "./node_modules/typescript/lib/lib.dom.d.ts",
@@ -8814,13 +9091,15 @@
       "./src/components/maincontainer/pokemoncard.tsx",
       "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
       "./src/components/player/player.tsx",
-      "./src/components/pokemonspageall/catalogview.tsx",
+      "./src/components/pokemonpageall/catalogview.tsx",
+      "./src/components/pokemonpageall/index.tsx",
+      "./src/components/pokemonpageall/listview.tsx",
       "./src/components/pokemonspageall/index.tsx",
-      "./src/components/pokemonspageall/listview.tsx",
       "./src/components/search/search.tsx",
       "./src/index.tsx",
       "./src/react-app-env.d.ts",
       "./src/serviceworker.js",
+      "./src/store/localstorage.js",
       "./src/store/store.js",
       "./src/utils/api.ts",
       "./src/utils/errorboundary.js",
@@ -10196,10 +10475,6 @@
         1
       ],
       [
-        "./node_modules/@material-ui/styles/node_modules/csstype/index.d.ts",
-        1
-      ],
-      [
         "./node_modules/@material-ui/styles/serverstylesheets/index.d.ts",
         1
       ],
@@ -10260,11 +10535,11 @@
         1
       ],
       [
-        "./node_modules/@material-ui/system/node_modules/csstype/index.d.ts",
+        "./node_modules/@material-ui/types/index.d.ts",
         1
       ],
       [
-        "./node_modules/@material-ui/types/index.d.ts",
+        "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",
         1
       ],
       [
@@ -10369,6 +10644,14 @@
       ],
       [
         "./node_modules/@types/lodash.find/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/lodash.mapkeys/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/lodash.throttle/index.d.ts",
         1
       ],
       [
@@ -10637,14 +10920,6 @@
       ],
       [
         "./node_modules/@types/react-dom/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/react-lazy-load-image-component/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/react-lazyload/index.d.ts",
         1
       ],
       [
@@ -11056,6 +11331,74 @@
         1
       ],
       [
+        "./node_modules/immer/dist/core/current.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/core/finalize.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/core/immerclass.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/core/proxy.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/core/scope.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/immer.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/internal.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/plugins/all.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/plugins/es5.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/plugins/mapset.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/plugins/patches.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/types/types-external.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/types/types-internal.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/utils/common.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/utils/env.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/utils/errors.d.ts",
+        1
+      ],
+      [
+        "./node_modules/immer/dist/utils/plugins.d.ts",
+        1
+      ],
+      [
         "./node_modules/indefinite-observable/dist/indefiniteobservable.d.ts",
         1
       ],
@@ -11084,18 +11427,6 @@
         1
       ],
       [
-        "./node_modules/react-image/img.d.ts",
-        1
-      ],
-      [
-        "./node_modules/react-image/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/react-image/useimage.d.ts",
-        1
-      ],
-      [
         "./node_modules/react-infinite-scroll-component/dist/index.d.ts",
         1
       ],
@@ -11108,19 +11439,15 @@
         1
       ],
       [
-        "./node_modules/react-suspense-img/dist/img/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/react-suspense-img/dist/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/react-suspense-img/dist/resource/index.d.ts",
+        "./node_modules/redux-thunk/index.d.ts",
         1
       ],
       [
         "./node_modules/redux/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/reselect/lib/index.d.ts",
         1
       ],
       [
@@ -11244,15 +11571,19 @@
         1
       ],
       [
-        "./src/components/pokemonspageall/catalogview.tsx",
+        "./src/components/pokemonpageall/catalogview.tsx",
+        1
+      ],
+      [
+        "./src/components/pokemonpageall/index.tsx",
+        1
+      ],
+      [
+        "./src/components/pokemonpageall/listview.tsx",
         1
       ],
       [
         "./src/components/pokemonspageall/index.tsx",
-        1
-      ],
-      [
-        "./src/components/pokemonspageall/listview.tsx",
         1
       ],
       [
@@ -11272,15 +11603,15 @@
         1
       ],
       [
+        "./src/store/localstorage.js",
+        1
+      ],
+      [
         "./src/store/store.js",
         1
       ],
       [
         "./src/utils/api.ts",
-        1
-      ],
-      [
-        "./src/utils/config.js",
         1
       ],
       [

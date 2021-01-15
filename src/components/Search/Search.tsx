@@ -111,9 +111,9 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   );
 };
 
-const ConnectedSearch = connect((store: { pokemonsArr: Pokes[] }) => {
+const ConnectedSearch = connect((store: { pokemonArr: Pokes[] }) => {
   return {
-    pokemonDataArray: store.pokemonsArr,
+    pokemonDataArray: store.pokemonArr,
   };
 })(Search);
 

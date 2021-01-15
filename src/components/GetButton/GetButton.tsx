@@ -12,23 +12,23 @@ import CasinoIcon from '@material-ui/icons/Casino';
 import './styles/style.scss';
 
 type GetButtonProps = {
-  randomPokemons: any[];
-  pokemonsArr: any[];
+  randomPokemon: any[];
+  pokemonArr: any[];
 };
 
-const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], pokemonsArr = [] }: GetButtonProps) => {
+const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = [] }: GetButtonProps) => {
   const clearState = () => {
     store.dispatch({ type: 'CLEAR_RANDOM_POKEMON' });
   };
 
   const handleClick = () => {
-    const randomPokemonFromArr = pokemonsArr[Math.floor(1 + Math.random() * pokemonsArr.length)];
+    const randomPokemonFromArr = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
     store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemonFromArr });
   };
 
   return (
     <div className="Button">
-      <NavLink to={`/allPokemons/`}>
+      <NavLink to={`/allPokemon/`}>
         <Button variant="contained" color="secondary">
           {' '}
           SHOW ALL POKEMON{' '}
@@ -39,11 +39,11 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], pokemonsArr 
         CLEAR
       </Button>
 
-      <Badge color="secondary" badgeContent={randomPokemons.length}>
+      <Badge color="secondary" badgeContent={randomPokemon.length}>
         <Button
           onClick={handleClick}
-          id="getPokemons"
-          className="getPokemons"
+          id="getPokemon"
+          className="getPokemon"
           variant="contained"
           color="secondary"
           endIcon={<CasinoIcon />}
@@ -57,8 +57,8 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemons = [], pokemonsArr 
 
 const ConnectedGetButton = connect((store: GetButtonProps) => {
   return {
-    randomPokemons: store.randomPokemons,
-    pokemonsArr: store.pokemonsArr,
+    randomPokemon: store.randomPokemon,
+    pokemonArr: store.pokemonArr,
   };
 })(GetButton);
 

@@ -1,38 +1,33 @@
-import { createStore } from "redux";
+import { configureStore } from '@reduxjs/toolkit';
+
 import POKEMON from "utils/pokemonDataArray";
-import * as _ from 'lodash';
+import { saveState, loadState } from './localStorage';
+
+import mapKeys from 'lodash.mapkeys';
+import throttle from 'lodash.throttle';
+
 
 let defaultState = {
-  randomPokemons: [],
-  randomPokemonsFetching: false,
+  randomPokemon: [],
   playing: false,
-  pokemonsArr: POKEMON,
+  pokemonArr: POKEMON,
 };
 
 
-const cacheToLocalStorage = () => {
-  localStorage.getItem("pokemon_state") == null && localStorage.setItem("pokemon_state", JSON.stringify(defaultState));
-  let getStateFromLocal = JSON.parse(localStorage.getItem("pokemon_state"));
-
-  defaultState = getStateFromLocal;
-}
-cacheToLocalStorage();
-
-
-function reducer(state = defaultState, action) {
+function rootReducer(state = defaultState, action) {
   let actionValue;
-  _.mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
+  mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
 
   switch (action.type) {
     case "ADD_RANDOM_POKEMON":
       return {
         ...state,
-        randomPokemons: [...state.randomPokemons, actionValue],
+        randomPokemon: [...state.randomPokemon, actionValue],
       };
     case "CLEAR_RANDOM_POKEMON":
       return {
         ...state,
-        randomPokemons: [],
+        randomPokemon: [],
       };
     case "PLAY_PAUSE":
       return {
@@ -44,13 +39,14 @@ function reducer(state = defaultState, action) {
   }
 }
 
-const store = createStore(
-  reducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
-export default store;
+const store = configureStore({
+  reducer: rootReducer,
+  preloadedState: loadState()
+})
 
-store.subscribe(() => {
-  let currentState = store.getState();
-  localStorage.setItem("pokemon_state", JSON.stringify(currentState));
-});
+store.subscribe(
+  throttle(() => saveState(store.getState()), 5000)
+);
+
+
+export default store;

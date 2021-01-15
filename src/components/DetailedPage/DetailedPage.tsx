@@ -16,7 +16,7 @@ import axios from 'axios';
 import './styles/style.scss';
 
 type DetailedPageType = {
-  pokemonsArr: any[];
+  pokemonArr: any[];
 };
 
 type bigImageTypes = {
@@ -42,7 +42,7 @@ type DetailsPageTypes = {
   name: string;
 };
 
-const DetailedPage: React.FC<DetailedPageType> = ({ pokemonsArr = [] }: DetailedPageType) => {
+const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedPageType) => {
   let [bigImage, setBigImage] = useState<bigImageTypes>();
   let [detailsPage, setDetailsPage] = useState<any>();
 
@@ -64,16 +64,16 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonsArr = [] }: Detailed
   }, [currentPokemon]);
 
   useEffect(() => {
-    const pokemon: any = pokemonsArr.find((el) => el.name === currentPokemon);
+    const pokemon: any = pokemonArr.find((el) => el.name === currentPokemon);
     setBigImage(pokemon);
-  }, [currentPokemon, pokemonsArr]);
+  }, [currentPokemon, pokemonArr]);
 
   return (
     <>
       <div className="detailedPage">
         <div className="name">{currentPokemon || 'POKEMON'}</div>
 
-        <EvolutionForms currentPokemon={currentPokemon} pokemonsArr={pokemonsArr} />
+        <EvolutionForms currentPokemon={currentPokemon} pokemonArr={pokemonArr} />
         <div className="mainInformation">
           <div className="skills">
             <Stats weight={weight} stats={stats} />
@@ -92,7 +92,7 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonsArr = [] }: Detailed
 
 const ConnectedDetailedPage = connect((store: DetailedPageType) => {
   return {
-    pokemonsArr: store.pokemonsArr,
+    pokemonArr: store.pokemonArr,
   };
 })(DetailedPage);
 

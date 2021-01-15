@@ -1,6 +1,6 @@
 # Pokedex based on [PokeAPI](https://github.com/PokeAPI/pokeapi)
 
-List of pokemons on the basis of React + Redux + Typescript
+List of pokemon on the basis of React + Redux + Typescript
 
 ### It includes:
 
