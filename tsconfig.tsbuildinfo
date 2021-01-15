@@ -752,7 +752,7 @@
         "affectsGlobalScope": true
       },
       "./src/store/store.js": {
-        "version": "0af267e4a739fd38673d9a7946459c021d639977d797eb03977dffd179b7ba02",
+        "version": "72c42aa385b7c2f26b65feaef4b5dbf737c811652cc0fbd107ba7a035bd31cfd",
         "signature": "51a1eee1a1a0f8c93d80f958660f8a98da5d7950946970a9db64cf0f940eef6a",
         "affectsGlobalScope": false
       },
@@ -2567,7 +2567,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "08725a1e83c73385daf66f3de7505ac5d5d5053cba981766663ca3e8c242eb8c",
+        "version": "ea69552a3929e330b3606accfbb07069cd764476f94e815b6c9383a533735142",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -5655,8 +5655,7 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/store/store.js",
-        "./src/utils/pokemondataarray.ts"
+        "./src/store/store.js"
       ],
       "./src/components/headerline/headerline.tsx": [
         "./node_modules/@material-ui/core/appbar/index.d.ts",

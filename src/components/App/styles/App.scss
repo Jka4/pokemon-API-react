@@ -589,6 +589,12 @@ a {
   font-weight: bold;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
+  .viewType {
+    margin-top: 100px;
+  }
+}
+
 .placeholderBase64 {
   filter: blur(18px);
 }
@@ -604,12 +610,6 @@ a {
 
   to {
     filter: blur(0px);
-  }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
-  .viewType {
-    margin-top: 100px;
   }
 }
 

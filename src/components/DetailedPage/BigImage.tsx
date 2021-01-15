@@ -20,7 +20,7 @@ const BigImage: React.FC<Props> = ({ bigImage = {} }: Props) => {
 
   return (
     <>
-      <Paper elevation={3}>
+      <Paper elevation={3} style={{ overflow: 'hidden' }}>
         <ImageContainer url={imageHQ} cn={'bigImage'} fallback={placeholder} />
       </Paper>
     </>

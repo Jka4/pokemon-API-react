@@ -2,10 +2,10 @@ import React, { useState, useMemo } from 'react';
 import { NavLink } from 'react-router-dom';
 import find from 'lodash.find';
 import Paper from '@material-ui/core/Paper';
-import POKEMON from 'utils/pokemonDataArray';
 
-type Props = {
+type EvolutionFormsTypes = {
   currentPokemon: any;
+  pokemonsArr: any[];
 };
 
 type ChainElements = {
@@ -16,23 +16,23 @@ type ChainElements = {
   [key: string]: any;
 };
 
-const EvolutionForms: React.FC<Props> = ({ currentPokemon }: Props) => {
+const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonsArr }: EvolutionFormsTypes) => {
   let [chain, setChain] = useState<any[]>([]);
 
   useMemo(() => {
-    const pokemonObj: any = find(POKEMON, (o) => o.name === currentPokemon);
+    const pokemonObj: any = find(pokemonsArr, (o) => o.name === currentPokemon);
     let arr: any[] = [];
 
     pokemonObj?.chain.forEach((index: ChainElements) => {
       const pokemonName = index.species_name;
-      index.image = find(POKEMON, (o) => o.name === pokemonName)?.image || '';
-      index.id = find(POKEMON, (o) => o.name === pokemonName)?.id || '';
-      index.placeholderBase64 = find(POKEMON, (o) => o.name === pokemonName)?.placeholderBase64 || '';
+      index.image = find(pokemonsArr, (o) => o.name === pokemonName)?.image || '';
+      index.id = find(pokemonsArr, (o) => o.name === pokemonName)?.id || '';
+      index.placeholderBase64 = find(pokemonsArr, (o) => o.name === pokemonName)?.placeholderBase64 || '';
       arr.push(index);
     });
 
     setChain(arr);
-  }, [currentPokemon]);
+  }, [currentPokemon, pokemonsArr]);
 
   const FormTitle = () => {
     return <div className="formsTitle">{chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}</div>;

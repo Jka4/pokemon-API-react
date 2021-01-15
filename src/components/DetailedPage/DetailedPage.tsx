@@ -2,20 +2,21 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { Provider, connect } from 'react-redux';
+import store from 'Store/store';
+
 import Stats from './Stats';
 import Abilities from './Abilities';
 import EvolutionForms from './EvolutionForms';
 import Sprites from './Sprites';
 import BigImage from './BigImage';
 
-import POKEMON from 'utils/pokemonDataArray';
 import axios from 'axios';
 
 import './styles/style.scss';
 
-type PropsType = {
-  pokemonArr: DetailsPageTypes[] | null;
-  detailsPage: null | any;
+type DetailedPageType = {
+  pokemonsArr: any[];
 };
 
 type bigImageTypes = {
@@ -41,7 +42,7 @@ type DetailsPageTypes = {
   name: string;
 };
 
-const DetailedPage: React.FC<PropsType> = () => {
+const DetailedPage: React.FC<DetailedPageType> = ({ pokemonsArr = [] }: DetailedPageType) => {
   let [bigImage, setBigImage] = useState<bigImageTypes>();
   let [detailsPage, setDetailsPage] = useState<any>();
 
@@ -63,16 +64,16 @@ const DetailedPage: React.FC<PropsType> = () => {
   }, [currentPokemon]);
 
   useEffect(() => {
-    const pokemon: any = POKEMON.find((el) => el.name === currentPokemon);
+    const pokemon: any = pokemonsArr.find((el) => el.name === currentPokemon);
     setBigImage(pokemon);
-  }, [currentPokemon]);
+  }, [currentPokemon, pokemonsArr]);
 
   return (
     <>
       <div className="detailedPage">
         <div className="name">{currentPokemon || 'POKEMON'}</div>
 
-        <EvolutionForms currentPokemon={currentPokemon} />
+        <EvolutionForms currentPokemon={currentPokemon} pokemonsArr={pokemonsArr} />
         <div className="mainInformation">
           <div className="skills">
             <Stats weight={weight} stats={stats} />
@@ -87,4 +88,16 @@ const DetailedPage: React.FC<PropsType> = () => {
   );
 };
 
-export default DetailedPage;
+// export default DetailedPage;
+
+const ConnectedDetailedPage = connect((store: DetailedPageType) => {
+  return {
+    pokemonsArr: store.pokemonsArr,
+  };
+})(DetailedPage);
+
+export default (props = {}) => (
+  <Provider store={store}>
+    <ConnectedDetailedPage {...props} />
+  </Provider>
+);
