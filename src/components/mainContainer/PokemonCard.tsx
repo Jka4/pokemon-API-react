@@ -1,7 +1,7 @@
 import React, { lazy } from 'react';
 import { NavLink } from 'react-router-dom';
 import Card from '@material-ui/core/Card';
-import { pokemonCardType } from 'types';
+import { pokemonCardType } from 'types/index';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 

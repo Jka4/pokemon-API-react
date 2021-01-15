@@ -5,7 +5,7 @@ import Heading from 'components/MainContainer//Heading';
 import PokemonCard from 'components/MainContainer/PokemonCard';
 import store from 'Store/store';
 
-import { IStoreType, pokemonCardType } from 'types';
+import { IStoreType, pokemonCardType } from 'types/index';
 
 interface Props {
   randomPokemon: pokemonCardType[];

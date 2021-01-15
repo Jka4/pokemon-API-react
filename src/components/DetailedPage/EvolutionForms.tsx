@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 import find from 'lodash.find';
 
-import { Pokes, ChainElements } from 'types';
+import { Pokes, ChainElements } from 'types/index';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;

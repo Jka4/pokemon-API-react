@@ -10,7 +10,7 @@ import CatalogView from './CatalogView';
 import AppsIcon from '@material-ui/icons/Apps';
 import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 
-import { Pokes, IStoreType } from 'types';
+import { Pokes, IStoreType } from 'types/index';
 
 const PokemonPageAll: React.FC<Pokes> = ({ pokemonDataArray }: Pokes) => {
   const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);

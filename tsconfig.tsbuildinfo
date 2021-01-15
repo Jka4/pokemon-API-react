@@ -787,8 +787,8 @@
         "affectsGlobalScope": false
       },
       "./src/utils/pokemondataarray.ts": {
-        "version": "c2e2f8993eb3572ac2f5722a39991a3e11e09bc347d47fc0506b61c8d1212cd7",
-        "signature": "c4394de8b8af8a2322c6743f3318858cb124a24bca3b6f418f16fed48a3fb47c",
+        "version": "2050885ad11471ebea768d77d3d50f3e0a592bf776ff2ae30e4014a1d71e8906",
+        "signature": "fcd56103203045a67af7b5cf389ad1e0344086b963adc93c0123db040df16e30",
         "affectsGlobalScope": false
       },
       "./src/store/localstorage.ts": {
@@ -882,12 +882,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
-        "version": "54a8386bcf6827e527cba8e0c066cad6b9d773087b0f16e8187065a6113eb876",
-        "signature": "e5537d8bf9ab1360fb6cbdcc3167d29f8a15e54b1c5a724cdfec98eedd021f6c",
+        "version": "e297bf02b00d2f7a9726050a613e1c5dac1ad74771ea96b1756985c5612e138c",
+        "signature": "744dc7855635bce33a482b347cfc4928d9198aaf7e7279c1c963d6198f4ad2fa",
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "6db4610bfefa8d827e1863cf64bef8088f41bac6579b76e2f07da4b03e5120f4",
+        "version": "d2e3bf527a9bc05e6620f72db519de639af2cb2694e69901c42c504feb49c3a5",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2687,7 +2687,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "75247b2a15e42105aa294233554225eded02ac64cb5175c7b2b0ad97a300e873",
+        "version": "f2002a10fdbfd714283e8e36a67817b05422c79c3a037a4eb787dd44b0a4d6cd",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2702,17 +2702,17 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/pokemoncard.tsx": {
-        "version": "80a0b7b36bfe6b221987a2cbd967bacccc3e584e3975fac3c0df7c091eb30d74",
-        "signature": "fd35daaed42871d77c09f48d34f9384ab22b4bcbe15cd606e58d2ab509233efd",
+        "version": "a02c4436607ac217418bac8ad14ed4d967ff952754398da360f1cb5b9e1ef199",
+        "signature": "2d5f79d17e67c8853f39870c865de06285df67f45c36bb609f9d29d8b3494ac3",
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "6ac6c6079aa423f400cbf1946b71dc410757766dbdf74adc90d99a78c8d89a80",
+        "version": "ec7f956f4753dfa5dff8ab46b2d43026d3db18d898658adfe673b6c4d149c6ca",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/maincontainer.tsx": {
-        "version": "729287d4e304dd202ae256e3d36aa0dc1d6bae45c0ea0f8d887dcd26f48d5850",
+        "version": "8544eda1fa9d570f0c556255cecae8f06516d4565ab91832c46927fbb60bf213",
         "signature": "2b3b7393c1c7b7f9513a507a13dfd45450f479ccf3298749a373a1fb6c7f43f8",
         "affectsGlobalScope": false
       },
@@ -2737,18 +2737,18 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "22d42203048819da9308f319d474d4e2c323fe1d0c07ada69e291d7663f2bd2a",
-        "signature": "1a743121091ec1b0f1fb3edc52b21a6fb1dbf2daf2f55d74907febce0888a38d",
+        "version": "08f395bbd0057241d20eb253e590da020e97e8f33bcaf0e48c8f81f893adb68f",
+        "signature": "6e9f20d0b609e06d5897f1d2829266c944b8bcd428a4a9716ddf3545397455f4",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/sprites.tsx": {
-        "version": "f238817f2889324ab49ac819c6b797cf0255e7f28f169f20bd0cbe841562f422",
-        "signature": "f0ad7459122c2eb959e57a413aa3593d19f5e24ffebd97e514077f0750262125",
+        "version": "08271c4a7d239450d90942addd76e7673eeaa7b8fccb3e91b7308418a180c56a",
+        "signature": "79e8ca824d3f061a1e0dfb070e82a2bd35153500a248fa4d86a68a74757db40d",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/bigimage.tsx": {
-        "version": "517f24b508b54c8a3327fe760f4d1f709a31cf70a9cb7f1ae05dfb5af9281c9c",
-        "signature": "e462d8d84131946b0f6da6808d0bd052e359ed65dc08e2682ebddf52c4579cdd",
+        "version": "c712c5e514a93351b4395c692e5b3e2ad6901843fb37176eb9a32262c09f209f",
+        "signature": "0529ae47bbec2b35b6c1d5b6d11b8e98d40d6eec6ce0702ad5272ccb78022977",
         "affectsGlobalScope": false
       },
       "./node_modules/axios/index.d.ts": {
@@ -2757,7 +2757,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "37e442572f9370c6a42e579d3f125ff6cc44995fa4659f65209f8cf506d73136",
+        "version": "48e7dbc7381653e79996273b2071d7f00dddc5b1e66783f8129fc27a01565d6b",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2767,8 +2767,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/listview.tsx": {
-        "version": "84d112d90f1802f9f335dc78a12e0d8afde126b55404c32aac1a01f8b0c3fe8e",
-        "signature": "731116014c9c0ae1c4e8a46a0913b1abb1085f2d494a0f4f9c345974b9d65fa9",
+        "version": "45614409496cc02eacd94a4510d2f2b71f9eb47bc0dee4faec1848a59dbc62ab",
+        "signature": "c206f08efd593d97f628fc62e5ff3d36dd260b081f89bd8082519f73ffefec87",
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/catalogview.tsx": {
@@ -2787,7 +2787,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/index.tsx": {
-        "version": "ae1999edf9e4df55e199100d806fd1aa52094154638a4e7c81c7fc84486dad4b",
+        "version": "567d24f5b72fa037a49147eb39f9a9a22d8bc974825a073d0636771b18190226",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },

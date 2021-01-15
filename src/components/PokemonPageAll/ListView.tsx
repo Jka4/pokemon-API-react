@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 
 import './styles/style.scss';
 
-import { Pokes } from 'types';
+import { Pokes } from 'types/index';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 

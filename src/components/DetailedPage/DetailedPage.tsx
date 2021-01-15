@@ -15,7 +15,7 @@ import axios from 'axios';
 
 import './styles/style.scss';
 
-import { Pokes, IStoreType } from 'types';
+import { Pokes, IStoreType } from 'types/index';
 
 interface DetailedPageType {
   pokemonArr: Pokes[];
