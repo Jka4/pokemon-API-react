@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ErrorBoundary from 'utils/ErrorBoundary';
 
-import { JSXElement } from 'commonTypes';
+import { JSXElement } from 'types';
 
 interface ImageContainerProps {
   url: string;

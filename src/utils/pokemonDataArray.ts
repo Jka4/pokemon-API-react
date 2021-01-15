@@ -1,4 +1,4 @@
-import { Pokes } from 'commonTypes';
+import { Pokes } from 'types';
 
 const POKEMON: Pokes[] = [
   {

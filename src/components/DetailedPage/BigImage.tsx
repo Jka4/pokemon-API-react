@@ -1,7 +1,7 @@
 import React, { lazy } from 'react';
 import Paper from '@material-ui/core/Paper';
 
-import { Pokes } from 'commonTypes';
+import { Pokes } from 'types';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 

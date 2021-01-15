@@ -5,7 +5,7 @@ import Heading from './Heading';
 import PokemonCard from './PokemonCard';
 import store from 'Store/store';
 
-import { IStoreType, pokemonCardType } from 'commonTypes';
+import { IStoreType, pokemonCardType } from 'types';
 
 interface Props {
   randomPokemon: pokemonCardType[];
@@ -21,15 +21,7 @@ const ItemsList: React.FC<Props> = ({ randomPokemon }: Props) => {
       <div className="itemList">
         <div className="cardsContainer">
           {randomPokemon.map((el: pokemonCardType, key: number) => (
-            <PokemonCard
-              key={key}
-              id={el.id}
-              src={el.image}
-              name={el.name}
-              order={el.order}
-              base_experience={el.base_experience}
-              placeholderBase64={el.placeholderBase64}
-            />
+            <PokemonCard pokeCard={el} key={key} />
           ))}
         </div>
       </div>

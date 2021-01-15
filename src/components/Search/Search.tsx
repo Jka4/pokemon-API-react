@@ -6,7 +6,7 @@ import Fuse from 'fuse.js';
 import { useDebounce } from 'ahooks';
 
 import store from 'Store/store';
-import { Pokes, IStoreType } from 'commonTypes';
+import { Pokes, IStoreType } from 'types';
 
 import './styles/style.scss';
 

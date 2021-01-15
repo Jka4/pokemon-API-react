@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 import find from 'lodash.find';
 
-import { Pokes, ChainElements } from 'commonTypes';
+import { Pokes, ChainElements } from 'types';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;
@@ -39,7 +39,7 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
 
       <div className="evolutionForms">
         {chain.map((index: ChainElements) => (
-          <NavLink to={`/detailedPage/pokemon/${index.species_name}`} data-pokemon_id={index.id} key={index.id}>
+          <NavLink to={`/detailedPage/pokemon/${index.species_name}`} key={index.id}>
             <Paper
               elevation={3}
               className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}

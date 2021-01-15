@@ -1,25 +1,20 @@
 import React, { lazy } from 'react';
 import { NavLink } from 'react-router-dom';
 import Card from '@material-ui/core/Card';
-import { pokemonCardType } from 'commonTypes';
+import { pokemonCardType } from 'types';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
-const PokemonCard: React.FC<pokemonCardType> = ({
-  src,
-  name,
-  order,
-  base_experience,
-  id,
-  placeholderBase64,
-}: pokemonCardType) => {
+const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) => {
+  const { name, order, base_experience, placeholderBase64, image } = pokeCard;
+
   return (
     <Card className="pokemonCard_Outer">
-      <NavLink to={`/detailedPage/pokemon/${name}`} data-pokemon_id={id} key={id}>
+      <NavLink to={`/detailedPage/pokemon/${name}`}>
         <div className="pokemonCard">
           <div className="imageWrapper">
             <ImageContainer
-              url={src}
+              url={image}
               cn={'bigImage'}
               fallback={
                 <img loading="lazy" src={placeholderBase64} className="pokemonImage placeholderBase64 deBlur" alt="" />

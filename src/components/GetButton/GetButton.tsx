@@ -11,7 +11,7 @@ import CasinoIcon from '@material-ui/icons/Casino';
 
 import './styles/style.scss';
 
-import { Pokes, IStoreType } from 'commonTypes';
+import { Pokes, IStoreType } from 'types';
 
 interface GetButtonProps {
   randomPokemon: Pokes[];

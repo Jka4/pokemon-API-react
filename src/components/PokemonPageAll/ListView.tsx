@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 
 import './styles/style.scss';
 
-import { Pokes } from 'commonTypes';
+import { Pokes } from 'types';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
@@ -55,7 +55,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           endMessage={<p className="pokemon-end">No more pokemon :(</p>}
         >
           {pokemon.map((pokemon: Pokes) => (
-            <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} data-pokemon_id={pokemon.id} key={pokemon.id}>
+            <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
                   <ImageContainer

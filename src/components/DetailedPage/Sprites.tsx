@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
-import { spritesType } from 'commonTypes';
+import { spritesType } from 'types';
 
 interface Props {
   sprites?: spritesType;

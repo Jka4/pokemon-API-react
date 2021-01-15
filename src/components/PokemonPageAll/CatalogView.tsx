@@ -33,7 +33,7 @@ const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     <div className="wrapper">
       {pokemonDataArray.map((index, key) => (
         <React.Fragment key={key}>
-          <NavLink to={`/detailedPage/pokemon/${index?.name}`} data-pokemon_id={index?.id} key={key}>
+          <NavLink to={`/detailedPage/pokemon/${index?.name}`} key={key}>
             <ImageContainer url={index?.image} cn="pokemonImageCard" fallback={fallback(index?.placeholderBase64)} />
           </NavLink>
         </React.Fragment>

@@ -42,7 +42,6 @@ export interface IStoreType {
 }
 
 export interface pokemonCardType {
-  id?: number;
   name?: string;
   weight?: number;
   image?: string;
