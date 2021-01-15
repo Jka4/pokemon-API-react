@@ -6,6 +6,7 @@ import Fuse from 'fuse.js';
 import { useDebounce } from 'ahooks';
 
 import store from 'Store/store';
+import { Pokes, IStoreType } from 'commonTypes';
 
 import './styles/style.scss';
 
@@ -30,28 +31,15 @@ type SearchProps = {
   pokemonDataArray: Pokes[];
 };
 
-type Pokes = {
-  id: number;
-  name: string;
-  weight: number;
-  image: string;
-  imageHQ: string;
-  placeholderBase64: string;
-  chain: {
-    species_name: string;
-  }[];
-};
-
 const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   const [showResult, setShowResult] = useState<boolean>(false);
   const [searchResult, setSearchResult] = useState<any[]>([]);
   const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
 
-  const handleChange = (event: any) => {
-    const value: string = event.target.value;
-
-    let fuse = new Fuse(pokemonDataArray, fuseOptions);
-    let result = fuse.search(value).slice(0, 11);
+  const handleChange = (event: React.SyntheticEvent): void => {
+    const value = (event.target as HTMLInputElement).value;
+    const fuse = new Fuse(pokemonDataArray, fuseOptions);
+    const result = fuse.search(value).slice(0, 11);
     setSearchResult(result);
   };
 
@@ -66,11 +54,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   };
 
   const fallback = (placeholderBase64: string) => {
-    return (
-      <>
-        <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />
-      </>
-    );
+    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
   };
 
   return (
@@ -111,7 +95,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   );
 };
 
-const ConnectedSearch = connect((store: { pokemonArr: Pokes[] }) => {
+const ConnectedSearch = connect((store: IStoreType) => {
   return {
     pokemonDataArray: store.pokemonArr,
   };

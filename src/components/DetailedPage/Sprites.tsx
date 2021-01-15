@@ -2,9 +2,11 @@ import React, { Suspense } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
-type Props = {
-  sprites: any;
-};
+import { spritesType } from 'commonTypes';
+
+interface Props {
+  sprites?: spritesType;
+}
 
 const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
   const SpritesPlaceholders = () => {

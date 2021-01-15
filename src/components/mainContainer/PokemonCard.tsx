@@ -1,17 +1,9 @@
 import React, { lazy } from 'react';
 import { NavLink } from 'react-router-dom';
 import Card from '@material-ui/core/Card';
+import { pokemonCardType } from 'commonTypes';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
-
-type pokemonCardType = {
-  base_experience: number;
-  id: number;
-  name: string;
-  order: number;
-  src: string;
-  placeholderBase64: string;
-};
 
 const PokemonCard: React.FC<pokemonCardType> = ({
   src,

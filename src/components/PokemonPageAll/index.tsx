@@ -10,22 +10,10 @@ import CatalogView from './CatalogView';
 import AppsIcon from '@material-ui/icons/Apps';
 import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 
-type PokemonPageAllType = {
-  pokemonDataArray: {
-    chain: {
-      species_name: string;
-    }[];
-    id: 0;
-    image: string;
-    imageHQ: string;
-    name: string;
-    placeholderBase64: string;
-    weight: number;
-  }[];
-};
+import { Pokes, IStoreType } from 'commonTypes';
 
-const PokemonPageAll: React.FC<PokemonPageAllType> = ({ pokemonDataArray = [] }: PokemonPageAllType) => {
-  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(true);
+const PokemonPageAll: React.FC<Pokes> = ({ pokemonDataArray }: Pokes) => {
+  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);
 
   return (
     <>
@@ -62,7 +50,7 @@ const PokemonPageAll: React.FC<PokemonPageAllType> = ({ pokemonDataArray = [] }:
   );
 };
 
-const ConnectedPokemonPageAll = connect((store: { pokemonArr: any[] }) => {
+const ConnectedPokemonPageAll = connect((store: IStoreType) => {
   return {
     pokemonDataArray: store.pokemonArr,
   };

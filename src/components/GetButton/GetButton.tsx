@@ -11,10 +11,12 @@ import CasinoIcon from '@material-ui/icons/Casino';
 
 import './styles/style.scss';
 
-type GetButtonProps = {
-  randomPokemon: any[];
-  pokemonArr: any[];
-};
+import { Pokes, IStoreType } from 'commonTypes';
+
+interface GetButtonProps {
+  randomPokemon: Pokes[];
+  pokemonArr: Pokes[];
+}
 
 const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = [] }: GetButtonProps) => {
   const clearState = () => {
@@ -55,7 +57,7 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = 
   );
 };
 
-const ConnectedGetButton = connect((store: GetButtonProps) => {
+const ConnectedGetButton = connect((store: IStoreType) => {
   return {
     randomPokemon: store.randomPokemon,
     pokemonArr: store.pokemonArr,

@@ -5,22 +5,13 @@ import Heading from './Heading';
 import PokemonCard from './PokemonCard';
 import store from 'Store/store';
 
-type ItemsListType = {
-  randomPokemon: randomPokemonType[];
-};
+import { IStoreType, pokemonCardType } from 'commonTypes';
 
-type randomPokemonType = {
-  id: number;
-  sprites: {
-    front_default: string;
-  };
-  name: string;
-  order: number;
-  base_experience: number;
-  placeholderBase64?: string;
-};
+interface Props {
+  randomPokemon: pokemonCardType[];
+}
 
-const ItemsList: React.FC<ItemsListType> = ({ randomPokemon }: ItemsListType) => {
+const ItemsList: React.FC<Props> = ({ randomPokemon }: Props) => {
   const haveData = randomPokemon.length !== 0;
 
   return (
@@ -29,15 +20,15 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemon }: ItemsListType) =>
 
       <div className="itemList">
         <div className="cardsContainer">
-          {randomPokemon.map((el: any, key: number) => (
+          {randomPokemon.map((el: pokemonCardType, key: number) => (
             <PokemonCard
               key={key}
-              id={el?.id}
-              src={el?.image}
-              name={el?.name}
-              order={el?.order}
-              base_experience={el?.base_experience}
-              placeholderBase64={el?.placeholderBase64}
+              id={el.id}
+              src={el.image}
+              name={el.name}
+              order={el.order}
+              base_experience={el.base_experience}
+              placeholderBase64={el.placeholderBase64}
             />
           ))}
         </div>
@@ -46,7 +37,7 @@ const ItemsList: React.FC<ItemsListType> = ({ randomPokemon }: ItemsListType) =>
   );
 };
 
-const ConnectedItemsList = connect((store: ItemsListType) => {
+const ConnectedItemsList = connect((store: IStoreType) => {
   return {
     randomPokemon: store.randomPokemon,
   };

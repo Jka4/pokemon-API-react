@@ -2,16 +2,16 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
-type Props = {
+interface Props {
   abilities: AbilityElements[];
-};
+}
 
-type AbilityElements = {
+interface AbilityElements {
   ability: {
     url: string;
     name: string;
   };
-};
+}
 
 const Abilities: React.FC<Props> = ({ abilities = [] }: Props) => {
   const fallbackSkeletons = () => {

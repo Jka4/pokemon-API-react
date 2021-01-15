@@ -1,27 +1,22 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
+
 import { NavLink } from 'react-router-dom';
-import find from 'lodash.find';
 import Paper from '@material-ui/core/Paper';
+import find from 'lodash.find';
 
-type EvolutionFormsTypes = {
-  currentPokemon: any;
-  pokemonArr: any[];
-};
+import { Pokes, ChainElements } from 'commonTypes';
 
-type ChainElements = {
-  image: string;
-  species_name: any;
-  placeholderBase64: string;
-  id: number | string;
-  [key: string]: any;
-};
+interface EvolutionFormsTypes {
+  currentPokemon?: string;
+  pokemonArr: Pokes[];
+}
 
 const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonArr }: EvolutionFormsTypes) => {
-  let [chain, setChain] = useState<any[]>([]);
+  let [chain, setChain] = useState<ChainElements[]>([]);
 
   useMemo(() => {
-    const pokemonObj: any = find(pokemonArr, (o) => o.name === currentPokemon);
-    let arr: any[] = [];
+    const pokemonObj: Pokes | undefined = find(pokemonArr, (o) => o.name === currentPokemon);
+    let arr: ChainElements[] = [];
 
     pokemonObj?.chain.forEach((index: ChainElements) => {
       const pokemonName = index.species_name;

@@ -2,17 +2,17 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
-type Props = {
+interface Props {
   stats: StatsElements[];
   weight: number;
-};
+}
 
-type StatsElements = {
+interface StatsElements {
   base_stat: number;
   stat: {
     name: string;
   };
-};
+}
 
 const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
   const fallbackSkeletons = () => {

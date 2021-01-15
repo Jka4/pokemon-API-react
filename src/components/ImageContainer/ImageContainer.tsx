@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import ErrorBoundary from 'utils/ErrorBoundary';
 
-type ImageContainerProps = {
+import { JSXElement } from 'commonTypes';
+
+interface ImageContainerProps {
   url: string;
   cn?: string;
-  fallback?: any;
-};
+  fallback?: JSXElement | Function;
+}
 
 const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
   const [ready, setReady] = useState<boolean>(false);

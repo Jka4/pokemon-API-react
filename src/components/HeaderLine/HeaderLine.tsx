@@ -15,9 +15,9 @@ import './styles/style.scss';
 const HeaderLine: React.FC = () => {
   const isMainPage = useLocation().pathname === '/';
 
-  function HomeIcon({ props }: any) {
+  function HomeIcon() {
     return (
-      <SvgIcon {...props}>
+      <SvgIcon>
         <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
       </SvgIcon>
     );

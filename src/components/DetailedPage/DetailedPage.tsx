@@ -15,42 +15,22 @@ import axios from 'axios';
 
 import './styles/style.scss';
 
-type DetailedPageType = {
-  pokemonArr: any[];
-};
+import { Pokes, IStoreType } from 'commonTypes';
 
-type bigImageTypes = {
-  placeholderBase64: string;
-  imageHQ: string;
-};
-
-type DetailsPageTypes = {
-  weight: number;
-  abilities: {
-    ability: {
-      url: string;
-      name: string;
-    };
-  }[];
-  stats: {
-    base_stat: number;
-    stat: {
-      name: string;
-    };
-  }[];
-  sprites: any[string];
-  name: string;
-};
+interface DetailedPageType {
+  pokemonArr: Pokes[];
+}
 
 const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedPageType) => {
-  let [bigImage, setBigImage] = useState<bigImageTypes>();
-  let [detailsPage, setDetailsPage] = useState<any>();
+  const [bigImage, setBigImage] = useState<Pokes>();
+  const [detailedPage, setDetailedPage] = useState<any>({});
+
+  const { abilities, stats, weight, sprites } = detailedPage;
 
   const currentPokemon = useLocation().pathname.split('/').pop();
-  const { abilities, stats, weight, sprites }: DetailsPageTypes = detailsPage || {};
 
   useEffect(() => {
-    setDetailsPage({});
+    setDetailedPage({});
 
     const URL = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
     axios.get(URL).then(async (response) => {
@@ -59,13 +39,13 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedP
       delete poke.sprites.other;
       delete poke.sprites.versions;
 
-      setDetailsPage(poke);
+      setDetailedPage(poke);
     });
   }, [currentPokemon]);
 
   useEffect(() => {
-    const pokemon: any = pokemonArr.find((el) => el.name === currentPokemon);
-    setBigImage(pokemon);
+    const pokemon: Pokes | undefined = pokemonArr.find((el) => el.name === currentPokemon);
+    pokemon && setBigImage(pokemon);
   }, [currentPokemon, pokemonArr]);
 
   return (
@@ -90,7 +70,7 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedP
 
 // export default DetailedPage;
 
-const ConnectedDetailedPage = connect((store: DetailedPageType) => {
+const ConnectedDetailedPage = connect((store: IStoreType) => {
   return {
     pokemonArr: store.pokemonArr,
   };
