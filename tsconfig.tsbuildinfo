@@ -882,7 +882,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
-        "version": "b6e078c70e4e6889a64ba2949884f14dede63142dd0e9d34069e6989ff4032a8",
+        "version": "54a8386bcf6827e527cba8e0c066cad6b9d773087b0f16e8187065a6113eb876",
         "signature": "e5537d8bf9ab1360fb6cbdcc3167d29f8a15e54b1c5a724cdfec98eedd021f6c",
         "affectsGlobalScope": false
       },
@@ -2707,12 +2707,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/itemslist.tsx": {
-        "version": "386f10f8ea1ee9adb0f3647989384f44ecdf30f6d023afc787c861af0563a612",
+        "version": "6ac6c6079aa423f400cbf1946b71dc410757766dbdf74adc90d99a78c8d89a80",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/maincontainer.tsx": {
-        "version": "1b9de0a1933b5dca0863d0b1cbee488ffff364de7b32303aea8c1aaa45a1f49f",
+        "version": "729287d4e304dd202ae256e3d36aa0dc1d6bae45c0ea0f8d887dcd26f48d5850",
         "signature": "2b3b7393c1c7b7f9513a507a13dfd45450f479ccf3298749a373a1fb6c7f43f8",
         "affectsGlobalScope": false
       },
@@ -2806,13 +2806,13 @@
         "signature": "044cb7631005aba08228028892197431d70f4668828fd3fb5d944a7e18d010f9",
         "affectsGlobalScope": false
       },
-      "./src/components/app/view/index.tsx": {
-        "version": "b75066831700ba4f0e6b4669c2105f87e501931412b2e2ca60d19b2f515aa989",
+      "./src/components/app/view/app.tsx": {
+        "version": "4fdb4d66c1dcd497dae034ebd16022cfee0dfbcdb076ce526168f165cca0e161",
         "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
       "./src/components/app/index.tsx": {
-        "version": "77aabc118751a20441a97270d3308e8ab050a81bc4e92878495611b59d947285",
+        "version": "76c3f395eededd0c613d877d814d5ff30b5547d2b4551f40b7c74c984f7f5cfb",
         "signature": "41469ab9c84d19178049a6f893c0a642710b3be2fa9c53bc7fcf0c0b42a67003",
         "affectsGlobalScope": false
       },
@@ -5765,9 +5765,9 @@
       "./src/components/app/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/app/view/index.tsx"
+        "./src/components/app/view/app.tsx"
       ],
-      "./src/components/app/view/index.tsx": [
+      "./src/components/app/view/app.tsx": [
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -8386,7 +8386,7 @@
       "./node_modules/use-sound/dist/index.d.ts": [
         "./node_modules/use-sound/dist/types.d.ts"
       ],
-      "./src/components/app/view/index.tsx": [
+      "./src/components/app/view/app.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/detailedpage/abilities.tsx": [
@@ -9094,7 +9094,7 @@
       "./node_modules/use-sound/dist/index.d.ts",
       "./node_modules/use-sound/dist/types.d.ts",
       "./src/components/app/index.tsx",
-      "./src/components/app/view/index.tsx",
+      "./src/components/app/view/app.tsx",
       "./src/components/detailedpage/abilities.tsx",
       "./src/components/detailedpage/bigimage.tsx",
       "./src/components/detailedpage/detailedpage.tsx",
@@ -11521,6 +11521,10 @@
       ],
       [
         "./src/components/app/index.tsx",
+        1
+      ],
+      [
+        "./src/components/app/view/app.tsx",
         1
       ],
       [

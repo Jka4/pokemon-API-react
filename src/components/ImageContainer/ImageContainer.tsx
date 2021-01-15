@@ -27,7 +27,7 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
       <ErrorBoundary>
         {!ready && <>{typeof fallback === 'function' ? fallback() : fallback}</>}
 
-        <img src={url} alt={cn} className={cn} style={{ display: ready ? 'block' : 'none' }} />
+        <img src={url} alt={cn} className={cn} style={{ display: ready ? 'block' : 'none' }} loading="lazy" />
       </ErrorBoundary>
     </>
   );

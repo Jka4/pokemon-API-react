@@ -1,8 +1,8 @@
 import React from 'react';
 
 import GetButton from 'components/GetButton/GetButton';
-import Logo from './Logo';
-import ItemsList from './itemsList';
+import Logo from 'components/MainContainer/Logo';
+import ItemsList from 'components/MainContainer/ItemsList';
 
 import './styles/style.scss';
 
