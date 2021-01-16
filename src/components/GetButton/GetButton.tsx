@@ -32,8 +32,7 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = 
     <div className="Button">
       <NavLink to={`/allPokemon/`}>
         <Button variant="contained" color="secondary">
-          {' '}
-          SHOW ALL POKEMON{' '}
+          SHOW ALL POKEMON
         </Button>
       </NavLink>
 
