@@ -7,8 +7,8 @@ import store from 'Store/store';
 
 import Stats from './Stats';
 import Abilities from './Abilities';
-import EvolutionForms from './EvolutionForms';
 import Sprites from './Sprites';
+import EvolutionForms from './EvolutionForms';
 import BigImage from './BigImage';
 
 import axios from 'axios';
