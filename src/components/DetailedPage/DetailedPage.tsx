@@ -73,8 +73,6 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedP
   );
 };
 
-// export default DetailedPage;
-
 const ConnectedDetailedPage = connect((store: IStoreType) => {
   return {
     pokemonArr: store.pokemonArr,

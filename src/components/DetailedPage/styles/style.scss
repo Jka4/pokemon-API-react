@@ -8,8 +8,8 @@
   border-radius: 4px;
 }
 
-.placeholderBase64 {
-  // filter: blur(18px);
+.evoFormImg.placeholderBase64 {
+  filter: blur(8px);
   width: 400px;
   height: 420px;
   display: flex;

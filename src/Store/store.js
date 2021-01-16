@@ -44,7 +44,7 @@ const store = configureStore({
 })
 
 store.subscribe(
-  throttle(() => saveState(store.getState()), 5000)
+  throttle(() => saveState(store.getState()), 1000)
 );
 
 

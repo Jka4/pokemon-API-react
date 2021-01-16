@@ -4,20 +4,12 @@ import { NavLink } from 'react-router-dom';
 import 'react-tippy/dist/tippy.css';
 import './styles/style.scss';
 
+import { Pokes } from 'types/index';
+
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
-  pokemonDataArray: {
-    chain: {
-      species_name: string;
-    }[];
-    id: 0;
-    image: string;
-    imageHQ: string;
-    name: string;
-    placeholderBase64: string;
-    weight: number;
-  }[];
+  pokemonDataArray: Pokes[];
 };
 
 const CatalogView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {

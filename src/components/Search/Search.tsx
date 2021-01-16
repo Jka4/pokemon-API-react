@@ -1,9 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useState } from 'react';
+import React, { lazy, useState, useRef } from 'react';
 import { Provider, connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Fuse from 'fuse.js';
-import { useDebounce } from 'ahooks';
+import { useClickAway } from 'ahooks';
 
 import store from 'Store/store';
 import { Pokes, IStoreType } from 'types/index';
@@ -34,7 +34,6 @@ type SearchProps = {
 const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   const [showResult, setShowResult] = useState<boolean>(false);
   const [searchResult, setSearchResult] = useState<any[]>([]);
-  const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
 
   const handleChange = (event: React.SyntheticEvent): void => {
     const value = (event.target as HTMLInputElement).value;
@@ -47,11 +46,10 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     setShowResult(true);
   };
 
-  const handleBlur = () => {
-    setTimeout(() => {
-      setShowResult(false);
-    }, 400);
-  };
+  const ref: any = useRef<HTMLSpanElement>();
+  useClickAway(() => {
+    setShowResult(false);
+  }, ref);
 
   const fallback = (placeholderBase64: string) => {
     return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
@@ -66,15 +64,15 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
         placeholder="Pikachu, 25, 900g"
         onChange={handleChange}
         onFocus={handleFocus}
-        onBlur={handleBlur}
         autoComplete="off"
         aria-label="Search"
+        ref={ref}
       />
 
       <div className="searchResults">
         {showResult && (
           <ul className="searchList">
-            {debouncedSearchResult.map((i, key) => (
+            {searchResult.map((i, key) => (
               <NavLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`} className="searchItem_outer">
                 <li data-id={i.item.id} className="searchItem">
                   <span className="item_name">NAME: {i.item.name}</span>
