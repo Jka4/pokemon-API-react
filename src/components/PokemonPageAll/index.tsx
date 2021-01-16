@@ -20,23 +20,9 @@ const PokemonPageAll: React.FC<Pokes> = ({ pokemonDataArray }: Pokes) => {
       <div className="viewType">
         <div className="viewTypeInner">
           <div className="innerBlock" onClick={() => setViewTypeIsCatalog(!viewTypeIsCatalog)}>
-            {!viewTypeIsCatalog ? (
-              <>
-                <span>List view:</span>
-                <span className="separator">|</span>
-                <div className="list">
-                  <BlurOnOutlinedIcon />
-                </div>
-              </>
-            ) : (
-              <>
-                <span>Catalog view:</span>
-                <span className="separator">|</span>
-                <div className="catalog">
-                  <AppsIcon />
-                </div>
-              </>
-            )}
+            <span>{!viewTypeIsCatalog ? 'List view:' : 'Catalog view:'}</span>
+            <span className="separator">|</span>
+            <div className="viewTypeIcon">{!viewTypeIsCatalog ? <BlurOnOutlinedIcon /> : <AppsIcon />}</div>
           </div>
         </div>
       </div>

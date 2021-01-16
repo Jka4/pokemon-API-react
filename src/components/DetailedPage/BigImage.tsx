@@ -16,7 +16,7 @@ const BigImage: React.FC<RootType> = ({ bigImage }: RootType) => {
 
   return (
     <Paper elevation={3} style={{ overflow: 'hidden' }}>
-      <ImageContainer url={bigImage?.imageHQ || ''} cn={'bigImage'} fallback={placeholder} />
+      <ImageContainer url={bigImage?.imageHQ || ''} cn={'bigImage deBlur'} fallback={placeholder} />
     </Paper>
   );
 };

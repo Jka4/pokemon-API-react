@@ -538,11 +538,11 @@ a {
   filter: blur(18px);
 }
 
-.pokemonImageCard {
-  animation: 0.3s linear 0s deBlur;
+.deBlur {
+  animation: 0.2s linear 0s deBlurAnimation;
 }
 
-@keyframes deBlur {
+@keyframes deBlurAnimation {
   from {
     filter: blur(18px);
   }
@@ -550,8 +550,4 @@ a {
   to {
     filter: blur(0px);
   }
-}
-
-.deBlur {
-  animation: 0.2s linear 0s deBlur;
 }

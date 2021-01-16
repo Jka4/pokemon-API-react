@@ -80,7 +80,7 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
                   <ImageContainer
                     url={i.item.image}
-                    cn={'searchItem__image'}
+                    cn={'searchItem__image deBlur'}
                     fallback={fallback(i.item.placeholderBase64)}
                   />
                 </li>

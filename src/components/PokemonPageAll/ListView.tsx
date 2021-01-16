@@ -60,7 +60,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
                 <div className="pokemonLogo">
                   <ImageContainer
                     url={pokemon.imageHQ || pokemon.image}
-                    cn={'pokemonImageCard'}
+                    cn={'pokemonImageCard deBlur'}
                     fallback={fallback(pokemon.placeholderBase64)}
                   />
                 </div>

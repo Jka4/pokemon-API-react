@@ -24,10 +24,8 @@ interface DetailedPageType {
 const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedPageType) => {
   const [bigImage, setBigImage] = useState<Pokes>();
   const [detailedPage, setDetailedPage] = useState<any>({});
-
-  const { abilities, stats, weight, sprites } = detailedPage;
-
   const currentPokemon = useLocation().pathname.split('/').pop();
+  const { abilities, stats, weight, sprites } = detailedPage;
 
   useEffect(() => {
     setDetailedPage({});
