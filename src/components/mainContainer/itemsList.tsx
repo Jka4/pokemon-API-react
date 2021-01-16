@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
 import { Provider, connect } from 'react-redux';
-import Heading from 'components/MainContainer//Heading';
+import Heading from 'components/MainContainer/Heading';
 import PokemonCard from 'components/MainContainer/PokemonCard';
 import store from 'Store/store';
 
