@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "tsc": "tsc",
+    "dev": "yarn && yarn tsc && yarn build && yarn start",
     "deploy": "react-scripts build && gh-pages -d build",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
