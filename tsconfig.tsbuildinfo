@@ -681,76 +681,6 @@
         "signature": "fce37e7afb86c3cf7e3b224c3d253784a6f6e5ec74a146930c53e64fcf198c4e",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/lodash/common/common.d.ts": {
-        "version": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
-        "signature": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/array.d.ts": {
-        "version": "438284c7c455a29b9c0e2d1e72abc62ee93d9a163029ffe918a34c5db3b92da2",
-        "signature": "438284c7c455a29b9c0e2d1e72abc62ee93d9a163029ffe918a34c5db3b92da2",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/collection.d.ts": {
-        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
-        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/date.d.ts": {
-        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
-        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/function.d.ts": {
-        "version": "c9f396e71966bd3a890d8a36a6a497dbf260e9b868158ea7824d4b5421210afe",
-        "signature": "c9f396e71966bd3a890d8a36a6a497dbf260e9b868158ea7824d4b5421210afe",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/lang.d.ts": {
-        "version": "509235563ea2b939e1bbe92aae17e71e6a82ceab8f568b45fb4fce7d72523a32",
-        "signature": "509235563ea2b939e1bbe92aae17e71e6a82ceab8f568b45fb4fce7d72523a32",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/math.d.ts": {
-        "version": "9364c7566b0be2f7b70ff5285eb34686f83ccb01bda529b82d23b2a844653bfb",
-        "signature": "9364c7566b0be2f7b70ff5285eb34686f83ccb01bda529b82d23b2a844653bfb",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/number.d.ts": {
-        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
-        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/object.d.ts": {
-        "version": "c311349ec71bb69399ffc4092853e7d8a86c1ca39ddb4cd129e775c19d985793",
-        "signature": "c311349ec71bb69399ffc4092853e7d8a86c1ca39ddb4cd129e775c19d985793",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/seq.d.ts": {
-        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
-        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/string.d.ts": {
-        "version": "4908e4c00832b26ce77a629de8501b0e23a903c094f9e79a7fec313a15da796a",
-        "signature": "4908e4c00832b26ce77a629de8501b0e23a903c094f9e79a7fec313a15da796a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/common/util.d.ts": {
-        "version": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
-        "signature": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/lodash/index.d.ts": {
-        "version": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
-        "signature": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/@types/lodash.debounce/index.d.ts": {
-        "version": "7044c407773c0900946b7a02f3a0e7e5e79af8b0a32b14aeb419b7beedfb3fcd",
-        "signature": "7044c407773c0900946b7a02f3a0e7e5e79af8b0a32b14aeb419b7beedfb3fcd",
-        "affectsGlobalScope": false
-      },
       "./node_modules/immer/dist/utils/env.d.ts": {
         "version": "4df0891b133884cd9ed752d31c7d0ec0a09234e9ed5394abffd3c660761598db",
         "signature": "4df0891b133884cd9ed752d31c7d0ec0a09234e9ed5394abffd3c660761598db",
@@ -866,6 +796,71 @@
         "signature": "503e472369b632ac8f96ebfc548ad2e6f562165e5cf20564aefd40c1ff51706e",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/lodash/common/common.d.ts": {
+        "version": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
+        "signature": "3594c022901a1c8993b0f78a3f534cfb81e7b619ed215348f7f6882f3db02abc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/array.d.ts": {
+        "version": "438284c7c455a29b9c0e2d1e72abc62ee93d9a163029ffe918a34c5db3b92da2",
+        "signature": "438284c7c455a29b9c0e2d1e72abc62ee93d9a163029ffe918a34c5db3b92da2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/collection.d.ts": {
+        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/date.d.ts": {
+        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/function.d.ts": {
+        "version": "c9f396e71966bd3a890d8a36a6a497dbf260e9b868158ea7824d4b5421210afe",
+        "signature": "c9f396e71966bd3a890d8a36a6a497dbf260e9b868158ea7824d4b5421210afe",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/lang.d.ts": {
+        "version": "509235563ea2b939e1bbe92aae17e71e6a82ceab8f568b45fb4fce7d72523a32",
+        "signature": "509235563ea2b939e1bbe92aae17e71e6a82ceab8f568b45fb4fce7d72523a32",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/math.d.ts": {
+        "version": "9364c7566b0be2f7b70ff5285eb34686f83ccb01bda529b82d23b2a844653bfb",
+        "signature": "9364c7566b0be2f7b70ff5285eb34686f83ccb01bda529b82d23b2a844653bfb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/number.d.ts": {
+        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/object.d.ts": {
+        "version": "c311349ec71bb69399ffc4092853e7d8a86c1ca39ddb4cd129e775c19d985793",
+        "signature": "c311349ec71bb69399ffc4092853e7d8a86c1ca39ddb4cd129e775c19d985793",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/seq.d.ts": {
+        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/string.d.ts": {
+        "version": "4908e4c00832b26ce77a629de8501b0e23a903c094f9e79a7fec313a15da796a",
+        "signature": "4908e4c00832b26ce77a629de8501b0e23a903c094f9e79a7fec313a15da796a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/common/util.d.ts": {
+        "version": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "signature": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/lodash/index.d.ts": {
+        "version": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
+        "signature": "0714e2046df66c0e93c3330d30dbc0565b3e8cd3ee302cf99e4ede6220e5fec8",
+        "affectsGlobalScope": true
+      },
       "./node_modules/@types/lodash.mapkeys/index.d.ts": {
         "version": "8c5baa4593e5eb62cbcdde80d486dd5bc89aeaf37f149dac390965d1378abebb",
         "signature": "8c5baa4593e5eb62cbcdde80d486dd5bc89aeaf37f149dac390965d1378abebb",
@@ -892,7 +887,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/search/search.tsx": {
-        "version": "9d7d8a1c345aecd6829fe6e280f04a41dabccfee974ae9236cc283b5306129a3",
+        "version": "6da5bc8b073c7b3789e07e034caffa8be4c57cce9b68aaaf229c890e897e7f3f",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2707,7 +2702,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/pokemoncard.tsx": {
-        "version": "a02c4436607ac217418bac8ad14ed4d967ff952754398da360f1cb5b9e1ef199",
+        "version": "f7fff1ca60042f6890b861eadbce3655fed470e12b4f669c0c92e8ce54c10137",
         "signature": "2d5f79d17e67c8853f39870c865de06285df67f45c36bb609f9d29d8b3494ac3",
         "affectsGlobalScope": false
       },
@@ -2752,7 +2747,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/bigimage.tsx": {
-        "version": "c712c5e514a93351b4395c692e5b3e2ad6901843fb37176eb9a32262c09f209f",
+        "version": "7a8e99153ab67fbc090da491a420b31a7b5d0203e08c823d108597153b7ee1cc",
         "signature": "0529ae47bbec2b35b6c1d5b6d11b8e98d40d6eec6ce0702ad5272ccb78022977",
         "affectsGlobalScope": false
       },
@@ -2762,7 +2757,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "3948bc2c02281d1b1355fb03a776a625b7d9e3196f8ea320e596b5634cd05494",
+        "version": "bafe67bdd7a2f5530686eeeefa85158bd31d4f80be5e18f2813adcac1669439b",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2772,13 +2767,13 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/listview.tsx": {
-        "version": "45614409496cc02eacd94a4510d2f2b71f9eb47bc0dee4faec1848a59dbc62ab",
+        "version": "d69f43972f66a1d4f4dcad3d219367019fb64e6be73e3a4c53f96f0e2f8a9a03",
         "signature": "c206f08efd593d97f628fc62e5ff3d36dd260b081f89bd8082519f73ffefec87",
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/catalogview.tsx": {
-        "version": "59ced7623277dfcb1d5154312a8a514df605fae79c8aaf2ba9e2130fb32697c3",
-        "signature": "a56381b9175a12884b1f0093eb21e1f5107985908fa92f3112d96d779738990f",
+        "version": "3ac4fc9c59193bc67a073b91c04953e801387d53a3925478f903b21cf1da1512",
+        "signature": "ee0aa4c25077af070da678b4b1b9bd2ff48ddce0739c3c3439e4d518566c6e87",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/apps.d.ts": {
@@ -2792,7 +2787,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/index.tsx": {
-        "version": "567d24f5b72fa037a49147eb39f9a9a22d8bc974825a073d0636771b18190226",
+        "version": "147bb0933eec5d619161ee773764a48d8b4c04bbf1d62c736d342a768bed9cfa",
         "signature": "f3e370b49fff62a68169fbca9e6f9044fe1dbedc43161472cb8dc1d1d0feee8f",
         "affectsGlobalScope": false
       },
@@ -5036,9 +5031,6 @@
       "./node_modules/@types/istanbul-reports/index.d.ts": [
         "./node_modules/@types/istanbul-lib-report/index.d.ts"
       ],
-      "./node_modules/@types/lodash.debounce/index.d.ts": [
-        "./node_modules/@types/lodash/index.d.ts"
-      ],
       "./node_modules/@types/lodash.find/index.d.ts": [
         "./node_modules/@types/lodash/index.d.ts"
       ],
@@ -5919,7 +5911,8 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx"
+        "./src/components/imagecontainer/imagecontainer.tsx",
+        "./src/types/index.ts"
       ],
       "./src/components/pokemonpageall/index.tsx": [
         "./node_modules/@material-ui/icons/apps.d.ts",
@@ -5942,7 +5935,6 @@
         "./src/types/index.ts"
       ],
       "./src/components/search/search.tsx": [
-        "./node_modules/@types/lodash.debounce/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -7667,9 +7659,6 @@
       "./node_modules/@types/istanbul-reports/index.d.ts": [
         "./node_modules/@types/istanbul-lib-report/index.d.ts"
       ],
-      "./node_modules/@types/lodash.debounce/index.d.ts": [
-        "./node_modules/@types/lodash/index.d.ts"
-      ],
       "./node_modules/@types/lodash.find/index.d.ts": [
         "./node_modules/@types/lodash/index.d.ts"
       ],
@@ -8454,7 +8443,8 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/pokemonpageall/catalogview.tsx": [
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/index.ts"
       ],
       "./src/components/pokemonpageall/listview.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -8861,7 +8851,6 @@
       "./node_modules/@types/js-cookie/index.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
       "./node_modules/@types/json5/index.d.ts",
-      "./node_modules/@types/lodash.debounce/index.d.ts",
       "./node_modules/@types/lodash.find/index.d.ts",
       "./node_modules/@types/lodash.mapkeys/index.d.ts",
       "./node_modules/@types/lodash.throttle/index.d.ts",
