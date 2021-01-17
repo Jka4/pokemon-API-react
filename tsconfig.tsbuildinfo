@@ -792,8 +792,8 @@
         "affectsGlobalScope": false
       },
       "./src/store/localstorage.ts": {
-        "version": "896ac6602f8aff74c9c7ff06e653dc18996d481cd15527f15e4ab1a2026135b9",
-        "signature": "503e472369b632ac8f96ebfc548ad2e6f562165e5cf20564aefd40c1ff51706e",
+        "version": "f49925121c98e9e886f804f057c942376f37162595e997d18d6de7da42599ed3",
+        "signature": "feb392c9e79bc7e3a16ad9b6c59498986356ad4b36c37acd37e5d425dbfd5175",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/lodash/common/common.d.ts": {
@@ -5961,7 +5961,8 @@
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
       "./src/store/localstorage.ts": [
-        "./node_modules/@types/react/jsx-runtime.d.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/types/index.ts"
       ],
       "./src/store/store.js": [
         "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",
@@ -8452,6 +8453,9 @@
       ],
       "./src/react-app-env.d.ts": [
         "./node_modules/react-scripts/lib/react-app.d.ts"
+      ],
+      "./src/store/localstorage.ts": [
+        "./src/types/index.ts"
       ],
       "./src/store/store.js": [
         "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",

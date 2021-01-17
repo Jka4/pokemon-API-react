@@ -1,7 +1,8 @@
+import { Pokes } from 'types/index';
+
 type stateType = {
-  randomPokemon: any[];
-  playing: boolean;
-  pokemonArr: any[];
+  randomPokemon: Pokes[];
+  pokemonArr: Pokes[];
 };
 
 export const saveState = (state: stateType) => {
