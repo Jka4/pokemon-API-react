@@ -1,16 +1,14 @@
-import React from "react";
-import useSound from "use-sound";
-import { Button } from "@material-ui/core";
-import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
-import PauseCircleFilledIcon from "@material-ui/icons/PauseCircleFilled";
-import Tooltip from "@material-ui/core/Tooltip";
+import React from 'react';
+import useSound from 'use-sound';
+import { Button } from '@material-ui/core';
+import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
+import PauseCircleFilledIcon from '@material-ui/icons/PauseCircleFilled';
+import Tooltip from '@material-ui/core/Tooltip';
 
-import "./styles/style.scss";
+import './styles/style.scss';
 
 const Player: React.FC = () => {
-  const [play, { stop, isPlaying }] = useSound(
-    `${process.env.PUBLIC_URL}/sound/pokemon_opening.mp3`
-  );
+  const [play, { stop, isPlaying }] = useSound(`${process.env.PUBLIC_URL}/sound/pokemon_opening.mp3`);
 
   const playPause = () => {
     isPlaying ? stop() : play();
@@ -25,12 +23,7 @@ const Player: React.FC = () => {
         leaveDelay={200}
         arrow
       >
-        <Button
-          onClick={playPause}
-          className="playButton"
-          variant="contained"
-          color="secondary"
-        >
+        <Button onClick={playPause} className="playButton" variant="contained" color="secondary">
           {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleFilledIcon />}
         </Button>
       </Tooltip>

@@ -1,17 +1,16 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useState } from "react";
-import { Provider, connect } from "react-redux";
-import Loader from "react-loader-spinner";
-import { NavLink } from "react-router-dom";
-import Fuse from "fuse.js";
-import { useDebounce } from "ahooks";
+import React, { lazy, useState, useRef } from 'react';
+import { Provider, connect } from 'react-redux';
+import { NavLink } from 'react-router-dom';
+import Fuse from 'fuse.js';
+import { useClickAway } from 'ahooks';
 
-import store from "Store/store";
-import { setDelailedPageData } from "utils/API";
+import store from 'Store/store';
+import { Pokes, IStoreType } from 'types/index';
 
-import "./styles/style.scss";
+import './styles/style.scss';
 
-const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
+const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 let fuseOptions = {
   shouldSort: true,
@@ -25,35 +24,21 @@ let fuseOptions = {
   distance: 10,
   maxPatternLength: 20,
   minMatchCharLength: 2,
-  keys: ["name", "weight", "id"],
+  keys: ['name', 'weight', 'id'],
 };
 
-interface SearchProps {
+type SearchProps = {
   pokemonDataArray: Pokes[];
-}
-
-interface Pokes {
-  id: number;
-  name: string;
-  weight: number;
-  image: string;
-  imageHQ: string;
-  placeholderBase64: string;
-  chain: {
-    species_name: string;
-  }[];
-}
+};
 
 const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   const [showResult, setShowResult] = useState<boolean>(false);
   const [searchResult, setSearchResult] = useState<any[]>([]);
-  const debouncedSearchResult = useDebounce(searchResult, { wait: 300 });
 
-  const handleChange = (event: any) => {
-    const value: string = event.target.value;
-
-    let fuse = new Fuse(pokemonDataArray, fuseOptions);
-    let result = fuse.search(value).slice(0, 11);
+  const handleChange = (event: React.SyntheticEvent): void => {
+    const value = (event.target as HTMLInputElement).value;
+    const fuse = new Fuse(pokemonDataArray, fuseOptions);
+    const result = fuse.search(value).slice(0, 11);
     setSearchResult(result);
   };
 
@@ -61,24 +46,14 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
     setShowResult(true);
   };
 
-  const handleBlur = () => {
-    setTimeout(() => {
-      setShowResult(false);
-    }, 400);
-  };
+  const ref: any = useRef<HTMLSpanElement>();
+  useClickAway(() => {
+    setShowResult(false);
+  }, ref);
 
-  let handleClick = (id: number) => {
-    setDelailedPageData(id);
+  const fallback = (placeholderBase64: string) => {
+    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
   };
-
-  const fallback = () => {
-    return (<> <Loader
-      type="TailSpin"
-      height={30}
-      width={30}
-      color={"red"}
-    /></>)
-  }
 
   return (
     <div className="search">
@@ -89,32 +64,24 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
         placeholder="Pikachu, 25, 900g"
         onChange={handleChange}
         onFocus={handleFocus}
-        onBlur={handleBlur}
         autoComplete="off"
         aria-label="Search"
+        ref={ref}
       />
 
       <div className="searchResults">
         {showResult && (
           <ul className="searchList">
-            {debouncedSearchResult.map((i, key) => (
-              <NavLink
-                key={(i.item.id, key)}
-                to={`/detailedPage/pokemon/${i.item.name}`}
-                className="searchItem_outer"
-              >
-                <li
-                  data-id={i.item.id}
-                  className="searchItem"
-                  onClick={() => handleClick(i.item.id)}
-                >
+            {searchResult.map((i, key) => (
+              <NavLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`} className="searchItem_outer">
+                <li data-id={i.item.id} className="searchItem">
                   <span className="item_name">NAME: {i.item.name}</span>
                   <span className="item_id">ID: {i.item.id}</span>
                   <span className="item_weight">WEIGHT: {i.item.weight}</span>
                   <ImageContainer
                     url={i.item.image}
-                    cn={"searchItem__image"}
-                    fallback={fallback}
+                    cn={'searchItem__image deBlur'}
+                    fallback={fallback(i.item.placeholderBase64)}
                   />
                 </li>
               </NavLink>
@@ -126,9 +93,9 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   );
 };
 
-const ConnectedSearch = connect((store: { pokemonsArr: Pokes[] }) => {
+const ConnectedSearch = connect((store: IStoreType) => {
   return {
-    pokemonDataArray: store.pokemonsArr,
+    pokemonDataArray: store.pokemonArr,
   };
 })(Search);
 

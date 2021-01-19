@@ -1,71 +1,36 @@
-import React, { lazy, useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import find from "lodash.find";
-import Paper from "@material-ui/core/Paper";
+import React, { useMemo, useState } from 'react';
 
-import { setDelailedPageData } from "utils/API";
+import { NavLink } from 'react-router-dom';
+import Paper from '@material-ui/core/Paper';
+import find from 'lodash.find';
 
-const ImageContainer = lazy(() => import("components/ImageContainer/ImageContainer"));
+import { Pokes, ChainElements } from 'types/index';
 
-type Props = {
-  pokemonsArr: any;
-  evolutionChain: any;
-  currentPokemon: any;
-
-};
-
-interface ChainElements {
-  image: string;
-  species_name: string;
-  placeholderBase64: string;
-  id: number | string;
-  [key: string]: any;
+interface EvolutionFormsTypes {
+  currentPokemon?: string;
+  pokemonArr: Pokes[];
 }
 
-const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentPokemon }: Props) => {
-  const chainNames: ChainElements[] = evolutionChain?.chain;
-  const [chain, setChain] = useState<any[]>([]);
+const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonArr }: EvolutionFormsTypes) => {
+  let [chain, setChain] = useState<ChainElements[]>([]);
 
-  useEffect(() => {
-    let arr: any[] = [];
-    chainNames &&
-      chainNames.forEach((index: ChainElements) => {
-        index.image = find(
-          pokemonsArr,
-          (o) => o.name === index.species_name
-        ).image;
-        index.id = find(pokemonsArr, (o) => o.name === index.species_name).id;
-        index.placeholderBase64 = find(
-          pokemonsArr,
-          (o) => o.name === index.species_name
-        ).placeholderBase64;
-        arr.push(index);
-      });
+  useMemo(() => {
+    const pokemonObj: Pokes | undefined = find(pokemonArr, (o) => o.name === currentPokemon);
+    let arr: ChainElements[] = [];
+
+    pokemonObj?.chain.forEach((index: ChainElements) => {
+      const pokemonName = index.species_name;
+      index.image = find(pokemonArr, (o) => o.name === pokemonName)?.image || '';
+      index.id = find(pokemonArr, (o) => o.name === pokemonName)?.id || '';
+      index.placeholderBase64 = find(pokemonArr, (o) => o.name === pokemonName)?.placeholderBase64 || '';
+      arr.push(index);
+    });
+
     setChain(arr);
-  }, [chainNames, pokemonsArr]);
+  }, [currentPokemon, pokemonArr]);
 
   const FormTitle = () => {
-    return (
-      <div className="formsTitle">
-        {chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}
-      </div>
-    );
-  };
-
-  const handleClick = (id: number) => {
-    setDelailedPageData(id);
-  }
-
-  const fallback = (placeholderBase64: string) => {
-    return (
-      <>
-        <img
-          src={placeholderBase64}
-          className="evoFormImg placeholderBase64"
-          alt="placeholderBase64"
-        />
-      </>
-    );
+    return <div className="formsTitle">{chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}</div>;
   };
 
   return (
@@ -74,22 +39,12 @@ const EvolutionForms: React.FC<Props> = ({ pokemonsArr, evolutionChain, currentP
 
       <div className="evolutionForms">
         {chain.map((index: ChainElements) => (
-          <NavLink
-            to={`/detailedPage/pokemon/${index.id}`}
-            data-pokemon_id={index.id}
-            onClick={() => handleClick(Number(index.id))}
-            key={index.id}
-          >
+          <NavLink to={`/detailedPage/pokemon/${index.species_name}`} key={index.id}>
             <Paper
               elevation={3}
-              className={
-                currentPokemon === index.species_name
-                  ? "evoForm currentPokemon"
-                  : "evoForm"
-              }
+              className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
             >
-              <ImageContainer url={index.image} cn={"evoFormImg"} fallback={fallback(index.placeholderBase64)} />
-
+              <img src={index.image} className="evoFormImg deBlur" alt="evoFormImg" loading="lazy" />
               <div className="pokemonName">{index.species_name}</div>
             </Paper>
           </NavLink>
