@@ -25,7 +25,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
   }, []);
 
   const fetchPokemon = () => {
-    const howMuchToDownload = 20;
+    const howMuchToDownload = 25;
     let arr: Pokes[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
@@ -58,11 +58,11 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
             <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
-                  {/* <ImageContainer
+                  <ImageContainer
                     url={pokemon.imageHQ || pokemon.image}
                     cn={'pokemonImageCard deBlur'}
                     fallback={fallback(pokemon.placeholderBase64)}
-                  /> */}
+                  />
                 </div>
                 <div className="pokemonName">{pokemon?.name}</div>
               </Paper>
