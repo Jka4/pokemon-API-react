@@ -29,7 +29,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
     let arr: Pokes[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
-      arr.push(pokemonDataArray[i]);
+      pokemonCount <= 713 && arr.push(pokemonDataArray[i]);
     }
     setPokemon((pokemon: Pokes[]) => [...pokemon, ...arr]);
     setPokemonCount(pokemon.length + 1 + howMuchToDownload);
@@ -49,22 +49,22 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
         <InfiniteScroll
           dataLength={pokemon.length}
           next={fetchPokemon}
-          hasMore={pokemon.length < 758}
+          hasMore={pokemonCount <= pokemon.length}
           loader={<h4>Loading...</h4>}
           className="allPokemonWrapper"
-          endMessage={<p className="pokemon-end">No more pokemon :(</p>}
+          endMessage={<p className="pokemon-end">Don't have more pokemon :(</p>}
         >
           {pokemon.map((pokemon: Pokes) => (
             <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">
-                  <ImageContainer
+                  {/* <ImageContainer
                     url={pokemon.imageHQ || pokemon.image}
                     cn={'pokemonImageCard deBlur'}
                     fallback={fallback(pokemon.placeholderBase64)}
-                  />
+                  /> */}
                 </div>
-                <div className="pokemonName">{pokemon.name}</div>
+                <div className="pokemonName">{pokemon?.name}</div>
               </Paper>
             </NavLink>
           ))}
