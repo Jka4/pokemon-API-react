@@ -43,6 +43,9 @@ const store = configureStore({
   preloadedState: loadState()
 })
 
+// save store to LS on first load
+saveState(store.getState());
+
 store.subscribe(
   throttle(() => saveState(store.getState()), 1000)
 );
