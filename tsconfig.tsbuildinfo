@@ -872,7 +872,7 @@
         "affectsGlobalScope": false
       },
       "./src/store/store.js": {
-        "version": "1ca048591cedb37076e036604f461a6c2b841607750ae086984afe0c0f4031d0",
+        "version": "69f7eaebcfbe77d0559abf386350dba8f736027af84155a3b4f9a50e21c4cabd",
         "signature": "13e00233d6302e3024f3230cbf3cdeccdf487ec04ef598c148926e9268ff518c",
         "affectsGlobalScope": false
       },
@@ -2767,7 +2767,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/listview.tsx": {
-        "version": "d69f43972f66a1d4f4dcad3d219367019fb64e6be73e3a4c53f96f0e2f8a9a03",
+        "version": "207b63409e798b6f18c38ee53c3edb1d065376f2965d369d579c32dcb38abf13",
         "signature": "c206f08efd593d97f628fc62e5ff3d36dd260b081f89bd8082519f73ffefec87",
         "affectsGlobalScope": false
       },
