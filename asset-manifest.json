@@ -2,15 +2,15 @@
   "files": {
     "static/js/0.08efefe4.chunk.js": "/pokemon-API-react/static/js/0.08efefe4.chunk.js",
     "static/js/0.08efefe4.chunk.js.map": "/pokemon-API-react/static/js/0.08efefe4.chunk.js.map",
-    "static/js/1.71f01a25.chunk.js": "/pokemon-API-react/static/js/1.71f01a25.chunk.js",
-    "static/js/1.71f01a25.chunk.js.map": "/pokemon-API-react/static/js/1.71f01a25.chunk.js.map",
+    "static/js/1.c7161bdf.chunk.js": "/pokemon-API-react/static/js/1.c7161bdf.chunk.js",
+    "static/js/1.c7161bdf.chunk.js.map": "/pokemon-API-react/static/js/1.c7161bdf.chunk.js.map",
     "static/js/2.2e38a421.chunk.js": "/pokemon-API-react/static/js/2.2e38a421.chunk.js",
     "static/js/2.2e38a421.chunk.js.map": "/pokemon-API-react/static/js/2.2e38a421.chunk.js.map",
     "main.css": "/pokemon-API-react/static/css/main.8c8a1838.chunk.css",
-    "main.js": "/pokemon-API-react/static/js/main.f9ddfed3.chunk.js",
-    "main.js.map": "/pokemon-API-react/static/js/main.f9ddfed3.chunk.js.map",
-    "runtime-main.js": "/pokemon-API-react/static/js/runtime-main.7908c333.js",
-    "runtime-main.js.map": "/pokemon-API-react/static/js/runtime-main.7908c333.js.map",
+    "main.js": "/pokemon-API-react/static/js/main.70395d70.chunk.js",
+    "main.js.map": "/pokemon-API-react/static/js/main.70395d70.chunk.js.map",
+    "runtime-main.js": "/pokemon-API-react/static/js/runtime-main.115fe228.js",
+    "runtime-main.js.map": "/pokemon-API-react/static/js/runtime-main.115fe228.js.map",
     "static/css/5.0f52be0d.chunk.css": "/pokemon-API-react/static/css/5.0f52be0d.chunk.css",
     "static/js/5.9d3d03dc.chunk.js": "/pokemon-API-react/static/js/5.9d3d03dc.chunk.js",
     "static/js/5.9d3d03dc.chunk.js.map": "/pokemon-API-react/static/js/5.9d3d03dc.chunk.js.map",
@@ -39,8 +39,8 @@
     "static/css/14.713757de.chunk.css": "/pokemon-API-react/static/css/14.713757de.chunk.css",
     "static/js/14.e1dcb481.chunk.js": "/pokemon-API-react/static/js/14.e1dcb481.chunk.js",
     "static/js/14.e1dcb481.chunk.js.map": "/pokemon-API-react/static/js/14.e1dcb481.chunk.js.map",
-    "static/js/15.835c13e8.chunk.js": "/pokemon-API-react/static/js/15.835c13e8.chunk.js",
-    "static/js/15.835c13e8.chunk.js.map": "/pokemon-API-react/static/js/15.835c13e8.chunk.js.map",
+    "static/js/15.2ea3ecac.chunk.js": "/pokemon-API-react/static/js/15.2ea3ecac.chunk.js",
+    "static/js/15.2ea3ecac.chunk.js.map": "/pokemon-API-react/static/js/15.2ea3ecac.chunk.js.map",
     "static/js/16.35ea6321.chunk.js": "/pokemon-API-react/static/js/16.35ea6321.chunk.js",
     "static/js/16.35ea6321.chunk.js.map": "/pokemon-API-react/static/js/16.35ea6321.chunk.js.map",
     "index.html": "/pokemon-API-react/index.html",
@@ -59,10 +59,10 @@
     "static/js/9.2770fbd4.chunk.js.LICENSE.txt": "/pokemon-API-react/static/js/9.2770fbd4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7908c333.js",
+    "static/js/runtime-main.115fe228.js",
     "static/css/5.0f52be0d.chunk.css",
     "static/js/5.9d3d03dc.chunk.js",
     "static/css/main.8c8a1838.chunk.css",
-    "static/js/main.f9ddfed3.chunk.js"
+    "static/js/main.70395d70.chunk.js"
   ]
 }
