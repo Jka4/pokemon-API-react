@@ -3,7 +3,9 @@ import React from "react";
 export default class ErrorBoundary extends React.PureComponent {
   state = { error: null };
 
-  componentDidCatch(error, errorInfo = {}) {
+  componentDidCatch(error: any, errorInfo: any) {
+    console.log("🚀 ~ errorInfo", errorInfo)
+    console.log("🚀 ~ error", error)
     this.setState({ error });
     errorInfo.ErrorType = "ReactError";
   }
