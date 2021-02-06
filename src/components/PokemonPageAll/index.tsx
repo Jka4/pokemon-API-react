@@ -1,8 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useState } from 'react';
-import { Provider, connect } from 'react-redux';
 
-import store from 'Store/store';
+import { useSelector } from 'react-redux';
 
 import ListView from './ListView';
 import CatalogView from './CatalogView';
@@ -10,9 +9,11 @@ import CatalogView from './CatalogView';
 import AppsIcon from '@material-ui/icons/Apps';
 import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 
-import { Pokes, IStoreType } from 'types/index';
+import { PokesTypes } from 'types/index';
 
-const PokemonPageAll: React.FC<Pokes> = ({ pokemonDataArray }: Pokes) => {
+const PokemonPageAll: React.FC = () => {
+  const pokemonArr = useSelector((state: PokesTypes) => state.pokemonArr);
+
   const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);
 
   return (
@@ -28,22 +29,13 @@ const PokemonPageAll: React.FC<Pokes> = ({ pokemonDataArray }: Pokes) => {
       </div>
 
       {!viewTypeIsCatalog ? (
-        <ListView pokemonDataArray={pokemonDataArray} />
+        <ListView pokemonArr={pokemonArr} />
       ) : (
-        <CatalogView pokemonDataArray={pokemonDataArray} />
+        <CatalogView pokemonArr={pokemonArr} />
       )}
     </>
   );
 };
 
-const ConnectedPokemonPageAll = connect((store: IStoreType) => {
-  return {
-    pokemonDataArray: store.pokemonArr,
-  };
-})(PokemonPageAll);
 
-export default (props = {}) => (
-  <Provider store={store}>
-    <ConnectedPokemonPageAll {...props} />
-  </Provider>
-);
+export default PokemonPageAll;

@@ -6,16 +6,16 @@ import Paper from '@material-ui/core/Paper';
 
 import './styles/style.scss';
 
-import { Pokes } from 'types/index';
+import { PokesTypes } from 'types/index';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 type Props = {
-  pokemonDataArray: Pokes[];
+  pokemonArr: PokesTypes[];
 };
 
-const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
-  const [pokemon, setPokemon] = useState<Pokes[]>([]);
+const ListView: React.FC<Props> = ({ pokemonArr = [] }: Props) => {
+  const [pokemon, setPokemon] = useState<PokesTypes[]>([]);
   const [pokemonCount, setPokemonCount] = useState<number>(0);
 
   useEffect(() => {
@@ -26,12 +26,12 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
 
   const fetchPokemon = () => {
     const howMuchToDownload = 25;
-    let arr: Pokes[] = [];
+    let arr: PokesTypes[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
-      pokemonCount <= 713 && arr.push(pokemonDataArray[i]);
+      pokemonCount <= 713 && arr.push(pokemonArr[i]);
     }
-    setPokemon((pokemon: Pokes[]) => [...pokemon, ...arr]);
+    setPokemon((pokemon: PokesTypes[]) => [...pokemon, ...arr]);
     setPokemonCount(pokemon.length + 1 + howMuchToDownload);
   };
 
@@ -54,7 +54,7 @@ const ListView: React.FC<Props> = ({ pokemonDataArray = [] }: Props) => {
           className="allPokemonWrapper"
           endMessage={<p className="pokemon-end">Don't have more pokemon :(</p>}
         >
-          {pokemon.map((pokemon: Pokes) => (
+          {pokemon.map((pokemon: PokesTypes) => (
             <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
               <Paper elevation={3} className="smallPokemonCard">
                 <div className="pokemonLogo">

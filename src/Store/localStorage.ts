@@ -1,8 +1,8 @@
-import { Pokes } from 'types/index';
+import { PokesTypes } from 'types/index';
 
 type stateType = {
-  randomPokemon: Pokes[];
-  pokemonArr: Pokes[];
+  randomPokemon: PokesTypes[];
+  pokemonArr: PokesTypes[];
 };
 
 export const saveState = (state: stateType) => {

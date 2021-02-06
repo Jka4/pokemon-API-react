@@ -2,7 +2,7 @@ import React from 'react';
 
 export interface JSXElement extends React.ReactElement<any> {}
 
-export interface Pokes {
+export interface PokesTypes {
   id: number;
   name: string;
   weight: number;
@@ -24,12 +24,6 @@ export interface spritesType {
   front_shiny?: string;
   front_shiny_female?: string;
   [key: string]: any;
-}
-
-export interface IStoreType {
-  playing: boolean;
-  pokemonArr: Pokes[];
-  randomPokemon: Pokes[];
 }
 
 export interface pokemonCardType {

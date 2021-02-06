@@ -1,12 +1,12 @@
 import React, { lazy } from 'react';
 import Paper from '@material-ui/core/Paper';
 
-import { Pokes } from 'types/index';
+import { PokesTypes } from 'types/index';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 interface RootType {
-  bigImage?: Pokes;
+  bigImage?: PokesTypes;
 }
 
 const BigImage: React.FC<RootType> = ({ bigImage }: RootType) => {

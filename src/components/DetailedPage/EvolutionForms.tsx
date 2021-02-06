@@ -4,22 +4,22 @@ import { NavLink } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 import find from 'lodash.find';
 
-import { Pokes } from 'types/index';
+import { PokesTypes } from 'types/index';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;
-  pokemonArr: Pokes[];
+  pokemonArr: PokesTypes[];
 }
 
 const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonArr }: EvolutionFormsTypes) => {
-  let [chain, setChain] = useState<Pokes[]>([]);
+  let [chain, setChain] = useState<PokesTypes[]>([]);
 
   useMemo(() => {
-    const pokemonObj: Pokes | undefined = find(pokemonArr, (o) => o.name === currentPokemon);
-    let arr: Pokes[] = [];
+    const pokemonObj: PokesTypes | undefined = find(pokemonArr, (o) => o.name === currentPokemon);
+    let arr: PokesTypes[] = [];
 
-    pokemonObj?.chain.forEach((index: Pokes) => {
-      find(pokemonArr, (el: any) => {
+    pokemonObj?.chain.forEach((index: PokesTypes) => {
+      find(pokemonArr, (el: PokesTypes) => {
         if (el.name === index.species_name) {
           arr.push(el);
         }
@@ -39,7 +39,7 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
       <FormTitle />
 
       <div className="evolutionForms">
-        {chain.map((index: Pokes) => (
+        {chain.map((index: PokesTypes) => (
           <NavLink to={`/detailedPage/pokemon/${index.name}`} key={index.id}>
             <Paper
               elevation={3}

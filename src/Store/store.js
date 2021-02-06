@@ -38,7 +38,7 @@ function rootReducer(state = defaultState, action) {
 const store = configureStore({
   reducer: rootReducer,
   preloadedState: loadState(),
-  middleware: [thunk, logger]
+  middleware: [thunk]
 })
 
 store.subscribe(
