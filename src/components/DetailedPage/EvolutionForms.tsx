@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 import find from 'lodash.find';
 
-import { Pokes, ChainElements } from 'types/index';
+import { Pokes } from 'types/index';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;
@@ -12,22 +12,23 @@ interface EvolutionFormsTypes {
 }
 
 const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonArr }: EvolutionFormsTypes) => {
-  let [chain, setChain] = useState<ChainElements[]>([]);
+  let [chain, setChain] = useState<Pokes[]>([]);
 
   useMemo(() => {
     const pokemonObj: Pokes | undefined = find(pokemonArr, (o) => o.name === currentPokemon);
-    let arr: ChainElements[] = [];
+    let arr: Pokes[] = [];
 
-    pokemonObj?.chain.forEach((index: ChainElements) => {
-      const pokemonName = index.species_name;
-      index.image = find(pokemonArr, (o) => o.name === pokemonName)?.image || '';
-      index.id = find(pokemonArr, (o) => o.name === pokemonName)?.id || '';
-      index.placeholderBase64 = find(pokemonArr, (o) => o.name === pokemonName)?.placeholderBase64 || '';
-      arr.push(index);
+    pokemonObj?.chain.forEach((index: Pokes) => {
+      find(pokemonArr, (el: any) => {
+        if (el.name === index.species_name) {
+          arr.push(el);
+        }
+      })
     });
 
     setChain(arr);
   }, [currentPokemon, pokemonArr]);
+
 
   const FormTitle = () => {
     return <div className="formsTitle">{chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}</div>;
@@ -38,14 +39,14 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
       <FormTitle />
 
       <div className="evolutionForms">
-        {chain.map((index: ChainElements) => (
-          <NavLink to={`/detailedPage/pokemon/${index.species_name}`} key={index.id}>
+        {chain.map((index: Pokes) => (
+          <NavLink to={`/detailedPage/pokemon/${index.name}`} key={index.id}>
             <Paper
               elevation={3}
-              className={currentPokemon === index.species_name ? 'evoForm currentPokemon' : 'evoForm'}
+              className={currentPokemon === index.name ? 'evoForm currentPokemon' : 'evoForm'}
             >
               <img src={index.image} className="evoFormImg deBlur" alt="evoFormImg" loading="lazy" />
-              <div className="pokemonName">{index.species_name}</div>
+              <div className="pokemonName">{index.name}</div>
             </Paper>
           </NavLink>
         ))}

@@ -1,5 +1,6 @@
 import store from 'Store/store';
 import axios from 'axios';
+import { addRandomPokemon } from 'actions/pokemon';
 
 export let getRandomPokemon = async (amount = 722) => {
   const randomNumber = Math.floor(1 + Math.random() * amount);
@@ -10,7 +11,7 @@ export let getRandomPokemon = async (amount = 722) => {
     .then(async (response) => {
       let randomPokemon = response.data;
 
-      await store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemon });
+      await store.dispatch(addRandomPokemon(randomPokemon));
     })
     .catch((error) => {
       console.log(error);

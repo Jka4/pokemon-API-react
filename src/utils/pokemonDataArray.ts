@@ -12813,9 +12813,6 @@ const POKEMON: Pokes[] = [
       {
         species_name: 'doublade',
       },
-      {
-        species_name: 'aegislash',
-      },
     ],
     placeholderBase64:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACNklEQVQ4T2NkQAINDQ1MDQ0N/2BC////ZwwLC2NavXr1X2R1IDYjsiJGRsb/UL6YLYMx82GGs89B/AaHBhaGAwz/GhgQhoI1rgpdxRy2Ouxvd9GaVF0d8xohAXGOK8dOsP/81H6BhflpRer0SydA6v4z/GdkZIAYDtYIc2JT7ix7EX6JBhY2Xod7964yMDx+zcDFKcXw7zfz9jc/XxVNOVB1A6YW5lQQDTapTG3+HCH+Z8k/WP/8ffKb+Rsjw/cTLKzMnL//fK+ac6r7cGhoKDPIz2CNoaGrmFevDvvbEz1tupC4Robgqx3/bz/mZWQy0f/x8ubduUxfWFkefDw3feX5eRdRbIRp7E/od3j8493si9fusUiwSrJKKYlycP8U4fr15fe5tn0ZNtCAA7uOEaapPW+pMfNzjk23T16cNPtR0/RY/expYkKKQeLK8t+mzQnVecDA8AIUug0HGv6AA6eh4T9TQwPjv67SldaM///9Ke2JPNntv/bIx19vOWX1lXXZP3Kz3rp+ZWLbgZQCmFqMUAUJODAYaxjbRV4UEZJWf8552+XfM0Zf5v+sxj9/fsufcbJpLcxWeAKYmTaTNX1W+u+uwmX2v5/92/zk4j3H6TfqzoIM6w5af5qR+T9vyeogDVBqAiUUjJTTX7NO89vnz6zVE+Ovr1r1/19YGOPfzpRFyWw8vMaFEwKzYAEE1whOGVDTkNMlcmpBFkfRCEtFV69qMYLiFaYQlCSvaYf+BwUiTAwAGLcQH/4q3JIAAAAASUVORK5CYII=',
@@ -12834,9 +12831,6 @@ const POKEMON: Pokes[] = [
       },
       {
         species_name: 'doublade',
-      },
-      {
-        species_name: 'aegislash',
       },
     ],
     placeholderBase64:

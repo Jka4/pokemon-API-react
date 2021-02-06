@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 
+
 import POKEMON from "utils/pokemonDataArray";
 import { saveState, loadState } from './localStorage';
 
@@ -24,10 +25,7 @@ function rootReducer(state = defaultState, action) {
         randomPokemon: [...state.randomPokemon, actionValue],
       };
     case "CLEAR_RANDOM_POKEMON":
-      return {
-        ...state,
-        randomPokemon: [],
-      };
+      return defaultState;
     case "PLAY_PAUSE":
       return {
         ...state,
@@ -40,7 +38,9 @@ function rootReducer(state = defaultState, action) {
 
 const store = configureStore({
   reducer: rootReducer,
-  preloadedState: loadState()
+  preloadedState: loadState(),
+
+
 })
 
 // save store to LS on first load

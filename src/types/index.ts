@@ -2,21 +2,12 @@ import React from 'react';
 
 export interface JSXElement extends React.ReactElement<any> {}
 
-export interface ChainElements {
-  species_name: string;
-  id?: number | string;
-  image?: string;
-  placeholderBase64?: string;
-  [key: string]: any;
-}
-
 export interface Pokes {
   id: number;
   name: string;
   weight: number;
   image: string;
   imageHQ: string;
-  chain: ChainElements[];
   placeholderBase64: string;
   order: number;
   base_experience: number;

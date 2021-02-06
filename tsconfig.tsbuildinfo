@@ -782,12 +782,12 @@
         "affectsGlobalScope": false
       },
       "./src/types/index.ts": {
-        "version": "fee277bcfa9e2cbc5895e6605fe0fd1c32fd59331b82a873684072d31722ec79",
-        "signature": "f1e9598b2e320f3540ef5c1e5595465691fb20d9620798d2a0cf79bc7ad6e7e6",
+        "version": "86c37804380a69badb8ed6c1bbe1555d6f44acd6649e6e52411fb7c82222be7f",
+        "signature": "d712529d82d93517565c849c119914be92d1ef4f3ee69fb914d2fa5f779ee25c",
         "affectsGlobalScope": false
       },
       "./src/utils/pokemondataarray.ts": {
-        "version": "2050885ad11471ebea768d77d3d50f3e0a592bf776ff2ae30e4014a1d71e8906",
+        "version": "8bac0855d0d5de415a7f69281aa100726fccf2f58df5021d4936e4c0c161623f",
         "signature": "fcd56103203045a67af7b5cf389ad1e0344086b963adc93c0123db040df16e30",
         "affectsGlobalScope": false
       },
@@ -872,13 +872,13 @@
         "affectsGlobalScope": false
       },
       "./src/store/store.js": {
-        "version": "69f7eaebcfbe77d0559abf386350dba8f736027af84155a3b4f9a50e21c4cabd",
+        "version": "6edd6e2e84873dea55520c6bc5bc5745ae8906e93592c9f707ac5592db64efdd",
         "signature": "13e00233d6302e3024f3230cbf3cdeccdf487ec04ef598c148926e9268ff518c",
         "affectsGlobalScope": false
       },
-      "./src/utils/errorboundary.js": {
-        "version": "95393de4fe647de4cc0bfd2655edae56833298591d24da9e06c5eb81743d8e07",
-        "signature": "0583144959db4fccc155409b70448fd381d2053fef570a600f634ce7bdfd4efd",
+      "./src/utils/errorboundary.tsx": {
+        "version": "2862d706e2e59f44fb9bd0e54213926a150e22fc840c50a3bfd3713859c21a0e",
+        "signature": "324d7b24bc8c9487112f96ae6c0e3f6430feefb0e337d8059c5f990290f6468b",
         "affectsGlobalScope": false
       },
       "./src/components/imagecontainer/imagecontainer.tsx": {
@@ -2686,8 +2686,13 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
+      "./src/actions/pokemon.js": {
+        "version": "c6e8bb56ccb223168b2019701eaf869ff8c0b6dc38e7f336c1f46f8cfb5f8320",
+        "signature": "013e1be1064b44e496db9771732d30343af2d19b4561edde191af0e79d0cdcad",
+        "affectsGlobalScope": false
+      },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "c0aeda48f2df48f47d259d9b629c3aa4f2841d9bb57870eeb27c9a84d38e60d9",
+        "version": "b35d0e6c44f3a9b691727f6ca39bfa6ee6468982372b116906d47cdc3cfe53e6",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -2742,12 +2747,12 @@
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/evolutionforms.tsx": {
-        "version": "08f395bbd0057241d20eb253e590da020e97e8f33bcaf0e48c8f81f893adb68f",
+        "version": "e17539725011d82fed6f3341854cf21b1e09fcf78f06ab903d0c61f41b5fca21",
         "signature": "6e9f20d0b609e06d5897f1d2829266c944b8bcd428a4a9716ddf3545397455f4",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/bigimage.tsx": {
-        "version": "7a8e99153ab67fbc090da491a420b31a7b5d0203e08c823d108597153b7ee1cc",
+        "version": "b493d6a6f60ccac8a1246f11f3f87ba34ee0a731765c0b8d19e856365e0352ac",
         "signature": "0529ae47bbec2b35b6c1d5b6d11b8e98d40d6eec6ce0702ad5272ccb78022977",
         "affectsGlobalScope": false
       },
@@ -2822,7 +2827,7 @@
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "7855111e243f553f1c47ef7b55d3aff7ea84804ea77283cc7dcc301063d3d9a7",
+        "version": "62dda53e5cf4fac34b4aacaaad0bad531d61fd7fabc408c00ac52ad3bf6982ce",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -3072,7 +3077,7 @@
         "affectsGlobalScope": false
       },
       "./src/utils/api.ts": {
-        "version": "dfd1395059209fb12c7c28db1bb9e078ad6520fe8efe9ed064c8838942b878fa",
+        "version": "7b57dbca4e1f81cf92fe6063ec58aa475acb5a6169431df28618bd19a4068a7b",
         "signature": "eddf02485d7fd1aa0fed2cac635664a39c96b9668b76382bf08a9a1bba6f929f",
         "affectsGlobalScope": false
       },
@@ -3356,8 +3361,8 @@
       "rootDir": "./src",
       "outDir": "./build",
       "declaration": true,
-      "noUnusedLocals": false,
-      "noUnusedParameters": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
       "incremental": true,
       "configFilePath": "./tsconfig.json"
     },
@@ -5765,6 +5770,9 @@
       "./node_modules/use-sound/dist/index.d.ts": [
         "./node_modules/use-sound/dist/types.d.ts"
       ],
+      "./src/actions/pokemon.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
       "./src/components/app/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -5841,6 +5849,7 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/actions/pokemon.js",
         "./src/store/store.js",
         "./src/types/index.ts"
       ],
@@ -5858,7 +5867,7 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/types/index.ts",
-        "./src/utils/errorboundary.js"
+        "./src/utils/errorboundary.tsx"
       ],
       "./src/components/maincontainer/heading.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -5979,9 +5988,10 @@
       "./src/utils/api.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/axios/index.d.ts",
+        "./src/actions/pokemon.js",
         "./src/store/store.js"
       ],
-      "./src/utils/errorboundary.js": [
+      "./src/utils/errorboundary.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
@@ -8466,6 +8476,9 @@
       "./src/types/index.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/utils/errorboundary.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/utils/pokemondataarray.ts": [
         "./src/types/index.ts"
       ]
@@ -9105,6 +9118,7 @@
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./node_modules/use-sound/dist/index.d.ts",
       "./node_modules/use-sound/dist/types.d.ts",
+      "./src/actions/pokemon.js",
       "./src/components/app/index.tsx",
       "./src/components/app/view/app.tsx",
       "./src/components/detailedpage/abilities.tsx",
@@ -9135,7 +9149,7 @@
       "./src/store/store.js",
       "./src/types/index.ts",
       "./src/utils/api.ts",
-      "./src/utils/errorboundary.js",
+      "./src/utils/errorboundary.tsx",
       "./src/utils/pokemondataarray.ts"
     ],
     "affectedFilesPendingEmit": [
@@ -11532,6 +11546,10 @@
         1
       ],
       [
+        "./src/actions/pokemon.js",
+        1
+      ],
+      [
         "./src/components/app/index.tsx",
         1
       ],
@@ -11653,6 +11671,10 @@
       ],
       [
         "./src/utils/errorboundary.js",
+        1
+      ],
+      [
+        "./src/utils/errorboundary.tsx",
         1
       ],
       [

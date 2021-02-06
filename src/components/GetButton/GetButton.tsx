@@ -12,6 +12,7 @@ import CasinoIcon from '@material-ui/icons/Casino';
 import './styles/style.scss';
 
 import { Pokes, IStoreType } from 'types/index';
+import { clearRandomPokemon, addRandomPokemon } from 'actions/pokemon';
 
 interface GetButtonProps {
   randomPokemon: Pokes[];
@@ -20,12 +21,12 @@ interface GetButtonProps {
 
 const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = [] }: GetButtonProps) => {
   const clearState = () => {
-    store.dispatch({ type: 'CLEAR_RANDOM_POKEMON' });
+    store.dispatch(clearRandomPokemon())
   };
 
   const handleClick = () => {
     const randomPokemonFromArr = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
-    store.dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemonFromArr });
+    store.dispatch(addRandomPokemon(randomPokemonFromArr));
   };
 
   return (
