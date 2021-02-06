@@ -872,8 +872,8 @@
         "affectsGlobalScope": false
       },
       "./src/store/store.js": {
-        "version": "6edd6e2e84873dea55520c6bc5bc5745ae8906e93592c9f707ac5592db64efdd",
-        "signature": "13e00233d6302e3024f3230cbf3cdeccdf487ec04ef598c148926e9268ff518c",
+        "version": "84e8efe0fd288ebe3691e4c25de20e08fb7fd54520857318209db41079b67a87",
+        "signature": "7f9a1f0d1d732dc75d4e924b7be493cd557dffcc636e52c834119cb56f0f72df",
         "affectsGlobalScope": false
       },
       "./src/utils/errorboundary.tsx": {
@@ -2687,12 +2687,12 @@
         "affectsGlobalScope": false
       },
       "./src/actions/pokemon.js": {
-        "version": "c6e8bb56ccb223168b2019701eaf869ff8c0b6dc38e7f336c1f46f8cfb5f8320",
+        "version": "a7c923479b190eed5c35d089e05e0fdf15014dff32935c212344499dac2ff476",
         "signature": "013e1be1064b44e496db9771732d30343af2d19b4561edde191af0e79d0cdcad",
         "affectsGlobalScope": false
       },
       "./src/components/getbutton/getbutton.tsx": {
-        "version": "b35d0e6c44f3a9b691727f6ca39bfa6ee6468982372b116906d47cdc3cfe53e6",
+        "version": "259cf1972e95ce4fa306a7459ebee5aa3f2c7d3a36ce5f6025c2f44ca23d8cca",
         "signature": "2b225eaef193fd40da265daf3d7c05c6716c73c94417dee933c34487204d0778",
         "affectsGlobalScope": false
       },
@@ -5771,7 +5771,8 @@
         "./node_modules/use-sound/dist/types.d.ts"
       ],
       "./src/actions/pokemon.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts"
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/store/store.js"
       ],
       "./src/components/app/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -5978,6 +5979,7 @@
         "./node_modules/@types/lodash.mapkeys/index.d.ts",
         "./node_modules/@types/lodash.throttle/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/redux-thunk/index.d.ts",
         "./src/store/localstorage.ts",
         "./src/utils/pokemondataarray.ts"
       ],
@@ -8469,8 +8471,6 @@
       ],
       "./src/store/store.js": [
         "./node_modules/@reduxjs/toolkit/dist/typings.d.ts",
-        "./node_modules/redux-thunk/index.d.ts",
-        "./node_modules/redux/index.d.ts",
         "./src/types/index.ts"
       ],
       "./src/types/index.ts": [

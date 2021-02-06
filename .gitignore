@@ -13,3 +13,4 @@ coverage
 # cache
 .eslintcache
 .cache
+src/Store/store.js

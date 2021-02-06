@@ -21,12 +21,12 @@ interface GetButtonProps {
 
 const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = [] }: GetButtonProps) => {
   const clearState = () => {
-    store.dispatch(clearRandomPokemon())
+    clearRandomPokemon();
   };
 
   const handleClick = () => {
     const randomPokemonFromArr = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
-    store.dispatch(addRandomPokemon(randomPokemonFromArr));
+    addRandomPokemon(randomPokemonFromArr);
   };
 
   return (

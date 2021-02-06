@@ -1,5 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
+import logger from 'redux-logger'
+import thunk from 'redux-thunk';
 
 import POKEMON from "utils/pokemonDataArray";
 import { saveState, loadState } from './localStorage';
@@ -10,7 +12,6 @@ import throttle from 'lodash.throttle';
 
 let defaultState = {
   randomPokemon: [],
-  playing: false,
   pokemonArr: POKEMON,
 };
 
@@ -25,11 +26,9 @@ function rootReducer(state = defaultState, action) {
         randomPokemon: [...state.randomPokemon, actionValue],
       };
     case "CLEAR_RANDOM_POKEMON":
-      return defaultState;
-    case "PLAY_PAUSE":
       return {
         ...state,
-        playing: !state.playing,
+        randomPokemon: [],
       };
     default:
       return state;
@@ -39,16 +38,11 @@ function rootReducer(state = defaultState, action) {
 const store = configureStore({
   reducer: rootReducer,
   preloadedState: loadState(),
-
-
+  middleware: [thunk, logger]
 })
-
-// save store to LS on first load
-saveState(store.getState());
 
 store.subscribe(
   throttle(() => saveState(store.getState()), 1000)
 );
-
 
 export default store;
