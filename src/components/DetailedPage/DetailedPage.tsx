@@ -21,7 +21,7 @@ interface DetailedPageType {
 }
 
 const DetailedPage: React.FC = () => {
-  const pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
+  let pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
 
   const [bigImage, setBigImage] = useState<PokesTypes>();
   const [detailedPage, setDetailedPage] = useState<any>({});
@@ -43,6 +43,7 @@ const DetailedPage: React.FC = () => {
 
     return (): void => {
       isSubscribed = false;
+      pokemonArr = [];
     };
 
   }, [currentPokemon]);
