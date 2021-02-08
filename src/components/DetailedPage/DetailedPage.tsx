@@ -43,7 +43,7 @@ const DetailedPage: React.FC = () => {
 
     return (): void => {
       isSubscribed = false;
-      pokemonArr = [];
+      // pokemonArr = [];
     };
 
   }, [currentPokemon]);
