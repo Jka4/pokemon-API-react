@@ -4,8 +4,6 @@ import { NavLink } from 'react-router-dom';
 
 import Paper from '@material-ui/core/Paper';
 
-import './styles/style.scss';
-
 import { PokesTypes } from 'types/index';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import GetButton from 'components/GetButton/GetButton';
-import Logo from 'components/MainContainer/Logo';
-import ItemsList from 'components/MainContainer/itemsList';
+import Buttons from 'components/Buttons';
+import Logo from 'components/MainContainer/views/Logo';
+import ItemsList from 'components/MainContainer/views/ItemsList';
 
 import './styles/style.scss';
 
@@ -10,7 +10,7 @@ const MainContainer: React.FC = () => {
   return (
     <section className="main">
       <Logo />
-      <GetButton />
+      <Buttons />
       <ItemsList />
     </section>
   );
