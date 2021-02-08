@@ -116,6 +116,14 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
+  .skills {
+    order: 2;
+    margin-top: 20px;
+  }
+  .bigImage {
+    order: 1;
+  }
+
   .imagesLine {
     .block {
       max-width: 50px;
@@ -199,7 +207,7 @@
   }
 }
 
-.solo {
+.skeleton {
   margin-bottom: 10px;
   margin-left: 5px;
 }

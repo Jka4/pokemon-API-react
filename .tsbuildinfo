@@ -1,222 +1,222 @@
 {
   "program": {
     "fileInfos": {
-      "./node_modules/typescript/lib/lib.es5.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es5.d.ts": {
         "version": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
         "signature": "9622e8bd7cc72a7dab819a8011ecbf81d443638082e5cb99ecf2e75ff56ffc9d",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.d.ts": {
         "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
         "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.es2017.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.d.ts": {
         "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
         "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.es2018.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.d.ts": {
         "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.es2019.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.d.ts": {
         "version": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
         "signature": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.es2020.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.d.ts": {
         "version": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
         "signature": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.esnext.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.d.ts": {
         "version": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
         "signature": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
         "affectsGlobalScope": false
       },
-      "./node_modules/typescript/lib/lib.dom.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.d.ts": {
         "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
         "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
         "version": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
         "signature": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
         "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
         "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
         "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
         "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
         "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
         "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
         "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
         "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
         "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
         "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
         "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
         "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
         "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
         "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
         "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
         "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
         "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
         "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
         "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2017.object.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.object.d.ts": {
         "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
         "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
         "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
         "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2017.string.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.string.d.ts": {
         "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
         "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
         "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
         "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
         "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
         "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
         "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
         "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
         "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
         "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
         "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
         "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
         "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
         "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
         "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
         "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2019.array.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.array.d.ts": {
         "version": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
         "signature": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2019.object.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.object.d.ts": {
         "version": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
         "signature": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2019.string.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.string.d.ts": {
         "version": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
         "signature": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
         "version": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
         "signature": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
         "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
         "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.promise.d.ts": {
         "version": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
         "signature": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts": {
         "version": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
         "signature": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2020.string.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.string.d.ts": {
         "version": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
         "signature": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
         "version": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
         "signature": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.es2020.intl.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.intl.d.ts": {
         "version": "31e8df2398e328077079c17ea4f1664bad0a34adf8b0608837e504e310e329a1",
         "signature": "31e8df2398e328077079c17ea4f1664bad0a34adf8b0608837e504e310e329a1",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
         "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.esnext.string.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.string.d.ts": {
         "version": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
         "signature": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.esnext.promise.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.promise.d.ts": {
         "version": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
         "signature": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
         "affectsGlobalScope": true
       },
-      "./node_modules/typescript/lib/lib.esnext.weakref.d.ts": {
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.weakref.d.ts": {
         "version": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "affectsGlobalScope": true
@@ -2496,33 +2496,48 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/components/getbutton/getbutton.tsx": {
-        "version": "26a9dcc2a370bfded09f1bcbf12f1c1f761fbd1f22b7f90991c232cc44878504",
-        "signature": "de326479a5390666986cbda8b6bc034b7c5fd75f2f8747f1004e3a350059771b",
+      "./src/components/buttons/views/getbutton.tsx": {
+        "version": "52f8245353c3973c2805a77816f0c1758a4ee54683ce947fa7afc82d4d57211b",
+        "signature": "f01075d1d499ba448eabd832abe804a91b13f04b050225025fd762650ed08709",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/logo.tsx": {
+      "./src/components/buttons/views/clearbutton.tsx": {
+        "version": "bef20be3717932d7ceb85b9b628de96092df573240a93c3ef1e1e291187210a3",
+        "signature": "3a178d210c7724a7e1fa2ee75d6057b372a34043f659e6338b6faa641c3798aa",
+        "affectsGlobalScope": false
+      },
+      "./src/components/buttons/views/allpokespagebutton.tsx": {
+        "version": "bf2bc0f5917d189bf95f5bc0f82886a075733cf20e970b6a56fb9d38ea64ebca",
+        "signature": "b14625f4ee4cddedb73490f1e6fe960995edf2b5f4349f6f598720c4ecd2faa4",
+        "affectsGlobalScope": false
+      },
+      "./src/components/buttons/index.tsx": {
+        "version": "7917c957ce092cc45f515c2e51d14bf8a8cdbca2b4931c6165cae05b1e55f276",
+        "signature": "c95383f18b4c72c602bef7eab2d73041988126d2a21f7651eea883a85bd1565a",
+        "affectsGlobalScope": false
+      },
+      "./src/components/maincontainer/views/logo.tsx": {
         "version": "44092222bae0ebaed98685b6f2e211043e67ac64d668d77fefdc9cbadaa1e6e6",
         "signature": "17ebf29f7df7ede390dbaebbf26f3a5b5af94396065959801d94893320c1642f",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/heading.tsx": {
+      "./src/components/maincontainer/views/heading.tsx": {
         "version": "17ae95389d2f5eec6bb670421776ad47cc87e971be42edf98b3267a08a1deabe",
         "signature": "982ea4fa763f4a21c085b37089f07abe4e866616752fe5227e303a7aca9a5a77",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/pokemoncard.tsx": {
+      "./src/components/maincontainer/views/pokemoncard.tsx": {
         "version": "f7fff1ca60042f6890b861eadbce3655fed470e12b4f669c0c92e8ce54c10137",
         "signature": "2d5f79d17e67c8853f39870c865de06285df67f45c36bb609f9d29d8b3494ac3",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/itemslist.tsx": {
-        "version": "7369f8d71f97b200a98fac2301dfe89431608ff6e16dbf72c17e8afd446cc206",
+      "./src/components/maincontainer/views/itemslist.tsx": {
+        "version": "bf23442e1862b9a4fddd3daa7688a104ef792e28a61ee6ce08595c5419314602",
         "signature": "48181f4a95a43be251d03ae8f83b5ce4897e9675f1f81ae441dab3d04962c98d",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/maincontainer.tsx": {
-        "version": "8544eda1fa9d570f0c556255cecae8f06516d4565ab91832c46927fbb60bf213",
+      "./src/components/maincontainer/index.tsx": {
+        "version": "c02df91954aa88b72ca8a6f30c8de2681b364f53cb84392614bb0cf42ddff659",
         "signature": "2b3b7393c1c7b7f9513a507a13dfd45450f479ccf3298749a373a1fb6c7f43f8",
         "affectsGlobalScope": false
       },
@@ -2531,18 +2546,18 @@
         "signature": "aee69f22d2a95ef1724d9efed3de0199212e6c8fc8f365d2577b31ac59b3b440",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/stats.tsx": {
+      "./src/components/detailedpage/views/stats.tsx": {
         "version": "3a58732546a10513c11e02f32059e0656a1c521d6273225bcb50cf85b26ac480",
         "signature": "10af96868b54785b67a59918f24a0d3341f4c1497724e1a996fc6cfa5516efc6",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/abilities.tsx": {
+      "./src/components/detailedpage/views/abilities.tsx": {
         "version": "a0b66fdda5f830e654c75997ef0834f2c8e987f4aa9deed5d18969982c1e6a12",
         "signature": "bc0bc34ba30b71b63e5714674826141779581c3f283ab26f8d6d8bf5ea14e3af",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/sprites.tsx": {
-        "version": "37cc6c5fb7aa68de8a08e8827ce67be563ebc166f103d99aa477c19b689816fb",
+      "./src/components/detailedpage/views/sprites.tsx": {
+        "version": "08271c4a7d239450d90942addd76e7673eeaa7b8fccb3e91b7308418a180c56a",
         "signature": "79e8ca824d3f061a1e0dfb070e82a2bd35153500a248fa4d86a68a74757db40d",
         "affectsGlobalScope": false
       },
@@ -2616,12 +2631,12 @@
         "signature": "fc71f47f4c57eb77d149c76a3b2467a80b59de6c750e4d85f98fb25201506e0d",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/evolutionforms.tsx": {
+      "./src/components/detailedpage/views/evolutionforms.tsx": {
         "version": "6525342ac269eb607b66af31ad5e39cabc9b3f4d8bffedb29a9a4a636c31dad1",
         "signature": "8ebb2c789d8ebc45767d1f8edb4aca92811b856e67237172924125d472c3323b",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/bigimage.tsx": {
+      "./src/components/detailedpage/views/bigimage.tsx": {
         "version": "f53a497596c8ae18f3c934236a9046077e63b409bac8611f28270e20fb8d9555",
         "signature": "c57efa4c4112edb8efaab0c1e2a1d108c208b8819a780783789b49560a114310",
         "affectsGlobalScope": false
@@ -2636,8 +2651,8 @@
         "signature": "063332270f7bb2dd572d001dfc782ab7e26545426f31b9cfafb0143730bed929",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "55cfb99cfb662c7ef1bfea6e6a12f603a184f61058ee9c9e95c7cb4d36fca787",
+      "./src/components/detailedpage/index.tsx": {
+        "version": "e296d90cada54c543d6b3daf1f80a4113624904c46c5f5feba403d37dff4ef40",
         "signature": "8f4c07c59cfff69ab825d6845d97863db611a4876d1bf52f68d2c79339f1a335",
         "affectsGlobalScope": false
       },
@@ -2646,14 +2661,14 @@
         "signature": "9c1e92aa951f8b8bc1983b50e8d7da9dc612882fb8f472a2c1f61a8e9e2c66f1",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonpageall/listview.tsx": {
-        "version": "3b140024fded3cf894d53617ff8d47e56c7eacc267799f3d75b0f2432a937980",
-        "signature": "1338acad533339a78dfd48b3cc6a1027243b764e801c8f60a226760ea25ad742",
+      "./src/components/pokemonpageall/views/listview.tsx": {
+        "version": "77d265f2f558160a0d88c370ac4ed1ef66aa09b28948cc3ba30ff20dc09175b2",
+        "signature": "04ad18cebab9e047b5b0a3a05994f37f4612ffbd79b29d35ff1539cf10629600",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonpageall/catalogview.tsx": {
-        "version": "80b85d3469bad2447738fb61bf3c5fffc8d437c71dd837e85bf60c04bcee9697",
-        "signature": "878ab4aaf793b596085841e7125781e37679a7d5d4b541e541b60fb1637790d0",
+      "./src/components/pokemonpageall/views/catalogview.tsx": {
+        "version": "acdd728fa656c72f27270fba10600ba3d8e80d399b862bf13ad78a7dae499a50",
+        "signature": "e04e3bdd5c44a2098bdac71393fbdd0068fda498c86033066935c8721032605d",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/apps.d.ts": {
@@ -2667,8 +2682,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/index.tsx": {
-        "version": "1bbf0aa8488a2aa8da3edf96464c0fe8975c4b6102034cdf26deb810dccb21f0",
-        "signature": "99b93628b27f57576c1cda43ec645ed77380dffc89c5c5b7a125a40c4602aaba",
+        "version": "8c0ab0bbdd1f4235a906999e1bc5b74368591189ead7bdc448ccdb7a8f3c965f",
+        "signature": "9902623aeaebcdc3e812d8ab9a71cf8548f52dd9455e39b020b38b1bc16a2876",
         "affectsGlobalScope": false
       },
       "./src/components/errorpage/errorpage.tsx": {
@@ -2687,7 +2702,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/app/view/app.tsx": {
-        "version": "6582cf8825abad73bbdb5a880817dce6d707dcc69d0f75abf1c35c5fdf986ffe",
+        "version": "4998a5633849e87869ca5354755d675fec21fee7ff373d173a8cabefcc0492e2",
         "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
@@ -3354,11 +3369,13 @@
       "jsx": 4,
       "baseUrl": "./src",
       "rootDir": "./src",
-      "outDir": "./build",
+      "outDir": "../../../../../tmp/tsc-output",
       "declaration": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
       "incremental": true,
+      "project": "./",
+      "tsBuildInfoFile": "./.tsbuildinfo",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -5774,40 +5791,68 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/detailedpage/detailedpage.tsx",
+        "./src/components/detailedpage/index.tsx",
         "./src/components/errorpage/errorpage.tsx",
         "./src/components/headerline/headerline.tsx",
-        "./src/components/maincontainer/maincontainer.tsx",
+        "./src/components/maincontainer/index.tsx",
         "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
         "./src/components/pokemonpageall/index.tsx"
       ],
-      "./src/components/detailedpage/abilities.tsx": [
+      "./src/components/buttons/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/buttons/views/allpokespagebutton.tsx",
+        "./src/components/buttons/views/clearbutton.tsx",
+        "./src/components/buttons/views/getbutton.tsx"
+      ],
+      "./src/components/buttons/views/allpokespagebutton.tsx": [
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
+      "./src/components/buttons/views/clearbutton.tsx": [
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
+      "./src/components/buttons/views/getbutton.tsx": [
+        "./node_modules/@material-ui/core/badge/index.d.ts",
+        "./node_modules/@material-ui/core/index.d.ts",
+        "./node_modules/@material-ui/icons/casino.d.ts",
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/components/detailedpage/index.tsx": [
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/detailedpage/views/abilities.tsx",
+        "./src/components/detailedpage/views/bigimage.tsx",
+        "./src/components/detailedpage/views/evolutionforms.tsx",
+        "./src/components/detailedpage/views/sprites.tsx",
+        "./src/components/detailedpage/views/stats.tsx",
+        "./src/types/index.ts",
+        "./src/utils/api.ts"
+      ],
+      "./src/components/detailedpage/views/abilities.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
-      "./src/components/detailedpage/bigimage.tsx": [
+      "./src/components/detailedpage/views/bigimage.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/imagecontainer/imagecontainer.tsx",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/detailedpage.tsx": [
-        "./node_modules/@types/react-redux/index.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/detailedpage/abilities.tsx",
-        "./src/components/detailedpage/bigimage.tsx",
-        "./src/components/detailedpage/evolutionforms.tsx",
-        "./src/components/detailedpage/sprites.tsx",
-        "./src/components/detailedpage/stats.tsx",
-        "./src/types/index.ts",
-        "./src/utils/api.ts"
-      ],
-      "./src/components/detailedpage/evolutionforms.tsx": [
+      "./src/components/detailedpage/views/evolutionforms.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/lodash.find/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
@@ -5815,14 +5860,14 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/sprites.tsx": [
+      "./src/components/detailedpage/views/sprites.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/stats.tsx": [
+      "./src/components/detailedpage/views/stats.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -5831,16 +5876,6 @@
       "./src/components/errorpage/errorpage.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
-      ],
-      "./src/components/getbutton/getbutton.tsx": [
-        "./node_modules/@material-ui/core/badge/index.d.ts",
-        "./node_modules/@material-ui/core/index.d.ts",
-        "./node_modules/@material-ui/icons/casino.d.ts",
-        "./node_modules/@types/react-redux/index.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/types/index.ts"
       ],
       "./src/components/headerline/headerline.tsx": [
         "./node_modules/@material-ui/core/appbar/index.d.ts",
@@ -5858,31 +5893,31 @@
         "./src/types/index.ts",
         "./src/utils/errorboundary.tsx"
       ],
-      "./src/components/maincontainer/heading.tsx": [
+      "./src/components/maincontainer/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/buttons/index.tsx",
+        "./src/components/maincontainer/views/itemslist.tsx",
+        "./src/components/maincontainer/views/logo.tsx"
+      ],
+      "./src/components/maincontainer/views/heading.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
-      "./src/components/maincontainer/itemslist.tsx": [
+      "./src/components/maincontainer/views/itemslist.tsx": [
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/maincontainer/heading.tsx",
-        "./src/components/maincontainer/pokemoncard.tsx",
+        "./src/components/maincontainer/views/heading.tsx",
+        "./src/components/maincontainer/views/pokemoncard.tsx",
         "./src/types/index.ts"
       ],
-      "./src/components/maincontainer/logo.tsx": [
+      "./src/components/maincontainer/views/logo.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/imagecontainer/imagecontainer.tsx"
       ],
-      "./src/components/maincontainer/maincontainer.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/getbutton/getbutton.tsx",
-        "./src/components/maincontainer/itemslist.tsx",
-        "./src/components/maincontainer/logo.tsx"
-      ],
-      "./src/components/maincontainer/pokemoncard.tsx": [
+      "./src/components/maincontainer/views/pokemoncard.tsx": [
         "./node_modules/@material-ui/core/card/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -5904,24 +5939,24 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/use-sound/dist/index.d.ts"
       ],
-      "./src/components/pokemonpageall/catalogview.tsx": [
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx",
-        "./src/types/index.ts"
-      ],
       "./src/components/pokemonpageall/index.tsx": [
         "./node_modules/@material-ui/icons/apps.d.ts",
         "./node_modules/@material-ui/icons/bluronoutlined.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/pokemonpageall/catalogview.tsx",
-        "./src/components/pokemonpageall/listview.tsx",
+        "./src/components/pokemonpageall/views/catalogview.tsx",
+        "./src/components/pokemonpageall/views/listview.tsx",
         "./src/types/index.ts"
       ],
-      "./src/components/pokemonpageall/listview.tsx": [
+      "./src/components/pokemonpageall/views/catalogview.tsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/imagecontainer/imagecontainer.tsx",
+        "./src/types/index.ts"
+      ],
+      "./src/components/pokemonpageall/views/listview.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -8392,31 +8427,40 @@
       "./src/components/app/view/app.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/detailedpage/abilities.tsx": [
+      "./src/components/buttons/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/detailedpage/bigimage.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/types/index.ts"
-      ],
-      "./src/components/detailedpage/detailedpage.tsx": [
+      "./src/components/buttons/views/allpokespagebutton.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/detailedpage/evolutionforms.tsx": [
+      "./src/components/buttons/views/clearbutton.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/buttons/views/getbutton.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/views/abilities.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/views/bigimage.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/sprites.tsx": [
+      "./src/components/detailedpage/views/evolutionforms.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/stats.tsx": [
+      "./src/components/detailedpage/views/sprites.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/components/detailedpage/views/stats.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/errorpage/errorpage.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/getbutton/getbutton.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/headerline/headerline.tsx": [
@@ -8425,19 +8469,19 @@
       "./src/components/imagecontainer/imagecontainer.tsx": [
         "./src/types/index.ts"
       ],
-      "./src/components/maincontainer/heading.tsx": [
+      "./src/components/maincontainer/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/itemslist.tsx": [
+      "./src/components/maincontainer/views/heading.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/logo.tsx": [
+      "./src/components/maincontainer/views/itemslist.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/maincontainer.tsx": [
+      "./src/components/maincontainer/views/logo.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/pokemoncard.tsx": [
+      "./src/components/maincontainer/views/pokemoncard.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
@@ -8447,14 +8491,14 @@
       "./src/components/player/player.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/pokemonpageall/catalogview.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/types/index.ts"
-      ],
       "./src/components/pokemonpageall/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/pokemonpageall/listview.tsx": [
+      "./src/components/pokemonpageall/views/catalogview.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/components/pokemonpageall/views/listview.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
@@ -8484,6 +8528,50 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.intl.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.promise.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.string.d.ts",
+      "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./node_modules/@ahooksjs/use-request/lib/antdtypes.d.ts",
       "./node_modules/@ahooksjs/use-request/lib/index.d.ts",
       "./node_modules/@ahooksjs/use-request/lib/types.d.ts",
@@ -9072,74 +9160,33 @@
       "./node_modules/reselect/lib/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
       "./node_modules/symbol-observable/index.d.ts",
-      "./node_modules/typescript/lib/lib.dom.d.ts",
-      "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "./node_modules/typescript/lib/lib.es2016.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.array.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.object.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.intl.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.promise.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.string.d.ts",
-      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
-      "./node_modules/typescript/lib/lib.es5.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.promise.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.string.d.ts",
-      "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./node_modules/use-sound/dist/index.d.ts",
       "./node_modules/use-sound/dist/types.d.ts",
       "./src/components/app/index.tsx",
       "./src/components/app/view/app.tsx",
-      "./src/components/detailedpage/abilities.tsx",
-      "./src/components/detailedpage/bigimage.tsx",
-      "./src/components/detailedpage/detailedpage.tsx",
-      "./src/components/detailedpage/evolutionforms.tsx",
-      "./src/components/detailedpage/sprites.tsx",
-      "./src/components/detailedpage/stats.tsx",
+      "./src/components/buttons/index.tsx",
+      "./src/components/buttons/views/allpokespagebutton.tsx",
+      "./src/components/buttons/views/clearbutton.tsx",
+      "./src/components/buttons/views/getbutton.tsx",
+      "./src/components/detailedpage/index.tsx",
+      "./src/components/detailedpage/views/abilities.tsx",
+      "./src/components/detailedpage/views/bigimage.tsx",
+      "./src/components/detailedpage/views/evolutionforms.tsx",
+      "./src/components/detailedpage/views/sprites.tsx",
+      "./src/components/detailedpage/views/stats.tsx",
       "./src/components/errorpage/errorpage.tsx",
-      "./src/components/getbutton/getbutton.tsx",
       "./src/components/headerline/headerline.tsx",
       "./src/components/imagecontainer/imagecontainer.tsx",
-      "./src/components/maincontainer/heading.tsx",
-      "./src/components/maincontainer/itemslist.tsx",
-      "./src/components/maincontainer/logo.tsx",
-      "./src/components/maincontainer/maincontainer.tsx",
-      "./src/components/maincontainer/pokemoncard.tsx",
+      "./src/components/maincontainer/index.tsx",
+      "./src/components/maincontainer/views/heading.tsx",
+      "./src/components/maincontainer/views/itemslist.tsx",
+      "./src/components/maincontainer/views/logo.tsx",
+      "./src/components/maincontainer/views/pokemoncard.tsx",
       "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
       "./src/components/player/player.tsx",
-      "./src/components/pokemonpageall/catalogview.tsx",
       "./src/components/pokemonpageall/index.tsx",
-      "./src/components/pokemonpageall/listview.tsx",
+      "./src/components/pokemonpageall/views/catalogview.tsx",
+      "./src/components/pokemonpageall/views/listview.tsx",
       "./src/components/search/search.tsx",
       "./src/index.tsx",
       "./src/react-app-env.d.ts",
@@ -9152,6 +9199,34 @@
       "./src/utils/pokemondataarray.ts"
     ],
     "affectedFilesPendingEmit": [
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2015.d.ts",
+        1
+      ],
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2016.d.ts",
+        1
+      ],
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2017.d.ts",
+        1
+      ],
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2018.d.ts",
+        1
+      ],
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2019.d.ts",
+        1
+      ],
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.es2020.d.ts",
+        1
+      ],
+      [
+        "../../../.config/yarn/global/node_modules/typescript/lib/lib.esnext.d.ts",
+        1
+      ],
       [
         "./node_modules/@ahooksjs/use-request/lib/antdtypes.d.ts",
         1
@@ -11505,34 +11580,6 @@
         1
       ],
       [
-        "./node_modules/typescript/lib/lib.es2015.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2016.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2017.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2018.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2019.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2020.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.esnext.d.ts",
-        1
-      ],
-      [
         "./node_modules/use-sound/dist/index.d.ts",
         1
       ],
@@ -11549,35 +11596,47 @@
         1
       ],
       [
-        "./src/components/detailedpage/abilities.tsx",
+        "./src/components/buttons/index.tsx",
         1
       ],
       [
-        "./src/components/detailedpage/bigimage.tsx",
+        "./src/components/buttons/views/allpokespagebutton.tsx",
         1
       ],
       [
-        "./src/components/detailedpage/detailedpage.tsx",
+        "./src/components/buttons/views/clearbutton.tsx",
         1
       ],
       [
-        "./src/components/detailedpage/evolutionforms.tsx",
+        "./src/components/buttons/views/getbutton.tsx",
         1
       ],
       [
-        "./src/components/detailedpage/sprites.tsx",
+        "./src/components/detailedpage/index.tsx",
         1
       ],
       [
-        "./src/components/detailedpage/stats.tsx",
+        "./src/components/detailedpage/views/abilities.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/bigimage.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/evolutionforms.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/sprites.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/stats.tsx",
         1
       ],
       [
         "./src/components/errorpage/errorpage.tsx",
-        1
-      ],
-      [
-        "./src/components/getbutton/getbutton.tsx",
         1
       ],
       [
@@ -11589,23 +11648,23 @@
         1
       ],
       [
-        "./src/components/maincontainer/heading.tsx",
+        "./src/components/maincontainer/index.tsx",
         1
       ],
       [
-        "./src/components/maincontainer/itemslist.tsx",
+        "./src/components/maincontainer/views/heading.tsx",
         1
       ],
       [
-        "./src/components/maincontainer/logo.tsx",
+        "./src/components/maincontainer/views/itemslist.tsx",
         1
       ],
       [
-        "./src/components/maincontainer/maincontainer.tsx",
+        "./src/components/maincontainer/views/logo.tsx",
         1
       ],
       [
-        "./src/components/maincontainer/pokemoncard.tsx",
+        "./src/components/maincontainer/views/pokemoncard.tsx",
         1
       ],
       [
@@ -11617,15 +11676,15 @@
         1
       ],
       [
-        "./src/components/pokemonpageall/catalogview.tsx",
-        1
-      ],
-      [
         "./src/components/pokemonpageall/index.tsx",
         1
       ],
       [
-        "./src/components/pokemonpageall/listview.tsx",
+        "./src/components/pokemonpageall/views/catalogview.tsx",
+        1
+      ],
+      [
+        "./src/components/pokemonpageall/views/listview.tsx",
         1
       ],
       [

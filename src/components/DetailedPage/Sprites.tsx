@@ -15,7 +15,7 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
         {[1, 2, 3, 4].map((el) => (
           <Paper key={el} elevation={3} className="block">
             <SkeletonTheme color="#6cff79" highlightColor="yellow">
-              <Skeleton className="solo" circle={true} height={60} width={60} />
+              <Skeleton className="skeleton" circle={true} height={60} width={60} />
             </SkeletonTheme>
           </Paper>
         ))}
