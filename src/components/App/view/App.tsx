@@ -5,8 +5,8 @@ import '../styles/App.scss';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 const HeaderLine = lazy(() => import('components/HeaderLine/HeaderLine'));
-const MainContainer = lazy(() => import('components/MainContainer/mainContainer'));
-const DetailedPage = lazy(() => import('components/DetailedPage/DetailedPage'));
+const MainContainer = lazy(() => import('components/MainContainer'));
+const DetailedPage = lazy(() => import('components/DetailedPage'));
 const PokemonPageAll = lazy(() => import('components/PokemonPageAll/index'));
 const ErrorPage = lazy(() => import('components/ErrorPage/ErrorPage'));
 const NonSupportPlaceholder = lazy(() => import('components/NonSupportPlaceholder/nonSupportPlaceholder'));
