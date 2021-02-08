@@ -3,8 +3,8 @@ import React from 'react';
 
 import { useSelector } from 'react-redux';
 
-import Heading from 'components/MainContainer/Heading';
-import PokemonCard from 'components/MainContainer/PokemonCard';
+import Heading from 'components/MainContainer/views/Heading';
+import PokemonCard from 'components/MainContainer/views/PokemonCard';
 
 import { pokemonCardType } from 'types/index';
 
@@ -31,7 +31,6 @@ const ItemsList: React.FC = () => {
     </>
   );
 };
-
 
 export default ItemsList;
 

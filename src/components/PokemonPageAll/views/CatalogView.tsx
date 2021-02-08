@@ -2,7 +2,6 @@ import React, { lazy } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import 'react-tippy/dist/tippy.css';
-import './styles/style.scss';
 
 import { PokesTypes } from 'types/index';
 

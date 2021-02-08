@@ -4,11 +4,11 @@ import { useLocation } from 'react-router-dom';
 
 import { useSelector } from 'react-redux';
 
-import Stats from './Stats';
-import Abilities from './Abilities';
-import Sprites from './Sprites';
-import EvolutionForms from './EvolutionForms';
-import BigImage from './BigImage';
+import Stats from './views/Stats';
+import Abilities from './views/Abilities';
+import Sprites from './views/Sprites';
+import EvolutionForms from './views/EvolutionForms';
+import BigImage from './views/BigImage';
 
 import './styles/style.scss';
 
@@ -35,17 +35,15 @@ const DetailedPage: React.FC = () => {
     let isSubscribed: boolean = true;
 
     if (isSubscribed) {
-      getDetailedPokemon(currentPokemon)
-        .then((response) => {
-          setDetailedPage(response)
-        });
+      getDetailedPokemon(currentPokemon).then((response) => {
+        setDetailedPage(response);
+      });
     }
 
     return (): void => {
       isSubscribed = false;
       // pokemonArr = [];
     };
-
   }, [currentPokemon]);
 
   useEffect(() => {
