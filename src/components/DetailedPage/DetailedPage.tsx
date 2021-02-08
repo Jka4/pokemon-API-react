@@ -2,8 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { Provider, connect } from 'react-redux';
-import store from 'Store/store';
+import { useSelector } from 'react-redux';
 
 import Stats from './Stats';
 import Abilities from './Abilities';
@@ -11,43 +10,46 @@ import Sprites from './Sprites';
 import EvolutionForms from './EvolutionForms';
 import BigImage from './BigImage';
 
-import axios from 'axios';
-
 import './styles/style.scss';
 
-import { Pokes, IStoreType } from 'types/index';
+import { PokesTypes } from 'types/index';
+
+import { getDetailedPokemon } from 'utils/API';
 
 interface DetailedPageType {
-  pokemonArr: Pokes[];
+  pokemonArr: PokesTypes[];
 }
 
-const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedPageType) => {
-  const [bigImage, setBigImage] = useState<Pokes>();
+const DetailedPage: React.FC = () => {
+  let pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
+
+  const [bigImage, setBigImage] = useState<PokesTypes>();
   const [detailedPage, setDetailedPage] = useState<any>({});
+
   const currentPokemon = useLocation().pathname.split('/').pop();
   const { abilities, stats, weight, sprites } = detailedPage;
 
   useEffect(() => {
     setDetailedPage({});
+
     let isSubscribed: boolean = true;
 
-    const URL = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
-    axios.get(URL).then(async (response) => {
-      const poke = response.data;
-
-      delete poke.sprites.other;
-      delete poke.sprites.versions;
-
-      isSubscribed && setDetailedPage(poke);
-    });
+    if (isSubscribed) {
+      getDetailedPokemon(currentPokemon)
+        .then((response) => {
+          setDetailedPage(response)
+        });
+    }
 
     return (): void => {
       isSubscribed = false;
+      // pokemonArr = [];
     };
+
   }, [currentPokemon]);
 
   useEffect(() => {
-    const pokemon: Pokes | undefined = pokemonArr.find((el) => el.name === currentPokemon);
+    const pokemon: PokesTypes | undefined = pokemonArr.find((el) => el.name === currentPokemon);
     pokemon && setBigImage(pokemon);
   }, [currentPokemon, pokemonArr]);
 
@@ -71,14 +73,4 @@ const DetailedPage: React.FC<DetailedPageType> = ({ pokemonArr = [] }: DetailedP
   );
 };
 
-const ConnectedDetailedPage = connect((store: IStoreType) => {
-  return {
-    pokemonArr: store.pokemonArr,
-  };
-})(DetailedPage);
-
-export default (props = {}) => (
-  <Provider store={store}>
-    <ConnectedDetailedPage {...props} />
-  </Provider>
-);
+export default DetailedPage;

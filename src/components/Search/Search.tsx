@@ -1,12 +1,13 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { lazy, useState, useRef } from 'react';
-import { Provider, connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+
+import { useSelector } from 'react-redux';
+
 import Fuse from 'fuse.js';
 import { useClickAway } from 'ahooks';
 
-import store from 'Store/store';
-import { Pokes, IStoreType } from 'types/index';
+import { PokesTypes } from 'types/index';
 
 import './styles/style.scss';
 
@@ -27,17 +28,19 @@ let fuseOptions = {
   keys: ['name', 'weight', 'id'],
 };
 
-type SearchProps = {
-  pokemonDataArray: Pokes[];
-};
+interface SearchTypes {
+  pokemonArr: PokesTypes[];
+}
 
-const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
+const Search: React.FC = () => {
+  const pokemonArr = useSelector((state: SearchTypes) => state.pokemonArr);
+
   const [showResult, setShowResult] = useState<boolean>(false);
   const [searchResult, setSearchResult] = useState<any[]>([]);
 
   const handleChange = (event: React.SyntheticEvent): void => {
     const value = (event.target as HTMLInputElement).value;
-    const fuse = new Fuse(pokemonDataArray, fuseOptions);
+    const fuse = new Fuse(pokemonArr, fuseOptions);
     const result = fuse.search(value).slice(0, 11);
     setSearchResult(result);
   };
@@ -93,14 +96,4 @@ const Search: React.FC<SearchProps> = ({ pokemonDataArray }: SearchProps) => {
   );
 };
 
-const ConnectedSearch = connect((store: IStoreType) => {
-  return {
-    pokemonDataArray: store.pokemonArr,
-  };
-})(Search);
-
-export default (props = {}) => (
-  <Provider store={store}>
-    <ConnectedSearch {...props} />
-  </Provider>
-);
+export default Search;

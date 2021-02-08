@@ -1,17 +1,20 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
-import { Provider, connect } from 'react-redux';
+
+import { useSelector } from 'react-redux';
+
 import Heading from 'components/MainContainer/Heading';
 import PokemonCard from 'components/MainContainer/PokemonCard';
-import store from 'Store/store';
 
-import { IStoreType, pokemonCardType } from 'types/index';
+import { pokemonCardType } from 'types/index';
 
-interface Props {
+interface ItemsListTypes {
   randomPokemon: pokemonCardType[];
 }
 
-const ItemsList: React.FC<Props> = ({ randomPokemon }: Props) => {
+const ItemsList: React.FC = () => {
+  const randomPokemon = useSelector((state: ItemsListTypes) => state.randomPokemon);
+
   const haveData = randomPokemon.length !== 0;
 
   return (
@@ -29,17 +32,8 @@ const ItemsList: React.FC<Props> = ({ randomPokemon }: Props) => {
   );
 };
 
-const ConnectedItemsList = connect((store: IStoreType) => {
-  return {
-    randomPokemon: store.randomPokemon,
-  };
-})(ItemsList);
 
-export default (props = {}) => (
-  <Provider store={store}>
-    <ConnectedItemsList {...props} />
-  </Provider>
-);
+export default ItemsList;
 
 ItemsList.defaultProps = {
   randomPokemon: [],

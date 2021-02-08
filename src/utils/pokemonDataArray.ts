@@ -1,6 +1,6 @@
-import { Pokes } from 'types/index';
+import { PokesTypes } from 'types/index';
 
-const POKEMON: Pokes[] = [
+const POKEMON: PokesTypes[] = [
   {
     id: 1,
     name: 'bulbasaur',

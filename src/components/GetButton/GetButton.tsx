@@ -1,9 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from 'react';
+import React, { useCallback } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { Provider, connect } from 'react-redux';
-import store from 'Store/store';
+import { useSelector, useDispatch } from 'react-redux';
 
 import { Button } from '@material-ui/core';
 import Badge from '@material-ui/core/Badge';
@@ -11,23 +10,28 @@ import CasinoIcon from '@material-ui/icons/Casino';
 
 import './styles/style.scss';
 
-import { Pokes, IStoreType } from 'types/index';
-import { clearRandomPokemon, addRandomPokemon } from 'actions/pokemon';
+import { PokesTypes } from 'types/index';
 
 interface GetButtonProps {
-  randomPokemon: Pokes[];
-  pokemonArr: Pokes[];
+  randomPokemon: PokesTypes[];
+  pokemonArr: PokesTypes[];
 }
 
-const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = [] }: GetButtonProps) => {
-  const clearState = () => {
-    clearRandomPokemon();
-  };
+const GetButton: React.FC = () => {
+  const randomPokemon = useSelector((state: GetButtonProps) => state.randomPokemon);
+  const pokemonArr = useSelector((state: GetButtonProps) => state.pokemonArr);
 
-  const handleClick = () => {
+  const dispatch = useDispatch()
+
+
+  const clearRandomPokemon = () => dispatch({ type: 'CLEAR_RANDOM_POKEMON' });
+
+  const getRandomPokemon = useCallback(() => {
     const randomPokemonFromArr = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
-    addRandomPokemon(randomPokemonFromArr);
-  };
+    dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemonFromArr })
+  },
+    [dispatch, pokemonArr]
+  )
 
   return (
     <div className="Button">
@@ -37,13 +41,13 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = 
         </Button>
       </NavLink>
 
-      <Button onClick={clearState} className="clearBtn" variant="contained" color="secondary">
+      <Button onClick={clearRandomPokemon} className="clearBtn" variant="contained" color="secondary">
         CLEAR
       </Button>
 
       <Badge color="secondary" badgeContent={randomPokemon.length}>
         <Button
-          onClick={handleClick}
+          onClick={getRandomPokemon}
           id="getPokemon"
           className="getPokemon"
           variant="contained"
@@ -57,15 +61,4 @@ const GetButton: React.FC<GetButtonProps> = ({ randomPokemon = [], pokemonArr = 
   );
 };
 
-const ConnectedGetButton = connect((store: IStoreType) => {
-  return {
-    randomPokemon: store.randomPokemon,
-    pokemonArr: store.pokemonArr,
-  };
-})(GetButton);
-
-export default (props = {}) => (
-  <Provider store={store}>
-    <ConnectedGetButton {...props} />
-  </Provider>
-);
+export default GetButton;
