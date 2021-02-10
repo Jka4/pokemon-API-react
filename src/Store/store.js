@@ -12,6 +12,7 @@ import throttle from 'lodash.throttle';
 let defaultState = {
   randomPokemon: [],
   pokemonArr: POKEMON,
+  detailedPage: {}
 };
 
 function rootReducer(state = defaultState, action) {
@@ -25,6 +26,11 @@ function rootReducer(state = defaultState, action) {
       return {
         ...state,
         randomPokemon: [],
+      };
+    case "SET_DETAILED_PAGE":
+      return {
+        ...state,
+        detailedPage: action.payload,
       };
     default:
       return state;

@@ -2497,7 +2497,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/buttons/views/getbutton.tsx": {
-        "version": "52f8245353c3973c2805a77816f0c1758a4ee54683ce947fa7afc82d4d57211b",
+        "version": "c8d5002d8cc57436733a243affc934fa57be2b18be46e8c2c480d5700b840754",
         "signature": "f01075d1d499ba448eabd832abe804a91b13f04b050225025fd762650ed08709",
         "affectsGlobalScope": false
       },
@@ -2646,13 +2646,13 @@
         "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
         "affectsGlobalScope": false
       },
-      "./src/utils/api.ts": {
-        "version": "935917aa1c36500a86778f5cc5c8cb4bb0835d817dd167b7aba66f28cc619b2f",
-        "signature": "063332270f7bb2dd572d001dfc782ab7e26545426f31b9cfafb0143730bed929",
+      "./src/actions/pokeactions.ts": {
+        "version": "ab76eeffb976e688fcac25ccb3ce3f2d087169f2900cbab5db47767fc121323b",
+        "signature": "76c3abf0bb4fa44db8037d222a61843db5080e1e8a578deed112f59dcf3b1f7e",
         "affectsGlobalScope": false
       },
       "./src/components/detailedpage/index.tsx": {
-        "version": "e296d90cada54c543d6b3daf1f80a4113624904c46c5f5feba403d37dff4ef40",
+        "version": "ee32dbe41f65ee7a7d62ecb8d2c9163b0644b40d6c302ecbf46a897442fa8f0b",
         "signature": "8f4c07c59cfff69ab825d6845d97863db611a4876d1bf52f68d2c79339f1a335",
         "affectsGlobalScope": false
       },
@@ -2837,8 +2837,8 @@
         "affectsGlobalScope": false
       },
       "./src/store/store.js": {
-        "version": "457b4db61d9b27fd9fbfd580bf4d777704c4fd074d3002bc0103db80a5bbe848",
-        "signature": "4098c9bbcf5824a1596dd62c3b001934c9cf805feeea37734d0c8957b5aed112",
+        "version": "fed8f6e94f76092b90916d904ff7ead98ecec47d41537c5fa81b10118290e2fb",
+        "signature": "1ef8c40c68ce0b955157537c8df202263ed1ceab7bf018da01b82ed61227a51d",
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
@@ -5780,6 +5780,10 @@
       "./node_modules/use-sound/dist/index.d.ts": [
         "./node_modules/use-sound/dist/types.d.ts"
       ],
+      "./src/actions/pokeactions.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/axios/index.d.ts"
+      ],
       "./src/components/app/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -5829,13 +5833,13 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/actions/pokeactions.ts",
         "./src/components/detailedpage/views/abilities.tsx",
         "./src/components/detailedpage/views/bigimage.tsx",
         "./src/components/detailedpage/views/evolutionforms.tsx",
         "./src/components/detailedpage/views/sprites.tsx",
         "./src/components/detailedpage/views/stats.tsx",
-        "./src/types/index.ts",
-        "./src/utils/api.ts"
+        "./src/types/index.ts"
       ],
       "./src/components/detailedpage/views/abilities.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
@@ -6004,10 +6008,6 @@
       "./src/types/index.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
-      ],
-      "./src/utils/api.ts": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/axios/index.d.ts"
       ],
       "./src/utils/errorboundary.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -9160,6 +9160,7 @@
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./node_modules/use-sound/dist/index.d.ts",
       "./node_modules/use-sound/dist/types.d.ts",
+      "./src/actions/pokeactions.ts",
       "./src/components/app/index.tsx",
       "./src/components/app/view/app.tsx",
       "./src/components/buttons/index.tsx",
@@ -9192,7 +9193,6 @@
       "./src/store/localstorage.ts",
       "./src/store/store.js",
       "./src/types/index.ts",
-      "./src/utils/api.ts",
       "./src/utils/errorboundary.tsx",
       "./src/utils/pokemondataarray.ts"
     ],
@@ -11583,6 +11583,10 @@
       ],
       [
         "./node_modules/use-sound/dist/types.d.ts",
+        1
+      ],
+      [
+        "./src/actions/pokeactions.ts",
         1
       ],
       [

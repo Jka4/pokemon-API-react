@@ -9,8 +9,9 @@ export const saveState = (state: stateType) => {
   try {
     const serializedState = JSON.stringify(state);
     localStorage.setItem('pokemon_state', serializedState);
-  } catch {
+  } catch (error) {
     console.log('Ooops, state not saved to localStorage');
+    console.log('=> ', error);
   }
 };
 

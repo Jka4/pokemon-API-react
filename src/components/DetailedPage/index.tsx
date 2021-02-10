@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
 import Stats from './views/Stats';
 import Abilities from './views/Abilities';
@@ -14,37 +14,33 @@ import './styles/style.scss';
 
 import { PokesTypes } from 'types/index';
 
-import { getDetailedPokemon } from 'utils/API';
+import { getDetailedPokemon } from 'actions/pokeActions';
 
 interface DetailedPageType {
   pokemonArr: PokesTypes[];
+  detailedPage: PokesTypes;
 }
 
 const DetailedPage: React.FC = () => {
   let pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
+  let detailedPage = useSelector((state: DetailedPageType) => state.detailedPage);
 
   const [bigImage, setBigImage] = useState<PokesTypes>();
-  const [detailedPage, setDetailedPage] = useState<any>({});
-
   const currentPokemon = useLocation().pathname.split('/').pop();
   const { abilities, stats, weight, sprites } = detailedPage;
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    setDetailedPage({});
-
     let isSubscribed: boolean = true;
 
     if (isSubscribed) {
-      getDetailedPokemon(currentPokemon).then((response) => {
-        setDetailedPage(response);
-      });
+      dispatch(getDetailedPokemon(currentPokemon));
     }
 
     return (): void => {
       isSubscribed = false;
-      // pokemonArr = [];
     };
-  }, [currentPokemon]);
+  }, [currentPokemon, dispatch]);
 
   useEffect(() => {
     const pokemon: PokesTypes | undefined = pokemonArr.find((el) => el.name === currentPokemon);
