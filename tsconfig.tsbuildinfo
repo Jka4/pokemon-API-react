@@ -2496,48 +2496,48 @@
         "signature": "865950dbe055cab1e6850f12d921894f46972e039f3f557791d77a214eb4d090",
         "affectsGlobalScope": false
       },
-      "./src/components/buttons/getbutton.tsx": {
+      "./src/components/buttons/views/getbutton.tsx": {
         "version": "52f8245353c3973c2805a77816f0c1758a4ee54683ce947fa7afc82d4d57211b",
         "signature": "f01075d1d499ba448eabd832abe804a91b13f04b050225025fd762650ed08709",
         "affectsGlobalScope": false
       },
-      "./src/components/buttons/clearbutton.tsx": {
+      "./src/components/buttons/views/clearbutton.tsx": {
         "version": "bef20be3717932d7ceb85b9b628de96092df573240a93c3ef1e1e291187210a3",
         "signature": "3a178d210c7724a7e1fa2ee75d6057b372a34043f659e6338b6faa641c3798aa",
         "affectsGlobalScope": false
       },
-      "./src/components/buttons/allpokespagebutton.tsx": {
+      "./src/components/buttons/views/allpokespagebutton.tsx": {
         "version": "bf2bc0f5917d189bf95f5bc0f82886a075733cf20e970b6a56fb9d38ea64ebca",
         "signature": "b14625f4ee4cddedb73490f1e6fe960995edf2b5f4349f6f598720c4ecd2faa4",
         "affectsGlobalScope": false
       },
       "./src/components/buttons/index.tsx": {
-        "version": "c24d73f2f8798c55b793b90b8de46b954e5ce16d1d6b29e3c52e7f216e546e5a",
+        "version": "7917c957ce092cc45f515c2e51d14bf8a8cdbca2b4931c6165cae05b1e55f276",
         "signature": "c95383f18b4c72c602bef7eab2d73041988126d2a21f7651eea883a85bd1565a",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/logo.tsx": {
+      "./src/components/maincontainer/views/logo.tsx": {
         "version": "44092222bae0ebaed98685b6f2e211043e67ac64d668d77fefdc9cbadaa1e6e6",
         "signature": "17ebf29f7df7ede390dbaebbf26f3a5b5af94396065959801d94893320c1642f",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/heading.tsx": {
+      "./src/components/maincontainer/views/heading.tsx": {
         "version": "17ae95389d2f5eec6bb670421776ad47cc87e971be42edf98b3267a08a1deabe",
         "signature": "982ea4fa763f4a21c085b37089f07abe4e866616752fe5227e303a7aca9a5a77",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/pokemoncard.tsx": {
+      "./src/components/maincontainer/views/pokemoncard.tsx": {
         "version": "f7fff1ca60042f6890b861eadbce3655fed470e12b4f669c0c92e8ce54c10137",
         "signature": "2d5f79d17e67c8853f39870c865de06285df67f45c36bb609f9d29d8b3494ac3",
         "affectsGlobalScope": false
       },
-      "./src/components/maincontainer/itemslist.tsx": {
-        "version": "2f06944c7dd5fc0a29ab36e58a23c23d8a6bd7656324262d946fa125c2a01f71",
+      "./src/components/maincontainer/views/itemslist.tsx": {
+        "version": "bf23442e1862b9a4fddd3daa7688a104ef792e28a61ee6ce08595c5419314602",
         "signature": "48181f4a95a43be251d03ae8f83b5ce4897e9675f1f81ae441dab3d04962c98d",
         "affectsGlobalScope": false
       },
       "./src/components/maincontainer/index.tsx": {
-        "version": "03f7c51ed1b18eb8408c10dc78bf4ba1ffa30b59ed0e84290d2885ca963078c0",
+        "version": "c02df91954aa88b72ca8a6f30c8de2681b364f53cb84392614bb0cf42ddff659",
         "signature": "2b3b7393c1c7b7f9513a507a13dfd45450f479ccf3298749a373a1fb6c7f43f8",
         "affectsGlobalScope": false
       },
@@ -2546,17 +2546,17 @@
         "signature": "aee69f22d2a95ef1724d9efed3de0199212e6c8fc8f365d2577b31ac59b3b440",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/stats.tsx": {
-        "version": "3a58732546a10513c11e02f32059e0656a1c521d6273225bcb50cf85b26ac480",
+      "./src/components/detailedpage/views/stats.tsx": {
+        "version": "3d9745cae700644307ed2fc144c8793b258d9a6dd550e0c14f943b41924938c2",
         "signature": "10af96868b54785b67a59918f24a0d3341f4c1497724e1a996fc6cfa5516efc6",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/abilities.tsx": {
-        "version": "a0b66fdda5f830e654c75997ef0834f2c8e987f4aa9deed5d18969982c1e6a12",
+      "./src/components/detailedpage/views/abilities.tsx": {
+        "version": "d60819d6bffcdccecb7c08dd8e800995dd08a341ff81c6224ee387de10fb0f5d",
         "signature": "bc0bc34ba30b71b63e5714674826141779581c3f283ab26f8d6d8bf5ea14e3af",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/sprites.tsx": {
+      "./src/components/detailedpage/views/sprites.tsx": {
         "version": "37cc6c5fb7aa68de8a08e8827ce67be563ebc166f103d99aa477c19b689816fb",
         "signature": "79e8ca824d3f061a1e0dfb070e82a2bd35153500a248fa4d86a68a74757db40d",
         "affectsGlobalScope": false
@@ -2631,12 +2631,12 @@
         "signature": "fc71f47f4c57eb77d149c76a3b2467a80b59de6c750e4d85f98fb25201506e0d",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/evolutionforms.tsx": {
+      "./src/components/detailedpage/views/evolutionforms.tsx": {
         "version": "6525342ac269eb607b66af31ad5e39cabc9b3f4d8bffedb29a9a4a636c31dad1",
         "signature": "8ebb2c789d8ebc45767d1f8edb4aca92811b856e67237172924125d472c3323b",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/bigimage.tsx": {
+      "./src/components/detailedpage/views/bigimage.tsx": {
         "version": "f53a497596c8ae18f3c934236a9046077e63b409bac8611f28270e20fb8d9555",
         "signature": "c57efa4c4112edb8efaab0c1e2a1d108c208b8819a780783789b49560a114310",
         "affectsGlobalScope": false
@@ -2651,8 +2651,8 @@
         "signature": "063332270f7bb2dd572d001dfc782ab7e26545426f31b9cfafb0143730bed929",
         "affectsGlobalScope": false
       },
-      "./src/components/detailedpage/detailedpage.tsx": {
-        "version": "55cfb99cfb662c7ef1bfea6e6a12f603a184f61058ee9c9e95c7cb4d36fca787",
+      "./src/components/detailedpage/index.tsx": {
+        "version": "e296d90cada54c543d6b3daf1f80a4113624904c46c5f5feba403d37dff4ef40",
         "signature": "8f4c07c59cfff69ab825d6845d97863db611a4876d1bf52f68d2c79339f1a335",
         "affectsGlobalScope": false
       },
@@ -2661,14 +2661,14 @@
         "signature": "9c1e92aa951f8b8bc1983b50e8d7da9dc612882fb8f472a2c1f61a8e9e2c66f1",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonpageall/listview.tsx": {
-        "version": "3b140024fded3cf894d53617ff8d47e56c7eacc267799f3d75b0f2432a937980",
-        "signature": "1338acad533339a78dfd48b3cc6a1027243b764e801c8f60a226760ea25ad742",
+      "./src/components/pokemonpageall/views/listview.tsx": {
+        "version": "77d265f2f558160a0d88c370ac4ed1ef66aa09b28948cc3ba30ff20dc09175b2",
+        "signature": "04ad18cebab9e047b5b0a3a05994f37f4612ffbd79b29d35ff1539cf10629600",
         "affectsGlobalScope": false
       },
-      "./src/components/pokemonpageall/catalogview.tsx": {
-        "version": "80b85d3469bad2447738fb61bf3c5fffc8d437c71dd837e85bf60c04bcee9697",
-        "signature": "878ab4aaf793b596085841e7125781e37679a7d5d4b541e541b60fb1637790d0",
+      "./src/components/pokemonpageall/views/catalogview.tsx": {
+        "version": "acdd728fa656c72f27270fba10600ba3d8e80d399b862bf13ad78a7dae499a50",
+        "signature": "e04e3bdd5c44a2098bdac71393fbdd0068fda498c86033066935c8721032605d",
         "affectsGlobalScope": false
       },
       "./node_modules/@material-ui/icons/apps.d.ts": {
@@ -2682,8 +2682,8 @@
         "affectsGlobalScope": false
       },
       "./src/components/pokemonpageall/index.tsx": {
-        "version": "1bbf0aa8488a2aa8da3edf96464c0fe8975c4b6102034cdf26deb810dccb21f0",
-        "signature": "99b93628b27f57576c1cda43ec645ed77380dffc89c5c5b7a125a40c4602aaba",
+        "version": "8c0ab0bbdd1f4235a906999e1bc5b74368591189ead7bdc448ccdb7a8f3c965f",
+        "signature": "9902623aeaebcdc3e812d8ab9a71cf8548f52dd9455e39b020b38b1bc16a2876",
         "affectsGlobalScope": false
       },
       "./src/components/errorpage/errorpage.tsx": {
@@ -2702,7 +2702,7 @@
         "affectsGlobalScope": false
       },
       "./src/components/app/view/app.tsx": {
-        "version": "6a5f9dd7f2d78ebe0451640d0a323dbd5283fd30cacc4af76e9a5a3191b0236d",
+        "version": "4998a5633849e87869ca5354755d675fec21fee7ff373d173a8cabefcc0492e2",
         "signature": "42c9a95deec245b46ff1c6c84a8706fbb89515a54c1d69a85de4e92facfbba31",
         "affectsGlobalScope": false
       },
@@ -5789,26 +5789,33 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/detailedpage/detailedpage.tsx",
+        "./src/components/detailedpage/index.tsx",
         "./src/components/errorpage/errorpage.tsx",
         "./src/components/headerline/headerline.tsx",
         "./src/components/maincontainer/index.tsx",
         "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
         "./src/components/pokemonpageall/index.tsx"
       ],
-      "./src/components/buttons/allpokespagebutton.tsx": [
+      "./src/components/buttons/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/buttons/views/allpokespagebutton.tsx",
+        "./src/components/buttons/views/clearbutton.tsx",
+        "./src/components/buttons/views/getbutton.tsx"
+      ],
+      "./src/components/buttons/views/allpokespagebutton.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
-      "./src/components/buttons/clearbutton.tsx": [
+      "./src/components/buttons/views/clearbutton.tsx": [
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts"
       ],
-      "./src/components/buttons/getbutton.tsx": [
+      "./src/components/buttons/views/getbutton.tsx": [
         "./node_modules/@material-ui/core/badge/index.d.ts",
         "./node_modules/@material-ui/core/index.d.ts",
         "./node_modules/@material-ui/icons/casino.d.ts",
@@ -5817,40 +5824,33 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/buttons/index.tsx": [
+      "./src/components/detailedpage/index.tsx": [
+        "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/buttons/allpokespagebutton.tsx",
-        "./src/components/buttons/clearbutton.tsx",
-        "./src/components/buttons/getbutton.tsx"
+        "./src/components/detailedpage/views/abilities.tsx",
+        "./src/components/detailedpage/views/bigimage.tsx",
+        "./src/components/detailedpage/views/evolutionforms.tsx",
+        "./src/components/detailedpage/views/sprites.tsx",
+        "./src/components/detailedpage/views/stats.tsx",
+        "./src/types/index.ts",
+        "./src/utils/api.ts"
       ],
-      "./src/components/detailedpage/abilities.tsx": [
+      "./src/components/detailedpage/views/abilities.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts"
       ],
-      "./src/components/detailedpage/bigimage.tsx": [
+      "./src/components/detailedpage/views/bigimage.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/imagecontainer/imagecontainer.tsx",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/detailedpage.tsx": [
-        "./node_modules/@types/react-redux/index.d.ts",
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/detailedpage/abilities.tsx",
-        "./src/components/detailedpage/bigimage.tsx",
-        "./src/components/detailedpage/evolutionforms.tsx",
-        "./src/components/detailedpage/sprites.tsx",
-        "./src/components/detailedpage/stats.tsx",
-        "./src/types/index.ts",
-        "./src/utils/api.ts"
-      ],
-      "./src/components/detailedpage/evolutionforms.tsx": [
+      "./src/components/detailedpage/views/evolutionforms.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/lodash.find/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
@@ -5858,14 +5858,14 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/sprites.tsx": [
+      "./src/components/detailedpage/views/sprites.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/react-loading-skeleton/lib/index.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/stats.tsx": [
+      "./src/components/detailedpage/views/stats.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -5891,31 +5891,31 @@
         "./src/types/index.ts",
         "./src/utils/errorboundary.tsx"
       ],
-      "./src/components/maincontainer/heading.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts"
-      ],
       "./src/components/maincontainer/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/buttons/index.tsx",
-        "./src/components/maincontainer/itemslist.tsx",
-        "./src/components/maincontainer/logo.tsx"
+        "./src/components/maincontainer/views/itemslist.tsx",
+        "./src/components/maincontainer/views/logo.tsx"
       ],
-      "./src/components/maincontainer/itemslist.tsx": [
+      "./src/components/maincontainer/views/heading.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
+      "./src/components/maincontainer/views/itemslist.tsx": [
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/maincontainer/heading.tsx",
-        "./src/components/maincontainer/pokemoncard.tsx",
+        "./src/components/maincontainer/views/heading.tsx",
+        "./src/components/maincontainer/views/pokemoncard.tsx",
         "./src/types/index.ts"
       ],
-      "./src/components/maincontainer/logo.tsx": [
+      "./src/components/maincontainer/views/logo.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./src/components/imagecontainer/imagecontainer.tsx"
       ],
-      "./src/components/maincontainer/pokemoncard.tsx": [
+      "./src/components/maincontainer/views/pokemoncard.tsx": [
         "./node_modules/@material-ui/core/card/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -5937,24 +5937,24 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/use-sound/dist/index.d.ts"
       ],
-      "./src/components/pokemonpageall/catalogview.tsx": [
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/imagecontainer/imagecontainer.tsx",
-        "./src/types/index.ts"
-      ],
       "./src/components/pokemonpageall/index.tsx": [
         "./node_modules/@material-ui/icons/apps.d.ts",
         "./node_modules/@material-ui/icons/bluronoutlined.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./src/components/pokemonpageall/catalogview.tsx",
-        "./src/components/pokemonpageall/listview.tsx",
+        "./src/components/pokemonpageall/views/catalogview.tsx",
+        "./src/components/pokemonpageall/views/listview.tsx",
         "./src/types/index.ts"
       ],
-      "./src/components/pokemonpageall/listview.tsx": [
+      "./src/components/pokemonpageall/views/catalogview.tsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./src/components/imagecontainer/imagecontainer.tsx",
+        "./src/types/index.ts"
+      ],
+      "./src/components/pokemonpageall/views/listview.tsx": [
         "./node_modules/@material-ui/core/paper/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -8425,37 +8425,37 @@
       "./src/components/app/view/app.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/buttons/allpokespagebutton.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/buttons/clearbutton.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/components/buttons/getbutton.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./src/components/buttons/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/detailedpage/abilities.tsx": [
+      "./src/components/buttons/views/allpokespagebutton.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/detailedpage/bigimage.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/types/index.ts"
-      ],
-      "./src/components/detailedpage/detailedpage.tsx": [
+      "./src/components/buttons/views/clearbutton.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/detailedpage/evolutionforms.tsx": [
+      "./src/components/buttons/views/getbutton.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/views/abilities.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/detailedpage/views/bigimage.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/sprites.tsx": [
+      "./src/components/detailedpage/views/evolutionforms.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
-      "./src/components/detailedpage/stats.tsx": [
+      "./src/components/detailedpage/views/sprites.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/components/detailedpage/views/stats.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/errorpage/errorpage.tsx": [
@@ -8467,19 +8467,19 @@
       "./src/components/imagecontainer/imagecontainer.tsx": [
         "./src/types/index.ts"
       ],
-      "./src/components/maincontainer/heading.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./src/components/maincontainer/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/itemslist.tsx": [
+      "./src/components/maincontainer/views/heading.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/logo.tsx": [
+      "./src/components/maincontainer/views/itemslist.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/maincontainer/pokemoncard.tsx": [
+      "./src/components/maincontainer/views/logo.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/maincontainer/views/pokemoncard.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
@@ -8489,14 +8489,14 @@
       "./src/components/player/player.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/pokemonpageall/catalogview.tsx": [
-        "./node_modules/@types/react/index.d.ts",
-        "./src/types/index.ts"
-      ],
       "./src/components/pokemonpageall/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/components/pokemonpageall/listview.tsx": [
+      "./src/components/pokemonpageall/views/catalogview.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/components/pokemonpageall/views/listview.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/types/index.ts"
       ],
@@ -9162,29 +9162,29 @@
       "./node_modules/use-sound/dist/types.d.ts",
       "./src/components/app/index.tsx",
       "./src/components/app/view/app.tsx",
-      "./src/components/buttons/allpokespagebutton.tsx",
-      "./src/components/buttons/clearbutton.tsx",
-      "./src/components/buttons/getbutton.tsx",
       "./src/components/buttons/index.tsx",
-      "./src/components/detailedpage/abilities.tsx",
-      "./src/components/detailedpage/bigimage.tsx",
-      "./src/components/detailedpage/detailedpage.tsx",
-      "./src/components/detailedpage/evolutionforms.tsx",
-      "./src/components/detailedpage/sprites.tsx",
-      "./src/components/detailedpage/stats.tsx",
+      "./src/components/buttons/views/allpokespagebutton.tsx",
+      "./src/components/buttons/views/clearbutton.tsx",
+      "./src/components/buttons/views/getbutton.tsx",
+      "./src/components/detailedpage/index.tsx",
+      "./src/components/detailedpage/views/abilities.tsx",
+      "./src/components/detailedpage/views/bigimage.tsx",
+      "./src/components/detailedpage/views/evolutionforms.tsx",
+      "./src/components/detailedpage/views/sprites.tsx",
+      "./src/components/detailedpage/views/stats.tsx",
       "./src/components/errorpage/errorpage.tsx",
       "./src/components/headerline/headerline.tsx",
       "./src/components/imagecontainer/imagecontainer.tsx",
-      "./src/components/maincontainer/heading.tsx",
       "./src/components/maincontainer/index.tsx",
-      "./src/components/maincontainer/itemslist.tsx",
-      "./src/components/maincontainer/logo.tsx",
-      "./src/components/maincontainer/pokemoncard.tsx",
+      "./src/components/maincontainer/views/heading.tsx",
+      "./src/components/maincontainer/views/itemslist.tsx",
+      "./src/components/maincontainer/views/logo.tsx",
+      "./src/components/maincontainer/views/pokemoncard.tsx",
       "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
       "./src/components/player/player.tsx",
-      "./src/components/pokemonpageall/catalogview.tsx",
       "./src/components/pokemonpageall/index.tsx",
-      "./src/components/pokemonpageall/listview.tsx",
+      "./src/components/pokemonpageall/views/catalogview.tsx",
+      "./src/components/pokemonpageall/views/listview.tsx",
       "./src/components/search/search.tsx",
       "./src/index.tsx",
       "./src/react-app-env.d.ts",
@@ -11610,6 +11610,18 @@
         1
       ],
       [
+        "./src/components/buttons/views/allpokespagebutton.tsx",
+        1
+      ],
+      [
+        "./src/components/buttons/views/clearbutton.tsx",
+        1
+      ],
+      [
+        "./src/components/buttons/views/getbutton.tsx",
+        1
+      ],
+      [
         "./src/components/detailedpage/abilities.tsx",
         1
       ],
@@ -11626,11 +11638,35 @@
         1
       ],
       [
+        "./src/components/detailedpage/index.tsx",
+        1
+      ],
+      [
         "./src/components/detailedpage/sprites.tsx",
         1
       ],
       [
         "./src/components/detailedpage/stats.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/abilities.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/bigimage.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/evolutionforms.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/sprites.tsx",
+        1
+      ],
+      [
+        "./src/components/detailedpage/views/stats.tsx",
         1
       ],
       [
@@ -11674,6 +11710,22 @@
         1
       ],
       [
+        "./src/components/maincontainer/views/heading.tsx",
+        1
+      ],
+      [
+        "./src/components/maincontainer/views/itemslist.tsx",
+        1
+      ],
+      [
+        "./src/components/maincontainer/views/logo.tsx",
+        1
+      ],
+      [
+        "./src/components/maincontainer/views/pokemoncard.tsx",
+        1
+      ],
+      [
         "./src/components/nonsupportplaceholder/nonsupportplaceholder.tsx",
         1
       ],
@@ -11691,6 +11743,14 @@
       ],
       [
         "./src/components/pokemonpageall/listview.tsx",
+        1
+      ],
+      [
+        "./src/components/pokemonpageall/views/catalogview.tsx",
+        1
+      ],
+      [
+        "./src/components/pokemonpageall/views/listview.tsx",
         1
       ],
       [

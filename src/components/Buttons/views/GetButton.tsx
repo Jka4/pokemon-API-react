@@ -17,11 +17,12 @@ interface GetButtonProps {
 const GetButton: React.FC = () => {
   const randomPokemon = useSelector((state: GetButtonProps) => state.randomPokemon);
   const pokemonArr = useSelector((state: GetButtonProps) => state.pokemonArr);
+
   const dispatch = useDispatch();
 
   const getRandomPokemon = useCallback(() => {
-    const randomPokemonFromArr = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
-    dispatch({ type: 'ADD_RANDOM_POKEMON', randomPokemonFromArr });
+    const randomPokemon = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
+    dispatch({ type: 'ADD_RANDOM_POKEMON', payload: randomPokemon });
   }, [dispatch, pokemonArr]);
 
   return (

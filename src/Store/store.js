@@ -1,6 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import logger from 'redux-logger'
 import thunk from 'redux-thunk';
 
 import POKEMON from "utils/pokemonDataArray";
@@ -16,14 +15,11 @@ let defaultState = {
 };
 
 function rootReducer(state = defaultState, action) {
-  let actionValue;
-  mapKeys(action, (value, key) => key !== 'type' && (actionValue = action[key]));
-
   switch (action.type) {
     case "ADD_RANDOM_POKEMON":
       return {
         ...state,
-        randomPokemon: [...state.randomPokemon, actionValue],
+        randomPokemon: [...state.randomPokemon, action.payload],
       };
     case "CLEAR_RANDOM_POKEMON":
       return {
@@ -35,10 +31,18 @@ function rootReducer(state = defaultState, action) {
   }
 }
 
+
+const middlewares = [thunk];
+
+if (process.env.NODE_ENV === `development`) {
+  const { logger } = require(`redux-logger`);
+  middlewares.push(logger);
+}
+
 const store = configureStore({
   reducer: rootReducer,
   preloadedState: loadState(),
-  middleware: [thunk]
+  middleware: middlewares,
 })
 
 store.subscribe(
