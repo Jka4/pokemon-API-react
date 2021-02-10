@@ -2647,7 +2647,7 @@
         "affectsGlobalScope": false
       },
       "./src/actions/pokeactions.ts": {
-        "version": "ab76eeffb976e688fcac25ccb3ce3f2d087169f2900cbab5db47767fc121323b",
+        "version": "a979028c4e9ec17cafe66b3539afbc14c6f8f3e409bfc5843f0038dd0ed71344",
         "signature": "76c3abf0bb4fa44db8037d222a61843db5080e1e8a578deed112f59dcf3b1f7e",
         "affectsGlobalScope": false
       },
@@ -2821,8 +2821,13 @@
         "signature": "e887ebccddbedfd4f8542bc35f7ffcbb530fb1cddfac32f5af092151f95bb251",
         "affectsGlobalScope": false
       },
+      "./package.json": {
+        "version": "dfd87c77c65a9b3dd7c88099cca89162d3f0254c9e8b7751239e53e465b6a8a4",
+        "signature": "1ec8174b0ee10cae489469c80fc670f2f818323b961059d87bce7c39780c9321",
+        "affectsGlobalScope": true
+      },
       "./src/store/localstorage.ts": {
-        "version": "bffcf3399800e7bf63b26686ae2ca30d75f59c5341c34c1a37542a6bc299f8e6",
+        "version": "c569fe7db013fdcba1d5ff3022916832a66c18448b3cc7f39ce770c0afb8b173",
         "signature": "f7712eae26dcae594cd91365e2e7d9c066d6cd91a443d0a192d2908a9d4f046d",
         "affectsGlobalScope": false
       },
@@ -5780,6 +5785,9 @@
       "./node_modules/use-sound/dist/index.d.ts": [
         "./node_modules/use-sound/dist/types.d.ts"
       ],
+      "./package.json": [
+        "./node_modules/@types/react/jsx-runtime.d.ts"
+      ],
       "./src/actions/pokeactions.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/axios/index.d.ts"
@@ -5994,6 +6002,7 @@
       ],
       "./src/store/localstorage.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./package.json",
         "./src/types/index.ts"
       ],
       "./src/store/store.js": [
@@ -9160,6 +9169,7 @@
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "./node_modules/use-sound/dist/index.d.ts",
       "./node_modules/use-sound/dist/types.d.ts",
+      "./package.json",
       "./src/actions/pokeactions.ts",
       "./src/components/app/index.tsx",
       "./src/components/app/view/app.tsx",
@@ -11583,6 +11593,10 @@
       ],
       [
         "./node_modules/use-sound/dist/types.d.ts",
+        1
+      ],
+      [
+        "./package.json",
         1
       ],
       [
