@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ls } from 'utils/localStorage';
 
-function getDetailedPokemon(currentPokemon) {
+const getDetailedPokemon = (currentPokemon) => {
   return (dispatch) => {
     if (ls.cache[currentPokemon] !== undefined) {
       dispatch({ type: 'SET_DETAILED_PAGE', payload: ls.cache[currentPokemon] });
@@ -22,6 +22,12 @@ function getDetailedPokemon(currentPokemon) {
       ls.save(ls.cache, 'API');
     });
   };
-}
+};
 
-export { getDetailedPokemon };
+const cleanDetailedPokemon = () => {
+  return (dispatch) => {
+    dispatch({ type: 'SET_DETAILED_PAGE', payload: {} });
+  };
+};
+
+export { getDetailedPokemon, cleanDetailedPokemon };

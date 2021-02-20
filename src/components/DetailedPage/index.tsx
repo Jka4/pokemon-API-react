@@ -14,7 +14,7 @@ import './styles/style.scss';
 
 import { PokesTypes } from 'types/index';
 
-import { getDetailedPokemon } from 'actions';
+import { getDetailedPokemon, cleanDetailedPokemon } from 'actions';
 
 interface DetailedPageType {
   pokemonArr: PokesTypes[];
@@ -32,15 +32,19 @@ const DetailedPage: React.FC = () => {
 
   useEffect(() => {
     let isSubscribed: boolean = true;
-
     if (isSubscribed) {
       dispatch(getDetailedPokemon(currentPokemon));
     }
-
     return (): void => {
       isSubscribed = false;
     };
   }, [currentPokemon, dispatch]);
+
+  useEffect(() => {
+    return () => {
+      dispatch(cleanDetailedPokemon());
+    };
+  }, [dispatch]);
 
   useEffect(() => {
     const pokemon: PokesTypes | undefined = pokemonArr.find((el) => el.name === currentPokemon);
