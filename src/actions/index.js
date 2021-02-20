@@ -1,7 +1,13 @@
 import axios from 'axios';
+import { ls } from 'utils/localStorage';
 
-function getDetailedPokemon(currentPokemon?: string) {
-  return (dispatch: any) => {
+function getDetailedPokemon(currentPokemon) {
+  return (dispatch) => {
+    if (ls.cache[currentPokemon] !== undefined) {
+      dispatch({ type: 'SET_DETAILED_PAGE', payload: ls.cache[currentPokemon] });
+      return;
+    }
+
     dispatch({ type: 'SET_DETAILED_PAGE', payload: {} });
 
     const URL = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
@@ -12,6 +18,8 @@ function getDetailedPokemon(currentPokemon?: string) {
       delete poke.sprites.versions;
 
       dispatch({ type: 'SET_DETAILED_PAGE', payload: poke });
+      ls.cache[currentPokemon] = poke;
+      ls.save(ls.cache, 'API');
     });
   };
 }

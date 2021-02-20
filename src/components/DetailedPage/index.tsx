@@ -14,7 +14,7 @@ import './styles/style.scss';
 
 import { PokesTypes } from 'types/index';
 
-import { getDetailedPokemon } from 'actions/pokeActions';
+import { getDetailedPokemon } from 'actions';
 
 interface DetailedPageType {
   pokemonArr: PokesTypes[];

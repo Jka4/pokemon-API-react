@@ -3,7 +3,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 
 import POKEMON from 'utils/pokemonDataArray';
-import { saveState, loadState } from './localStorage';
+import { ls } from 'utils/localStorage';
 
 import throttle from 'lodash.throttle';
 
@@ -16,20 +16,11 @@ let defaultState = {
 function rootReducer(state = defaultState, action) {
   switch (action.type) {
     case 'ADD_RANDOM_POKEMON':
-      return {
-        ...state,
-        randomPokemon: [...state.randomPokemon, action.payload],
-      };
+      return { ...state, randomPokemon: [...state.randomPokemon, action.payload] };
     case 'CLEAR_RANDOM_POKEMON':
-      return {
-        ...state,
-        randomPokemon: [],
-      };
+      return { ...state, randomPokemon: [] };
     case 'SET_DETAILED_PAGE':
-      return {
-        ...state,
-        detailedPage: action.payload,
-      };
+      return { ...state, detailedPage: action.payload };
     default:
       return state;
   }
@@ -39,15 +30,15 @@ const middlewares = [thunk];
 
 if (process.env.NODE_ENV === `development`) {
   const { logger } = require(`redux-logger`);
-  middlewares.push(logger);
+  // middlewares.push(logger);
 }
 
 const store = configureStore({
   reducer: rootReducer,
-  preloadedState: loadState(),
+  preloadedState: ls.load('store'),
   middleware: middlewares,
 });
 
-store.subscribe(throttle(() => saveState(store.getState()), 1000));
+store.subscribe(throttle(() => ls.save(store.getState(), 'store'), 1000));
 
 export default store;
