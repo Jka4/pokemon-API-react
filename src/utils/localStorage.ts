@@ -1,11 +1,9 @@
 import { version, name } from '../../package.json';
 
 const ls = (() => {
-  let cache = {};
+  const keyLiteral = `${name}_${version}_`;
 
-  const save = (state: any, type: string) => {
-    const keyLiteral = `${name}_${version}_${type}`;
-
+  const save = (state: any) => {
     try {
       const serializedState = JSON.stringify(state);
       localStorage.setItem(keyLiteral, serializedState);
@@ -17,9 +15,7 @@ const ls = (() => {
     }
   };
 
-  const load = (type: string) => {
-    const keyLiteral = `${name}_${version}_${type}`;
-
+  const load = () => {
     try {
       const serializedState = localStorage.getItem(keyLiteral);
       if (serializedState === null) {
@@ -31,15 +27,9 @@ const ls = (() => {
     }
   };
 
-  //  load cache from ls on app init
-  if (load('API') !== undefined && Object.keys(load('API')).length !== 0) {
-    cache = load('API');
-  }
-
   return {
     save: save,
     load: load,
-    cache: cache,
   };
 })();
 
