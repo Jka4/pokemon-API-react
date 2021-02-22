@@ -19,6 +19,9 @@ List of pokemon on the basis of React + Redux + Typescript
    - All forms of current Pokemon
 
 5. Player with music theme (in Russian)
+6. Caching API request
+7. Caching Store to localStorage
+8. Image placeholders in Base64
 
 #
 
