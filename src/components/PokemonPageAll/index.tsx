@@ -11,8 +11,6 @@ import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 
 import { PokesTypes } from 'types/index';
 
-import './styles/style.scss';
-
 import styled from 'styled-components/macro';
 
 const PokemonPageAll: React.FC = () => {
@@ -25,9 +23,9 @@ const PokemonPageAll: React.FC = () => {
       <ViewType>
         <ViewTypeInner>
           <InnerBlock onClick={() => setViewTypeIsCatalog(!viewTypeIsCatalog)}>
-            <span>{!viewTypeIsCatalog ? 'List view:' : 'Catalog view:'}</span>
-            <span className="separator">|</span>
-            <div className="viewTypeIcon">{!viewTypeIsCatalog ? <BlurOnOutlinedIcon /> : <AppsIcon />}</div>
+            <Title>{!viewTypeIsCatalog ? 'List view' : 'Catalog view'}</Title>
+            <Separator>|</Separator>
+            <Icon>{!viewTypeIsCatalog ? <BlurOnOutlinedIcon /> : <AppsIcon />}</Icon>
           </InnerBlock>
         </ViewTypeInner>
       </ViewType>
@@ -43,6 +41,23 @@ const ViewType = styled.div`
   justify-content: center;
   margin-top: 100px;
   width: 100%;
+`;
+
+const Title = styled.span`
+  font-size: 24px;
+  margin-right: 5px;
+`;
+
+const Separator = styled.span`
+  margin-top: 2px;
+  margin-right: 10px;
+  font-size: 24px;
+`;
+
+const Icon = styled.div`
+  margin-top: 4px;
+  cursor: pointer;
+  width: 20px;
 `;
 
 const ViewTypeInner = styled.div`
@@ -68,21 +83,6 @@ const InnerBlock = styled.div`
 
   &:active {
     box-shadow: 0 1px 0 #00823f;
-  }
-
-  span {
-    margin-right: 10px;
-    font-size: 24px;
-  }
-
-  .separator {
-    margin-top: 2px;
-  }
-
-  .viewTypeIcon {
-    margin-top: 4px;
-    cursor: pointer;
-    width: 20px;
   }
 `;
 

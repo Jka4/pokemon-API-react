@@ -1,5 +1,4 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import styled from 'styled-components/macro';
 
