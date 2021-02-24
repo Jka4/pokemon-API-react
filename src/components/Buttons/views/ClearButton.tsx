@@ -3,6 +3,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 
 import { Button } from '@material-ui/core';
+import styled from 'styled-components/macro';
 
 const ClearButton: React.FC = () => {
   const dispatch = useDispatch();
@@ -11,11 +12,18 @@ const ClearButton: React.FC = () => {
 
   return (
     <>
-      <Button onClick={clearRandomPokemon} className="clearBtn" variant="contained" color="secondary">
+      <ButtonStyled onClick={clearRandomPokemon} className="clearBtn" variant="contained" color="secondary">
         CLEAR
-      </Button>
+      </ButtonStyled>
     </>
   );
 };
+
+const ButtonStyled = styled(Button)`
+  margin: 5px;
+  margin-left: 10px !important;
+  font-size: 16px;
+  margin-right: 10px;
+`;
 
 export default ClearButton;

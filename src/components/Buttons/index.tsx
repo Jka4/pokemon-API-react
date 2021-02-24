@@ -5,8 +5,6 @@ import GetButton from './views/GetButton';
 import ClearButton from './views/ClearButton';
 import AllPokesPageButton from './views/AllPokesPageButton';
 
-import './styles/style.scss';
-
 const Buttons: React.FC = () => {
   return (
     <div className="Button">

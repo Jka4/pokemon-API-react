@@ -8,6 +8,8 @@ import PokemonCard from 'components/MainContainer/views/PokemonCard';
 
 import { pokemonCardType } from 'types/index';
 
+import styled from 'styled-components/macro';
+
 interface ItemsListTypes {
   randomPokemon: pokemonCardType[];
 }
@@ -21,19 +23,27 @@ const ItemsList: React.FC = () => {
     <>
       {haveData && <Heading />}
 
-      <div className="itemList">
-        <div className="cardsContainer">
-          {randomPokemon.map((el: pokemonCardType, key: number) => (
-            <PokemonCard pokeCard={el} key={key} />
-          ))}
-        </div>
-      </div>
+      <CardsContainer>
+        {randomPokemon.map((el: pokemonCardType, key: number) => (
+          <PokemonCard pokeCard={el} key={key} />
+        ))}
+      </CardsContainer>
     </>
   );
 };
 
-export default ItemsList;
+const CardsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  width: 100%;
+  height: auto;
+`;
 
 ItemsList.defaultProps = {
   randomPokemon: [],
 };
+
+export default ItemsList;

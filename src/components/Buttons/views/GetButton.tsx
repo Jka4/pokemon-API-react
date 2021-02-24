@@ -8,6 +8,7 @@ import Badge from '@material-ui/core/Badge';
 import CasinoIcon from '@material-ui/icons/Casino';
 
 import { PokesTypes } from 'types/index';
+import styled from 'styled-components/macro';
 
 interface GetButtonProps {
   randomPokemon: PokesTypes[];
@@ -28,7 +29,7 @@ const GetButton: React.FC = () => {
   return (
     <>
       <Badge color="secondary" badgeContent={randomPokemon.length}>
-        <Button
+        <ButtonStyled
           onClick={getRandomPokemon}
           className="getPokemon"
           variant="contained"
@@ -36,10 +37,17 @@ const GetButton: React.FC = () => {
           endIcon={<CasinoIcon />}
         >
           GET A RANDOM POKEMON
-        </Button>
+        </ButtonStyled>
       </Badge>
     </>
   );
 };
+
+const ButtonStyled = styled(Button)`
+  margin: 5px;
+  margin-left: 10px !important;
+  margin-right: 10px;
+  font-size: 16px;
+`;
 
 export default GetButton;

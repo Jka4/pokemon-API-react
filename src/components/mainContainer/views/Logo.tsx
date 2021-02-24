@@ -1,5 +1,7 @@
 import React, { lazy } from 'react';
 
+import styled from 'styled-components/macro';
+
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 const Logo: React.FC = () => {
@@ -15,16 +17,22 @@ const Logo: React.FC = () => {
   };
 
   return (
-    <div className="getButtonLine">
-      <div className="Tilt-inner">
-        <ImageContainer
-          url={`${process.env.PUBLIC_URL}/images/pokemon.gif`}
-          cn={'logotype deBlur'}
-          fallback={fallback()}
-        />
-      </div>
-    </div>
+    <GetButtonLine>
+      <ImageContainer
+        url={`${process.env.PUBLIC_URL}/images/pokemon.gif`}
+        cn={'logotype deBlur'}
+        fallback={fallback()}
+      />
+    </GetButtonLine>
   );
 };
+
+const GetButtonLine = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+`;
 
 export default Logo;

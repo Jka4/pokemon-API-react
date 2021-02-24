@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 import '../styles/App.scss';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
+import styled from 'styled-components/macro';
 
 const HeaderLine = lazy(() => import('components/HeaderLine/HeaderLine'));
 const MainContainer = lazy(() => import('components/MainContainer'));
@@ -27,7 +28,7 @@ const App: React.FC = () => {
   return (
     <Suspense fallback={<div className="fallback">Loading...</div>}>
       {!supportScreenSize ? (
-        <div className="App">
+        <AppWrapper>
           <Route exact component={HeaderLine} />
 
           <Switch>
@@ -38,12 +39,16 @@ const App: React.FC = () => {
 
             <Redirect from="*" to="/404" />
           </Switch>
-        </div>
+        </AppWrapper>
       ) : (
         <NonSupportPlaceholder />
       )}
     </Suspense>
   );
 };
+
+const AppWrapper = styled.div`
+  margin-top: 80px;
+`;
 
 export default App;

@@ -10,7 +10,7 @@ import AppBar from '@material-ui/core/AppBar';
 import { Button } from '@material-ui/core';
 import SvgIcon from '@material-ui/core/SvgIcon';
 
-import './styles/style.scss';
+import styled from 'styled-components/macro';
 
 const HeaderLine: React.FC = () => {
   const isMainPage = useLocation().pathname === '/';
@@ -25,7 +25,7 @@ const HeaderLine: React.FC = () => {
 
   return (
     <>
-      <AppBar position="static" className="topLine">
+      <AppBarStyled position="static">
         <div className="buttonsRow">
           <Player />
 
@@ -38,9 +38,31 @@ const HeaderLine: React.FC = () => {
           )}
         </div>
         <Search />
-      </AppBar>
+      </AppBarStyled>
     </>
   );
 };
+
+const AppBarStyled = styled(AppBar)`
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 70px;
+  padding-left: 20px;
+
+  position: fixed !important;
+  top: 0;
+
+  .buttonsRow {
+    display: flex;
+
+    button {
+      margin-right: 10px;
+      font-size: 16px;
+    }
+  }
+`;
 
 export default HeaderLine;

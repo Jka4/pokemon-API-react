@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react';
-import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
 import { spritesType } from 'types/index';
+import styled from 'styled-components/macro';
 
 interface Props {
   sprites?: spritesType;
@@ -13,11 +13,11 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
     return (
       <>
         {[1, 2, 3, 4].map((el) => (
-          <Paper key={el} elevation={3} className="block">
+          <Block key={el}>
             <SkeletonTheme color="#6cff79" highlightColor="yellow">
               <Skeleton className="skeleton" circle={true} height={60} width={60} />
             </SkeletonTheme>
-          </Paper>
+          </Block>
         ))}
       </>
     );
@@ -25,21 +25,44 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
 
   return (
     <>
-      <div className="imagesLine">
+      <Images>
         <Suspense fallback={SpritesPlaceholders()}>
           {Object.keys(sprites).map((spriteName: string) => (
             <div key={spriteName}>
               {sprites[spriteName] && (
-                <Paper elevation={3} className="block">
+                <Block>
                   <img src={sprites[spriteName]} alt={sprites[spriteName]} className={sprites[spriteName]} />
-                </Paper>
+                </Block>
               )}
             </div>
           ))}
         </Suspense>
-      </div>
+      </Images>
     </>
   );
 };
+
+const Images = styled.div`
+  margin-bottom: 100px;
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+const Block = styled.div`
+  min-width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 5px;
+  background: #6cff79;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+`;
 
 export default Sprites;
