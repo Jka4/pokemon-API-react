@@ -16,10 +16,10 @@ import styled from 'styled-components/macro';
 const PokemonPageAll: React.FC = () => {
   const pokemonArr = useSelector((state: PokesTypes) => state.pokemonArr);
 
-  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(!false);
+  const [viewTypeIsCatalog, setViewTypeIsCatalog] = useState<boolean>(false);
 
   return (
-    <>
+    <Container>
       <ViewType>
         <ViewTypeInner>
           <InnerBlock onClick={() => setViewTypeIsCatalog(!viewTypeIsCatalog)}>
@@ -31,9 +31,15 @@ const PokemonPageAll: React.FC = () => {
       </ViewType>
 
       {!viewTypeIsCatalog ? <ListView pokemonArr={pokemonArr} /> : <CatalogView pokemonArr={pokemonArr} />}
-    </>
+    </Container>
   );
 };
+
+const Container = styled.section`
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+`;
 
 const ViewType = styled.div`
   display: flex;

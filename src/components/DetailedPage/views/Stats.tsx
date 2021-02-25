@@ -34,7 +34,7 @@ const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
       <UL>
         <Title>Stats</Title>
         {showStats
-          ? stats.map((el: StatsElements) => (
+          ? stats?.map((el: StatsElements) => (
               <LI key={el.stat.name}>
                 {el.stat.name}: {el.base_stat}
               </LI>
@@ -78,6 +78,13 @@ const UL = styled.ul`
   width: 100%;
   height: 100%;
   margin-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    padding: 10px;
+  }
 `;
 
 const LI = styled.li`
@@ -89,6 +96,11 @@ const LI = styled.li`
   width: 100%;
   font-size: 18px;
   text-transform: uppercase;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
 `;
 
 export default Stats;

@@ -55,6 +55,10 @@ const Title = styled.div`
   align-self: center;
   justify-self: center;
   font-size: 2rem;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const UL = styled.ul`
@@ -69,6 +73,13 @@ const UL = styled.ul`
   width: 100%;
   height: 100%;
   margin-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    padding: 10px;
+  }
 `;
 
 const LI = styled.li`
@@ -79,6 +90,10 @@ const LI = styled.li`
   width: 100%;
   font-size: 18px;
   text-transform: uppercase;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 14px;
+  }
 `;
 
 export default Abilities;

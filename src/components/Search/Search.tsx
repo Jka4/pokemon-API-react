@@ -103,6 +103,11 @@ const SearchStyled = styled.div`
   position: absolute;
   top: 15px;
   left: calc(50% - 220px);
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    position: static;
+    margin-right: 15px;
+  }
 `;
 
 const SearchInput = styled.input`
@@ -112,7 +117,11 @@ const SearchInput = styled.input`
   height: 40px;
   border-radius: 6px;
   font-size: 18px;
-  height: 37px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100%;
+    padding-left: 15px;
+  }
 `;
 
 const Results = styled.div`
@@ -122,11 +131,19 @@ const Results = styled.div`
   align-items: center;
   justify-content: flex-start;
   z-index: 10;
-  margin-top: 0px;
+  margin-top: 0;
   box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07), 0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
     0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18), 0 43px 77px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: auto;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    right: 15px;
+    width: calc(100% - 30px);
+  }
 `;
 
 const StyledLink = styled(NavLink)`

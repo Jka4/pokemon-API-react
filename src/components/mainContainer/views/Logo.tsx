@@ -17,22 +17,30 @@ const Logo: React.FC = () => {
   };
 
   return (
-    <GetButtonLine>
+    <LogoStyled>
       <ImageContainer
         url={`${process.env.PUBLIC_URL}/images/pokemon.gif`}
         cn={'logotype deBlur'}
         fallback={fallback()}
       />
-    </GetButtonLine>
+    </LogoStyled>
   );
 };
 
-const GetButtonLine = styled.div`
+const LogoStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 export default Logo;

@@ -25,9 +25,8 @@ const Main = styled.section`
   width: 100%;
   max-width: 900px;
   height: auto;
+  padding: 20px;
   padding-bottom: 50px;
-  width: 100%;
-  max-width: auto;
 `;
 
 export default MainContainer;

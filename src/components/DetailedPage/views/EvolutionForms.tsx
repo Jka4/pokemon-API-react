@@ -62,7 +62,12 @@ const EvolutionFormsStyled = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 60px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    margin-bottom: 20px;
+  }
 `;
 
 const StyledLink = styled(NavLink)`
@@ -82,19 +87,30 @@ const EvoForm = styled.div`
   border: 1px solid black;
   cursor: pointer;
   text-decoration: none;
-  max-width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  &::first-letter {
-    text-transform: uppercase;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 130px;
+    height: 140px;
+    padding: 0;
+    margin: 10px;
   }
 `;
 
 const Img = styled.img`
-  width: 100%;
-  height: auto;
+  width: 95px;
+  height: 95px;
   min-width: 90px;
   min-height: 90px;
   max-width: 100px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 const Name = styled.div`

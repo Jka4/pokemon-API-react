@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import Stats from './views/Stats';
 import Abilities from './views/Abilities';
@@ -51,6 +51,7 @@ const DetailedPage: React.FC = () => {
         <Name>{currentPokemon || 'POKEMON'}</Name>
 
         <EvolutionForms currentPokemon={currentPokemon} pokemonArr={pokemonArr} />
+
         <MainInformation>
           <Skills>
             <Stats weight={weight} stats={stats} />
@@ -87,19 +88,31 @@ const Name = styled.div`
 
 const MainInformation = styled.div`
   min-height: 300px;
-  margin-top: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   margin-top: 20px;
   margin-bottom: 100px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
 `;
 
 const Skills = styled.div`
   display: flex;
   flex-direction: row;
   margin-right: 30px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    order: 2;
+    margin-top: 20px;
+    width: 100%;
+  }
 
   height: auto;
 `;
