@@ -16,9 +16,7 @@ const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) =
             <ImageContainer
               url={image}
               cn={'deBlur'}
-              fallback={
-                <img loading="lazy" src={placeholderBase64} className="pokemonImage placeholderBase64 " alt="" />
-              }
+              fallback={<img loading="lazy" src={placeholderBase64} className="placeholderBase64 " alt="" />}
             />
           </Image>
 

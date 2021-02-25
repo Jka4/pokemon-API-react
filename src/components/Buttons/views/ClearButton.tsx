@@ -12,7 +12,7 @@ const ClearButton: React.FC = () => {
 
   return (
     <>
-      <ButtonStyled onClick={clearRandomPokemon} className="clearBtn" variant="contained" color="secondary">
+      <ButtonStyled onClick={clearRandomPokemon} variant="contained" color="secondary">
         CLEAR
       </ButtonStyled>
     </>

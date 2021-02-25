@@ -5,11 +5,9 @@ import styled from 'styled-components/macro';
 const ErrorPage: React.FC = () => {
   return (
     <ErrorPageStyled>
-      <div className="errCode">404</div>
-      <div className="image">
-        <Image src={`${process.env.PUBLIC_URL}/images/404.png`} alt="404_pickachu" />
-      </div>
-      <div className="description">Page Not Found</div>
+      <Image src={`${process.env.PUBLIC_URL}/images/404.png`} alt="404_pikachu" />
+      <ErrCode>404</ErrCode>
+      <ErrStr>Page Not Found</ErrStr>
     </ErrorPageStyled>
   );
 };
@@ -21,14 +19,14 @@ const ErrorPageStyled = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+`;
 
-  .errCode {
-    font-size: 42px;
-  }
+const ErrCode = styled.div`
+  font-size: 52px;
+`;
 
-  .description {
-    font-size: 24px;
-  }
+const ErrStr = styled.div`
+  font-size: 24px;
 `;
 
 const Image = styled.img`

@@ -34,11 +34,7 @@ const ListView: React.FC<Props> = ({ pokemonArr = [] }: Props) => {
   };
 
   const fallback = (placeholderBase64: string) => {
-    return (
-      <>
-        <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />
-      </>
-    );
+    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
   };
 
   return (
@@ -48,12 +44,11 @@ const ListView: React.FC<Props> = ({ pokemonArr = [] }: Props) => {
         next={fetchPokemon}
         hasMore={pokemonCount <= pokemon.length}
         loader={<h4>Loading...</h4>}
-        // className="allPokemonWrapper"
         endMessage={<End>Don't have more pokemon :(</End>}
       >
         {pokemon.map((pokemon: PokesTypes) => (
           <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
-            <SmallCard elevation={3} className="smallPokemonCard">
+            <SmallCard elevation={3}>
               <Logo>
                 <ImageContainer
                   url={pokemon.imageHQ || pokemon.image}

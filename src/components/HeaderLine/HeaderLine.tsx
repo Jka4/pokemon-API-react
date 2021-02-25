@@ -26,17 +26,17 @@ const HeaderLine: React.FC = () => {
   return (
     <>
       <AppBarStyled position="static">
-        <div className="buttonsRow">
+        <BtnRow>
           <Player />
 
           {!isMainPage && (
             <NavLink to="/">
-              <Button variant="contained" className="toHome" color="secondary">
+              <Button variant="contained" color="secondary">
                 <HomeIcon />
               </Button>
             </NavLink>
           )}
-        </div>
+        </BtnRow>
         <Search />
       </AppBarStyled>
     </>
@@ -54,14 +54,14 @@ const AppBarStyled = styled(AppBar)`
 
   position: fixed !important;
   top: 0;
+`;
 
-  .buttonsRow {
-    display: flex;
+const BtnRow = styled.div`
+  display: flex;
 
-    button {
-      margin-right: 10px;
-      font-size: 16px;
-    }
+  button {
+    margin-right: 10px;
+    font-size: 16px;
   }
 `;
 

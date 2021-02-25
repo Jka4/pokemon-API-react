@@ -29,13 +29,7 @@ const GetButton: React.FC = () => {
   return (
     <>
       <Badge color="secondary" badgeContent={randomPokemon.length}>
-        <ButtonStyled
-          onClick={getRandomPokemon}
-          className="getPokemon"
-          variant="contained"
-          color="secondary"
-          endIcon={<CasinoIcon />}
-        >
+        <ButtonStyled onClick={getRandomPokemon} variant="contained" color="secondary" endIcon={<CasinoIcon />}>
           GET A RANDOM POKEMON
         </ButtonStyled>
       </Badge>

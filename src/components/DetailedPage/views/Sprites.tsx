@@ -15,7 +15,7 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
         {[1, 2, 3, 4].map((el) => (
           <Block key={el}>
             <SkeletonTheme color="#6cff79" highlightColor="yellow">
-              <Skeleton className="skeleton" circle={true} height={60} width={60} />
+              <Skeleton circle={true} height={60} width={60} />
             </SkeletonTheme>
           </Block>
         ))}
@@ -31,7 +31,7 @@ const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
             <div key={spriteName}>
               {sprites[spriteName] && (
                 <Block>
-                  <img src={sprites[spriteName]} alt={sprites[spriteName]} className={sprites[spriteName]} />
+                  <img src={sprites[spriteName]} alt={sprites[spriteName]} />
                 </Block>
               )}
             </div>

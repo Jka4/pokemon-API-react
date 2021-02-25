@@ -11,18 +11,14 @@ const Logo: React.FC = () => {
   const fallback = () => {
     return (
       <>
-        <img src={base64} className="logotype placeholderBase64" alt="placeholderBase64" />
+        <img src={base64} className="placeholderBase64" alt="placeholderBase64" />
       </>
     );
   };
 
   return (
     <LogoStyled>
-      <ImageContainer
-        url={`${process.env.PUBLIC_URL}/images/pokemon.gif`}
-        cn={'logotype deBlur'}
-        fallback={fallback()}
-      />
+      <ImageContainer url={`${process.env.PUBLIC_URL}/images/pokemon.gif`} cn={'deBlur'} fallback={fallback()} />
     </LogoStyled>
   );
 };
