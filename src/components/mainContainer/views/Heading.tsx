@@ -1,16 +1,41 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Heading: React.FC = () => {
   return (
-    <h2 className="titles">
-      <ul className="titlesList">
-        <li>photo</li>
-        <li>name</li>
-        <li>order</li>
-        <li>exp</li>
-      </ul>
-    </h2>
+    <Titles>
+      <List>
+        <Element>photo</Element>
+        <Element>name</Element>
+        <Element>order</Element>
+        <Element>exp</Element>
+      </List>
+    </Titles>
   );
 };
+
+const Titles = styled.h2`
+  width: 100%;
+  max-width: 900px;
+`;
+
+const List = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  padding-left: 0;
+`;
+
+const Element = styled.li`
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  list-style: none;
+  text-transform: uppercase;
+`;
 
 export default Heading;

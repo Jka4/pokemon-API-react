@@ -1,12 +1,12 @@
-import React, { lazy, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { NavLink } from 'react-router-dom';
 
 import Paper from '@material-ui/core/Paper';
 
 import { PokesTypes } from 'types/index';
-
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
+import styled from 'styled-components/macro';
+import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 type Props = {
   pokemonArr: PokesTypes[];
@@ -34,42 +34,92 @@ const ListView: React.FC<Props> = ({ pokemonArr = [] }: Props) => {
   };
 
   const fallback = (placeholderBase64: string) => {
-    return (
-      <>
-        <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />
-      </>
-    );
+    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
   };
 
   return (
     <>
-      <section className="main">
-        <InfiniteScroll
-          dataLength={pokemon.length}
-          next={fetchPokemon}
-          hasMore={pokemonCount <= pokemon.length}
-          loader={<h4>Loading...</h4>}
-          className="allPokemonWrapper"
-          endMessage={<p className="pokemon-end">Don't have more pokemon :(</p>}
-        >
-          {pokemon.map((pokemon: PokesTypes) => (
-            <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
-              <Paper elevation={3} className="smallPokemonCard">
-                <div className="pokemonLogo">
-                  <ImageContainer
-                    url={pokemon.imageHQ || pokemon.image}
-                    cn={'pokemonImageCard deBlur'}
-                    fallback={fallback(pokemon.placeholderBase64)}
-                  />
-                </div>
-                <div className="pokemonName">{pokemon?.name}</div>
-              </Paper>
-            </NavLink>
-          ))}
-        </InfiniteScroll>
-      </section>
+      <ScrollStyled
+        dataLength={pokemon.length}
+        next={fetchPokemon}
+        hasMore={pokemonCount <= pokemon.length}
+        loader={<h4>Loading...</h4>}
+        endMessage={<End>Don't have more pokemon :(</End>}
+      >
+        {pokemon.map((pokemon: PokesTypes) => (
+          <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
+            <SmallCard elevation={3}>
+              <Logo>
+                <ImageContainer
+                  url={pokemon.imageHQ || pokemon.image}
+                  cn={'pokemonImageCard deBlur'}
+                  fallback={fallback(pokemon.placeholderBase64)}
+                />
+              </Logo>
+              <Name>{pokemon?.name}</Name>
+            </SmallCard>
+          </NavLink>
+        ))}
+      </ScrollStyled>
     </>
   );
 };
+
+const ScrollStyled = styled(InfiniteScroll)`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  min-height: 100vh;
+`;
+
+const Logo = styled.div`
+  width: 100%;
+  min-height: 160px;
+  text-align: center;
+
+  img,
+  svg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+`;
+
+const SmallCard = styled(Paper)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  border-radius: 10px;
+  background: #4c4cffd9 !important;
+  cursor: pointer;
+  width: 160px;
+  min-height: 240px;
+  object-fit: cover;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+`;
+
+const End = styled.p`
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+`;
+
+const Name = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  font-size: 24px;
+`;
 
 export default ListView;

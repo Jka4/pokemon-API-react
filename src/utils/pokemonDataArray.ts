@@ -1,4 +1,4 @@
-import { PokesTypes } from 'types/index';
+import { PokesTypes } from '../types';
 
 const POKEMON: PokesTypes[] = [
   {

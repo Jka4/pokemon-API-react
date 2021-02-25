@@ -1,5 +1,7 @@
 import React, { lazy } from 'react';
 
+import styled from 'styled-components/macro';
+
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 
 const Logo: React.FC = () => {
@@ -9,22 +11,32 @@ const Logo: React.FC = () => {
   const fallback = () => {
     return (
       <>
-        <img src={base64} className="logotype placeholderBase64" alt="placeholderBase64" />
+        <img src={base64} className="placeholderBase64" alt="placeholderBase64" />
       </>
     );
   };
 
   return (
-    <div className="getButtonLine">
-      <div className="Tilt-inner">
-        <ImageContainer
-          url={`${process.env.PUBLIC_URL}/images/pokemon.gif`}
-          cn={'logotype deBlur'}
-          fallback={fallback()}
-        />
-      </div>
-    </div>
+    <LogoStyled>
+      <ImageContainer url={`${process.env.PUBLIC_URL}/images/pokemon.gif`} cn={'deBlur'} fallback={fallback()} />
+    </LogoStyled>
   );
 };
+
+const LogoStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+`;
 
 export default Logo;

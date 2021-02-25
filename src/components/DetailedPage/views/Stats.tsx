@@ -1,6 +1,6 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
+import styled from 'styled-components/macro';
 
 interface Props {
   stats: StatsElements[];
@@ -20,7 +20,7 @@ const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
       <SkeletonTheme color="#53aeff" highlightColor="#0066be">
         {[1, 2, 3, 4, 5, 6].map((el) => (
           <p key={el}>
-            <Skeleton height={15} width={115} />
+            <SkeletonStyled height={15} width={145} />
           </p>
         ))}
       </SkeletonTheme>
@@ -30,21 +30,77 @@ const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
   const showStats = stats !== undefined && stats?.length !== 0;
 
   return (
-    <div className="stats">
-      <Paper elevation={3} className="statsUL">
-        <div className="skills_title">Stats</div>
+    <StatsStyled>
+      <UL>
+        <Title>Stats</Title>
         {showStats
-          ? stats.map((el: StatsElements) => (
-              <li className="statsLI" key={el.stat.name}>
+          ? stats?.map((el: StatsElements) => (
+              <LI key={el.stat.name}>
                 {el.stat.name}: {el.base_stat}
-              </li>
+              </LI>
             ))
           : fallbackSkeletons()}
 
-        {showStats && <li className="statsLI">weight: {weight} kg</li>}
-      </Paper>
-    </div>
+        {showStats && <LI>weight: {weight} kg</LI>}
+      </UL>
+    </StatsStyled>
   );
 };
+
+const SkeletonStyled = styled(Skeleton)`
+  margin-bottom: 10px;
+`;
+
+const StatsStyled = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  width: 200px;
+  height: 380px;
+`;
+
+const Title = styled.div`
+  align-self: center;
+  justify-self: center;
+  font-size: 2rem;
+`;
+
+const UL = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  background-color: #53aeff;
+  padding: 25px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    padding: 10px;
+  }
+`;
+
+const LI = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+`;
 
 export default Stats;

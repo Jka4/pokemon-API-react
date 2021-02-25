@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { lazy, useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { useSelector } from 'react-redux';
@@ -9,9 +9,9 @@ import { useClickAway } from 'ahooks';
 
 import { PokesTypes } from 'types/index';
 
-import './styles/style.scss';
+import styled from 'styled-components/macro';
 
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
+import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 let fuseOptions = {
   shouldSort: true,
@@ -59,8 +59,8 @@ const Search: React.FC = () => {
   };
 
   return (
-    <div className="search">
-      <input
+    <SearchStyled>
+      <SearchInput
         type="search"
         name="searchInput"
         id="searchInput"
@@ -72,28 +72,142 @@ const Search: React.FC = () => {
         ref={ref}
       />
 
-      <div className="searchResults">
+      <Results>
         {showResult && (
-          <ul className="searchList">
+          <SearchList>
             {searchResult.map((i, key) => (
-              <NavLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`} className="searchItem_outer">
-                <li data-id={i.item.id} className="searchItem">
-                  <span className="item_name">NAME: {i.item.name}</span>
-                  <span className="item_id">ID: {i.item.id}</span>
-                  <span className="item_weight">WEIGHT: {i.item.weight}</span>
-                  <ImageContainer
-                    url={i.item.image}
-                    cn={'searchItem__image deBlur'}
-                    fallback={fallback(i.item.placeholderBase64)}
-                  />
-                </li>
-              </NavLink>
+              <StyledLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`}>
+                <SearchItem data-id={i.item.id}>
+                  <Name>NAME: {i.item.name}</Name>
+                  <Id>ID: {i.item.id}</Id>
+                  <Weight>WEIGHT: {i.item.weight}</Weight>
+                  <ImageWrapper>
+                    <ImageContainer url={i.item.image} fallback={fallback(i.item.placeholderBase64)} />
+                  </ImageWrapper>
+                </SearchItem>
+              </StyledLink>
             ))}
-          </ul>
+          </SearchList>
         )}
-      </div>
-    </div>
+      </Results>
+    </SearchStyled>
   );
 };
+
+const SearchStyled = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+  max-width: 450px;
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 220px);
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    position: static;
+    margin-right: 15px;
+  }
+`;
+
+const SearchInput = styled.input`
+  width: 100%;
+  padding-left: 15px;
+  position: relative;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 18px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 100%;
+    padding-left: 15px;
+  }
+`;
+
+const Results = styled.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 10;
+  margin-top: 0;
+  box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07), 0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
+    0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18), 0 43px 77px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    right: 15px;
+    width: calc(100% - 30px);
+  }
+`;
+
+const StyledLink = styled(NavLink)`
+  width: 100%;
+  border-bottom: 1px grey solid;
+  color: black;
+`;
+
+const SearchList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  background: white;
+  padding: 0;
+  width: 100%;
+  margin-top: 5px;
+`;
+
+const SearchItem = styled.li`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 3rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+
+  &:hover {
+    transform: scale(1.02);
+    background: rgb(238, 238, 238);
+    cursor: pointer;
+  }
+
+  &:last-child {
+    border-bottom: 1px transparent solid;
+  }
+`;
+
+const Name = styled.div`
+  width: 35%;
+`;
+
+const Id = styled.div`
+  width: 13%;
+  text-align: left;
+`;
+
+const Weight = styled.div`
+  position: relative;
+  right: 0;
+  width: 22%;
+  text-align: left;
+`;
+
+const ImageWrapper = styled.div`
+  height: 100%;
+  img {
+    height: 100%;
+  }
+`;
 
 export default Search;

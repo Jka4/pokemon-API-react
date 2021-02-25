@@ -1,22 +1,36 @@
-import React from "react";
+import React from 'react';
+import styled from 'styled-components/macro';
 
 export default class ErrorBoundary extends React.PureComponent {
   state = { error: null };
 
-  componentDidCatch(error: any, errorInfo: any) {
+  componentDidCatch(error: {}, errorInfo: any) {
     this.setState({ error });
-    errorInfo.ErrorType = "ReactError";
+    errorInfo.ErrorType = 'ReactError';
   }
 
   render() {
     if (this.state.error) {
       return (
-        <div className="errorBoundary">
-          <div className="textErrorBoundary">Ooops...</div>
-        </div>
+        <Error>
+          <Title>Ooops...</Title>
+        </Error>
       );
     }
 
     return this.props.children;
   }
 }
+
+const Error = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+`;
+
+const Title = styled.div`
+  font-size: 14px;
+  color: #ff3527;
+`;
