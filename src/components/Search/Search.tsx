@@ -15,11 +15,7 @@ import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 let fuseOptions = {
   shouldSort: true,
-  tokenize: true,
-  matchAllTokens: false,
-  findAllMatches: false,
-  includeScore: true,
-  includeMatches: true,
+  findAllMatches: true,
   threshold: 0.3,
   location: 0,
   distance: 10,
