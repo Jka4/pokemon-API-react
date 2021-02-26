@@ -12,11 +12,11 @@ const Player: React.FC = () => {
   };
 
   return (
-    <>
+    <div className="playerWrapper">
       <Button onClick={playPause} variant="contained" color="secondary">
         {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleFilledIcon />}
       </Button>
-    </>
+    </div>
   );
 };
 

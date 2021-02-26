@@ -74,10 +74,10 @@ const Search: React.FC = () => {
 
       <Results>
         {showResult && (
-          <SearchList>
+          <SearchList data-qa="results">
             {searchResult.map((i, key) => (
               <StyledLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`}>
-                <SearchItem data-id={i.item.id}>
+                <SearchItem>
                   <Name>NAME: {i.item.name}</Name>
                   <Id>ID: {i.item.id}</Id>
                   <Weight>WEIGHT: {i.item.weight}</Weight>

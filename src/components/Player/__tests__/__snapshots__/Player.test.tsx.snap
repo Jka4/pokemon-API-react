@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Player /> renders correctly 1`] = `
+<div
+  className="playerWrapper"
+>
+  <WithStyles(ForwardRef(Button))
+    color="secondary"
+    onClick={[Function]}
+    variant="contained"
+  >
+    <Memo(ForwardRef(PlayCircleFilledIcon)) />
+  </WithStyles(ForwardRef(Button))>
+</div>
+`;
