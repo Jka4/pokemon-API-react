@@ -11,7 +11,7 @@ import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 
 import { PokesTypes } from 'types/index';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const PokemonPageAll: React.FC = () => {
   const pokemonArr = useSelector((state: PokesTypes) => state.pokemonArr);

@@ -4,7 +4,7 @@ import Buttons from 'components/Buttons';
 import Logo from 'components/MainContainer/views/Logo';
 import ItemsList from 'components/MainContainer/views/ItemsList';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const MainContainer: React.FC = () => {
   return (

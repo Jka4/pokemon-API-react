@@ -3,7 +3,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { Button } from '@material-ui/core';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const AllPokesPageButton: React.FC = () => {
   return (

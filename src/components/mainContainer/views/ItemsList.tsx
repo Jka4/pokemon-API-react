@@ -8,7 +8,7 @@ import PokemonCard from 'components/MainContainer/views/PokemonCard';
 
 import { pokemonCardType } from 'types/index';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 interface ItemsListTypes {
   randomPokemon: pokemonCardType[];

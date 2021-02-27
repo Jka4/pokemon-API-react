@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
 import { spritesType } from 'types/index';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 interface Props {
   sprites?: spritesType;

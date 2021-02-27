@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import Paper from '@material-ui/core/Paper';
 
 import { PokesTypes } from 'types/index';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 type Props = {

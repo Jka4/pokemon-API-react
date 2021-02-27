@@ -1,8 +1,7 @@
-import React, { lazy } from 'react';
+import React from 'react';
 
-import styled from 'styled-components/macro';
-
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
+import styled from 'styled-components';
+import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 const Logo: React.FC = () => {
   const base64: string =

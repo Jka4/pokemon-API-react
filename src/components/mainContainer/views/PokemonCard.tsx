@@ -1,7 +1,7 @@
 import React, { lazy } from 'react';
 import { NavLink } from 'react-router-dom';
 import { pokemonCardType } from 'types/index';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
 

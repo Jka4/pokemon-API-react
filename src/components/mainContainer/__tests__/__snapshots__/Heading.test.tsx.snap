@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> renders correctly 1`] = `
+<div>
+  <h2
+    class="sc-bdfBwQ hqbntG"
+  >
+    <ul
+      class="sc-gsTCUz inIohL"
+    >
+      <li
+        class="sc-dlfnbm fdkJAr"
+      >
+        photo
+      </li>
+      <li
+        class="sc-dlfnbm fdkJAr"
+      >
+        name
+      </li>
+      <li
+        class="sc-dlfnbm fdkJAr"
+      >
+        order
+      </li>
+      <li
+        class="sc-dlfnbm fdkJAr"
+      >
+        exp
+      </li>
+    </ul>
+  </h2>
+</div>
+`;

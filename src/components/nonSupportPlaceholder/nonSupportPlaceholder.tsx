@@ -1,7 +1,7 @@
 import React from 'react';
 import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const NonSupportPlaceholder: React.FC = () => {
   return (

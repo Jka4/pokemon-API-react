@@ -14,7 +14,7 @@ import { PokesTypes } from 'types/index';
 
 import { getDetailedPokemon } from 'actions';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 interface DetailedPageType {
   pokemonArr: PokesTypes[];

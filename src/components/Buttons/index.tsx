@@ -4,7 +4,7 @@ import React from 'react';
 import GetButton from './views/GetButton';
 import ClearButton from './views/ClearButton';
 import AllPokesPageButton from './views/AllPokesPageButton';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const Buttons: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 interface Props {
   abilities: AbilityElements[];

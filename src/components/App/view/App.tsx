@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 import '../styles/App.scss';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const HeaderLine = lazy(() => import('components/HeaderLine/HeaderLine'));
 const MainContainer = lazy(() => import('components/MainContainer'));

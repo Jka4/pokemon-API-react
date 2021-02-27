@@ -10,7 +10,7 @@ import AppBar from '@material-ui/core/AppBar';
 import { Button } from '@material-ui/core';
 import SvgIcon from '@material-ui/core/SvgIcon';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const HeaderLine: React.FC = () => {
   const isMainPage = useLocation().pathname === '/';

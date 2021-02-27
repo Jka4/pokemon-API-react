@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import find from 'lodash.find';
 
 import { PokesTypes } from 'types/index';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;
