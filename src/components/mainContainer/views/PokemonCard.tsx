@@ -1,9 +1,9 @@
-import React, { lazy } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { pokemonCardType } from 'types/index';
 import styled from 'styled-components';
 
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
+import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) => {
   const { name, order, base_experience, placeholderBase64, image } = pokeCard;
@@ -16,7 +16,7 @@ const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) =
             <ImageContainer
               url={image}
               cn={'deBlur'}
-              fallback={<img loading="lazy" src={placeholderBase64} className="placeholderBase64 " alt="" />}
+              fallback={<img src={placeholderBase64} className="placeholderBase64 " alt="" />}
             />
           </Image>
 
