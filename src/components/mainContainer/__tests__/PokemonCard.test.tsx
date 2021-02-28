@@ -38,7 +38,9 @@ describe('<PokemonCard />', () => {
         </BrowserRouter>,
         await container,
       );
-      await expect(container).toMatchSnapshot();
+
+      expect(container.querySelector('div > span').innerHTML).toBe('carracosta');
+      expect(container).toMatchSnapshot();
     });
   });
 });
