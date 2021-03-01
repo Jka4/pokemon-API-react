@@ -24,8 +24,6 @@ const GetButton: React.FC = () => {
   const getRandomPokemon = () => {
     const randomPokemon = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
     dispatch({ type: 'ADD_RANDOM_POKEMON', payload: randomPokemon });
-
-    console.log('beep');
   };
 
   return (

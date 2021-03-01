@@ -25,9 +25,7 @@ describe('<Abilities/> ', () => {
   });
 
   it('without data', () => {
-    const fakeData: any[] = [];
-
-    const container = mount(<Abilities abilities={fakeData} />);
+    const container = mount(<Abilities abilities={[]} />);
     expect(container).toMatchSnapshot();
   });
 });
