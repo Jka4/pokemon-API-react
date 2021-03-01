@@ -77,6 +77,7 @@ exports[`<Stats/>  renders correctly 1`] = `
 
 exports[`<Stats/>  without data 1`] = `
 <Stats
+  stats={Array []}
   weight={123}
 >
   <styled.div>
