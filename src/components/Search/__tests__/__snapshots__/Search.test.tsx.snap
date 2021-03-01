@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search/>  renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Search>
+    <styled.div>
+      <div
+        className="sc-dlfnbm eQOXtf"
+      >
+        <styled.input
+          aria-label="Search"
+          autoComplete="off"
+          id="searchInput"
+          name="searchInput"
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Pikachu, 25, 900g"
+          type="search"
+        >
+          <input
+            aria-label="Search"
+            autoComplete="off"
+            className="sc-hKgILt cEFGKr"
+            id="searchInput"
+            name="searchInput"
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Pikachu, 25, 900g"
+            type="search"
+          />
+        </styled.input>
+        <styled.div>
+          <div
+            className="sc-eCssSg jwRzZN"
+          />
+        </styled.div>
+      </div>
+    </styled.div>
+  </Search>
+</Provider>
+`;
