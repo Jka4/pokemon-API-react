@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import ErrorBoundary from 'utils/ErrorBoundary';
+import ErrorBoundary from 'components/ErrorBoundary/ErrorBoundary';
 
 import { JSXElement } from 'types/index';
 

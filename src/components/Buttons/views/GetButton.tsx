@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { useCallback } from 'react';
+import React from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -21,10 +21,12 @@ const GetButton: React.FC = () => {
 
   const dispatch = useDispatch();
 
-  const getRandomPokemon = useCallback(() => {
+  const getRandomPokemon = () => {
     const randomPokemon = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
     dispatch({ type: 'ADD_RANDOM_POKEMON', payload: randomPokemon });
-  }, [dispatch, pokemonArr]);
+
+    console.log('beep');
+  };
 
   return (
     <>

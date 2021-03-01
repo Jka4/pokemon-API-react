@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const HeaderLine = lazy(() => import('components/HeaderLine/HeaderLine'));
 const MainContainer = lazy(() => import('components/MainContainer'));
 const DetailedPage = lazy(() => import('components/DetailedPage'));
-const PokemonPageAll = lazy(() => import('components/PokemonPageAll/index'));
+const PokemonPageAll = lazy(() => import('components/PokemonPageAll/PokemonPageAll'));
 const ErrorPage = lazy(() => import('components/ErrorPage/ErrorPage'));
 const NonSupportPlaceholder = lazy(() => import('components/NonSupportPlaceholder/NonSupportPlaceholder'));
 
