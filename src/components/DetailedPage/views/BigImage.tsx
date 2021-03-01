@@ -1,9 +1,8 @@
-import React, { lazy } from 'react';
+import React from 'react';
 
 import { PokesTypes } from 'types/index';
 import styled from 'styled-components';
-
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
+import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 interface RootType {
   bigImage?: PokesTypes;

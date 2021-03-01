@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GetButton/>  renders correctly 1`] = `
+<BrowserRouter
+  basename="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <GetButton>
+        <WithStyles(ForwardRef(Badge))
+          badgeContent={1}
+          color="secondary"
+        >
+          <ForwardRef(Badge)
+            badgeContent={1}
+            classes={
+              Object {
+                "anchorOriginBottomLeftCircle": "MuiBadge-anchorOriginBottomLeftCircle",
+                "anchorOriginBottomLeftRectangle": "MuiBadge-anchorOriginBottomLeftRectangle",
+                "anchorOriginBottomRightCircle": "MuiBadge-anchorOriginBottomRightCircle",
+                "anchorOriginBottomRightRectangle": "MuiBadge-anchorOriginBottomRightRectangle",
+                "anchorOriginTopLeftCircle": "MuiBadge-anchorOriginTopLeftCircle",
+                "anchorOriginTopLeftRectangle": "MuiBadge-anchorOriginTopLeftRectangle",
+                "anchorOriginTopRightCircle": "MuiBadge-anchorOriginTopRightCircle",
+                "anchorOriginTopRightRectangle": "MuiBadge-anchorOriginTopRightRectangle",
+                "badge": "MuiBadge-badge",
+                "colorError": "MuiBadge-colorError",
+                "colorPrimary": "MuiBadge-colorPrimary",
+                "colorSecondary": "MuiBadge-colorSecondary",
+                "dot": "MuiBadge-dot",
+                "invisible": "MuiBadge-invisible",
+                "root": "MuiBadge-root",
+              }
+            }
+            color="secondary"
+          >
+            <span
+              className="MuiBadge-root"
+            >
+              <Styled(WithStyles(ForwardRef(Button)))
+                color="secondary"
+                endIcon={<UNDEFINED />}
+                onClick={[Function]}
+                variant="contained"
+              >
+                <WithStyles(ForwardRef(Button))
+                  className="sc-bdfBwQ ljVMuR"
+                  color="secondary"
+                  endIcon={<UNDEFINED />}
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  <ForwardRef(Button)
+                    className="sc-bdfBwQ ljVMuR"
+                    classes={
+                      Object {
+                        "colorInherit": "MuiButton-colorInherit",
+                        "contained": "MuiButton-contained",
+                        "containedPrimary": "MuiButton-containedPrimary",
+                        "containedSecondary": "MuiButton-containedSecondary",
+                        "containedSizeLarge": "MuiButton-containedSizeLarge",
+                        "containedSizeSmall": "MuiButton-containedSizeSmall",
+                        "disableElevation": "MuiButton-disableElevation",
+                        "disabled": "Mui-disabled",
+                        "endIcon": "MuiButton-endIcon",
+                        "focusVisible": "Mui-focusVisible",
+                        "fullWidth": "MuiButton-fullWidth",
+                        "iconSizeLarge": "MuiButton-iconSizeLarge",
+                        "iconSizeMedium": "MuiButton-iconSizeMedium",
+                        "iconSizeSmall": "MuiButton-iconSizeSmall",
+                        "label": "MuiButton-label",
+                        "outlined": "MuiButton-outlined",
+                        "outlinedPrimary": "MuiButton-outlinedPrimary",
+                        "outlinedSecondary": "MuiButton-outlinedSecondary",
+                        "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                        "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                        "root": "MuiButton-root",
+                        "sizeLarge": "MuiButton-sizeLarge",
+                        "sizeSmall": "MuiButton-sizeSmall",
+                        "startIcon": "MuiButton-startIcon",
+                        "text": "MuiButton-text",
+                        "textPrimary": "MuiButton-textPrimary",
+                        "textSecondary": "MuiButton-textSecondary",
+                        "textSizeLarge": "MuiButton-textSizeLarge",
+                        "textSizeSmall": "MuiButton-textSizeSmall",
+                      }
+                    }
+                    color="secondary"
+                    endIcon={<UNDEFINED />}
+                    onClick={[Function]}
+                    variant="contained"
+                  >
+                    <WithStyles(ForwardRef(ButtonBase))
+                      className="MuiButton-root MuiButton-contained sc-bdfBwQ ljVMuR MuiButton-containedSecondary"
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <ForwardRef(ButtonBase)
+                        className="MuiButton-root MuiButton-contained sc-bdfBwQ ljVMuR MuiButton-containedSecondary"
+                        classes={
+                          Object {
+                            "disabled": "Mui-disabled",
+                            "focusVisible": "Mui-focusVisible",
+                            "root": "MuiButtonBase-root",
+                          }
+                        }
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdfBwQ ljVMuR MuiButton-containedSecondary"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            GET A RANDOM POKEMON
+                            <span
+                              className="MuiButton-endIcon MuiButton-iconSizeMedium"
+                            >
+                              <ForwardRef(CasinoIcon)>
+                                <WithStyles(ForwardRef(SvgIcon))>
+                                  <ForwardRef(SvgIcon)
+                                    classes={
+                                      Object {
+                                        "colorAction": "MuiSvgIcon-colorAction",
+                                        "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                        "colorError": "MuiSvgIcon-colorError",
+                                        "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                        "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                        "root": "MuiSvgIcon-root",
+                                      }
+                                    }
+                                  >
+                                    <svg
+                                      aria-hidden={true}
+                                      className="MuiSvgIcon-root"
+                                      focusable="false"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18c-.83 0-1.5-.67-1.5-1.5S6.67 15 7.5 15s1.5.67 1.5 1.5S8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm0-9c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6s1.5.67 1.5 1.5S17.33 9 16.5 9z"
+                                      />
+                                    </svg>
+                                  </ForwardRef(SvgIcon)>
+                                </WithStyles(ForwardRef(SvgIcon))>
+                              </ForwardRef(CasinoIcon)>
+                            </span>
+                          </span>
+                          <WithStyles(memo)
+                            center={false}
+                          >
+                            <ForwardRef(TouchRipple)
+                              center={false}
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child",
+                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                  "ripple": "MuiTouchRipple-ripple",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                  "root": "MuiTouchRipple-root",
+                                }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root"
+                              >
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
+                        </button>
+                      </ForwardRef(ButtonBase)>
+                    </WithStyles(ForwardRef(ButtonBase))>
+                  </ForwardRef(Button)>
+                </WithStyles(ForwardRef(Button))>
+              </Styled(WithStyles(ForwardRef(Button)))>
+              <span
+                className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary"
+              >
+                1
+              </span>
+            </span>
+          </ForwardRef(Badge)>
+        </WithStyles(ForwardRef(Badge))>
+      </GetButton>
+    </Provider>
+  </Router>
+</BrowserRouter>
+`;

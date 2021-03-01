@@ -1,8 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import 'react-tippy/dist/tippy.css';
-
 import { PokesTypes } from 'types/index';
 
 import styled from 'styled-components';

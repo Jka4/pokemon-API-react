@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "tsc": "tsc",
-    "test": "jest --env=jsdom --verbose=false",
+    "test:coverage": "jest --env=jsdom --verbose=false --coverage",
+    "test:watch": "jest --env=jsdom --verbose=false --watch",
     "dev": "yarn && yarn tsc && yarn build && yarn start",
     "deploy": "yarn tsc -p tsconfig.production.json && yarn build  && gh-pages -d build",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
@@ -54,7 +55,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-test-renderer": "^17.0.1",
-    "react-tippy": "^1.4.0",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.4",

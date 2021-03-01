@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stats/>  renders correctly 1`] = `
+<Stats
+  stats={
+    Array [
+      Object {
+        "base_stat": 70,
+        "stat": Object {
+          "name": "hp",
+          "url": "https://pokeapi.co/api/v2/stat/1/",
+        },
+      },
+      Object {
+        "base_stat": 40,
+        "stat": Object {
+          "name": "speed",
+          "url": "https://pokeapi.co/api/v2/stat/6/",
+        },
+      },
+    ]
+  }
+  weight={123}
+>
+  <styled.div>
+    <div
+      className="sc-gsTCUz cVRvEn"
+    >
+      <styled.ul>
+        <ul
+          className="sc-hKgILt hawtVB"
+        >
+          <styled.div>
+            <div
+              className="sc-dlfnbm kDIUmW"
+            >
+              Stats
+            </div>
+          </styled.div>
+          <styled.li
+            key="hp"
+          >
+            <li
+              className="sc-eCssSg jkDvnm"
+            >
+              hp
+              : 
+              70
+            </li>
+          </styled.li>
+          <styled.li
+            key="speed"
+          >
+            <li
+              className="sc-eCssSg jkDvnm"
+            >
+              speed
+              : 
+              40
+            </li>
+          </styled.li>
+          <styled.li>
+            <li
+              className="sc-eCssSg jkDvnm"
+            >
+              weight: 
+              123
+               kg
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </div>
+  </styled.div>
+</Stats>
+`;

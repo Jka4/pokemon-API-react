@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Abilities/>  renders correctly 1`] = `
+<Abilities
+  abilities={
+    Array [
+      Object {
+        "ability": Object {
+          "name": "swarm",
+          "url": "https://pokeapi.co/api/v2/ability/68/",
+        },
+      },
+      Object {
+        "ability": Object {
+          "name": "insomnia",
+          "url": "https://pokeapi.co/api/v2/ability/15/",
+        },
+      },
+    ]
+  }
+>
+  <styled.div>
+    <div
+      className="sc-gsTCUz lmOHhs"
+    >
+      <styled.ul>
+        <ul
+          className="sc-hKgILt fHTici"
+        >
+          <styled.div>
+            <div
+              className="sc-dlfnbm cgjAkB"
+            >
+              Abilities
+            </div>
+          </styled.div>
+          <styled.li
+            key="swarm"
+          >
+            <li
+              className="sc-eCssSg jZMqxQ"
+            >
+              - 
+              swarm
+            </li>
+          </styled.li>
+          <styled.li
+            key="insomnia"
+          >
+            <li
+              className="sc-eCssSg jZMqxQ"
+            >
+              - 
+              insomnia
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </div>
+  </styled.div>
+</Abilities>
+`;

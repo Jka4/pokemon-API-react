@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sprites/>  renders correctly 1`] = `
+<Sprites
+  sprites={
+    Object {
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png",
+      "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png",
+    }
+  }
+>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ kWmHqk"
+    >
+      <Suspense
+        fallback={
+          <React.Fragment>
+            <ForwardRef(styled.div)>
+              <SkeletonTheme
+                color="#6cff79"
+                highlightColor="yellow"
+              >
+                <Skeleton
+                  circle={true}
+                  count={1}
+                  duration={1.2}
+                  height={60}
+                  width={60}
+                  wrapper={null}
+                />
+              </SkeletonTheme>
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <SkeletonTheme
+                color="#6cff79"
+                highlightColor="yellow"
+              >
+                <Skeleton
+                  circle={true}
+                  count={1}
+                  duration={1.2}
+                  height={60}
+                  width={60}
+                  wrapper={null}
+                />
+              </SkeletonTheme>
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <SkeletonTheme
+                color="#6cff79"
+                highlightColor="yellow"
+              >
+                <Skeleton
+                  circle={true}
+                  count={1}
+                  duration={1.2}
+                  height={60}
+                  width={60}
+                  wrapper={null}
+                />
+              </SkeletonTheme>
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <SkeletonTheme
+                color="#6cff79"
+                highlightColor="yellow"
+              >
+                <Skeleton
+                  circle={true}
+                  count={1}
+                  duration={1.2}
+                  height={60}
+                  width={60}
+                  wrapper={null}
+                />
+              </SkeletonTheme>
+            </ForwardRef(styled.div)>
+          </React.Fragment>
+        }
+      >
+        <div
+          key="back_default"
+        >
+          <styled.div>
+            <div
+              className="sc-gsTCUz hyVwSB"
+            >
+              <img
+                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
+              />
+            </div>
+          </styled.div>
+        </div>
+        <div
+          key="back_shiny"
+        >
+          <styled.div>
+            <div
+              className="sc-gsTCUz hyVwSB"
+            >
+              <img
+                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
+              />
+            </div>
+          </styled.div>
+        </div>
+        <div
+          key="front_default"
+        >
+          <styled.div>
+            <div
+              className="sc-gsTCUz hyVwSB"
+            >
+              <img
+                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+              />
+            </div>
+          </styled.div>
+        </div>
+        <div
+          key="front_shiny"
+        >
+          <styled.div>
+            <div
+              className="sc-gsTCUz hyVwSB"
+            >
+              <img
+                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
+              />
+            </div>
+          </styled.div>
+        </div>
+      </Suspense>
+    </div>
+  </styled.div>
+</Sprites>
+`;
