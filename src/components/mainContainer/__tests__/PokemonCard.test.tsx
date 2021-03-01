@@ -1,24 +1,12 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom';
-import { act } from 'react-dom/test-utils';
+
 import { BrowserRouter } from 'react-router-dom';
+import { mount } from 'enzyme';
 
 import PokemonCard from '../views/PokemonCard';
 
 describe('<PokemonCard />', () => {
-  let container: any;
-
-  beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
-  });
-
-  afterEach(() => {
-    document.body.removeChild(container);
-    container = null;
-  });
-
-  it('renders correctly', async () => {
+  it('renders correctly', () => {
     const pokemon = {
       id: 565,
       image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png',
@@ -31,16 +19,12 @@ describe('<PokemonCard />', () => {
       weight: 810,
     };
 
-    await act(async () => {
-      ReactDOM.render(
-        <BrowserRouter basename="/">
-          <PokemonCard pokeCard={pokemon} />
-        </BrowserRouter>,
-        await container,
-      );
+    const container = mount(
+      <BrowserRouter basename="/">
+        <PokemonCard pokeCard={pokemon} />
+      </BrowserRouter>,
+    );
 
-      expect(container.querySelector('div > span').innerHTML).toBe('carracosta');
-      expect(container).toMatchSnapshot();
-    });
+    expect(container).toMatchSnapshot();
   });
 });
