@@ -1,30 +1,20 @@
 Arguments: 
-  /usr/local/bin/node /Users/mrmac/.yarn/bin/yarn.js add @types/localforage-memoryStorageDriver
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
 
 PATH: 
-  /Users/mrmac/.yarn/bin:/Users/mrmac/.config/yarn/global/node_modules/.bin:/Users/mrmac/bin:/usr/local/bin:/Applications/Sketch.app/Contents/Resources/sketchtool/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/mrmac/.yarn/bin:/Users/mrmac/.config/yarn/global/node_modules/.bin:/Users/mrmac/bin:/Applications/Sketch.app/Contents/Resources/sketchtool/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
 
 Yarn version: 
-  1.22.5
+  1.22.10
 
 Node version: 
-  14.3.0
+  15.10.0
 
 Platform: 
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2flocalforage-memoryStorageDriver: Not found
-      at Request.params.callback [as _callback] (/Users/mrmac/.yarn/lib/cli.js:66988:18)
-      at Request.self.callback (/Users/mrmac/.yarn/lib/cli.js:140749:22)
-      at Request.emit (events.js:315:20)
-      at Request.<anonymous> (/Users/mrmac/.yarn/lib/cli.js:141721:10)
-      at Request.emit (events.js:315:20)
-      at IncomingMessage.<anonymous> (/Users/mrmac/.yarn/lib/cli.js:141643:12)
-      at Object.onceWrapper (events.js:421:28)
-      at IncomingMessage.emit (events.js:327:22)
-      at endReadableNT (_stream_readable.js:1224:12)
-      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+  Error: ENOENT: no such file or directory, lstat '/Users/mrmac/CODE/GitHub/pokemon-API-react/node_modules/@types/babel__core/node_modules'
 
 npm manifest: 
   {
@@ -44,7 +34,8 @@ npm manifest:
       "start": "react-scripts start",
       "build": "react-scripts build",
       "tsc": "tsc",
-      "test": "jest --env=jsdom --verbose=false",
+      "test:coverage": "jest --env=jsdom --verbose=false --coverage",
+      "test:watch": "jest --env=jsdom --verbose=false --watch",
       "dev": "yarn && yarn tsc && yarn build && yarn start",
       "deploy": "yarn tsc -p tsconfig.production.json && yarn build  && gh-pages -d build",
       "analyze": "source-map-explorer 'build/static/js/*.js'"
