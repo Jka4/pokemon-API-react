@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderLine/>  renders correctly 1`] = `
+<ImageContainer
+  cn="cn"
+  url="url"
+>
+  <ErrorBoundary>
+    <img
+      alt="cn"
+      className="cn"
+      loading="lazy"
+      src="url"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </ErrorBoundary>
+</ImageContainer>
+`;

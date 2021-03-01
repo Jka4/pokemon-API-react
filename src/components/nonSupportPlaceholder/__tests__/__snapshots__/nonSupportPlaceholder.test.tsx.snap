@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NonSupportPlaceholder/>  renders correctly 1`] = `
+<NonSupportPlaceholder>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ qQPRk"
+    >
+      <ForwardRef(ErrorOutlineIcon)
+        style={
+          Object {
+            "fontSize": 60,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(SvgIcon))
+          style={
+            Object {
+              "fontSize": 60,
+            }
+          }
+        >
+          <ForwardRef(SvgIcon)
+            classes={
+              Object {
+                "colorAction": "MuiSvgIcon-colorAction",
+                "colorDisabled": "MuiSvgIcon-colorDisabled",
+                "colorError": "MuiSvgIcon-colorError",
+                "colorPrimary": "MuiSvgIcon-colorPrimary",
+                "colorSecondary": "MuiSvgIcon-colorSecondary",
+                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                "root": "MuiSvgIcon-root",
+              }
+            }
+            style={
+              Object {
+                "fontSize": 60,
+              }
+            }
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              style={
+                Object {
+                  "fontSize": 60,
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+          </ForwardRef(SvgIcon)>
+        </WithStyles(ForwardRef(SvgIcon))>
+      </ForwardRef(ErrorOutlineIcon)>
+      <span>
+        Sorry,
+      </span>
+      <span>
+        your device
+      </span>
+      <span>
+        is not supported
+      </span>
+    </div>
+  </styled.div>
+</NonSupportPlaceholder>
+`;

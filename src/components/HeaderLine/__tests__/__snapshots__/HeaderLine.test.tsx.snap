@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderLine/>  renders correctly 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH jwbVSZ MuiPaper-elevation4"
+  >
+    <div
+      class="sc-crrsfI cAwxaj"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+    <div
+      class="sc-dlfnbm eQOXtf"
+    >
+      <input
+        aria-label="Search"
+        autocomplete="off"
+        class="sc-hKgILt cEFGKr"
+        id="searchInput"
+        name="searchInput"
+        placeholder="Pikachu, 25, 900g"
+        type="search"
+      />
+      <div
+        class="sc-eCssSg jwRzZN"
+      />
+    </div>
+  </header>
+</div>
+`;
