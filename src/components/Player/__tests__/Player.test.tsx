@@ -1,6 +1,5 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import { shallow, mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 
 import Player from '../Player';

@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Sprites from '../views/Sprites';
 
-import { mount, shallow } from 'enzyme';
+import { mount } from 'enzyme';
 
 describe('<Sprites/> ', () => {
   const fakeData = {

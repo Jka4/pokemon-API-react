@@ -6,7 +6,7 @@ import PauseCircleFilledIcon from '@material-ui/icons/PauseCircleFilled';
 
 const Player: React.FC = () => {
   const [play, { stop, isPlaying }] = useSound(`${process.env.PUBLIC_URL}/sound/pokemon_opening.mp3`);
-  const [isPlay, setIsPlay] = useState(false);
+  const [isPlay, setIsPlay] = useState(false); // hook just for test cause useSound cant show current state
 
   const playPause = () => {
     if (isPlaying) {

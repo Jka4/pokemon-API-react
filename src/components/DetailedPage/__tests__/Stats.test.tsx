@@ -29,7 +29,7 @@ describe('<Stats/> ', () => {
   });
 
   it('without data', () => {
-    const container = mount(<Stats stats={undefined} weight={123} />);
+    const container = mount(<Stats stats={[]} weight={123} />);
     expect(container).toMatchSnapshot();
   });
 });
