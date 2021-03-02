@@ -25,7 +25,7 @@ const BigImage: React.FC<PropsType> = ({ bigImage }: PropsType) => {
 
 const ImageWrapper = styled.div`
   background: #2196f3;
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid black;
   width: 425px;
   height: 430px;
