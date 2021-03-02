@@ -24,7 +24,7 @@ const List = styled.ul`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
-  grid-row-gap: 0px;
+  grid-row-gap: 0;
   padding-left: 0;
 `;
 

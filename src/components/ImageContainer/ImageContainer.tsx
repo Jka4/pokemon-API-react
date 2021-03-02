@@ -1,21 +1,23 @@
 import { useEffect, useState } from 'react';
 import ErrorBoundary from 'components/ErrorBoundary/ErrorBoundary';
+import styled from 'styled-components';
 
 import { JSXElement } from 'types/index';
 
-interface ImageContainerProps {
-  url: string;
+type PropsType = {
+  url?: string;
   cn?: string;
   fallback?: JSXElement | Function;
-}
+  canShow?: boolean;
+};
 
-const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
-  const [ready, setReady] = useState<boolean>(false);
+const ImageContainer = ({ url, cn, fallback }: PropsType) => {
+  const [imgReady, setReady] = useState<boolean>(false);
 
   useEffect(() => {
     const img = new Image();
     img.onload = () => setReady(true);
-    img.src = url;
+    img.src = url || '';
 
     return () => {
       setReady(false);
@@ -25,12 +27,19 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
   return (
     <>
       <ErrorBoundary>
-        {!ready && <>{typeof fallback === 'function' ? fallback() : fallback}</>}
-
-        <img src={url} alt={cn} className={cn} style={{ display: ready ? 'block' : 'none' }} loading="lazy" />
+        <FallbackStyled canShow={imgReady}>{typeof fallback === 'function' ? fallback() : fallback}</FallbackStyled>
+        <IMG src={url} alt={cn} className={cn} loading="lazy" canShow={imgReady} />
       </ErrorBoundary>
     </>
   );
 };
+
+const IMG = styled.img`
+  display: ${(props: PropsType) => (props.canShow ? 'block' : 'none')};
+`;
+
+const FallbackStyled = styled.div`
+  display: ${(props: PropsType) => (props.canShow ? 'none' : 'block')};
+`;
 
 export default ImageContainer;

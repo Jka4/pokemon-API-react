@@ -2,15 +2,16 @@
 
 exports[`<HeaderLine/>  renders correctly 1`] = `
 <ImageContainer
-  cn="cn"
-  url="url"
+  cn="testClass"
+  url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
 >
   <ErrorBoundary>
+    <div />
     <img
-      alt="cn"
-      className="cn"
+      alt="testClass"
+      className="testClass"
       loading="lazy"
-      src="url"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
       style={
         Object {
           "display": "none",

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Catalog/>  render after click 1`] = `"<span class=\\"sc-gsTCUz dqBkrV\\">Small grid</span>"`;
+
+exports[`<Catalog/>  renders correctly 1`] = `"<span class=\\"sc-gsTCUz dqBkrV\\">Small grid</span>"`;

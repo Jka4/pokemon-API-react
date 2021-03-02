@@ -86,10 +86,10 @@ exports[`<Sprites/>  renders correctly 1`] = `
         >
           <styled.div>
             <div
-              className="sc-gsTCUz hyVwSB"
+              className="sc-gsTCUz dxnSOi"
             >
               <img
-                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
+                alt="back_default"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
               />
             </div>
@@ -100,10 +100,10 @@ exports[`<Sprites/>  renders correctly 1`] = `
         >
           <styled.div>
             <div
-              className="sc-gsTCUz hyVwSB"
+              className="sc-gsTCUz dxnSOi"
             >
               <img
-                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
+                alt="back_shiny"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
               />
             </div>
@@ -114,10 +114,10 @@ exports[`<Sprites/>  renders correctly 1`] = `
         >
           <styled.div>
             <div
-              className="sc-gsTCUz hyVwSB"
+              className="sc-gsTCUz dxnSOi"
             >
               <img
-                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                alt="front_default"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
               />
             </div>
@@ -128,10 +128,10 @@ exports[`<Sprites/>  renders correctly 1`] = `
         >
           <styled.div>
             <div
-              className="sc-gsTCUz hyVwSB"
+              className="sc-gsTCUz dxnSOi"
             >
               <img
-                alt="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
+                alt="front_shiny"
                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
               />
             </div>

@@ -11171,6 +11171,11 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
+prettier@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
+  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+
 pretty-bytes@^5.3.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.5.0.tgz#0cecda50a74a941589498011cf23275aa82b339e"
@@ -11482,7 +11487,7 @@ react-dev-utils@^11.0.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.0.1:
+react-dom@^16.0.0, react-dom@^16.0.1:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -11528,6 +11533,14 @@ react-loading-skeleton@^2.1.1:
   integrity sha512-+fGvgG9ieUw4D5QVgpqJkJ75jhzUdz96GRsA0HjTlR0Mpj9DJUEFc0AKELs7ZkqWVH8/DiroaaufSrOPld1kGA==
   dependencies:
     "@emotion/core" "^10.0.22"
+
+react-prefetch-image@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-prefetch-image/-/react-prefetch-image-0.1.0.tgz#1f8ffe3343b03efdffd4c91fb43e28e1b4b7d3fd"
+  integrity sha1-H4/+M0OwPv3/1MkftD4o4bS30/0=
+  dependencies:
+    react "^16.0.0"
+    react-dom "^16.0.0"
 
 react-redux@^7.2.2:
   version "7.2.2"
@@ -11678,7 +11691,7 @@ react-transition-group@^4.4.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@^16.0.1:
+react@^16.0.0, react@^16.0.1:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==

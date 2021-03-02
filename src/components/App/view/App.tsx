@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const HeaderLine = lazy(() => import('components/HeaderLine/HeaderLine'));
 const MainContainer = lazy(() => import('components/MainContainer'));
 const DetailedPage = lazy(() => import('components/DetailedPage'));
-const PokemonPageAll = lazy(() => import('components/PokemonPageAll/PokemonPageAll'));
+const Catalog = lazy(() => import('components/Catalog/Catalog'));
 const PAGE_404 = lazy(() => import('components/PAGE_404/PAGE_404'));
 const NonSupportPlaceholder = lazy(() => import('components/NonSupportPlaceholder/NonSupportPlaceholder'));
 
@@ -34,9 +34,9 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={MainContainer} />
             <Route path="/detailedPage/pokemon/" component={DetailedPage} />
-            <Route exact path="/allPokemon" component={PokemonPageAll} />
-            <Route path="/404" component={PAGE_404} />
+            <Route path="/catalog" component={Catalog} />
 
+            <Route path="/404" component={PAGE_404} />
             <Redirect from="*" to="/404" />
           </Switch>
         </AppWrapper>

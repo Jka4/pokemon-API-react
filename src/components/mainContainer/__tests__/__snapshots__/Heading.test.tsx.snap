@@ -8,7 +8,7 @@ exports[`<Heading /> renders correctly 1`] = `
     >
       <styled.ul>
         <ul
-          className="sc-gsTCUz inIohL"
+          className="sc-gsTCUz bkxspn"
         >
           <styled.li>
             <li

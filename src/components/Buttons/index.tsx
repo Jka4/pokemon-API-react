@@ -3,13 +3,13 @@ import React from 'react';
 
 import GetButton from './views/GetButton';
 import ClearButton from './views/ClearButton';
-import AllPokesPageButton from './views/AllPokesPageButton';
+import CatalogButton from './views/CatalogButton';
 import styled from 'styled-components';
 
 const Buttons: React.FC = () => {
   return (
     <ButtonsStyled>
-      <AllPokesPageButton />
+      <CatalogButton />
       <ClearButton />
       <GetButton />
     </ButtonsStyled>
