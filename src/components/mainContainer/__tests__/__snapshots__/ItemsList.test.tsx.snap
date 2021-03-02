@@ -85,7 +85,7 @@ exports[`<ItemsList/>  renders correctly 1`] = `
         </Heading>
         <styled.div>
           <div
-            className="sc-pFZIQ jKAvrh"
+            className="sc-kEjbxe irGWPW"
           >
             <PokemonCard
               key="0"
@@ -103,7 +103,7 @@ exports[`<ItemsList/>  renders correctly 1`] = `
             >
               <styled.div>
                 <div
-                  className="sc-jSgupP hKTmmn"
+                  className="sc-iBPRYJ jzmLdG"
                 >
                   <NavLink
                     to="/detailedPage/pokemon/carracosta"
@@ -131,11 +131,11 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                         >
                           <Styled(styled.div)>
                             <div
-                              className="sc-jSgupP sc-gKsewC hKTmmn gzjXzl"
+                              className="sc-iBPRYJ sc-fubCfw jzmLdG eZXhVM"
                             >
                               <styled.div>
                                 <div
-                                  className="sc-iBPRYJ cVAVHN"
+                                  className="sc-pFZIQ jRTWBj"
                                 >
                                   <ImageContainer
                                     cn="deBlur"
@@ -149,45 +149,54 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                                     url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                   >
                                     <ErrorBoundary>
-                                      <div>
-                                        <img
-                                          alt=""
-                                          className="placeholderBase64 "
-                                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABfUlEQVQ4T2NkIBMwYtX3nwEs/p+BgYGREUxhAOwaiXAFVo0BDQoCG+b8+ZmS+014Tvm7JwRtXLWKgTksjOFvzSru0v//2E0Zmb6fbgn73j3zjDFrusnZ38gGoNjYsJ+BpcGR4U/mKqE6FfV3jU9vch/uC9MIYmA4+6ahgYGpoYHhH0wzXGNoaCjz6tWr/zLUBhh3a786oSD5nvH2Kxnm1//Pbu0Pe+cTuiqUeXXY6r8YGhtWabE1hF37VbJfJTlKVGGOwE+er8c+f+N6wb7rg5wlg2gYA8NfhwYHlgMNB/6ANMNsBNH/GRj8pNwbnkx3tXvmx8r6kYFBgIHh5RNFhhXrhVbc4+KpZJiw4wEDKKoYGf5DNDYwMDE0MPyTSbDTffL9v4ez0OtXGpJ/hB9xcqq9fct2//ZHQVYe3v8n73ft3Q1TiwgcqEl4oxBJDWo8gmx+ZszcIMX7/5nkZ0YpNd7/Bw4yMHx+9pnxrJTvX4aGBsxQJSKxoCghO8kBALL4iw/htJjEAAAAAElFTkSuQmCC"
-                                        />
-                                      </div>
-                                      <img
+                                      <styled.div
+                                        canShow={false}
+                                      >
+                                        <div
+                                          className="sc-gKsewC cdbesz"
+                                        >
+                                          <img
+                                            alt=""
+                                            className="placeholderBase64 "
+                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABfUlEQVQ4T2NkIBMwYtX3nwEs/p+BgYGREUxhAOwaiXAFVo0BDQoCG+b8+ZmS+014Tvm7JwRtXLWKgTksjOFvzSru0v//2E0Zmb6fbgn73j3zjDFrusnZ38gGoNjYsJ+BpcGR4U/mKqE6FfV3jU9vch/uC9MIYmA4+6ahgYGpoYHhH0wzXGNoaCjz6tWr/zLUBhh3a786oSD5nvH2Kxnm1//Pbu0Pe+cTuiqUeXXY6r8YGhtWabE1hF37VbJfJTlKVGGOwE+er8c+f+N6wb7rg5wlg2gYA8NfhwYHlgMNB/6ANMNsBNH/GRj8pNwbnkx3tXvmx8r6kYFBgIHh5RNFhhXrhVbc4+KpZJiw4wEDKKoYGf5DNDYwMDE0MPyTSbDTffL9v4ez0OtXGpJ/hB9xcqq9fct2//ZHQVYe3v8n73ft3Q1TiwgcqEl4oxBJDWo8gmx+ZszcIMX7/5nkZ0YpNd7/Bw4yMHx+9pnxrJTvX4aGBsxQJSKxoCghO8kBALL4iw/htJjEAAAAAElFTkSuQmCC"
+                                          />
+                                        </div>
+                                      </styled.div>
+                                      <styled.img
                                         alt="deBlur"
+                                        canShow={false}
                                         className="deBlur"
                                         loading="lazy"
                                         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
-                                        style={
-                                          Object {
-                                            "display": "none",
-                                          }
-                                        }
-                                      />
+                                      >
+                                        <img
+                                          alt="deBlur"
+                                          className="sc-jSgupP kpRdbd deBlur"
+                                          loading="lazy"
+                                          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+                                        />
+                                      </styled.img>
                                     </ErrorBoundary>
                                   </ImageContainer>
                                 </div>
                               </styled.div>
                               <styled.span>
                                 <span
-                                  className="sc-fubCfw hcAOmE"
+                                  className="sc-jrAGrp iCHhJL"
                                 >
                                   carracosta
                                 </span>
                               </styled.span>
                               <styled.span>
                                 <span
-                                  className="sc-fubCfw hcAOmE"
+                                  className="sc-jrAGrp iCHhJL"
                                 >
                                   665
                                 </span>
                               </styled.span>
                               <styled.span>
                                 <span
-                                  className="sc-fubCfw hcAOmE"
+                                  className="sc-jrAGrp iCHhJL"
                                 />
                               </styled.span>
                             </div>

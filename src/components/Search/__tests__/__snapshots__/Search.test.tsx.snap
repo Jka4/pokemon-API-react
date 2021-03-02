@@ -16,7 +16,7 @@ exports[`<Search/>  renders correctly 1`] = `
   <Search>
     <styled.div>
       <div
-        className="sc-dlfnbm eQOXtf"
+        className="sc-eCssSg gfpJpq"
       >
         <styled.input
           aria-label="Search"
@@ -31,7 +31,7 @@ exports[`<Search/>  renders correctly 1`] = `
           <input
             aria-label="Search"
             autoComplete="off"
-            className="sc-hKgILt cEFGKr"
+            className="sc-jSgupP hYFgld"
             id="searchInput"
             name="searchInput"
             onChange={[Function]}
@@ -42,7 +42,7 @@ exports[`<Search/>  renders correctly 1`] = `
         </styled.input>
         <styled.div>
           <div
-            className="sc-eCssSg jwRzZN"
+            className="sc-gKsewC bLMCFd"
           />
         </styled.div>
       </div>

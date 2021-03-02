@@ -56,10 +56,16 @@ const PokeCard = styled(PokeCardWrapper)`
 `;
 
 const Image = styled.div`
-  height: 20%;
+  height: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   max-width: 100px;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
 `;
 
 const Span = styled.span`

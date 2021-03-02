@@ -3,10 +3,10 @@
 exports[`<HeaderLine/>  renders correctly 1`] = `
 <div>
   <header
-    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-iqHYGH jwbVSZ MuiPaper-elevation4"
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary sc-dQppl kftLqC MuiPaper-elevation4"
   >
     <div
-      class="sc-crrsfI cAwxaj"
+      class="sc-bqyKva iQNZaa"
     >
       <button
         class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
@@ -30,19 +30,19 @@ exports[`<HeaderLine/>  renders correctly 1`] = `
       </button>
     </div>
     <div
-      class="sc-dlfnbm eQOXtf"
+      class="sc-eCssSg gfpJpq"
     >
       <input
         aria-label="Search"
         autocomplete="off"
-        class="sc-hKgILt cEFGKr"
+        class="sc-jSgupP hYFgld"
         id="searchInput"
         name="searchInput"
         placeholder="Pikachu, 25, 900g"
         type="search"
       />
       <div
-        class="sc-eCssSg jwRzZN"
+        class="sc-gKsewC bLMCFd"
       />
     </div>
   </header>
