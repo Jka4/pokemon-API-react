@@ -25,7 +25,7 @@ exports[`<BigImage/>  renders correctly 1`] = `
 >
   <styled.div>
     <div
-      className="sc-eCssSg hjLaxK"
+      className="sc-eCssSg tDBiG"
     >
       <ImageContainer
         cn="deBlur"

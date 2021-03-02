@@ -135,7 +135,7 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="sc-pFZIQ jRTWBj"
+                                  className="sc-pFZIQ iCnbvo"
                                 >
                                   <ImageContainer
                                     cn="deBlur"

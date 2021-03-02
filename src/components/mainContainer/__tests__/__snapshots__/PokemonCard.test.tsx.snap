@@ -73,7 +73,7 @@ exports[`<PokemonCard /> renders correctly 1`] = `
                     >
                       <styled.div>
                         <div
-                          className="sc-gKsewC lNuQx"
+                          className="sc-gKsewC dgNCwa"
                         >
                           <ImageContainer
                             cn="deBlur"
