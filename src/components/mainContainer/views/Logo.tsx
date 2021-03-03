@@ -29,6 +29,7 @@ const LogoStyled = styled.div`
   justify-content: center;
   margin: 0;
   height: 212px;
+  margin-left: 25px;
 
   img {
     height: 100%;
