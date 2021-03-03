@@ -105,14 +105,5 @@
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.4",
     "source-map-explorer": "^2.5.1"
-  },
-  "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
-    "testEnvironment": "jsdom",
-    "moduleNameMapper": {
-      "\\.(css)$": "identity-obj-proxy"
-    }
   }
 }
