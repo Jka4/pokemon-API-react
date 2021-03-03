@@ -4,7 +4,7 @@ exports[`<Logo /> renders correctly 1`] = `
 <Logo>
   <styled.div>
     <div
-      className="sc-eCssSg jXxavJ"
+      className="sc-eCssSg cixJZF"
     >
       <ImageContainer
         cn="deBlur"

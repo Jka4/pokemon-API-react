@@ -10,6 +10,8 @@ import CasinoIcon from '@material-ui/icons/Casino';
 import { PokesTypes } from 'types/index';
 import styled from 'styled-components';
 
+import { getRandomPokemon } from 'actions';
+
 interface GetButtonProps {
   randomPokemon: PokesTypes[];
   pokemonArr: PokesTypes[];
@@ -21,15 +23,14 @@ const GetButton: React.FC = () => {
 
   const dispatch = useDispatch();
 
-  const getRandomPokemon = () => {
-    const randomPokemon = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
-    dispatch({ type: 'ADD_RANDOM_POKEMON', payload: randomPokemon });
+  const handleClick = () => {
+    dispatch(getRandomPokemon(pokemonArr));
   };
 
   return (
     <>
       <Badge color="secondary" badgeContent={randomPokemon.length}>
-        <ButtonStyled onClick={getRandomPokemon} variant="contained" color="secondary" endIcon={<CasinoIcon />}>
+        <ButtonStyled onClick={handleClick} variant="contained" color="secondary" endIcon={<CasinoIcon />}>
           GET A RANDOM POKEMON
         </ButtonStyled>
       </Badge>
@@ -37,7 +38,7 @@ const GetButton: React.FC = () => {
   );
 };
 
-const ButtonStyled = styled(Button)`
+export const ButtonStyled = styled(Button)`
   margin: 5px;
   margin-left: 10px !important;
   margin-right: 10px;
