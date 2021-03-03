@@ -1,42 +1,25 @@
-import React, { Suspense } from 'react';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
+import React from 'react';
 
 import { spritesType } from 'types/index';
 import styled from 'styled-components';
 
 interface Props {
-  sprites?: spritesType;
+  sprites: spritesType;
 }
 
-const Sprites: React.FC<Props> = ({ sprites = {} }: Props) => {
-  const SpritesPlaceholders = () => {
-    return (
-      <>
-        {[1, 2, 3, 4].map((el) => (
-          <Block key={el}>
-            <SkeletonTheme color="#6cff79" highlightColor="yellow">
-              <Skeleton circle={true} height={60} width={60} />
-            </SkeletonTheme>
-          </Block>
-        ))}
-      </>
-    );
-  };
-
+const Sprites: React.FC<Props> = ({ sprites }: Props) => {
   return (
     <>
       <Images>
-        <Suspense fallback={SpritesPlaceholders()}>
-          {Object.keys(sprites).map((spriteName: string) => (
-            <div key={spriteName}>
-              {sprites[spriteName] && (
-                <Block>
-                  <img src={sprites[spriteName]} alt={spriteName} />
-                </Block>
-              )}
-            </div>
-          ))}
-        </Suspense>
+        {Object.keys(sprites).map((spriteName: string) => (
+          <div key={spriteName}>
+            {sprites[spriteName] && (
+              <Block>
+                <img src={sprites[spriteName]} alt={spriteName} />
+              </Block>
+            )}
+          </div>
+        ))}
       </Images>
     </>
   );

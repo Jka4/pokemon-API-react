@@ -25,39 +25,40 @@ const DetailedPage: React.FC = () => {
   let pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
   let detailedPage = useSelector((state: DetailedPageType) => state.detailedPage);
 
-  const [bigImage, setBigImage] = useState<PokesTypes>();
-  const currentPokemon = useLocation().pathname.split('/').pop();
-  const { abilities, stats, weight, sprites } = detailedPage;
+  const [poke, setPoke] = useState<PokesTypes>();
+  const currentName = useLocation().pathname.split('/').pop();
   const dispatch = useDispatch();
+
+  const { abilities = [], stats = [], weight = 0, sprites = {} } = detailedPage;
 
   useEffect(() => {
     let isSubscribed: boolean = true;
     if (isSubscribed) {
-      dispatch(getDetailedPokemon(currentPokemon));
+      dispatch(getDetailedPokemon(currentName));
     }
     return (): void => {
       isSubscribed = false;
     };
-  }, [currentPokemon, dispatch]);
+  }, [currentName, dispatch]);
 
   useEffect(() => {
-    const pokemon: PokesTypes | undefined = pokemonArr.find((el) => el.name === currentPokemon);
-    pokemon && setBigImage(pokemon);
-  }, [currentPokemon, pokemonArr]);
+    const pokemon: PokesTypes | undefined = pokemonArr.find((el) => el.name === currentName);
+    pokemon && setPoke(pokemon);
+  }, [currentName, pokemonArr]);
 
   return (
     <>
       <DetailedPageWrapper>
-        <Name>{currentPokemon || 'POKEMON'}</Name>
+        <Name>{currentName || 'POKEMON'}</Name>
 
-        <EvolutionForms currentPokemon={currentPokemon} pokemonArr={pokemonArr} />
+        <EvolutionForms currentPokemon={currentName} pokemonArr={pokemonArr} />
 
         <MainInformation>
           <Skills>
             <Stats weight={weight} stats={stats} />
             <Abilities abilities={abilities} />
           </Skills>
-          <BigImage bigImage={bigImage} />
+          <BigImage imageHQ={poke?.imageHQ} placeholderBase64={poke?.placeholderBase64} />
         </MainInformation>
 
         <Sprites sprites={sprites} />

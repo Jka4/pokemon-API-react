@@ -25,9 +25,13 @@ describe('<BigImage/> ', () => {
     base_experience: 140,
   };
 
-  const container = mount(<BigImage bigImage={fakeData} />);
+  // it('renders with data', () => {
+  //   const container = mount(<BigImage poke={fakeData} />);
+  //   expect(container).toMatchSnapshot();
+  // });
 
-  it('renders correctly', () => {
+  it('renders without data', () => {
+    const container = mount(<BigImage poke={fakeData} />);
     expect(container).toMatchSnapshot();
   });
 });

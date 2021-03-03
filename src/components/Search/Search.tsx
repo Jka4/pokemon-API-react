@@ -54,10 +54,6 @@ const Search: React.FC = () => {
     setShowResult(false);
   }, ref);
 
-  const fallback = (placeholderBase64: string) => {
-    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
-  };
-
   return (
     <SearchStyled>
       <SearchInput
@@ -82,7 +78,16 @@ const Search: React.FC = () => {
                   <Id>ID: {i.item.id}</Id>
                   <Weight>WEIGHT: {i.item.weight}</Weight>
                   <ImageWrapper>
-                    <ImageContainer url={i.item.image} fallback={fallback(i.item.placeholderBase64)} />
+                    <ImageContainer
+                      url={i.item.image}
+                      fallback={
+                        <img
+                          src={i.item.placeholderBase64}
+                          className="placeholderBase64 deBlur"
+                          alt="placeholderBase64"
+                        />
+                      }
+                    />
                   </ImageWrapper>
                 </SearchItem>
               </StyledLink>
@@ -110,7 +115,7 @@ const SearchStyled = styled.div`
   }
 `;
 
-const SearchInput = styled.input`
+export const SearchInput = styled.input`
   width: 100%;
   padding-left: 15px;
   position: relative;

@@ -1,5 +1,4 @@
 import React from 'react';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import styled from 'styled-components';
 
 interface Props {
@@ -15,41 +14,22 @@ interface StatsElements {
 }
 
 const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
-  const fallbackSkeletons = () => {
-    return (
-      <SkeletonTheme color="#53aeff" highlightColor="#0066be">
-        {[1, 2, 3, 4, 5, 6].map((el) => (
-          <p key={el}>
-            <SkeletonStyled height={15} width={145} />
-          </p>
-        ))}
-      </SkeletonTheme>
-    );
-  };
-
-  const showStats = stats !== undefined && stats?.length !== 0;
-
   return (
     <StatsStyled>
       <UL>
         <Title>Stats</Title>
-        {showStats
-          ? stats?.map((el: StatsElements) => (
-              <LI key={el.stat.name}>
-                {el.stat.name}: {el.base_stat}
-              </LI>
-            ))
-          : fallbackSkeletons()}
 
-        {showStats && <LI>weight: {weight} kg</LI>}
+        <LI>weight: {weight} kg</LI>
+
+        {stats.map((el: StatsElements) => (
+          <LI key={el.stat.name}>
+            {el.stat.name}: {el.base_stat}
+          </LI>
+        ))}
       </UL>
     </StatsStyled>
   );
 };
-
-const SkeletonStyled = styled(Skeleton)`
-  margin-bottom: 10px;
-`;
 
 const StatsStyled = styled.div`
   display: flex;

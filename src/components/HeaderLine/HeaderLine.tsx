@@ -15,14 +15,6 @@ import styled from 'styled-components';
 const HeaderLine: React.FC = () => {
   const isMainPage = useLocation().pathname === '/';
 
-  function HomeIcon() {
-    return (
-      <SvgIcon>
-        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-      </SvgIcon>
-    );
-  }
-
   return (
     <>
       <AppBarStyled position="static">
@@ -32,7 +24,9 @@ const HeaderLine: React.FC = () => {
           {!isMainPage && (
             <NavLink to="/">
               <Button variant="contained" color="secondary">
-                <HomeIcon />
+                <SvgIcon>
+                  <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                </SvgIcon>
               </Button>
             </NavLink>
           )}

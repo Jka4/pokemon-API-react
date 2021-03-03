@@ -1,43 +1,43 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom';
-import { act } from 'react-dom/test-utils';
+
 import HeaderLine from '../HeaderLine';
 
 import { Provider } from 'react-redux';
 
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import { BrowserRouter } from 'react-router-dom';
+
+import { MemoryRouter } from 'react-router-dom';
+import { mount } from 'enzyme';
+import { NavLink } from 'react-router-dom';
 
 describe('<HeaderLine/> ', () => {
-  let container: any;
-
-  beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
-  });
-
-  afterEach(() => {
-    document.body.removeChild(container);
-    container = null;
-  });
-
   const mockStore = configureMockStore([thunk]);
+  const store = mockStore({ pokemonArr: [] });
 
-  it('renders correctly', async () => {
-    const store = mockStore({ pokemonArr: [] });
+  it('renders without home button', () => {
+    const container = mount(
+      <Provider store={store}>
+        <MemoryRouter initialEntries={['/']}>
+          <HeaderLine />
+        </MemoryRouter>
+      </Provider>,
+    );
 
-    await act(async () => {
-      ReactDOM.render(
-        <Provider store={store}>
-          <BrowserRouter basename="/">
-            <HeaderLine />
-          </BrowserRouter>
-        </Provider>,
-        await container,
-      );
+    const svgPath = container.find(NavLink).find('path');
+    expect(svgPath).toMatchSnapshot();
+  });
 
-      expect(container).toMatchSnapshot();
-    });
+  it('renders with home button', () => {
+    const container = mount(
+      <Provider store={store}>
+        <MemoryRouter initialEntries={['/404']}>
+          <HeaderLine />
+        </MemoryRouter>
+      </Provider>,
+    );
+
+    const svgPath = container.find(NavLink).find('path');
+    expect(svgPath).toMatchSnapshot();
   });
 });

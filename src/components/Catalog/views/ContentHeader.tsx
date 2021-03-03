@@ -15,7 +15,7 @@ const ContentHeader: React.FC = () => {
   return (
     <Wrapper>
       <ViewTypeInner>
-        <NavLink to={typeIsBig ? '/catalog/small?' : '/catalog/big'}>
+        <NavLink to={typeIsBig ? '/catalog/small' : '/catalog/big'}>
           <InnerBlock>
             <Title>{typeIsBig ? 'Big grid' : 'Small grid'}</Title>
             <Separator>|</Separator>

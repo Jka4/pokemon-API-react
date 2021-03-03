@@ -13518,17 +13518,13 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
         ]
       }
     >
-      <FormTitle>
-        <styled.div>
-          <div
-            className="sc-bdfBwQ fTcUyX"
-          >
-            <span>
-              All forms:
-            </span>
-          </div>
-        </styled.div>
-      </FormTitle>
+      <styled.div>
+        <div
+          className="sc-bdfBwQ fTcUyX"
+        >
+          All forms:
+        </div>
+      </styled.div>
       <styled.div>
         <div
           className="sc-gsTCUz jakdYR"
