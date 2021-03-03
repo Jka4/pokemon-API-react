@@ -2,26 +2,8 @@
 
 exports[`<BigImage/>  renders without data 1`] = `
 <BigImage
-  poke={
-    Object {
-      "base_experience": 140,
-      "chain": Array [
-        Object {
-          "species_name": "spinarak",
-        },
-        Object {
-          "species_name": "ariados",
-        },
-      ],
-      "id": 168,
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
-      "imageHQ": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
-      "name": "ariados",
-      "order": 250,
-      "placeholderBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABiklEQVQ4T2NkIBMw4tAHEwfR/7CpwaYRJPafkEPQNYI1+ZqZKX7n4/vL/OcP284DBx4wMDD8QTcIRWNa2kzWWbPSfzPwiqQyfH6jwsDAcJaBgWGVg4MDy4EDB1A0wzWuWrWKOSws7G/07G0ydZeqtjKwy+kdl3bJSijMmw61DcULyDaCJVbMmjUpiP9m7tOfAv9OXfrI9OnMugmpB+4V/mdgYGRE8jtYI8y246ePu9w+c73LSOe5AjMTs8DRzIrfSqmT2H5oaJZ6ubr27N+/n8XR0RHsZLDG////MzIyMv6/fWIJ39zN7/oNhG+6B3grSb96/5vh/P5vDDzapnOc/XxT/69axcwYFvYXQ+OqVTP5v31izXr9/Im7s+FvEaa/X/9ceaygL6qqWebu7toNcxlcI7KtIHZnZ69FeXnxRQYGhu+LFyyL/PHp8eHUvPInDQ0NTA0NDeAEgRId//8zMB5o3M/s2ADxBzKAeQcmhjXJQZ0ENnnVqlVMoaGh/0BhgGwQrrRKKMUxAADfoqQPKXvh9QAAAABJRU5ErkJggg==",
-      "weight": 335,
-    }
-  }
+  imageHQ="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png"
+  placeholderBase64="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABiklEQVQ4T2NkIBMw4tAHEwfR/7CpwaYRJPafkEPQNYI1+ZqZKX7n4/vL/OcP284DBx4wMDD8QTcIRWNa2kzWWbPSfzPwiqQyfH6jwsDAcJaBgWGVg4MDy4EDB1A0wzWuWrWKOSws7G/07G0ydZeqtjKwy+kdl3bJSijMmw61DcULyDaCJVbMmjUpiP9m7tOfAv9OXfrI9OnMugmpB+4V/mdgYGRE8jtYI8y246ePu9w+c73LSOe5AjMTs8DRzIrfSqmT2H5oaJZ6ubr27N+/n8XR0RHsZLDG////MzIyMv6/fWIJ39zN7/oNhG+6B3grSb96/5vh/P5vDDzapnOc/XxT/69axcwYFvYXQ+OqVTP5v31izXr9/Im7s+FvEaa/X/9ceaygL6qqWebu7toNcxlcI7KtIHZnZ69FeXnxRQYGhu+LFyyL/PHp8eHUvPInDQ0NTA0NDeAEgRId//8zMB5o3M/s2ADxBzKAeQcmhjXJQZ0ENnnVqlVMoaGh/0BhgGwQrrRKKMUxAADfoqQPKXvh9QAAAABJRU5ErkJggg=="
 >
   <styled.div>
     <div
@@ -32,6 +14,7 @@ exports[`<BigImage/>  renders without data 1`] = `
         fallback={
           <img
             alt=""
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABiklEQVQ4T2NkIBMw4tAHEwfR/7CpwaYRJPafkEPQNYI1+ZqZKX7n4/vL/OcP284DBx4wMDD8QTcIRWNa2kzWWbPSfzPwiqQyfH6jwsDAcJaBgWGVg4MDy4EDB1A0wzWuWrWKOSws7G/07G0ydZeqtjKwy+kdl3bJSijMmw61DcULyDaCJVbMmjUpiP9m7tOfAv9OXfrI9OnMugmpB+4V/mdgYGRE8jtYI8y246ePu9w+c73LSOe5AjMTs8DRzIrfSqmT2H5oaJZ6ubr27N+/n8XR0RHsZLDG////MzIyMv6/fWIJ39zN7/oNhG+6B3grSb96/5vh/P5vDDzapnOc/XxT/69axcwYFvYXQ+OqVTP5v31izXr9/Im7s+FvEaa/X/9ceaygL6qqWebu7toNcxlcI7KtIHZnZ69FeXnxRQYGhu+LFyyL/PHp8eHUvPInDQ0NTA0NDeAEgRId//8zMB5o3M/s2ADxBzKAeQcmhjXJQZ0ENnnVqlVMoaGh/0BhgGwQrrRKKMUxAADfoqQPKXvh9QAAAABJRU5ErkJggg=="
             style={
               Object {
                 "filter": "blur(18px)",
@@ -39,6 +22,7 @@ exports[`<BigImage/>  renders without data 1`] = `
             }
           />
         }
+        url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png"
       >
         <ErrorBoundary>
           <styled.div
@@ -49,6 +33,7 @@ exports[`<BigImage/>  renders without data 1`] = `
             >
               <img
                 alt=""
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABiklEQVQ4T2NkIBMw4tAHEwfR/7CpwaYRJPafkEPQNYI1+ZqZKX7n4/vL/OcP284DBx4wMDD8QTcIRWNa2kzWWbPSfzPwiqQyfH6jwsDAcJaBgWGVg4MDy4EDB1A0wzWuWrWKOSws7G/07G0ydZeqtjKwy+kdl3bJSijMmw61DcULyDaCJVbMmjUpiP9m7tOfAv9OXfrI9OnMugmpB+4V/mdgYGRE8jtYI8y246ePu9w+c73LSOe5AjMTs8DRzIrfSqmT2H5oaJZ6ubr27N+/n8XR0RHsZLDG////MzIyMv6/fWIJ39zN7/oNhG+6B3grSb96/5vh/P5vDDzapnOc/XxT/69axcwYFvYXQ+OqVTP5v31izXr9/Im7s+FvEaa/X/9ceaygL6qqWebu7toNcxlcI7KtIHZnZ69FeXnxRQYGhu+LFyyL/PHp8eHUvPInDQ0NTA0NDeAEgRId//8zMB5o3M/s2ADxBzKAeQcmhjXJQZ0ENnnVqlVMoaGh/0BhgGwQrrRKKMUxAADfoqQPKXvh9QAAAABJRU5ErkJggg=="
                 style={
                   Object {
                     "filter": "blur(18px)",
@@ -62,11 +47,13 @@ exports[`<BigImage/>  renders without data 1`] = `
             className="deBlur"
             loading="lazy"
             ready={false}
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png"
           >
             <img
               alt="deBlur"
               className="sc-dlfnbm iTRrSd deBlur"
               loading="lazy"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png"
             />
           </styled.img>
         </ErrorBoundary>

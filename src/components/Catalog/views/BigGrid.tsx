@@ -124,4 +124,4 @@ const Name = styled.div`
   font-size: 24px;
 `;
 
-export default BigGrid;
+export { BigGrid };

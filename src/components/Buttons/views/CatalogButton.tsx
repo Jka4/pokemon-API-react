@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const CatalogButton: React.FC = () => {
   return (
     <>
-      <NavLink to={`/catalog/big/`}>
+      <NavLink to={`/catalog/`}>
         <ButtonStyled variant="contained" color="secondary">
           SHOW ALL POKEMON
         </ButtonStyled>

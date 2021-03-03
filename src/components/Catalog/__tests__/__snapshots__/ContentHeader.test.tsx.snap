@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Catalog/>  renders correctly 1`] = `"Big grid"`;
-
-exports[`<Catalog/>  renders with home button 1`] = `"Small grid"`;

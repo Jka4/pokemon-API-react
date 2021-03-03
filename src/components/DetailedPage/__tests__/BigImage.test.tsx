@@ -31,7 +31,7 @@ describe('<BigImage/> ', () => {
   // });
 
   it('renders without data', () => {
-    const container = mount(<BigImage poke={fakeData} />);
+    const container = mount(<BigImage imageHQ={fakeData.imageHQ} placeholderBase64={fakeData.placeholderBase64} />);
     expect(container).toMatchSnapshot();
   });
 });
