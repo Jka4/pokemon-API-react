@@ -8,11 +8,12 @@ type PropsType = {
   url?: string;
   cn?: string;
   fallback?: JSXElement | Function;
-  canShow?: boolean;
 };
 
+type ReadyType = { ready: boolean };
+
 const ImageContainer = ({ url, cn, fallback }: PropsType) => {
-  const [imgReady, setReady] = useState<boolean>(false);
+  const [ready, setReady] = useState<boolean>(false);
 
   useEffect(() => {
     const img = new Image();
@@ -27,19 +28,19 @@ const ImageContainer = ({ url, cn, fallback }: PropsType) => {
   return (
     <>
       <ErrorBoundary>
-        <FallbackStyled canShow={imgReady}>{typeof fallback === 'function' ? fallback() : fallback}</FallbackStyled>
-        <IMG src={url} alt={cn} className={cn} loading="lazy" canShow={imgReady} />
+        <FallbackStyled ready={ready}>{fallback}</FallbackStyled>
+        <IMG src={url} alt={cn} className={cn} loading="lazy" ready={ready} />
       </ErrorBoundary>
     </>
   );
 };
 
-const IMG = styled.img`
-  display: ${(props: PropsType) => (props.canShow ? 'block' : 'none')};
+export const IMG = styled.img`
+  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
 `;
 
-const FallbackStyled = styled.div`
-  display: ${(props: PropsType) => (props.canShow ? 'none' : 'block')};
+export const FallbackStyled = styled.div`
+  display: ${(props: ReadyType) => (props.ready ? 'none' : 'block')};
 `;
 
 export default ImageContainer;

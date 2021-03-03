@@ -150,7 +150,7 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                                   >
                                     <ErrorBoundary>
                                       <styled.div
-                                        canShow={false}
+                                        ready={false}
                                       >
                                         <div
                                           className="sc-gKsewC cdbesz"
@@ -164,9 +164,9 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                                       </styled.div>
                                       <styled.img
                                         alt="deBlur"
-                                        canShow={false}
                                         className="deBlur"
                                         loading="lazy"
+                                        ready={false}
                                         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                       >
                                         <img

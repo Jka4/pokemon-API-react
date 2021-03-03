@@ -42,7 +42,7 @@ exports[`<BigImage/>  renders without data 1`] = `
       >
         <ErrorBoundary>
           <styled.div
-            canShow={false}
+            ready={false}
           >
             <div
               className="sc-hKgILt kKOCJE"
@@ -59,9 +59,9 @@ exports[`<BigImage/>  renders without data 1`] = `
           </styled.div>
           <styled.img
             alt="deBlur"
-            canShow={false}
             className="deBlur"
             loading="lazy"
+            ready={false}
           >
             <img
               alt="deBlur"

@@ -1,5 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<HeaderLine/>  image loaded FALSE 1`] = `
+<styled.img
+  ready={false}
+>
+  <img
+    className="sc-dlfnbm iTRrSd"
+  />
+</styled.img>
+`;
+
+exports[`<HeaderLine/>  image loaded FALSE 2`] = `
+<styled.div
+  ready={false}
+>
+  <div
+    className="sc-hKgILt kKOCJE"
+  />
+</styled.div>
+`;
+
+exports[`<HeaderLine/>  image loaded TRUE 1`] = `
+<styled.img
+  ready={true}
+>
+  <img
+    className="sc-dlfnbm gIdFjC"
+  />
+</styled.img>
+`;
+
+exports[`<HeaderLine/>  image loaded TRUE 2`] = `
+<styled.div
+  ready={true}
+>
+  <div
+    className="sc-hKgILt cubUVT"
+  />
+</styled.div>
+`;
+
 exports[`<HeaderLine/>  renders correctly 1`] = `
 <ImageContainer
   cn="testClass"
@@ -7,7 +47,7 @@ exports[`<HeaderLine/>  renders correctly 1`] = `
 >
   <ErrorBoundary>
     <styled.div
-      canShow={false}
+      ready={false}
     >
       <div
         className="sc-hKgILt kKOCJE"
@@ -15,9 +55,9 @@ exports[`<HeaderLine/>  renders correctly 1`] = `
     </styled.div>
     <styled.img
       alt="testClass"
-      canShow={false}
       className="testClass"
       loading="lazy"
+      ready={false}
       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
     >
       <img
