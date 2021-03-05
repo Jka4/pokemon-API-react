@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import Stats from '../views/Stats';
 
 import { mount } from 'enzyme';

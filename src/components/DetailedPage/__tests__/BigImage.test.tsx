@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import BigImage from '../views/BigImage';
 
 import { mount } from 'enzyme';

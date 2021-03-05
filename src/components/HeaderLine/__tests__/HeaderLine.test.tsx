@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import HeaderLine from '../HeaderLine';
 
 import { Provider } from 'react-redux';

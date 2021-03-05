@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styled from 'styled-components';
-import ImageContainer from 'components/ImageContainer/ImageContainer';
+import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 
 const Logo: React.FC = () => {
   const base64: string =

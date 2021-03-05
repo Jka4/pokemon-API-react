@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import PAGE_404 from '../PAGE_404';
 
 import { mount } from 'enzyme';

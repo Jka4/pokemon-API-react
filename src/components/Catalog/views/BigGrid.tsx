@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import Paper from '@material-ui/core/Paper';
-import ImageContainer from 'components/ImageContainer/ImageContainer';
+import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 
 import { PokesTypes } from 'types/index';
 

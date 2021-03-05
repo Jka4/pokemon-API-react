@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import EvolutionForms from '../views/EvolutionForms';
 import POKEMON from 'utils/pokemonDataArray';
 

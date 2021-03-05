@@ -11,7 +11,7 @@ import { PokesTypes } from 'types/index';
 
 import styled from 'styled-components';
 
-import ImageContainer from 'components/ImageContainer/ImageContainer';
+import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 
 let fuseOptions = {
   shouldSort: true,

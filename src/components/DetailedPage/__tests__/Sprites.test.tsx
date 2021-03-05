@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import Sprites from '../views/Sprites';
 
 import { mount } from 'enzyme';

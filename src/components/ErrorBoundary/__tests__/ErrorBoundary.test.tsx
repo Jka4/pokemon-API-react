@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import ErrorBoundary from '../ErrorBoundary';
 import { mount } from 'enzyme';
 

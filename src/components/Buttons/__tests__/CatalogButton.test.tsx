@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import CatalogButton from '../views/CatalogButton';
 
 import { mount } from 'enzyme';

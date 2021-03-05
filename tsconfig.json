@@ -23,8 +23,6 @@
     "rootDir": "./",
     "outDir": "build",
     "declaration": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
     "incremental": true,
   },
  "include": [

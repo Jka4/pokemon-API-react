@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import Search from '../Search';
 
 import { Provider } from 'react-redux';

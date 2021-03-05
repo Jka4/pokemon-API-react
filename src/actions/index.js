@@ -1,4 +1,3 @@
-import React from 'react';
 import { http } from 'utils/apiCaching';
 
 const getDetailedPokemon = (currentPokemon) => {

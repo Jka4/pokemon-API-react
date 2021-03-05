@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import Abilities from '../views/Abilities';
 
 import { mount } from 'enzyme';

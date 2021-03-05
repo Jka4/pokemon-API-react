@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import ItemsList from '../views/ItemsList';
 
 import { Provider } from 'react-redux';

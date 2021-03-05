@@ -1,6 +1,4 @@
-import * as React from 'react';
-
-import ImageContainer, { IMG, FallbackStyled } from '../ImageContainer';
+import { ImageContainer, IMG, FallbackStyled } from '../ImageContainer';
 
 import { mount } from 'enzyme';
 import { render } from '@testing-library/react';

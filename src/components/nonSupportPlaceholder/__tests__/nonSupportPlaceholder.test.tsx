@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import NonSupportPlaceholder from '../NonSupportPlaceholder';
 
 import { mount } from 'enzyme';

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ErrorBoundary from 'components/ErrorBoundary/ErrorBoundary';
 import styled from 'styled-components';
 
@@ -43,4 +43,4 @@ export const FallbackStyled = styled.div`
   display: ${(props: ReadyType) => (props.ready ? 'none' : 'block')};
 `;
 
-export default ImageContainer;
+export { ImageContainer };

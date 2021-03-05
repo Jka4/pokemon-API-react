@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import ClearButton from '../views/ClearButton';
 
 import { Provider } from 'react-redux';

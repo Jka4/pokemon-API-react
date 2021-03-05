@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { pokemonCardType } from 'types/index';
 import styled from 'styled-components';
 
-import ImageContainer from 'components/ImageContainer/ImageContainer';
+import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 
 const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) => {
   const { name, order, base_experience, placeholderBase64, image } = pokeCard;
