@@ -3,7 +3,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 
 import { Button } from '@material-ui/core';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const ClearButton: React.FC = () => {
   const dispatch = useDispatch();

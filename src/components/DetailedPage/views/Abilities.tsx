@@ -1,6 +1,6 @@
 import React from 'react';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
+import { Skeleton } from '@material-ui/lab';
 
 interface Props {
   abilities: AbilityElements[];
@@ -13,34 +13,42 @@ interface AbilityElements {
   };
 }
 
-const Abilities: React.FC<Props> = ({ abilities = [] }: Props) => {
+const Abilities: React.FC<Props> = ({ abilities }: Props) => {
   const fallbackSkeletons = () => {
+    const fakeArr = Array.from(Array(7).keys());
+
     return (
-      <SkeletonTheme color="#53aeff" highlightColor="#0066be">
-        {[1, 2, 3, 4, 5, 6].map((el) => (
-          <p key={el}>
-            <SkeletonStyled height={15} width={145} />
-          </p>
+      <>
+        {fakeArr.map((el) => (
+          <LI key={el}>
+            <Skeleton animation="wave" width={135} height={30} />
+          </LI>
         ))}
-      </SkeletonTheme>
+      </>
     );
   };
+
+  const abilitiesRow = () => {
+    return (
+      <>
+        {abilities.map((element: AbilityElements) => (
+          <LI key={element.ability.name}>- {element.ability.name}</LI>
+        ))}
+      </>
+    );
+  };
+
+  const showSkeletons = abilities.length === 0;
 
   return (
     <AbilitiesStyled>
       <UL>
         <Title>Abilities</Title>
-        {abilities.length !== 0
-          ? abilities.map((element: AbilityElements) => <LI key={element.ability.name}>- {element.ability.name}</LI>)
-          : fallbackSkeletons()}
+        {showSkeletons ? fallbackSkeletons() : abilitiesRow()}
       </UL>
     </AbilitiesStyled>
   );
 };
-
-const SkeletonStyled = styled(Skeleton)`
-  margin-bottom: 10px;
-`;
 
 const AbilitiesStyled = styled.div`
   display: flex;
@@ -86,7 +94,7 @@ const LI = styled.li`
   display: flex;
   border-radius: 0.7rem;
   background-color: #53aeff !important;
-  padding: 10px;
+  padding: 6px;
   width: 100%;
   font-size: 18px;
   text-transform: uppercase;

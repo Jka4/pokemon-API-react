@@ -1,3 +1,4 @@
+import React from 'react';
 import { http } from 'utils/apiCaching';
 
 const getDetailedPokemon = (currentPokemon) => {
@@ -17,4 +18,11 @@ const getDetailedPokemon = (currentPokemon) => {
   };
 };
 
-export { getDetailedPokemon };
+const getRandomPokemon = (pokemonArr) => {
+  return (dispatch) => {
+    const randomPokemon = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
+    dispatch({ type: 'ADD_RANDOM_POKEMON', payload: randomPokemon });
+  };
+};
+
+export { getDetailedPokemon, getRandomPokemon };

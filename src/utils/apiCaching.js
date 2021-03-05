@@ -14,7 +14,7 @@ async function http() {
 
   return setup({
     cache: {
-      maxAge: 15 * 60 * 1000,
+      maxAge: 9999999 * 60 * 1000,
       store: forageStore,
       exclude: { query: false },
     },

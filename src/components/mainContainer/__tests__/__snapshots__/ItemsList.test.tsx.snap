@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemsList/>  renders correctly 1`] = `
+<BrowserRouter
+  basename="/"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <ItemsList
+        randomPokemon={Array []}
+      >
+        <Heading>
+          <styled.h2>
+            <h2
+              className="sc-bdfBwQ hqbntG"
+            >
+              <styled.ul>
+                <ul
+                  className="sc-gsTCUz bkxspn"
+                >
+                  <styled.li>
+                    <li
+                      className="sc-dlfnbm fdkJAr"
+                    >
+                      photo
+                    </li>
+                  </styled.li>
+                  <styled.li>
+                    <li
+                      className="sc-dlfnbm fdkJAr"
+                    >
+                      name
+                    </li>
+                  </styled.li>
+                  <styled.li>
+                    <li
+                      className="sc-dlfnbm fdkJAr"
+                    >
+                      order
+                    </li>
+                  </styled.li>
+                  <styled.li>
+                    <li
+                      className="sc-dlfnbm fdkJAr"
+                    >
+                      exp
+                    </li>
+                  </styled.li>
+                </ul>
+              </styled.ul>
+            </h2>
+          </styled.h2>
+        </Heading>
+        <styled.div>
+          <div
+            className="sc-kEjbxe irGWPW"
+          >
+            <PokemonCard
+              key="0"
+              pokeCard={
+                Object {
+                  "id": 565,
+                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
+                  "imageHQ": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/565.png",
+                  "name": "carracosta",
+                  "order": 665,
+                  "placeholderBase64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABfUlEQVQ4T2NkIBMwYtX3nwEs/p+BgYGREUxhAOwaiXAFVo0BDQoCG+b8+ZmS+014Tvm7JwRtXLWKgTksjOFvzSru0v//2E0Zmb6fbgn73j3zjDFrusnZ38gGoNjYsJ+BpcGR4U/mKqE6FfV3jU9vch/uC9MIYmA4+6ahgYGpoYHhH0wzXGNoaCjz6tWr/zLUBhh3a786oSD5nvH2Kxnm1//Pbu0Pe+cTuiqUeXXY6r8YGhtWabE1hF37VbJfJTlKVGGOwE+er8c+f+N6wb7rg5wlg2gYA8NfhwYHlgMNB/6ANMNsBNH/GRj8pNwbnkx3tXvmx8r6kYFBgIHh5RNFhhXrhVbc4+KpZJiw4wEDKKoYGf5DNDYwMDE0MPyTSbDTffL9v4ez0OtXGpJ/hB9xcqq9fct2//ZHQVYe3v8n73ft3Q1TiwgcqEl4oxBJDWo8gmx+ZszcIMX7/5nkZ0YpNd7/Bw4yMHx+9pnxrJTvX4aGBsxQJSKxoCghO8kBALL4iw/htJjEAAAAAElFTkSuQmCC",
+                  "weight": 810,
+                }
+              }
+            >
+              <styled.div>
+                <div
+                  className="sc-iBPRYJ jzmLdG"
+                >
+                  <NavLink
+                    to="/detailedPage/pokemon/carracosta"
+                  >
+                    <Link
+                      aria-current={null}
+                      to={
+                        Object {
+                          "hash": "",
+                          "pathname": "/detailedPage/pokemon/carracosta",
+                          "search": "",
+                          "state": null,
+                        }
+                      }
+                    >
+                      <LinkAnchor
+                        aria-current={null}
+                        href="/detailedPage/pokemon/carracosta"
+                        navigate={[Function]}
+                      >
+                        <a
+                          aria-current={null}
+                          href="/detailedPage/pokemon/carracosta"
+                          onClick={[Function]}
+                        >
+                          <Styled(styled.div)>
+                            <div
+                              className="sc-iBPRYJ sc-fubCfw jzmLdG eZXhVM"
+                            >
+                              <styled.div>
+                                <div
+                                  className="sc-pFZIQ iCnbvo"
+                                >
+                                  <ImageContainer
+                                    cn="deBlur"
+                                    fallback={
+                                      <img
+                                        alt=""
+                                        className="placeholderBase64 "
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABfUlEQVQ4T2NkIBMwYtX3nwEs/p+BgYGREUxhAOwaiXAFVo0BDQoCG+b8+ZmS+014Tvm7JwRtXLWKgTksjOFvzSru0v//2E0Zmb6fbgn73j3zjDFrusnZ38gGoNjYsJ+BpcGR4U/mKqE6FfV3jU9vch/uC9MIYmA4+6ahgYGpoYHhH0wzXGNoaCjz6tWr/zLUBhh3a786oSD5nvH2Kxnm1//Pbu0Pe+cTuiqUeXXY6r8YGhtWabE1hF37VbJfJTlKVGGOwE+er8c+f+N6wb7rg5wlg2gYA8NfhwYHlgMNB/6ANMNsBNH/GRj8pNwbnkx3tXvmx8r6kYFBgIHh5RNFhhXrhVbc4+KpZJiw4wEDKKoYGf5DNDYwMDE0MPyTSbDTffL9v4ez0OtXGpJ/hB9xcqq9fct2//ZHQVYe3v8n73ft3Q1TiwgcqEl4oxBJDWo8gmx+ZszcIMX7/5nkZ0YpNd7/Bw4yMHx+9pnxrJTvX4aGBsxQJSKxoCghO8kBALL4iw/htJjEAAAAAElFTkSuQmCC"
+                                      />
+                                    }
+                                    url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+                                  >
+                                    <ErrorBoundary>
+                                      <styled.div
+                                        ready={false}
+                                      >
+                                        <div
+                                          className="sc-gKsewC cdbesz"
+                                        >
+                                          <img
+                                            alt=""
+                                            className="placeholderBase64 "
+                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABfUlEQVQ4T2NkIBMwYtX3nwEs/p+BgYGREUxhAOwaiXAFVo0BDQoCG+b8+ZmS+014Tvm7JwRtXLWKgTksjOFvzSru0v//2E0Zmb6fbgn73j3zjDFrusnZ38gGoNjYsJ+BpcGR4U/mKqE6FfV3jU9vch/uC9MIYmA4+6ahgYGpoYHhH0wzXGNoaCjz6tWr/zLUBhh3a786oSD5nvH2Kxnm1//Pbu0Pe+cTuiqUeXXY6r8YGhtWabE1hF37VbJfJTlKVGGOwE+er8c+f+N6wb7rg5wlg2gYA8NfhwYHlgMNB/6ANMNsBNH/GRj8pNwbnkx3tXvmx8r6kYFBgIHh5RNFhhXrhVbc4+KpZJiw4wEDKKoYGf5DNDYwMDE0MPyTSbDTffL9v4ez0OtXGpJ/hB9xcqq9fct2//ZHQVYe3v8n73ft3Q1TiwgcqEl4oxBJDWo8gmx+ZszcIMX7/5nkZ0YpNd7/Bw4yMHx+9pnxrJTvX4aGBsxQJSKxoCghO8kBALL4iw/htJjEAAAAAElFTkSuQmCC"
+                                          />
+                                        </div>
+                                      </styled.div>
+                                      <styled.img
+                                        alt="deBlur"
+                                        className="deBlur"
+                                        loading="lazy"
+                                        ready={false}
+                                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+                                      >
+                                        <img
+                                          alt="deBlur"
+                                          className="sc-jSgupP kpRdbd deBlur"
+                                          loading="lazy"
+                                          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+                                        />
+                                      </styled.img>
+                                    </ErrorBoundary>
+                                  </ImageContainer>
+                                </div>
+                              </styled.div>
+                              <styled.span>
+                                <span
+                                  className="sc-jrAGrp iCHhJL"
+                                >
+                                  carracosta
+                                </span>
+                              </styled.span>
+                              <styled.span>
+                                <span
+                                  className="sc-jrAGrp iCHhJL"
+                                >
+                                  665
+                                </span>
+                              </styled.span>
+                              <styled.span>
+                                <span
+                                  className="sc-jrAGrp iCHhJL"
+                                />
+                              </styled.span>
+                            </div>
+                          </Styled(styled.div)>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </NavLink>
+                </div>
+              </styled.div>
+            </PokemonCard>
+          </div>
+        </styled.div>
+      </ItemsList>
+    </Provider>
+  </Router>
+</BrowserRouter>
+`;

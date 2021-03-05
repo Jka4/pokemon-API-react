@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderLine/>  renders with home button 1`] = `
+<path
+  d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+/>
+`;
+
+exports[`<HeaderLine/>  renders without home button 1`] = `null`;

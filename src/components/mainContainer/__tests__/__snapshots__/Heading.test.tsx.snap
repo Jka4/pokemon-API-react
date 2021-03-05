@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> renders correctly 1`] = `
+<Heading>
+  <styled.h2>
+    <h2
+      className="sc-bdfBwQ hqbntG"
+    >
+      <styled.ul>
+        <ul
+          className="sc-gsTCUz bkxspn"
+        >
+          <styled.li>
+            <li
+              className="sc-dlfnbm fdkJAr"
+            >
+              photo
+            </li>
+          </styled.li>
+          <styled.li>
+            <li
+              className="sc-dlfnbm fdkJAr"
+            >
+              name
+            </li>
+          </styled.li>
+          <styled.li>
+            <li
+              className="sc-dlfnbm fdkJAr"
+            >
+              order
+            </li>
+          </styled.li>
+          <styled.li>
+            <li
+              className="sc-dlfnbm fdkJAr"
+            >
+              exp
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </h2>
+  </styled.h2>
+</Heading>
+`;

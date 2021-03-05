@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorPage/>  renders correctly 1`] = `
+<ErrorPage>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ kfFOsf"
+    >
+      <styled.img
+        alt="404_pikachu"
+        src="undefined/images/404.png"
+      >
+        <img
+          alt="404_pikachu"
+          className="sc-hKgILt jFqASf"
+          src="undefined/images/404.png"
+        />
+      </styled.img>
+      <styled.div>
+        <div
+          className="sc-gsTCUz iPjwDd"
+        >
+          404
+        </div>
+      </styled.div>
+      <styled.div>
+        <div
+          className="sc-dlfnbm KPaPX"
+        >
+          Page Not Found
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</ErrorPage>
+`;

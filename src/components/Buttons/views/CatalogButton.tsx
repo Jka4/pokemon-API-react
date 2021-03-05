@@ -3,12 +3,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { Button } from '@material-ui/core';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
-const AllPokesPageButton: React.FC = () => {
+const CatalogButton: React.FC = () => {
   return (
     <>
-      <NavLink to={`/allPokemon/`}>
+      <NavLink to={`/catalog/`}>
         <ButtonStyled variant="contained" color="secondary">
           SHOW ALL POKEMON
         </ButtonStyled>
@@ -18,9 +18,8 @@ const AllPokesPageButton: React.FC = () => {
 };
 
 const ButtonStyled = styled(Button)`
-  margin: 5px;
-  margin-left: 10px;
+  margin: 5px 5px 5px 10px;
   font-size: 16px;
 `;
 
-export default AllPokesPageButton;
+export default CatalogButton;

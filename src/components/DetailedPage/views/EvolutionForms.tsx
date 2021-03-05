@@ -3,8 +3,9 @@ import React, { useMemo, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import find from 'lodash.find';
 
+import styled from 'styled-components';
+
 import { PokesTypes } from 'types/index';
-import styled from 'styled-components/macro';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;
@@ -15,10 +16,10 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
   let [chain, setChain] = useState<PokesTypes[]>([]);
 
   useMemo(() => {
-    const pokemonObj: PokesTypes | undefined = find(pokemonArr, (o) => o.name === currentPokemon);
+    const pokemonObj: any = pokemonArr.find((o) => o.name === currentPokemon);
     let arr: PokesTypes[] = [];
 
-    pokemonObj?.chain.forEach((index: PokesTypes) => {
+    pokemonObj.chain.forEach((index: PokesTypes) => {
       find(pokemonArr, (el: PokesTypes) => {
         if (el.name === index.species_name) {
           arr.push(el);
@@ -29,13 +30,9 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
     setChain(arr);
   }, [currentPokemon, pokemonArr]);
 
-  const FormTitle = () => {
-    return <Title>{chain.length >= 2 ? <span>All forms:</span> : <span>Form:</span>}</Title>;
-  };
-
   return (
     <>
-      <FormTitle />
+      <Title>All forms:</Title>
 
       <EvolutionFormsStyled>
         {chain.map((index: PokesTypes) => (

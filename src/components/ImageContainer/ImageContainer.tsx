@@ -1,15 +1,18 @@
 import { useEffect, useState } from 'react';
-import ErrorBoundary from 'utils/ErrorBoundary';
+import ErrorBoundary from 'components/ErrorBoundary/ErrorBoundary';
+import styled from 'styled-components';
 
 import { JSXElement } from 'types/index';
 
-interface ImageContainerProps {
-  url: string;
+type PropsType = {
+  url?: string;
   cn?: string;
   fallback?: JSXElement | Function;
-}
+};
 
-const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
+type ReadyType = { ready: boolean };
+
+const ImageContainer = ({ url = '', cn, fallback }: PropsType) => {
   const [ready, setReady] = useState<boolean>(false);
 
   useEffect(() => {
@@ -25,12 +28,19 @@ const ImageContainer = ({ url, cn, fallback }: ImageContainerProps) => {
   return (
     <>
       <ErrorBoundary>
-        {!ready && <>{typeof fallback === 'function' ? fallback() : fallback}</>}
-
-        <img src={url} alt={cn} className={cn} style={{ display: ready ? 'block' : 'none' }} loading="lazy" />
+        <FallbackStyled ready={ready}>{fallback}</FallbackStyled>
+        <IMG src={url} alt={cn} className={cn} loading="lazy" ready={ready} />
       </ErrorBoundary>
     </>
   );
 };
+
+export const IMG = styled.img`
+  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
+`;
+
+export const FallbackStyled = styled.div`
+  display: ${(props: ReadyType) => (props.ready ? 'none' : 'block')};
+`;
 
 export default ImageContainer;

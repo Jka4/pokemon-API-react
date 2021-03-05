@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderLine/>  image loaded FALSE 1`] = `
+<styled.img
+  ready={false}
+>
+  <img
+    className="sc-dlfnbm iTRrSd"
+  />
+</styled.img>
+`;
+
+exports[`<HeaderLine/>  image loaded FALSE 2`] = `
+<styled.div
+  ready={false}
+>
+  <div
+    className="sc-hKgILt kKOCJE"
+  />
+</styled.div>
+`;
+
+exports[`<HeaderLine/>  image loaded TRUE 1`] = `
+<styled.img
+  ready={true}
+>
+  <img
+    className="sc-dlfnbm gIdFjC"
+  />
+</styled.img>
+`;
+
+exports[`<HeaderLine/>  image loaded TRUE 2`] = `
+<styled.div
+  ready={true}
+>
+  <div
+    className="sc-hKgILt cubUVT"
+  />
+</styled.div>
+`;
+
+exports[`<HeaderLine/>  renders correctly 1`] = `
+<ImageContainer
+  cn="testClass"
+  url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+>
+  <ErrorBoundary>
+    <styled.div
+      ready={false}
+    >
+      <div
+        className="sc-hKgILt kKOCJE"
+      />
+    </styled.div>
+    <styled.img
+      alt="testClass"
+      className="testClass"
+      loading="lazy"
+      ready={false}
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    >
+      <img
+        alt="testClass"
+        className="sc-dlfnbm iTRrSd testClass"
+        loading="lazy"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+      />
+    </styled.img>
+  </ErrorBoundary>
+</ImageContainer>
+`;

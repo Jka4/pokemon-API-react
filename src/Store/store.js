@@ -26,17 +26,10 @@ function rootReducer(state = defaultState, action) {
   }
 }
 
-const middlewares = [thunk];
-
-if (process.env.NODE_ENV === `development`) {
-  const { logger } = require(`redux-logger`);
-  // middlewares.push(logger);
-}
-
 const store = configureStore({
   reducer: rootReducer,
   preloadedState: ls.load(),
-  middleware: middlewares,
+  middleware: [thunk],
 });
 
 store.subscribe(throttle(() => ls.save(store.getState()), 1000));

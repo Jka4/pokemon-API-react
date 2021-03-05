@@ -1,9 +1,9 @@
-import React, { lazy } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { pokemonCardType } from 'types/index';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
-const ImageContainer = lazy(() => import('components/ImageContainer/ImageContainer'));
+import ImageContainer from 'components/ImageContainer/ImageContainer';
 
 const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) => {
   const { name, order, base_experience, placeholderBase64, image } = pokeCard;
@@ -16,7 +16,7 @@ const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) =
             <ImageContainer
               url={image}
               cn={'deBlur'}
-              fallback={<img loading="lazy" src={placeholderBase64} className="placeholderBase64 " alt="" />}
+              fallback={<img src={placeholderBase64} className="placeholderBase64 " alt="" />}
             />
           </Image>
 
@@ -51,15 +51,21 @@ const PokeCard = styled(PokeCardWrapper)`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
-  grid-row-gap: 0px;
+  grid-row-gap: 0;
   padding-left: 0;
 `;
 
 const Image = styled.div`
-  height: 20%;
+  height: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   max-width: 100px;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
 `;
 
 const Span = styled.span`

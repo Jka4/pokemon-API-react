@@ -27,7 +27,10 @@
     "noUnusedParameters": false,
     "incremental": true,
   },
-  "include": [
-    "src"
-  ]
+ "include": [
+  "./src",
+  "./test",
+  "./mocks",
+  "./extend-expect.d.ts"
+],
 }

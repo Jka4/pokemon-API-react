@@ -1,20 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 import Paper from '@material-ui/core/Paper';
-
-import { PokesTypes } from 'types/index';
-import styled from 'styled-components/macro';
 import ImageContainer from 'components/ImageContainer/ImageContainer';
 
-type Props = {
-  pokemonArr: PokesTypes[];
-};
+import { PokesTypes } from 'types/index';
 
-const ListView: React.FC<Props> = ({ pokemonArr = [] }: Props) => {
+import styled from 'styled-components';
+
+const BigGrid: React.FC = () => {
   const [pokemon, setPokemon] = useState<PokesTypes[]>([]);
   const [pokemonCount, setPokemonCount] = useState<number>(0);
+  const pokemonArr = useSelector((state: PokesTypes) => state.pokemonArr);
 
   useEffect(() => {
     fetchPokemon();
@@ -23,7 +22,7 @@ const ListView: React.FC<Props> = ({ pokemonArr = [] }: Props) => {
   }, []);
 
   const fetchPokemon = () => {
-    const howMuchToDownload = 25;
+    const howMuchToDownload = 34;
     let arr: PokesTypes[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
@@ -71,9 +70,9 @@ const ScrollStyled = styled(InfiniteScroll)`
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
   min-height: 100vh;
+  max-width: 900px;
+  margin: 50px auto 100px;
 `;
 
 const Logo = styled.div`
@@ -122,4 +121,4 @@ const Name = styled.div`
   font-size: 24px;
 `;
 
-export default ListView;
+export { BigGrid };

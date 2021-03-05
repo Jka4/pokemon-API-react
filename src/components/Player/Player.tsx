@@ -12,11 +12,9 @@ const Player: React.FC = () => {
   };
 
   return (
-    <>
-      <Button onClick={playPause} variant="contained" color="secondary">
-        {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleFilledIcon />}
-      </Button>
-    </>
+    <Button onClick={playPause} variant="contained" color="secondary">
+      {isPlaying ? <PauseCircleFilledIcon /> : <PlayCircleFilledIcon />}
+    </Button>
   );
 };
 

@@ -4,7 +4,7 @@ import Buttons from 'components/Buttons';
 import Logo from 'components/MainContainer/views/Logo';
 import ItemsList from 'components/MainContainer/views/ItemsList';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const MainContainer: React.FC = () => {
   return (
@@ -25,8 +25,7 @@ const Main = styled.section`
   width: 100%;
   max-width: 900px;
   height: auto;
-  padding: 20px;
-  padding-bottom: 50px;
+  padding: 20px 20px 50px;
 `;
 
 export default MainContainer;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface JSXElement extends React.ReactElement<any> {}
+export interface JSXElement extends React.ReactElement<() => void> {}
 
 export interface PokesTypes {
   id: number;

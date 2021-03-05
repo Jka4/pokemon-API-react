@@ -9,7 +9,7 @@ import { useClickAway } from 'ahooks';
 
 import { PokesTypes } from 'types/index';
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 import ImageContainer from 'components/ImageContainer/ImageContainer';
 
@@ -50,14 +50,10 @@ const Search: React.FC = () => {
     setShowResult(false);
   }, ref);
 
-  const fallback = (placeholderBase64: string) => {
-    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
-  };
-
   return (
     <SearchStyled>
       <SearchInput
-        type="search"
+        type="text"
         name="searchInput"
         id="searchInput"
         placeholder="Pikachu, 25, 900g"
@@ -70,15 +66,24 @@ const Search: React.FC = () => {
 
       <Results>
         {showResult && (
-          <SearchList>
+          <SearchList data-qa="results">
             {searchResult.map((i, key) => (
               <StyledLink key={(i.item.id, key)} to={`/detailedPage/pokemon/${i.item.name}`}>
-                <SearchItem data-id={i.item.id}>
+                <SearchItem>
                   <Name>NAME: {i.item.name}</Name>
                   <Id>ID: {i.item.id}</Id>
                   <Weight>WEIGHT: {i.item.weight}</Weight>
                   <ImageWrapper>
-                    <ImageContainer url={i.item.image} fallback={fallback(i.item.placeholderBase64)} />
+                    <ImageContainer
+                      url={i.item.image}
+                      fallback={
+                        <img
+                          src={i.item.placeholderBase64}
+                          className="placeholderBase64 deBlur"
+                          alt="placeholderBase64"
+                        />
+                      }
+                    />
                   </ImageWrapper>
                 </SearchItem>
               </StyledLink>
@@ -106,7 +111,7 @@ const SearchStyled = styled.div`
   }
 `;
 
-const SearchInput = styled.input`
+export const SearchInput = styled.input`
   width: 100%;
   padding-left: 15px;
   position: relative;
@@ -131,7 +136,7 @@ const Results = styled.div`
   box-shadow: 0 1.2px 2.1px rgba(0, 0, 0, 0.07), 0 2.9px 5.1px rgba(0, 0, 0, 0.101), 0 5.4px 9.6px rgba(0, 0, 0, 0.125),
     0 9.6px 17.2px rgba(0, 0, 0, 0.149), 0 18px 32.2px rgba(0, 0, 0, 0.18), 0 43px 77px rgba(0, 0, 0, 0.25);
   width: 100%;
-  height: auto;
+  height: 0;
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     position: absolute;
@@ -146,6 +151,7 @@ const StyledLink = styled(NavLink)`
   width: 100%;
   border-bottom: 1px grey solid;
   color: black;
+  overflow: hidden;
 `;
 
 const SearchList = styled.ul`
@@ -153,11 +159,10 @@ const SearchList = styled.ul`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: 0;
   background: white;
   padding: 0;
   width: 100%;
-  margin-top: 5px;
+  margin: 5px 0 0;
 `;
 
 const SearchItem = styled.li`

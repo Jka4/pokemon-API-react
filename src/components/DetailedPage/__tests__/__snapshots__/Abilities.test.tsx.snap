@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Abilities/>  with data 1`] = `
+<Abilities
+  abilities={
+    Array [
+      Object {
+        "ability": Object {
+          "name": "swarm",
+          "url": "https://pokeapi.co/api/v2/ability/68/",
+        },
+      },
+      Object {
+        "ability": Object {
+          "name": "insomnia",
+          "url": "https://pokeapi.co/api/v2/ability/15/",
+        },
+      },
+    ]
+  }
+>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ igrNHI"
+    >
+      <styled.ul>
+        <ul
+          className="sc-dlfnbm cRIIBo"
+        >
+          <styled.div>
+            <div
+              className="sc-gsTCUz fTpxFK"
+            >
+              Abilities
+            </div>
+          </styled.div>
+          <styled.li
+            key="swarm"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              - 
+              swarm
+            </li>
+          </styled.li>
+          <styled.li
+            key="insomnia"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              - 
+              insomnia
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </div>
+  </styled.div>
+</Abilities>
+`;
+
+exports[`<Abilities/>  without data 1`] = `
+<Abilities
+  abilities={Array []}
+>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ igrNHI"
+    >
+      <styled.ul>
+        <ul
+          className="sc-dlfnbm cRIIBo"
+        >
+          <styled.div>
+            <div
+              className="sc-gsTCUz fTpxFK"
+            >
+              Abilities
+            </div>
+          </styled.div>
+          <styled.li
+            key="0"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+          <styled.li
+            key="1"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+          <styled.li
+            key="2"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+          <styled.li
+            key="3"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+          <styled.li
+            key="4"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+          <styled.li
+            key="5"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+          <styled.li
+            key="6"
+          >
+            <li
+              className="sc-hKgILt gTNMpA"
+            >
+              <WithStyles(ForwardRef(Skeleton))
+                animation="wave"
+                height={30}
+                width={135}
+              >
+                <ForwardRef(Skeleton)
+                  animation="wave"
+                  classes={
+                    Object {
+                      "circle": "MuiSkeleton-circle",
+                      "fitContent": "MuiSkeleton-fitContent",
+                      "heightAuto": "MuiSkeleton-heightAuto",
+                      "pulse": "MuiSkeleton-pulse",
+                      "rect": "MuiSkeleton-rect",
+                      "root": "MuiSkeleton-root",
+                      "text": "MuiSkeleton-text",
+                      "wave": "MuiSkeleton-wave",
+                      "withChildren": "MuiSkeleton-withChildren",
+                    }
+                  }
+                  height={30}
+                  width={135}
+                >
+                  <span
+                    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+                    style={
+                      Object {
+                        "height": 30,
+                        "width": 135,
+                      }
+                    }
+                  />
+                </ForwardRef(Skeleton)>
+              </WithStyles(ForwardRef(Skeleton))>
+            </li>
+          </styled.li>
+        </ul>
+      </styled.ul>
+    </div>
+  </styled.div>
+</Abilities>
+`;

@@ -3,7 +3,7 @@ import { version, name } from '../../package.json';
 const ls = (() => {
   const keyLiteral = `${name}_${version}_`;
 
-  const save = (state: any) => {
+  const save = (state) => {
     try {
       const serializedState = JSON.stringify(state);
       localStorage.setItem(keyLiteral, serializedState);
