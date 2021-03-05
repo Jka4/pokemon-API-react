@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /Users/mrmac/.yarn/bin/yarn.js add @types/react-precache-img
+  /usr/local/bin/node /Users/mrmac/.yarn/bin/yarn.js add @material-ui/lab/Skeleton
 
 PATH: 
-  /Users/mrmac/.yarn/bin:/Users/mrmac/.config/yarn/global/node_modules/.bin:/Users/mrmac/bin:/usr/local/bin:/Applications/Sketch.app/Contents/Resources/sketchtool/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/mrmac/.yarn/bin:/Users/mrmac/.config/yarn/global/node_modules/.bin:/Users/mrmac/bin:/Applications/Sketch.app/Contents/Resources/sketchtool/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin
+  /Users/mrmac/.yarn/bin:/Users/mrmac/.config/yarn/global/node_modules/.bin:/Users/mrmac/bin:/usr/local/bin:/Applications/Sketch.app/Contents/Resources/sketchtool/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/mrmac/CODE/GitHub/pokemon-API-react/node_modules/.bin
 
 Yarn version: 
   1.22.5
@@ -14,8 +14,8 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2freact-precache-img: Not found
-      at Request.params.callback [as _callback] (/Users/mrmac/.yarn/lib/cli.js:66988:18)
+  Error: https://registry.yarnpkg.com/@material-ui%2flab/Skeleton: Request "https://registry.yarnpkg.com/@material-ui%2flab/Skeleton" returned a 405
+      at Request.params.callback [as _callback] (/Users/mrmac/.yarn/lib/cli.js:66997:18)
       at Request.self.callback (/Users/mrmac/.yarn/lib/cli.js:140749:22)
       at Request.emit (events.js:315:20)
       at Request.<anonymous> (/Users/mrmac/.yarn/lib/cli.js:141721:10)
@@ -39,11 +39,11 @@ npm manifest:
       "pokeAPI",
       "pokedex"
     ],
-    "homepage": "http://jka4.github.io/pokemon-API-react",
+    "homepage": "https://jka4.github.io/pokemon-API-react",
     "scripts": {
       "tsc": "tsc",
       "start": "react-scripts start",
-      "build": "react-scripts build",
+      "build": "react-scripts build -p",
       "dev": "yarn && yarn tsc && yarn build && yarn start",
       "test:watch": "jest --verbose=false --watch",
       "test:coverage": "jest --verbose=false --coverage",
@@ -51,6 +51,7 @@ npm manifest:
       "analyze": "source-map-explorer 'build/static/js/*.js'"
     },
     "dependencies": {
+      "@babel/plugin-transform-modules-commonjs": "^7.13.8",
       "@material-ui/core": "^4.11.2",
       "@material-ui/icons": "^4.11.2",
       "@reduxjs/toolkit": "^1.5.0",
@@ -58,17 +59,17 @@ npm manifest:
       "axios": "^0.21.1",
       "axios-cache-adapter": "^2.7.0",
       "fuse.js": "^6.4.3",
+      "identity-obj-proxy": "^3.0.0",
       "localforage": "^1.9.0",
       "localforage-memoryStorageDriver": "^0.9.2",
       "lodash.find": "^4.6.0",
       "lodash.throttle": "^4.1.1",
       "node-sass": "^4.0.0",
-      "react": "^16.0.1",
+      "react": "^16.8.1",
       "react-dom": "^16.0.1",
       "react-infinite-scroll-component": "^5.1.0",
       "react-loader-spinner": "^3.1.14",
       "react-loading-skeleton": "^2.1.1",
-      "react-precache-img": "^2.0.5",
       "react-redux": "^7.2.2",
       "react-router-dom": "^5.2.0",
       "react-scripts": "4.0.1",
@@ -134,15 +135,6 @@ npm manifest:
       "redux-logger": "^3.0.6",
       "redux-mock-store": "^1.5.4",
       "source-map-explorer": "^2.5.1"
-    },
-    "jest": {
-      "snapshotSerializers": [
-        "enzyme-to-json/serializer"
-      ],
-      "testEnvironment": "jsdom",
-      "moduleNameMapper": {
-        "\\.(css)$": "identity-obj-proxy"
-      }
     }
   }
 
@@ -323,6 +315,13 @@ Lockfile:
     dependencies:
       "@babel/types" "^7.12.13"
   
+  "@babel/helper-member-expression-to-functions@^7.13.0":
+    version "7.13.0"
+    resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.13.0.tgz#6aa4bb678e0f8c22f58cdb79451d30494461b091"
+    integrity sha512-yvRf8Ivk62JwisqV1rFRMxiSMDGnN6KH1/mDMmIrij4jztpQNRoHqqMG3U6apYbGRPJpgPalhva9Yd06HlUxJQ==
+    dependencies:
+      "@babel/types" "^7.13.0"
+  
   "@babel/helper-module-imports@^7.0.0", "@babel/helper-module-imports@^7.12.1", "@babel/helper-module-imports@^7.12.13":
     version "7.12.13"
     resolved "https://registry.yarnpkg.com/@babel/helper-module-imports/-/helper-module-imports-7.12.13.tgz#ec67e4404f41750463e455cc3203f6a32e93fcb0"
@@ -345,6 +344,21 @@ Lockfile:
       "@babel/types" "^7.12.13"
       lodash "^4.17.19"
   
+  "@babel/helper-module-transforms@^7.13.0":
+    version "7.13.0"
+    resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.13.0.tgz#42eb4bd8eea68bab46751212c357bfed8b40f6f1"
+    integrity sha512-Ls8/VBwH577+pw7Ku1QkUWIyRRNHpYlts7+qSqBBFCW3I8QteB9DxfcZ5YJpOwH6Ihe/wn8ch7fMGOP1OhEIvw==
+    dependencies:
+      "@babel/helper-module-imports" "^7.12.13"
+      "@babel/helper-replace-supers" "^7.13.0"
+      "@babel/helper-simple-access" "^7.12.13"
+      "@babel/helper-split-export-declaration" "^7.12.13"
+      "@babel/helper-validator-identifier" "^7.12.11"
+      "@babel/template" "^7.12.13"
+      "@babel/traverse" "^7.13.0"
+      "@babel/types" "^7.13.0"
+      lodash "^4.17.19"
+  
   "@babel/helper-optimise-call-expression@^7.12.13":
     version "7.12.13"
     resolved "https://registry.yarnpkg.com/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.12.13.tgz#5c02d171b4c8615b1e7163f888c1c81c30a2aaea"
@@ -356,6 +370,11 @@ Lockfile:
     version "7.12.13"
     resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.12.13.tgz#174254d0f2424d8aefb4dd48057511247b0a9eeb"
     integrity sha512-C+10MXCXJLiR6IeG9+Wiejt9jmtFpxUc3MQqCmPY8hfCjyUGl9kT+B2okzEZrtykiwrc4dbCPdDoz0A/HQbDaA==
+  
+  "@babel/helper-plugin-utils@^7.13.0":
+    version "7.13.0"
+    resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.13.0.tgz#806526ce125aed03373bc416a828321e3a6a33af"
+    integrity sha512-ZPafIPSwzUlAoWT8DKs1W2VyF2gOWthGd5NGFMsBcMMol+ZhK+EQY/e6V96poa6PA/Bh+C9plWN0hXO1uB8AfQ==
   
   "@babel/helper-remap-async-to-generator@^7.12.13":
     version "7.12.13"
@@ -375,6 +394,16 @@ Lockfile:
       "@babel/helper-optimise-call-expression" "^7.12.13"
       "@babel/traverse" "^7.12.13"
       "@babel/types" "^7.12.13"
+  
+  "@babel/helper-replace-supers@^7.13.0":
+    version "7.13.0"
+    resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.13.0.tgz#6034b7b51943094cb41627848cb219cb02be1d24"
+    integrity sha512-Segd5me1+Pz+rmN/NFBOplMbZG3SqRJOBlY+mA0SxAv6rjj7zJqr1AVr3SfzUVTLCv7ZLU5FycOM/SBGuLPbZw==
+    dependencies:
+      "@babel/helper-member-expression-to-functions" "^7.13.0"
+      "@babel/helper-optimise-call-expression" "^7.12.13"
+      "@babel/traverse" "^7.13.0"
+      "@babel/types" "^7.13.0"
   
   "@babel/helper-simple-access@^7.12.13":
     version "7.12.13"
@@ -856,6 +885,16 @@ Lockfile:
       "@babel/helper-simple-access" "^7.12.13"
       babel-plugin-dynamic-import-node "^2.3.3"
   
+  "@babel/plugin-transform-modules-commonjs@^7.13.8":
+    version "7.13.8"
+    resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.13.8.tgz#7b01ad7c2dcf2275b06fa1781e00d13d420b3e1b"
+    integrity sha512-9QiOx4MEGglfYZ4XOnU79OHr6vIWUakIj9b4mioN8eQIoEh+pf5p/zEB36JpDFWA12nNMiRf7bfoRvl9Rn79Bw==
+    dependencies:
+      "@babel/helper-module-transforms" "^7.13.0"
+      "@babel/helper-plugin-utils" "^7.13.0"
+      "@babel/helper-simple-access" "^7.12.13"
+      babel-plugin-dynamic-import-node "^2.3.3"
+  
   "@babel/plugin-transform-modules-systemjs@^7.12.1", "@babel/plugin-transform-modules-systemjs@^7.12.13":
     version "7.12.13"
     resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.12.13.tgz#351937f392c7f07493fc79b2118201d50404a3c5"
@@ -1296,7 +1335,7 @@ Lockfile:
       globals "^11.1.0"
       lodash "^4.17.19"
   
-  "@babel/traverse@^7.4.5":
+  "@babel/traverse@^7.13.0", "@babel/traverse@^7.4.5":
     version "7.13.0"
     resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.13.0.tgz#6d95752475f86ee7ded06536de309a65fc8966cc"
     integrity sha512-xys5xi5JEhzC3RzEmSGrs/b3pJW/o87SypZ+G/PhaE7uqVQNv/jlmVIBXuoh5atqQ434LfXV+sf23Oxj0bchJQ==
@@ -2981,7 +3020,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/arrify/-/arrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
     integrity sha512-3duEwti880xqi4eAMN8AyR4a0ByT90zoYdLlevfrvU43vb0YZwZVfxOgxWrLXXXpyugL0hNZc9G6BiB5B3nUug==
   
-  asap@~2.0.3, asap@~2.0.6:
+  asap@~2.0.6:
     version "2.0.6"
     resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
     integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
@@ -4422,11 +4461,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.8.3.tgz#10e9e3b2592ecaede4283e8f3ad7020811587c02"
     integrity sha512-V5qQZVAr9K0xu7jXg1M7qTEwuxUgqr7dUOezGaNa7i+Xn9oXAU/d1fzqD9ObuwpVQOaorO5s70ckyi1woP9lVA==
   
-  core-js@^1.0.0:
-    version "1.2.7"
-    resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
-    integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
-  
   core-js@^2.4.0, core-js@^2.5.0:
     version "2.6.12"
     resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
@@ -4504,14 +4538,6 @@ Lockfile:
       ripemd160 "^2.0.0"
       safe-buffer "^5.0.1"
       sha.js "^2.4.8"
-  
-  create-react-class@^15.6.0:
-    version "15.7.0"
-    resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
-    integrity sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==
-    dependencies:
-      loose-envify "^1.3.1"
-      object-assign "^4.1.1"
   
   cross-spawn@7.0.3, cross-spawn@^7.0.0, cross-spawn@^7.0.2:
     version "7.0.3"
@@ -5360,13 +5386,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
     integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
   
-  encoding@^0.1.11:
-    version "0.1.13"
-    resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
-    integrity sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==
-    dependencies:
-      iconv-lite "^0.6.2"
-  
   end-of-stream@^1.0.0, end-of-stream@^1.1.0:
     version "1.4.4"
     resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
@@ -6120,19 +6139,6 @@ Lockfile:
     integrity sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==
     dependencies:
       bser "2.1.1"
-  
-  fbjs@^0.8.9:
-    version "0.8.17"
-    resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
-    integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
-    dependencies:
-      core-js "^1.0.0"
-      isomorphic-fetch "^2.1.1"
-      loose-envify "^1.0.0"
-      object-assign "^4.1.0"
-      promise "^7.1.1"
-      setimmediate "^1.0.5"
-      ua-parser-js "^0.7.18"
   
   figgy-pudding@^3.5.1:
     version "3.5.2"
@@ -7138,13 +7144,6 @@ Lockfile:
     dependencies:
       safer-buffer ">= 2.1.2 < 3"
   
-  iconv-lite@^0.6.2:
-    version "0.6.2"
-    resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.2.tgz#ce13d1875b0c3a674bd6a04b7f76b01b1b6ded01"
-    integrity sha512-2y91h5OpQlolefMPmUlivelittSWy0rP+oYVpn6A7GwVHNE8AWzoYOBNmlwks3LobaJxgHCYZAnyNo2GgpNRNQ==
-    dependencies:
-      safer-buffer ">= 2.1.2 < 3.0.0"
-  
   icss-utils@^4.0.0, icss-utils@^4.1.1:
     version "4.1.1"
     resolved "https://registry.yarnpkg.com/icss-utils/-/icss-utils-4.1.1.tgz#21170b53789ee27447c2f47dd683081403f9a467"
@@ -7152,7 +7151,7 @@ Lockfile:
     dependencies:
       postcss "^7.0.14"
   
-  identity-obj-proxy@3.0.0:
+  identity-obj-proxy@3.0.0, identity-obj-proxy@^3.0.0:
     version "3.0.0"
     resolved "https://registry.yarnpkg.com/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz#94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
     integrity sha1-lNK9qWCERT7zb7xarsN+D3nx/BQ=
@@ -7726,7 +7725,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/is-root/-/is-root-2.1.0.tgz#809e18129cf1129644302a4f8544035d51984a9c"
     integrity sha512-AGOriNp96vNBd3HtU+RzFEc75FfR5ymiYv8E553I71SCeXBiMsVDUtdio1OEFvrPyLIQ9tVR5RxXIFe5PUFjMg==
   
-  is-stream@^1.0.1, is-stream@^1.1.0:
+  is-stream@^1.1.0:
     version "1.1.0"
     resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
     integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -7813,14 +7812,6 @@ Lockfile:
     version "3.0.1"
     resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
     integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
-  
-  isomorphic-fetch@^2.1.1:
-    version "2.2.1"
-    resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
-    integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
-    dependencies:
-      node-fetch "^1.0.1"
-      whatwg-fetch ">=0.10.0"
   
   isstream@~0.1.2:
     version "0.1.2"
@@ -9803,14 +9794,6 @@ Lockfile:
       lower-case "^2.0.2"
       tslib "^2.0.3"
   
-  node-fetch@^1.0.1:
-    version "1.7.3"
-    resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
-    integrity sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
-    dependencies:
-      encoding "^0.1.11"
-      is-stream "^1.0.1"
-  
   node-forge@^0.10.0:
     version "0.10.0"
     resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
@@ -11440,13 +11423,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
     integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
   
-  promise@^7.1.1:
-    version "7.3.1"
-    resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
-    integrity sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
-    dependencies:
-      asap "~2.0.3"
-  
   promise@^8.1.0:
     version "8.1.0"
     resolved "https://registry.yarnpkg.com/promise/-/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
@@ -11479,7 +11455,7 @@ Lockfile:
       object.assign "^4.1.0"
       reflect.ownkeys "^0.2.0"
   
-  prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
+  prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.7.2"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
     integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -11702,16 +11678,6 @@ Lockfile:
       strip-ansi "6.0.0"
       text-table "0.2.0"
   
-  react-dom@^15.4.2:
-    version "15.7.0"
-    resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.7.0.tgz#39106dee996d0742fb0f43d567ef8b8153483ab2"
-    integrity sha512-mpjXqC2t1FuYsILOLCj0kg6pbg460byZkVA/80VtDmKU/pYmoTdHOtaMcTRIDiyXLz4sIur0cQ04nOC6iGndJg==
-    dependencies:
-      fbjs "^0.8.9"
-      loose-envify "^1.1.0"
-      object-assign "^4.1.0"
-      prop-types "^15.5.10"
-  
   react-dom@^16.0.1:
     version "16.14.0"
     resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
@@ -11758,14 +11724,6 @@ Lockfile:
     integrity sha512-+fGvgG9ieUw4D5QVgpqJkJ75jhzUdz96GRsA0HjTlR0Mpj9DJUEFc0AKELs7ZkqWVH8/DiroaaufSrOPld1kGA==
     dependencies:
       "@emotion/core" "^10.0.22"
-  
-  react-precache-img@^2.0.5:
-    version "2.0.5"
-    resolved "https://registry.yarnpkg.com/react-precache-img/-/react-precache-img-2.0.5.tgz#8ddeaf925d5e146f6fe5ba5942381851cdda326d"
-    integrity sha1-jd6vkl1eFG9v5bpZQjgYUc3aMm0=
-    dependencies:
-      react "^15.4.2"
-      react-dom "^15.4.2"
   
   react-redux@^7.2.2:
     version "7.2.2"
@@ -11916,18 +11874,7 @@ Lockfile:
       loose-envify "^1.4.0"
       prop-types "^15.6.2"
   
-  react@^15.4.2:
-    version "15.7.0"
-    resolved "https://registry.yarnpkg.com/react/-/react-15.7.0.tgz#10308fd42ac6912a250bf00380751abc41ac7106"
-    integrity sha512-5/MMRYmpmM0sMTHGLossnJCrmXQIiJilD6y3YN3TzAwGFj6zdnMtFv6xmi65PHKRV+pehIHpT7oy67Sr6s9AHA==
-    dependencies:
-      create-react-class "^15.6.0"
-      fbjs "^0.8.9"
-      loose-envify "^1.1.0"
-      object-assign "^4.1.0"
-      prop-types "^15.5.10"
-  
-  react@^16.0.1:
+  react@^16.8.1:
     version "16.14.0"
     resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
     integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
@@ -12515,7 +12462,7 @@ Lockfile:
     dependencies:
       ret "~0.1.10"
   
-  "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+  "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
     version "2.1.2"
     resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
     integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
@@ -12760,7 +12707,7 @@ Lockfile:
       is-plain-object "^2.0.3"
       split-string "^3.0.1"
   
-  setimmediate@^1.0.4, setimmediate@^1.0.5:
+  setimmediate@^1.0.4:
     version "1.0.5"
     resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
     integrity sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
@@ -13950,11 +13897,6 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
     integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
   
-  ua-parser-js@^0.7.18:
-    version "0.7.24"
-    resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.24.tgz#8d3ecea46ed4f1f1d63ec25f17d8568105dc027c"
-    integrity sha512-yo+miGzQx5gakzVK3QFfN0/L9uVhosXBBO7qmnk7c2iw1IhL212wfA3zbnI54B0obGwC/5NWub/iT9sReMx+Fw==
-  
   uglify-js@^3.1.4:
     version "3.12.8"
     resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.12.8.tgz#a82e6e53c9be14f7382de3d068ef1e26e7d4aaf8"
@@ -14426,11 +14368,6 @@ Lockfile:
     integrity sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==
     dependencies:
       iconv-lite "0.4.24"
-  
-  whatwg-fetch@>=0.10.0:
-    version "3.6.2"
-    resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
-    integrity sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==
   
   whatwg-fetch@^3.4.1:
     version "3.5.0"

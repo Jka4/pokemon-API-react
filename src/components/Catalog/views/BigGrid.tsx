@@ -22,7 +22,7 @@ const BigGrid: React.FC = () => {
   }, []);
 
   const fetchPokemon = () => {
-    const howMuchToDownload = 25;
+    const howMuchToDownload = 34;
     let arr: PokesTypes[] = [];
 
     for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
@@ -70,12 +70,9 @@ const ScrollStyled = styled(InfiniteScroll)`
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
   min-height: 100vh;
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto 100px;
 `;
 
 const Logo = styled.div`

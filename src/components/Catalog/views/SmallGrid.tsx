@@ -1,8 +1,8 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import {useSelector} from 'react-redux';
+import { NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-import {PokesTypes} from 'types/index';
+import { PokesTypes } from 'types/index';
 
 import styled from 'styled-components';
 
@@ -46,7 +46,12 @@ const Wrapper = styled.div`
     width: 100%;
     height: 100%;
     object-fit: contain;
+
+    &:hover {
+      background: #ff000099;
+      transform: scale(1.2);
+    }
   }
 `;
 
-export default SmallGrid;
+export { SmallGrid };

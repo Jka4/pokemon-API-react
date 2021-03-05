@@ -12,13 +12,13 @@ type PropsType = {
 
 type ReadyType = { ready: boolean };
 
-const ImageContainer = ({ url, cn, fallback }: PropsType) => {
+const ImageContainer = ({ url = '', cn, fallback }: PropsType) => {
   const [ready, setReady] = useState<boolean>(false);
 
   useEffect(() => {
     const img = new Image();
     img.onload = () => setReady(true);
-    img.src = url || '';
+    img.src = url;
 
     return () => {
       setReady(false);

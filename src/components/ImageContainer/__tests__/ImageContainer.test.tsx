@@ -27,6 +27,12 @@ describe('<HeaderLine/> ', () => {
     unmount();
   });
 
+  it('empty url', () => {
+    const { unmount } = render(<ImageContainer cn="testClass" />);
+
+    unmount();
+  });
+
   it('image loaded TRUE', () => {
     const imageWrapper = mount(<IMG ready={true} />);
     const fallbackWrapper = mount(<FallbackStyled ready={true} />);

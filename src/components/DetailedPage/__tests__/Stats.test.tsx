@@ -29,8 +29,7 @@ describe('<Stats/> ', () => {
   });
 
   it('without data', () => {
-    const fakeData: any[] = [];
-    const container = mount(<Stats stats={fakeData} weight={123} />);
+    const container = mount(<Stats stats={[]} weight={123} />);
     expect(container).toMatchSnapshot();
   });
 });

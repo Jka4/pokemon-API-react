@@ -18,12 +18,11 @@ const getDetailedPokemon = (currentPokemon) => {
   };
 };
 
-
 const getRandomPokemon = (pokemonArr) => {
   return (dispatch) => {
     const randomPokemon = pokemonArr[Math.floor(1 + Math.random() * pokemonArr.length)];
     dispatch({ type: 'ADD_RANDOM_POKEMON', payload: randomPokemon });
-  }
+  };
 };
 
 export { getDetailedPokemon, getRandomPokemon };

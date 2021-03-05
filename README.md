@@ -6,7 +6,7 @@ List of pokemon on the basis of React + Redux + Typescript
 
 1. Getting a random Pokemon
 2. Search in the Pokemon database, with auto-completion
-3. Two two pages with all the Pokémon:
+3. Two pages with all the Pokemon:
 
    - Grid with all possible pokemon
    - Sheet with all pokemon with infinite loading + skeletons in base64
@@ -46,5 +46,5 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 #
-## Demo [link](https://jka4.github.io/pokemon-API-react/)
 
+## Demo [link](https://jka4.github.io/pokemon-API-react/)

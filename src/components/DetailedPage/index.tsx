@@ -30,6 +30,7 @@ const DetailedPage: React.FC = () => {
   const dispatch = useDispatch();
 
   const { abilities = [], stats = [], weight = 0, sprites = {} } = detailedPage;
+  const { imageHQ = '', placeholderBase64 = '' } = { ...poke };
 
   useEffect(() => {
     let isSubscribed: boolean = true;
@@ -49,7 +50,7 @@ const DetailedPage: React.FC = () => {
   return (
     <>
       <DetailedPageWrapper>
-        <Name>{currentName || 'POKEMON'}</Name>
+        <Name>{currentName || '...'}</Name>
 
         <EvolutionForms currentPokemon={currentName} pokemonArr={pokemonArr} />
 
@@ -58,7 +59,7 @@ const DetailedPage: React.FC = () => {
             <Stats weight={weight} stats={stats} />
             <Abilities abilities={abilities} />
           </Skills>
-          <BigImage imageHQ={poke?.imageHQ} placeholderBase64={poke?.placeholderBase64} />
+          <BigImage imageHQ={imageHQ} placeholderBase64={placeholderBase64} />
         </MainInformation>
 
         <Sprites sprites={sprites} />

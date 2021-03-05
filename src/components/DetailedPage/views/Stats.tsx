@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Skeleton } from '@material-ui/lab';
 
 interface Props {
   stats: StatsElements[];
@@ -14,18 +15,40 @@ interface StatsElements {
 }
 
 const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
-  return (
-    <StatsStyled>
-      <UL>
-        <Title>Stats</Title>
+  const fallbackSkeletons = () => {
+    const fakeArr = Array.from(Array(7).keys());
 
-        <LI>weight: {weight} kg</LI>
+    return (
+      <>
+        {fakeArr.map((el) => (
+          <LI key={el}>
+            <Skeleton animation="wave" width={135} height={30} />{' '}
+          </LI>
+        ))}
+      </>
+    );
+  };
 
+  const abilitiesRow = () => {
+    return (
+      <>
         {stats.map((el: StatsElements) => (
           <LI key={el.stat.name}>
             {el.stat.name}: {el.base_stat}
           </LI>
         ))}
+        <LI>weight: {weight} kg</LI>
+      </>
+    );
+  };
+
+  const showSkeletons = stats.length === 0;
+
+  return (
+    <StatsStyled>
+      <UL>
+        <Title>Stats</Title>
+        {showSkeletons ? fallbackSkeletons() : abilitiesRow()}
       </UL>
     </StatsStyled>
   );
@@ -72,7 +95,7 @@ const LI = styled.li`
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 6px;
   width: 100%;
   font-size: 18px;
   text-transform: uppercase;
