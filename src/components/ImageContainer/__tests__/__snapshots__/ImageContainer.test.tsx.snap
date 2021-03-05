@@ -5,7 +5,7 @@ exports[`<HeaderLine/>  image loaded FALSE 1`] = `
   ready={false}
 >
   <img
-    className="sc-dlfnbm iTRrSd"
+    className="sc-hKgILt hmiyim"
   />
 </styled.img>
 `;
@@ -15,7 +15,7 @@ exports[`<HeaderLine/>  image loaded FALSE 2`] = `
   ready={false}
 >
   <div
-    className="sc-hKgILt kKOCJE"
+    className="sc-dlfnbm fYocxX"
   />
 </styled.div>
 `;
@@ -25,7 +25,7 @@ exports[`<HeaderLine/>  image loaded TRUE 1`] = `
   ready={true}
 >
   <img
-    className="sc-dlfnbm gIdFjC"
+    className="sc-hKgILt gPHXl"
   />
 </styled.img>
 `;
@@ -35,38 +35,34 @@ exports[`<HeaderLine/>  image loaded TRUE 2`] = `
   ready={true}
 >
   <div
-    className="sc-hKgILt cubUVT"
+    className="sc-dlfnbm gfLnow"
   />
 </styled.div>
 `;
 
 exports[`<HeaderLine/>  renders correctly 1`] = `
 <ImageContainer
-  cn="testClass"
   url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
 >
   <ErrorBoundary>
-    <styled.div
-      ready={false}
-    >
-      <div
-        className="sc-hKgILt kKOCJE"
-      />
-    </styled.div>
     <styled.img
-      alt="testClass"
-      className="testClass"
       loading="lazy"
       ready={false}
       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
     >
       <img
-        alt="testClass"
-        className="sc-dlfnbm iTRrSd testClass"
+        className="sc-hKgILt hmiyim"
         loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
       />
     </styled.img>
+    <styled.div
+      ready={false}
+    >
+      <div
+        className="sc-dlfnbm fYocxX"
+      />
+    </styled.div>
   </ErrorBoundary>
 </ImageContainer>
 `;

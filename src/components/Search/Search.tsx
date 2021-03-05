@@ -76,13 +76,7 @@ const Search: React.FC = () => {
                   <ImageWrapper>
                     <ImageContainer
                       url={i.item.image}
-                      fallback={
-                        <img
-                          src={i.item.placeholderBase64}
-                          className="placeholderBase64 deBlur"
-                          alt="placeholderBase64"
-                        />
-                      }
+                      fallback={<img src={i.item.placeholderBase64} alt="placeholderBase64" />}
                     />
                   </ImageWrapper>
                 </SearchItem>

@@ -33,7 +33,7 @@ const BigGrid: React.FC = () => {
   };
 
   const fallback = (placeholderBase64: string) => {
-    return <img src={placeholderBase64} className="placeholderBase64 deBlur" alt="placeholderBase64" />;
+    return <img src={placeholderBase64} alt="placeholderBase64" />;
   };
 
   return (
@@ -49,11 +49,7 @@ const BigGrid: React.FC = () => {
           <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
             <SmallCard elevation={3}>
               <Logo>
-                <ImageContainer
-                  url={pokemon.imageHQ || pokemon.image}
-                  cn={'pokemonImageCard deBlur'}
-                  fallback={fallback(pokemon.placeholderBase64)}
-                />
+                <ImageContainer url={pokemon.imageHQ || pokemon.image} fallback={fallback(pokemon.placeholderBase64)} />
               </Logo>
               <Name>{pokemon?.name}</Name>
             </SmallCard>

@@ -21,31 +21,3 @@ body {
 a {
   text-decoration: none;
 }
-
-.fallback {
-  width: 95vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 62px;
-  font-weight: bold;
-}
-
-.placeholderBase64 {
-  filter: blur(18px);
-}
-
-.deBlur {
-  animation: 0.2s linear 0s deBlurAnimation;
-}
-
-@keyframes deBlurAnimation {
-  from {
-    filter: blur(18px);
-  }
-
-  to {
-    filter: blur(0px);
-  }
-}

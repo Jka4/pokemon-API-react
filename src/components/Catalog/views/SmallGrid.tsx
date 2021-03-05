@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import { PokesTypes } from 'types/index';
 
 import styled from 'styled-components';
+import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 
 type Props = {
   pokemonArr: PokesTypes[];
@@ -13,11 +14,15 @@ type Props = {
 const SmallGrid: React.FC = () => {
   const pokemonArr = useSelector((state: Props) => state.pokemonArr);
 
+  const fallback = (placeholderBase64: string) => {
+    return <img src={placeholderBase64} alt="placeholderBase64" />;
+  };
+
   return (
     <Wrapper>
       {pokemonArr.map((index, key) => (
         <NavLink to={`/detailedPage/pokemon/${index?.name}`} key={key}>
-          <img src={index.image} alt="img" loading="lazy" />
+          <ImageContainer url={index.image} fallback={fallback(index.placeholderBase64)} />
         </NavLink>
       ))}
     </Wrapper>

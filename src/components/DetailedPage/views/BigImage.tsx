@@ -13,7 +13,6 @@ const BigImage: React.FC<PropsType> = ({ imageHQ, placeholderBase64 }: PropsType
     <ImageWrapper>
       <ImageContainer
         url={imageHQ}
-        cn={'deBlur'}
         fallback={<img src={placeholderBase64} alt="" style={{ filter: 'blur(18px)' }} />}
       />
     </ImageWrapper>

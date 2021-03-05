@@ -6,13 +6,12 @@ import { JSXElement } from 'types/index';
 
 type PropsType = {
   url?: string;
-  cn?: string;
   fallback?: JSXElement | Function;
 };
 
 type ReadyType = { ready: boolean };
 
-const ImageContainer = ({ url = '', cn, fallback }: PropsType) => {
+const ImageContainer = ({ url = '', fallback }: PropsType) => {
   const [ready, setReady] = useState<boolean>(false);
 
   useEffect(() => {
@@ -28,19 +27,36 @@ const ImageContainer = ({ url = '', cn, fallback }: PropsType) => {
   return (
     <>
       <ErrorBoundary>
+        <IMG src={url} loading="lazy" ready={ready} />
         <FallbackStyled ready={ready}>{fallback}</FallbackStyled>
-        <IMG src={url} alt={cn} className={cn} loading="lazy" ready={ready} />
       </ErrorBoundary>
     </>
   );
 };
 
-export const IMG = styled.img`
-  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
-`;
-
 export const FallbackStyled = styled.div`
   display: ${(props: ReadyType) => (props.ready ? 'none' : 'block')};
+  width: auto;
+  height: 100%;
+  filter: blur(18px);
+  overflow: hidden;
+`;
+
+export const IMG = styled.img`
+  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
+  width: auto;
+  height: 100%;
+  animation: 0.2s linear 0s deBlurAnimation;
+
+  @keyframes deBlurAnimation {
+    from {
+      filter: blur(18px);
+    }
+
+    to {
+      filter: blur(0px);
+    }
+  }
 `;
 
 export { ImageContainer };

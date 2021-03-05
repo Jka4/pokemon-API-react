@@ -26,7 +26,7 @@ const App: React.FC = () => {
   });
 
   return (
-    <Suspense fallback={<div className="fallback">Loading...</div>}>
+    <Suspense fallback={<Fallback>Loading...</Fallback>}>
       {!supportScreenSize ? (
         <AppWrapper>
           <Route exact component={HeaderLine} />
@@ -49,6 +49,16 @@ const App: React.FC = () => {
 
 const AppWrapper = styled.div`
   margin-top: 80px;
+`;
+
+const Fallback = styled.div`
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62px;
+  font-weight: bold;
 `;
 
 export default App;

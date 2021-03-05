@@ -13,11 +13,7 @@ const PokemonCard: React.FC<pokemonCardType> = ({ pokeCard }: pokemonCardType) =
       <NavLink to={`/detailedPage/pokemon/${name}`}>
         <PokeCard>
           <Image>
-            <ImageContainer
-              url={image}
-              cn={'deBlur'}
-              fallback={<img src={placeholderBase64} className="placeholderBase64 " alt="" />}
-            />
+            <ImageContainer url={image} fallback={<img src={placeholderBase64} alt="" />} />
           </Image>
 
           <Span>{name}</Span>

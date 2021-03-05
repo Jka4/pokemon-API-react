@@ -8,7 +8,6 @@ describe('<HeaderLine/> ', () => {
     const container = mount(
       <ImageContainer
         url={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png'}
-        cn="testClass"
       />,
     );
     expect(container).toMatchSnapshot();
@@ -18,7 +17,6 @@ describe('<HeaderLine/> ', () => {
     const { unmount } = render(
       <ImageContainer
         url={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png'}
-        cn="testClass"
       />,
     );
 
@@ -26,7 +24,7 @@ describe('<HeaderLine/> ', () => {
   });
 
   it('empty url', () => {
-    const { unmount } = render(<ImageContainer cn="testClass" />);
+    const { unmount } = render(<ImageContainer />);
 
     unmount();
   });
