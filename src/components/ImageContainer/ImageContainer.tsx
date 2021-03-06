@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ErrorBoundary from 'components/ErrorBoundary/ErrorBoundary';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 import { JSXElement } from 'types/index';
 
@@ -42,13 +42,7 @@ export const FallbackStyled = styled.div`
   overflow: hidden;
 `;
 
-export const IMG = styled.img`
-  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
-  width: auto;
-  height: 100%;
-  animation: 0.2s linear 0s deBlurAnimation;
-
-  @keyframes deBlurAnimation {
+const deBlur = keyframes`
     from {
       filter: blur(18px);
     }
@@ -56,7 +50,13 @@ export const IMG = styled.img`
     to {
       filter: blur(0px);
     }
-  }
+`;
+
+export const IMG = styled.img`
+  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
+  width: auto;
+  height: 100%;
+  animation: 0.2s ${deBlur};
 `;
 
 export { ImageContainer };
