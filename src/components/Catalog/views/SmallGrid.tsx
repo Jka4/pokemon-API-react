@@ -39,6 +39,8 @@ const Wrapper = styled.div`
   margin-bottom: 100px;
   width: 100%;
   max-width: 100vw;
+  padding-left: 20px;
+  padding-right: 20px;
 
   img {
     width: 100%;
