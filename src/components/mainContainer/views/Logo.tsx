@@ -14,7 +14,6 @@ const Logo: React.FC = () => {
   return (
     <LogoStyled>
       <ImageContainer url={`${process.env.PUBLIC_URL}/images/pokemon.gif`} fallback={fallback()} />
-      {/*<img src={base64}   alt="placeholderBase64" />*/}
     </LogoStyled>
   );
 };

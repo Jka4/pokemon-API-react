@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import AppsIcon from '@material-ui/icons/Apps';
 import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
+import { Button } from '@material-ui/core';
 
 type PropsType = {
   changePageType: () => void;
@@ -14,45 +15,22 @@ type PropsType = {
 const CatalogHeader: React.FC<PropsType> = ({ changePageType, typeIsBig }: PropsType) => {
   return (
     <ViewTypeInner>
-      <InnerBlock onClick={() => changePageType()}>
+      <ButtonStyled
+        onClick={() => changePageType()}
+        variant="contained"
+        color="secondary"
+        endIcon={typeIsBig ? <BlurOnOutlinedIcon /> : <AppsIcon />}
+      >
         <Title>{typeIsBig ? 'Big grid' : 'Small grid'}</Title>
-        <Separator>|</Separator>
-        <Icon>{typeIsBig ? <BlurOnOutlinedIcon /> : <AppsIcon />}</Icon>
-      </InnerBlock>
+      </ButtonStyled>
     </ViewTypeInner>
   );
 };
 
-const Title = styled.span`
-  font-size: 24px;
-  margin-right: 5px;
-`;
-
-const Separator = styled.span`
-  margin-top: 2px;
-  margin-right: 10px;
-  font-size: 24px;
-`;
-
-const ViewTypeInner = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  width: 90%;
-`;
-
-const InnerBlock = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 5px 15px 5px 15px;
-  min-width: 200px;
-  color: black;
-  text-decoration: none;
+const ButtonStyled = styled(Button)`
+  background: red;
+  width: 200px;
+  height: 40px;
 
   &:hover {
     box-shadow: 5px 3px 11px 1px #000000;
@@ -63,10 +41,17 @@ const InnerBlock = styled.div`
   }
 `;
 
-const Icon = styled.div`
-  margin-top: 4px;
-  cursor: pointer;
-  width: 20px;
+const Title = styled.span`
+  font-size: 24px;
+  margin-right: 5px;
+`;
+
+const ViewTypeInner = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
 `;
 
 export { CatalogHeader };

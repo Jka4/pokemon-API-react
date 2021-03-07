@@ -21,9 +21,9 @@ const SmallGrid: React.FC = () => {
   return (
     <Wrapper>
       {pokemonArr.map((index, key) => (
-        <NavLink to={`/detailedPage/pokemon/${index?.name}`} key={key}>
+        <StyledLink to={`/detailedPage/pokemon/${index?.name}`} key={key}>
           <ImageContainer url={index.image} fallback={fallback(index.placeholderBase64)} />
-        </NavLink>
+        </StyledLink>
       ))}
     </Wrapper>
   );
@@ -40,13 +40,6 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 100vw;
 
-  a {
-    box-shadow: 0.5px 0 0 0 red, 0 0.5px 0 0 red, 0.5px 0.5px 0 0 red, 0.5px 0 0 0 red inset, 0 0.5px 0 0 red inset;
-    overflow: hidden;
-    width: 65px;
-    height: 65px;
-  }
-
   img {
     width: 100%;
     height: 100%;
@@ -57,6 +50,13 @@ const Wrapper = styled.div`
       transform: scale(1.2);
     }
   }
+`;
+
+const StyledLink = styled(NavLink)`
+  box-shadow: 0.5px 0 0 0 red, 0 0.5px 0 0 red, 0.5px 0.5px 0 0 red, 0.5px 0 0 0 red inset, 0 0.5px 0 0 red inset;
+  overflow: hidden;
+  width: 65px;
+  height: 65px;
 `;
 
 export { SmallGrid };

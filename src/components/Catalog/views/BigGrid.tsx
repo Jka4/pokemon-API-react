@@ -47,12 +47,12 @@ const BigGrid: React.FC = () => {
       >
         {pokemon.map((pokemon: PokesTypes) => (
           <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
-            <SmallCard elevation={3}>
+            <Card elevation={3}>
               <Logo>
                 <ImageContainer url={pokemon.imageHQ || pokemon.image} fallback={fallback(pokemon.placeholderBase64)} />
               </Logo>
               <Name>{pokemon?.name}</Name>
-            </SmallCard>
+            </Card>
           </NavLink>
         ))}
       </ScrollStyled>
@@ -84,7 +84,7 @@ const Logo = styled.div`
   }
 `;
 
-const SmallCard = styled(Paper)`
+const Card = styled(Paper)`
   display: flex;
   flex-direction: column;
   align-items: center;
