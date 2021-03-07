@@ -153,7 +153,7 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                                         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                       >
                                         <img
-                                          className="sc-gKsewC cJzvdl"
+                                          className="sc-gKsewC fzfKby"
                                           loading="lazy"
                                           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                         />

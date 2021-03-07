@@ -22,7 +22,7 @@ exports[`<Logo /> renders correctly 1`] = `
             src="undefined/images/pokemon.gif"
           >
             <img
-              className="sc-hKgILt hmiyim"
+              className="sc-hKgILt eWzGPJ"
               loading="lazy"
               src="undefined/images/pokemon.gif"
             />

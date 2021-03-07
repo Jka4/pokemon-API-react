@@ -91,7 +91,7 @@ exports[`<PokemonCard /> renders correctly 1`] = `
                                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                               >
                                 <img
-                                  className="sc-hKgILt hmiyim"
+                                  className="sc-hKgILt eWzGPJ"
                                   loading="lazy"
                                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                 />

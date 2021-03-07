@@ -5,7 +5,7 @@ exports[`<HeaderLine/>  image loaded FALSE 1`] = `
   ready={false}
 >
   <img
-    className="sc-hKgILt hmiyim"
+    className="sc-hKgILt eWzGPJ"
   />
 </styled.img>
 `;
@@ -25,7 +25,7 @@ exports[`<HeaderLine/>  image loaded TRUE 1`] = `
   ready={true}
 >
   <img
-    className="sc-hKgILt gPHXl"
+    className="sc-hKgILt eMAJxy"
   />
 </styled.img>
 `;
@@ -51,7 +51,7 @@ exports[`<HeaderLine/>  renders correctly 1`] = `
       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
     >
       <img
-        className="sc-hKgILt hmiyim"
+        className="sc-hKgILt eWzGPJ"
         loading="lazy"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
       />
