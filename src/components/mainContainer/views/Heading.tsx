@@ -29,7 +29,7 @@ const List = styled.ul`
 `;
 
 const Element = styled.li`
-  cursor: pointer;
+  cursor: default;
   text-align: center;
   margin: 0;
   padding: 0;
