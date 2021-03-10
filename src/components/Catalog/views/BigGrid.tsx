@@ -33,7 +33,7 @@ const BigGrid: React.FC = () => {
   };
 
   const fallback = (placeholderBase64: string) => {
-    return <img src={placeholderBase64} alt="placeholderBase64" />;
+    return <img src={placeholderBase64} alt="placeholderBase64as" />;
   };
 
   return (
