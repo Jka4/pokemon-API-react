@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import { PokesTypes } from 'types/index';
 
 import styled from 'styled-components';
+
 import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 
 type Props = {
@@ -35,12 +36,9 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 50px;
   margin-bottom: 100px;
   width: 100%;
   max-width: 100vw;
-  padding-left: 20px;
-  padding-right: 20px;
 
   img {
     width: 100%;
@@ -57,8 +55,8 @@ const Wrapper = styled.div`
 const StyledLink = styled(NavLink)`
   box-shadow: 0.5px 0 0 0 red, 0 0.5px 0 0 red, 0.5px 0.5px 0 0 red, 0.5px 0 0 0 red inset, 0 0.5px 0 0 red inset;
   overflow: hidden;
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
 `;
 
-export { SmallGrid };
+export default SmallGrid;

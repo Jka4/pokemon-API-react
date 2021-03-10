@@ -27,7 +27,7 @@ const ImageContainer = ({ url = '', fallback }: PropsType) => {
   return (
     <>
       <ErrorBoundary>
-        <IMG src={url} loading="lazy" ready={ready} />
+        <IMG src={url} ready={ready} />
         <FallbackStyled ready={ready}>{fallback}</FallbackStyled>
       </ErrorBoundary>
     </>
