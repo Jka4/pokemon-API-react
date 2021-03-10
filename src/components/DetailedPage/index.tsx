@@ -39,6 +39,7 @@ const DetailedPage: React.FC = () => {
     }
     return (): void => {
       isSubscribed = false;
+      dispatch({ type: 'CLEAR_DETAILED_PAGE' });
     };
   }, [currentName, dispatch]);
 

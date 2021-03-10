@@ -2,7 +2,6 @@ import { http } from 'utils/apiCaching';
 
 const getDetailedPokemon = (currentPokemon) => {
   return (dispatch) => {
-    dispatch({ type: 'SET_DETAILED_PAGE', payload: {} });
 
     const url = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
     return http().then(async (api) => {

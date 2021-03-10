@@ -1,10 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useState, lazy } from 'react';
 
 import styled from 'styled-components';
-import Skeleton from '@material-ui/lab/Skeleton';
 
 import { CatalogHeader } from './views/CatalogHeader';
+import { Route, Switch } from 'react-router-dom';
 
 const BigGrid = lazy(() => import('components/Catalog/views/BigGrid'));
 const SmallGrid = lazy(() => import('components/Catalog/views/SmallGrid'));
@@ -19,18 +19,15 @@ const Catalog: React.FC = () => {
       <CatalogHeader typeIsBig={typeIsBig} changePageType={changePageType} />
 
       <Content>
-        <Suspense fallback={<Fallback />}>{typeIsBig ? <BigGrid /> : <SmallGrid />}</Suspense>
+        <Switch>
+          <Route path="/catalog/big/" component={BigGrid} />
+          <Route path="/catalog/small/" component={SmallGrid} />
+        </Switch>
       </Content>
     </Wrapper>
   );
 };
-const Fallback = () => {
-  return (
-    <>
-      <Skeleton variant="rect">{<BigGrid />}</Skeleton>
-    </>
-  );
-};
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;

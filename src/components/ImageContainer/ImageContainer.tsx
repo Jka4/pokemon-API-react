@@ -9,51 +9,55 @@ type PropsType = {
   fallback?: JSXElement | Function;
 };
 
-type ReadyType = { ready: boolean };
+type LoadType = { isLoaded: boolean };
 
 const ImageContainer = ({ url = '', fallback }: PropsType) => {
-  const [ready, setReady] = useState<boolean>(false);
+  const [isLoaded, setReady] = useState<boolean>(false);
+  const [isCached, setIsCached] = useState<boolean>(false);
 
   useEffect(() => {
     const img = new Image();
     img.onload = () => setReady(true);
     img.src = url;
+    img.complete && setIsCached(true);
 
     return () => {
       setReady(false);
     };
   }, [url]);
 
+  const flag = isCached || isLoaded;
+
   return (
     <>
       <ErrorBoundary>
-        <IMG src={url} ready={ready} />
-        <FallbackStyled ready={ready}>{fallback}</FallbackStyled>
+        <IMG src={url} isLoaded={flag} />
+        <FallbackStyled isLoaded={flag}>{fallback}</FallbackStyled>
       </ErrorBoundary>
     </>
   );
 };
 
 export const FallbackStyled = styled.div`
-  display: ${(props: ReadyType) => (props.ready ? 'none' : 'block')};
+  filter: blur(18px);
+  display: ${(props: LoadType) => (props.isLoaded ? 'none' : 'block')};
   width: auto;
   height: 100%;
-  filter: blur(18px);
   overflow: hidden;
 `;
 
-const deBlur = keyframes`
+const deBlur = (props: any) => keyframes`
     from {
-      filter: blur(18px);
+      filter: ${props.isLoaded && 'blur(18px)'};
     }
 
     to {
-      filter: blur(0px);
+      filter: ${props.isLoaded && 'blur(0px)'};
     }
 `;
 
 export const IMG = styled.img`
-  display: ${(props: ReadyType) => (props.ready ? 'block' : 'none')};
+  display: ${(props: LoadType) => (props.isLoaded ? 'block' : 'none')};
   width: auto;
   height: 100%;
   animation: 0.2s ${deBlur};

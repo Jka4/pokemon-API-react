@@ -11,10 +11,7 @@ interface PropsType {
 const BigImage: React.FC<PropsType> = ({ imageHQ, placeholderBase64 }: PropsType) => {
   return (
     <ImageWrapper>
-      <ImageContainer
-        url={imageHQ}
-        fallback={<img src={placeholderBase64} alt="" style={{ filter: 'blur(18px)' }} />}
-      />
+      <ImageContainer url={imageHQ} fallback={<img src={placeholderBase64} alt="" />} />
     </ImageWrapper>
   );
 };

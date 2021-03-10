@@ -6,6 +6,7 @@ import find from 'lodash.find';
 import styled from 'styled-components';
 
 import { PokesTypes } from 'types/index';
+import { ImageContainer } from '../../ImageContainer/ImageContainer';
 
 interface EvolutionFormsTypes {
   currentPokemon?: string;
@@ -38,7 +39,10 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
         {chain.map((index: PokesTypes) => (
           <StyledLink to={`/detailedPage/pokemon/${index.name}`} key={index.id} activeClassName="active">
             <EvoForm>
-              <Img src={index.image} alt="evoFormImg" />
+              <ImgWrapper>
+                <ImageContainer url={index.image} fallback={<img src={index.placeholderBase64} alt="" />} />
+              </ImgWrapper>
+
               <Name>{index.name}</Name>
             </EvoForm>
           </StyledLink>
@@ -97,12 +101,17 @@ const EvoForm = styled.div`
   }
 `;
 
-const Img = styled.img`
+const ImgWrapper = styled.div`
   width: 95px;
   height: 95px;
   min-width: 90px;
   min-height: 90px;
   max-width: 100px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     width: 100%;
