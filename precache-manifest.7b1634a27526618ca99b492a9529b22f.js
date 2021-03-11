@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27795999279b3b24c1c205791d7014b7",
+    "revision": "6e41c0ce7b26d8e959053c8be9572003",
     "url": "/pokemon-API-react/index.html"
   },
   {
@@ -24,24 +24,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pokemon-API-react/static/js/1.64a18575.chunk.js"
   },
   {
-    "revision": "bb8a3915d545a791c101",
-    "url": "/pokemon-API-react/static/js/10.a4e6238b.chunk.js"
+    "revision": "975adf8baa69602e03e6",
+    "url": "/pokemon-API-react/static/js/10.8211a356.chunk.js"
   },
   {
     "revision": "ab2aa68a70b4d1cfa2f6",
     "url": "/pokemon-API-react/static/js/11.4384a721.chunk.js"
   },
   {
-    "revision": "2494863e600327be9eab",
-    "url": "/pokemon-API-react/static/js/12.935e6ad0.chunk.js"
+    "revision": "b5637b4a1664a11bae19",
+    "url": "/pokemon-API-react/static/js/12.f101403c.chunk.js"
   },
   {
     "revision": "af3eb396e651b2abfecd",
     "url": "/pokemon-API-react/static/js/13.b4bf005b.chunk.js"
   },
   {
-    "revision": "e98ed199d7e148f40d13",
-    "url": "/pokemon-API-react/static/js/14.de1eb4f5.chunk.js"
+    "revision": "26f9ac4bab88dbba4554",
+    "url": "/pokemon-API-react/static/js/14.eb9d3dc0.chunk.js"
   },
   {
     "revision": "8a457269e402336dde6f",
@@ -80,19 +80,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pokemon-API-react/static/js/7.3e434482.chunk.js"
   },
   {
-    "revision": "0e0733d7a4c2d64eac17",
-    "url": "/pokemon-API-react/static/js/8.fbdc1766.chunk.js"
+    "revision": "3f9fa8d8130ea8cf4b3e",
+    "url": "/pokemon-API-react/static/js/8.b1270cd6.chunk.js"
   },
   {
-    "revision": "2c7e62fdd212dbb37486",
-    "url": "/pokemon-API-react/static/js/9.3596fc94.chunk.js"
+    "revision": "8c41fdc1bcc9d14fd8df",
+    "url": "/pokemon-API-react/static/js/9.ce720276.chunk.js"
   },
   {
     "revision": "a368d4bb166e0132cf13",
     "url": "/pokemon-API-react/static/js/main.d4e965ea.chunk.js"
   },
   {
-    "revision": "eafe662c1e64dcf5902a",
-    "url": "/pokemon-API-react/static/js/runtime-main.d1041fbf.js"
+    "revision": "22de2426b0c304cb7e8d",
+    "url": "/pokemon-API-react/static/js/runtime-main.98a43628.js"
   }
 ]);
