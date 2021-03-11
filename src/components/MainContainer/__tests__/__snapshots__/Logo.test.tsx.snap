@@ -17,21 +17,19 @@ exports[`<Logo /> renders correctly 1`] = `
       >
         <ErrorBoundary>
           <styled.img
-            loading="lazy"
-            ready={false}
+            isLoaded={false}
             src="undefined/images/pokemon.gif"
           >
             <img
-              className="sc-hKgILt eWzGPJ"
-              loading="lazy"
+              className="sc-hKgILt cnWIUh"
               src="undefined/images/pokemon.gif"
             />
           </styled.img>
           <styled.div
-            ready={false}
+            isLoaded={false}
           >
             <div
-              className="sc-dlfnbm fYocxX"
+              className="sc-dlfnbm iaWiXj"
             >
               <img
                 alt="placeholderBase64"

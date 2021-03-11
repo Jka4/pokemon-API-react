@@ -12,28 +12,28 @@ exports[`<Heading /> renders correctly 1`] = `
         >
           <styled.li>
             <li
-              className="sc-dlfnbm fdkJAr"
+              className="sc-dlfnbm jMOKXL"
             >
               photo
             </li>
           </styled.li>
           <styled.li>
             <li
-              className="sc-dlfnbm fdkJAr"
+              className="sc-dlfnbm jMOKXL"
             >
               name
             </li>
           </styled.li>
           <styled.li>
             <li
-              className="sc-dlfnbm fdkJAr"
+              className="sc-dlfnbm jMOKXL"
             >
               order
             </li>
           </styled.li>
           <styled.li>
             <li
-              className="sc-dlfnbm fdkJAr"
+              className="sc-dlfnbm jMOKXL"
             >
               exp
             </li>

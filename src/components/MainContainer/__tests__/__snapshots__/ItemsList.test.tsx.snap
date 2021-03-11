@@ -52,28 +52,28 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                 >
                   <styled.li>
                     <li
-                      className="sc-dlfnbm fdkJAr"
+                      className="sc-dlfnbm jMOKXL"
                     >
                       photo
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-dlfnbm fdkJAr"
+                      className="sc-dlfnbm jMOKXL"
                     >
                       name
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-dlfnbm fdkJAr"
+                      className="sc-dlfnbm jMOKXL"
                     >
                       order
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-dlfnbm fdkJAr"
+                      className="sc-dlfnbm jMOKXL"
                     >
                       exp
                     </li>
@@ -131,7 +131,7 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                         >
                           <Styled(styled.div)>
                             <div
-                              className="sc-iBPRYJ sc-fubCfw jzmLdG eZXhVM"
+                              className="sc-iBPRYJ sc-fubCfw jzmLdG kSIUcg"
                             >
                               <styled.div>
                                 <div
@@ -148,21 +148,19 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                                   >
                                     <ErrorBoundary>
                                       <styled.img
-                                        loading="lazy"
-                                        ready={false}
+                                        isLoaded={false}
                                         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                       >
                                         <img
-                                          className="sc-gKsewC fzfKby"
-                                          loading="lazy"
+                                          className="sc-gKsewC eLDCSu"
                                           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                         />
                                       </styled.img>
                                       <styled.div
-                                        ready={false}
+                                        isLoaded={false}
                                       >
                                         <div
-                                          className="sc-jSgupP hBXEnv"
+                                          className="sc-jSgupP hKlLsH"
                                         >
                                           <img
                                             alt=""

@@ -13520,14 +13520,14 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
     >
       <styled.div>
         <div
-          className="sc-bdfBwQ fTcUyX"
+          className="sc-eCssSg dTczvt"
         >
           All forms:
         </div>
       </styled.div>
       <styled.div>
         <div
-          className="sc-gsTCUz jakdYR"
+          className="sc-jSgupP dDvTkS"
         >
           <Styled(NavLink)
             activeClassName="active"
@@ -13536,12 +13536,12 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
           >
             <NavLink
               activeClassName="active"
-              className="sc-dlfnbm jMaylL"
+              className="sc-gKsewC scByW"
               to="/detailedPage/pokemon/spinarak"
             >
               <Link
                 aria-current={null}
-                className="sc-dlfnbm jMaylL"
+                className="sc-gKsewC scByW"
                 to={
                   Object {
                     "hash": "",
@@ -13553,33 +13553,62 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
               >
                 <LinkAnchor
                   aria-current={null}
-                  className="sc-dlfnbm jMaylL"
+                  className="sc-gKsewC scByW"
                   href="/detailedPage/pokemon/spinarak"
                   navigate={[Function]}
                 >
                   <a
                     aria-current={null}
-                    className="sc-dlfnbm jMaylL"
+                    className="sc-gKsewC scByW"
                     href="/detailedPage/pokemon/spinarak"
                     onClick={[Function]}
                   >
                     <styled.div>
                       <div
-                        className="sc-hKgILt rMOKW"
+                        className="sc-iBPRYJ kPFWqV"
                       >
-                        <styled.img
-                          alt="evoFormImg"
-                          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
-                        >
-                          <img
-                            alt="evoFormImg"
-                            className="sc-eCssSg eVsdo"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
-                          />
-                        </styled.img>
                         <styled.div>
                           <div
-                            className="sc-jSgupP gYYnKt"
+                            className="sc-fubCfw jijBew"
+                          >
+                            <ImageContainer
+                              fallback={
+                                <img
+                                  alt=""
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAB20lEQVQ4T2NkQAP///9nZGRk/A+iGRhWMzEwhP1jZGT4j66OEV0AGx9mGLIcXOP//6uYGRnD/t49P6vtx++/b7XNMqecPzix8+XL900eYQ3v0DWDNcIEpRgYuG69WvPqwaXrN36+e/3eKMDV5czRS7qmjtVXVq1axRwWFvYXZiuKxtDQULbuOte9HP/f2nz+9JThPxMbw4F1N8LTerat2t/gwOLYcOAPikYQ58zMmawm6em/F0/ICFZS5F7DyMj58//7V+zXzr8ITp2waR1OjatCQ5nDVq/+W5kQYhvgxHdIQoSbYd+x198SW04aMTDcvxkaGsq8evVqVKeCbJyZZsyaPuvs76Iwx9pwb8Wm/4x/vx09/Y3r3oPXm6duPuDX0NDA1NDQ8A/DqQ0ODiwNBw78CbHR94nx19z85w/D37MX3zH//P3/dN/a3WZQDaAwAccpcjzCBfP9jSdqqkjk3n30hfHdp99vWFhZ4mduObQNazyCBBsaGJgaGhj+rZ4/oVX074OqK7ee3Tp05vlRPrbfj+bsONHMwMAA8iPYApSUA4vP5uZOTTWx/77MjAzvQ9IqZmNLTRhJDj2FNDAwMGmFhjKCQhynU2ESoBC0Z2Bgeq2l9R85tSBrBACCRd0P6E31/AAAAABJRU5ErkJggg=="
+                                />
+                              }
+                              url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
+                            >
+                              <ErrorBoundary>
+                                <styled.img
+                                  isLoaded={false}
+                                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
+                                >
+                                  <img
+                                    className="sc-hKgILt cnWIUh"
+                                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
+                                  />
+                                </styled.img>
+                                <styled.div
+                                  isLoaded={false}
+                                >
+                                  <div
+                                    className="sc-dlfnbm iaWiXj"
+                                  >
+                                    <img
+                                      alt=""
+                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAB20lEQVQ4T2NkQAP///9nZGRk/A+iGRhWMzEwhP1jZGT4j66OEV0AGx9mGLIcXOP//6uYGRnD/t49P6vtx++/b7XNMqecPzix8+XL900eYQ3v0DWDNcIEpRgYuG69WvPqwaXrN36+e/3eKMDV5czRS7qmjtVXVq1axRwWFvYXZiuKxtDQULbuOte9HP/f2nz+9JThPxMbw4F1N8LTerat2t/gwOLYcOAPikYQ58zMmawm6em/F0/ICFZS5F7DyMj58//7V+zXzr8ITp2waR1OjatCQ5nDVq/+W5kQYhvgxHdIQoSbYd+x198SW04aMTDcvxkaGsq8evVqVKeCbJyZZsyaPuvs76Iwx9pwb8Wm/4x/vx09/Y3r3oPXm6duPuDX0NDA1NDQ8A/DqQ0ODiwNBw78CbHR94nx19z85w/D37MX3zH//P3/dN/a3WZQDaAwAccpcjzCBfP9jSdqqkjk3n30hfHdp99vWFhZ4mduObQNazyCBBsaGJgaGhj+rZ4/oVX074OqK7ee3Tp05vlRPrbfj+bsONHMwMAA8iPYApSUA4vP5uZOTTWx/77MjAzvQ9IqZmNLTRhJDj2FNDAwMGmFhjKCQhynU2ESoBC0Z2Bgeq2l9R85tSBrBACCRd0P6E31/AAAAABJRU5ErkJggg=="
+                                    />
+                                  </div>
+                                </styled.div>
+                              </ErrorBoundary>
+                            </ImageContainer>
+                          </div>
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-pFZIQ cxPTta"
                           >
                             spinarak
                           </div>
@@ -13598,12 +13627,12 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
           >
             <NavLink
               activeClassName="active"
-              className="sc-dlfnbm jMaylL"
+              className="sc-gKsewC scByW"
               to="/detailedPage/pokemon/ariados"
             >
               <Link
                 aria-current={null}
-                className="sc-dlfnbm jMaylL"
+                className="sc-gKsewC scByW"
                 to={
                   Object {
                     "hash": "",
@@ -13615,33 +13644,62 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
               >
                 <LinkAnchor
                   aria-current={null}
-                  className="sc-dlfnbm jMaylL"
+                  className="sc-gKsewC scByW"
                   href="/detailedPage/pokemon/ariados"
                   navigate={[Function]}
                 >
                   <a
                     aria-current={null}
-                    className="sc-dlfnbm jMaylL"
+                    className="sc-gKsewC scByW"
                     href="/detailedPage/pokemon/ariados"
                     onClick={[Function]}
                   >
                     <styled.div>
                       <div
-                        className="sc-hKgILt rMOKW"
+                        className="sc-iBPRYJ kPFWqV"
                       >
-                        <styled.img
-                          alt="evoFormImg"
-                          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
-                        >
-                          <img
-                            alt="evoFormImg"
-                            className="sc-eCssSg eVsdo"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
-                          />
-                        </styled.img>
                         <styled.div>
                           <div
-                            className="sc-jSgupP gYYnKt"
+                            className="sc-fubCfw jijBew"
+                          >
+                            <ImageContainer
+                              fallback={
+                                <img
+                                  alt=""
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABiklEQVQ4T2NkIBMw4tAHEwfR/7CpwaYRJPafkEPQNYI1+ZqZKX7n4/vL/OcP284DBx4wMDD8QTcIRWNa2kzWWbPSfzPwiqQyfH6jwsDAcJaBgWGVg4MDy4EDB1A0wzWuWrWKOSws7G/07G0ydZeqtjKwy+kdl3bJSijMmw61DcULyDaCJVbMmjUpiP9m7tOfAv9OXfrI9OnMugmpB+4V/mdgYGRE8jtYI8y246ePu9w+c73LSOe5AjMTs8DRzIrfSqmT2H5oaJZ6ubr27N+/n8XR0RHsZLDG////MzIyMv6/fWIJ39zN7/oNhG+6B3grSb96/5vh/P5vDDzapnOc/XxT/69axcwYFvYXQ+OqVTP5v31izXr9/Im7s+FvEaa/X/9ceaygL6qqWebu7toNcxlcI7KtIHZnZ69FeXnxRQYGhu+LFyyL/PHp8eHUvPInDQ0NTA0NDeAEgRId//8zMB5o3M/s2ADxBzKAeQcmhjXJQZ0ENnnVqlVMoaGh/0BhgGwQrrRKKMUxAADfoqQPKXvh9QAAAABJRU5ErkJggg=="
+                                />
+                              }
+                              url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                            >
+                              <ErrorBoundary>
+                                <styled.img
+                                  isLoaded={false}
+                                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                                >
+                                  <img
+                                    className="sc-hKgILt cnWIUh"
+                                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                                  />
+                                </styled.img>
+                                <styled.div
+                                  isLoaded={false}
+                                >
+                                  <div
+                                    className="sc-dlfnbm iaWiXj"
+                                  >
+                                    <img
+                                      alt=""
+                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABiklEQVQ4T2NkIBMw4tAHEwfR/7CpwaYRJPafkEPQNYI1+ZqZKX7n4/vL/OcP284DBx4wMDD8QTcIRWNa2kzWWbPSfzPwiqQyfH6jwsDAcJaBgWGVg4MDy4EDB1A0wzWuWrWKOSws7G/07G0ydZeqtjKwy+kdl3bJSijMmw61DcULyDaCJVbMmjUpiP9m7tOfAv9OXfrI9OnMugmpB+4V/mdgYGRE8jtYI8y246ePu9w+c73LSOe5AjMTs8DRzIrfSqmT2H5oaJZ6ubr27N+/n8XR0RHsZLDG////MzIyMv6/fWIJ39zN7/oNhG+6B3grSb96/5vh/P5vDDzapnOc/XxT/69axcwYFvYXQ+OqVTP5v31izXr9/Im7s+FvEaa/X/9ceaygL6qqWebu7toNcxlcI7KtIHZnZ69FeXnxRQYGhu+LFyyL/PHp8eHUvPInDQ0NTA0NDeAEgRId//8zMB5o3M/s2ADxBzKAeQcmhjXJQZ0ENnnVqlVMoaGh/0BhgGwQrrRKKMUxAADfoqQPKXvh9QAAAABJRU5ErkJggg=="
+                                    />
+                                  </div>
+                                </styled.div>
+                              </ErrorBoundary>
+                            </ImageContainer>
+                          </div>
+                        </styled.div>
+                        <styled.div>
+                          <div
+                            className="sc-pFZIQ cxPTta"
                           >
                             ariados
                           </div>

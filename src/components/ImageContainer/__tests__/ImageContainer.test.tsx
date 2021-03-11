@@ -30,16 +30,16 @@ describe('<HeaderLine/> ', () => {
   });
 
   it('image loaded TRUE', () => {
-    const imageWrapper = mount(<IMG ready={true} />);
-    const fallbackWrapper = mount(<FallbackStyled ready={true} />);
+    const imageWrapper = mount(<IMG isLoaded={true} />);
+    const fallbackWrapper = mount(<FallbackStyled isLoaded={true} />);
 
     expect(imageWrapper).toMatchSnapshot();
     expect(fallbackWrapper).toMatchSnapshot();
   });
 
   it('image loaded FALSE', () => {
-    const imageWrapper = mount(<IMG ready={false} />);
-    const fallbackWrapper = mount(<FallbackStyled ready={false} />);
+    const imageWrapper = mount(<IMG isLoaded={false} />);
+    const fallbackWrapper = mount(<FallbackStyled isLoaded={false} />);
 
     expect(imageWrapper).toMatchSnapshot();
     expect(fallbackWrapper).toMatchSnapshot();

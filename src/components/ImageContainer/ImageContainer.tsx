@@ -14,6 +14,7 @@ type LoadType = { isLoaded: boolean };
 const ImageContainer = ({ url = '', fallback }: PropsType) => {
   const [isLoaded, setReady] = useState<boolean>(false);
   const [isCached, setIsCached] = useState<boolean>(false);
+  const flag = isCached || isLoaded;
 
   useEffect(() => {
     const img = new Image();
@@ -25,8 +26,6 @@ const ImageContainer = ({ url = '', fallback }: PropsType) => {
       setReady(false);
     };
   }, [url]);
-
-  const flag = isCached || isLoaded;
 
   return (
     <>

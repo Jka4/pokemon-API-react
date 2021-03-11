@@ -2,27 +2,27 @@
 
 exports[`<HeaderLine/>  image loaded FALSE 1`] = `
 <styled.img
-  ready={false}
+  isLoaded={false}
 >
   <img
-    className="sc-hKgILt eWzGPJ"
+    className="sc-hKgILt cnWIUh"
   />
 </styled.img>
 `;
 
 exports[`<HeaderLine/>  image loaded FALSE 2`] = `
 <styled.div
-  ready={false}
+  isLoaded={false}
 >
   <div
-    className="sc-dlfnbm fYocxX"
+    className="sc-dlfnbm iaWiXj"
   />
 </styled.div>
 `;
 
 exports[`<HeaderLine/>  image loaded TRUE 1`] = `
 <styled.img
-  ready={true}
+  isLoaded={true}
 >
   <img
     className="sc-hKgILt eMAJxy"
@@ -32,10 +32,10 @@ exports[`<HeaderLine/>  image loaded TRUE 1`] = `
 
 exports[`<HeaderLine/>  image loaded TRUE 2`] = `
 <styled.div
-  ready={true}
+  isLoaded={true}
 >
   <div
-    className="sc-dlfnbm gfLnow"
+    className="sc-dlfnbm bRrQQw"
   />
 </styled.div>
 `;
@@ -46,21 +46,19 @@ exports[`<HeaderLine/>  renders correctly 1`] = `
 >
   <ErrorBoundary>
     <styled.img
-      loading="lazy"
-      ready={false}
+      isLoaded={false}
       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
     >
       <img
-        className="sc-hKgILt eWzGPJ"
-        loading="lazy"
+        className="sc-hKgILt cnWIUh"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
       />
     </styled.img>
     <styled.div
-      ready={false}
+      isLoaded={false}
     >
       <div
-        className="sc-dlfnbm fYocxX"
+        className="sc-dlfnbm iaWiXj"
       />
     </styled.div>
   </ErrorBoundary>
