@@ -7,22 +7,24 @@ import AppsIcon from '@material-ui/icons/Apps';
 import BlurOnOutlinedIcon from '@material-ui/icons/BlurOnOutlined';
 import { Button } from '@material-ui/core';
 
-type PropsType = {
-  changePageType: () => void;
-  typeIsBig: boolean;
-};
+import { useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const CatalogHeader: React.FC<PropsType> = ({ changePageType, typeIsBig }: PropsType) => {
+const CatalogHeader: React.FC = () => {
+  const location = useLocation().pathname.split('/').pop();
+  const typeIsBig = location !== 'big';
+
+  const url = `/catalog/${typeIsBig ? 'big' : 'small'}`;
+  const icon = typeIsBig ? <BlurOnOutlinedIcon /> : <AppsIcon />;
+  const title = typeIsBig ? 'Big grid' : 'Small grid';
+
   return (
     <ViewTypeInner>
-      <ButtonStyled
-        onClick={() => changePageType()}
-        variant="contained"
-        color="secondary"
-        endIcon={typeIsBig ? <BlurOnOutlinedIcon /> : <AppsIcon />}
-      >
-        <Title>{typeIsBig ? 'Big grid' : 'Small grid'}</Title>
-      </ButtonStyled>
+      <NavLink to={url}>
+        <ButtonStyled variant="contained" color="secondary" endIcon={icon}>
+          <Title>{title}</Title>
+        </ButtonStyled>
+      </NavLink>
     </ViewTypeInner>
   );
 };
