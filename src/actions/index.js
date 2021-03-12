@@ -1,17 +1,17 @@
 import { http } from 'utils/apiCaching';
 
-const getDetailedPokemon = (currentPokemon) => {
+const getDetailedPokemon = (name) => {
   return (dispatch) => {
 
-    const url = `https://pokeapi.co/api/v2/pokemon/${currentPokemon}/`;
+    const url = `https://pokeapi.co/api/v2/pokemon/${name}/`;
     return http().then(async (api) => {
-      const response = await api.get(url);
-      const poke = response.data;
+      const pokemon = (await api.get(url)).data;
 
-      delete poke.sprites.other;
-      delete poke.sprites.versions;
+      // sanitize 
+      delete pokemon.sprites.other;
+      delete pokemon.sprites.versions;
 
-      dispatch({ type: 'SET_DETAILED_PAGE', payload: poke });
+      return pokemon;
     });
   };
 };

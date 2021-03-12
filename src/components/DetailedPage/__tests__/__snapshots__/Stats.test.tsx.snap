@@ -135,7 +135,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
           <styled.li
@@ -178,7 +177,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
           <styled.li
@@ -221,7 +219,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
           <styled.li
@@ -264,7 +261,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
           <styled.li
@@ -307,7 +303,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
           <styled.li
@@ -350,7 +345,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
           <styled.li
@@ -393,7 +387,6 @@ exports[`<Stats/>  without data 1`] = `
                   />
                 </ForwardRef(Skeleton)>
               </WithStyles(ForwardRef(Skeleton))>
-               
             </li>
           </styled.li>
         </ul>

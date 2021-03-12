@@ -19,10 +19,7 @@ function rootReducer(state = defaultState, action) {
       return { ...state, randomPokemon: [...state.randomPokemon, action.payload] };
     case 'CLEAR_RANDOM_POKEMON':
       return { ...state, randomPokemon: [] };
-    case 'SET_DETAILED_PAGE':
-      return { ...state, detailedPage: action.payload };
-    case 'CLEAR_DETAILED_PAGE':
-      return { ...state, detailedPage: {} };
+
     default:
       return state;
   }
