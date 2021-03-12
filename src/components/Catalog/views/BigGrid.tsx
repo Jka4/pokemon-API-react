@@ -33,7 +33,7 @@ const BigGrid: React.FC = () => {
   };
 
   const fallback = (placeholderBase64: string) => {
-    return <img src={placeholderBase64} alt="placeholderBase64" />;
+    return <img src={placeholderBase64} alt="placeholderBase64as" />;
   };
 
   return (
@@ -42,11 +42,11 @@ const BigGrid: React.FC = () => {
         dataLength={pokemon.length}
         next={fetchPokemon}
         hasMore={pokemonCount <= pokemon.length}
-        loader={<h4>Loading...</h4>}
+        loader={null}
         endMessage={<End>Don't have more pokemon :(</End>}
       >
         {pokemon.map((pokemon: PokesTypes) => (
-          <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.id}>
+          <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.name}>
             <Card elevation={3}>
               <Logo>
                 <ImageContainer url={pokemon.imageHQ || pokemon.image} fallback={fallback(pokemon.placeholderBase64)} />
@@ -68,7 +68,7 @@ const ScrollStyled = styled(InfiniteScroll)`
   justify-content: center;
   min-height: 100vh;
   max-width: 900px;
-  margin: 50px auto 100px;
+  width: 100%;
 `;
 
 const Logo = styled.div`
@@ -117,4 +117,4 @@ const Name = styled.div`
   font-size: 24px;
 `;
 
-export { BigGrid };
+export default BigGrid;

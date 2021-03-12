@@ -34,7 +34,7 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={MainContainer} />
             <Route path="/detailedPage/pokemon/" component={DetailedPage} />
-            <Route path="/catalog" component={Catalog} />
+            <Route path={['/catalog/big/', '/catalog/small/']} component={Catalog} />
 
             <Route path="/404" component={PAGE_404} />
             <Redirect from="*" to="/404" />

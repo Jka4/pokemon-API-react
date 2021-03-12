@@ -13,19 +13,48 @@ exports[`<Sprites/>  renders correctly 1`] = `
 >
   <styled.div>
     <div
-      className="sc-bdfBwQ kWmHqk"
+      className="sc-eCssSg dXTqYK"
     >
       <div
         key="back_default"
       >
         <styled.div>
           <div
-            className="sc-gsTCUz dxnSOi"
+            className="sc-jSgupP hDZGXJ"
           >
-            <img
-              alt="back_default"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
-            />
+            <ImageContainer
+              fallback={
+                <img
+                  alt=""
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                />
+              }
+              url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
+            >
+              <ErrorBoundary>
+                <styled.img
+                  isLoaded={false}
+                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
+                >
+                  <img
+                    className="sc-hKgILt cnWIUh"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/168.png"
+                  />
+                </styled.img>
+                <styled.div
+                  isLoaded={false}
+                >
+                  <div
+                    className="sc-dlfnbm iaWiXj"
+                  >
+                    <img
+                      alt=""
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                    />
+                  </div>
+                </styled.div>
+              </ErrorBoundary>
+            </ImageContainer>
           </div>
         </styled.div>
       </div>
@@ -34,12 +63,41 @@ exports[`<Sprites/>  renders correctly 1`] = `
       >
         <styled.div>
           <div
-            className="sc-gsTCUz dxnSOi"
+            className="sc-jSgupP hDZGXJ"
           >
-            <img
-              alt="back_shiny"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
-            />
+            <ImageContainer
+              fallback={
+                <img
+                  alt=""
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                />
+              }
+              url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
+            >
+              <ErrorBoundary>
+                <styled.img
+                  isLoaded={false}
+                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
+                >
+                  <img
+                    className="sc-hKgILt cnWIUh"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/168.png"
+                  />
+                </styled.img>
+                <styled.div
+                  isLoaded={false}
+                >
+                  <div
+                    className="sc-dlfnbm iaWiXj"
+                  >
+                    <img
+                      alt=""
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                    />
+                  </div>
+                </styled.div>
+              </ErrorBoundary>
+            </ImageContainer>
           </div>
         </styled.div>
       </div>
@@ -48,12 +106,41 @@ exports[`<Sprites/>  renders correctly 1`] = `
       >
         <styled.div>
           <div
-            className="sc-gsTCUz dxnSOi"
+            className="sc-jSgupP hDZGXJ"
           >
-            <img
-              alt="front_default"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
-            />
+            <ImageContainer
+              fallback={
+                <img
+                  alt=""
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                />
+              }
+              url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+            >
+              <ErrorBoundary>
+                <styled.img
+                  isLoaded={false}
+                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                >
+                  <img
+                    className="sc-hKgILt cnWIUh"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+                  />
+                </styled.img>
+                <styled.div
+                  isLoaded={false}
+                >
+                  <div
+                    className="sc-dlfnbm iaWiXj"
+                  >
+                    <img
+                      alt=""
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                    />
+                  </div>
+                </styled.div>
+              </ErrorBoundary>
+            </ImageContainer>
           </div>
         </styled.div>
       </div>
@@ -62,12 +149,41 @@ exports[`<Sprites/>  renders correctly 1`] = `
       >
         <styled.div>
           <div
-            className="sc-gsTCUz dxnSOi"
+            className="sc-jSgupP hDZGXJ"
           >
-            <img
-              alt="front_shiny"
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
-            />
+            <ImageContainer
+              fallback={
+                <img
+                  alt=""
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                />
+              }
+              url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
+            >
+              <ErrorBoundary>
+                <styled.img
+                  isLoaded={false}
+                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
+                >
+                  <img
+                    className="sc-hKgILt cnWIUh"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/168.png"
+                  />
+                </styled.img>
+                <styled.div
+                  isLoaded={false}
+                >
+                  <div
+                    className="sc-dlfnbm iaWiXj"
+                  >
+                    <img
+                      alt=""
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACGklEQVQ4T2NkYGBgbGhoYKxvqP/PyMD4nwEPaGBoYGJoYGBoaGj4z4isrsFhP0v9AYe/aAYwNjjsZ25wOPiPoaHhH0w9Y6Flg5C4mLx08C+bW6rbVX+CJP4z/GeEagYZDHfFTJHFkjd1Psuzfv50nbHEqkHsMdfPpWKcoqqq3PIrbj27N3PKodL7DaGr2BpWh/2K9mzgsxHU87rP9DXu+q83+nyvPi+SfPyvH+ZUQQbH9HflfGYMCj+5FDN3RD6AOWmm8UK5J8qsd9bK/mG99uZWEsPClvkgOcbQ0FXMq1eH/WXwySw1/S8UG/7JaBITI8/vl5eZzik4MoY+f/rg9kntv4t2Mrz7bfbwtc6pvX23HBwaWMA2hoaGMq9evfqvg2mBgTaHYJ6ZkUkw1///fPdvfdt8+vtlxstS7Ef//Xq/4ePny49f7tr1FWwjxEmg0IVERWVw30RXT9e8Tzc/MBw+dvFB79EcXQYGhi/oscQIC8E+n81uXOzcjS/ePdnOzMiZw88vLHrp9eEzQizCN8W45a69+P1hYs+uuK8wS8A2+on48RroBAQJcon8K9zmt9hR19dfkkvZ5vvn70f05K0/c//n8fn47fXF1kPpi2DRAwtVeHwhxSG661hCQ1f9Bwckwo8MDKtCVzFfey3K2HDA8Q8osLRfazM2HGj4uyp0FdP7e++Z0s+m/0Y2CSXJ4UunGIFDimJktQCji9qCchLcZQAAAABJRU5ErkJggg=="
+                    />
+                  </div>
+                </styled.div>
+              </ErrorBoundary>
+            </ImageContainer>
           </div>
         </styled.div>
       </div>

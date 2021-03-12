@@ -69,7 +69,7 @@ exports[`<PokemonCard /> renders correctly 1`] = `
                 >
                   <Styled(styled.div)>
                     <div
-                      className="sc-eCssSg sc-jSgupP ikPWHq caTgZU"
+                      className="sc-eCssSg sc-jSgupP ikPWHq tRsaM"
                     >
                       <styled.div>
                         <div
@@ -86,21 +86,19 @@ exports[`<PokemonCard /> renders correctly 1`] = `
                           >
                             <ErrorBoundary>
                               <styled.img
-                                loading="lazy"
-                                ready={false}
+                                isLoaded={false}
                                 src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                               >
                                 <img
-                                  className="sc-hKgILt eWzGPJ"
-                                  loading="lazy"
+                                  className="sc-hKgILt cnWIUh"
                                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
                                 />
                               </styled.img>
                               <styled.div
-                                ready={false}
+                                isLoaded={false}
                               >
                                 <div
-                                  className="sc-dlfnbm fYocxX"
+                                  className="sc-dlfnbm iaWiXj"
                                 >
                                   <img
                                     alt=""

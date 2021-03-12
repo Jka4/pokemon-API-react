@@ -22,7 +22,7 @@ const Stats: React.FC<Props> = ({ stats, weight }: Props) => {
       <>
         {fakeArr.map((el) => (
           <LI key={el}>
-            <Skeleton animation="wave" width={135} height={30} />{' '}
+            <Skeleton animation="wave" width={135} height={30} />
           </LI>
         ))}
       </>

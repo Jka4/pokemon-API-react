@@ -28,14 +28,14 @@ exports[`<CatalogButton/>  renders correctly 1`] = `
   >
     <CatalogButton>
       <NavLink
-        to="/catalog/"
+        to="/catalog/big"
       >
         <Link
           aria-current={null}
           to={
             Object {
               "hash": "",
-              "pathname": "/catalog/",
+              "pathname": "/catalog/big",
               "search": "",
               "state": null,
             }
@@ -43,12 +43,12 @@ exports[`<CatalogButton/>  renders correctly 1`] = `
         >
           <LinkAnchor
             aria-current={null}
-            href="/catalog/"
+            href="/catalog/big"
             navigate={[Function]}
           >
             <a
               aria-current={null}
-              href="/catalog/"
+              href="/catalog/big"
               onClick={[Function]}
             >
               <Styled(WithStyles(ForwardRef(Button)))

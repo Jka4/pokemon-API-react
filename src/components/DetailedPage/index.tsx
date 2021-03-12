@@ -23,28 +23,32 @@ interface DetailedPageType {
 
 const DetailedPage: React.FC = () => {
   let pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
-  let detailedPage = useSelector((state: DetailedPageType) => state.detailedPage);
-
-  const [poke, setPoke] = useState<PokesTypes>();
   const currentName = useLocation().pathname.split('/').pop();
   const dispatch = useDispatch();
 
+  const [detailedPage, setDetailedPage] = useState<any>({});
+  const [bigImageProps, setBigImageProps] = useState<any>({});
+
   const { abilities = [], stats = [], weight = 0, sprites = {} } = detailedPage;
-  const { imageHQ = '', placeholderBase64 = '' } = { ...poke };
+  const { imageHQ = '', placeholderBase64 = '' } = bigImageProps;
+
+  const getDetailedPage = async () => {
+    setDetailedPage(await dispatch(getDetailedPokemon(currentName)));
+  };
 
   useEffect(() => {
     let isSubscribed: boolean = true;
-    if (isSubscribed) {
-      dispatch(getDetailedPokemon(currentName));
-    }
+    if (isSubscribed) getDetailedPage();
+
     return (): void => {
       isSubscribed = false;
     };
-  }, [currentName, dispatch]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentName, pokemonArr, dispatch]);
 
   useEffect(() => {
-    const pokemon: PokesTypes | undefined = pokemonArr.find((el) => el.name === currentName);
-    pokemon && setPoke(pokemon);
+    const pokemon: any = pokemonArr.find((el) => el.name === currentName);
+    setBigImageProps(pokemon);
   }, [currentName, pokemonArr]);
 
   return (
