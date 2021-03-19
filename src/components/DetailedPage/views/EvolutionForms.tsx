@@ -8,10 +8,10 @@ import styled from 'styled-components';
 import { PokesTypes } from 'types/index';
 import { ImageContainer } from '../../ImageContainer/ImageContainer';
 
-interface EvolutionFormsTypes {
+type EvolutionFormsTypes = Readonly<{
   currentPokemon?: string;
   pokemonArr: PokesTypes[];
-}
+}>;
 
 const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemonArr }: EvolutionFormsTypes) => {
   let [chain, setChain] = useState<PokesTypes[]>([]);

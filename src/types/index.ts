@@ -2,7 +2,7 @@ import React from 'react';
 
 export interface JSXElement extends React.ReactElement<() => void> {}
 
-export interface PokesTypes {
+export type PokesTypes = Readonly<{
   id: number;
   name: string;
   weight: number;
@@ -12,9 +12,19 @@ export interface PokesTypes {
   order: number;
   base_experience: number;
   [key: string]: any;
-}
+}>;
 
-export interface spritesType {
+export type pokemonCardType = Readonly<{
+  name?: string;
+  weight?: number;
+  image?: string;
+  order?: number;
+  placeholderBase64?: string;
+  base_experience?: number;
+  [key: string]: any;
+}>;
+
+export type spritesType = Readonly<{
   back_default?: string;
   back_female?: string;
   back_shiny?: string;
@@ -24,14 +34,4 @@ export interface spritesType {
   front_shiny?: string;
   front_shiny_female?: string;
   [key: string]: any;
-}
-
-export interface pokemonCardType {
-  name?: string;
-  weight?: number;
-  image?: string;
-  order?: number;
-  placeholderBase64?: string;
-  base_experience?: number;
-  [key: string]: any;
-}
+}>;
