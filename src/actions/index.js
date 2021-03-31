@@ -7,7 +7,6 @@ const getDetailedPokemon = (name) => {
     return http().then(async (api) => {
       const pokemon = (await api.get(url)).data;
 
-      // sanitize 
       delete pokemon.sprites.other;
       delete pokemon.sprites.versions;
 
