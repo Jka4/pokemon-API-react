@@ -12,6 +12,10 @@ const Catalog = lazy(() => import('components/Catalog/Catalog'));
 const PAGE_404 = lazy(() => import('components/PAGE_404/PAGE_404'));
 const NonSupportPlaceholder = lazy(() => import('components/NonSupportPlaceholder/NonSupportPlaceholder'));
 
+
+
+
+
 const App: React.FC = () => {
   const [supportScreenSize, setSupportScreenSize] = useState<boolean>(true);
 
