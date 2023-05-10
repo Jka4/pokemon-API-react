@@ -4,10 +4,11 @@ import App from 'components/App';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
+import { pageRoutes } from 'routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/pokemon-API-react">
+    <BrowserRouter basename={pageRoutes.baseUrl}>
       <Provider store={store}>
         <App />
       </Provider>

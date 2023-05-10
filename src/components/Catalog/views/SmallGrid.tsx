@@ -7,13 +7,10 @@ import { PokesTypes } from 'types/index';
 import styled from 'styled-components';
 
 import { ImageContainer } from 'components/ImageContainer/ImageContainer';
-
-type Props = {
-  pokemonArr: PokesTypes[];
-};
+import { pokemonArrSelector } from 'selectors';
 
 const SmallGrid: React.FC = () => {
-  const pokemonArr = useSelector((state: Props) => state.pokemonArr);
+  const pokemonArr = useSelector(pokemonArrSelector);
 
   const fallback = (placeholderBase64: string) => {
     return <img src={placeholderBase64} alt="placeholderBase64" />;
@@ -21,8 +18,8 @@ const SmallGrid: React.FC = () => {
 
   return (
     <Wrapper>
-      {pokemonArr.map((index, key) => (
-        <StyledLink to={`/detailedPage/pokemon/${index?.name}`} key={key}>
+      {pokemonArr.map((index: any, key: string) => (
+        <StyledLink to={`/detailedPage/${index?.name}`} key={key}>
           <ImageContainer url={index.image} fallback={fallback(index.placeholderBase64)} />
         </StyledLink>
       ))}

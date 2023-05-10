@@ -1,8 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
 
 import { useDispatch, useSelector } from 'react-redux';
+import { useRouteMatch } from 'react-router-dom';
 
 import Stats from './views/Stats';
 import Abilities from './views/Abilities';
@@ -12,9 +12,9 @@ import BigImage from './views/BigImage';
 
 import { PokesTypes } from 'types/index';
 
-import { getDetailedPokemon } from 'actions';
-
 import styled from 'styled-components';
+import { detailedPageSelector, pokemonArrSelector } from 'selectors';
+import getDetailedPokemon from 'ac/getDetailedPokemon';
 
 interface DetailedPageType {
   pokemonArr: PokesTypes[];
@@ -22,32 +22,26 @@ interface DetailedPageType {
 }
 
 const DetailedPage: React.FC = () => {
-  let pokemonArr = useSelector((state: DetailedPageType) => state.pokemonArr);
-  const currentName = useLocation().pathname.split('/').pop();
+  const {
+    params: { pokemonId: currentName },
+  } = useRouteMatch<any>();
+
   const dispatch = useDispatch();
 
-  const [detailedPage, setDetailedPage] = useState<any>({});
+  const pokemonArr = useSelector(pokemonArrSelector);
+  const detailedPage = useSelector(detailedPageSelector);
+
   const [bigImageProps, setBigImageProps] = useState<any>({});
 
   const { abilities = [], stats = [], weight = 0, sprites = {} } = detailedPage;
   const { imageHQ = '', placeholderBase64 = '' } = bigImageProps;
 
-  const getDetailedPage = async () => {
-    setDetailedPage(await dispatch(getDetailedPokemon(currentName)));
-  };
+  useEffect(() => {
+    dispatch(getDetailedPokemon(currentName));
+  }, [currentName, pokemonArr]);
 
   useEffect(() => {
-    let isSubscribed: boolean = true;
-    if (isSubscribed) getDetailedPage();
-
-    return (): void => {
-      isSubscribed = false;
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentName, pokemonArr, dispatch]);
-
-  useEffect(() => {
-    const pokemon: any = pokemonArr.find((el) => el.name === currentName);
+    const pokemon: any = pokemonArr.find((el: any) => el.name === currentName);
     setBigImageProps(pokemon);
   }, [currentName, pokemonArr]);
 

@@ -17,7 +17,7 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
   let [chain, setChain] = useState<PokesTypes[]>([]);
 
   useMemo(() => {
-    const pokemonObj: any = pokemonArr.find((o) => o.name === currentPokemon);
+    const pokemonObj: any = pokemonArr?.find((o) => o.name === currentPokemon);
     let arr: PokesTypes[] = [];
 
     pokemonObj.chain.forEach((index: PokesTypes) => {
@@ -37,7 +37,7 @@ const EvolutionForms: React.FC<EvolutionFormsTypes> = ({ currentPokemon, pokemon
 
       <EvolutionFormsStyled>
         {chain.map((index: PokesTypes) => (
-          <StyledLink to={`/detailedPage/pokemon/${index.name}`} key={index.id} activeClassName="active">
+          <StyledLink to={`/detailedPage/${index.name}`} key={index.id} activeClassName="active">
             <EvoForm>
               <ImgWrapper>
                 <ImageContainer url={index.image} fallback={<img src={index.placeholderBase64} alt="" />} />

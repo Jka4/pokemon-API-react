@@ -4,7 +4,7 @@ import localforage from 'localforage';
 import memoryDriver from 'localforage-memoryStorageDriver';
 import { setup } from 'axios-cache-adapter';
 
-async function http() {
+async function fetch() {
   await localforage.defineDriver(memoryDriver);
 
   const forageStore = localforage.createInstance({
@@ -21,4 +21,4 @@ async function http() {
   });
 }
 
-export { http };
+export { fetch };

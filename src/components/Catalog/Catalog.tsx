@@ -5,12 +5,15 @@ import styled from 'styled-components';
 import Skeleton from '@material-ui/lab/Skeleton';
 
 import { CatalogHeader } from './views/CatalogHeader';
-import { Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
+import { pageRoutes } from 'routes';
 
 const BigGrid = lazy(() => import('components/Catalog/views/BigGrid'));
 const SmallGrid = lazy(() => import('components/Catalog/views/SmallGrid'));
 
 const Catalog: React.FC = () => {
+  console.log('Catalog');
+
   return (
     <Wrapper>
       <CatalogHeader />
@@ -18,8 +21,10 @@ const Catalog: React.FC = () => {
       <Content>
         <Switch>
           <Suspense fallback={<Fallback />}>
-            <Route path="/catalog/big/" component={BigGrid} />
-            <Route path="/catalog/small/" component={SmallGrid} />
+            <Route path={pageRoutes.catalogBig} component={BigGrid} />
+            <Route path={pageRoutes.catalogSmall} component={SmallGrid} />
+
+            <Redirect to={pageRoutes.catalogBig} />
           </Suspense>
         </Switch>
       </Content>

@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
 
 import { useSelector } from 'react-redux';
@@ -9,22 +8,19 @@ import PokemonCard from 'components/MainContainer/views/PokemonCard';
 import { pokemonCardType } from 'types/index';
 
 import styled from 'styled-components';
-
-interface ItemsListTypes {
-  randomPokemon: pokemonCardType[];
-}
+import { randomPokemonsSelector } from 'selectors';
 
 const ItemsList: React.FC = () => {
-  const randomPokemon = useSelector((state: ItemsListTypes) => state.randomPokemon);
+  const randomPokemons = useSelector(randomPokemonsSelector);
 
-  const haveData = randomPokemon.length !== 0;
+  const haveData = randomPokemons.length !== 0;
 
   return (
     <>
       {haveData && <Heading />}
 
       <CardsContainer>
-        {randomPokemon.map((el: pokemonCardType, key: number) => (
+        {randomPokemons?.map((el: pokemonCardType, key: number) => (
           <PokemonCard pokeCard={el} key={key} />
         ))}
       </CardsContainer>

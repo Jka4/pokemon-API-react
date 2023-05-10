@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import InfiniteScroll from 'react-infinite-scroll-component';
+import React, { useState, useEffect, useCallback } from 'react';
+// import InfiniteScroll from 'react-infinite-scroll-component';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -9,44 +9,84 @@ import { ImageContainer } from 'components/ImageContainer/ImageContainer';
 import { PokesTypes } from 'types/index';
 
 import styled from 'styled-components';
+import { pokemonArrSelector } from 'selectors';
+import useInfiniteScroll, { UseInfiniteScrollProps } from 'hooks/useInfiniteScroll';
+import { PAGINATION_LIMIT } from 'constants/index';
 
 const BigGrid: React.FC = () => {
-  const [pokemon, setPokemon] = useState<PokesTypes[]>([]);
-  const [pokemonCount, setPokemonCount] = useState<number>(0);
-  const pokemonArr = useSelector((state: PokesTypes) => state.pokemonArr);
+  // const [pokemon, setPokemon] = useState<PokesTypes[]>([]);
+  // const [pokemonCount, setPokemonCount] = useState<number>(0);
+  const pokemonArr = useSelector(pokemonArrSelector);
+  // console.log('🚀 ~ pokemonArr', pokemonArr.length);
+  // console.log('🚀 ~ pokemonArr', pokemonArr);
 
-  useEffect(() => {
-    fetchPokemon();
+  // useEffect(() => {
+  //   fetchPokemon();
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
-  const fetchPokemon = () => {
-    const howMuchToDownload = 34;
-    let arr: PokesTypes[] = [];
+  // const fetchPokemon = () => {
+  //   const howMuchToDownload = 34;
+  //   let arr: PokesTypes[] = [];
 
-    for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
-      pokemonCount <= 713 && arr.push(pokemonArr[i]);
-    }
-    setPokemon((pokemon: PokesTypes[]) => [...pokemon, ...arr]);
-    setPokemonCount(pokemon.length + 1 + howMuchToDownload);
-  };
+  //   for (let i = pokemonCount; i <= pokemonCount + howMuchToDownload; i++) {
+  //     pokemonCount <= 713 && arr.push(pokemonArr[i]);
+  //   }
+  //   setPokemon((pokemon: PokesTypes[]) => [...pokemon, ...arr]);
+  //   setPokemonCount(pokemon.length + 1 + howMuchToDownload);
+  // };
 
   const fallback = (placeholderBase64: string) => {
     return <img src={placeholderBase64} alt="placeholderBase64as" />;
   };
 
+  const fetchList: UseInfiniteScrollProps['fetchList'] = useCallback(
+    async (params: any) => {
+      const page = Number(params.$skip) / params.$limit;
+      console.log('🚀 ~ params', params);
+
+      const skip = String(Math.max(page * PAGINATION_LIMIT || 0, 0));
+      const solo = pokemonArr.slice(skip, PAGINATION_LIMIT);
+
+      return solo;
+
+      // const { result: assetsResult } = await getAssetList({
+      //   params: {
+      //     ...params,
+      //     search: tagsArr,
+      //     $sort: { [sortType]: sortOrder ? 1 : -1 },
+      //     $skip: String(Math.max(page * ASSETS_PAGINATION_LIMIT || 0, 0)),
+      //     $limit: ASSETS_PAGINATION_LIMIT,
+      //   },
+      // });
+      // return [assetsResult];
+    },
+    [pokemonArr],
+  );
+
+  const { InfiniteScroll, entitys, loading, loaded, total } = useInfiniteScroll({
+    limit: PAGINATION_LIMIT,
+    fetchList,
+    dependencies: [],
+    resetDependencies: [],
+  });
+
+  console.log('🚀 ~ entitys 1', entitys);
+
+  const pokemons: any = [];
+
   return (
     <>
       <ScrollStyled
-        dataLength={pokemon.length}
-        next={fetchPokemon}
-        hasMore={pokemonCount <= pokemon.length}
-        loader={null}
-        endMessage={<End>Don't have more pokemon :(</End>}
+      // dataLength={pokemon.length}
+      // next={fetchPokemon}
+      // hasMore={pokemonCount <= pokemon.length}
+      // loader={null}
+      // endMessage={<End>Don't have more pokemon :(</End>}
       >
-        {pokemon.map((pokemon: PokesTypes) => (
-          <NavLink to={`/detailedPage/pokemon/${pokemon.name}`} key={pokemon.name}>
+        {entitys?.map((pokemon: PokesTypes) => (
+          <NavLink to={`/detailedPage/${pokemon.name}`} key={pokemon.name}>
             <Card elevation={3}>
               <Logo>
                 <ImageContainer url={pokemon.imageHQ || pokemon.image} fallback={fallback(pokemon.placeholderBase64)} />
@@ -55,12 +95,14 @@ const BigGrid: React.FC = () => {
             </Card>
           </NavLink>
         ))}
+
+        <InfiniteScroll />
       </ScrollStyled>
     </>
   );
 };
 
-const ScrollStyled = styled(InfiniteScroll)`
+const ScrollStyled = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -70,6 +112,17 @@ const ScrollStyled = styled(InfiniteScroll)`
   max-width: 900px;
   width: 100%;
 `;
+
+// const ScrollStyled = styled(InfiniteScroll)`
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   align-items: flex-start;
+//   justify-content: center;
+//   min-height: 100vh;
+//   max-width: 900px;
+//   width: 100%;
+// `;
 
 const Logo = styled.div`
   width: 100%;

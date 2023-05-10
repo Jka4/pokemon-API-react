@@ -106,14 +106,14 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                   className="sc-iBPRYJ jzmLdG"
                 >
                   <NavLink
-                    to="/detailedPage/pokemon/carracosta"
+                    to="/detailedPage/carracosta"
                   >
                     <Link
                       aria-current={null}
                       to={
                         Object {
                           "hash": "",
-                          "pathname": "/detailedPage/pokemon/carracosta",
+                          "pathname": "/detailedPage/carracosta",
                           "search": "",
                           "state": null,
                         }
@@ -121,12 +121,12 @@ exports[`<ItemsList/>  renders correctly 1`] = `
                     >
                       <LinkAnchor
                         aria-current={null}
-                        href="/detailedPage/pokemon/carracosta"
+                        href="/detailedPage/carracosta"
                         navigate={[Function]}
                       >
                         <a
                           aria-current={null}
-                          href="/detailedPage/pokemon/carracosta"
+                          href="/detailedPage/carracosta"
                           onClick={[Function]}
                         >
                           <Styled(styled.div)>

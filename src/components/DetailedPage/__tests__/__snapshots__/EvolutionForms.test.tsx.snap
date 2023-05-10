@@ -13532,12 +13532,12 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
           <Styled(NavLink)
             activeClassName="active"
             key="167"
-            to="/detailedPage/pokemon/spinarak"
+            to="/detailedPage/spinarak"
           >
             <NavLink
               activeClassName="active"
               className="sc-gKsewC scByW"
-              to="/detailedPage/pokemon/spinarak"
+              to="/detailedPage/spinarak"
             >
               <Link
                 aria-current={null}
@@ -13545,7 +13545,7 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
                 to={
                   Object {
                     "hash": "",
-                    "pathname": "/detailedPage/pokemon/spinarak",
+                    "pathname": "/detailedPage/spinarak",
                     "search": "",
                     "state": null,
                   }
@@ -13554,13 +13554,13 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
                 <LinkAnchor
                   aria-current={null}
                   className="sc-gKsewC scByW"
-                  href="/detailedPage/pokemon/spinarak"
+                  href="/detailedPage/spinarak"
                   navigate={[Function]}
                 >
                   <a
                     aria-current={null}
                     className="sc-gKsewC scByW"
-                    href="/detailedPage/pokemon/spinarak"
+                    href="/detailedPage/spinarak"
                     onClick={[Function]}
                   >
                     <styled.div>
@@ -13623,12 +13623,12 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
           <Styled(NavLink)
             activeClassName="active"
             key="168"
-            to="/detailedPage/pokemon/ariados"
+            to="/detailedPage/ariados"
           >
             <NavLink
               activeClassName="active"
               className="sc-gKsewC scByW"
-              to="/detailedPage/pokemon/ariados"
+              to="/detailedPage/ariados"
             >
               <Link
                 aria-current={null}
@@ -13636,7 +13636,7 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
                 to={
                   Object {
                     "hash": "",
-                    "pathname": "/detailedPage/pokemon/ariados",
+                    "pathname": "/detailedPage/ariados",
                     "search": "",
                     "state": null,
                   }
@@ -13645,13 +13645,13 @@ exports[`<EvolutionForms/>  renders correctly 1`] = `
                 <LinkAnchor
                   aria-current={null}
                   className="sc-gKsewC scByW"
-                  href="/detailedPage/pokemon/ariados"
+                  href="/detailedPage/ariados"
                   navigate={[Function]}
                 >
                   <a
                     aria-current={null}
                     className="sc-gKsewC scByW"
-                    href="/detailedPage/pokemon/ariados"
+                    href="/detailedPage/ariados"
                     onClick={[Function]}
                   >
                     <styled.div>

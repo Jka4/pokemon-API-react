@@ -12,11 +12,11 @@ import { NavLink } from 'react-router-dom';
 
 const CatalogHeader: React.FC = () => {
   const location = useLocation().pathname.split('/').pop();
-  const typeIsBig = location !== 'big';
+  const typeIsBig = location === 'small';
 
   const url = `/catalog/${typeIsBig ? 'big' : 'small'}`;
   const icon = typeIsBig ? <BlurOnOutlinedIcon /> : <AppsIcon />;
-  const title = typeIsBig ? 'Big grid' : 'Small grid';
+  const title = !typeIsBig ? 'Big grid' : 'Small grid';
 
   return (
     <ViewTypeInner>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import ErrorBoundary from 'components/ErrorBoundary/ErrorBoundary';
 import styled, { keyframes } from 'styled-components';
 
 import { JSXElement } from 'types/index';
@@ -26,10 +25,8 @@ const ImageContainer = ({ url = '', fallback }: PropsType) => {
 
   return (
     <>
-      <ErrorBoundary>
-        <IMG src={url} isLoaded={isLoaded} />
-        <FallbackStyled isLoaded={isLoaded}>{fallback}</FallbackStyled>
-      </ErrorBoundary>
+      <IMG src={url} isLoaded={isLoaded} />
+      <FallbackStyled isLoaded={isLoaded}>{fallback}</FallbackStyled>
     </>
   );
 };

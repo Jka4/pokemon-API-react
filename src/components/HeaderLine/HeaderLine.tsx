@@ -11,9 +11,10 @@ import { Button } from '@material-ui/core';
 import SvgIcon from '@material-ui/core/SvgIcon';
 
 import styled from 'styled-components';
+import { pageRoutes } from 'routes';
 
 const HeaderLine: React.FC = () => {
-  const isMainPage = useLocation().pathname === '/';
+  const isMainPage = useLocation().pathname === pageRoutes.home;
 
   return (
     <>
