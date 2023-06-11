@@ -2,8 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-import { PokesTypes } from 'types/index';
-
 import styled from 'styled-components';
 
 import { ImageContainer } from 'components/ImageContainer/ImageContainer';

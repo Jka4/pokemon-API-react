@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useCallback } from 'react';
 // import InfiniteScroll from 'react-infinite-scroll-component';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
@@ -47,9 +47,8 @@ const BigGrid: React.FC = () => {
       console.log('🚀 ~ params', params);
 
       const skip = String(Math.max(page * PAGINATION_LIMIT || 0, 0));
-      const solo = pokemonArr.slice(skip, PAGINATION_LIMIT);
 
-      return solo;
+      return pokemonArr.slice(skip, PAGINATION_LIMIT);
 
       // const { result: assetsResult } = await getAssetList({
       //   params: {
@@ -65,16 +64,12 @@ const BigGrid: React.FC = () => {
     [pokemonArr],
   );
 
-  const { InfiniteScroll, entitys, loading, loaded, total } = useInfiniteScroll({
+  const { InfiniteScroll, entitys } = useInfiniteScroll({
     limit: PAGINATION_LIMIT,
     fetchList,
     dependencies: [],
     resetDependencies: [],
   });
-
-  console.log('🚀 ~ entitys 1', entitys);
-
-  const pokemons: any = [];
 
   return (
     <>

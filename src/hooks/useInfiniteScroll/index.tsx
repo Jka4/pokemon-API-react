@@ -57,18 +57,11 @@ const useInfiniteScroll = ({
 
         if (isMounted()) {
           const entryIds: string[] = [...entitys, ...result];
-          console.log('🚀 ~ page', page);
-          console.log('🚀 ~ lastPage', lastPage);
-          console.log('🚀 ~ page > lastPage', page > lastPage);
 
           if (page > lastPage) {
-            console.log(1);
-
             setEntitys(entryIds);
             setLastPage(page);
           } else {
-            console.log(2);
-
             setEntitys([...result]);
           }
 
